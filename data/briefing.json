@@ -1,0 +1,95 @@
+{
+  "generated": "2026-03-22T14:48:22.186478",
+  "quotes": {
+    "S&P 500": {
+      "price": 0,
+      "change": 0
+    },
+    "NASDAQ": {
+      "price": 0,
+      "change": 0
+    },
+    "OMX30": {
+      "price": 0,
+      "change": 0
+    },
+    "BTC/USD": {
+      "price": 68796.06,
+      "change": -2.94
+    },
+    "OIL": {
+      "price": 0,
+      "change": 0
+    },
+    "GULD": {
+      "price": 0,
+      "change": 0
+    }
+  },
+  "briefing": {
+    "headline": "Bitcoin faller medan Mellanöstern-kriget skakar marknader",
+    "date": "Sunday 22 March 2026",
+    "beginner": [
+      {
+        "icon": "💥",
+        "label": "KRIS I MELLANÖSTERN",
+        "text": "USA och Israel krigar mot Iran vilket stängt Hormuz-sundet. Oljan skenat upp 25% medan aktier faller kraftigt.",
+        "explain": "💡 Hormuz-sundet är världens viktigaste oljetransportled - 20% av all olja passerar där. När det stängs skjuter priserna i höjden."
+      },
+      {
+        "icon": "₿",
+        "label": "BITCOIN MINSKAR",
+        "text": "<cite index=\"11-16,11-17\">Bitcoin handlas för $68,951 efter att ha fallit från $76,000-topparna när investerare tar vinster</cite>.",
+        "explain": "💡 Krypto följer ofta aktiemarknaden under kriser. När investerare blir rädda säljer de riskfyllda tillgångar som bitcoin först."
+      },
+      {
+        "icon": "📊",
+        "label": "FINANSSEKTORN TRYCKS",
+        "text": "<cite index=\"4-5\">S&P 500:s finanssektor har fallit 11% i år och är på väg mot sitt sämsta första kvartal sedan 2020</cite>.",
+        "explain": "💡 Banker och finansföretag påverkas negativt av oro på kreditmarknaderna och geopolitisk osäkerhet."
+      },
+      {
+        "icon": "⛽",
+        "label": "ENERGIPRISER EXPLODERAR",
+        "text": "<cite index=\"22-23,22-24\">Brent-olja passerat $120 per fat medan oljeprodutionen i Mellanöstern minskat med minst 10 miljoner fat per dag</cite>.",
+        "explain": "💡 När utbudet minskar kraftigt medan efterfrågan är samma stiger priserna snabbt. Detta slår igenom på bensinpriser inom dagar."
+      }
+    ],
+    "analyst": [
+      {
+        "icon": "📈",
+        "label": "TEKNISK ANALYS BTC",
+        "text": "<cite index=\"15-22,15-24\">Bitcoin riskerar fall under $65,800 om det bryter nedåt ur den nuvarande kanalen, vilket kan signalera fortsatt baisseartad kontroll</cite>.",
+        "explain": "Bitcoin visar liknande mönster som före crashen till $60,000 i februari."
+      },
+      {
+        "icon": "🏦",
+        "label": "INSTITUTIONER KÖPER DIPPEN",
+        "text": "<cite index=\"17-4,17-5\">Spot Bitcoin-ETF:er hade sju raka dagar av inflöden 9-17 mars med $1,17 miljarder, medan MicroStrategy köpte 22,337 BTC för $1,57 miljarder</cite>.",
+        "explain": "Stora investerare utnyttjar lägre priser för att bygga positioner medan rädsloindex når extremnivåer."
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJEMARKNADS-ANALYS",
+        "text": "<cite index=\"24-5,24-6\">JPMorgan varnar att Brent och WTI kommer reprissättas högre om Hormuz-sundet förblir stängt, då atlantiska lager töms</cite>.",
+        "explain": "Prisskillnaden mellan regionala oljemarknader signalerar strukturell brist som kan sprida sig globalt."
+      },
+      {
+        "icon": "⚠️",
+        "label": "MAKRORISKER",
+        "text": "<cite index=\"27-3,27-4\">IEA rapporterar historiens största leveransstörning på oljemarknaden med flöden genom Hormuz som minskat från 20 mb/d till nästan noll</cite>.",
+        "explain": "Denna störning är större än alla tidigare kriser och kan få bestående effekter på energimarknader och inflation."
+      }
+    ],
+    "sources": [
+      "Al Jazeera",
+      "Bloomberg",
+      "CNBC",
+      "IEA",
+      "LatestLY",
+      "CoinDesk",
+      "247 Wall St",
+      "World Economic Forum"
+    ]
+  }
+}
