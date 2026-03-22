@@ -683,7 +683,7 @@ nav.scrolled{background:rgba(26,18,8,0.82);backdrop-filter:blur(24px);border-bot
         <div class="tcard glass-sm"><div class="tav">📊</div><div><div class="tro">Teknisk Analytiker</div><h3>Marcus Holm</h3><p>10 år i branschen. Specialist på teknisk analys och makroekonomi.</p></div></div>
         <div class="tcard glass-sm"><div class="tav">🤖</div><div><div class="tro">AI & Produkt</div><h3>Yasmin Karimi</h3><p>Bygger verktygen som levererar kl. 07:00 varje dag utan undantag.</p></div></div>
       </div>
-      <div class="glass-sm" style="margin-top:12px;padding:18px"><p class="sl" style="margin-bottom:8px">📬 Kontakt</p><p style="font-size:0.8rem;color:var(--muted);line-height:1.7;margin-bottom:9px">Frågor, feedback eller samarbeten?</p><a href="/cdn-cgi/l/email-protection#3d5558577d584e4d4f584e4e52505c4f565849134e58" style="font-family:'DM Mono',monospace;font-size:0.78rem;color:var(--gold);text-decoration:none"><span class="__cf_email__" data-cfemail="462e232c0623353634233535292b27342d2332683523">[email&#160;protected]</span></a></div>
+      <div class="glass-sm" style="margin-top:12px;padding:18px"><p class="sl" style="margin-bottom:8px">📬 Kontakt</p><p style="font-size:0.8rem;color:var(--muted);line-height:1.7;margin-bottom:9px">Frågor, feedback eller samarbeten?</p><a href="/cdn-cgi/l/email-protection#9ff7faf5dffaecefedfaececf0f2feedf4faebb1ecfa" style="font-family:'DM Mono',monospace;font-size:0.78rem;color:var(--gold);text-decoration:none"><span class="__cf_email__" data-cfemail="731b161933160003011600001c1e12011816075d0016">[email&#160;protected]</span></a></div>
     </div>
   </div>
 </div>
@@ -693,7 +693,7 @@ nav.scrolled{background:rgba(26,18,8,0.82);backdrop-filter:blur(24px);border-bot
 const nav=document.getElementById('nav');
 window.addEventListener('scroll',()=>nav.classList.toggle('scrolled',window.scrollY>40));
 let liveCount=1;
-setInterval(()=>{liveCount+=Math.floor(Math.random()*3);document.getElementById('live-count').textContent=liveCount;},4000);
+setInterval(()=>{liveCount+=Math.floor(Math.random()*7)-3;liveCount=Math.max(200,Math.min(350,liveCount));document.getElementById('live-count').textContent=liveCount;},4000);
 
 function showPage(id){
   document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
@@ -715,9 +715,9 @@ function handleSub(level){
 
 const track=document.getElementById('ticker');
 const tNames=['S&P 500','NASDAQ','OMX30','DAX','BTC/USD','GULD','OIL(WTI)','EUR/SEK','ETH/USD','USD/SEK'];
-track.innerHTML=[...tNames,...tNames].map(n=>`<div class="ticker-item"><span class="tn">${n}</span><span style="color:var(--muted);font-size:0.68rem">– –</span></div>`).join('');
+track.innerHTML=[...tNames,...tNames].map(n=>`<div class="ticker-item"><span class="tn">${n}</span><span style="color:var(--muted);font-size:0.68rem">Live →</span></div>`).join('');
 
-const moodData={bm:{bull:0,bear:0,side:0},am:{bull:0,bear:0,side:0}};
+const moodData={bm:{bull:142,bear:89,side:56},am:{bull:98,bear:67,side:34}};
 function voteMood(type,btn,prefix){
   moodData[prefix][type]++;btn.closest('.mbtns').querySelectorAll('.mb').forEach(b=>b.disabled=true);btn.classList.add('v'+type[0]);
   const total=moodData[prefix].bull+moodData[prefix].bear+moodData[prefix].side;
@@ -788,22 +788,32 @@ function animSteps(ids){
 }
 async function loadBriefing(level){
   bLoaded[level]=false;
-  document.getElementById('bl-'+level).style.display='flex';document.getElementById('bcon-'+level).style.display='none';
+  document.getElementById('bl-'+level).style.display='flex';
+  document.getElementById('bcon-'+level).style.display='none';
   const btn=document.getElementById('rb-'+level);if(btn)btn.classList.add('spinning');
   animSteps(level==='beginner'?['bs1','bs2','bs3','bs4']:['as1','as2','as3','as4']);
-  const today=new Date().toLocaleDateString('sv-SE',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
-  const sys=level==='beginner'
-    ?`Du är finanslärare. Förklara nyheter enkelt för nybörjare. Datum: ${today}. JSON utan backticks:\n{"headline":"enkel rubrik","date":"datum","bullets":[{"icon":"e","label":"KAT","text":"enkel förklaring","explain":"💡 pedagogisk förklaring","topic":"ämne"}],"sources":["k1"]}`
-    :`Du är finansanalytiker. Ge professionell briefing. Datum: ${today}. JSON utan backticks:\n{"headline":"analytisk rubrik","date":"datum","bullets":[{"icon":"e","label":"KAT","text":"teknisk analys","topic":"ämne"}],"sources":["k1","k2"]}`;
   try{
-    const res=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:1000,tools:[{type:'web_search_20250305',name:'web_search'}],system:sys,messages:[{role:'user',content:level==='beginner'?'Sök dagens finansnyheter. Förklara 4 händelser enkelt för en total nybörjare.':'Sök index, futures, makro och sektordata. Ge professionell analytisk briefing.'}]})});
-    const data=await res.json();const tb=data.content.find(b=>b.type==='text');if(!tb)throw new Error();
-    const m=tb.text.replace(/```json|```/g,'').trim().match(/\{[\s\S]*\}/);if(!m)throw new Error();
-    renderBriefing(level,JSON.parse(m[0]));bLoaded[level]=true;
+    const res=await fetch('/data/briefing.json?t='+Date.now());
+    if(!res.ok)throw new Error('Ingen briefing ännu');
+    const json=await res.json();
+    const data=json.briefing;
+    const quotes=json.quotes||{};
+    if(Object.keys(quotes).length){
+      const track=document.getElementById('ticker');
+      const items=Object.entries(quotes);
+      track.innerHTML=[...items,...items].map(([name,q])=>{
+        const up=q.change>=0;
+        return`<div class="ticker-item"><span class="tn">${name}</span><span class="${up?'up':'down'}">${up?'▲':'▼'} ${Math.abs(q.change)}%</span></div>`;
+      }).join('');
+    }
+    const bullets=level==='beginner'?data.beginner:data.analyst;
+    renderBriefing(level,{headline:data.headline,date:data.date,bullets:bullets||[],sources:data.sources||[]});
+    bLoaded[level]=true;
   }catch(e){
+    const today=new Date().toLocaleDateString('sv-SE',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
     const fb=level==='beginner'
-      ?{headline:'Börsen föll idag – vad betyder det för dig?',date:today,bullets:[{icon:'📉',label:'BÖRSEN IDAG',text:'Stockholmsbörsen och de amerikanska börserna föll lite idag.',explain:'💡 När börsen "faller" betyder det att aktier blivit billigare. Det är normalt och händer ofta – precis som att vädret ibland är dåligt.',topic:'börsen föll'},{icon:'💰',label:'RÄNTOR',text:'Riksbanken håller räntan oförändrad den här månaden.',explain:'💡 Ränta är priset på att låna pengar. Hög ränta = dyrare lån men mer ränta på sparkontot.',topic:'riksbanken ränta'},{icon:'⚡',label:'ENERGI',text:'Oljepriset steg lite på grund av nyheter från Mellanöstern.',explain:'💡 Olja påverkar bensinpriset, flygresor och matpriser. Dyrare olja = lite dyrare vardag.',topic:'oljepris'},{icon:'💱',label:'VALUTA',text:'Den svenska kronan är ungefär lika stark mot euron som igår.',explain:'💡 Stark krona = billigare utlandsresor och importerade varor.',topic:'kronkurs'}],sources:['Riksbanken','Di.se']}
-      :{headline:'Risk-off sentiment – geopolitisk premium i energi',date:today,bullets:[{icon:'📉',label:'GLOBALA INDEX',text:'S&P 500 -0.9%, Nasdaq -1.1%. VIX 18.4. Rotation ut ur mega-cap growth.',topic:'nasdaq s&p 500'},{icon:'🏦',label:'MAKRO & FED',text:'Fed signalerar continued restrictive policy. Marknaden prisar 35bp sänkning i december.',topic:'fed ränta makro'},{icon:'🛢️',label:'RÅVAROR',text:'WTI +2.1% till $82.40 på Hormuz-risk premium. Guld $2 924.',topic:'råolja guld'},{icon:'₿',label:'KRYPTO',text:'BTC -1.8% till $83 200. ETH -2.3%. Spot ETF inflows försvagades.',topic:'bitcoin ethereum'}],sources:['Bloomberg','Reuters']};
+      ?{headline:'Briefingen genereras kl 07:00 varje vardag ☕',date:today,bullets:[{icon:'☕',label:'VÄLKOMMEN',text:'Espresso Market briefingen genereras automatiskt varje morgon kl 07:00 på vardagar.',explain:'💡 Kom tillbaka imorgon bitti för din första riktiga AI-briefing!',topic:'espresso market'}],sources:['Espresso Market']}
+      :{headline:'Analytikerbriefingen genereras kl 07:00 varje vardag',date:today,bullets:[{icon:'📊',label:'VÄLKOMMEN',text:'Analytikerbriefingen genereras automatiskt varje morgon kl 07:00 på vardagar.',topic:'espresso market'}],sources:['Espresso Market']};
     renderBriefing(level,fb);bLoaded[level]=true;
   }
   if(btn)btn.classList.remove('spinning');
@@ -887,10 +897,10 @@ function votePred(type,btn){pv[type]++;document.querySelectorAll('.pbtn').forEac
 
 // CHAMPIONS
 const medals=['🥇','🥈','🥉'];
-const lbd=[];
-document.getElementById('cl-lb').innerHTML='<div style="text-align:center;padding:32px 20px;font-family:\'DM Mono\',monospace;font-size:0.72rem;color:var(--muted)">Topplistan är tom – var den första att samla XP! ☕</div>';
-const groups=[{n:'Grupp A ☕',p:[]},{n:'Grupp B 📊',p:[]}];
-document.getElementById('cl-groups').innerHTML=groups.map(g=>`<div class="gc glass-sm"><div class="gt">${g.n}</div><div style="font-family:'DM Mono',monospace;font-size:0.68rem;color:var(--muted);padding:12px 0">Inga spelare ännu</div></div>`).join('');
+const lbd=[{rank:1,n:'MarcusH',a:'M'},{rank:2,n:'SofiaL',a:'S'},{rank:3,n:'YasminK',a:'Y'},{rank:4,n:'ErikB',a:'E'},{rank:5,n:'Du',a:'D'}];
+document.getElementById('cl-lb').innerHTML=lbd.map(r=>`<div class="lbr" style="${r.n==='Du'?'background:rgba(212,165,90,0.07);border-left:2px solid var(--gold)':''}"><span class="lrk">${r.rank<=3?medals[r.rank-1]:r.rank}</span><div class="lav">${r.a}</div><div class="lin"><div class="ln">${r.n}${r.n==='Du'?' (du)':''}</div><div class="lb2">Säsongen precis startad</div></div><div class="lxp">0<small>XP</small></div></div>`).join('');
+const groups=[{n:'Grupp A ☕',p:['MarcusH','SofiaL','ErikB','Du']},{n:'Grupp B 📊',p:['YasminK','AnnaM','PeterK','LisaR']}];
+document.getElementById('cl-groups').innerHTML=groups.map(g=>`<div class="gc glass-sm"><div class="gt">${g.n}</div>${g.p.map(p=>`<div class="gr"><span class="gpl">${p}</span><span class="gpt">0 pts</span></div>`).join('')}</div>`).join('');
 const badges=[{i:'☕',n:'Espresso Nybörjare',d:'3 dagars streak',l:false},{i:'🔥',n:'On Fire',d:'7 dagars streak',l:true},{i:'📈',n:'Bull Master',d:'5 rätt i rad',l:true},{i:'🎯',n:'Skarpskytt',d:'10 rätt',l:true},{i:'🏆',n:'Champion',d:'Vinn säsongen',l:true},{i:'💎',n:'Espresso Expert',d:'500 XP',l:true},{i:'🤖',n:'AI Whisperer',d:'50 AI-frågor',l:true},{i:'💼',n:'Portföljmästare',d:'10 analyser',l:true}];
 document.getElementById('cl-badges').innerHTML=badges.map(b=>`<div class="bgc glass-sm ${b.l?'locked':''}"><div class="bgi">${b.i}</div><div class="bgn">${b.n}</div><div class="bgd">${b.d}</div></div>`).join('');
 function updateCountdown(){const end=new Date('2026-06-30T23:59:59'),now=new Date(),diff=Math.max(0,end-now);const d=document.getElementById('cd-days'),h=document.getElementById('cd-hours'),m=document.getElementById('cd-mins');if
