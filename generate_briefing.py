@@ -1,4 +1,4 @@
-import os, requests, json
+import os, requests, json, re
 from datetime import datetime
 import anthropic
 
@@ -18,22 +18,36 @@ def get_quotes():
             quotes[name] = {"price": 0, "change": 0}
     return quotes
 
+def extract_json(text):
+    # Ta bort markdown-kodblock om de finns
+    text = re.sub(r'```json\s*', '', text)
+    text = re.sub(r'```\s*', '', text)
+    text = text.strip()
+    # Hitta första { och sista }
+    start = text.find('{')
+    end = text.rfind('}')
+    if start == -1 or end == -1:
+        raise ValueError("Ingen JSON hittades i svaret")
+    return json.loads(text[start:end+1])
+
 def generate_briefing(quotes):
     today = datetime.now().strftime("%A %d %B %Y")
     quote_str = "\n".join([f"{k}: {v['price']} ({v['change']}%)" for k,v in quotes.items()])
     client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
     msg = client.messages.create(
         model="claude-sonnet-4-20250514",
-        max_tokens=1000,
+        max_tokens=1500,
         tools=[{"type": "web_search_20250305", "name": "web_search"}],
         system=f"""Du är Espresso Market – Sveriges skarpaste finansbriefing. Datum: {today}.
-Returnera ENDAST giltig JSON utan backticks:
-{{"headline":"rubrik","date":"{today}","beginner":[{{"icon":"emoji","label":"KATEGORI","text":"enkel förklaring","explain":"💡 pedagogisk förklaring"}}],"analyst":[{{"icon":"emoji","label":"KATEGORI","text":"teknisk analys"}}],"sources":["källa1","källa2"]}}""",
-        messages=[{"role":"user","content":f"Dagens kurser:\n{quote_str}\n\nSök dagens viktigaste finansnyheter och generera briefing på svenska."}]
+Svara ENDAST med giltig JSON, inga förklaringar, inga kodblock, ingen extra text.
+Format:
+{{"headline":"rubrik max 10 ord","date":"{today}","beginner":[{{"icon":"📈","label":"KATEGORI","text":"enkel förklaring max 2 meningar","explain":"💡 pedagogisk förklaring max 2 meningar"}}],"analyst":[{{"icon":"📊","label":"KATEGORI","text":"teknisk analys max 2 meningar"}}],"sources":["källa1","källa2"]}}
+Inkludera 4 punkter i beginner och 4 punkter i analyst.""",
+        messages=[{"role":"user","content":f"Dagens kurser:\n{quote_str}\n\nSök dagens viktigaste finansnyheter och generera briefing på svenska. Svara ENDAST med JSON."}]
     )
     text = next(b.text for b in msg.content if b.type == "text")
-    match = __import__("re").search(r"\{[\s\S]*\}", text)
-    return json.loads(match.group())
+    print(f"AI svar (första 200 tecken): {text[:200]}")
+    return extract_json(text)
 
 def save_briefing(data, quotes):
     os.makedirs("data", exist_ok=True)
@@ -54,7 +68,7 @@ def send_to_beehiiv(data, quotes):
         headers={"Authorization": f"Bearer {BEEHIIV_KEY}", "Content-Type": "application/json"},
         json={"subject": data["headline"], "content": {"free": {"web": html, "email": html}}, "status": "draft"}
     )
-    print(f"Beehiiv: {r.status_code} – {r.text[:100]}")
+    print(f"Beehiiv: {r.status_code}")
 
 if __name__ == "__main__":
     print("Hämtar kurser...")
