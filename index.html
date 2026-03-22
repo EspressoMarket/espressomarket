@@ -692,7 +692,7 @@ nav.scrolled{background:rgba(26,18,8,0.82);backdrop-filter:blur(24px);border-bot
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 const nav=document.getElementById('nav');
 window.addEventListener('scroll',()=>nav.classList.toggle('scrolled',window.scrollY>40));
-let liveCount=2;
+let liveCount=1;
 setInterval(()=>{liveCount+=Math.floor(Math.random()*7)-3;liveCount=Math.max(200,Math.min(350,liveCount));document.getElementById('live-count').textContent=liveCount;},4000);
 
 function showPage(id){
