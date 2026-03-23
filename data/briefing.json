@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-22T14:48:22.186478",
+  "generated": "2026-03-23T08:11:52.742321",
   "quotes": {
     "S&P 500": {
       "price": 0,
@@ -14,8 +14,8 @@
       "change": 0
     },
     "BTC/USD": {
-      "price": 68796.06,
-      "change": -2.94
+      "price": 68497.17,
+      "change": -0.63
     },
     "OIL": {
       "price": 0,
@@ -27,69 +27,62 @@
     }
   },
   "briefing": {
-    "headline": "Bitcoin faller medan Mellanöstern-kriget skakar marknader",
-    "date": "Sunday 22 March 2026",
+    "headline": "Irankriget hotar börserna - nya bolåneregler april",
+    "date": "Monday 23 March 2026",
     "beginner": [
       {
-        "icon": "💥",
-        "label": "KRIS I MELLANÖSTERN",
-        "text": "USA och Israel krigar mot Iran vilket stängt Hormuz-sundet. Oljan skenat upp 25% medan aktier faller kraftigt.",
-        "explain": "💡 Hormuz-sundet är världens viktigaste oljetransportled - 20% av all olja passerar där. När det stängs skjuter priserna i höjden."
+        "icon": "⚠️",
+        "label": "GEOPOLITIK",
+        "text": "<cite index=\"4-19,4-20\">Helgens hot från president Donald Trump och Irans motreaktion innebär en eskalering av konflikten i Mellanöstern. Det kan innebära en svart måndag på världens aktiemarknader.</cite>",
+        "explain": "💡 När geopolitiska kriser uppstår blir investerare rädda och säljer aktier, vilket får börserna att falla kraftigt."
+      },
+      {
+        "icon": "📉",
+        "label": "BÖRSTREND",
+        "text": "<cite index=\"4-21,4-22\">Stockholmsbörsen har den senaste veckan backat nästan 5 procent och är numera nere på årslägsta. För New York-börsens breda S&P 500-index är situationen lika illa.</cite>",
+        "explain": "💡 Årslägsta betyder att aktiepriserna är lägre än någon gång tidigare under året, vilket signalerar negativ sentiment."
+      },
+      {
+        "icon": "🏠",
+        "label": "BOLÅN",
+        "text": "<cite index=\"36-7,36-8\">Riksdagen beslutade den 4 mars 2026, om nya regler för bolån som ska göra det lättare för fler att äga sin bostad. Lagändringarna träder i kraft den 1 april och innebär att kravet på kontantinsats vid köp av bostad sänks till 10 procent.</cite>",
+        "explain": "💡 Lägre kontantinsats innebär att man behöver mindre egna pengar för att köpa bostad, vilket gör det enklare för förstagångsköpare."
       },
       {
         "icon": "₿",
-        "label": "BITCOIN MINSKAR",
-        "text": "<cite index=\"11-16,11-17\">Bitcoin handlas för $68,951 efter att ha fallit från $76,000-topparna när investerare tar vinster</cite>.",
-        "explain": "💡 Krypto följer ofta aktiemarknaden under kriser. När investerare blir rädda säljer de riskfyllda tillgångar som bitcoin först."
-      },
-      {
-        "icon": "📊",
-        "label": "FINANSSEKTORN TRYCKS",
-        "text": "<cite index=\"4-5\">S&P 500:s finanssektor har fallit 11% i år och är på väg mot sitt sämsta första kvartal sedan 2020</cite>.",
-        "explain": "💡 Banker och finansföretag påverkas negativt av oro på kreditmarknaderna och geopolitisk osäkerhet."
-      },
-      {
-        "icon": "⛽",
-        "label": "ENERGIPRISER EXPLODERAR",
-        "text": "<cite index=\"22-23,22-24\">Brent-olja passerat $120 per fat medan oljeprodutionen i Mellanöstern minskat med minst 10 miljoner fat per dag</cite>.",
-        "explain": "💡 När utbudet minskar kraftigt medan efterfrågan är samma stiger priserna snabbt. Detta slår igenom på bensinpriser inom dagar."
+        "label": "KRYPTO",
+        "text": "<cite index=\"22-6\">Bitcoin drops below $69,200 as Trump gives 48-hour ultimatum on Iran power plants. BTC fell 2.2% as $299 million in liquidations hit crypto markets.</cite>",
+        "explain": "💡 Likvidationer sker när investerare tvingas sälja sina positioner med förlust på grund av fallande priser."
       }
     ],
     "analyst": [
       {
-        "icon": "📈",
-        "label": "TEKNISK ANALYS BTC",
-        "text": "<cite index=\"15-22,15-24\">Bitcoin riskerar fall under $65,800 om det bryter nedåt ur den nuvarande kanalen, vilket kan signalera fortsatt baisseartad kontroll</cite>.",
-        "explain": "Bitcoin visar liknande mönster som före crashen till $60,000 i februari."
+        "icon": "🛢️",
+        "label": "ENERGI",
+        "text": "<cite index=\"4-23\">När en ny handelsvecka väntar är läget minst sagt spänt utifrån Irankriget och oljepriset som lyft till 112 dollar per fat.</cite> <cite index=\"10-1\">Energisektorn är 2026 års klart bästa sektor i S&P 500, med en uppgång på 29 procent hittills i år.</cite>"
+      },
+      {
+        "icon": "💰",
+        "label": "RÄNTEPOLITIK",
+        "text": "<cite index=\"38-1,38-2\">2026-03-19 meddelade Riksbanken att styrräntan lämnades oförändrad på 1,75%. Riksbankens prognos säger att räntan kommer att ligga kvar på samma nivå under hela 2026 för att sedan höjas till 2,00% under 2027.</cite>"
       },
       {
         "icon": "🏦",
-        "label": "INSTITUTIONER KÖPER DIPPEN",
-        "text": "<cite index=\"17-4,17-5\">Spot Bitcoin-ETF:er hade sju raka dagar av inflöden 9-17 mars med $1,17 miljarder, medan MicroStrategy köpte 22,337 BTC för $1,57 miljarder</cite>.",
-        "explain": "Stora investerare utnyttjar lägre priser för att bygga positioner medan rädsloindex når extremnivåer."
+        "label": "BANKPROGNOS",
+        "text": "<cite index=\"7-1,7-4\">Även Nordea spår ett starkt 2026 – och bankens aktiestrateg Martin Björsell spår en tvåsiffrig uppgång procent för OMXS30 inklusive utdelning. Samtliga storbanker spår en fortsatt uppgång på Stockholmsbörsen nästa år.</cite>"
       },
       {
-        "icon": "🛢️",
-        "label": "OLJEMARKNADS-ANALYS",
-        "text": "<cite index=\"24-5,24-6\">JPMorgan varnar att Brent och WTI kommer reprissättas högre om Hormuz-sundet förblir stängt, då atlantiska lager töms</cite>.",
-        "explain": "Prisskillnaden mellan regionala oljemarknader signalerar strukturell brist som kan sprida sig globalt."
-      },
-      {
-        "icon": "⚠️",
-        "label": "MAKRORISKER",
-        "text": "<cite index=\"27-3,27-4\">IEA rapporterar historiens största leveransstörning på oljemarknaden med flöden genom Hormuz som minskat från 20 mb/d till nästan noll</cite>.",
-        "explain": "Denna störning är större än alla tidigare kriser och kan få bestående effekter på energimarknader och inflation."
+        "icon": "📊",
+        "label": "VOLATILITET",
+        "text": "<cite index=\"6-8,6-9\">De största amerikanska teknologibolagen som hittills dominerar AI-hypen på börsen står för så stor del av såväl amerikanska som globala aktieindex att om de faller kommer de dra med sig världens börser nedåt. Det är rimligt att förvänta sig att svängningarna på börsen kan bli betydligt högre.</cite>"
       }
     ],
     "sources": [
-      "Al Jazeera",
-      "Bloomberg",
-      "CNBC",
-      "IEA",
-      "LatestLY",
+      "Börskollen",
+      "Affärsvärlden",
       "CoinDesk",
-      "247 Wall St",
-      "World Economic Forum"
+      "Ekonomifakta",
+      "Morningstar Sverige"
     ]
   }
 }
