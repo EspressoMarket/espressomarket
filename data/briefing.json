@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-23T08:11:52.742321",
+  "generated": "2026-03-23T12:46:22.171934",
   "quotes": {
     "S&P 500": {
       "price": 0,
@@ -14,8 +14,8 @@
       "change": 0
     },
     "BTC/USD": {
-      "price": 68497.17,
-      "change": -0.63
+      "price": 70730.66,
+      "change": 3.1
     },
     "OIL": {
       "price": 0,
@@ -27,62 +27,66 @@
     }
   },
   "briefing": {
-    "headline": "Irankriget hotar börserna - nya bolåneregler april",
+    "headline": "Bitcoin rusar medan börsen vackar – måndagsbriefing",
     "date": "Monday 23 March 2026",
     "beginner": [
       {
-        "icon": "⚠️",
-        "label": "GEOPOLITIK",
-        "text": "<cite index=\"4-19,4-20\">Helgens hot från president Donald Trump och Irans motreaktion innebär en eskalering av konflikten i Mellanöstern. Det kan innebära en svart måndag på världens aktiemarknader.</cite>",
-        "explain": "💡 När geopolitiska kriser uppstår blir investerare rädda och säljer aktier, vilket får börserna att falla kraftigt."
-      },
-      {
-        "icon": "📉",
-        "label": "BÖRSTREND",
-        "text": "<cite index=\"4-21,4-22\">Stockholmsbörsen har den senaste veckan backat nästan 5 procent och är numera nere på årslägsta. För New York-börsens breda S&P 500-index är situationen lika illa.</cite>",
-        "explain": "💡 Årslägsta betyder att aktiepriserna är lägre än någon gång tidigare under året, vilket signalerar negativ sentiment."
-      },
-      {
-        "icon": "🏠",
-        "label": "BOLÅN",
-        "text": "<cite index=\"36-7,36-8\">Riksdagen beslutade den 4 mars 2026, om nya regler för bolån som ska göra det lättare för fler att äga sin bostad. Lagändringarna träder i kraft den 1 april och innebär att kravet på kontantinsats vid köp av bostad sänks till 10 procent.</cite>",
-        "explain": "💡 Lägre kontantinsats innebär att man behöver mindre egna pengar för att köpa bostad, vilket gör det enklare för förstagångsköpare."
-      },
-      {
         "icon": "₿",
-        "label": "KRYPTO",
-        "text": "<cite index=\"22-6\">Bitcoin drops below $69,200 as Trump gives 48-hour ultimatum on Iran power plants. BTC fell 2.2% as $299 million in liquidations hit crypto markets.</cite>",
-        "explain": "💡 Likvidationer sker när investerare tvingas sälja sina positioner med förlust på grund av fallande priser."
+        "label": "BITCOIN",
+        "text": "<cite index=\"13-2,13-4\">Bitcoin stiger mot 71 000 dollar och visar styrka trots geopolitisk oro</cite>. <cite index=\"13-8,13-10\">Digital valuta drar nytta av sin 24/7-handel under Mellanösternkonflikten</cite>.",
+        "explain": "💡 <cite index=\"13-11\">Bitcoin fungerar nu mer som en höglikvid makroträder än traditionell säkring</cite>, vilket förklarar dess motståndskraft under krisen."
+      },
+      {
+        "icon": "🏦",
+        "label": "SVENSKA BANKER",
+        "text": "<cite index=\"1-10\">SBAB höjer sina listräntor på bundna bolån</cite> samtidigt som <cite index=\"1-11\">Fitch bekräftar Sveriges AAA-kreditbetyg</cite>. <cite index=\"22-14,22-15,22-16\">Endast Handelsbanken handlas under verkligt värde bland storbanker</cite>.",
+        "explain": "💡 Räntehöjningarna återspeglar starkare kreditefterfrågan samtidigt som kreditbetyget visar ekonomisk stabilitet trots geopolitisk turbulens."
+      },
+      {
+        "icon": "⚡",
+        "label": "ENERGIKRIS",
+        "text": "<cite index=\"1-7\">Goldman Sachs höjer oljeprisprognoser för 2026 efter Hormuzsundsrörelsen</cite>. <cite index=\"24-22\">Energisektorn bästa sektorn i S&P 500 med 29% uppgång</cite>.",
+        "explain": "💡 <cite index=\"13-8\">Olja handlas över 100 dollar tunnans med ökad volatilitet</cite> medan energibolag drar nytta av försörjningsoron."
+      },
+      {
+        "icon": "📈",
+        "label": "SVENSK TILLVÄXT",
+        "text": "<cite index=\"22-4,22-5\">Nordea förutspår att återhämtningen tar fart 2026 med expansiv finanspolitik</cite>. <cite index=\"22-7\">Stimulanser för hushåll motsvarar cirka 1% av BNP</cite>.",
+        "explain": "💡 <cite index=\"22-6\">Konjunkturella återhämtningen redan startad drivet av räntesänkningar och reallöneökningar</cite> enligt experter."
       }
     ],
     "analyst": [
       {
-        "icon": "🛢️",
-        "label": "ENERGI",
-        "text": "<cite index=\"4-23\">När en ny handelsvecka väntar är läget minst sagt spänt utifrån Irankriget och oljepriset som lyft till 112 dollar per fat.</cite> <cite index=\"10-1\">Energisektorn är 2026 års klart bästa sektor i S&P 500, med en uppgång på 29 procent hittills i år.</cite>"
-      },
-      {
-        "icon": "💰",
-        "label": "RÄNTEPOLITIK",
-        "text": "<cite index=\"38-1,38-2\">2026-03-19 meddelade Riksbanken att styrräntan lämnades oförändrad på 1,75%. Riksbankens prognos säger att räntan kommer att ligga kvar på samma nivå under hela 2026 för att sedan höjas till 2,00% under 2027.</cite>"
-      },
-      {
-        "icon": "🏦",
-        "label": "BANKPROGNOS",
-        "text": "<cite index=\"7-1,7-4\">Även Nordea spår ett starkt 2026 – och bankens aktiestrateg Martin Björsell spår en tvåsiffrig uppgång procent för OMXS30 inklusive utdelning. Samtliga storbanker spår en fortsatt uppgång på Stockholmsbörsen nästa år.</cite>"
-      },
-      {
         "icon": "📊",
-        "label": "VOLATILITET",
-        "text": "<cite index=\"6-8,6-9\">De största amerikanska teknologibolagen som hittills dominerar AI-hypen på börsen står för så stor del av såväl amerikanska som globala aktieindex att om de faller kommer de dra med sig världens börser nedåt. Det är rimligt att förvänta sig att svängningarna på börsen kan bli betydligt högre.</cite>"
+        "label": "TEKNISK BTC",
+        "text": "<cite index=\"12-1,12-2\">Bitcoin förväntas handlas mellan 71 065-72 227 dollar denna vecka</cite>. <cite index=\"11-5,11-7\">Open interest stiger samtidigt som priset faller - indikerar nya shortpositioner</cite>.",
+        "explain": "💡 <cite index=\"11-12,11-13\">Högt open interest med negativ CVD signalerar potentiellt fortsatt nedåttryck</cite> enligt derivatanalys."
+      },
+      {
+        "icon": "🏛️",
+        "label": "CENTRALBANKER",
+        "text": "<cite index=\"6-2,6-24\">Fed förväntas endast en räntesänkning 2026 istället för tidigare två-tre</cite>. <cite index=\"29-11\">Storbanker räknar med upp till tre ECB-höjningar efter inflationsvarning</cite>.",
+        "explain": "💡 Penningpolitiken hårdnar globalt med <cite index=\"6-25,6-28\">inflation över 2% i USA och under 2% i euroområdet</cite>."
+      },
+      {
+        "icon": "🔄",
+        "label": "FONDFLÖDEN",
+        "text": "<cite index=\"2-10,2-22\">Aktivt förvaltade fonder ökar exponering mot AI, halvledare och industri</cite>. <cite index=\"2-18,2-19\">Micron och KLA ökar viktning i teknikfonder</cite>.",
+        "explain": "💡 <cite index=\"2-22\">Omallokering från mjukvara till hårdvara inom AI-infrastruktur</cite> visar på strategisk ompositionering."
+      },
+      {
+        "icon": "🎯",
+        "label": "MARKNADSRISK",
+        "text": "<cite index=\"22-13\">AI-relaterade värderingar i USA utgör största risken för Stockholmsbörsen</cite>. <cite index=\"22-14,22-15\">Hög koncentration kan medföra betydligt högre svängningar</cite>.",
+        "explain": "💡 <cite index=\"10-14,10-15\">Stora amerikanska techbolag utgör så stor del av globala index att fall där drar ned världens börser</cite>."
       }
     ],
     "sources": [
-      "Börskollen",
       "Affärsvärlden",
-      "CoinDesk",
-      "Ekonomifakta",
-      "Morningstar Sverige"
+      "Placera",
+      "Invezz",
+      "Morningstar",
+      "The Coin Republic"
     ]
   }
 }
