@@ -67,7 +67,8 @@ def send_to_beehiiv(data, quotes):
         f"https://api.beehiiv.com/v2/publications/{BEEHIIV_PUB}/posts",
         headers={"Authorization": f"Bearer {BEEHIIV_KEY}", "Content-Type": "application/json"},
 json={
-            "subject": data["headline"],
+"subject": data["headline"],
+"title": data["headline"],
             "content": {"free": {"web": html, "email": html}},
             "status": "confirmed"
         }
