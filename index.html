@@ -706,10 +706,14 @@ function showPage(id){
 }
 function showToast(msg){const t=document.getElementById('toast');document.getElementById('toast-msg').textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),3200);}
 
-function handleSub(level){
+async function handleSub(level){
   const inp=document.getElementById('email-'+level),suc=document.getElementById('success-'+level);
-  if(inp.value&&inp.value.includes('@')){suc.style.display='block';inp.closest('.sf').style.display='none';showToast('Välkommen till Espresso Market! ☕');}
-  else{inp.style.borderColor='var(--red)';setTimeout(()=>inp.style.borderColor='',1000);}
+  if(!inp.value||!inp.value.includes('@')){inp.style.borderColor='var(--red)';setTimeout(()=>inp.style.borderColor='',1000);return;}
+  try{
+    const res=await fetch('/.netlify/functions/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:inp.value})});
+    if(res.ok){suc.style.display='block';inp.closest('.sf').style.display='none';showToast('Välkommen till Espresso Market! ☕');}
+    else{showToast('Något gick fel – försök igen.');}
+  }catch(e){showToast('Något gick fel – försök igen.');}
 }
 ['beginner','analyst','pension'].forEach(l=>{const el=document.getElementById('email-'+l);if(el)el.addEventListener('keydown',e=>{if(e.key==='Enter')handleSub(l);});});
 
