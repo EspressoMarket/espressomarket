@@ -66,9 +66,13 @@ def send_to_beehiiv(data, quotes):
     r = requests.post(
         f"https://api.beehiiv.com/v2/publications/{BEEHIIV_PUB}/posts",
         headers={"Authorization": f"Bearer {BEEHIIV_KEY}", "Content-Type": "application/json"},
-        json={"subject": data["headline"], "content": {"free": {"web": html, "email": html}}, "status": "draft"}
+json={
+            "subject": data["headline"],
+            "content": {"free": {"web": html, "email": html}},
+            "status": "confirmed"
+        }
     )
-    print(f"Beehiiv: {r.status_code}")
+    print(f"Beehiiv: {r.status_code} – {r.text[:200]}")
 
 if __name__ == "__main__":
     print("Hämtar kurser...")
