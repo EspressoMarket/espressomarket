@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-23T13:19:36.054296",
+  "generated": "2026-03-23T13:24:10.487866",
   "quotes": {
     "S&P 500": {
       "price": 0,
@@ -14,8 +14,8 @@
       "change": 0
     },
     "BTC/USD": {
-      "price": 70814.21,
-      "change": 2.95
+      "price": 70894.68,
+      "change": 3.07
     },
     "OIL": {
       "price": 0,
@@ -27,62 +27,63 @@
     }
   },
   "briefing": {
-    "headline": "Marknader under press av Iran-krig och Fed-osäkerhet",
+    "headline": "Bitcoin lyfter, olja rusar vid konflikt",
     "date": "Monday 23 March 2026",
     "beginner": [
       {
         "icon": "📈",
-        "label": "AKTIER",
-        "text": "<cite index=\"2-16,2-19,2-20\">Amerikanska terminssignaler pekade på öppning med 2% upp efter stark återhämtning. Dow Jones futures steg 2,17%, S&P 500 1,97% och Nasdaq 1,96%.</cite>",
-        "explain": "💡 Terminskontrakt visar förväntningar på börsen innan den öppnar, och dessa positiva signaler indikerar att investerare hoppas på återhämtning efter en tuff period."
+        "label": "BITCOIN",
+        "text": "<cite index=\"21-12,30-10\">Bitcoin krossade 70 000-dollarmuren och handlas nu vid 70 894 dollar, upp 3,07%. Den digitala valutan visar styrka trots geopolitisk oro.</cite>",
+        "explain": "💡 <cite index=\"30-11,30-22\">Bitcoin agerar som en \"teknisk likviditetshedge\" - stiger inte vid krig utan när marknaden förväntar sig återhämtning och penningpolitisk stimulans.</cite>"
+      },
+      {
+        "icon": "⛽",
+        "label": "OLJA",
+        "text": "<cite index=\"11-1,15-1\">Oljan rusar kraftigt efter eskaleringen i Mellanöstern. Murban Crude stiger 10% till 136 dollar per fat medan Brentoljan kan nå 200 dollar om konflikten fortsätter.</cite>",
+        "explain": "💡 <cite index=\"11-7,15-16\">Hormuzsundet är blockerat vilket stryper 15 miljoner fat råolja dagligen. Detta leder till prisexplosion då olja är en \"oelastisk tillgång\".</cite>"
       },
       {
         "icon": "🏦",
         "label": "RÄNTOR",
-        "text": "<cite index=\"21-1,21-4\">Fed behöll räntan oförändrad på 3,5-3,75% med omröstning 11-1. Centralbanken avvaktar Iran-krigets ekonomiska effekter.</cite>",
-        "explain": "💡 Styrräntan är det viktigaste verktyget centralbanker använder för att påverka ekonomin - höga räntor bromsar inflation men kan skada tillväxt."
+        "text": "<cite index=\"1-10,6-2\">SBAB höjer bolåneräntor medan Fed väntas endast sänka räntan en gång i år istället för tidigare förväntade 2-3 sänkningar.</cite>",
+        "explain": "💡 <cite index=\"13-11,14-4\">Höga oljepriser driver upp inflation vilket gör att centralbanker tvekar att sänka räntor - detta pressar företags kostnader och hushållens ekonomi.</cite>"
       },
       {
-        "icon": "⚡",
-        "label": "KRYPTO",
-        "text": "<cite index=\"8-4,8-5\">Bitcoin handlas runt 68 000 dollar efter att ha fallit från över 70 000. Marknaden visar försiktig handel med konsistent volym.</cite>",
-        "explain": "💡 Bitcoin påverkas ofta av samma faktorer som traditionella marknader - osäkerhet och inflation driver investerare mellan riskfyllda och säkra tillgångar."
-      },
-      {
-        "icon": "🛢️",
-        "label": "EDELMETALLER",
-        "text": "<cite index=\"2-25,2-26\">Guld sjönk över 6,3% till 4 285 dollar och silver föll nästan 10%. Båda ädelmetallerna är nu på minus för året.</cite>",
-        "explain": "💡 Guld och silver brukar ses som säkra investeringar under osäkra tider, men stora prisfall kan bero på att investerare behöver kontanter eller att dollarn stärks."
+        "icon": "📊",
+        "label": "BÖRSEN",
+        "text": "<cite index=\"1-6,13-5,13-6\">Stockholmsbörsen inleder veckan nedåt med OMXS-index ner över 2% efter nya hot kring Mellanösternkonflikten under helgen.</cite>",
+        "explain": "💡 <cite index=\"13-15,13-16\">Geopolitisk osäkerhet drar undan kraft från världsekonomin vilket börsen inte gillar - investerare flyr till säkrare tillgångar.</cite>"
       }
     ],
     "analyst": [
       {
         "icon": "📊",
-        "label": "VOLATILITET",
-        "text": "<cite index=\"2-32,2-34,2-35\">Globala marknader signalerade varning med Koreas KOSPI -6,49%, Japans Nikkei -3,48% och Storbritanniens FTSE på korrigering med -2%.</cite>"
+        "label": "TEKNISK ANALYS",
+        "text": "<cite index=\"21-21,21-24\">Bitcoin handlas under 20-dagars EMA (70 515$) och 50-dagars EMA (72 568$) vilket indikerar konsolidering i intervallet 68 000-73 000 dollar.</cite>"
       },
       {
-        "icon": "🔍",
-        "label": "FED-POLITIK",
-        "text": "<cite index=\"29-7,29-13,29-14\">Dot plot visar en rännesänkning 2026, men JPMorgans ekonom Feroli tror räntor hålls hela året följt av höjning 2027.</cite>"
+        "icon": "⛽",
+        "label": "RÅVARUANALYS",
+        "text": "<cite index=\"14-6,18-7\">Oljepriset över 130 dollar börjar skapa tydliga ekonomiska effekter. En bestående 10% högre oljepris har negativ BNP-effekt på 0,2%.</cite>"
       },
       {
-        "icon": "⚖️",
-        "label": "INFLATIONSDYNAMIK",
-        "text": "<cite index=\"21-13,21-17,21-20\">Fed höjde inflationsprognosen till 2,7% på grund av Iran-kriget och oljepriserna. Närmare inflationsförväntningar har stigit senaste veckorna.</cite>"
+        "icon": "💰",
+        "label": "FONDFLÖDEN",
+        "text": "<cite index=\"2-10,2-18,2-19\">Aktivt förvaltade fonder ökar AI-exponering med Micron upp till 4,4%, KLA till 4,8% och Taiwan Semiconductor till 4,8% av portföljerna.</cite>"
       },
       {
-        "icon": "🌍",
-        "label": "GEOPOLITIK",
-        "text": "<cite index=\"28-22,28-23\">Investerare följer noga Strait of Hormuz där stängning förvandlar en fraktörning till global tillförlustförlust när lagren fylls.</cite>"
+        "icon": "🏦",
+        "label": "KREDITRISK",
+        "text": "<cite index=\"14-5,14-8\">När oljan närmar sig 130 dollar pressas företagsmarginaler. Först om priserna ligger kvar längre tid byggs trycket upp i balansräkningarna.</cite>"
       }
     ],
     "sources": [
-      "TheStreet",
-      "CNBC",
-      "247wallst.com",
-      "Trading Economics",
-      "Al Jazeera"
+      "Affärsvärlden",
+      "EFN",
+      "Placera",
+      "SVT",
+      "CoinDesk",
+      "Riksbanken"
     ]
   }
 }
