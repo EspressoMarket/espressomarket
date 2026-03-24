@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-24T08:05:20.859987",
+  "generated": "2026-03-24T14:34:16.642546",
   "quotes": {
     "S&P 500": {
       "price": 0,
@@ -14,8 +14,8 @@
       "change": 0
     },
     "BTC/USD": {
-      "price": 71187.25,
-      "change": 4.02
+      "price": 70065.48,
+      "change": -1.86
     },
     "OIL": {
       "price": 0,
@@ -27,71 +27,66 @@
     }
   },
   "briefing": {
-    "headline": "Trump-Iran samtal lyfter marknader Bitcoin +4%",
+    "headline": "Iran-konflikt skapar marknadsoro med guldfall och Bitcoin upp",
     "date": "Tuesday 24 March 2026",
     "beginner": [
       {
-        "icon": "📈",
-        "label": "AKTIER",
-        "text": "<cite index=\"1-16,1-18,1-19\">Amerikanska börsen rusade efter Trumps besked om samtal med Iran. Dow Jones steg 1,38%, S&P 500 1,15% och Nasdaq 1,38%.</cite>",
-        "explain": "💡 Trumps uttalande om att stoppa attacker på iransk energiinfrastruktur lugnade marknaderna som fruktade en bredare konflikt."
+        "icon": "🇮🇷",
+        "label": "GEOPOLITIK",
+        "text": "Trump påstår samtal med Iran men Tehran dementerar detta. Marknader svänger mellan hopp och rädsla för eskalering.",
+        "explain": "💡 Geopolitiska konflikter skapar ofta kraftiga svängningar på marknaderna då investerare snabbt byter mellan riskfyllda och säkra tillgångar."
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJA",
+        "text": "Oljepriset stiger kraftigt över $91 på nytt då fredssamtal verkar ha misslyckats. Brent väntas testa $120 inom månaden.",
+        "explain": "💡 Olja är känslig för konflikter i Mellanöstern eftersom regionen producerar mycket av världens olja, särskilt genom Hormuzsundet."
       },
       {
         "icon": "💰",
         "label": "BITCOIN",
-        "text": "<cite index=\"11-3,12-1,12-18\">Bitcoin handlas på $70,599, upp 2,6% från igår efter geopolitiska nyheter.</cite> <cite index=\"13-1,17-6\">Kryptovalutan är upp omkring 2% för månaden och handlas över $68,000.</cite>",
-        "explain": "💡 Bitcoin drar ofta nytta av osäkerhet men kan också fungera som riskfylld tillgång som korrelerar med aktier vid stora geopolitiska händelser."
+        "text": "BTC handlas kring $71000 efter uppgång från $69000, driven av 'risk-on' sentiment efter Trumps uttalanden om samtal.",
+        "explain": "💡 Kryptovalutor som Bitcoin ses ofta som alternativ till traditionella valutor när investerare blir osäkra på geopolitiken."
       },
       {
-        "icon": "⚡",
-        "label": "OLJA",
-        "text": "<cite index=\"6-1,6-7\">Goldman Sachs höjer sina oljeprognoser - Brent till $85/fat från tidigare $77, WTI till $79 från $72.</cite> <cite index=\"8-13\">Brent crude föll över 10% till $100,69 efter Trumps kommentarer.</cite>",
-        "explain": "💡 Oljepriset påverkas starkt av Mellanösternkonflikten eftersom regionen producerar stor del av världens olja."
-      },
-      {
-        "icon": "💸",
-        "label": "CENTRALBANKER",
-        "text": "<cite index=\"7-1,7-3\">Federal Reserve höll räntan oförändrad på 3,50%-3,75% på grund av ekonomisk osäkerhet från Mellanösternkonflikten.</cite> <cite index=\"7-7\">Bank of England, ECB och Bank of Japan höll också räntorna oförändrade.</cite>",
-        "explain": "💡 Centralbanker väntar ofta med ränteförändringar under geopolitisk osäkerhet för att se hur situationen utvecklas."
+        "icon": "🏠",
+        "label": "RÄNTOR",
+        "text": "Bolåneräntor stiger till 6,35% för 30-åriga lån då Fed håller räntan oförändrad medan oljepriser driver upp inflationsoro.",
+        "explain": "💡 Högre oljepriser kan leda till inflation vilket får centralbanker att hålla räntor höga, vilket påverkar bolånekostnader."
       }
     ],
     "analyst": [
       {
         "icon": "📊",
+        "label": "TEKNISK",
+        "text": "S&P 500 under press på -0,26% efter gårdagens rally. Microsoft visar tecken på återhämtning från $380-support med RSI-divergens.",
+        "explain": "Tekniska indikatorer som RSI och stokastik visar överförsålt läge vilket kan signalera vändning uppåt för större teknikaktier."
+      },
+      {
+        "icon": "⚡",
         "label": "VOLATILITET",
-        "text": "<cite index=\"1-11,1-12\">Marknaderna styrs av rubriker med fokus på oljepriser och geopolitik enligt analytiker.</cite> <cite index=\"3-4,3-5\">S&P 500-futures föll 0,6% efter rapporter om att USA:s allierade kan ansluta sig i kampen mot Iran.</cite>",
-        "explain": "💡 VIX-index steg 24% vilket visar marknadens nervositet och förväntningar om fortsatt volatilitet."
+        "text": "VIX upp 24% till 29,49 visar hög rädsla. Asiatiska marknader föll kraftigt med Sydkorea -6,5% och Japan -3,5% innan Trump-kommentarer.",
+        "explain": "VIX över 25 indikerar extrem marknadsoro. Asiens reaktion visar hur snabbt sentiment kan förändras på geopolitiska nyheter."
       },
       {
-        "icon": "🔍",
-        "label": "TEKNISK ANALYS",
-        "text": "<cite index=\"21-1\">Sveriges Stockholm 30-index steg 0,96% till 2892 poäng men har fallit 9,36% den senaste månaden.</cite> <cite index=\"12-6,12-8\">Bitcoin behöver volym över $20 miljarder och bryta över $71,000 för att bekräfta momentum.</cite>",
-        "explain": "💡 Tekniska nivåer blir extra viktiga under volatila perioder när fundamentala faktorer är oklara."
+        "icon": "🏦",
+        "label": "SEKTORER",
+        "text": "Alternativa tillgångsförvaltare som Apollo och Ares begränsar uttag från privata kreditfonder. Energisektorn ensam vinnare.",
+        "explain": "Likviditetsproblem i privat kredit kombinerat med höga räntor skapar stress i finanssektorn medan energi gynnas av oljeuppgången."
       },
       {
-        "icon": "🏭",
-        "label": "SEKTORROTATION",
-        "text": "<cite index=\"8-8\">Alla sektorer i S&P 500 steg med konsumentvaror (+3,04%), industri (+2,69%) och teknik (+2,46%) i topp.</cite> <cite index=\"1-24,1-25,1-26\">Asiatiska marknader föll kraftigt - Japans Nikkei -3,5%, Sydkoreas Kospi -6,5%.</cite>",
-        "explain": "💡 Olika regioner och sektorer påverkas olika av geopolitiska risker beroende på exponering och handelsmönster."
-      },
-      {
-        "icon": "⏰",
-        "label": "TIDSPERSPEKTIV",
-        "text": "<cite index=\"1-32,1-34,1-36\">Analytiker tror marknaden kan återhämta sig innan Iran-konflikten officiellt avslutas men volatiliteten kommer fortsätta.</cite> <cite index=\"6-19,6-20,6-21\">IEA rapporterar att över 40 energitillgångar i 9 länder har skadats allvarligt i konflikten.</cite>",
-        "explain": "💡 Långsiktiga skador på energiinfrastruktur kan påverka priserna även efter att konflikten lösts."
+        "icon": "💎",
+        "label": "RÅVAROR",
+        "text": "Guld faller tionde dagen i rad till $4410 då dollarn stärks. Sällsynta jordartsmetaller i fokus efter USA:s vapenbrist mot Iran.",
+        "explain": "Guld tappar säker hamn-status när dollar stärks. Geopolitisk konflikt skapar både risk-off (guld upp) och risk-on (aktier upp) förvirring."
       }
     ],
     "sources": [
-      "CNBC",
       "247wallst.com",
-      "Bloomberg",
-      "Fortune",
-      "CNBC CCTV",
-      "Gallagher",
-      "TheStreet",
-      "Goodreturns",
-      "Trading Economics",
-      "AInvest"
+      "cnbc.com",
+      "thestreet.com",
+      "fortune.com",
+      "bloomberg.com"
     ]
   }
 }
