@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-23T13:24:10.487866",
+  "generated": "2026-03-24T08:05:20.859987",
   "quotes": {
     "S&P 500": {
       "price": 0,
@@ -14,8 +14,8 @@
       "change": 0
     },
     "BTC/USD": {
-      "price": 70894.68,
-      "change": 3.07
+      "price": 71187.25,
+      "change": 4.02
     },
     "OIL": {
       "price": 0,
@@ -27,63 +27,71 @@
     }
   },
   "briefing": {
-    "headline": "Bitcoin lyfter, olja rusar vid konflikt",
-    "date": "Monday 23 March 2026",
+    "headline": "Trump-Iran samtal lyfter marknader Bitcoin +4%",
+    "date": "Tuesday 24 March 2026",
     "beginner": [
       {
         "icon": "📈",
+        "label": "AKTIER",
+        "text": "<cite index=\"1-16,1-18,1-19\">Amerikanska börsen rusade efter Trumps besked om samtal med Iran. Dow Jones steg 1,38%, S&P 500 1,15% och Nasdaq 1,38%.</cite>",
+        "explain": "💡 Trumps uttalande om att stoppa attacker på iransk energiinfrastruktur lugnade marknaderna som fruktade en bredare konflikt."
+      },
+      {
+        "icon": "💰",
         "label": "BITCOIN",
-        "text": "<cite index=\"21-12,30-10\">Bitcoin krossade 70 000-dollarmuren och handlas nu vid 70 894 dollar, upp 3,07%. Den digitala valutan visar styrka trots geopolitisk oro.</cite>",
-        "explain": "💡 <cite index=\"30-11,30-22\">Bitcoin agerar som en \"teknisk likviditetshedge\" - stiger inte vid krig utan när marknaden förväntar sig återhämtning och penningpolitisk stimulans.</cite>"
+        "text": "<cite index=\"11-3,12-1,12-18\">Bitcoin handlas på $70,599, upp 2,6% från igår efter geopolitiska nyheter.</cite> <cite index=\"13-1,17-6\">Kryptovalutan är upp omkring 2% för månaden och handlas över $68,000.</cite>",
+        "explain": "💡 Bitcoin drar ofta nytta av osäkerhet men kan också fungera som riskfylld tillgång som korrelerar med aktier vid stora geopolitiska händelser."
       },
       {
-        "icon": "⛽",
+        "icon": "⚡",
         "label": "OLJA",
-        "text": "<cite index=\"11-1,15-1\">Oljan rusar kraftigt efter eskaleringen i Mellanöstern. Murban Crude stiger 10% till 136 dollar per fat medan Brentoljan kan nå 200 dollar om konflikten fortsätter.</cite>",
-        "explain": "💡 <cite index=\"11-7,15-16\">Hormuzsundet är blockerat vilket stryper 15 miljoner fat råolja dagligen. Detta leder till prisexplosion då olja är en \"oelastisk tillgång\".</cite>"
+        "text": "<cite index=\"6-1,6-7\">Goldman Sachs höjer sina oljeprognoser - Brent till $85/fat från tidigare $77, WTI till $79 från $72.</cite> <cite index=\"8-13\">Brent crude föll över 10% till $100,69 efter Trumps kommentarer.</cite>",
+        "explain": "💡 Oljepriset påverkas starkt av Mellanösternkonflikten eftersom regionen producerar stor del av världens olja."
       },
       {
-        "icon": "🏦",
-        "label": "RÄNTOR",
-        "text": "<cite index=\"1-10,6-2\">SBAB höjer bolåneräntor medan Fed väntas endast sänka räntan en gång i år istället för tidigare förväntade 2-3 sänkningar.</cite>",
-        "explain": "💡 <cite index=\"13-11,14-4\">Höga oljepriser driver upp inflation vilket gör att centralbanker tvekar att sänka räntor - detta pressar företags kostnader och hushållens ekonomi.</cite>"
-      },
-      {
-        "icon": "📊",
-        "label": "BÖRSEN",
-        "text": "<cite index=\"1-6,13-5,13-6\">Stockholmsbörsen inleder veckan nedåt med OMXS-index ner över 2% efter nya hot kring Mellanösternkonflikten under helgen.</cite>",
-        "explain": "💡 <cite index=\"13-15,13-16\">Geopolitisk osäkerhet drar undan kraft från världsekonomin vilket börsen inte gillar - investerare flyr till säkrare tillgångar.</cite>"
+        "icon": "💸",
+        "label": "CENTRALBANKER",
+        "text": "<cite index=\"7-1,7-3\">Federal Reserve höll räntan oförändrad på 3,50%-3,75% på grund av ekonomisk osäkerhet från Mellanösternkonflikten.</cite> <cite index=\"7-7\">Bank of England, ECB och Bank of Japan höll också räntorna oförändrade.</cite>",
+        "explain": "💡 Centralbanker väntar ofta med ränteförändringar under geopolitisk osäkerhet för att se hur situationen utvecklas."
       }
     ],
     "analyst": [
       {
         "icon": "📊",
+        "label": "VOLATILITET",
+        "text": "<cite index=\"1-11,1-12\">Marknaderna styrs av rubriker med fokus på oljepriser och geopolitik enligt analytiker.</cite> <cite index=\"3-4,3-5\">S&P 500-futures föll 0,6% efter rapporter om att USA:s allierade kan ansluta sig i kampen mot Iran.</cite>",
+        "explain": "💡 VIX-index steg 24% vilket visar marknadens nervositet och förväntningar om fortsatt volatilitet."
+      },
+      {
+        "icon": "🔍",
         "label": "TEKNISK ANALYS",
-        "text": "<cite index=\"21-21,21-24\">Bitcoin handlas under 20-dagars EMA (70 515$) och 50-dagars EMA (72 568$) vilket indikerar konsolidering i intervallet 68 000-73 000 dollar.</cite>"
+        "text": "<cite index=\"21-1\">Sveriges Stockholm 30-index steg 0,96% till 2892 poäng men har fallit 9,36% den senaste månaden.</cite> <cite index=\"12-6,12-8\">Bitcoin behöver volym över $20 miljarder och bryta över $71,000 för att bekräfta momentum.</cite>",
+        "explain": "💡 Tekniska nivåer blir extra viktiga under volatila perioder när fundamentala faktorer är oklara."
       },
       {
-        "icon": "⛽",
-        "label": "RÅVARUANALYS",
-        "text": "<cite index=\"14-6,18-7\">Oljepriset över 130 dollar börjar skapa tydliga ekonomiska effekter. En bestående 10% högre oljepris har negativ BNP-effekt på 0,2%.</cite>"
+        "icon": "🏭",
+        "label": "SEKTORROTATION",
+        "text": "<cite index=\"8-8\">Alla sektorer i S&P 500 steg med konsumentvaror (+3,04%), industri (+2,69%) och teknik (+2,46%) i topp.</cite> <cite index=\"1-24,1-25,1-26\">Asiatiska marknader föll kraftigt - Japans Nikkei -3,5%, Sydkoreas Kospi -6,5%.</cite>",
+        "explain": "💡 Olika regioner och sektorer påverkas olika av geopolitiska risker beroende på exponering och handelsmönster."
       },
       {
-        "icon": "💰",
-        "label": "FONDFLÖDEN",
-        "text": "<cite index=\"2-10,2-18,2-19\">Aktivt förvaltade fonder ökar AI-exponering med Micron upp till 4,4%, KLA till 4,8% och Taiwan Semiconductor till 4,8% av portföljerna.</cite>"
-      },
-      {
-        "icon": "🏦",
-        "label": "KREDITRISK",
-        "text": "<cite index=\"14-5,14-8\">När oljan närmar sig 130 dollar pressas företagsmarginaler. Först om priserna ligger kvar längre tid byggs trycket upp i balansräkningarna.</cite>"
+        "icon": "⏰",
+        "label": "TIDSPERSPEKTIV",
+        "text": "<cite index=\"1-32,1-34,1-36\">Analytiker tror marknaden kan återhämta sig innan Iran-konflikten officiellt avslutas men volatiliteten kommer fortsätta.</cite> <cite index=\"6-19,6-20,6-21\">IEA rapporterar att över 40 energitillgångar i 9 länder har skadats allvarligt i konflikten.</cite>",
+        "explain": "💡 Långsiktiga skador på energiinfrastruktur kan påverka priserna även efter att konflikten lösts."
       }
     ],
     "sources": [
-      "Affärsvärlden",
-      "EFN",
-      "Placera",
-      "SVT",
-      "CoinDesk",
-      "Riksbanken"
+      "CNBC",
+      "247wallst.com",
+      "Bloomberg",
+      "Fortune",
+      "CNBC CCTV",
+      "Gallagher",
+      "TheStreet",
+      "Goodreturns",
+      "Trading Economics",
+      "AInvest"
     ]
   }
 }
