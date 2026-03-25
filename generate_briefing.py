@@ -1,4 +1,4 @@
-import os, requests, json, re, xml.etree.ElementTree as ET
+import os, requests, json, re, xml.etree.ElementTree as ET, time
 from datetime import datetime, date
 import anthropic
 
@@ -15,7 +15,7 @@ HEADERS = {
 }
 
 # =============================================================
-# 1. KURSER & TERMINSPRISER (Yahoo Finance + Finnhub)
+# 1. KURSER & TERMINSPRISER
 # =============================================================
 def get_yahoo(symbol):
     try:
@@ -45,7 +45,7 @@ def get_all_market_data():
     futures = {
         "S&P 500 Futures": get_yahoo("ES=F"),
         "NASDAQ Futures":  get_yahoo("NQ=F"),
-        "DAX Futures":     get_yahoo("FDAX=F"),
+        "DAX Futures":     get_yahoo("^GDAXI"),   # FIX: ^GDAXI fungerar, FDAX=F gör inte det
         "Olja (WTI)":      get_yahoo("CL=F"),
         "Guld":            get_yahoo("GC=F"),
         "VIX":             get_yahoo("^VIX"),
@@ -62,161 +62,142 @@ def get_all_market_data():
     return futures, spots
 
 # =============================================================
-# 2. INVESTING.COM — EKONOMISK KALENDER (bästa makrokällan)
+# 2. MAKROKALENDER — Forexfactory (primär) + Finnhub (backup)
 # =============================================================
-def get_investing_calendar():
-    """
-    Hämtar dagens makrohändelser från Investing.com ekonomiska kalender.
-    Täcker: Fed, ECB, Riksbanken, CPI, NFP, BNP, PMI m.m.
-    """
+def get_macro_calendar():
     events = []
-    today_str = date.today().strftime("%Y-%m-%d")
 
+    # Primär: Forexfactory JSON (öppen, fungerar från GitHub Actions)
     try:
-        # Investing.com Economic Calendar API (öppen endpoint)
-        url = "https://economic-calendar.tradingview.com/events"
-        params = {
-            "from":       f"{today_str}T00:00:00.000Z",
-            "to":         f"{today_str}T23:59:59.000Z",
-            "countries":  "US,SE,EU,GB,DE,JP,CN,NO,DK,FI",  # Relevanta länder
-            "importance": "2,3",  # 2=medium, 3=high
-        }
-        r = requests.get(url, params=params, headers=HEADERS, timeout=10).json()
-
-        for e in r.get("result", []):
-            country    = e.get("country", "")
-            title      = e.get("title", "")
-            importance = e.get("importance", 0)
-            actual     = e.get("actual")
-            forecast   = e.get("forecast")
-            previous   = e.get("previous")
-            time_utc   = e.get("date", "")[:16].replace("T", " ")
-
-            if not title:
+        r = requests.get(
+            "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
+            headers=HEADERS, timeout=10
+        ).json()
+        today = date.today().strftime("%m-%d-%Y")
+        for e in r:
+            if not e.get("date", "").startswith(today):
                 continue
-
-            imp_label = "🔴 HÖG" if importance == 3 else "🟡 MEDEL"
-            line = f"{imp_label} [{country}] {title}"
-            if actual is not None:
-                line += f" — Utfall: {actual}"
-                if forecast is not None:
-                    line += f" (prognos: {forecast})"
-            elif forecast is not None:
-                line += f" — Prognos: {forecast}"
-            if previous is not None:
-                line += f" | Föregående: {previous}"
+            if e.get("impact") not in ["High", "Medium"]:
+                continue
+            country  = e.get("country", "")
+            title    = e.get("title", "")
+            impact   = e.get("impact", "")
+            forecast = e.get("forecast", "")
+            prev     = e.get("previous", "")
+            imp_icon = "🔴" if impact == "High" else "🟡"
+            line = f"{imp_icon} [{country}] {title}"
+            if forecast: line += f" — Prognos: {forecast}"
+            if prev:     line += f" | Föregående: {prev}"
             events.append(line)
-
+        print(f"   Forexfactory: {len(events)} händelser")
     except Exception as e:
-        print(f"TradingView kalender-fel: {e}")
+        print(f"Forexfactory-fel: {e}")
 
-    # Fallback: Forexfactory RSS om TradingView misslyckas
+    # Backup: Finnhub economic calendar
     if not events:
         try:
+            today_str = date.today().strftime("%Y-%m-%d")
             r = requests.get(
-                "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
-                headers=HEADERS, timeout=10
+                f"https://finnhub.io/api/v1/calendar/economic?from={today_str}&to={today_str}&token={FINNHUB_KEY}",
+                timeout=8
             ).json()
-            today = date.today().strftime("%m-%d-%Y")
-            for e in r:
-                if e.get("date", "").startswith(today) and e.get("impact") in ["High", "Medium"]:
-                    country = e.get("country", "")
-                    title   = e.get("title", "")
-                    imp     = "🔴 HÖG" if e.get("impact") == "High" else "🟡 MEDEL"
-                    forecast = e.get("forecast", "")
-                    prev     = e.get("previous", "")
-                    line = f"{imp} [{country}] {title}"
-                    if forecast: line += f" — Prognos: {forecast}"
-                    if prev:     line += f" | Föregående: {prev}"
-                    events.append(line)
+            for e in r.get("economicCalendar", []):
+                event   = e.get("event", "")
+                impact  = e.get("impact", "")
+                country = e.get("country", "")
+                if event and impact in ["high", "medium"]:
+                    imp_icon = "🔴" if impact == "high" else "🟡"
+                    events.append(f"{imp_icon} [{country}] {event}")
+            print(f"   Finnhub backup: {len(events)} händelser")
         except Exception as e2:
-            print(f"Forexfactory-fel: {e2}")
+            print(f"Finnhub makro-fel: {e2}")
 
-    print(f"   {len(events)} makrohändelser hittade")
     return events[:12]
 
 # =============================================================
-# 3. SVENSKA RAPPORTER (Nasdaq OMX Nordic + Cision)
+# 3. SVENSKA RAPPORTER — Placera + Finnhub nordiska bolag
 # =============================================================
 def get_swedish_reports():
-    """Hämtar svenska och nordiska bolagsrapporter för idag"""
     reports = []
-    today   = date.today().strftime("%Y-%m-%d")
 
-    # Källa 1: Finnhub earnings (nordiska bolag)
-    try:
-        r = requests.get(
-            f"https://finnhub.io/api/v1/calendar/earnings?from={today}&to={today}&token={FINNHUB_KEY}",
-            timeout=8
-        ).json()
-        nordic_suffixes = [".ST", ".HE", ".OL", ".CO", "-SE", "-FI", "-DK", "-NO"]
-        nordic_tickers  = ["ERIC", "VOLV", "SAND", "SKF", "ALIV", "SWED", "SEB", "SSAB",
-                           "ASSA", "ATCO", "BOL", "CAST", "GETI", "HEXA", "HUSQ", "INVE",
-                           "KINV", "LATO", "NIBE", "PEAB", "SAAB", "SINCH", "SWMA", "TELE2"]
-        for item in r.get("earningsCalendar", []):
-            sym  = item.get("symbol", "")
-            eps  = item.get("epsEstimate")
-            hour = item.get("hour", "")
-            if any(sym.endswith(s) for s in nordic_suffixes) or any(t in sym for t in nordic_tickers):
-                line = sym
-                if eps:  line += f" (EPS-est: {eps})"
-                if hour: line += f" [{hour}]"
-                reports.append(line)
-    except Exception as e:
-        print(f"Earnings-fel: {e}")
-
-    # Källa 2: Cision PR Newswire Sverige RSS (pressreleaser samma dag)
-    try:
-        r = requests.get(
-            "https://www.cision.com/se/pressreleaser/rss/",
-            headers=HEADERS, timeout=8
-        )
-        root  = ET.fromstring(r.content)
-        today_str = date.today().strftime("%d %b")
-        for item in root.findall(".//item")[:10]:
-            title = (item.findtext("title") or "").strip()
-            pubdate = (item.findtext("pubDate") or "")
-            if any(kw in title.lower() for kw in ["rapport", "bokslut", "delår", "resultat", "q1", "q2", "q3", "q4"]):
-                reports.append(f"[Pressrelease] {title}")
-    except Exception as e:
-        print(f"Cision-fel: {e}")
-
-    # Källa 3: Placera.se RSS (svenska börsrapporter)
+    # Källa 1: Placera.se RSS (bästa svenska börskällan)
     try:
         r = requests.get(
             "https://www.placera.se/placera/forstasidan.rss",
             headers=HEADERS, timeout=8
         )
         root = ET.fromstring(r.content)
-        for item in root.findall(".//item")[:8]:
-            title = re.sub(r'<[^>]+>', '', (item.findtext("title") or "")).strip()
-            if any(kw in title.lower() for kw in ["rapport", "bokslut", "resultat", "vinst", "förlust"]):
+        for item in root.findall(".//item")[:15]:
+            title = re.sub(r'<[^>]+>', '', item.findtext("title") or "").strip()
+            if any(kw in title.lower() for kw in ["rapport", "bokslut", "resultat", "vinst", "förlust", "q1", "q2", "q3", "q4", "delår"]):
                 reports.append(f"[Placera] {title}")
     except Exception as e:
         print(f"Placera-fel: {e}")
 
-    print(f"   {len(reports)} svenska/nordiska rapporter hittade")
-    return reports[:10]
+    # Källa 2: DI.se RSS
+    try:
+        r = requests.get(
+            "https://www.di.se/rss",
+            headers=HEADERS, timeout=8
+        )
+        root = ET.fromstring(r.content)
+        for item in root.findall(".//item")[:15]:
+            title = re.sub(r'<[^>]+>', '', item.findtext("title") or "").strip()
+            if any(kw in title.lower() for kw in ["rapport", "bokslut", "resultat", "vinst", "q1", "q2", "q3", "q4"]):
+                reports.append(f"[DI] {title}")
+    except Exception as e:
+        print(f"DI rapport-fel: {e}")
+
+    # Källa 3: Finnhub earnings — nordiska bolag
+    try:
+        today_str = date.today().strftime("%Y-%m-%d")
+        r = requests.get(
+            f"https://finnhub.io/api/v1/calendar/earnings?from={today_str}&to={today_str}&token={FINNHUB_KEY}",
+            timeout=8
+        ).json()
+        nordic = [".ST", ".HE", ".OL", ".CO"]
+        tickers = ["ERIC", "VOLV", "SAND", "SKF", "SWED", "SEB", "SSAB", "ASSA",
+                   "ATCO", "BOL", "INVE", "KINV", "NIBE", "SAAB", "TELE2", "SINCH"]
+        for item in r.get("earningsCalendar", []):
+            sym = item.get("symbol", "")
+            eps = item.get("epsEstimate")
+            if any(sym.endswith(s) for s in nordic) or any(t in sym for t in tickers):
+                line = sym
+                if eps: line += f" (EPS-est: {eps})"
+                reports.append(f"[Finnhub] {line}")
+    except Exception as e:
+        print(f"Finnhub earnings-fel: {e}")
+
+    # Deduplicera
+    seen = set()
+    unique = []
+    for r in reports:
+        key = r[:50]
+        if key not in seen:
+            seen.add(key)
+            unique.append(r)
+
+    print(f"   {len(unique)} svenska/nordiska rapporter hittade")
+    return unique[:10]
 
 # =============================================================
-# 4. RSS-NYHETER (realtid — internationellt + Sverige)
+# 4. RSS-NYHETER — källor som fungerar från GitHub Actions
 # =============================================================
 def get_rss_headlines():
+    # Reuters blockeras från GitHub Actions — använd alternativ
     feeds = [
-        # Internationellt — marknader
-        ("Reuters Markets",   "https://feeds.reuters.com/reuters/financialmarketsnews"),
-        ("Reuters Business",  "https://feeds.reuters.com/reuters/businessNews"),
-        ("CNBC Markets",      "https://www.cnbc.com/id/20910258/device/rss/rss.html"),
-        ("Yahoo Finance",     "https://finance.yahoo.com/rss/topstories"),
-        # Geopolitik (påverkar marknaden direkt)
-        ("Reuters World",     "https://feeds.reuters.com/Reuters/worldNews"),
-        # Sverige & Norden
-        ("Dagens Industri",   "https://www.di.se/rss"),
-        ("SvD Näringsliv",    "https://www.svd.se/feed/section/naringsliv.rss"),
-        ("Placera",           "https://www.placera.se/placera/forstasidan.rss"),
-        ("Breakit",           "https://www.breakit.se/feed/articles"),
-        # Riksbanken
-        ("Riksbanken",        "https://www.riksbank.se/sv/om-riksbanken/press-och-publicerat/rss/"),
+        # Internationellt — fungerar från GitHub Actions
+        ("AP News",          "https://rsshub.app/apnews/topics/business"),
+        ("MarketWatch",      "https://feeds.marketwatch.com/marketwatch/topstories/"),
+        ("CNBC Markets",     "https://www.cnbc.com/id/20910258/device/rss/rss.html"),
+        ("Yahoo Finance",    "https://finance.yahoo.com/rss/topstories"),
+        ("Seeking Alpha",    "https://seekingalpha.com/market_currents.xml"),
+        ("Investing.com",    "https://www.investing.com/rss/news_25.rss"),
+        # Sverige — fungerar utmärkt
+        ("Dagens Industri",  "https://www.di.se/rss"),
+        ("Placera",          "https://www.placera.se/placera/forstasidan.rss"),
+        ("Breakit",          "https://www.breakit.se/feed/articles"),
+        ("Affärsvärlden",    "https://www.affarsvarlden.se/rss.xml"),
     ]
 
     headlines = []
@@ -227,14 +208,14 @@ def get_rss_headlines():
             ns   = {"atom": "http://www.w3.org/2005/Atom"}
             items = root.findall(".//item") or root.findall(".//atom:entry", ns)
             for item in items[:4]:
-                title = (
-                    re.sub(r'<[^>]+>', '', item.findtext("title") or
-                    item.findtext("{http://www.w3.org/2005/Atom}title") or "")
-                ).strip()
-                desc = (
-                    re.sub(r'<[^>]+>', '', item.findtext("description") or
-                    item.findtext("{http://www.w3.org/2005/Atom}summary") or "")
-                ).strip()[:150]
+                title = re.sub(r'<[^>]+>', '', (
+                    item.findtext("title") or
+                    item.findtext("{http://www.w3.org/2005/Atom}title") or ""
+                )).strip()
+                desc = re.sub(r'<[^>]+>', '', (
+                    item.findtext("description") or
+                    item.findtext("{http://www.w3.org/2005/Atom}summary") or ""
+                )).strip()[:150]
                 if title and len(title) > 15:
                     headlines.append(f"[{source}] {title}: {desc}")
         except Exception as e:
@@ -244,7 +225,7 @@ def get_rss_headlines():
     return headlines[:25]
 
 # =============================================================
-# 5. GENERERA BRIEFING — Claude söker + skriver
+# 5. GENERERA BRIEFING MED CLAUDE + WEB SEARCH
 # =============================================================
 def extract_json(text):
     text = re.sub(r'```json\s*', '', text)
@@ -262,35 +243,37 @@ def generate_briefing(futures, spots, rss, macro_events, swedish_reports):
     time_str = now.strftime("%H:%M")
 
     def fmt(d):
+        if d["price"] == 0:
+            return "ej tillgänglig"
         sign = "+" if d["change"] >= 0 else ""
         return f"{d['price']} ({sign}{d['change']}%)"
 
-    futures_str  = "\n".join([f"  {k}: {fmt(v)}" for k, v in futures.items()])
-    spots_str    = "\n".join([f"  {k}: {fmt(v)}" for k, v in spots.items()])
-    rss_str      = "\n".join([f"  - {h}" for h in rss]) if rss else "  Inga RSS-rubriker"
-    macro_str    = "\n".join([f"  {e}" for e in macro_events]) if macro_events else "  Inga kända makrohändelser idag"
-    reports_str  = "\n".join([f"  - {r}" for r in swedish_reports]) if swedish_reports else "  Inga kända svenska rapporter idag"
+    futures_str = "\n".join([f"  {k}: {fmt(v)}" for k, v in futures.items()])
+    spots_str   = "\n".join([f"  {k}: {fmt(v)}" for k, v in spots.items()])
+    rss_str     = "\n".join([f"  - {h}" for h in rss]) if rss else "  Inga RSS-rubriker"
+    macro_str   = "\n".join([f"  {e}" for e in macro_events]) if macro_events else "  Inga kända makrohändelser idag"
+    reports_str = "\n".join([f"  - {r}" for r in swedish_reports]) if swedish_reports else "  Inga kända svenska rapporter idag"
 
     context = f"""ESPRESSO MARKET DATA — {today} kl. {time_str}
 
 === TERMINSPRISER (pre-market indikatorer) ===
 {futures_str}
-(DAX Futures = bästa proxy för OMX30 på morgonen. VIX > 20 = förhöjd oro.)
+(DAX = europeisk proxy för OMX30. VIX > 20 = förhöjd oro, > 30 = panik.)
 
 === STÄNGNINGSKURSER IGÅR ===
 {spots_str}
 
-=== MAKROKALENDER IDAG (Investing.com / Forexfactory) ===
+=== MAKROKALENDER IDAG ===
 {macro_str}
 
 === SVENSKA & NORDISKA RAPPORTER IDAG ===
 {reports_str}
 
-=== RSS-NYHETER (realtid från Reuters, DI, CNBC, Placera m.fl.) ===
+=== RSS-NYHETER (realtid) ===
 {rss_str}"""
 
     print("=== KONTEXT TILL CLAUDE (preview) ===")
-    print(context[:800])
+    print(context[:700])
     print("=====================================")
 
     client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
@@ -298,27 +281,26 @@ def generate_briefing(futures, spots, rss, macro_events, swedish_reports):
     system_prompt = f"""Du är Espresso Market — Sveriges skarpaste AI-finansbriefing. Datum: {today}.
 
 DIN PROCESS:
-1. Läs kontextdatan nedan noggrant (terminspriser, makrokalender, rapporter, RSS-nyheter)
-2. Använd web_search för att komplettera med det senaste:
-   - Sök: "market overnight news {today}" — Wall Street stängning, Asien i morse
-   - Sök: "OMX Stockholm börsen {today}" — svensk börs
-   - Sök på de viktigaste makrohändelserna i kalendern (t.ex. "Fed meeting {today}", "US CPI {today}")
-   - Sök på de svenska rapporterna som nämns
-   - Sök på det mest aktuella geopolitiska temat (Iran, tullar, krig, energi etc.)
-3. Skriv en faktabaserad briefing baserad på vad du faktiskt hittat
+1. Läs kontextdatan nedan (terminspriser, makro, rapporter, nyheter)
+2. Använd web_search för att komplettera:
+   - "stock market overnight {today}" — Wall Street stängning + Asien
+   - "OMX Stockholm {today}" — svensk börs idag
+   - Det dominerande temat just nu (Iran, Fed, tariffer, geopolitik etc.)
+   - Sök specifikt på makrohändelser och rapporter ur kalendern
+3. Skriv faktabaserad briefing om vad som FAKTISKT händer idag
 
-KRAV PÅ INNEHÅLLET:
-- Varje punkt ska handla om ett RIKTIGT händelse/tema från idag
-- Analytiker: MÅSTE nämna terminspriser med siffror, dagens makrohändelser och rapporter
-- Nybörjare: förklara VARFÖR marknaden rör sig — konkret orsak ("Eftersom Fed signalerade...")
-- Pension: koppla nyheten till svenska pensionsfonder (AP7, AMF, SPP) när relevant
-- Om VIX är förhöjd (>20): nämn det och vad det betyder
-- Om det är en stor makrodag (Fed, ECB, Riksbanken, CPI): gör det till huvudtemat
+KRAV:
+- Varje punkt = ett riktigt, konkret händelse från idag
+- Analytiker: terminspriser med siffror + dagens rapporter + makro
+- Nybörjare: förklara VARFÖR (orsak → effekt), enkelt språk
+- Pension: koppla till AP7/AMF/SPP när relevant
+- Om VIX > 20: nämn det och förklara vad det innebär
+- Stor makrodag (Fed/ECB/Riksbanken/CPI): gör det till huvudtemat
 
-Svara med EXAKT denna JSON-struktur efter dina sökningar:
-{{"headline":"rubrik max 10 ord — dagens viktigaste marknadstema","date":"{today}","beginner":[{{"icon":"📈","label":"RUBRIK MED STORA BOKSTÄVER","text":"Vad hände och varför — 2 konkreta meningar","explain":"💡 Vad det betyder för en vanlig person — 2 meningar"}}],"analyst":[{{"icon":"📊","label":"RUBRIK MED STORA BOKSTÄVER","text":"Teknisk/fundamental analys med siffror — 2-3 meningar"}}],"pension":[{{"icon":"🌱","label":"RUBRIK MED STORA BOKSTÄVER","text":"Hur detta påverkar pensionssparare — 2 meningar","tip":"💡 Konkret råd eller vad man bör tänka på — 2 meningar"}}],"sources":["Reuters","Di","Placera","källa4"]}}
+Svara med JSON efter dina sökningar:
+{{"headline":"rubrik max 10 ord","date":"{today}","beginner":[{{"icon":"📈","label":"RUBRIK","text":"Vad hände och varför — 2 konkreta meningar","explain":"💡 Vad det betyder för vanlig person — 2 meningar"}}],"analyst":[{{"icon":"📊","label":"RUBRIK","text":"Teknisk/fundamental analys med siffror — 2-3 meningar"}}],"pension":[{{"icon":"🌱","label":"RUBRIK","text":"Hur påverkar pensionssparare — 2 meningar","tip":"💡 Konkret råd — 2 meningar"}}],"sources":["källa1","källa2","källa3","källa4"]}}
 
-EXAKT 4 punkter per nivå. Avsluta alltid med JSON."""
+EXAKT 4 punkter per nivå. Avsluta alltid med JSON-blocket."""
 
     msg = client.messages.create(
         model="claude-sonnet-4-20250514",
@@ -327,7 +309,7 @@ EXAKT 4 punkter per nivå. Avsluta alltid med JSON."""
         system=system_prompt,
         messages=[{
             "role":    "user",
-            "content": f"Sök efter nattens och morgonens marknadsnyheter, sedan generera briefingen. Kontextdata:\n\n{context}"
+            "content": f"Sök efter nattens marknadsnyheter och generera briefingen.\n\nKontextdata:\n\n{context}"
         }]
     )
 
@@ -472,7 +454,7 @@ def build_email(data, niva, futures):
 </body></html>"""
 
 # =============================================================
-# 9. SKICKA EMAIL
+# 9. SKICKA EMAIL — med fördröjning för att undvika 429
 # =============================================================
 def send_with_resend(data, subscribers, futures):
     if not subscribers:
@@ -480,10 +462,16 @@ def send_with_resend(data, subscribers, futures):
         return
 
     counts = {"beginner": 0, "analyst": 0, "pension": 0, "error": 0}
-    for sub in subscribers:
+
+    for i, sub in enumerate(subscribers):
+        # FIX: Vänta 1.2 sekunder mellan varje email → undviker Resend rate limit (429)
+        if i > 0:
+            time.sleep(1.2)
+
         email = sub["email"]
         niva  = sub["niva"] if sub["niva"] in ["beginner", "analyst", "pension"] else "beginner"
         html  = build_email(data, niva, futures)
+
         r = requests.post(
             "https://api.resend.com/emails",
             headers={"Authorization": f"Bearer {RESEND_KEY}", "Content-Type": "application/json"},
@@ -496,12 +484,13 @@ def send_with_resend(data, subscribers, futures):
         )
         if r.status_code in [200, 201]:
             counts[niva] += 1
+            print(f"   ✅ {email}")
         else:
             counts["error"] += 1
-            print(f"Fel för {email}: {r.status_code}")
+            print(f"   ❌ {email}: {r.status_code} — {r.text[:80]}")
 
     total = sum(v for k, v in counts.items() if k != "error")
-    print(f"✅ Skickade till {total} prenumeranter")
+    print(f"\n✅ Skickade till {total}/{len(subscribers)} prenumeranter")
     print(f"   Nybörjare: {counts['beginner']} | Analytiker: {counts['analyst']} | Pension: {counts['pension']} | Fel: {counts['error']}")
 
 # =============================================================
@@ -514,15 +503,15 @@ if __name__ == "__main__":
         sign = "+" if v["change"] >= 0 else ""
         print(f"   {k}: {v['price']} ({sign}{v['change']}%)")
 
-    print("🌍 Hämtar makrokalender (Investing.com/Forexfactory)...")
-    macro = get_investing_calendar()
+    print("🌍 Hämtar makrokalender...")
+    macro = get_macro_calendar()
     for e in macro[:3]:
         print(f"   {e}")
 
     print("🇸🇪 Hämtar svenska rapporter...")
     swedish_reports = get_swedish_reports()
 
-    print("📰 Hämtar RSS-nyheter i realtid...")
+    print("📰 Hämtar RSS-nyheter...")
     rss = get_rss_headlines()
 
     print("🤖 Claude söker nattens nyheter och genererar briefing...")
@@ -533,7 +522,7 @@ if __name__ == "__main__":
     print("👥 Hämtar prenumeranter...")
     subscribers = get_subscribers()
 
-    print("📧 Skickar email...")
+    print("📧 Skickar email (1.2s fördröjning mellan varje)...")
     send_with_resend(briefing, subscribers, futures)
 
     print("✅ Klart!")
