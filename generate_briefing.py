@@ -35,14 +35,15 @@ def generate_briefing(quotes):
     client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
     msg = client.messages.create(
         model="claude-sonnet-4-20250514",
-        max_tokens=1500,
+        max_tokens=2500,
         tools=[{"type": "web_search_20250305", "name": "web_search"}],
         system=f"""Du är Espresso Market – Sveriges skarpaste finansbriefing. Datum: {today}.
 Svara ENDAST med giltig JSON, inga förklaringar, inga kodblock, ingen extra text.
 Format:
-{{"headline":"rubrik max 10 ord","date":"{today}","beginner":[{{"icon":"📈","label":"KATEGORI","text":"enkel förklaring max 2 meningar","explain":"💡 pedagogisk förklaring max 2 meningar"}}],"analyst":[{{"icon":"📊","label":"KATEGORI","text":"teknisk analys max 2 meningar"}}],"sources":["källa1","källa2"]}}
-Inkludera 4 punkter i beginner och 4 punkter i analyst.""",
-        messages=[{"role":"user","content":f"Dagens kurser:\n{quote_str}\n\nSök dagens viktigaste finansnyheter och generera briefing på svenska. Svara ENDAST med JSON."}]
+{{"headline":"rubrik max 10 ord","date":"{today}","beginner":[{{"icon":"📈","label":"KATEGORI","text":"enkel förklaring max 2 meningar","explain":"💡 pedagogisk förklaring max 2 meningar"}}],"analyst":[{{"icon":"📊","label":"KATEGORI","text":"teknisk analys max 2 meningar"}}],"pension":[{{"icon":"🌱","label":"KATEGORI","text":"hur påverkar detta pensionssparare max 2 meningar","tip":"💡 råd för långsiktigt sparande max 2 meningar"}}],"sources":["källa1","källa2"]}}
+Inkludera 4 punkter i beginner, 4 punkter i analyst och 4 punkter i pension.
+Pension-sektionen ska fokusera på: AP7, AMF, SPP, långsiktigt sparande, stabil avkastning och pensionsfonder.""",
+        messages=[{"role":"user","content":f"Dagens kurser:\n{quote_str}\n\nSök dagens viktigaste finansnyheter och generera briefing på svenska för alla tre nivåer. Svara ENDAST med JSON."}]
     )
     text = next(b.text for b in msg.content if b.type == "text")
     print(f"AI svar (första 200 tecken): {text[:200]}")
@@ -62,60 +63,95 @@ def get_subscribers():
         r = requests.get(
             f"https://api.beehiiv.com/v2/publications/{BEEHIIV_PUB}/subscriptions",
             headers={"Authorization": f"Bearer {BEEHIIV_KEY}"},
-            params={"status": "active", "limit": 100, "page": page}
+            params={"status": "active", "limit": 100, "page": page, "expand[]": "custom_fields"}
         )
         data = r.json()
         subs = data.get("data", [])
         if not subs:
             break
-        subscribers.extend([s["email"] for s in subs])
+        for s in subs:
+            email = s["email"]
+            niva = "beginner"  # standard om inget val finns
+            for field in s.get("custom_fields", []):
+                if field.get("name") == "niva" and field.get("value"):
+                    niva = field["value"].lower()
+                    break
+            subscribers.append({"email": email, "niva": niva})
         if len(subs) < 100:
             break
         page += 1
     print(f"Hittade {len(subscribers)} prenumeranter")
     return subscribers
 
-def send_with_resend(data, subscribers):
+def build_email(data, niva):
     today = datetime.now().strftime("%d %B %Y")
-    
-    beginner_bullets = "".join([f"""
-        <tr>
-          <td style="padding:12px 0;border-bottom:1px solid #f0e8d8">
-            <span style="font-size:1.2rem">{b['icon']}</span>
-            <strong style="color:#8a6030;font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;display:block;margin:4px 0">{b['label']}</strong>
-            <span style="color:#3d2510;font-size:0.9rem;line-height:1.6">{b['text']}</span>
-            <span style="display:block;margin-top:6px;padding:8px 12px;background:#fdf5e8;border-left:3px solid #d4a55a;color:#6b3d1e;font-size:0.82rem;line-height:1.5">{b.get('explain','')}</span>
-          </td>
-        </tr>""" for b in data.get("beginner",[])])
 
-    html = f"""<!DOCTYPE html>
+    if niva == "analyst":
+        bullets = data.get("analyst", [])
+        color = "#d4a55a"
+        label = "📊 ANALYTIKER"
+        rows = "".join([f"""
+        <tr><td style="padding:12px 0;border-bottom:1px solid #f0e8d8">
+          <span style="font-size:1.2rem">{b['icon']}</span>
+          <strong style="color:#d4a55a;font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;display:block;margin:4px 0">{b['label']}</strong>
+          <span style="color:#3d2510;font-size:0.9rem;line-height:1.6">{b['text']}</span>
+        </td></tr>""" for b in bullets])
+
+    elif niva == "pension":
+        bullets = data.get("pension", [])
+        color = "#5bbf8a"
+        label = "🌱 PENSIONSSPARARE"
+        rows = "".join([f"""
+        <tr><td style="padding:12px 0;border-bottom:1px solid #f0e8d8">
+          <span style="font-size:1.2rem">{b['icon']}</span>
+          <strong style="color:#5bbf8a;font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;display:block;margin:4px 0">{b['label']}</strong>
+          <span style="color:#3d2510;font-size:0.9rem;line-height:1.6">{b['text']}</span>
+          <span style="display:block;margin-top:6px;padding:8px 12px;background:#f0fdf6;border-left:3px solid #5bbf8a;color:#1a3a2a;font-size:0.82rem;line-height:1.5">{b.get('tip','')}</span>
+        </td></tr>""" for b in bullets])
+
+    else:  # beginner (standard)
+        bullets = data.get("beginner", [])
+        color = "#7ab3d4"
+        label = "☕ NYBÖRJARE"
+        rows = "".join([f"""
+        <tr><td style="padding:12px 0;border-bottom:1px solid #f0e8d8">
+          <span style="font-size:1.2rem">{b['icon']}</span>
+          <strong style="color:#7ab3d4;font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;display:block;margin:4px 0">{b['label']}</strong>
+          <span style="color:#3d2510;font-size:0.9rem;line-height:1.6">{b['text']}</span>
+          <span style="display:block;margin-top:6px;padding:8px 12px;background:#f0f7fd;border-left:3px solid #7ab3d4;color:#1a3a4a;font-size:0.82rem;line-height:1.5">{b.get('explain','')}</span>
+        </td></tr>""" for b in bullets])
+
+    return f"""<!DOCTYPE html>
 <html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"></head>
 <body style="margin:0;padding:0;background:#f5ead6;font-family:'Georgia',serif">
   <div style="max-width:600px;margin:0 auto;background:#1a1208">
-    <div style="background:linear-gradient(135deg,#1a1208,#3d2510);padding:32px 40px;text-align:center;border-bottom:2px solid #d4a55a">
-      <p style="color:#d4a55a;font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;margin:0 0 8px">☕ ESPRESSO MARKET</p>
+    <div style="background:linear-gradient(135deg,#1a1208,#3d2510);padding:32px 40px;text-align:center;border-bottom:2px solid {color}">
+      <p style="color:{color};font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;margin:0 0 8px">☕ ESPRESSO MARKET · {label}</p>
       <h1 style="color:#f5ead6;font-size:1.6rem;margin:0;line-height:1.2">{data['headline']}</h1>
       <p style="color:#8a7560;font-size:0.8rem;margin:12px 0 0">{today}</p>
     </div>
     <div style="padding:32px 40px;background:#fff8f0">
-      <p style="color:#d4a55a;font-size:0.65rem;letter-spacing:0.15em;text-transform:uppercase;margin:0 0 16px">📖 DAGENS BRIEFING – NYBÖRJARE</p>
-      <table style="width:100%;border-collapse:collapse">
-        {beginner_bullets}
-      </table>
+      <table style="width:100%;border-collapse:collapse">{rows}</table>
     </div>
     <div style="padding:24px 40px;background:#1a1208;text-align:center;border-top:1px solid #3d2510">
-      <a href="https://espressomarket.se" style="display:inline-block;background:linear-gradient(135deg,#c49a6c,#d4a55a);color:#1a1208;padding:12px 28px;font-size:0.8rem;font-weight:bold;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;border-radius:24px">Läs hela briefingen →</a>
+      <a href="https://espressomarket.se" style="display:inline-block;background:linear-gradient(135deg,#c49a6c,{color});color:#1a1208;padding:12px 28px;font-size:0.8rem;font-weight:bold;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;border-radius:24px">Läs hela briefingen →</a>
       <p style="color:#8a7560;font-size:0.72rem;margin:16px 0 0">Espresso Market · Gratis varje vardag kl. 07:00</p>
     </div>
   </div>
 </body></html>"""
 
+def send_with_resend(data, subscribers):
     if not subscribers:
         print("Inga prenumeranter att skicka till")
         return
 
-    success = 0
-    for email in subscribers:
+    counts = {"beginner": 0, "analyst": 0, "pension": 0, "error": 0}
+
+    for sub in subscribers:
+        email = sub["email"]
+        niva = sub["niva"] if sub["niva"] in ["beginner", "analyst", "pension"] else "beginner"
+        html = build_email(data, niva)
+
         r = requests.post(
             "https://api.resend.com/emails",
             headers={"Authorization": f"Bearer {RESEND_KEY}", "Content-Type": "application/json"},
@@ -127,11 +163,13 @@ def send_with_resend(data, subscribers):
             }
         )
         if r.status_code == 200:
-            success += 1
+            counts[niva] += 1
         else:
+            counts["error"] += 1
             print(f"Fel för {email}: {r.status_code}")
 
-    print(f"✅ Skickade till {success}/{len(subscribers)} prenumeranter via Resend")
+    print(f"✅ Skickade till {sum(v for k,v in counts.items() if k != 'error')} prenumeranter")
+    print(f"   Nybörjare: {counts['beginner']} | Analytiker: {counts['analyst']} | Pension: {counts['pension']} | Fel: {counts['error']}")
 
 if __name__ == "__main__":
     print("Hämtar kurser...")
