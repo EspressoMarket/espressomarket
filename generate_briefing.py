@@ -9,7 +9,7 @@ ANTHROPIC_KEY = os.environ["ANTHROPIC_API_KEY"]
 RESEND_KEY = os.environ["RESEND_API_KEY"]
 
 def get_quotes():
-    symbols = {"S&P 500":"^GSPC","NASDAQ":"^IXIC","OMX30":"^OMX","BTC/USD":"BINANCE:BTCUSDT","OIL":"USOIL","GULD":"OANDA:XAUUSD"}
+    symbols = {"S&P 500":"SPY","NASDAQ":"QQQ","OMX30":"OMXS30.ST","BTC/USD":"BINANCE:BTCUSDT","OIL":"USO","GULD":"GLD"}
     quotes = {}
     for name, sym in symbols.items():
         try:
