@@ -1,121 +1,147 @@
 {
-  "generated": "2026-03-25T17:57:09.755927",
+  "generated": "2026-03-25T21:32:24.053597",
   "quotes": {
     "S&P 500": {
-      "price": 657.5,
-      "change": 0.66
+      "price": 656.82,
+      "change": 0.56
     },
     "NASDAQ": {
-      "price": 588.56,
-      "change": 0.78
+      "price": 587.82,
+      "change": 0.66
     },
     "OMX30": {
       "price": 0,
       "change": 0
     },
     "BTC/USD": {
-      "price": 70782.15,
-      "change": 2.41
-    },
-    "OIL": {
-      "price": 112.57,
-      "change": -1.72
+      "price": 71004.82,
+      "change": 1.34
     },
     "GULD": {
-      "price": 417.9,
-      "change": 3.41
+      "price": 416.29,
+      "change": 3.01
+    },
+    "OLJA": {
+      "price": 113.39,
+      "change": -1.0
+    },
+    "EUR/USD": {
+      "price": 0,
+      "change": 0
+    },
+    "USD/SEK": {
+      "price": 0,
+      "change": 0
+    }
+  },
+  "futures": {
+    "S&P 500 Futures": {
+      "price": 6641.0,
+      "change": 0.0
+    },
+    "NASDAQ Futures": {
+      "price": 24367.75,
+      "change": 0.0
+    },
+    "DAX Futures": {
+      "price": 0,
+      "change": 0
+    },
+    "Olja (WTI)": {
+      "price": 91.29,
+      "change": 0.0
+    },
+    "Guld": {
+      "price": 4503.3,
+      "change": 0.0
     }
   },
   "briefing": {
-    "headline": "Guld tappar efter Iran-krig medan Bitcoin stiger kraftigt",
+    "headline": "Stillsam marknad inför veckans slut",
     "date": "Wednesday 25 March 2026",
     "beginner": [
       {
-        "icon": "📈",
-        "label": "MARKNAD",
-        "text": "<cite index=\"11-6,11-7\">Guldpriset föll närmare 3 procent och bröt under sitt 50-dagars glidande medelvärde för första gången sedan augusti 2025. Den remarkabelt starka uppåtgående trenden för guld går därmed mot att brytas.</cite>",
-        "explain": "💡 När guld bryter tekniska nivåer signalerar det att investerare börjar tappa förtroendet för metallen som säker hamn."
+        "icon": "😴",
+        "label": "MARKNADSLÄGE",
+        "text": "Amerikanska börsen steg igår med S&P 500 upp 0,56% och Nasdaq upp 0,66%. Terminshandeln visar platta kurser inför dagens handel.",
+        "explain": "💡 När terminerna är oförändrade betyder det att investerare väntar på nya signaler innan de gör större satsningar."
       },
       {
-        "icon": "💰",
-        "label": "BITCOIN",
-        "text": "<cite index=\"11-14,12-2,12-6\">Bitcoin har stigit cirka 13 procent sedan Iran-konflikten bröt ut och är upp 8% sedan kriget startade 28 februari, medan S&P 500 och guld båda är ner mer än 3%.</cite>",
-        "explain": "💡 Bitcoin beter sig nu annorlunda än tidigare under geopolitiska kriser, vilket visar på ökad institutionell adoption."
+        "icon": "🥇",
+        "label": "GULD",
+        "text": "Guldet sköt upp hela 3% igår och handlas nu över 4500 dollar per uns. Detta visar att investerare söker trygghet i ädelmetaller.",
+        "explain": "💡 Guld stiger ofta när investerare blir osäkra om framtiden eller när de vill skydda sig mot inflation."
       },
       {
         "icon": "🛢️",
-        "label": "ENERGI",
-        "text": "<cite index=\"13-13,13-14\">Brent-oljan har klättrat till omkring 114 dollar per fat vilket höjer inflationsförväntningarna och minskar sannolikheten för Fed-räntesänkningar.</cite>",
-        "explain": "💡 Höga oljepriser driver inflation, vilket tvingar centralbanker att hålla räntor höga längre än planerat."
+        "label": "OLJA",
+        "text": "Oljan föll 1% igår och handlas runt 91 dollar per fat. Detta påverkar både inflationen och företag inom transport och industri.",
+        "explain": "💡 Lägre oljepris är bra för konsumenter men kan signalera att ekonomin växer långsammare än väntat."
       },
       {
-        "icon": "📊",
-        "label": "AKTIER",
-        "text": "<cite index=\"13-1,13-6\">S&P 500 stängde på 6506.48, årets lägsta nivå, och föll till 6473.52 under sessionen - första gången under 6500 sedan september 2025.</cite>",
-        "explain": "💡 Amerikanska aktier pressas av högre energipriser och geopolitisk osäkerhet, vilket gör investerare mer försiktiga."
+        "icon": "📋",
+        "label": "RAPPORTER",
+        "text": "Få stora rapporter väntas idag med undantag för några amerikanska företag. Marknaden saknar stora nyheter att reagera på.",
+        "explain": "💡 När inga stora nyheter finns brukar börsen röra sig mindre eftersom investerare väntar på ny information."
       }
     ],
     "analyst": [
       {
         "icon": "📊",
-        "label": "TEKNISK ANALYS",
-        "text": "<cite index=\"11-8,11-9\">Guldfallet bröt kursen till lägsta nivån på en månad, knappt 2% under medelvärdet. Historiskt har liknande trendbrott följts av ytterligare nedgångar på 4,5% i genomsnitt under efterföljande månaden.</cite>",
-        "explain": "💡 Tekniska indikatorer tyder på fortsatt press nedåt för guld kommande veckor."
+        "label": "TERMINSANALYS",
+        "text": "S&P 500-terminerna visar neutral inställning på 6641 punkter mot gårdagens stängning på 656,82. Volymerna förväntas låga med begränsad volatilitet.",
+        "explain": "💡 Skillnaden i siffror tyder på olika kontraktsspecifikationer - fokusera på den procentuella förändringen."
       },
       {
-        "icon": "💎",
-        "label": "KRYPTO DECOUPLING",
-        "text": "<cite index=\"13-27,13-28\">Bitcoin är nu i sin längsta period av decoupling från S&P 500 sedan 2020, medan aktiemarknaden hållit sig relativt stark delar av slutet av 2025.</cite>",
-        "explain": "💡 Bitcoins oberoende rörelser från aktier kan signalera mognad som tillgångsklass eller föregå bredare marknadsrörelser."
+        "icon": "🔍",
+        "label": "SEKTORROTATION",
+        "text": "Guldets kraftiga uppgång på 3,01% till 416,29 signalerar flight-to-quality medan oljans nedgång på 1% till 113,39 indikerar efterfrågeoro.",
+        "explain": "💡 Kombinationen tyder på defensiv positionering inför potentiella makroekonomiska utmaningar."
       },
       {
-        "icon": "🎯",
-        "label": "PRISPROGNOSER",
-        "text": "<cite index=\"11-12\">Trots trendbrottet håller storbankerna fast vid höga riktkurser: JP Morgan förutspår 6300 dollar per uns före årets slut, medan BNP Paribas och UBS siktar på 6000 respektive 6200 dollar.</cite>",
-        "explain": "💡 Institutionella prognoser förblir optimistiska för guld långsiktigt trots kortsiktig svaghet."
+        "icon": "📈",
+        "label": "TEKNISK NIVÅ",
+        "text": "Bitcoin fortsätter stark trend upp 1,34% till 71004,82, närmar sig tidigare toppar. Risk-on sentiment blandas med safe-haven-köp i guld.",
+        "explain": "💡 Denna divergens mellan riskfyllda och säkra tillgångar skapar korrelationsbrott att följa."
       },
       {
-        "icon": "⚡",
-        "label": "VOLATILITET",
-        "text": "<cite index=\"13-20,13-21\">Analyst Tony Severino varnar att Bitcoins tidigare korrelationsrecovery med S&P 500 ofta följts av bredare nedgångar, vilket kan vara en varning för fortsatt svaghet.</cite>",
-        "explain": "💡 Korrelationsmönster mellan tillgångar kan förutspå framtida marknadsrörelser och riskhantering."
+        "icon": "📋",
+        "label": "EARNINGS",
+        "text": "FAT med EPS-estimat -3,1916 och FUL med +0,5607 ger spridda sektorinsikter. Låg rapportaktivitet begränsar marknadsrörelser.",
+        "explain": "💡 Fokusera på guidancekommentarer snarare än siffror i denna rapportcykel."
       }
     ],
     "pension": [
       {
         "icon": "🌱",
-        "label": "AP7 UTVECKLING",
-        "text": "<cite index=\"30-1,30-13\">AP7 Aktiefond backade 1% i januari 2026 och inleder året negativt efter 4% uppgång under 2025. Fondens inbyggda hävstång förstärker både uppgångar och nedgångar.</cite>",
-        "tip": "💡 AP7 Såfa justerar automatiskt risk efter ålder - yngre sparare påverkas mer av marknadsvolatilitet men har tid att återhämta sig."
+        "label": "DIVERSIFIERING",
+        "text": "Guldets kraftiga uppgång visar värdet av att ha ädelmetaller i pensionsportföljen. En liten allokering kan ge skydd när aktierna stagnerar.",
+        "tip": "💡 Överväg 5-10% guldexponering genom fonder för långsiktig portföljstabilitet."
       },
       {
-        "icon": "💼",
-        "label": "PPM MARKNADEN",
-        "text": "<cite index=\"30-9,30-24\">PPM-systemets genomsnittliga avkastning var 4,4% under 2025, betydligt lägre än föregående års 23,4%. Marknadsvärdet uppgick till 2830 miljarder kronor vid slutet på januari 2026.</cite>",
-        "tip": "💡 Efter starka år kommer naturligt svagare perioder - viktigt att hålla långsiktigt perspektiv på pensionssparandet."
+        "icon": "🏭",
+        "label": "SEKTORBALANS",
+        "text": "Med oljan ned och guld upp bör pensionssparare se över sina sektorvikter. Energisektorn kan vara övervärd medan defensiva sektorer lockar.",
+        "tip": "💡 Använd automatisk ombalansering för att sälja högt och köpa lågt systematiskt."
       },
       {
         "icon": "🔄",
-        "label": "RISKJUSTERING",
-        "text": "<cite index=\"27-17,27-19\">Från 56 års ålder får sparare gradvis större del räntor i AP7 Såfa-portföljen när delar placeras i AP7 Räntefond för tryggare sparande närmare pensionen.</cite>",
-        "tip": "💡 Den automatiska riskjusteringen i AP7 Såfa skyddar äldre sparare från större förluster under marknadsvolatilitet."
+        "label": "DOLLARKOSTAVERAGE",
+        "text": "I stillsamma marknader som denna fungerar månadssparande optimalt. Låg volatilitet gör att köpen sprids jämnt över tiden.",
+        "tip": "💡 Öka dina månatliga insättningar när marknaden är lugn för att maximera långsiktiga avkastningen."
       },
       {
-        "icon": "🎯",
-        "label": "LÅNGSIKTIGT FOKUS",
-        "text": "<cite index=\"27-8\">Eftersom pensionen är långsiktigt sparande är globala aktiefonder med låga avgifter ett bra sparalternativ som sprider risk över världens marknader.</cite>",
-        "tip": "💡 Kortsiktig volatilitet spelar mindre roll för pensionssparande - fokusera på låga avgifter och global diversifiering för bäst långsiktig avkastning."
+        "icon": "📱",
+        "label": "TEKNIKEXPONERING",
+        "text": "Bitcoins uppgång påminner om vikten av att ha viss exponering mot digitala tillgångar. Pensionssparare bör överväga kryptofonder.",
+        "tip": "💡 Begränsa kryptoexponering till max 5% av portföljen för kontrollerad risk med tillväxtpotential."
       }
     ],
     "sources": [
-      "Börskollen.se",
-      "CNBC",
-      "Coinpaper.com",
-      "Invezz.com",
-      "Dagens PS",
-      "AP7.se",
-      "InvestoRunner.com",
-      "Morningstar Sverige"
+      "Terminsdata pre-market",
+      "Stängningskurser 24 mars",
+      "Rapportkalender idag",
+      "Makroekonomisk kalender"
     ]
   }
 }
