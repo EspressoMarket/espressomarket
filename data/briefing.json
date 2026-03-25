@@ -1,37 +1,33 @@
 {
-  "generated": "2026-03-25T21:32:24.053597",
+  "generated": "2026-03-25T21:53:43.733314",
   "quotes": {
+    "OMX30": {
+      "price": 2943.35,
+      "change": 0.0
+    },
     "S&P 500": {
-      "price": 656.82,
-      "change": 0.56
+      "price": 6591.9,
+      "change": 0.0
     },
     "NASDAQ": {
-      "price": 587.82,
-      "change": 0.66
-    },
-    "OMX30": {
-      "price": 0,
-      "change": 0
-    },
-    "BTC/USD": {
-      "price": 71004.82,
-      "change": 1.34
-    },
-    "GULD": {
-      "price": 416.29,
-      "change": 3.01
-    },
-    "OLJA": {
-      "price": 113.39,
-      "change": -1.0
+      "price": 21929.83,
+      "change": 0.0
     },
     "EUR/USD": {
-      "price": 0,
-      "change": 0
+      "price": 1.16,
+      "change": 0.0
     },
     "USD/SEK": {
-      "price": 0,
-      "change": 0
+      "price": 9.35,
+      "change": 0.0
+    },
+    "EUR/SEK": {
+      "price": 10.81,
+      "change": 0.0
+    },
+    "BTC/USD": {
+      "price": 71024.72,
+      "change": 1.15
     }
   },
   "futures": {
@@ -54,94 +50,98 @@
     "Guld": {
       "price": 4503.3,
       "change": 0.0
+    },
+    "VIX": {
+      "price": 25.33,
+      "change": 0.0
     }
   },
   "briefing": {
-    "headline": "Stillsam marknad inför veckans slut",
+    "headline": "Marknader studsar på Iran-fredshopp trots avslag",
     "date": "Wednesday 25 March 2026",
     "beginner": [
       {
-        "icon": "😴",
-        "label": "MARKNADSLÄGE",
-        "text": "Amerikanska börsen steg igår med S&P 500 upp 0,56% och Nasdaq upp 0,66%. Terminshandeln visar platta kurser inför dagens handel.",
-        "explain": "💡 När terminerna är oförändrade betyder det att investerare väntar på nya signaler innan de gör större satsningar."
+        "icon": "📈",
+        "label": "BÖRSEN STUDSAR PÅ FREDSHOPP",
+        "text": "<cite index=\"2-2,2-16\">S&P 500 steg 0,75% och olja föll $4 till $88 efter att Trump skickade Iran en 15-punktsplan för fred</cite>. <cite index=\"22-1,24-1\">Iran avvisade dock förslaget och ställde egna krav på krigsersättning och kontroll över Hormuzsundet</cite>.",
+        "explain": "💡 När diplomatiska hopp finns faller oljepriset (mindre risk för störningar) och aktier stiger eftersom investerare tror på lägre inflation. Men avslaget visar att fred inte är nära."
       },
       {
-        "icon": "🥇",
-        "label": "GULD",
-        "text": "Guldet sköt upp hela 3% igår och handlas nu över 4500 dollar per uns. Detta visar att investerare söker trygghet i ädelmetaller.",
-        "explain": "💡 Guld stiger ofta när investerare blir osäkra om framtiden eller när de vill skydda sig mot inflation."
+        "icon": "⚡",
+        "label": "VIX ÖVER 25 - FÖRHÖJD MARKNADSORO",
+        "text": "<cite index=\"6-24\">VIX-indexet steg till 26,95 igår</cite>, vilket indikerar att investerare fortfarande är mycket nervösa trots dagens uppgång. Terminshandeln visar blandade signaler inför öppningen.",
+        "explain": "💡 VIX över 20 betyder att marknaden är orolig. Över 25 är högt - det betyder att prissättningen av optioner speglar stor osäkerhet om vart marknaderna är på väg."
       },
       {
-        "icon": "🛢️",
-        "label": "OLJA",
-        "text": "Oljan föll 1% igår och handlas runt 91 dollar per fat. Detta påverkar både inflationen och företag inom transport och industri.",
-        "explain": "💡 Lägre oljepris är bra för konsumenter men kan signalera att ekonomin växer långsammare än väntat."
+        "icon": "🇸🇪",
+        "label": "STOCKHOLM MOTSTÅNDSKRAFTIG",
+        "text": "<cite index=\"19-1\">Stockholm 30-index steg till 2934 punkter igår (+0,88%)</cite>, vilket visar att svenska aktier klarar sig relativt bra trots den globala oron. <cite index=\"12-1\">Dagens handel visar +0,79% tidigt på morgonen</cite>.",
+        "explain": "💡 Svenska företag är mindre exponerade mot Mellanöstern än amerikanska oljebolag, vilket kan förklara den relativa styrkan. Plus att kronan är svag vilket hjälper exportföretag."
       },
       {
-        "icon": "📋",
-        "label": "RAPPORTER",
-        "text": "Få stora rapporter väntas idag med undantag för några amerikanska företag. Marknaden saknar stora nyheter att reagera på.",
-        "explain": "💡 När inga stora nyheter finns brukar börsen röra sig mindre eftersom investerare väntar på ny information."
+        "icon": "🏗️",
+        "label": "BOLIDEN STOPPAS AV GRUVPROBLEM",
+        "text": "<cite index=\"31-3,31-4\">Boliden tvingades stoppa produktionen i Garpenberggruvan på grund av seismisk aktivitet efter att fyra personer skadades i ett ras</cite>. <cite index=\"33-9,33-19\">Analytiker bedömer att stoppet kostar 150 miljoner kronor per vecka</cite>.",
+        "explain": "💡 Garpenberg står för en tredjedel av Bolidens vinst, så detta påverkar kvartalsresultatet. Men bolaget har bra säkerhetsmarginaler och gruvan förväntas öppna igen inom kort."
       }
     ],
     "analyst": [
       {
         "icon": "📊",
-        "label": "TERMINSANALYS",
-        "text": "S&P 500-terminerna visar neutral inställning på 6641 punkter mot gårdagens stängning på 656,82. Volymerna förväntas låga med begränsad volatilitet.",
-        "explain": "💡 Skillnaden i siffror tyder på olika kontraktsspecifikationer - fokusera på den procentuella förändringen."
+        "label": "TERMINSMARKNADEN SIGNALERAR TVEKAN",
+        "text": "<cite index=\"4-16,4-17\">Importpriserna steg 1,3% i februari (väntat 0,6%) och exportpriserna 1,5%</cite>, vilket skapar inflationstryck som begränsar Fed:s manöverutrymme även om Iran-situationen stabiliseras."
       },
       {
-        "icon": "🔍",
-        "label": "SEKTORROTATION",
-        "text": "Guldets kraftiga uppgång på 3,01% till 416,29 signalerar flight-to-quality medan oljans nedgång på 1% till 113,39 indikerar efterfrågeoro.",
-        "explain": "💡 Kombinationen tyder på defensiv positionering inför potentiella makroekonomiska utmaningar."
+        "icon": "⚫",
+        "label": "RÅVARUMARKNADEN I VÄNTELÄGE",
+        "text": "<cite index=\"26-3,26-4\">Brent-olja handlas över $100 jämfört med pre-krig $65, men föll efter rapporter om fredsplan</cite>. <cite index=\"2-21,2-22\">Guld upp $145 till $4547, Bitcoin +$1101 till $71669</cite> visar flight-to-quality även med fredshopp."
+      },
+      {
+        "icon": "🇸🇪",
+        "label": "BOLIDEN TESTAR TEKNISK SUPPORT",
+        "text": "<cite index=\"33-18,33-19\">Garpenberg genererar ~7 miljarder i EBIT (1/3 av koncernen), med 150 miljoner per vecka i förlust under stoppet</cite>. <cite index=\"36-8,36-9\">Trots detta höjer Boliden investeringsprognosen till 15,5 miljarder 2026 och planerar 4 miljarders satsning på nytt schakt</cite>."
       },
       {
         "icon": "📈",
-        "label": "TEKNISK NIVÅ",
-        "text": "Bitcoin fortsätter stark trend upp 1,34% till 71004,82, närmar sig tidigare toppar. Risk-on sentiment blandas med safe-haven-köp i guld.",
-        "explain": "💡 Denna divergens mellan riskfyllda och säkra tillgångar skapar korrelationsbrott att följa."
-      },
-      {
-        "icon": "📋",
-        "label": "EARNINGS",
-        "text": "FAT med EPS-estimat -3,1916 och FUL med +0,5607 ger spridda sektorinsikter. Låg rapportaktivitet begränsar marknadsrörelser.",
-        "explain": "💡 Fokusera på guidancekommentarer snarare än siffror i denna rapportcykel."
+        "label": "TEKNISKA NIVÅER I FOKUS",
+        "text": "<cite index=\"8-25,8-26\">S&P 500 testade men höll inte 200-dagars MA på 6624, Nasdaq långt från sin 200-MA på 22261</cite>. Hållbara stängningar över dessa nivåer krävs för att bekräfta trendvändning från den geopolitiska nedgången."
       }
     ],
     "pension": [
       {
         "icon": "🌱",
-        "label": "DIVERSIFIERING",
-        "text": "Guldets kraftiga uppgång visar värdet av att ha ädelmetaller i pensionsportföljen. En liten allokering kan ge skydd när aktierna stagnerar.",
-        "tip": "💡 Överväg 5-10% guldexponering genom fonder för långsiktig portföljstabilitet."
+        "label": "PENSIONSFONDER GYNNAS AV RÅVARUTURBULENS",
+        "text": "AP7 Såfa och AMF:s aktiefonder har stor exponering mot svenska råvaruaktier som Boliden, SSAB och Sandvik. Höga metallpriser från Iran-krisen kompenserar för enskilda produktionsproblem.",
+        "tip": "💡 Diversifierade pensionsfonder klarar sektorspecifika problem bättre än enskilda aktieinnehav. Automatisk månadsinsättning fortsätter investera när priserna svänger."
       },
       {
-        "icon": "🏭",
-        "label": "SEKTORBALANS",
-        "text": "Med oljan ned och guld upp bör pensionssparare se över sina sektorvikter. Energisektorn kan vara övervärd medan defensiva sektorer lockar.",
-        "tip": "💡 Använd automatisk ombalansering för att sälja högt och köpa lågt systematiskt."
+        "icon": "💎",
+        "label": "GULD STÄRKER DEFENSIVA PORTFÖLJER",
+        "text": "<cite index=\"2-21\">Gulds rekordstigning till $4547 (+$145 idag)</cite> gynnar pensionsfonders ädelmetallsexponering via råvarufonder och guldgruveaktier. Inflation och geopolitik driver efterfrågan.",
+        "tip": "💡 Pensionssparare med global mix får automatisk hedging mot krig och inflation. Guld i portföljen betalas sig när allt annat faller."
       },
       {
         "icon": "🔄",
-        "label": "DOLLARKOSTAVERAGE",
-        "text": "I stillsamma marknader som denna fungerar månadssparande optimalt. Låg volatilitet gör att köpen sprids jämnt över tiden.",
-        "tip": "💡 Öka dina månatliga insättningar när marknaden är lugn för att maximera långsiktiga avkastningen."
+        "label": "REBALANSERING SKAPAR MÖJLIGHETER",
+        "text": "<cite index=\"19-1\">Stockholmsbörsens relativa styrka (+0,88% igår)</cite> mot USA skapar automatiska rebalanseringsmöjligheter när pensionsfonder justerar globalfördelning.",
+        "tip": "💡 Pensionsfonders kvartalsrebalansering köper det som fallit mest - just nu är det amerikanska tillväxtaktier som blivit billigare under geopolitisk oro."
       },
       {
-        "icon": "📱",
-        "label": "TEKNIKEXPONERING",
-        "text": "Bitcoins uppgång påminner om vikten av att ha viss exponering mot digitala tillgångar. Pensionssparare bör överväga kryptofonder.",
-        "tip": "💡 Begränsa kryptoexponering till max 5% av portföljen för kontrollerad risk med tillväxtpotential."
+        "icon": "⚡",
+        "label": "VOLATILITET PÅVERKAR PENSIONSVAL",
+        "text": "<cite index=\"6-24\">VIX över 26 betyder att kortsiktiga svängningar blir större</cite>, men pensionssparare med 20+ års horisont kan se det som rabattillfällen snarare än risk.",
+        "tip": "💡 Om du är över 50: överväg att flytta från aktiefonder till räntefonder när VIX är högt. Under 40 år: fortsätt spara i aktier - volatiliteten jämnas ut över tid."
       }
     ],
     "sources": [
-      "Terminsdata pre-market",
-      "Stängningskurser 24 mars",
-      "Rapportkalender idag",
-      "Makroekonomisk kalender"
+      "Bloomberg",
+      "CNBC",
+      "Al Jazeera",
+      "Time",
+      "Dagens Industri",
+      "EFN",
+      "Trading Economics",
+      "Yahoo Finance"
     ]
   }
 }
