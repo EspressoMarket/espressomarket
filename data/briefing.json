@@ -1,92 +1,121 @@
 {
-  "generated": "2026-03-25T09:16:55.228293",
+  "generated": "2026-03-25T17:57:09.755927",
   "quotes": {
     "S&P 500": {
-      "price": 0,
-      "change": 0
+      "price": 657.5,
+      "change": 0.66
     },
     "NASDAQ": {
-      "price": 0,
-      "change": 0
+      "price": 588.56,
+      "change": 0.78
     },
     "OMX30": {
       "price": 0,
       "change": 0
     },
     "BTC/USD": {
-      "price": 71357.5,
-      "change": 0.69
+      "price": 70782.15,
+      "change": 2.41
     },
     "OIL": {
-      "price": 0,
-      "change": 0
+      "price": 112.57,
+      "change": -1.72
     },
     "GULD": {
-      "price": 0,
-      "change": 0
+      "price": 417.9,
+      "change": 3.41
     }
   },
   "briefing": {
-    "headline": "Sveriges marknad väntar på uppgång trots utmaningar",
+    "headline": "Guld tappar efter Iran-krig medan Bitcoin stiger kraftigt",
     "date": "Wednesday 25 March 2026",
     "beginner": [
       {
         "icon": "📈",
-        "label": "SVENSKA BÖRSEN",
-        "text": "Storbankerna spår fortsatt uppgång för Stockholmsbörsen 2026 med tvåsiffrig utveckling. <cite index=\"2-3,2-4\">Samtliga storbanker spår en fortsatt uppgång på Stockholmsbörsen nästa år. Swedbank, Nordea och SEB räknar alla med en tvåsiffrig utveckling för storbolagsindex – drivet av stark vinsttillväxt och ekonomisk återhämtning.</cite>",
-        "explain": "💡 När stora banker som Swedbank och Nordea är överens om positiv utveckling tyder det på stark tilltro till svenska företags framtid."
+        "label": "MARKNAD",
+        "text": "<cite index=\"11-6,11-7\">Guldpriset föll närmare 3 procent och bröt under sitt 50-dagars glidande medelvärde för första gången sedan augusti 2025. Den remarkabelt starka uppåtgående trenden för guld går därmed mot att brytas.</cite>",
+        "explain": "💡 När guld bryter tekniska nivåer signalerar det att investerare börjar tappa förtroendet för metallen som säker hamn."
       },
       {
         "icon": "💰",
-        "label": "STATENS EKONOMI",
-        "text": "Staten förväntas få underskott på 172 miljarder kronor 2026. <cite index=\"1-1\">Den största försämringen sker i staten, där de omfattande utgiftsökningarna och skattesänkningarna i budgetpropositionen för 2026 bidrar till ett underskott på 172 miljarder kronor.</cite>",
-        "explain": "💡 Statens underskott betyder att regeringen spenderar mer än den får in i skatter, vilket kan påverka framtida ekonomisk politik."
-      },
-      {
-        "icon": "₿",
         "label": "BITCOIN",
-        "text": "Bitcoin handlas runt 71 000 dollar och analyshuset Bernstein tror att botten är passerad. <cite index=\"11-1,11-2\">Bitcoin handlas ned 2,5 procent till 69 797 dollar, men på en månads sikt är valutan upp 10 procent. Stora investerare köper på sig, och analyshuset Bernstein tror att botten är passerad.</cite>",
-        "explain": "💡 När stora investerare köper Bitcoin under nedgångar kan det signalera att de ser värdet som attraktivt på nuvarande nivåer."
+        "text": "<cite index=\"11-14,12-2,12-6\">Bitcoin har stigit cirka 13 procent sedan Iran-konflikten bröt ut och är upp 8% sedan kriget startade 28 februari, medan S&P 500 och guld båda är ner mer än 3%.</cite>",
+        "explain": "💡 Bitcoin beter sig nu annorlunda än tidigare under geopolitiska kriser, vilket visar på ökad institutionell adoption."
       },
       {
-        "icon": "🏦",
-        "label": "MEST HANDLADE",
-        "text": "Swedbank var mest köpt aktie förra veckan enligt Swedbanks kundstatistik. <cite index=\"7-13\">Den mest köpta aktien förra veckan var Swedbank.</cite> H&M såldes mest.",
-        "explain": "💡 Att många privatpersoner köper bankaktier kan tyda på tilltro till finanssektorns stabilitet och framtida lönsamhet."
+        "icon": "🛢️",
+        "label": "ENERGI",
+        "text": "<cite index=\"13-13,13-14\">Brent-oljan har klättrat till omkring 114 dollar per fat vilket höjer inflationsförväntningarna och minskar sannolikheten för Fed-räntesänkningar.</cite>",
+        "explain": "💡 Höga oljepriser driver inflation, vilket tvingar centralbanker att hålla räntor höga längre än planerat."
+      },
+      {
+        "icon": "📊",
+        "label": "AKTIER",
+        "text": "<cite index=\"13-1,13-6\">S&P 500 stängde på 6506.48, årets lägsta nivå, och föll till 6473.52 under sessionen - första gången under 6500 sedan september 2025.</cite>",
+        "explain": "💡 Amerikanska aktier pressas av högre energipriser och geopolitisk osäkerhet, vilket gör investerare mer försiktiga."
       }
     ],
     "analyst": [
       {
         "icon": "📊",
-        "label": "TEKNISK ANALYS BTC",
-        "text": "<cite index=\"16-1,16-2\">Bitcoin förväntas handlas mellan 71 856-78 693 dollar denna vecka. Bitcoin kommer öka med 9,52% och nå 78 693 dollar före mars utgång om det når högre målnivån.</cite>",
-        "explain": ""
+        "label": "TEKNISK ANALYS",
+        "text": "<cite index=\"11-8,11-9\">Guldfallet bröt kursen till lägsta nivån på en månad, knappt 2% under medelvärdet. Historiskt har liknande trendbrott följts av ytterligare nedgångar på 4,5% i genomsnitt under efterföljande månaden.</cite>",
+        "explain": "💡 Tekniska indikatorer tyder på fortsatt press nedåt för guld kommande veckor."
       },
       {
-        "icon": "⚡",
-        "label": "SEKTOR ROTATION",
-        "text": "<cite index=\"3-5,3-7\">Förvaltarna har ökat exponeringen mot bolag inom AI, halvledare och industri. Den mest slående förändringen finns i teknikfonderna.</cite> Tydlig omallokering pågår.",
-        "explain": ""
+        "icon": "💎",
+        "label": "KRYPTO DECOUPLING",
+        "text": "<cite index=\"13-27,13-28\">Bitcoin är nu i sin längsta period av decoupling från S&P 500 sedan 2020, medan aktiemarknaden hållit sig relativt stark delar av slutet av 2025.</cite>",
+        "explain": "💡 Bitcoins oberoende rörelser från aktier kan signalera mognad som tillgångsklass eller föregå bredare marknadsrörelser."
       },
       {
         "icon": "🎯",
-        "label": "STOCKHOLM PROGNOS",
-        "text": "<cite index=\"4-12,4-13\">Förutsättningarna för Stockholmsbörsen ser goda ut med stöd av en återhämtning för vinsttillväxten, inte minst drivet av en inhemsk ekonomi som ligger tidigt i återhämtningsfasen. Värderingarna är dessutom på rimliga nivåer.</cite>",
-        "explain": ""
+        "label": "PRISPROGNOSER",
+        "text": "<cite index=\"11-12\">Trots trendbrottet håller storbankerna fast vid höga riktkurser: JP Morgan förutspår 6300 dollar per uns före årets slut, medan BNP Paribas och UBS siktar på 6000 respektive 6200 dollar.</cite>",
+        "explain": "💡 Institutionella prognoser förblir optimistiska för guld långsiktigt trots kortsiktig svaghet."
       },
       {
-        "icon": "🌍",
-        "label": "GEOPOLITISK RISK",
-        "text": "<cite index=\"4-4\">De historiskt höga värderingarna i den amerikanska AI-sektorn, en fortsatt osäker konjunktur i USA och ett skört geopolitiskt läge gör att börsen kan gå mot ett år med större svängningar.</cite>",
-        "explain": ""
+        "icon": "⚡",
+        "label": "VOLATILITET",
+        "text": "<cite index=\"13-20,13-21\">Analyst Tony Severino varnar att Bitcoins tidigare korrelationsrecovery med S&P 500 ofta följts av bredare nedgångar, vilket kan vara en varning för fortsatt svaghet.</cite>",
+        "explain": "💡 Korrelationsmönster mellan tillgångar kan förutspå framtida marknadsrörelser och riskhantering."
+      }
+    ],
+    "pension": [
+      {
+        "icon": "🌱",
+        "label": "AP7 UTVECKLING",
+        "text": "<cite index=\"30-1,30-13\">AP7 Aktiefond backade 1% i januari 2026 och inleder året negativt efter 4% uppgång under 2025. Fondens inbyggda hävstång förstärker både uppgångar och nedgångar.</cite>",
+        "tip": "💡 AP7 Såfa justerar automatiskt risk efter ålder - yngre sparare påverkas mer av marknadsvolatilitet men har tid att återhämta sig."
+      },
+      {
+        "icon": "💼",
+        "label": "PPM MARKNADEN",
+        "text": "<cite index=\"30-9,30-24\">PPM-systemets genomsnittliga avkastning var 4,4% under 2025, betydligt lägre än föregående års 23,4%. Marknadsvärdet uppgick till 2830 miljarder kronor vid slutet på januari 2026.</cite>",
+        "tip": "💡 Efter starka år kommer naturligt svagare perioder - viktigt att hålla långsiktigt perspektiv på pensionssparandet."
+      },
+      {
+        "icon": "🔄",
+        "label": "RISKJUSTERING",
+        "text": "<cite index=\"27-17,27-19\">Från 56 års ålder får sparare gradvis större del räntor i AP7 Såfa-portföljen när delar placeras i AP7 Räntefond för tryggare sparande närmare pensionen.</cite>",
+        "tip": "💡 Den automatiska riskjusteringen i AP7 Såfa skyddar äldre sparare från större förluster under marknadsvolatilitet."
+      },
+      {
+        "icon": "🎯",
+        "label": "LÅNGSIKTIGT FOKUS",
+        "text": "<cite index=\"27-8\">Eftersom pensionen är långsiktigt sparande är globala aktiefonder med låga avgifter ett bra sparalternativ som sprider risk över världens marknader.</cite>",
+        "tip": "💡 Kortsiktig volatilitet spelar mindre roll för pensionssparande - fokusera på låga avgifter och global diversifiering för bäst långsiktig avkastning."
       }
     ],
     "sources": [
-      "Statskontoret.se",
-      "EFN.se",
-      "Placera.se",
-      "Morningstar.com",
-      "Börskollen.se"
+      "Börskollen.se",
+      "CNBC",
+      "Coinpaper.com",
+      "Invezz.com",
+      "Dagens PS",
+      "AP7.se",
+      "InvestoRunner.com",
+      "Morningstar Sverige"
     ]
   }
 }
