@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-25T21:53:43.733314",
+  "generated": "2026-03-25T22:06:41.456642",
   "quotes": {
     "OMX30": {
       "price": 2943.35,
@@ -26,8 +26,8 @@
       "change": 0.0
     },
     "BTC/USD": {
-      "price": 71024.72,
-      "change": 1.15
+      "price": 71075.12,
+      "change": 1.13
     }
   },
   "futures": {
@@ -40,8 +40,8 @@
       "change": 0.0
     },
     "DAX Futures": {
-      "price": 0,
-      "change": 0
+      "price": 22957.08,
+      "change": 0.0
     },
     "Olja (WTI)": {
       "price": 91.29,
@@ -57,91 +57,92 @@
     }
   },
   "briefing": {
-    "headline": "Marknader studsar på Iran-fredshopp trots avslag",
+    "headline": "Aktiestup när Iran avvisar Trumps fredsplan",
     "date": "Wednesday 25 March 2026",
     "beginner": [
       {
         "icon": "📈",
-        "label": "BÖRSEN STUDSAR PÅ FREDSHOPP",
-        "text": "<cite index=\"2-2,2-16\">S&P 500 steg 0,75% och olja föll $4 till $88 efter att Trump skickade Iran en 15-punktsplan för fred</cite>. <cite index=\"22-1,24-1\">Iran avvisade dock förslaget och ställde egna krav på krigsersättning och kontroll över Hormuzsundet</cite>.",
-        "explain": "💡 När diplomatiska hopp finns faller oljepriset (mindre risk för störningar) och aktier stiger eftersom investerare tror på lägre inflation. Men avslaget visar att fred inte är nära."
+        "label": "BÖRSEN STUDSAR PÅ FREDSHOPPNING",
+        "text": "Amerikanska terminser upp 1% över natten och OMX Stockholm öppnade +0,9% efter att Trump skickat 15-punktsplan för vapenvila med Iran. Marknaden hoppas på avspänning i Mellanöstern.",
+        "explain": "💡 Även om Iran sagt nej så pumpas aktier på bara hopp om fred - kriget har gjort oljan dyr vilket höjer inflationen och skrämmer investerare."
       },
       {
-        "icon": "⚡",
-        "label": "VIX ÖVER 25 - FÖRHÖJD MARKNADSORO",
-        "text": "<cite index=\"6-24\">VIX-indexet steg till 26,95 igår</cite>, vilket indikerar att investerare fortfarande är mycket nervösa trots dagens uppgång. Terminshandeln visar blandade signaler inför öppningen.",
-        "explain": "💡 VIX över 20 betyder att marknaden är orolig. Över 25 är högt - det betyder att prissättningen av optioner speglar stor osäkerhet om vart marknaderna är på väg."
+        "icon": "⛽",
+        "label": "OLJA FALLER TROTS IRANSKT NEJ",
+        "text": "Oljan ner till $88 (-$4) från över $92 då Trump pausat bombhot i 5 dagar för fredssamtal. Iran avvisade amerikansk plan men vill förhandla via Pakistan.",
+        "explain": "💡 Lägre oljepris betyder billigare bensin och mindre oro för inflation - bra för ekonomin även om kriget fortsätter."
       },
       {
-        "icon": "🇸🇪",
-        "label": "STOCKHOLM MOTSTÅNDSKRAFTIG",
-        "text": "<cite index=\"19-1\">Stockholm 30-index steg till 2934 punkter igår (+0,88%)</cite>, vilket visar att svenska aktier klarar sig relativt bra trots den globala oron. <cite index=\"12-1\">Dagens handel visar +0,79% tidigt på morgonen</cite>.",
-        "explain": "💡 Svenska företag är mindre exponerade mot Mellanöstern än amerikanska oljebolag, vilket kan förklara den relativa styrkan. Plus att kronan är svag vilket hjälper exportföretag."
+        "icon": "📊",
+        "label": "VIX ÖVER 25 VISAR FORTFARANDE ORO",
+        "text": "VIX volatilitetsindex på 25,3 (över 20 = förhöjd oro) trots börsuppgången. Investerare fortfarande nervösa för krigsutvecklingen och inflationshot.",
+        "explain": "💡 VIX mäter rädsla på börsen - över 20 betyder stress, över 30 panik. Vi är mitt emellan så marknaden är spänd."
       },
       {
-        "icon": "🏗️",
-        "label": "BOLIDEN STOPPAS AV GRUVPROBLEM",
-        "text": "<cite index=\"31-3,31-4\">Boliden tvingades stoppa produktionen i Garpenberggruvan på grund av seismisk aktivitet efter att fyra personer skadades i ett ras</cite>. <cite index=\"33-9,33-19\">Analytiker bedömer att stoppet kostar 150 miljoner kronor per vecka</cite>.",
-        "explain": "💡 Garpenberg står för en tredjedel av Bolidens vinst, så detta påverkar kvartalsresultatet. Men bolaget har bra säkerhetsmarginaler och gruvan förväntas öppna igen inom kort."
+        "icon": "🏭",
+        "label": "BOLIDEN VINSTVARNAR EFTER GRUVRAS",
+        "text": "Boliden meddelar ikväll att Garpenberggruvan, som stod för 1/3 av vinsten, bara kommer köra 30% produktion efter seismisk aktivitet. Vinstvarning utfärdad.",
+        "explain": "💡 När företag sänker vinstprognoser faller ofta aktiekursen - Garpenberg är Bolidens viktigaste gruva så det slår hårt mot resultatet."
       }
     ],
     "analyst": [
       {
-        "icon": "📊",
-        "label": "TERMINSMARKNADEN SIGNALERAR TVEKAN",
-        "text": "<cite index=\"4-16,4-17\">Importpriserna steg 1,3% i februari (väntat 0,6%) och exportpriserna 1,5%</cite>, vilket skapar inflationstryck som begränsar Fed:s manöverutrymme även om Iran-situationen stabiliseras."
+        "icon": "💹",
+        "label": "FUTURES SIGNALERAR STARK ÖPPNING",
+        "text": "<cite index=\"2-1,4-2,4-16\">S&P 500-futures +1%, Nasdaq +1%, Dow +0,77%</cite> efter <cite index=\"6-4,6-7\">rapporter om Trumps 15-punkts fredsplan till Iran via Pakistan</cite>. <cite index=\"15-1\">OMX Stockholm 30 +0,88% till 2934 punkter</cite> i linje med global riskaptit.",
+        "text2": "<cite index=\"4-20,4-21\">WTI-olja -$4 till $88,48, guld +$145 till $4,547</cite> då geopolitisk premie minskar på diplomatihopp."
       },
       {
-        "icon": "⚫",
-        "label": "RÅVARUMARKNADEN I VÄNTELÄGE",
-        "text": "<cite index=\"26-3,26-4\">Brent-olja handlas över $100 jämfört med pre-krig $65, men föll efter rapporter om fredsplan</cite>. <cite index=\"2-21,2-22\">Guld upp $145 till $4547, Bitcoin +$1101 till $71669</cite> visar flight-to-quality även med fredshopp."
+        "icon": "🤖",
+        "label": "TECH RALLYE LEDD AV ARM",
+        "text": "<cite index=\"5-5,6-18,6-21\">Arm Holdings +16% efter lansering av egen CPU-chip, Raymond James uppgraderar till Outperform med riktkurs $166</cite>. <cite index=\"7-15\">Intel +7%, AMD +5% på AI-optimism och prisökningar</cite>.",
+        "text2": "<cite index=\"5-1\">Braze +21% på 28% intäktsökning Q4, nådde $800M ARR</cite>. <cite index=\"5-15,5-16\">Merck förvärvar Terns Pharmaceuticals för $6,7 miljarder</cite>."
       },
       {
-        "icon": "🇸🇪",
-        "label": "BOLIDEN TESTAR TEKNISK SUPPORT",
-        "text": "<cite index=\"33-18,33-19\">Garpenberg genererar ~7 miljarder i EBIT (1/3 av koncernen), med 150 miljoner per vecka i förlust under stoppet</cite>. <cite index=\"36-8,36-9\">Trots detta höjer Boliden investeringsprognosen till 15,5 miljarder 2026 och planerar 4 miljarders satsning på nytt schakt</cite>."
+        "icon": "🌍",
+        "label": "IMPORT/EXPORTDATA VISAR INFLATIONSTRYCK",
+        "text": "<cite index=\"6-26,6-27\">USA import +1,3% i februari (väntat 0,6%), export +1,5%</cite>. <cite index=\"6-29,6-30\">Data pekar på pipeline-inflation, importpriser högst sedan mars 2022</cite> när CPI nådde 9%.",
+        "text2": "<cite index=\"1-3\">Fed indikerat bara en räntesänkning 2026</cite> vilket begränsar stimulansmöjligheter vid konjunkturnedgång."
       },
       {
-        "icon": "📈",
-        "label": "TEKNISKA NIVÅER I FOKUS",
-        "text": "<cite index=\"8-25,8-26\">S&P 500 testade men höll inte 200-dagars MA på 6624, Nasdaq långt från sin 200-MA på 22261</cite>. Hållbara stängningar över dessa nivåer krävs för att bekräfta trendvändning från den geopolitiska nedgången."
+        "icon": "⛏️",
+        "label": "BOLIDEN PRODUKTIONSRAS SKAKAR RÅVAROR",
+        "text": "<cite index=\"41-1,41-2,41-5\">Garpenberg stoppade 14 mars efter seismisk aktivitet, produktion återstartar Q2 på bara 100 kton/månad (~30% normal nivå)</cite>. <cite index=\"43-13\">Gruvan genererade 4,4 av 13,2 miljarder i rörelseresultat 2025</cite>.",
+        "text2": "<cite index=\"41-4,41-6\">Årlig produktion osäker, möjlig ökning H2 men Lappberget-delen stängd hela 2026</cite>. Betydande påverkan på zinktillgång globalt."
       }
     ],
     "pension": [
       {
-        "icon": "🌱",
-        "label": "PENSIONSFONDER GYNNAS AV RÅVARUTURBULENS",
-        "text": "AP7 Såfa och AMF:s aktiefonder har stor exponering mot svenska råvaruaktier som Boliden, SSAB och Sandvik. Höga metallpriser från Iran-krisen kompenserar för enskilda produktionsproblem.",
-        "tip": "💡 Diversifierade pensionsfonder klarar sektorspecifika problem bättre än enskilda aktieinnehav. Automatisk månadsinsättning fortsätter investera när priserna svänger."
-      },
-      {
-        "icon": "💎",
-        "label": "GULD STÄRKER DEFENSIVA PORTFÖLJER",
-        "text": "<cite index=\"2-21\">Gulds rekordstigning till $4547 (+$145 idag)</cite> gynnar pensionsfonders ädelmetallsexponering via råvarufonder och guldgruveaktier. Inflation och geopolitik driver efterfrågan.",
-        "tip": "💡 Pensionssparare med global mix får automatisk hedging mot krig och inflation. Guld i portföljen betalas sig när allt annat faller."
-      },
-      {
-        "icon": "🔄",
-        "label": "REBALANSERING SKAPAR MÖJLIGHETER",
-        "text": "<cite index=\"19-1\">Stockholmsbörsens relativa styrka (+0,88% igår)</cite> mot USA skapar automatiska rebalanseringsmöjligheter när pensionsfonder justerar globalfördelning.",
-        "tip": "💡 Pensionsfonders kvartalsrebalansering köper det som fallit mest - just nu är det amerikanska tillväxtaktier som blivit billigare under geopolitisk oro."
+        "icon": "🏦",
+        "label": "DEFENSIV OMALLOKERING I OROSTIDER",
+        "text": "<cite index=\"15-1,15-2\">Svensk börs upp 0,9% idag men -8,5% senaste månaden</cite> visar volatilitet. AP7 och AMF troligen ökar obligationsandel när VIX över 25.",
+        "tip": "💡 Turbulenta tider - överväg att inte göra stora aktieköp förrän VIX under 20 och geopolitisk oro minskar."
       },
       {
         "icon": "⚡",
-        "label": "VOLATILITET PÅVERKAR PENSIONSVAL",
-        "text": "<cite index=\"6-24\">VIX över 26 betyder att kortsiktiga svängningar blir större</cite>, men pensionssparare med 20+ års horisont kan se det som rabattillfällen snarare än risk.",
-        "tip": "💡 Om du är över 50: överväg att flytta från aktiefonder till räntefonder när VIX är högt. Under 40 år: fortsätt spara i aktier - volatiliteten jämnas ut över tid."
+        "label": "ENERGIAKTIER MIXADE SIGNALER",
+        "text": "<cite index=\"4-20\">Olja ner $4 på diplomatihopp</cite> men <cite index=\"22-16\">från $65 före kriget till över $100</cite> ger fortfarande starka marginaler för energibolag. Svenska pensionsfonder har exponering via Equinor, Shell.",
+        "tip": "💡 Energiaktier kan falla snabbt på fredsnyheter - håll koll på geopolitisk utveckling närmaste veckorna."
+      },
+      {
+        "icon": "🏭",
+        "label": "RÅVARUSEKTORN PRESSAS AV BOLIDEN",
+        "text": "<cite index=\"43-13,41-5\">Bolidens vinstvarning efter produktionsstopp i gruva som stod för 1/3 av vinsten</cite>. Påverkar svenska pensionsportföljer via direktägande och OMXS30-fonder.",
+        "tip": "💡 Gruvbolag har operativ risk - diversifiera råvaruexponering över flera länder och metaller, inte bara nordiska gruvor."
+      },
+      {
+        "icon": "💰",
+        "label": "DOLLARDOMINANS PÅVERKAR FONDER",
+        "text": "<cite index=\"4-21,4-22\">Stark dollar med Bitcoin +$1,101 till $71,669</cite> och <cite index=\"6-1,6-2\">USA-index upp 0,54-0,77%</cite>. Amerikanska innehav i AP7/AMF gynnas av dollarstyrka.",
+        "tip": "💡 Valutasäkrade fonder kan missa dollarkursvinstser - överväg om din USA-exponering ska vara valutasäkrad eller inte."
       }
     ],
     "sources": [
-      "Bloomberg",
-      "CNBC",
+      "CNBC Markets",
+      "Yahoo Finance",
       "Al Jazeera",
-      "Time",
-      "Dagens Industri",
-      "EFN",
-      "Trading Economics",
-      "Yahoo Finance"
+      "Bloomberg",
+      "Dagens Industri"
     ]
   }
 }
