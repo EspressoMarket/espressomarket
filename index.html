@@ -710,7 +710,7 @@ async function handleSub(level){
   const inp=document.getElementById('email-'+level),suc=document.getElementById('success-'+level);
   if(!inp.value||!inp.value.includes('@')){inp.style.borderColor='var(--red)';setTimeout(()=>inp.style.borderColor='',1000);return;}
   try{
-    const res=await fetch('/.netlify/functions/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:inp.value})});
+    const res=await fetch('/.netlify/functions/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:inp.value, niva: level})});
     if(res.ok){suc.style.display='block';inp.closest('.sf').style.display='none';showToast('Välkommen till Espresso Market! ☕');}
     else{showToast('Något gick fel – försök igen.');}
   }catch(e){showToast('Något gick fel – försök igen.');}
