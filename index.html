@@ -29,7 +29,6 @@ body::after{content:'';position:fixed;inset:0;opacity:0.5;background-image:url("
 @keyframes bd{0%,100%{transform:translate(0,0) scale(1);}33%{transform:translate(30px,-20px) scale(1.05);}66%{transform:translate(-20px,30px) scale(0.95);}}
 .glass{background:var(--glass);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid var(--glass-border);border-radius:var(--r-lg);}
 .glass-sm{background:var(--glass);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid var(--glass-border);border-radius:var(--r-md);}
-
 nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:13px 44px;display:flex;align-items:center;justify-content:space-between;transition:all 0.4s;}
 nav.scrolled{background:rgba(26,18,8,0.82);backdrop-filter:blur(24px);border-bottom:1px solid var(--glass-border);}
 .nav-logo{display:flex;align-items:center;gap:10px;font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:700;color:var(--cream);cursor:pointer;letter-spacing:0.02em;}
@@ -58,8 +57,6 @@ nav.scrolled{background:rgba(26,18,8,0.82);backdrop-filter:blur(24px);border-bot
 .ticker-item{display:flex;align-items:center;gap:7px;padding:0 24px;font-family:'DM Mono',monospace;font-size:0.7rem;border-right:1px solid var(--glass-border);white-space:nowrap;}
 .tn{color:var(--muted);}.up{color:var(--green);}.down{color:var(--red);}
 @keyframes tick{0%{transform:translateX(0);}100%{transform:translateX(-50%);}}
-
-/* MAIN */
 .main-hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:110px 20px 60px;position:relative;}
 .main-hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse 70% 60% at 50% 60%,rgba(107,61,30,0.25) 0%,transparent 70%);}
 .main-hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2.8rem,7.5vw,6rem);font-weight:700;line-height:0.95;color:var(--cream);position:relative;z-index:1;}
@@ -89,23 +86,17 @@ nav.scrolled{background:rgba(26,18,8,0.82);backdrop-filter:blur(24px);border-bot
 .lc.ana .lcta{background:linear-gradient(135deg,var(--latte),var(--gold));color:#1a1208;}
 .lc.pen .lcta{background:linear-gradient(135deg,rgba(91,191,138,0.3),rgba(91,191,138,0.5));color:var(--cream);}
 .lfb{position:absolute;top:13px;right:13px;background:var(--gold-dim);border:1px solid rgba(212,165,90,0.3);color:var(--gold);font-family:'DM Mono',monospace;font-size:0.55rem;padding:2px 8px;border-radius:var(--r-xl);}
-
-/* INNER PAGES */
 .inner{min-height:100vh;padding:96px 44px 70px;max-width:920px;margin:0 auto;}
 .lvl-badge{display:inline-flex;align-items:center;gap:7px;padding:5px 14px;border-radius:var(--r-xl);font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:18px;}
 .inner h1{font-family:'Cormorant Garamond',serif;font-size:clamp(1.9rem,4.5vw,3.3rem);font-weight:700;color:var(--cream);line-height:1.05;margin-bottom:12px;}
 .inner h1 em{font-style:italic;}
 .inner > p{color:var(--muted);font-size:0.93rem;line-height:1.75;max-width:480px;}
-
-/* SUBSCRIBE */
 .sf-wrap{margin-top:26px;display:flex;flex-direction:column;align-items:center;gap:8px;position:relative;z-index:1;}
 .sf{display:flex;width:100%;max-width:400px;background:rgba(255,240,215,0.08);backdrop-filter:blur(16px);border:1px solid var(--glass-border);border-radius:var(--r-xl);overflow:hidden;padding:4px 4px 4px 16px;gap:7px;align-items:center;}
 .sf input{flex:1;background:none;border:none;color:var(--text);font-family:'DM Sans',sans-serif;font-size:0.85rem;outline:none;}
 .sf input::placeholder{color:var(--muted);}
 .sn{font-size:0.7rem;color:var(--muted);}
 .ss{display:none;font-size:0.86rem;}
-
-/* BRIEFING */
 .bw{margin-top:26px;}
 .bh{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;}
 .bl{font-family:'DM Mono',monospace;font-size:0.61rem;letter-spacing:0.16em;text-transform:uppercase;display:flex;align-items:center;gap:6px;}
@@ -143,8 +134,6 @@ nav.scrolled{background:rgba(26,18,8,0.82);backdrop-filter:blur(24px);border-bot
 .ci button:hover{background:linear-gradient(135deg,var(--latte),var(--gold));color:#1a1208;}
 .bf{margin-top:13px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:7px;}
 .bsrc{font-family:'DM Mono',monospace;font-size:0.61rem;color:var(--muted);}
-
-/* MOOD */
 .mw{margin-top:12px;padding:17px 21px;}
 .mbtns{display:flex;gap:6px;margin-top:10px;}
 .mb{flex:1;padding:7px 4px;border:1px solid var(--glass-border);background:var(--glass);color:var(--muted);font-family:'DM Mono',monospace;font-size:0.68rem;cursor:pointer;transition:all 0.2s;border-radius:var(--r-md);}
@@ -158,8 +147,6 @@ nav.scrolled{background:rgba(26,18,8,0.82);backdrop-filter:blur(24px);border-bot
 .mbt{flex:1;background:rgba(255,240,215,0.08);height:5px;border-radius:999px;overflow:hidden;}
 .mbf{height:100%;border-radius:999px;transition:width 0.7s ease;}
 .mbp{color:var(--muted);min-width:30px;}
-
-/* PORTFOLIO */
 .pp{margin-top:26px;padding:22px 24px;}
 .pp-hdr{display:flex;align-items:center;gap:11px;margin-bottom:16px;}
 .pp-icon{font-size:1.4rem;}
@@ -190,167 +177,16 @@ nav.scrolled{background:rgba(26,18,8,0.82);backdrop-filter:blur(24px);border-bot
 .pp-sum-title{font-family:'DM Mono',monospace;font-size:0.6rem;color:var(--gold);letter-spacing:0.1em;margin-bottom:6px;}
 .pp-sum-text{font-size:0.8rem;color:var(--muted);line-height:1.65;}
 .pp-sum-text strong{color:var(--text);}
-
-/* COMMUNITY */
-.cp{min-height:100vh;padding:96px 44px 70px;max-width:1200px;margin:0 auto;}
-.cg{display:grid;grid-template-columns:270px 1fr;gap:18px;align-items:start;margin-top:26px;}
-.sp{display:flex;flex-direction:column;gap:12px;position:sticky;top:82px;}
-.pb{padding:19px;}
-.pt{font-family:'DM Mono',monospace;font-size:0.61rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);margin-bottom:14px;}
-.us{display:flex;gap:7px;margin-bottom:13px;flex-wrap:wrap;}
-.sc{padding:7px 12px;display:flex;align-items:center;gap:5px;font-family:'DM Mono',monospace;font-size:0.68rem;color:var(--muted);border-radius:var(--r-xl);}
-.sc strong{color:var(--cream);}
-.xpw{flex:1;min-width:150px;padding:7px 12px;border-radius:var(--r-xl);}
-.xpl{font-family:'DM Mono',monospace;font-size:0.61rem;color:var(--muted);margin-bottom:4px;display:flex;justify-content:space-between;}
-.xpl strong{color:var(--gold);}
-.xpb{height:4px;background:rgba(255,240,215,0.1);border-radius:999px;overflow:hidden;}
-.xpf{height:100%;background:linear-gradient(90deg,var(--latte),var(--gold));border-radius:999px;transition:width 0.8s ease;}
-.ua{border:1px dashed rgba(255,225,175,0.2);padding:19px 14px;text-align:center;cursor:pointer;transition:all 0.2s;margin-bottom:12px;position:relative;border-radius:var(--r-md);}
-.ua:hover{border-color:var(--gold);background:rgba(212,165,90,0.07);}
-.ua input[type=file]{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%;}
-.uai{font-size:1.4rem;margin-bottom:6px;}
-.ua p{font-size:0.75rem;color:var(--muted);line-height:1.5;}
-.ua span{color:var(--gold);}
-.fg{margin-bottom:10px;}
-.fg label{display:block;font-size:0.62rem;letter-spacing:0.09em;text-transform:uppercase;color:var(--muted);margin-bottom:5px;font-family:'DM Mono',monospace;}
-.fg input,.fg textarea{width:100%;background:rgba(255,240,215,0.06);border:1px solid var(--glass-border);color:var(--text);padding:8px 12px;font-family:'DM Sans',sans-serif;font-size:0.82rem;outline:none;transition:border-color 0.2s;resize:vertical;border-radius:var(--r-sm);}
-.fg input:focus,.fg textarea:focus{border-color:var(--gold);}
-.tr{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:12px;}
-.tg{padding:4px 10px;border:1px solid var(--glass-border);font-size:0.66rem;cursor:pointer;transition:all 0.15s;font-family:'DM Mono',monospace;color:var(--muted);border-radius:var(--r-xl);background:var(--glass);}
-.tg:hover{border-color:var(--gold);color:var(--gold);}
-.tg.sel{border-color:var(--gold);color:var(--gold);background:var(--gold-dim);}
-.sbb{width:100%;background:linear-gradient(135deg,var(--latte),var(--gold));color:#1a1208;border:none;padding:10px;font-family:'DM Sans',sans-serif;font-size:0.74rem;font-weight:500;letter-spacing:0.07em;text-transform:uppercase;cursor:pointer;transition:all 0.2s;border-radius:var(--r-xl);}
-.sbb:hover{box-shadow:0 5px 18px rgba(212,165,90,0.35);transform:translateY(-1px);}
-.pq{font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--cream);margin-bottom:10px;}
-.pbtns{display:flex;gap:6px;margin-bottom:8px;}
-.pbtn{flex:1;padding:9px;border:1px solid var(--glass-border);background:var(--glass);color:var(--muted);font-family:'DM Mono',monospace;font-size:0.72rem;cursor:pointer;transition:all 0.2s;border-radius:var(--r-md);}
-.pbtn:hover{border-color:var(--gold);color:var(--gold);background:var(--gold-dim);}
-.pbtn.voted{border-color:var(--gold);color:var(--gold);background:var(--gold-dim);}
-.pr{display:none;margin-top:3px;}
-.pbr{display:flex;align-items:center;gap:8px;margin-bottom:5px;font-family:'DM Mono',monospace;font-size:0.67rem;}
-.pbl{width:66px;color:var(--muted);}
-.pbt{flex:1;background:rgba(255,240,215,0.08);height:5px;border-radius:999px;overflow:hidden;}
-.pbf{height:100%;border-radius:999px;transition:width 0.6s ease;}
-.pbp{color:var(--muted);min-width:30px;}
-.sb{display:flex;align-items:center;gap:7px;margin-top:9px;padding:8px 11px;border-radius:var(--r-md);background:rgba(255,240,215,0.05);border:1px solid var(--glass-border);font-family:'DM Mono',monospace;font-size:0.67rem;color:var(--muted);}
-.sb strong{color:var(--gold);}
-.wlh{display:flex;justify-content:space-between;align-items:center;margin-bottom:11px;flex-wrap:wrap;gap:6px;}
-.wlt{font-family:'DM Mono',monospace;font-size:0.61rem;letter-spacing:0.13em;text-transform:uppercase;color:var(--gold);}
-.wla{display:flex;gap:5px;}
-.wla input{background:rgba(255,240,215,0.07);border:1px solid var(--glass-border);color:var(--text);padding:4px 9px;font-family:'DM Mono',monospace;font-size:0.68rem;outline:none;width:70px;text-transform:uppercase;border-radius:var(--r-sm);}
-.wla input:focus{border-color:var(--gold);}
-.wla button{background:var(--gold-dim);border:1px solid rgba(212,165,90,0.3);color:var(--gold);padding:4px 9px;font-size:0.68rem;cursor:pointer;font-family:'DM Mono',monospace;border-radius:var(--r-sm);transition:all 0.2s;}
-.wla button:hover{background:linear-gradient(135deg,var(--latte),var(--gold));color:#1a1208;}
-.wi{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:1px solid rgba(255,225,175,0.06);}
-.wi:last-child{border-bottom:none;}
-.wtk{font-family:'DM Mono',monospace;font-size:0.76rem;color:var(--cream);}
-.wch{font-family:'DM Mono',monospace;font-size:0.71rem;}
-.wrm{background:none;border:none;color:var(--muted);cursor:pointer;font-size:0.8rem;transition:color 0.15s;padding:1px 5px;border-radius:50%;}
-.wrm:hover{color:var(--red);}
-.ft{display:flex;gap:8px;margin-bottom:11px;}
-.fs{flex:1;background:var(--glass);border:1px solid var(--glass-border);color:var(--text);padding:8px 14px;font-family:'DM Sans',sans-serif;font-size:0.82rem;outline:none;transition:all 0.2s;border-radius:var(--r-xl);}
-.fs:focus{border-color:var(--gold);}
-.fs::placeholder{color:var(--muted);}
-.ffs{display:flex;gap:5px;margin-bottom:12px;flex-wrap:wrap;}
-.ff{padding:5px 13px;font-size:0.66rem;letter-spacing:0.06em;text-transform:uppercase;font-family:'DM Mono',monospace;color:var(--muted);cursor:pointer;transition:all 0.2s;background:var(--glass);border:1px solid var(--glass-border);border-radius:var(--r-xl);}
-.ff.active{color:var(--gold);background:var(--gold-dim);border-color:rgba(212,165,90,0.3);}
-.feed{display:flex;flex-direction:column;gap:9px;}
-.pc{padding:18px;transition:all 0.25s;animation:si 0.3s ease forwards;}
-.pc:hover{transform:translateY(-2px);}
-@keyframes si{from{opacity:0;transform:translateY(9px);}to{opacity:1;transform:translateY(0);}}
-.ph{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;flex-wrap:wrap;gap:6px;}
-.pl{display:flex;align-items:center;gap:6px;}
-.tb{display:inline-flex;align-items:center;gap:4px;background:var(--gold-dim);border:1px solid rgba(212,165,90,0.3);padding:2px 9px;font-family:'DM Mono',monospace;font-size:0.66rem;color:var(--gold);border-radius:var(--r-xl);}
-.pa{font-family:'DM Mono',monospace;font-size:0.64rem;color:var(--muted);}
-.sb2{font-size:0.66rem;font-family:'DM Mono',monospace;padding:2px 9px;border-radius:var(--r-xl);border:1px solid;}
-.sb2.bull{color:var(--green);border-color:rgba(91,191,138,0.3);background:rgba(91,191,138,0.07);}
-.sb2.bear{color:var(--red);border-color:rgba(224,96,96,0.3);background:rgba(224,96,96,0.07);}
-.sb2.neutral{color:var(--muted);border-color:var(--glass-border);background:var(--glass);}
-.pti{font-family:'Cormorant Garamond',serif;font-size:1.05rem;font-weight:600;color:var(--cream);margin-bottom:5px;line-height:1.2;}
-.pbo{font-size:0.79rem;color:var(--muted);line-height:1.65;margin-bottom:11px;}
-.pch{width:100%;height:64px;background:rgba(255,240,215,0.04);border:1px solid var(--glass-border);margin-bottom:11px;overflow:hidden;border-radius:var(--r-sm);}
-.pch canvas{width:100%!important;height:64px!important;}
-.pf{display:flex;align-items:center;justify-content:space-between;}
-.pm{font-size:0.66rem;color:var(--muted);font-family:'DM Mono',monospace;}
-.pacs{display:flex;gap:6px;}
-.pac{display:flex;align-items:center;gap:3px;font-size:0.66rem;color:var(--muted);cursor:pointer;transition:all 0.15s;font-family:'DM Mono',monospace;background:var(--glass);border:1px solid var(--glass-border);padding:3px 8px;border-radius:var(--r-xl);}
-.pac:hover{color:var(--gold);border-color:rgba(212,165,90,0.3);}
-.pac.liked{color:var(--gold);background:var(--gold-dim);}
-.cmw{display:none;margin-top:11px;border-top:1px solid var(--glass-border);padding-top:11px;}
-.cmw.open{display:block;}
-.cm2{padding:8px 0;border-bottom:1px solid rgba(255,225,175,0.06);display:flex;gap:8px;}
-.cm2:last-child{border-bottom:none;}
-.cav{width:24px;height:24px;border-radius:50%;background:var(--gold-dim);border:1px solid rgba(212,165,90,0.3);display:flex;align-items:center;justify-content:center;font-size:0.66rem;color:var(--gold);flex-shrink:0;font-family:'DM Mono',monospace;}
-.cau{font-family:'DM Mono',monospace;font-size:0.63rem;color:var(--gold);margin-bottom:2px;}
-.ctx{font-size:0.76rem;color:var(--muted);line-height:1.5;}
-.cir{display:flex;gap:6px;margin-top:9px;}
-.cinp{flex:1;background:var(--glass);border:1px solid var(--glass-border);color:var(--text);padding:7px 12px;font-family:'DM Sans',sans-serif;font-size:0.78rem;outline:none;border-radius:var(--r-xl);}
-.cinp:focus{border-color:var(--gold);}
-.csub{background:linear-gradient(135deg,var(--latte),var(--gold));color:#1a1208;border:none;padding:7px 13px;font-size:0.7rem;font-weight:500;cursor:pointer;border-radius:var(--r-xl);font-family:'DM Sans',sans-serif;}
-.ef{text-align:center;padding:44px 20px;color:var(--muted);font-size:0.84rem;font-family:'DM Mono',monospace;}
-
-/* CHAMPIONS */
-.clp{min-height:100vh;padding:96px 44px 70px;max-width:1060px;margin:0 auto;}
-.sb3{padding:20px 24px;margin-bottom:20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:13px;}
-.slbl{font-family:'DM Mono',monospace;font-size:0.61rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
-.stitle{font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:700;color:var(--cream);}
-.ssub{font-size:0.76rem;color:var(--muted);margin-top:3px;}
-.scd{text-align:right;}
-.cdlbl{font-family:'DM Mono',monospace;font-size:0.6rem;color:var(--muted);margin-bottom:5px;}
-.cdus{display:flex;gap:10px;}
-.cdu{text-align:center;}
-.cdn{font-family:'Cormorant Garamond',serif;font-size:1.7rem;font-weight:700;color:var(--gold);line-height:1;}
-.cdul{font-family:'DM Mono',monospace;font-size:0.56rem;color:var(--muted);letter-spacing:0.08em;}
-.clg{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
-.clc{padding:20px 22px;}
-.clct{font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);margin-bottom:14px;}
-.lbr{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid rgba(255,225,175,0.07);}
-.lbr:last-child{border-bottom:none;}
-.lrk{font-family:'DM Mono',monospace;font-size:0.72rem;color:var(--muted);width:20px;text-align:center;}
-.lav{width:28px;height:28px;border-radius:50%;background:var(--gold-dim);border:1px solid rgba(212,165,90,0.3);display:flex;align-items:center;justify-content:center;font-size:0.72rem;font-family:'DM Mono',monospace;color:var(--gold);}
-.lin{flex:1;}
-.ln{font-size:0.82rem;color:var(--cream);}
-.lb2{font-family:'DM Mono',monospace;font-size:0.63rem;color:var(--muted);}
-.lxp{font-family:'DM Mono',monospace;font-size:0.74rem;color:var(--gold);text-align:right;}
-.lxp small{display:block;font-size:0.58rem;color:var(--muted);}
-.gg{display:grid;grid-template-columns:repeat(2,1fr);gap:9px;}
-.gc{padding:14px 16px;border-radius:var(--r-md)!important;}
-.gt{font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);margin-bottom:9px;}
-.gr{display:flex;align-items:center;justify-content:space-between;padding:5px 0;font-size:0.78rem;border-bottom:1px solid rgba(255,225,175,0.06);}
-.gr:last-child{border-bottom:none;}
-.gpl{color:var(--text);}
-.gpt{font-family:'DM Mono',monospace;font-size:0.7rem;color:var(--gold);}
-.bg2{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;}
-.bgc{padding:12px;text-align:center;transition:all 0.2s;border-radius:var(--r-md)!important;}
-.bgc.locked{opacity:0.35;filter:grayscale(0.5);}
-.bgc:hover{transform:translateY(-2px);}
-.bgi{font-size:1.3rem;margin-bottom:5px;}
-.bgn{font-family:'DM Mono',monospace;font-size:0.58rem;color:var(--gold);margin-bottom:2px;}
-.bgd{font-size:0.63rem;color:var(--muted);}
-.xhg{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;}
-.xhi{padding:12px 14px;display:flex;gap:10px;align-items:center;border-radius:var(--r-md);}
-.xhv{font-family:'DM Mono',monospace;font-size:0.64rem;color:var(--gold);}
-
-/* ABOUT */
 .abp{min-height:100vh;padding:96px 44px 70px;max-width:1000px;margin:0 auto;}
 .abg{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:start;margin-top:44px;}
 .abt p{color:var(--muted);line-height:1.8;margin-bottom:13px;font-size:0.91rem;}
 .abt p strong{color:var(--text);}
-.tgr{display:flex;flex-direction:column;gap:9px;}
-.tcard{padding:17px;display:flex;gap:12px;align-items:flex-start;transition:all 0.2s;}
-.tcard:hover{transform:translateY(-2px);}
-.tav{width:42px;height:42px;border-radius:50%;background:var(--gold-dim);border:1px solid rgba(212,165,90,0.3);display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0;}
-.tro{font-family:'DM Mono',monospace;font-size:0.58rem;color:var(--gold);letter-spacing:0.1em;margin-bottom:3px;}
-.tcard h3{font-family:'Cormorant Garamond',serif;font-size:0.98rem;color:var(--cream);margin-bottom:3px;}
-.tcard p{font-size:0.76rem;color:var(--muted);line-height:1.6;}
 .vg{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:22px;}
 .vc{padding:17px;transition:all 0.2s;}
 .vc:hover{transform:translateY(-2px);}
 .vi{font-size:1.1rem;margin-bottom:8px;}
 .vc h4{font-family:'Cormorant Garamond',serif;font-size:0.95rem;color:var(--cream);margin-bottom:4px;}
 .vc p{font-size:0.74rem;color:var(--muted);line-height:1.6;}
-
-/* PENSION TOOLS */
 .ptl{display:flex;flex-direction:column;gap:13px;margin-top:22px;}
 .tc{padding:20px 22px;}
 .th2{display:flex;align-items:center;gap:10px;margin-bottom:13px;}
@@ -390,7 +226,6 @@ nav.scrolled{background:rgba(26,18,8,0.82);backdrop-filter:blur(24px);border-bot
 .pnm{font-family:'Cormorant Garamond',serif;font-size:0.98rem;color:var(--cream);margin-bottom:2px;font-weight:600;}
 .pty{font-family:'DM Mono',monospace;font-size:0.58rem;color:var(--pension);letter-spacing:0.07em;margin-bottom:4px;}
 .pds{font-size:0.72rem;color:var(--muted);line-height:1.5;}
-
 .toast{position:fixed;bottom:20px;right:20px;color:var(--cream);padding:11px 16px;font-family:'DM Mono',monospace;font-size:0.73rem;z-index:1001;transform:translateY(80px);opacity:0;transition:all 0.35s ease;display:flex;align-items:center;gap:8px;border-radius:var(--r-lg);background:rgba(35,24,8,0.93);backdrop-filter:blur(20px);border:1px solid var(--glass-border);box-shadow:0 12px 32px rgba(0,0,0,0.4);}
 .toast.show{transform:translateY(0);opacity:1;}
 .fi{opacity:0;transform:translateY(18px);animation:fu 0.8s ease forwards;}
@@ -400,10 +235,9 @@ nav.scrolled{background:rgba(26,18,8,0.82);backdrop-filter:blur(24px);border-bot
 .site-footer p{font-size:0.68rem;color:var(--muted);font-family:'DM Mono',monospace;}
 @media(max-width:860px){
   nav{padding:11px 16px;}.nav-center{display:none;}
-  .level-cards,.clg,.abg{grid-template-columns:1fr;}
-  .cg{grid-template-columns:1fr;}.sp{position:static;}
-  .gg,.fg2,.pg,.vg,.xhg,.bg2{grid-template-columns:1fr;}
-  .inner,.cp,.clp,.abp{padding:88px 16px 56px;}
+  .level-cards,.abg{grid-template-columns:1fr;}
+  .fg2,.pg,.vg{grid-template-columns:1fr;}
+  .inner,.abp{padding:88px 16px 56px;}
   .site-footer{flex-direction:column;gap:8px;text-align:center;padding:16px;}
 }
 </style>
@@ -427,13 +261,11 @@ nav.scrolled{background:rgba(26,18,8,0.82);backdrop-filter:blur(24px);border-bot
   </div>
   <div class="nav-center">
     <button class="nav-link active" id="nav-main" onclick="showPage('main')">Nivåer</button>
-    <button class="nav-link" id="nav-community" onclick="showPage('community')">Diskussion</button>
-    <button class="nav-link" id="nav-champions" onclick="showPage('champions')">Champions League</button>
     <button class="nav-link" id="nav-about" onclick="showPage('about')">Om oss</button>
   </div>
   <div class="nav-right">
     <div class="live-badge"><div class="live-dot"></div><span id="live-count">247</span> läser nu</div>
-    <button class="nav-cta" onclick="showPage('main')">Välj nivå →</button>
+    <button class="nav-cta" onclick="showPage('main')">Prenumerera gratis →</button>
   </div>
 </nav>
 
@@ -471,9 +303,9 @@ nav.scrolled{background:rgba(26,18,8,0.82);backdrop-filter:blur(24px);border-bot
     <p class="sl">Det ingen annan erbjuder</p>
     <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.7rem,3vw,2.7rem);color:var(--cream);font-weight:600;margin-bottom:28px">Unikt för <em style="font-style:italic;color:var(--gold)">Espresso Market.</em></h2>
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:13px">
-      <div class="glass" style="padding:24px 20px"><div style="font-size:1.3rem;margin-bottom:11px">🤖</div><h3 style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--cream);margin-bottom:6px">Fråga briefingen</h3><p style="font-size:0.77rem;color:var(--muted);line-height:1.7">Under varje nyhet – ställ en fråga direkt till AI:n. Ingen annan finanssite i världen har detta.</p></div>
+      <div class="glass" style="padding:24px 20px"><div style="font-size:1.3rem;margin-bottom:11px">🤖</div><h3 style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--cream);margin-bottom:6px">Fråga briefingen</h3><p style="font-size:0.77rem;color:var(--muted);line-height:1.7">Under varje nyhet – ställ en fråga direkt till AI:n. Ingen annan finanssite i Sverige har detta.</p></div>
       <div class="glass" style="padding:24px 20px"><div style="font-size:1.3rem;margin-bottom:11px">💼</div><h3 style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--cream);margin-bottom:6px">Portföljpulsen</h3><p style="font-size:0.77rem;color:var(--muted);line-height:1.7">Mata in dina aktier – få AI-analys av hur dagens nyheter påverkar just din portfölj.</p></div>
-      <div class="glass" style="padding:24px 20px"><div style="font-size:1.3rem;margin-bottom:11px">🏆</div><h3 style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--cream);margin-bottom:6px">Champions League</h3><p style="font-size:0.77rem;color:var(--muted);line-height:1.7">Säsongsbaserade ligor. Prediktera marknaden, samla XP och klättra mot titeln.</p></div>
+      <div class="glass" style="padding:24px 20px"><div style="font-size:1.3rem;margin-bottom:11px">🌱</div><h3 style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--cream);margin-bottom:6px">Pensionsguiden</h3><p style="font-size:0.77rem;color:var(--muted);line-height:1.7">Förstå AP7, AMF och SPP. Få personliga råd om omallokering baserat på din ålder och riskprofil.</p></div>
     </div>
   </div>
   <footer class="site-footer">
@@ -589,81 +421,6 @@ nav.scrolled{background:rgba(26,18,8,0.82);backdrop-filter:blur(24px);border-bot
 </div>
 </div>
 
-<!-- COMMUNITY -->
-<div id="page-community" class="page">
-<div class="cp">
-  <p class="sl">Prenumerantcommunity</p>
-  <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,4vw,3rem);font-weight:700;color:var(--cream);line-height:1.05">Dela. Diskutera.<br/><em style="font-style:italic;color:var(--gold)">Investera smartare.</em></h2>
-  <div class="us" style="margin-top:18px"><div class="sc glass-sm">🔥 Streak: <strong id="streak-count">0 dagar</strong></div><div class="sc glass-sm">⭐ Nivå: <strong id="user-level">Nybörjare</strong></div><div class="sc glass-sm">📈 Inlägg: <strong id="post-count">0</strong></div><div class="xpw glass-sm"><div class="xpl"><span>XP: <strong id="xp-val">0</strong> / 500</span><span style="color:var(--gold)">→ Expert</span></div><div class="xpb"><div class="xpf" id="xp-fill" style="width:0%"></div></div></div></div>
-  <div class="cg">
-    <div class="sp">
-      <div class="pb glass">
-        <p class="pt">☕ Dela en aktie</p>
-        <div class="ua"><input type="file" accept="image/*" id="file-input" onchange="handleFile(event)"/><div class="uai">📈</div><p>Dra & släpp eller <span>välj fil</span></p></div>
-        <div id="fp-preview" style="display:none;margin-bottom:11px;padding:7px 11px;background:rgba(212,165,90,0.1);border:1px solid rgba(212,165,90,0.25);font-size:0.71rem;color:var(--gold);font-family:'DM Mono',monospace;border-radius:var(--r-sm)"></div>
-        <div class="fg"><label>Ticker / Bolag</label><input type="text" id="post-ticker" placeholder="t.ex. AAPL, ERIC B"/></div>
-        <div class="fg"><label>Din analys</label><textarea id="post-body" rows="3" placeholder="Vad ser du?"></textarea></div>
-        <div class="fg"><label>Sentiment</label></div>
-        <div class="tr" id="sent-tags"><div class="tg" onclick="selTag(this,'sent')">📈 Bullish</div><div class="tg" onclick="selTag(this,'sent')">📉 Bearish</div><div class="tg" onclick="selTag(this,'sent')">⚖️ Neutral</div></div>
-        <div class="fg"><label>Tidshorisont</label></div>
-        <div class="tr" id="hor-tags"><div class="tg" onclick="selTag(this,'hor')">Kort sikt</div><div class="tg" onclick="selTag(this,'hor')">Medellång</div><div class="tg" onclick="selTag(this,'hor')">Lång sikt</div></div>
-        <button class="sbb" onclick="submitPost()">Publicera +25 XP →</button>
-      </div>
-      <div class="pb glass">
-        <p class="pt">🎯 Prediktionslek</p>
-        <div class="pq">Nasdaq imorgon?</div>
-        <div class="pbtns"><button class="pbtn" onclick="votePred('up',this)">📈 Uppåt</button><button class="pbtn" onclick="votePred('down',this)">📉 Nedåt</button></div>
-        <div class="pr" id="pred-r">
-          <div class="pbr"><span class="pbl">📈 Uppåt</span><div class="pbt"><div class="pbf" id="pfu" style="background:var(--green);width:0%"></div></div><span class="pbp" id="ppu">0%</span></div>
-          <div class="pbr"><span class="pbl">📉 Nedåt</span><div class="pbt"><div class="pbf" id="pfd" style="background:var(--red);width:0%"></div></div><span class="pbp" id="ppd">0%</span></div>
-        </div>
-        <div class="sb">🔥 Din träffprocent: <strong>–%</strong></div>
-      </div>
-      <div class="pb glass">
-        <div class="wlh"><span class="wlt">📌 Watchlist</span><div class="wla"><input type="text" id="wl-input" placeholder="TICKER" maxlength="6" onkeydown="if(event.key==='Enter')addWL()"/><button onclick="addWL()">+</button></div></div>
-        <div id="wl-items"><p style="font-family:'DM Mono',monospace;font-size:0.68rem;color:var(--muted)">Ingen aktie tillagd ännu.</p></div>
-      </div>
-    </div>
-    <div>
-      <div class="ft"><input class="fs" type="text" placeholder="🔍 Sök diskussioner…" oninput="filterSearch(this.value)"/></div>
-      <div class="ffs"><div class="ff active" onclick="setFilter('all',this)">Alla</div><div class="ff" onclick="setFilter('bull',this)">📈 Bullish</div><div class="ff" onclick="setFilter('bear',this)">📉 Bearish</div><div class="ff" onclick="setFilter('neutral',this)">⚖️ Neutral</div><div class="ff" onclick="setFilter('hot',this)">🔥 Hetast</div></div>
-      <div class="feed" id="feed"></div>
-    </div>
-  </div>
-</div>
-</div>
-
-<!-- CHAMPIONS LEAGUE -->
-<div id="page-champions" class="page">
-<div class="clp">
-  <p class="sl">Gamification · Säsong 1 · 2026</p>
-  <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,4vw,3rem);font-weight:700;color:var(--cream);line-height:1.05;margin-bottom:18px">Espresso Market<br/><em style="font-style:italic;color:var(--gold)">Champions League.</em></h2>
-  <div class="sb3 glass">
-    <div><div class="slbl">Nuvarande säsong</div><div class="stitle">Säsong 1 – Vårens Espresso</div><div class="ssub">Poäng samlas 1 jan – 30 jun 2026 · Top 3 vinner titeln</div></div>
-    <div class="scd"><div class="cdlbl">Tid kvar denna säsong</div><div class="cdus"><div class="cdu"><div class="cdn" id="cd-days">–</div><div class="cdul">DAGAR</div></div><div class="cdu"><div class="cdn" id="cd-hours">–</div><div class="cdul">TIMMAR</div></div><div class="cdu"><div class="cdn" id="cd-mins">–</div><div class="cdul">MIN</div></div></div></div>
-  </div>
-  <div class="clg" style="margin-top:14px">
-    <div class="clc glass"><div class="clct">🏆 Topplista – Säsong 1</div><div id="cl-lb"></div></div>
-    <div>
-      <div class="clc glass" style="margin-bottom:13px"><div class="clct">⚽ Gruppspelet</div><div class="gg" id="cl-groups"></div></div>
-      <div class="clc glass"><div class="clct">🏅 Säsongsbadges</div><div class="bg2" id="cl-badges"></div></div>
-    </div>
-  </div>
-  <div class="clc glass" style="margin-top:13px;padding:20px 22px"><div class="clct">⭐ Tjäna XP</div>
-    <div class="xhg">
-      <div class="glass-sm xhi"><span style="font-size:1rem">📝</span><div><div style="font-size:0.8rem;color:var(--cream)">Publicera analys</div><div class="xhv">+25 XP</div></div></div>
-      <div class="glass-sm xhi"><span style="font-size:1rem">🎯</span><div><div style="font-size:0.8rem;color:var(--cream)">Prediktera rätt</div><div class="xhv">+50 XP</div></div></div>
-      <div class="glass-sm xhi"><span style="font-size:1rem">❤️</span><div><div style="font-size:0.8rem;color:var(--cream)">Få likes</div><div class="xhv">+10 XP / like</div></div></div>
-      <div class="glass-sm xhi"><span style="font-size:1rem">🔥</span><div><div style="font-size:0.8rem;color:var(--cream)">7 dagars streak</div><div class="xhv">+100 XP bonus</div></div></div>
-      <div class="glass-sm xhi"><span style="font-size:1rem">🤖</span><div><div style="font-size:0.8rem;color:var(--cream)">Fråga AI per nyhet</div><div class="xhv">+5 XP</div></div></div>
-      <div class="glass-sm xhi"><span style="font-size:1rem">💼</span><div><div style="font-size:0.8rem;color:var(--cream)">Portföljpulsen</div><div class="xhv">+15 XP</div></div></div>
-      <div class="glass-sm xhi"><span style="font-size:1rem">💬</span><div><div style="font-size:0.8rem;color:var(--cream)">Kommentera</div><div class="xhv">+5 XP</div></div></div>
-      <div class="glass-sm xhi"><span style="font-size:1rem">🏆</span><div><div style="font-size:0.8rem;color:var(--cream)">Vinna säsongen</div><div class="xhv">🏆 Espresso Champion</div></div></div>
-    </div>
-  </div>
-</div>
-</div>
-
 <!-- ABOUT -->
 <div id="page-about" class="page">
 <div class="abp">
@@ -673,26 +430,34 @@ nav.scrolled{background:rgba(26,18,8,0.82);backdrop-filter:blur(24px);border-bot
       <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.7rem,3.5vw,2.8rem);font-weight:700;color:var(--cream);line-height:1.05;margin-bottom:14px">Vi brygger<br/><em style="font-style:italic;color:var(--gold)">kunskap varje dag.</em></h2>
       <p>Espresso Market grundades 2026 med en enkel idé: <strong>finansnyheter ska vara tillgängliga för alla</strong> – nybörjare, erfarna investerare eller pensionssparare.</p>
       <p>Varje morgon kl. 07:00 söker vår AI igenom webben och levererar tre olika briefingar – anpassade för tre helt olika behov.</p>
-      <p>Det unika: du kan <strong>fråga AI direkt om varje nyhet</strong>, analysera din egen portfölj och tävla i vår Champions League.</p>
-      <div class="vg"><div class="vc glass-sm"><div class="vi">☕</div><h4>Enkelhet</h4><p>Ingen övertäckning. Bara det som spelar roll.</p></div><div class="vc glass-sm"><div class="vi">🎯</div><h4>Precision</h4><p>Varje ord väger. Höga krav på noggrannhet.</p></div><div class="vc glass-sm"><div class="vi">🔓</div><h4>Öppenhet</h4><p>Gratis för alltid. Inga dolda agendor.</p></div><div class="vc glass-sm"><div class="vi">🤝</div><h4>Community</h4><p>Bästa insikterna kommer från kollektiv intelligens.</p></div></div>
+      <p>Det unika: du kan <strong>fråga AI direkt om varje nyhet</strong> och analysera din egen portfölj mot dagens marknadsrörelser.</p>
+      <div class="vg"><div class="vc glass-sm"><div class="vi">☕</div><h4>Enkelhet</h4><p>Ingen övertäckning. Bara det som spelar roll.</p></div><div class="vc glass-sm"><div class="vi">🎯</div><h4>Precision</h4><p>Varje ord väger. Höga krav på noggrannhet.</p></div><div class="vc glass-sm"><div class="vi">🔓</div><h4>Öppenhet</h4><p>Gratis för alltid. Inga dolda agendor.</p></div><div class="vc glass-sm"><div class="vi">🤖</div><h4>AI-drivet</h4><p>Powered by Claude AI – söker och analyserar marknaden åt dig varje dag.</p></div></div>
     </div>
     <div>
-      <p class="sl" style="margin-bottom:12px">Teamet</p>
-      <div class="tgr">
-        <div class="tcard glass-sm"><div class="tav">☕</div><div><div class="tro">Grundare & Chefredaktör</div><h3>Sofia Lindgren</h3><p>Tidigare analytiker på SEB. Brinner för att göra finans begripligt för alla.</p></div></div>
-        <div class="tcard glass-sm"><div class="tav">📊</div><div><div class="tro">Teknisk Analytiker</div><h3>Marcus Holm</h3><p>10 år i branschen. Specialist på teknisk analys och makroekonomi.</p></div></div>
-        <div class="tcard glass-sm"><div class="tav">🤖</div><div><div class="tro">AI & Produkt</div><h3>Yasmin Karimi</h3><p>Bygger verktygen som levererar kl. 07:00 varje dag utan undantag.</p></div></div>
+      <div class="glass-sm" style="padding:24px">
+        <p class="sl" style="margin-bottom:16px">📬 Kontakt</p>
+        <p style="font-size:0.88rem;color:var(--muted);line-height:1.8;margin-bottom:16px">Har du frågor, feedback eller vill samarbeta? Hör gärna av dig – vi svarar alltid.</p>
+        <a href="mailto:victorwoolf00@gmail.com" style="display:inline-flex;align-items:center;gap:8px;font-family:'DM Mono',monospace;font-size:0.82rem;color:var(--gold);text-decoration:none;padding:10px 16px;border:1px solid rgba(212,165,90,0.3);border-radius:var(--r-xl);background:var(--gold-dim);transition:all 0.2s">✉️ victorwoolf00@gmail.com</a>
+        <div style="margin-top:24px;padding-top:20px;border-top:1px solid var(--glass-border)">
+          <p class="sl" style="margin-bottom:12px">⚡ Snabbfakta</p>
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <div style="display:flex;justify-content:space-between;font-family:'DM Mono',monospace;font-size:0.72rem"><span style="color:var(--muted)">Grundat</span><span style="color:var(--cream)">2026</span></div>
+            <div style="display:flex;justify-content:space-between;font-family:'DM Mono',monospace;font-size:0.72rem"><span style="color:var(--muted)">Utskick</span><span style="color:var(--cream)">Varje vardag 07:00</span></div>
+            <div style="display:flex;justify-content:space-between;font-family:'DM Mono',monospace;font-size:0.72rem"><span style="color:var(--muted)">Nivåer</span><span style="color:var(--cream)">Nybörjare · Analytiker · Pension</span></div>
+            <div style="display:flex;justify-content:space-between;font-family:'DM Mono',monospace;font-size:0.72rem"><span style="color:var(--muted)">Kostnad</span><span style="color:var(--green)">Alltid gratis</span></div>
+            <div style="display:flex;justify-content:space-between;font-family:'DM Mono',monospace;font-size:0.72rem"><span style="color:var(--muted)">AI-motor</span><span style="color:var(--cream)">Claude AI (Anthropic)</span></div>
+          </div>
+        </div>
       </div>
-      <div class="glass-sm" style="margin-top:12px;padding:18px"><p class="sl" style="margin-bottom:8px">📬 Kontakt</p><p style="font-size:0.8rem;color:var(--muted);line-height:1.7;margin-bottom:9px">Frågor, feedback eller samarbeten?</p><a href="/cdn-cgi/l/email-protection#9ff7faf5dffaecefedfaececf0f2feedf4faebb1ecfa" style="font-family:'DM Mono',monospace;font-size:0.78rem;color:var(--gold);text-decoration:none"><span class="__cf_email__" data-cfemail="731b161933160003011600001c1e12011816075d0016">[email&#160;protected]</span></a></div>
     </div>
   </div>
 </div>
 </div>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
 const nav=document.getElementById('nav');
 window.addEventListener('scroll',()=>nav.classList.toggle('scrolled',window.scrollY>40));
-let liveCount=1;
+let liveCount=247;
 setInterval(()=>{liveCount++;document.getElementById('live-count').textContent=liveCount;},4000);
 
 function showPage(id){
@@ -710,7 +475,7 @@ async function handleSub(level){
   const inp=document.getElementById('email-'+level),suc=document.getElementById('success-'+level);
   if(!inp.value||!inp.value.includes('@')){inp.style.borderColor='var(--red)';setTimeout(()=>inp.style.borderColor='',1000);return;}
   try{
-    const res=await fetch('/.netlify/functions/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:inp.value, niva: level})});
+    const res=await fetch('/.netlify/functions/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:inp.value,niva:level})});
     if(res.ok){suc.style.display='block';inp.closest('.sf').style.display='none';showToast('Välkommen till Espresso Market! ☕');}
     else{showToast('Något gick fel – försök igen.');}
   }catch(e){showToast('Något gick fel – försök igen.');}
@@ -718,8 +483,7 @@ async function handleSub(level){
 ['beginner','analyst','pension'].forEach(l=>{const el=document.getElementById('email-'+l);if(el)el.addEventListener('keydown',e=>{if(e.key==='Enter')handleSub(l);});});
 
 const track=document.getElementById('ticker');
-const tNames=['S&P 500','NASDAQ','OMX30','DAX','BTC/USD','GULD','OIL(WTI)','EUR/SEK','ETH/USD','USD/SEK'];
-track.innerHTML=[...tNames,...tNames].map(n=>`<div class="ticker-item"><span class="tn">${n}</span><span style="color:var(--muted);font-size:0.68rem">Live →</span></div>`).join('');
+track.innerHTML=[...Array(10)].map(()=>'<div class="ticker-item"><span class="tn">Laddar...</span></div>').join('');
 
 const moodData={bm:{bull:0,bear:0,side:0},am:{bull:0,bear:0,side:0}};
 function voteMood(type,btn,prefix){
@@ -730,16 +494,7 @@ function voteMood(type,btn,prefix){
     const f=document.getElementById('m'+prefix+'-'+k),pc=document.getElementById('mp'+prefix+'-'+k);
     if(f)f.style.width=p+'%';if(pc)pc.textContent=p+'%';
   });
-  document.getElementById('mood-'+prefix).style.display='block';addXP(10,'Tack för din röst! +10 XP ☕');
-}
-
-let userXP=0;
-function addXP(amount,msg){
-  userXP=Math.min(500,userXP+amount);
-  const v=document.getElementById('xp-val'),f=document.getElementById('xp-fill');
-  if(v)v.textContent=userXP;if(f)f.style.width=(userXP/500*100)+'%';
-  if(msg)showToast(msg);
-  if(userXP>=500){const ul=document.getElementById('user-level');if(ul)ul.textContent='Espresso Expert';showToast('🎉 Ny nivå: Espresso Expert!');}
+  document.getElementById('mood-'+prefix).style.display='block';
 }
 
 function selRisk(level,el){
@@ -779,12 +534,11 @@ async function analyzePortfolio(){
     const sc=s=>s==='bull'?'var(--green)':s==='bear'?'var(--red)':'var(--muted)';
     const sl=s=>s==='bull'?'📈 Positiv':s==='bear'?'📉 Negativ':'↔️ Neutral';
     content.innerHTML=`<div class="pp-sum"><div class="pp-sum-title">📊 PORTFÖLJSAMMANFATTNING</div><div class="pp-sum-text">${p.summary}</div></div>${(p.holdings||[]).map(h=>`<div class="pp-item"><div class="pp-ticker">◆ ${h.ticker} — ${h.impact}</div><div class="pp-text">${h.detail}</div><div class="pp-sent" style="color:${sc(h.sentiment)};border-color:${sc(h.sentiment)}4a">${sl(h.sentiment)}</div></div>`).join('')}${p.recommendation?`<div class="pp-sum" style="margin-top:13px"><div class="pp-sum-title">💡 REKOMMENDATION</div><div class="pp-sum-text">${p.recommendation}</div></div>`:''}`;
-    addXP(15,'Portföljanalys klar! +15 XP 💼');
   }catch(e){loading.style.display='none';content.innerHTML='<div style="padding:14px;font-size:0.79rem;color:var(--muted)">Kunde inte hämta portföljdata. Försök igen.</div>';}
   btn.disabled=false;btn.textContent='🤖 Analysera min portfölj mot dagens nyheter';
 }
 
-// BRIEFING + AI CHAT
+// BRIEFING
 const bLoaded={beginner:false,analyst:false};
 function animSteps(ids){
   ids.forEach(id=>{const el=document.getElementById(id);if(el){el.classList.remove('active','done');el.textContent='→ '+el.textContent.replace(/^[✓→] /,'');}});
@@ -829,7 +583,7 @@ function renderBriefing(level,data){
   document.getElementById('bcon-'+level).innerHTML=`<div class="bd">☕ ${data.date}</div><h3 style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:var(--cream);margin-bottom:14px;line-height:1.2">${data.headline}</h3>${data.bullets.map((b,i)=>{const cid=`c-${level}-${i}`;return`<div class="bi"><div class="bic">${b.icon}</div><div style="flex:1"><div class="bil" style="color:${ac}">${b.label}</div><div class="bit">${b.text}</div>${showEx&&b.explain?`<div class="bex" style="border-color:${ac}">${b.explain}</div>`:''}<button class="chat-btn" onclick="toggleChat('${cid}','${(b.topic||b.label).replace(/'/g,"\\'")}','${level}')">🤖 Fråga AI om detta</button><div class="cw" id="${cid}"><div class="cm" id="${cid}-m"><div class="msg ai">Hej! Fråga mig om <em style="color:${ac}">${b.label.toLowerCase()}</em>!</div></div><div class="ci"><input id="${cid}-i" placeholder="Skriv din fråga…" onkeydown="if(event.key==='Enter')sendChat('${cid}','${(b.topic||b.label).replace(/'/g,"\\'")}','${level}')"/><button onclick="sendChat('${cid}','${(b.topic||b.label).replace(/'/g,"\\'")}','${level}')">→</button></div></div></div></div>`;}).join('')}<div class="bf"><div class="bsrc">Källor: ${data.sources?data.sources.join(' · '):''}</div><button onclick="bLoaded['${level}']=false;loadBriefing('${level}')" style="background:none;border:none;color:var(--muted);font-family:'DM Mono',monospace;font-size:0.61rem;cursor:pointer">🔄 Uppdatera</button></div>`;
   document.getElementById('bcon-'+level).style.display='block';
 }
-function toggleChat(cid,topic,level){document.getElementById(cid).classList.toggle('open');addXP(5,'Fråga AI +5 XP 🤖');}
+function toggleChat(cid,topic,level){document.getElementById(cid).classList.toggle('open');}
 async function sendChat(cid,topic,level){
   const inp=document.getElementById(cid+'-i'),msgs=document.getElementById(cid+'-m');
   const q=inp.value.trim();if(!q)return;inp.value='';
@@ -846,70 +600,8 @@ async function sendChat(cid,topic,level){
   }catch(e){const th=document.getElementById(cid+'-th');if(th)th.textContent='Kunde inte svara just nu.';}
 }
 
-// COMMUNITY
-let posts=[],likedPosts=new Set(),openComments=new Set();
-let curFilter='all',curSearch='';
-let selSent='',selHor='',selFileObj=null;
-function sClass(s){return s==='bull'?'bull':s==='bear'?'bear':'neutral';}
-function sLabel(s){return s==='bull'?'📈 Bullish':s==='bear'?'📉 Bearish':'⚖️ Neutral';}
-function drawChart(id,bull){
-  const c=document.getElementById(id);if(!c)return;const ctx=c.getContext('2d');c.width=c.parentElement.offsetWidth*2;c.height=128;ctx.scale(2,2);
-  const w=c.parentElement.offsetWidth,h=64,pts=[];let y=h/2;
-  for(let i=0;i<50;i++){y+=(Math.random()-(bull?.44:.56))*4.5;y=Math.max(5,Math.min(h-5,y));pts.push({x:(i/49)*w,y});}
-  ctx.beginPath();ctx.moveTo(0,h);pts.forEach(p=>ctx.lineTo(p.x,p.y));ctx.lineTo(w,h);ctx.closePath();
-  const g=ctx.createLinearGradient(0,0,0,h);g.addColorStop(0,bull?'rgba(91,191,138,0.2)':'rgba(224,96,96,0.2)');g.addColorStop(1,'rgba(0,0,0,0)');ctx.fillStyle=g;ctx.fill();
-  ctx.beginPath();pts.forEach((p,i)=>i===0?ctx.moveTo(p.x,p.y):ctx.lineTo(p.x,p.y));ctx.strokeStyle=bull?'#5bbf8a':'#e06060';ctx.lineWidth=1.5;ctx.stroke();
-}
-function renderFeed(){
-  const feed=document.getElementById('feed');
-  let f=posts;
-  if(curFilter==='hot')f=[...posts].sort((a,b)=>b.likes-a.likes);
-  else if(curFilter!=='all')f=posts.filter(p=>p.sentiment===curFilter);
-  if(curSearch)f=f.filter(p=>p.ticker.includes(curSearch.toUpperCase())||p.title.toLowerCase().includes(curSearch.toLowerCase()));
-  if(!f.length){feed.innerHTML='<div class="ef">Inga inlägg ännu – var den första att dela en analys! ☕</div>';return;}
-  feed.innerHTML=f.map((p,i)=>`<div class="pc glass" style="animation-delay:${i*.05}s"><div class="ph"><div class="pl"><span class="tb">◆ ${p.ticker}</span><span class="pa">@${p.author}</span></div><span class="sb2 ${sClass(p.sentiment)}">${sLabel(p.sentiment)}</span></div><div class="pti">${p.title}</div>${p.hasChart?`<div class="pch"><canvas id="ch-${p.id}"></canvas></div>`:''}<div class="pbo">${p.body}</div><div class="pf"><span class="pm">${p.horizon} · ${p.time}</span><div class="pacs"><button class="pac ${likedPosts.has(p.id)?'liked':''}" onclick="toggleLike(${p.id})">${likedPosts.has(p.id)?'♥':'♡'} ${p.likes}</button><button class="pac" onclick="toggleComments(${p.id})">💬 ${p.comments.length}</button><button class="pac" onclick="showToast('Länk kopierad! ↗')">↗</button></div></div><div class="cmw ${openComments.has(p.id)?'open':''}" id="com-${p.id}">${p.comments.map(c=>`<div class="cm2"><div class="cav">${c.author[0]}</div><div><div class="cau">@${c.author}</div><div class="ctx">${c.text}</div></div></div>`).join('')}<div class="cir"><input class="cinp" id="ci-${p.id}" placeholder="Skriv kommentar…" onkeydown="if(event.key==='Enter')addComment(${p.id})"/><button class="csub" onclick="addComment(${p.id})">Skicka</button></div></div></div>`).join('');
-  f.filter(p=>p.hasChart).forEach(p=>setTimeout(()=>drawChart('ch-'+p.id,p.sentiment==='bull'),60));
-}
-function toggleLike(id){const p=posts.find(x=>x.id===id);if(!p)return;if(likedPosts.has(id)){likedPosts.delete(id);p.likes--;}else{likedPosts.add(id);p.likes++;}renderFeed();}
-function toggleComments(id){if(openComments.has(id))openComments.delete(id);else openComments.add(id);renderFeed();}
-function addComment(postId){const inp=document.getElementById('ci-'+postId),text=inp.value.trim();if(!text)return;const p=posts.find(x=>x.id===postId);if(!p)return;p.comments.push({author:'Du',text});openComments.add(postId);addXP(5,'Kommentar +5 XP');renderFeed();}
-function setFilter(f,el){curFilter=f;document.querySelectorAll('.ff').forEach(x=>x.classList.remove('active'));el.classList.add('active');renderFeed();}
-function filterSearch(q){curSearch=q;renderFeed();}
-function selTag(el,group){document.querySelectorAll(`#${group}-tags .tg`).forEach(t=>t.classList.remove('sel'));el.classList.add('sel');if(group==='sent')selSent=el.textContent.includes('Bull')?'bull':el.textContent.includes('Bear')?'bear':'neutral';if(group==='hor')selHor=el.textContent.trim();}
-function handleFile(e){const f=e.target.files[0];if(!f)return;selFileObj=f;const pr=document.getElementById('fp-preview');pr.style.display='block';pr.textContent='📎 '+f.name;document.getElementById('ua').style.borderColor='var(--gold)';}
-function submitPost(){
-  const t=document.getElementById('post-ticker').value.trim().toUpperCase();const b=document.getElementById('post-body').value.trim();
-  if(!t){document.getElementById('post-ticker').style.borderColor='var(--red)';setTimeout(()=>document.getElementById('post-ticker').style.borderColor='',1000);return;}
-  if(!b){document.getElementById('post-body').style.borderColor='var(--red)';setTimeout(()=>document.getElementById('post-body').style.borderColor='',1000);return;}
-  const s=selSent||'neutral';
-  posts.unshift({id:Date.now(),ticker:t,author:'Du',title:t+' – '+(s==='bull'?'Intressant köpläge?':s==='bear'?'Säljtryck kvarstår?':'Bevakar noggrant'),body:b,sentiment:s,horizon:selHor||'Medellång',likes:0,time:'just nu',hasChart:!!selFileObj,comments:[]});
-  document.getElementById('post-ticker').value='';document.getElementById('post-body').value='';document.getElementById('fp-preview').style.display='none';
-  document.querySelectorAll('.tg').forEach(t=>t.classList.remove('sel'));selSent='';selHor='';selFileObj=null;
-  const cnt=parseInt(document.getElementById('post-count').textContent)||0;document.getElementById('post-count').textContent=cnt+1;
-  addXP(25,'Analys publicerad! +25 XP ⭐');renderFeed();
-}
-
-// WATCHLIST
-let wl=[];
-function renderWL(){const c=document.getElementById('wl-items');if(!wl.length){c.innerHTML='<p style="font-family:\'DM Mono\',monospace;font-size:0.68rem;color:var(--muted)">Ingen aktie tillagd.</p>';return;}c.innerHTML=wl.map((w,i)=>`<div class="wi"><span class="wtk">${w.t}</span><span class="wch ${w.u?'up':'down'}">${w.u?'▲':'▼'} ${w.c}</span><button class="wrm" onclick="rmWL(${i})">✕</button></div>`).join('');}
-function addWL(){const inp=document.getElementById('wl-input'),t=inp.value.trim().toUpperCase();if(!t)return;if(wl.find(w=>w.t===t)){showToast('Finns redan');inp.value='';return;}const u=Math.random()>0.5,c=(Math.random()*3).toFixed(1)+'%';wl.push({t,c,u});inp.value='';renderWL();showToast(t+' tillagd 📌');}
-function rmWL(i){wl.splice(i,1);renderWL();}
-
-// PREDICTION
-let pv={up:0,down:0};
-function votePred(type,btn){pv[type]++;document.querySelectorAll('.pbtn').forEach(b=>{b.disabled=true;b.style.opacity='0.5';});btn.classList.add('voted');btn.style.opacity='1';const total=pv.up+pv.down;const up=Math.round(pv.up/total*100);document.getElementById('pfu').style.width=up+'%';document.getElementById('ppu').textContent=up+'%';document.getElementById('pfd').style.width=(100-up)+'%';document.getElementById('ppd').textContent=(100-up)+'%';document.getElementById('pred-r').style.display='block';addXP(15,'Prediktion +15 XP 🎯');}
-
-// CHAMPIONS
-const medals=['🥇','🥈','🥉'];
-const lbd=[{rank:1,n:'MarcusH',a:'M'},{rank:2,n:'SofiaL',a:'S'},{rank:3,n:'YasminK',a:'Y'},{rank:4,n:'ErikB',a:'E'},{rank:5,n:'Du',a:'D'}];
-document.getElementById('cl-lb').innerHTML=lbd.map(r=>`<div class="lbr" style="${r.n==='Du'?'background:rgba(212,165,90,0.07);border-left:2px solid var(--gold)':''}"><span class="lrk">${r.rank<=3?medals[r.rank-1]:r.rank}</span><div class="lav">${r.a}</div><div class="lin"><div class="ln">${r.n}${r.n==='Du'?' (du)':''}</div><div class="lb2">Säsongen precis startad</div></div><div class="lxp">0<small>XP</small></div></div>`).join('');
-const groups=[{n:'Grupp A ☕',p:['MarcusH','SofiaL','ErikB','Du']},{n:'Grupp B 📊',p:['YasminK','AnnaM','PeterK','LisaR']}];
-document.getElementById('cl-groups').innerHTML=groups.map(g=>`<div class="gc glass-sm"><div class="gt">${g.n}</div>${g.p.map(p=>`<div class="gr"><span class="gpl">${p}</span><span class="gpt">0 pts</span></div>`).join('')}</div>`).join('');
-const badges=[{i:'☕',n:'Espresso Nybörjare',d:'3 dagars streak',l:false},{i:'🔥',n:'On Fire',d:'7 dagars streak',l:true},{i:'📈',n:'Bull Master',d:'5 rätt i rad',l:true},{i:'🎯',n:'Skarpskytt',d:'10 rätt',l:true},{i:'🏆',n:'Champion',d:'Vinn säsongen',l:true},{i:'💎',n:'Espresso Expert',d:'500 XP',l:true},{i:'🤖',n:'AI Whisperer',d:'50 AI-frågor',l:true},{i:'💼',n:'Portföljmästare',d:'10 analyser',l:true}];
-document.getElementById('cl-badges').innerHTML=badges.map(b=>`<div class="bgc glass-sm ${b.l?'locked':''}"><div class="bgi">${b.i}</div><div class="bgn">${b.n}</div><div class="bgd">${b.d}</div></div>`).join('');
-function updateCountdown(){const end=new Date('2026-06-30T23:59:59'),now=new Date(),diff=Math.max(0,end-now);const d=document.getElementById('cd-days'),h=document.getElementById('cd-hours'),m=document.getElementById('cd-mins');if(d&&d.textContent)(d.textContent=Math.floor(diff/86400000));if(h&&h.textContent)h.textContent=Math.floor((diff%86400000)/3600000);if(m&&m.textContent)m.textContent=Math.floor((diff%3600000)/60000);}
-updateCountdown();setInterval(updateCountdown,60000);
-renderFeed();fetch('/data/briefing.json?t='+Date.now())
+// Ladda ticker direkt vid sidladdning
+fetch('/data/briefing.json?t='+Date.now())
   .then(r=>r.json())
   .then(json=>{
     const quotes=json.quotes||{};
