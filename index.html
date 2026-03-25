@@ -909,7 +909,18 @@ const badges=[{i:'☕',n:'Espresso Nybörjare',d:'3 dagars streak',l:false},{i:'
 document.getElementById('cl-badges').innerHTML=badges.map(b=>`<div class="bgc glass-sm ${b.l?'locked':''}"><div class="bgi">${b.i}</div><div class="bgn">${b.n}</div><div class="bgd">${b.d}</div></div>`).join('');
 function updateCountdown(){const end=new Date('2026-06-30T23:59:59'),now=new Date(),diff=Math.max(0,end-now);const d=document.getElementById('cd-days'),h=document.getElementById('cd-hours'),m=document.getElementById('cd-mins');if(d&&d.textContent)(d.textContent=Math.floor(diff/86400000));if(h&&h.textContent)h.textContent=Math.floor((diff%86400000)/3600000);if(m&&m.textContent)m.textContent=Math.floor((diff%3600000)/60000);}
 updateCountdown();setInterval(updateCountdown,60000);
-renderFeed();
+renderFeed();fetch('/data/briefing.json?t='+Date.now())
+  .then(r=>r.json())
+  .then(json=>{
+    const quotes=json.quotes||{};
+    const items=Object.entries(quotes);
+    if(!items.length)return;
+    const track=document.getElementById('ticker');
+    track.innerHTML=[...items,...items].map(([name,q])=>{
+      const up=q.change>=0;
+      return`<div class="ticker-item"><span class="tn">${name}</span><span class="${up?'up':'down'}">${up?'▲':'▼'} ${Math.abs(q.change)}%</span></div>`;
+    }).join('');
+  }).catch(()=>{});
 </script>
 </body>
 </html>
