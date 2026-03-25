@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-24T14:34:16.642546",
+  "generated": "2026-03-25T08:04:30.828682",
   "quotes": {
     "S&P 500": {
       "price": 0,
@@ -14,8 +14,8 @@
       "change": 0
     },
     "BTC/USD": {
-      "price": 70065.48,
-      "change": -1.86
+      "price": 70974.68,
+      "change": -0.3
     },
     "OIL": {
       "price": 0,
@@ -27,66 +27,63 @@
     }
   },
   "briefing": {
-    "headline": "Iran-konflikt skapar marknadsoro med guldfall och Bitcoin upp",
-    "date": "Tuesday 24 March 2026",
+    "headline": "Marknadschaos efter Irankriget - fonder laddar om",
+    "date": "Wednesday 25 March 2026",
     "beginner": [
       {
-        "icon": "🇮🇷",
-        "label": "GEOPOLITIK",
-        "text": "Trump påstår samtal med Iran men Tehran dementerar detta. Marknader svänger mellan hopp och rädsla för eskalering.",
-        "explain": "💡 Geopolitiska konflikter skapar ofta kraftiga svängningar på marknaderna då investerare snabbt byter mellan riskfyllda och säkra tillgångar."
+        "icon": "⚡",
+        "label": "KRIG & OLJA",
+        "text": "Irankriget skapar marknadsoro med kraftiga börsfall och höga energipriser. <cite index=\"21-16,21-17\">Strax innan Donald Trump meddelade att USA för \"produktiva samtal\" med Iran genomfördes en ovanligt stor affär i oljeterminer. Kort därefter föll oljepriset från nivåer kring drygt 110 dollar per fat ned mot omkring 100 dollar.</cite>",
+        "explain": "💡 När geopolitiska konflikter uppstår påverkas marknaden eftersom investerare blir rädda. Olja blir dyrare när leveranser hotas, vilket gör allt annat dyrare också."
       },
       {
-        "icon": "🛢️",
-        "label": "OLJA",
-        "text": "Oljepriset stiger kraftigt över $91 på nytt då fredssamtal verkar ha misslyckats. Brent väntas testa $120 inom månaden.",
-        "explain": "💡 Olja är känslig för konflikter i Mellanöstern eftersom regionen producerar mycket av världens olja, särskilt genom Hormuzsundet."
+        "icon": "📊",
+        "label": "FONDERNAS OMALLOKERING",
+        "text": "<cite index=\"1-9,1-10\">Under det senaste året har flera av Sveriges största aktivt förvaltade aktiefonder gjort tydliga omallokeringar. Förvaltarna har ökat exponeringen mot bolag inom AI, halvledare och industri</cite>, medan teknikjättarna minskat i vikt.",
+        "explain": "💡 Fondförvaltare flyttar pengar mellan olika aktier baserat på vad de tror kommer gå bäst. Nu satsar de på AI-företag och hårdvara istället för mjukvarubolag."
       },
       {
         "icon": "💰",
-        "label": "BITCOIN",
-        "text": "BTC handlas kring $71000 efter uppgång från $69000, driven av 'risk-on' sentiment efter Trumps uttalanden om samtal.",
-        "explain": "💡 Kryptovalutor som Bitcoin ses ofta som alternativ till traditionella valutor när investerare blir osäkra på geopolitiken."
+        "label": "STATSBUDGET",
+        "text": "<cite index=\"2-3,2-4\">Den offentliga förvaltningens finansiella sparande visar ett underskott på 180 miljarder kronor i år. Den största försämringen sker i staten, där de omfattande utgiftsökningarna och skattesänkningarna i budgetpropositionen för 2026 bidrar till ett underskott på 172 miljarder kronor.</cite>",
+        "explain": "💡 Staten spenderar mycket mer än vad som kommer in i skatter. Det är som när man spenderar mer än man tjänar - då måste man låna pengar."
       },
       {
-        "icon": "🏠",
-        "label": "RÄNTOR",
-        "text": "Bolåneräntor stiger till 6,35% för 30-åriga lån då Fed håller räntan oförändrad medan oljepriser driver upp inflationsoro.",
-        "explain": "💡 Högre oljepriser kan leda till inflation vilket får centralbanker att hålla räntor höga, vilket påverkar bolånekostnader."
+        "icon": "📈",
+        "label": "PMI FÖRSVAGAS",
+        "text": "<cite index=\"21-21,21-22,21-23\">Krigseffekterna börjar synas i eurozonen, visar preliminära inköpschefsindex. Allt fler faktorer pekar mot svagare tillväxt och ett tryck uppåt på priser. En viss risk för ett stagflationsscenario, säger Pia Fromlet, euroekonom på storbanken SEB.</cite>",
+        "explain": "💡 PMI mäter hur bra företagen mår. Under 50 betyder att ekonomin krymper. Nu sjunker det på grund av kriget och det kan bli både hög inflation och låg tillväxt samtidigt."
       }
     ],
     "analyst": [
       {
-        "icon": "📊",
-        "label": "TEKNISK",
-        "text": "S&P 500 under press på -0,26% efter gårdagens rally. Microsoft visar tecken på återhämtning från $380-support med RSI-divergens.",
-        "explain": "Tekniska indikatorer som RSI och stokastik visar överförsålt läge vilket kan signalera vändning uppåt för större teknikaktier."
+        "icon": "🎯",
+        "label": "AI-SEKTORN",
+        "text": "<cite index=\"1-18,1-19,1-20\">Halvledarbolaget Micron har ökat från 1,7% till 4,4% av portföljen. Även amerikanska KLA, som tillverkar utrustning som används för att producera AI-chip, har vuxit kraftigt från 2,4% till 4,8%. Taiwan Semiconductor har gått från 3,6 till 4,8%.</cite> Tydlig rotation mot hårdvara."
       },
       {
-        "icon": "⚡",
-        "label": "VOLATILITET",
-        "text": "VIX upp 24% till 29,49 visar hög rädsla. Asiatiska marknader föll kraftigt med Sydkorea -6,5% och Japan -3,5% innan Trump-kommentarer.",
-        "explain": "VIX över 25 indikerar extrem marknadsoro. Asiens reaktion visar hur snabbt sentiment kan förändras på geopolitiska nyheter."
+        "icon": "⚖️",
+        "label": "KONCENTRATIONSRISK",
+        "text": "<cite index=\"12-18,12-19,12-20\">Den amerikanska aktiemarknaden ser topptyngd ut. De tio största komponenterna i Morningstar US Market Index står nu för 36 % av indexvikten, en ökning från 23 % för bara fem år sedan. Nästan alla är kopplade till AI.</cite>"
+      },
+      {
+        "icon": "🛢️",
+        "label": "ENERGIHANDEL",
+        "text": "<cite index=\"21-14,21-15\">6 200 oljekontrakt till ett värde av 580 miljoner dollar bytte ägare – minuter innan oljepriset föll omkring 10 procent. Hur är det möjligt, och vad säger det om hur dagens marknad fungerar?</cite> Tyder på informationsläckage."
       },
       {
         "icon": "🏦",
-        "label": "SEKTORER",
-        "text": "Alternativa tillgångsförvaltare som Apollo och Ares begränsar uttag från privata kreditfonder. Energisektorn ensam vinnare.",
-        "explain": "Likviditetsproblem i privat kredit kombinerat med höga räntor skapar stress i finanssektorn medan energi gynnas av oljeuppgången."
-      },
-      {
-        "icon": "💎",
-        "label": "RÅVAROR",
-        "text": "Guld faller tionde dagen i rad till $4410 då dollarn stärks. Sällsynta jordartsmetaller i fokus efter USA:s vapenbrist mot Iran.",
-        "explain": "Guld tappar säker hamn-status när dollar stärks. Geopolitisk konflikt skapar både risk-off (guld upp) och risk-on (aktier upp) förvirring."
+        "label": "SVENSKA BANKER",
+        "text": "<cite index=\"4-12,4-13,4-16\">Den mest köpta aktien förra veckan var Swedbank. EQT var den aktie som köptes näst mest förra veckan. Swedbank- och Sparbankskunderna tycks se detta som ett gott ingångsläge.</cite> Köpintresse vid nedgångar indikerar bottenfiske."
       }
     ],
     "sources": [
-      "247wallst.com",
-      "cnbc.com",
-      "thestreet.com",
-      "fortune.com",
-      "bloomberg.com"
+      "Placera.se",
+      "Statskontoret",
+      "Börskollen",
+      "Swedbank Aktiellt",
+      "Morningstar",
+      "Omni Ekonomi"
     ]
   }
 }
