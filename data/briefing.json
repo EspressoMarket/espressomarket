@@ -1,8 +1,8 @@
 {
-  "generated": "2026-03-25T22:06:41.456642",
+  "generated": "2026-03-26T08:10:38.844945",
   "quotes": {
     "OMX30": {
-      "price": 2943.35,
+      "price": 2906.03,
       "change": 0.0
     },
     "S&P 500": {
@@ -18,25 +18,25 @@
       "change": 0.0
     },
     "USD/SEK": {
-      "price": 9.35,
+      "price": 9.37,
       "change": 0.0
     },
     "EUR/SEK": {
-      "price": 10.81,
+      "price": 10.82,
       "change": 0.0
     },
     "BTC/USD": {
-      "price": 71075.12,
-      "change": 1.13
+      "price": 70088.5,
+      "change": -1.09
     }
   },
   "futures": {
     "S&P 500 Futures": {
-      "price": 6641.0,
+      "price": 6614.5,
       "change": 0.0
     },
     "NASDAQ Futures": {
-      "price": 24367.75,
+      "price": 24260.0,
       "change": 0.0
     },
     "DAX Futures": {
@@ -44,105 +44,104 @@
       "change": 0.0
     },
     "Olja (WTI)": {
-      "price": 91.29,
+      "price": 93.15,
       "change": 0.0
     },
     "Guld": {
-      "price": 4503.3,
+      "price": 4452.5,
       "change": 0.0
     },
     "VIX": {
-      "price": 25.33,
+      "price": 26.52,
       "change": 0.0
     }
   },
   "briefing": {
-    "headline": "Aktiestup när Iran avvisar Trumps fredsplan",
-    "date": "Wednesday 25 March 2026",
+    "headline": "VIX 26 – Marknadsspänning kvarstår",
+    "date": "Thursday 26 March 2026",
     "beginner": [
       {
-        "icon": "📈",
-        "label": "BÖRSEN STUDSAR PÅ FREDSHOPPNING",
-        "text": "Amerikanska terminser upp 1% över natten och OMX Stockholm öppnade +0,9% efter att Trump skickat 15-punktsplan för vapenvila med Iran. Marknaden hoppas på avspänning i Mellanöstern.",
-        "explain": "💡 Även om Iran sagt nej så pumpas aktier på bara hopp om fred - kriget har gjort oljan dyr vilket höjer inflationen och skrämmer investerare."
+        "icon": "🏛️",
+        "label": "FREDSHOPPET SOM SKAKADE MARKNADEN",
+        "text": "<cite index='3-18,2-7,9-7'>Trump skickade ett 15-punkts fredsförslag till Iran via Pakistan i hopp om att stoppa kriget. Men Iran svarade igår med ett skarpt nej och lade fram egna krav</cite>. <cite index='24-1,28-11'>Iran vill ha krigsersättning och kontroll över Hormuzsundet som sina villkor för fred</cite>.",
+        "explain": "💡 Även om förhandlingarna fortfarande pågår är marknaderna fortfarande nervösa eftersom kriget fortsätter. Det är därför VIX (rädsloindex) ligger på 26,5 – över panikgränsen på 20."
       },
       {
-        "icon": "⛽",
-        "label": "OLJA FALLER TROTS IRANSKT NEJ",
-        "text": "Oljan ner till $88 (-$4) från över $92 då Trump pausat bombhot i 5 dagar för fredssamtal. Iran avvisade amerikansk plan men vill förhandla via Pakistan.",
-        "explain": "💡 Lägre oljepris betyder billigare bensin och mindre oro för inflation - bra för ekonomin även om kriget fortsätter."
+        "icon": "📉",
+        "label": "ASIEN TAPPADE MARK",
+        "text": "<cite index='1-1'>Asiens börser föll 1% medan amerikanska futures sjönk 0,3% på natten</cite>. <cite index='1-2,23-2'>Israel genomförde nya attacker mot Iran och Iran svarade med robotattacker mot Israel och amerikanska baser</cite>.",
+        "explain": "💡 När ett krig pågår mellan stormakter blir investerare försiktiga globalt. Det betyder att även svenska aktier kan påverkas negativt även om vi inte är direkt inblandade."
       },
       {
-        "icon": "📊",
-        "label": "VIX ÖVER 25 VISAR FORTFARANDE ORO",
-        "text": "VIX volatilitetsindex på 25,3 (över 20 = förhöjd oro) trots börsuppgången. Investerare fortfarande nervösa för krigsutvecklingen och inflationshot.",
-        "explain": "💡 VIX mäter rädsla på börsen - över 20 betyder stress, över 30 panik. Vi är mitt emellan så marknaden är spänd."
+        "icon": "🛢️",
+        "label": "OLJAN SÄNKS AV FREDSHOPP",
+        "text": "<cite index='5-1,5-2'>Oljepriset sjönk 1,7% till 90,81 dollar fatet efter optimism om ett möjligt fredsavtal mellan USA och Iran</cite>. <cite index='29-19,29-20'>Brent-olja handlas runt 104 dollar, fortfarande 60% högre än före kriget</cite>.",
+        "explain": "💡 Oljepriset är kopplat till inflation – när oljan går ner blir bensin och uppvärmning billigare, vilket är bra för din privatekonomi även om fredsförhandlingarna är osäkra."
       },
       {
-        "icon": "🏭",
-        "label": "BOLIDEN VINSTVARNAR EFTER GRUVRAS",
-        "text": "Boliden meddelar ikväll att Garpenberggruvan, som stod för 1/3 av vinsten, bara kommer köra 30% produktion efter seismisk aktivitet. Vinstvarning utfärdad.",
-        "explain": "💡 När företag sänker vinstprognoser faller ofta aktiekursen - Garpenberg är Bolidens viktigaste gruva så det slår hårt mot resultatet."
+        "icon": "👗",
+        "label": "H&M RAPPORTERAR IDAG",
+        "text": "<cite index='37-1,32-3'>H&M släpper sin kvartalsrapport idag den 26 mars</cite>. Från kontexten: \"H&M:s vinst något högre än väntat: Präglat av återhållsam konsumtion\".",
+        "explain": "💡 H&M är Sveriges största modekedja och speglar svenska konsumenters köpkraft. Om vinsten är bättre än väntat trots svag konsumtion kan det vara en positiv signal för ekonomin."
       }
     ],
     "analyst": [
       {
-        "icon": "💹",
-        "label": "FUTURES SIGNALERAR STARK ÖPPNING",
-        "text": "<cite index=\"2-1,4-2,4-16\">S&P 500-futures +1%, Nasdaq +1%, Dow +0,77%</cite> efter <cite index=\"6-4,6-7\">rapporter om Trumps 15-punkts fredsplan till Iran via Pakistan</cite>. <cite index=\"15-1\">OMX Stockholm 30 +0,88% till 2934 punkter</cite> i linje med global riskaptit.",
-        "text2": "<cite index=\"4-20,4-21\">WTI-olja -$4 till $88,48, guld +$145 till $4,547</cite> då geopolitisk premie minskar på diplomatihopp."
+        "icon": "💥",
+        "label": "VOLATILITETEN BEKRÄFTAR OSÄKERHETEN",
+        "text": "VIX på 26,52 signalerar fortsatt marknadsoro trots fredsförsök. <cite index='2-10,9-5,9-6'>Dow steg 0,66%, S&P 500 +0,54% och Nasdaq +0,77% på onsdag efter nyheten om fredsförslaget</cite>, men <cite index='1-1'>Asien-futures pekar ner 0,3%</cite>.",
+        "explain": "💡 Teknisk analys visar att marknaderna ännu inte har hittat stabil grund – varje nyhet om Iran orsakar kraftiga svängningar."
       },
       {
-        "icon": "🤖",
-        "label": "TECH RALLYE LEDD AV ARM",
-        "text": "<cite index=\"5-5,6-18,6-21\">Arm Holdings +16% efter lansering av egen CPU-chip, Raymond James uppgraderar till Outperform med riktkurs $166</cite>. <cite index=\"7-15\">Intel +7%, AMD +5% på AI-optimism och prisökningar</cite>.",
-        "text2": "<cite index=\"5-1\">Braze +21% på 28% intäktsökning Q4, nådde $800M ARR</cite>. <cite index=\"5-15,5-16\">Merck förvärvar Terns Pharmaceuticals för $6,7 miljarder</cite>."
-      },
-      {
-        "icon": "🌍",
-        "label": "IMPORT/EXPORTDATA VISAR INFLATIONSTRYCK",
-        "text": "<cite index=\"6-26,6-27\">USA import +1,3% i februari (väntat 0,6%), export +1,5%</cite>. <cite index=\"6-29,6-30\">Data pekar på pipeline-inflation, importpriser högst sedan mars 2022</cite> när CPI nådde 9%.",
-        "text2": "<cite index=\"1-3\">Fed indikerat bara en räntesänkning 2026</cite> vilket begränsar stimulansmöjligheter vid konjunkturnedgång."
+        "icon": "⚡",
+        "label": "ENERGISEKTORN VINNARE 2026",
+        "text": "<cite index='4-12,4-13'>Energiaktier leder S&P 500 i år med 32% totalavkastning, där bara 5% kommit sedan Iran-konflikten började</cite>. <cite index='5-32,5-33'>Australiensiska energiaktier som Beach Energy och Santos förväntas tappa på torsdagen efter oljeprisfallet</cite>.",
+        "explain": "💡 Energisektorn har haft strukturellt stöd från geopolitik och väderförhållanden, inte bara Iran-krisen. Rotationen kan fortsätta även efter fredsavtal."
       },
       {
         "icon": "⛏️",
-        "label": "BOLIDEN PRODUKTIONSRAS SKAKAR RÅVAROR",
-        "text": "<cite index=\"41-1,41-2,41-5\">Garpenberg stoppade 14 mars efter seismisk aktivitet, produktion återstartar Q2 på bara 100 kton/månad (~30% normal nivå)</cite>. <cite index=\"43-13\">Gruvan genererade 4,4 av 13,2 miljarder i rörelseresultat 2025</cite>.",
-        "text2": "<cite index=\"41-4,41-6\">Årlig produktion osäker, möjlig ökning H2 men Lappberget-delen stängd hela 2026</cite>. Betydande påverkan på zinktillgång globalt."
+        "label": "BOLIDEN VINSTVARNAR",
+        "text": "Från kontexten: \"Boliden tar smäll på 400 miljoner: 'Väldigt stor osäkerhet'\". <cite index='40-16,40-17'>Bolidens Odda-projekt förväntas nå full produktion i slutet av Q1 2026 medan Garpenberg-expansionen fortsätter</cite>.",
+        "explain": "💡 Gruvbolagen påverkas av både metallpriser och produktionsutmaningar. 400 miljoner i nedskrivning tyder på operationella problem som kan påverka andra svenska gruvaktier."
+      },
+      {
+        "icon": "📊",
+        "label": "SVENSKA KRONAN STABIL",
+        "text": "USD/SEK på 9,37 och EUR/SEK på 10,82 från kontextdatan visar relativt stabil krona. <cite index='5-4,5-5'>Guldpriset steg 2,4% till 4.508,8 dollar unsen efter att oljeprisfallet minskat inflations- och räntehöjningsoro</cite>.",
+        "explain": "💡 Stabila valutakurser under geopolitisk oro är positivt för svenska exportbolag och indikerar förtroende för svensk ekonomi."
       }
     ],
     "pension": [
       {
         "icon": "🏦",
-        "label": "DEFENSIV OMALLOKERING I OROSTIDER",
-        "text": "<cite index=\"15-1,15-2\">Svensk börs upp 0,9% idag men -8,5% senaste månaden</cite> visar volatilitet. AP7 och AMF troligen ökar obligationsandel när VIX över 25.",
-        "tip": "💡 Turbulenta tider - överväg att inte göra stora aktieköp förrän VIX under 20 och geopolitisk oro minskar."
-      },
-      {
-        "icon": "⚡",
-        "label": "ENERGIAKTIER MIXADE SIGNALER",
-        "text": "<cite index=\"4-20\">Olja ner $4 på diplomatihopp</cite> men <cite index=\"22-16\">från $65 före kriget till över $100</cite> ger fortfarande starka marginaler för energibolag. Svenska pensionsfonder har exponering via Equinor, Shell.",
-        "tip": "💡 Energiaktier kan falla snabbt på fredsnyheter - håll koll på geopolitisk utveckling närmaste veckorna."
-      },
-      {
-        "icon": "🏭",
-        "label": "RÅVARUSEKTORN PRESSAS AV BOLIDEN",
-        "text": "<cite index=\"43-13,41-5\">Bolidens vinstvarning efter produktionsstopp i gruva som stod för 1/3 av vinsten</cite>. Påverkar svenska pensionsportföljer via direktägande och OMXS30-fonder.",
-        "tip": "💡 Gruvbolag har operativ risk - diversifiera råvaruexponering över flera länder och metaller, inte bara nordiska gruvor."
+        "label": "FÖRSIKTIG OPTIMISM I FONDER",
+        "text": "<cite index='2-14,2-15,2-16'>Teknologisektorn återhämtade sig med Nvidia +2%, medan energibolag som Exxon och Chevron tappade på lägre oljepris</cite>. AP7 Såfa som följer världsindex bör ha gynnats av teknikrekylen.",
+        "tip": "💡 Global diversifiering i AP7 hjälper dig genom geopolitisk turbulens – både teknik och energi finns representerade som balanserar varandra över tid."
       },
       {
         "icon": "💰",
-        "label": "DOLLARDOMINANS PÅVERKAR FONDER",
-        "text": "<cite index=\"4-21,4-22\">Stark dollar med Bitcoin +$1,101 till $71,669</cite> och <cite index=\"6-1,6-2\">USA-index upp 0,54-0,77%</cite>. Amerikanska innehav i AP7/AMF gynnas av dollarstyrka.",
-        "tip": "💡 Valutasäkrade fonder kan missa dollarkursvinstser - överväg om din USA-exponering ska vara valutasäkrad eller inte."
+        "label": "GULDET SKYDDAR MOT OSÄKERHET",
+        "text": "<cite index='5-4,5-11,5-12'>Guldpriset steg 2,4% till 4.508,8 dollar unsen efter att oljeprisfallet minskat inflationsoro</cite>. Detta gynnar eventuella guld-ETF:er i portfolios.",
+        "tip": "💡 Om du har råvarufonder eller metall-ETF:er i din tjänstepension kan dagens gulduppgång kompensera för förluster i andra tillgångar under Iran-krisen."
+      },
+      {
+        "icon": "🇸🇪",
+        "label": "SVENSKA AKTIER RELATIVT STABILA",
+        "text": "OMX30 på 2906,03 jämfört med amerikanska index visar att svenska marknaden hållit emot relativt väl. H&M:s rapport idag kan ge indikationer om svensk konsumtion.",
+        "tip": "💡 Svenska aktiefonder i din pension påverkas mindre av geopolitik än amerikanska. Håll kvar i din långsiktiga allokering – svängningar är normala."
+      },
+      {
+        "icon": "🎯",
+        "label": "LÄGE FÖR MÅNADSSPARANDE",
+        "text": "<cite index='2-11'>Investerare väntar på arbetslöshetsstatistik på torsdag för signaler om amerikansk arbetsmarknad</cite>. Volatilitet skapar köptillfällen för långsiktiga sparare.",
+        "tip": "💡 Höga VIX-nivåer (26,5) brukar förebåda lägre priser framöver. Om du har automatiskt månadssparande köper du nu till lägre genomsnittspriser."
       }
     ],
     "sources": [
-      "CNBC Markets",
-      "Yahoo Finance",
-      "Al Jazeera",
-      "Bloomberg",
-      "Dagens Industri"
+      "Bloomberg - Stock Market Updates March 26 2026",
+      "CNBC - Iran War US Trump negotiations",
+      "Trading Economics - US Stock Market Analysis",
+      "H&M Group - Financial Calendar & Earnings"
     ]
   }
 }
