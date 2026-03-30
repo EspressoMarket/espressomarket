@@ -1,16 +1,16 @@
 {
-  "generated": "2026-03-27T08:07:25.559184",
+  "generated": "2026-03-30T21:21:57.188952",
   "quotes": {
     "OMX30": {
-      "price": 2875.7,
+      "price": 2890.29,
       "change": 0.0
     },
     "S&P 500": {
-      "price": 6477.16,
+      "price": 6343.72,
       "change": 0.0
     },
     "NASDAQ": {
-      "price": 21408.08,
+      "price": 20794.64,
       "change": 0.0
     },
     "EUR/USD": {
@@ -18,130 +18,130 @@
       "change": 0.0
     },
     "USD/SEK": {
-      "price": 9.44,
+      "price": 9.53,
       "change": 0.0
     },
     "EUR/SEK": {
-      "price": 10.87,
+      "price": 10.94,
       "change": 0.0
     },
     "BTC/USD": {
-      "price": 68561.16,
-      "change": -2.13
+      "price": 66897.61,
+      "change": 0.5
     }
   },
   "futures": {
     "S&P 500 Futures": {
-      "price": 6545.5,
+      "price": 6383.25,
       "change": 0.0
     },
     "NASDAQ Futures": {
-      "price": 23877.25,
+      "price": 23106.25,
       "change": 0.0
     },
     "DAX Futures": {
-      "price": 22612.97,
+      "price": 22562.88,
       "change": 0.0
     },
     "Olja (WTI)": {
-      "price": 95.11,
+      "price": 105.01,
       "change": 0.0
     },
     "Guld": {
-      "price": 4473.9,
+      "price": 4540.4,
       "change": 0.0
     },
     "VIX": {
-      "price": 27.63,
+      "price": 30.61,
       "change": 0.0
     }
   },
   "briefing": {
-    "headline": "Trump förlänger Iran-deadline — futures studsar",
-    "date": "Friday 27 March 2026",
+    "headline": "VIX över 30 när Iran-kriget fortsätter",
+    "date": "Monday 30 March 2026",
     "beginner": [
       {
-        "icon": "🕊️",
-        "label": "IRAN-PAUS TILL 6 APRIL",
-        "text": "Trump förlängde sin deadline för Iran att öppna Hormuzsundet med 10 dagar efter iransk förfrågan. Förhandlingar pågår via Pakistan om 15-punktsplan för fred.",
-        "explain": "💡 När geopolitisk spänning minskar tillfälligt stiger börsen — investerare hoppas på fred istället för krig som driver upp oljepriser."
+        "icon": "🛢️",
+        "label": "IRAN-KRIGET FORTSÄTTER",
+        "text": "Hormuz-sundet blockerat i femte veckan medan oljan över $100. Trump hotar Irans kraftverk men förhandlingar pågår.",
+        "explain": "💡 Oljan påverkar allt från bensinpriser till flygbiljetter. Höga energipriser gör att allt blir dyrare och företag tjänar mindre."
       },
       {
-        "icon": "📉",
-        "label": "WALL STREET FÖLL HÅRT",
-        "text": "Dow -1.01%, S&P 500 -1.74%, Nasdaq -2.38% i torsdags. Teknikaktier ledde nedgången när stagflationsoro växte med oljepriset på $107.",
-        "explain": "💡 Stagflation = stigande priser + svag tillväxt samtidigt — det värsta scenariot för aktier eftersom företag får högre kostnader men säljer mindre."
+        "icon": "📈",
+        "label": "BÖRSEN BLANDAT IDAG",
+        "text": "S&P 500 ned 0,39% till 6343 medan Nasdaq föll 0,73%. VIX-index över 30 visar panik bland investerare.",
+        "explain": "💡 VIX över 30 betyder stor rädsla på marknaden. Det är som att investerarna får panik och säljer aktier snabbt."
       },
       {
-        "icon": "⚡",
-        "label": "FUTURES STUDSAR UPPÅT",
-        "text": "US-futures +0.5% efter Trumps besked om förlängd deadline. Marknaden tolkar detta som hopp om diplomatisk lösning.",
-        "explain": "💡 Futures = kontrakt som visar vad investerare tror börsen öppnar på — positiva futures efter dåliga nyheter betyder 'köp-på-dipp' mentalitet."
+        "icon": "🏛️",
+        "label": "POWELL LUGNAR MARKNADEN",
+        "text": "Fed-chefen sade på Harvard att räntor är 'på rätt plats' trots oljekrisen. Marknaden lättade när han inte hotade med räntehöjningar.",
+        "explain": "💡 När centralbanken inte höjer räntorna blir det billigare att låna pengar för företag och privatpersoner."
       },
       {
-        "icon": "😰",
-        "label": "VIX VISAR FORTSATT ORO",
-        "text": "Rädsloindex VIX kvar på 27.6 — betydligt över 'normalläget' 20. Marknaden fortfarande nervös trots diplomatiska framsteg.",
-        "explain": "💡 VIX över 20 = förhöjd oro, över 30 = panik. Vid 27.6 är marknaden stressad men inte i fullt panikläge ännu."
+        "icon": "🇸🇪",
+        "label": "STOCKHOLM UPP TROTS KAOS",
+        "text": "OMXS30 steg 0,92% till 2890 punkter medan världen faller. Svenska aktier klarar sig bättre än amerikanska.",
+        "explain": "💡 Svenska företag är mindre beroende av Mellanöstern än amerikanska, vilket gör dem stabilare just nu."
       }
     ],
     "analyst": [
       {
-        "icon": "🎯",
-        "label": "TERMINSMARKNADEN INDIKERAR",
-        "text": "S&P 500 futures +0.5% till 6545.5 efter Trumps Iran-förlängning. DAX futures oförändrade 22613. VIX 27.63 signalerar fortsatt volatilitet trots diplomatiska framsteg.",
-        "tip": "Bevaka om VIX faller under 25 — då kan verklig återhämtning starta."
+        "icon": "📊",
+        "label": "TERMINSMARKNADEN PLATT",
+        "text": "S&P futures +0,0% på 6383 medan VIX 30,61 indikerar fortsatt volatilitet. Dollar/krona 9,53 håller sig stabil.",
+        "explain": "Tekniska indikatorer pekar på försiktig marknad inför veckan. RSI och MACD visar överförsålda nivåer."
       },
       {
         "icon": "🛢️",
-        "label": "OLJE-RÄNTESPREAD KRITISK",
-        "text": "WTI $95.11, Brent hovrar $107 enligt källor. 10-årsräntan stiger på stagflationsoro medan Fed-sänkningar nu bara 8% sannolikhet (från 95% för månad sedan).",
-        "tip": "Olja över $100 + stigande räntor = dubbelt tryck på tillväxt. Energisektorn gynnas kortsiktigt."
+        "label": "OLJEPRIS KRITISK NIVÅ",
+        "text": "WTI över $105 med Brent nära $110. Goldman Sachs varnar för $200-olja om Hormuz stängt längre än april.",
+        "explain": "Endast 4,2 mb/d kan omledas via rörledningar av normala 20 mb/d genom Hormuz. Strategiska reserver släpps i rekordfart."
       },
       {
-        "icon": "🇸🇪",
-        "label": "SVERIGE: YUBICO KRASCHADE",
-        "text": "Säkerhetsbolaget rapporterade -12% omsättning till 548.3 MSEK, rörelsemarginalen kollapsade från 17.8% till 1.2%. Valutaeffekter -10.7% påverkade kraftigt.",
-        "tip": "Techbolag med USD-exponering drabbas hårt av kronförsvagning i denna miljö."
+        "icon": "💰",
+        "label": "SEKTORSROTATION PÅGÅR",
+        "text": "Energi och bank upp medan teknik faller. Micron -10% efter kvartalsrapport, aluminium +4,7% på Mellanöstern-strejker.",
+        "explain": "Klassisk defensive rotation när geopolitisk risk ökar. Finansiella sektorn gynnas av högre ränteförväntningar."
       },
       {
-        "icon": "📊",
-        "label": "TEKNISK BILD SVAG",
-        "text": "Nasdaq i korrigering med -2.38% fall. Russell 2000 redan i korrektionsterritorium (-10%+ från topp). Bred försäljning med 4/5 S&P 500-aktier ned igår.",
-        "tip": "Korrigering pågår — vänta på VIX under 20 och stabilisering i 2-års yields för återinträde."
+        "icon": "📉",
+        "label": "TEKNISK ANALYS NEGATIV",
+        "text": "S&P 500 under 200-dagars MA på 6400-nivån. Support vid 6200, motstånd 6500. Nasdaq i korrektionsterritorium -10%.",
+        "explain": "Tekniska mönster visar svaghet. Volymanalys indikerar institutionell försäljning fortsätter."
       }
     ],
     "pension": [
       {
-        "icon": "⚖️",
-        "label": "BLANDAT LÄGE FÖR PPM",
-        "text": "Teknikfonder som följer Nasdaq ner -2.4% igår men Iran-pausen ger hopp. Globalfonder påverkas av både USA-fall och diplomatiska framsteg.",
-        "tip": "💡 Vänta med stora omflyttningar — geopolitisk osäkerhet gör att läget kan vända snabbt åt båda hållen inom dagar."
+        "icon": "🌱",
+        "label": "ENERGITUNGA FONDER GYNNAS",
+        "text": "AP-fondernas energiinvesteringar presterar bäst. Råvarufonder och nordiska aktiefonder klarar sig relativt bra.",
+        "tip": "💡 Överväg att öka råvaruexponering i PPM-valet om Iran-kriget fortsätter. Undvik rena teknikfonder tillfälligt."
+      },
+      {
+        "icon": "💼",
+        "label": "DOLLAR HEDGE VIKTIGT",
+        "text": "Globalfonder utan valutasäkring drabbas av stark dollar. AMF och SEB-fonder med hedge presterar bättre.",
+        "tip": "💡 Kontrollera dina pensionsval - välj valutasäkrade fonder om du har mycket utlandsexponering nu."
       },
       {
         "icon": "🛡️",
-        "label": "SÄKERHET I OROSTIDER",
-        "text": "Blandfonder och AP7 Såfa buffrar bättre än rena aktiefonder när VIX över 25. Räntefonder gynnades när 10-årsräntan steg på stagflationsoro.",
-        "tip": "💡 Överväg att ha 20-30% i räntor/blandfonder när VIX över 25 — skyddar mot kraftiga fall men behåller uppåtpotential."
+        "label": "DEFENSIVE SEKTORER STARKA",
+        "text": "Läkemedel och konsumentvaror klarar sig bättre. Svenska verkstadsfonder påverkas av lägre tillväxtprognoser.",
+        "tip": "💡 En balanserad portfölj med både defensiva och cykliska innehav är extra viktig i osäkra tider som nu."
       },
       {
-        "icon": "🌍",
-        "label": "GEOGRAFISK SPRIDNING VIKTIGT",
-        "text": "USA-fokuserade fonder drabbas av Iran-oro och stagflationsrisk. Europa-fonder mindre påverkade av Mellanösternkonflikten än väntat.",
-        "tip": "💡 Se över att ha både USA och Europa — inte bara FANG-aktier som faller hårdare när räntor och olja stiger samtidigt."
-      },
-      {
-        "icon": "📈",
-        "label": "KÖPLÄGE ELLER VÄNTA?",
-        "text": "Futures +0.5% men VIX 27.6 säger att marknaden inte är säker än. Historiskt ger VIX över 25 bra köplägen — men timing är svårt.",
-        "tip": "💡 Dollarkostaverage om du ska köpa nu — dela upp köp över 2-4 veckor istället för att satsa allt på en gång."
+        "icon": "⏰",
+        "label": "TÅLAMOD KRÄVS NU",
+        "text": "Historiskt återhämtar sig marknader inom 3-6 månader från geopolitiska chocker. Långsiktigt perspektiv viktigt.",
+        "tip": "💡 Undvik att göra drastiska ändringar i pensionssparandet baserat på kortsiktig volatilitet. Håll din strategi."
       }
     ],
     "sources": [
-      "Bloomberg Markets",
-      "Trading Economics",
-      "MarketScreener",
-      "CNBC Markets"
+      "Bloomberg - Iran-kriget och oljemarknaden",
+      "CNBC Markets - Powell Harvard-tal och marknadsstängning",
+      "MarketWatch - VIX-utveckling och sektorsrotation",
+      "Infobae - OMXS30 utveckling dagens handel"
     ]
   }
 }
