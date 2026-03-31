@@ -27,6 +27,7 @@ body::after{content:'';position:fixed;inset:0;background-image:url("data:image/s
 @keyframes bd{0%,100%{transform:translate(0,0) scale(1);}33%{transform:translate(30px,-20px) scale(1.05);}66%{transform:translate(-20px,30px) scale(0.95);}}
 .glass{background:var(--glass);backdrop-filter:blur(20px);border:1px solid var(--glass-border);border-radius:var(--r-lg);}
 .glass-sm{background:var(--glass);backdrop-filter:blur(16px);border:1px solid var(--glass-border);border-radius:var(--r-md);}
+@keyframes pd{0%,100%{opacity:1;}50%{opacity:0.3;}}
 
 /* NAV */
 nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:13px 44px;display:flex;align-items:center;justify-content:space-between;transition:all 0.4s;}
@@ -39,54 +40,41 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
 .nav-right{display:flex;align-items:center;gap:9px;}
 .sub-badge{display:flex;align-items:center;gap:5px;font-family:'DM Mono',monospace;font-size:0.66rem;color:var(--green);padding:4px 10px;border-radius:var(--r-xl);background:rgba(91,191,138,0.1);border:1px solid rgba(91,191,138,0.25);}
 .sub-dot{width:5px;height:5px;border-radius:50%;background:var(--green);animation:pd 1.5s ease-in-out infinite;}
-@keyframes pd{0%,100%{opacity:1;}50%{opacity:0.3;}}
 .nav-cta{background:linear-gradient(135deg,var(--latte),var(--gold));color:#1a1208;border:none;padding:7px 16px;font-family:'DM Sans',sans-serif;font-size:0.7rem;font-weight:500;letter-spacing:0.07em;text-transform:uppercase;cursor:pointer;border-radius:var(--r-xl);white-space:nowrap;}
 .page{display:none;position:relative;z-index:1;}.page.active{display:block;}
 
-/* TICKER */
-.ticker-wrap{width:100%;overflow:hidden;padding:9px 0;background:rgba(255,240,215,0.04);border-top:1px solid var(--glass-border);border-bottom:1px solid var(--glass-border);position:relative;z-index:1;}
-.ticker-track{display:flex;animation:tick 30s linear infinite;width:max-content;}
-.ticker-item{display:flex;align-items:center;gap:7px;padding:0 24px;font-family:'DM Mono',monospace;font-size:0.7rem;border-right:1px solid var(--glass-border);white-space:nowrap;}
-.tn{color:var(--muted);}.up{color:var(--green);}.dn{color:var(--red);}
-@keyframes tick{0%{transform:translateX(0);}100%{transform:translateX(-50%);}}
+/* TRADINGVIEW TICKER */
+.tv-ticker-wrap{border-top:1px solid var(--glass-border);border-bottom:1px solid var(--glass-border);background:rgba(255,240,215,0.03);position:relative;z-index:1;}
+.tv-ticker-wrap .tradingview-widget-container{height:46px;}
 
-/* ===================== HEM PAGE ===================== */
-.hem-hero{min-height:42vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:120px 20px 40px;position:relative;}
+/* HEM */
+.hem-hero{min-height:38vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:120px 20px 36px;position:relative;}
 .hem-hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse 70% 60% at 50% 60%,rgba(107,61,30,0.25) 0%,transparent 70%);}
 .hem-hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,5vw,3.8rem);font-weight:700;line-height:1;color:var(--cream);position:relative;z-index:1;}
 .hem-hero h1 em{font-style:italic;color:var(--gold);}
 .hem-date{font-family:'DM Mono',monospace;font-size:0.65rem;color:var(--muted);letter-spacing:0.15em;text-transform:uppercase;margin-top:10px;position:relative;z-index:1;}
-
-/* TODAY'S BRIEFING — long version */
 .hem-main{max-width:900px;margin:0 auto;padding:0 44px 60px;}
-.hem-loading{text-align:center;padding:60px 20px;}
-.hem-headline{font-family:'Cormorant Garamond',serif;font-size:clamp(1.5rem,3vw,2.4rem);color:var(--cream);font-weight:700;line-height:1.15;margin-bottom:8px;text-align:center;}
-.hem-subline{font-size:0.82rem;color:var(--muted);text-align:center;margin-bottom:32px;}
+.hem-loading{text-align:center;padding:80px 20px;}
+.hem-headline{font-family:'Cormorant Garamond',serif;font-size:clamp(1.5rem,3vw,2.4rem);color:var(--cream);font-weight:700;line-height:1.15;margin-bottom:6px;text-align:center;}
+.hem-subline{font-size:0.78rem;color:var(--muted);text-align:center;margin-bottom:28px;font-family:'DM Mono',monospace;letter-spacing:0.08em;}
 
-/* Level selector on home */
+/* Tabs */
 .hem-tabs{display:flex;gap:8px;justify-content:center;margin-bottom:28px;flex-wrap:wrap;}
 .hem-tab{padding:8px 20px;border-radius:var(--r-xl);font-family:'DM Mono',monospace;font-size:0.64rem;letter-spacing:0.08em;text-transform:uppercase;cursor:pointer;border:1px solid var(--glass-border);background:var(--glass);color:var(--muted);transition:all 0.2s;}
-.hem-tab:hover{color:var(--cream);}
 .hem-tab.t-beg.active{border-color:var(--beginner);color:var(--beginner);background:rgba(122,179,212,0.1);}
 .hem-tab.t-ana.active{border-color:var(--analyst);color:var(--analyst);background:rgba(212,165,90,0.1);}
 .hem-tab.t-pen.active{border-color:var(--pension);color:var(--pension);background:rgba(91,191,138,0.1);}
 
-/* Briefing items — long */
-.hem-items{display:flex;flex-direction:column;gap:14px;margin-bottom:24px;}
+/* Briefing items */
+.hem-items{display:none;flex-direction:column;gap:14px;margin-bottom:20px;}
+.hem-items.show{display:flex;}
 .hem-item{padding:22px 26px;border-radius:var(--r-lg);border:1px solid var(--glass-border);background:var(--glass);}
 .hem-item-top{display:flex;align-items:center;gap:10px;margin-bottom:12px;}
 .hem-item-icon{font-size:1.4rem;}
 .hem-item-label{font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.14em;text-transform:uppercase;}
-.hem-item-text{font-size:0.92rem;line-height:1.75;color:var(--text);margin-bottom:10px;}
+.hem-item-text{font-size:0.92rem;line-height:1.78;color:var(--text);margin-bottom:10px;}
 .hem-item-block{padding:11px 15px;border-radius:var(--r-sm);font-size:0.82rem;line-height:1.65;color:var(--muted);border-left:3px solid;margin-top:8px;}
-.hem-sources{font-family:'DM Mono',monospace;font-size:0.62rem;color:var(--muted);text-align:center;margin-bottom:20px;}
-
-/* Futures strip */
-.hem-futures{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:28px;}
-.hem-future-chip{display:flex;align-items:center;gap:6px;padding:6px 14px;border-radius:var(--r-xl);background:rgba(255,240,215,0.05);border:1px solid var(--glass-border);font-family:'DM Mono',monospace;font-size:0.7rem;}
-.hem-future-name{color:var(--muted);}
-
-/* Subscribe CTAs */
+.hem-sources{font-family:'DM Mono',monospace;font-size:0.62rem;color:var(--muted);text-align:center;margin-bottom:24px;}
 .hem-ctas{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:8px;}
 .hem-cta-btn{padding:11px 22px;border-radius:var(--r-xl);font-family:'DM Sans',sans-serif;font-size:0.76rem;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;cursor:pointer;border:none;transition:all 0.2s;}
 .hem-cta-btn:hover{transform:translateY(-2px);}
@@ -94,45 +82,34 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
 .hem-cta-btn.ana{background:linear-gradient(135deg,var(--latte),var(--gold));color:#1a1208;}
 .hem-cta-btn.pen{background:rgba(91,191,138,0.15);color:var(--pension);border:1px solid rgba(91,191,138,0.3);}
 
-/* ===================== ARCHIVE ===================== */
+/* ARCHIVE */
 .archive-wrap{max-width:900px;margin:0 auto;padding:0 44px 80px;}
 .archive-divider{border-top:1px solid var(--glass-border);padding-top:48px;margin-bottom:28px;}
 .archive-heading{font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:700;color:var(--cream);margin-bottom:6px;}
 .archive-desc{font-size:0.82rem;color:var(--muted);margin-bottom:24px;}
 .archive-list{display:flex;flex-direction:column;gap:10px;}
-.arc-item{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 24px;border-radius:var(--r-lg);border:1px solid var(--glass-border);background:var(--glass);cursor:pointer;transition:all 0.25s;}
+.arc-item{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 24px;border-radius:var(--r-lg);border:1px solid var(--glass-border);background:var(--glass);cursor:pointer;transition:all 0.25s;}
 .arc-item:hover{border-color:rgba(212,165,90,0.35);background:rgba(255,240,215,0.1);transform:translateX(5px);}
 .arc-left{flex:1;}
 .arc-date{font-family:'DM Mono',monospace;font-size:0.62rem;color:var(--gold);letter-spacing:0.1em;margin-bottom:5px;}
 .arc-headline{font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--cream);font-weight:600;line-height:1.25;}
-.arc-preview{font-size:0.78rem;color:var(--muted);margin-top:4px;line-height:1.5;}
+.arc-preview{font-size:0.78rem;color:var(--muted);margin-top:5px;line-height:1.5;}
 .arc-arrow{color:var(--muted);font-size:1.1rem;flex-shrink:0;}
 .archive-empty{font-family:'DM Mono',monospace;font-size:0.76rem;color:var(--muted);text-align:center;padding:40px;border:1px solid var(--glass-border);border-radius:var(--r-lg);}
 
-/* ===================== FULL BRIEFING ===================== */
+/* FULL BRIEFING */
 .full-page{min-height:100vh;padding:96px 44px 70px;max-width:900px;margin:0 auto;}
 .full-back{display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',monospace;font-size:0.66rem;color:var(--muted);cursor:pointer;margin-bottom:28px;background:none;border:none;letter-spacing:0.08em;text-transform:uppercase;transition:color 0.2s;}
 .full-back:hover{color:var(--gold);}
 .full-badge{display:inline-flex;align-items:center;gap:7px;padding:5px 14px;border-radius:var(--r-xl);font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:16px;}
 .full-headline{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4.5vw,3.2rem);font-weight:700;color:var(--cream);line-height:1.05;margin-bottom:8px;}
-.full-date{font-family:'DM Mono',monospace;font-size:0.65rem;color:var(--muted);letter-spacing:0.12em;margin-bottom:32px;}
-
-/* Futures grid */
-.full-futures-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:28px;}
-.full-future-card{padding:13px 16px;border-radius:var(--r-md);border:1px solid var(--glass-border);background:rgba(255,240,215,0.04);}
-.ffc-name{font-family:'DM Mono',monospace;font-size:0.6rem;color:var(--muted);margin-bottom:4px;}
-.ffc-price{font-family:'DM Mono',monospace;font-size:0.9rem;color:var(--cream);}
-.ffc-change{font-family:'DM Mono',monospace;font-size:0.72rem;margin-top:2px;}
-
-/* Level tabs */
+.full-date{font-family:'DM Mono',monospace;font-size:0.65rem;color:var(--muted);letter-spacing:0.12em;margin-bottom:28px;}
 .full-tabs{display:flex;gap:6px;margin-bottom:28px;flex-wrap:wrap;}
 .full-tab{padding:7px 18px;border-radius:var(--r-xl);font-family:'DM Mono',monospace;font-size:0.64rem;letter-spacing:0.08em;text-transform:uppercase;cursor:pointer;border:1px solid var(--glass-border);background:var(--glass);color:var(--muted);transition:all 0.2s;}
 .full-tab.t-beg.active{border-color:var(--beginner);color:var(--beginner);background:rgba(122,179,212,0.1);}
 .full-tab.t-ana.active{border-color:var(--analyst);color:var(--analyst);background:rgba(212,165,90,0.1);}
 .full-tab.t-pen.active{border-color:var(--pension);color:var(--pension);background:rgba(91,191,138,0.1);}
 .full-content{display:none;}.full-content.show{display:block;}
-
-/* Full briefing items */
 .full-items{display:flex;flex-direction:column;gap:16px;}
 .full-item{padding:24px 28px;border-radius:var(--r-lg);border:1px solid var(--glass-border);background:var(--glass);}
 .full-item-top{display:flex;align-items:center;gap:11px;margin-bottom:14px;}
@@ -142,7 +119,7 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
 .full-item-block{padding:12px 16px;border-radius:var(--r-sm);font-size:0.84rem;line-height:1.65;color:var(--muted);border-left:3px solid;margin-top:10px;}
 .full-sources{font-family:'DM Mono',monospace;font-size:0.62rem;color:var(--muted);margin-top:24px;padding-top:18px;border-top:1px solid var(--glass-border);}
 
-/* ===================== NIVÅER ===================== */
+/* NIVÅER */
 .main-hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:110px 20px 60px;position:relative;}
 .main-hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse 70% 60% at 50% 60%,rgba(107,61,30,0.25) 0%,transparent 70%);}
 .main-hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2.8rem,7.5vw,6rem);font-weight:700;line-height:0.95;color:var(--cream);position:relative;z-index:1;}
@@ -154,12 +131,13 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
 .lc{padding:24px 20px;cursor:pointer;transition:all 0.3s;text-align:left;border-radius:var(--r-lg);position:relative;}
 .lc:hover{transform:translateY(-4px);}
 .lc.beg{border:1px solid rgba(122,179,212,0.25);background:rgba(122,179,212,0.06);}
+.lc.beg:hover{box-shadow:0 20px 50px rgba(122,179,212,0.12);}
 .lc.ana{border:1px solid rgba(212,165,90,0.25);background:rgba(212,165,90,0.06);}
+.lc.ana:hover{box-shadow:0 20px 50px rgba(212,165,90,0.12);}
 .lc.pen{border:1px solid rgba(91,191,138,0.25);background:rgba(91,191,138,0.06);}
-.lc:hover.beg{box-shadow:0 20px 50px rgba(122,179,212,0.12);}
-.lc:hover.ana{box-shadow:0 20px 50px rgba(212,165,90,0.12);}
-.lc:hover.pen{box-shadow:0 20px 50px rgba(91,191,138,0.12);}
-.li{font-size:1.8rem;margin-bottom:11px;}.lt{font-family:'DM Mono',monospace;font-size:0.58rem;letter-spacing:0.14em;text-transform:uppercase;margin-bottom:6px;}
+.lc.pen:hover{box-shadow:0 20px 50px rgba(91,191,138,0.12);}
+.li{font-size:1.8rem;margin-bottom:11px;}
+.lt{font-family:'DM Mono',monospace;font-size:0.58rem;letter-spacing:0.14em;text-transform:uppercase;margin-bottom:6px;}
 .lc.beg .lt{color:var(--beginner);}.lc.ana .lt{color:var(--analyst);}.lc.pen .lt{color:var(--pension);}
 .lc h3{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:600;color:var(--cream);margin-bottom:6px;}
 .lc p{font-size:0.76rem;color:var(--muted);line-height:1.6;margin-bottom:12px;}
@@ -174,7 +152,7 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
 .lc.pen .lcta{background:linear-gradient(135deg,rgba(91,191,138,0.3),rgba(91,191,138,0.5));color:var(--cream);}
 .lfb{position:absolute;top:13px;right:13px;background:var(--gold-dim);border:1px solid rgba(212,165,90,0.3);color:var(--gold);font-family:'DM Mono',monospace;font-size:0.55rem;padding:2px 8px;border-radius:var(--r-xl);}
 
-/* ===================== INNER PAGES ===================== */
+/* INNER PAGES */
 .inner{min-height:100vh;padding:96px 44px 70px;max-width:920px;margin:0 auto;}
 .lvl-badge{display:inline-flex;align-items:center;gap:7px;padding:5px 14px;border-radius:var(--r-xl);font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:18px;}
 .inner h1{font-family:'Cormorant Garamond',serif;font-size:clamp(1.9rem,4.5vw,3.3rem);font-weight:700;color:var(--cream);line-height:1.05;margin-bottom:12px;}
@@ -261,20 +239,17 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
 .vc{padding:17px;}.vi{font-size:1.1rem;margin-bottom:8px;}
 .vc h4{font-family:'Cormorant Garamond',serif;font-size:0.95rem;color:var(--cream);margin-bottom:4px;}
 .vc p{font-size:0.74rem;color:var(--muted);line-height:1.6;}
-
 .toast{position:fixed;bottom:20px;right:20px;color:var(--cream);padding:11px 16px;font-family:'DM Mono',monospace;font-size:0.73rem;z-index:1001;transform:translateY(80px);opacity:0;transition:all 0.35s ease;display:flex;align-items:center;gap:8px;border-radius:var(--r-lg);background:rgba(35,24,8,0.95);border:1px solid var(--glass-border);}
 .toast.show{transform:translateY(0);opacity:1;}
 .site-footer{padding:20px 44px;border-top:1px solid var(--glass-border);display:flex;align-items:center;justify-content:space-between;position:relative;z-index:1;}
 .site-footer p{font-size:0.68rem;color:var(--muted);font-family:'DM Mono',monospace;}
-
 @media(max-width:860px){
   nav{padding:11px 16px;}.nav-center{display:none;}
   .level-cards,.abg{grid-template-columns:1fr;}
-  .vg,.full-futures-grid{grid-template-columns:1fr 1fr;}
+  .vg{grid-template-columns:1fr 1fr;}
   .inner,.disk-page,.abp,.full-page{padding:88px 16px 56px;}
   .hem-main,.archive-wrap{padding:0 16px 60px;}
   .disk-input-row{flex-direction:column;}.disk-name{width:100%;}
-  .hem-futures{gap:6px;}
 }
 </style>
 </head>
@@ -309,65 +284,55 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
   <div class="hem-hero">
     <div class="hem-hero-bg"></div>
     <h1>Dagens <em>Marknadsbriefing</em></h1>
-    <div class="hem-date" id="hem-date">Laddar…</div>
+    <div class="hem-date" id="hem-date"></div>
   </div>
 
-  <div class="ticker-wrap" style="padding:0;border-top:1px solid var(--glass-border);border-bottom:1px solid var(--glass-border);">
-  <div class="tradingview-widget-container">
-    <div class="tradingview-widget-container__widget"></div>
-    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-    {
-      "symbols": [
-        {"proName":"NASDAQ:OMXS30","title":"OMX30"},
-        {"proName":"SP:SPX","title":"S&P 500"},
-        {"proName":"NASDAQ:NDX","title":"NASDAQ"},
-        {"proName":"XETR:DAX","title":"DAX"},
-        {"proName":"TVC:GOLD","title":"Guld"},
-        {"proName":"TVC:USOIL","title":"Olja"},
-        {"proName":"FX:EURUSD","title":"EUR/USD"},
-        {"proName":"FX:USDSEK","title":"USD/SEK"},
-        {"proName":"BITSTAMP:BTCUSD","title":"BTC/USD"},
-        {"proName":"TVC:VIX","title":"VIX"}
-      ],
-      "showSymbolLogo": false,
-      "isTransparent": true,
-      "displayMode": "adaptive",
-      "colorTheme": "dark",
-      "locale": "sv_SE"
-    }
-    </script>
+  <!-- TRADINGVIEW LIVE TICKER -->
+  <div class="tv-ticker-wrap">
+    <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+      {
+        "symbols": [
+          {"proName": "OMXSTO:OMXS30", "title": "OMX30"},
+          {"proName": "SP:SPX",         "title": "S&P 500"},
+          {"proName": "NASDAQ:NDX",     "title": "NASDAQ 100"},
+          {"proName": "FOREXCOM:SPXUSD","title": "S&P Futures"},
+          {"proName": "XETR:DAX",       "title": "DAX"},
+          {"proName": "TVC:GOLD",       "title": "Guld"},
+          {"proName": "NYMEX:CL1!",     "title": "Olja WTI"},
+          {"proName": "TVC:VIX",        "title": "VIX"},
+          {"proName": "FX:EURUSD",      "title": "EUR/USD"},
+          {"proName": "FX:USDSEK",      "title": "USD/SEK"},
+          {"proName": "BITSTAMP:BTCUSD","title": "BTC/USD"}
+        ],
+        "showSymbolLogo": false,
+        "isTransparent": true,
+        "displayMode": "adaptive",
+        "colorTheme": "dark",
+        "locale": "sv_SE"
+      }
+      </script>
+    </div>
   </div>
-</div>
 
   <div class="hem-main">
-    <!-- Loading state -->
     <div id="hem-loading" class="hem-loading">
       <div style="font-size:2.2rem;animation:pd 1.5s ease-in-out infinite;margin-bottom:14px">☕</div>
       <div style="font-family:'DM Mono',monospace;font-size:0.76rem;color:var(--muted)">Hämtar dagens briefing…</div>
     </div>
-
-    <!-- Loaded state -->
     <div id="hem-loaded" style="display:none">
       <div id="hem-headline" class="hem-headline"></div>
       <div id="hem-subline"  class="hem-subline"></div>
-
-      <!-- Terminspriser -->
-      <div id="hem-futures" class="hem-futures"></div>
-
-      <!-- Nivåflikar -->
       <div class="hem-tabs">
         <button class="hem-tab t-beg active" id="htab-beginner" onclick="switchHemTab('beginner')">☕ Nybörjare</button>
         <button class="hem-tab t-ana"        id="htab-analyst"  onclick="switchHemTab('analyst')">📊 Analytiker</button>
         <button class="hem-tab t-pen"        id="htab-pension"  onclick="switchHemTab('pension')">🌱 Pensionssparare</button>
       </div>
-
-      <div id="hem-items-beginner" class="hem-items"></div>
-      <div id="hem-items-analyst"  class="hem-items" style="display:none"></div>
-      <div id="hem-items-pension"  class="hem-items" style="display:none"></div>
-
+      <div id="hem-items-beginner" class="hem-items show"></div>
+      <div id="hem-items-analyst"  class="hem-items"></div>
+      <div id="hem-items-pension"  class="hem-items"></div>
       <div id="hem-sources" class="hem-sources"></div>
-
-      <!-- Subscribe CTAs -->
       <div class="hem-ctas">
         <button class="hem-cta-btn beg" onclick="showPage('beginner')">☕ Prenumerera — Nybörjare</button>
         <button class="hem-cta-btn ana" onclick="showPage('analyst')">📊 Prenumerera — Analytiker</button>
@@ -401,19 +366,14 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
   <div id="full-badge" class="full-badge"></div>
   <h1 class="full-headline" id="full-headline"></h1>
   <div class="full-date" id="full-date"></div>
-
-  <div class="full-futures-grid" id="full-futures-grid"></div>
-
   <div class="full-tabs">
     <button class="full-tab t-beg" id="ftab-beginner" onclick="switchFullTab('beginner')">☕ Nybörjare</button>
     <button class="full-tab t-ana" id="ftab-analyst"  onclick="switchFullTab('analyst')">📊 Analytiker</button>
     <button class="full-tab t-pen" id="ftab-pension"  onclick="switchFullTab('pension')">🌱 Pensionssparare</button>
   </div>
-
   <div class="full-content show" id="full-beginner"></div>
   <div class="full-content"      id="full-analyst"></div>
   <div class="full-content"      id="full-pension"></div>
-
   <div class="full-sources" id="full-sources"></div>
 </div>
 </div>
@@ -539,7 +499,7 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
 <div class="disk-page">
   <p style="font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:12px">Prenumerantdiskussion</p>
   <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,4vw,3rem);font-weight:700;color:var(--cream);line-height:1.05;margin-bottom:16px">Vad tänker du<br/><em style="font-style:italic;color:var(--gold)">om marknaden?</em></h2>
-  <p style="font-size:0.93rem;color:var(--muted);line-height:1.75;margin-bottom:28px">Dela dina tankar om dagens nyheter. Du kan även fråga AI om andras inlägg!</p>
+  <p style="font-size:0.93rem;color:var(--muted);line-height:1.75;margin-bottom:28px">Dela dina tankar om dagens nyheter. Fråga gärna AI om andras inlägg!</p>
   <div class="disk-form glass">
     <p style="font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);margin-bottom:14px">✍️ Skriv ett inlägg</p>
     <div class="disk-input-row">
@@ -564,7 +524,7 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
       <p style="font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:12px">Om Espresso Market</p>
       <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.7rem,3.5vw,2.8rem);font-weight:700;color:var(--cream);line-height:1.05;margin-bottom:14px">Vi brygger<br/><em style="font-style:italic;color:var(--gold)">kunskap varje dag.</em></h2>
       <p>Espresso Market grundades 2026 med en enkel idé: <strong>finansnyheter ska vara tillgängliga för alla</strong>.</p>
-      <p>Varje morgon kl. 07:00 söker vår AI igenom webben och levererar tre olika briefingar — plus en djupare helsidesartikel du kan läsa här.</p>
+      <p>Varje morgon kl. 07:00 söker vår AI igenom webben och levererar tre olika briefingar — nybörjare, analytiker och pensionssparare.</p>
       <div class="vg">
         <div class="vc glass-sm"><div class="vi">☕</div><h4>Enkelhet</h4><p>Bara det som spelar roll.</p></div>
         <div class="vc glass-sm"><div class="vi">🎯</div><h4>Precision</h4><p>Baserat på riktiga nyheter varje dag.</p></div>
@@ -593,16 +553,17 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
 
 <script>
 // ===== STATE =====
-let todayData   = null;   // full briefing.json
-let archiveData = [];     // archive.json array
+let todayData   = null;
+let archiveData = [];
 const chatHist  = {};
 const bLoaded   = {beginner:false, analyst:false, pension:false};
 let diskPosts   = [];
 let diskLiked   = new Set();
-let hemTab      = 'beginner';
 
 // ===== NAV =====
-window.addEventListener('scroll', () => document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 40));
+window.addEventListener('scroll', () =>
+  document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 40)
+);
 
 function showToast(msg) {
   const t = document.getElementById('toast');
@@ -618,9 +579,9 @@ function showPage(id) {
   const btn = document.getElementById('nav-' + id);
   if (btn) btn.classList.add('active');
   window.scrollTo({top:0, behavior:'smooth'});
-  if (id === 'beginner' && !bLoaded.beginner) loadShortBriefing('beginner');
-  if (id === 'analyst'  && !bLoaded.analyst)  loadShortBriefing('analyst');
-  if (id === 'pension'  && !bLoaded.pension)  loadShortBriefing('pension');
+  if (id==='beginner' && !bLoaded.beginner) loadShortBriefing('beginner');
+  if (id==='analyst'  && !bLoaded.analyst)  loadShortBriefing('analyst');
+  if (id==='pension'  && !bLoaded.pension)  loadShortBriefing('pension');
 }
 
 // ===== SUBSCRIBER COUNT =====
@@ -633,53 +594,23 @@ async function loadSubCount() {
 }
 loadSubCount();
 
-// ===== TICKER =====
-const track = document.getElementById('ticker');
-track.innerHTML = [...Array(8)].map(() => '<div class="ticker-item"><span class="tn">Laddar…</span></div>').join('');
-function updateTicker(quotes) {
-  // TradingView hanterar tickern — inget att göra här
-  return;
-}
-    const up = q.change >= 0;
-    return `<div class="ticker-item"><span class="tn">${n}</span><span class="${up?'up':'dn'}">${up?'▲':'▼'} ${Math.abs(q.change)}%</span></div>`;
-  }).join('');
-}
-
-// ===== LOAD HOME PAGE =====
+// ===== LOAD TODAY'S BRIEFING =====
 async function loadHem() {
   try {
     const res  = await fetch('/data/briefing.json?t=' + Date.now());
-    if (!res.ok) throw new Error();
+    if (!res.ok) throw new Error('Ingen briefing');
     const json = await res.json();
     todayData  = json;
     const d    = json.briefing;
-    updateTicker({...json.quotes, ...(json.futures||{})});
 
-    // Date
-    document.getElementById('hem-date').textContent = d.date || '';
-
-    // Headline
+    document.getElementById('hem-date').textContent    = d.date || new Date().toLocaleDateString('sv-SE',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
     document.getElementById('hem-headline').textContent = d.headline || '';
     document.getElementById('hem-subline').textContent  = d.date || '';
 
-    // Terminspriser
-    const futures = json.futures || {};
-    const fwrap   = document.getElementById('hem-futures');
-    fwrap.innerHTML = Object.entries(futures).filter(([,v]) => v.price > 0).map(([name,fv]) => {
-      const up  = fv.change >= 0;
-      const col = up ? 'var(--green)' : 'var(--red)';
-      return `<div class="hem-future-chip">
-        <span class="hem-future-name">${name}</span>
-        <span style="color:${col};font-weight:500">${up?'▲':'▼'}${Math.abs(fv.change)}%</span>
-      </div>`;
-    }).join('');
-
-    // Render all three levels
     renderHemLevel('beginner', d, 'var(--beginner)');
     renderHemLevel('analyst',  d, 'var(--analyst)');
     renderHemLevel('pension',  d, 'var(--pension)');
 
-    // Sources
     if (d.sources && d.sources.length) {
       document.getElementById('hem-sources').textContent = 'Källor: ' + d.sources.join(' · ');
     }
@@ -688,16 +619,16 @@ async function loadHem() {
     document.getElementById('hem-loaded').style.display  = 'block';
   } catch(e) {
     document.getElementById('hem-loading').innerHTML = `
-      <div style="font-size:2.2rem;margin-bottom:14px">☕</div>
+      <div style="font-size:2rem;margin-bottom:14px">☕</div>
       <div style="font-family:'DM Mono',monospace;font-size:0.76rem;color:var(--muted)">Briefingen publiceras varje vardag kl. 07:00</div>`;
-    document.getElementById('hem-date').textContent = new Date().toLocaleDateString('sv-SE', {weekday:'long',year:'numeric',month:'long',day:'numeric'});
+    document.getElementById('hem-date').textContent = new Date().toLocaleDateString('sv-SE',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
   }
 }
 
 function renderHemLevel(level, d, color) {
-  // Use full_* if available, else fallback to short
   const bullets = d['full_' + level] || d[level] || [];
   const el = document.getElementById('hem-items-' + level);
+  if (!el) return;
   el.innerHTML = bullets.map(b => {
     let blocks = '';
     if (b.explain)    blocks += `<div class="hem-item-block" style="border-color:${color};background:rgba(255,240,215,0.04)">${b.explain}</div>`;
@@ -718,17 +649,15 @@ function renderHemLevel(level, d, color) {
 }
 
 function switchHemTab(level) {
-  hemTab = level;
   ['beginner','analyst','pension'].forEach(l => {
-    document.getElementById('hem-items-' + l).style.display = l === level ? 'flex' : 'none';
+    const el = document.getElementById('hem-items-' + l);
+    if (el) el.classList.toggle('show', l === level);
+    const tab = document.getElementById('htab-' + l);
+    if (tab) tab.classList.toggle('active', l === level);
   });
-  document.querySelectorAll('.hem-tab').forEach(t => {
-    t.classList.remove('active');
-  });
-  document.getElementById('htab-' + level).classList.add('active');
 }
 
-// ===== ARCHIVE =====
+// ===== LOAD ARCHIVE =====
 async function loadArchive() {
   try {
     const res = await fetch('/data/archive.json?t=' + Date.now());
@@ -736,32 +665,33 @@ async function loadArchive() {
     archiveData = await res.json();
     renderArchive();
   } catch(e) {
-    document.getElementById('archive-list').innerHTML = '<div class="archive-empty">Inga tidigare briefingar sparade ännu.</div>';
+    document.getElementById('archive-list').innerHTML =
+      '<div class="archive-empty">Inga tidigare briefingar sparade ännu. De sparas automatiskt varje dag.</div>';
   }
 }
 
 function renderArchive() {
   const list = document.getElementById('archive-list');
-  // Skip today (index 0), show the rest
+  // Index 0 = idag, visa från 1 och framåt
   const past = archiveData.slice(1);
   if (!past.length) {
     list.innerHTML = '<div class="archive-empty">Inga tidigare briefingar ännu — kom tillbaka imorgon! ☕</div>';
     return;
   }
   list.innerHTML = past.map((item, i) => {
-    const preview = (item.beginner && item.beginner[0]) ? item.beginner[0].text || '' : '';
-    return `<div class="arc-item" onclick="openArchiveBriefing(${i+1})">
+    const preview = item.beginner && item.beginner[0] ? (item.beginner[0].text || '').substring(0,120) : '';
+    return `<div class="arc-item" onclick="openArchive(${i+1})">
       <div class="arc-left">
         <div class="arc-date">${item.date_short || item.date || ''}</div>
         <div class="arc-headline">${item.headline || ''}</div>
-        ${preview ? `<div class="arc-preview">${preview.substring(0,120)}…</div>` : ''}
+        ${preview ? `<div class="arc-preview">${preview}…</div>` : ''}
       </div>
       <div class="arc-arrow">→</div>
     </div>`;
   }).join('');
 }
 
-function openArchiveBriefing(idx) {
+function openArchive(idx) {
   const item = archiveData[idx];
   if (!item) return;
   openFullBriefing(item, item.futures || {}, 'beginner');
@@ -769,38 +699,22 @@ function openArchiveBriefing(idx) {
 
 // ===== FULL BRIEFING =====
 function openFullBriefing(data, futures, niva) {
-  // Badge
-  const badge = document.getElementById('full-badge');
-  const configs = {
-    beginner: {text:'☕ Nybörjarbriefing', style:'background:rgba(122,179,212,0.1);border:1px solid rgba(122,179,212,0.25);color:var(--beginner)'},
+  const cfgs = {
+    beginner: {text:'☕ Nybörjarbriefing',  style:'background:rgba(122,179,212,0.1);border:1px solid rgba(122,179,212,0.25);color:var(--beginner)'},
     analyst:  {text:'📊 Analytikerbriefing', style:'background:rgba(212,165,90,0.1);border:1px solid rgba(212,165,90,0.25);color:var(--gold)'},
-    pension:  {text:'🌱 Pensionsbriefing', style:'background:rgba(91,191,138,0.1);border:1px solid rgba(91,191,138,0.25);color:var(--pension)'},
+    pension:  {text:'🌱 Pensionsbriefing',   style:'background:rgba(91,191,138,0.1);border:1px solid rgba(91,191,138,0.25);color:var(--pension)'},
   };
-  badge.textContent = configs[niva].text;
-  badge.style.cssText = configs[niva].style;
-
+  const cfg = cfgs[niva] || cfgs.beginner;
+  document.getElementById('full-badge').textContent  = cfg.text;
+  document.getElementById('full-badge').style.cssText = cfg.style;
   document.getElementById('full-headline').textContent = data.headline || '';
   document.getElementById('full-date').textContent     = data.date || '';
 
-  // Futures grid
-  const fg = document.getElementById('full-futures-grid');
-  fg.innerHTML = Object.entries(futures).filter(([,v]) => v.price > 0).map(([name,fv]) => {
-    const up  = fv.change >= 0;
-    const col = up ? 'var(--green)' : 'var(--red)';
-    return `<div class="full-future-card">
-      <div class="ffc-name">${name}</div>
-      <div class="ffc-price">${fv.price}</div>
-      <div class="ffc-change" style="color:${col}">${up?'▲':'▼'} ${Math.abs(fv.change)}%</div>
-    </div>`;
-  }).join('');
-
-  // Render all three levels
   buildFullLevel('beginner', data, 'var(--beginner)');
   buildFullLevel('analyst',  data, 'var(--analyst)');
   buildFullLevel('pension',  data, 'var(--pension)');
 
   document.getElementById('full-sources').textContent = 'Källor: ' + (data.sources||[]).join(' · ');
-
   showPage('full');
   switchFullTab(niva);
 }
@@ -808,6 +722,7 @@ function openFullBriefing(data, futures, niva) {
 function buildFullLevel(level, data, color) {
   const bullets = data['full_' + level] || data[level] || [];
   const el = document.getElementById('full-' + level);
+  if (!el) return;
   el.innerHTML = `<div class="full-items">${bullets.map(b => {
     let blocks = '';
     if (b.explain)    blocks += `<div class="full-item-block" style="border-color:${color};background:rgba(255,240,215,0.04)">${b.explain}</div>`;
@@ -828,28 +743,27 @@ function buildFullLevel(level, data, color) {
 }
 
 function switchFullTab(niva) {
-  document.querySelectorAll('.full-content').forEach(c => c.classList.remove('show'));
-  document.getElementById('full-' + niva).classList.add('show');
-  document.querySelectorAll('.full-tab').forEach(t => t.classList.remove('active'));
-  const map = {beginner:'beginner', analyst:'analyst', pension:'pension'};
-  document.getElementById('ftab-' + map[niva]).classList.add('active');
+  ['beginner','analyst','pension'].forEach(l => {
+    const c = document.getElementById('full-' + l);
+    if (c) c.classList.toggle('show', l === niva);
+    const t = document.getElementById('ftab-' + l);
+    if (t) t.classList.toggle('active', l === niva);
+  });
 }
 
-// ===== URL ROUTING — from email links =====
+// ===== URL ROUTING — email links =====
 function checkUrl() {
   const p    = new URLSearchParams(window.location.search);
   const niva = p.get('niva');
-  if (niva && ['beginner','analyst','pension'].includes(niva)) {
-    // Wait for data to load then show full briefing
-    const tryOpen = () => {
-      if (todayData) {
-        openFullBriefing(todayData.briefing, todayData.futures || {}, niva);
-      } else {
-        setTimeout(tryOpen, 300);
-      }
-    };
-    tryOpen();
-  }
+  if (!niva || !['beginner','analyst','pension'].includes(niva)) return;
+  const tryOpen = () => {
+    if (todayData) {
+      openFullBriefing(todayData.briefing, todayData.futures || {}, niva);
+    } else {
+      setTimeout(tryOpen, 300);
+    }
+  };
+  tryOpen();
 }
 
 // ===== SUBSCRIBE =====
@@ -863,18 +777,15 @@ async function handleSub(level) {
   }
   try {
     const res = await fetch('/.netlify/functions/subscribe', {
-      method: 'POST',
-      headers: {'Content-Type':'application/json'},
-      body: JSON.stringify({email: inp.value, niva: level})
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({email:inp.value, niva:level})
     });
     if (res.ok) {
       suc.style.display = 'block';
       inp.closest('.sf').style.display = 'none';
       showToast('Välkommen till Espresso Market! ☕');
       loadSubCount();
-    } else {
-      showToast('Något gick fel – försök igen.');
-    }
+    } else { showToast('Något gick fel – försök igen.'); }
   } catch(e) { showToast('Något gick fel – försök igen.'); }
 }
 ['beginner','analyst','pension'].forEach(l => {
@@ -886,129 +797,133 @@ async function handleSub(level) {
 const moodData = {bm:{bull:0,bear:0,side:0}, am:{bull:0,bear:0,side:0}};
 function voteMood(type, btn, prefix) {
   moodData[prefix][type]++;
-  btn.closest('.mbtns').querySelectorAll('.mb').forEach(b => b.disabled = true);
-  btn.classList.add('v' + type[0]);
+  btn.closest('.mbtns').querySelectorAll('.mb').forEach(b => b.disabled=true);
+  btn.classList.add('v'+type[0]);
   const total = moodData[prefix].bull + moodData[prefix].bear + moodData[prefix].side;
   ['bull','bear','side'].forEach(k => {
     const p  = Math.round(moodData[prefix][k] / total * 100);
-    const f  = document.getElementById('m' + prefix + '-' + k);
-    const pc = document.getElementById('mp' + prefix + '-' + k);
-    if (f)  f.style.width = p + '%';
-    if (pc) pc.textContent = p + '%';
+    const f  = document.getElementById('m'+prefix+'-'+k);
+    const pc = document.getElementById('mp'+prefix+'-'+k);
+    if (f)  f.style.width = p+'%';
+    if (pc) pc.textContent = p+'%';
   });
-  document.getElementById('mood-' + prefix).style.display = 'block';
+  document.getElementById('mood-'+prefix).style.display = 'block';
 }
 
 // ===== SHORT BRIEFING (level pages) =====
 function animSteps(ids) {
   ids.forEach(id => {
     const el = document.getElementById(id);
-    if (el) { el.classList.remove('active','done'); el.textContent = '→ ' + el.textContent.replace(/^[✓→] /,''); }
+    if (el) { el.classList.remove('active','done'); el.textContent = '→ '+el.textContent.replace(/^[✓→] /,''); }
   });
   ids.forEach((id,i) => {
     setTimeout(() => {
       if (i > 0) {
         const prev = document.getElementById(ids[i-1]);
-        if (prev) { prev.classList.remove('active'); prev.classList.add('done'); prev.textContent = '✓ ' + prev.textContent.slice(2); }
+        if (prev) { prev.classList.remove('active'); prev.classList.add('done'); prev.textContent = '✓ '+prev.textContent.slice(2); }
       }
       const el = document.getElementById(id);
       if (el) el.classList.add('active');
-    }, i * 1400);
+    }, i*1400);
   });
 }
 
 async function loadShortBriefing(level) {
   bLoaded[level] = false;
-  document.getElementById('bl-' + level).style.display  = 'flex';
-  document.getElementById('bcon-' + level).style.display = 'none';
-  const btn = document.getElementById('rb-' + level);
-  if (btn) btn.classList.add('spinning');
-  if (level === 'beginner') animSteps(['bs1','bs2','bs3','bs4']);
-  if (level === 'analyst')  animSteps(['as1','as2','as3','as4']);
+  const blEl = document.getElementById('bl-'+level);
+  const bcEl = document.getElementById('bcon-'+level);
+  const btn  = document.getElementById('rb-'+level);
+  if (blEl) blEl.style.display = 'flex';
+  if (bcEl) bcEl.style.display = 'none';
+  if (btn)  btn.classList.add('spinning');
+  if (level==='beginner') animSteps(['bs1','bs2','bs3','bs4']);
+  if (level==='analyst')  animSteps(['as1','as2','as3','as4']);
   try {
-    const res  = await fetch('/data/briefing.json?t=' + Date.now());
+    const res  = await fetch('/data/briefing.json?t='+Date.now());
     if (!res.ok) throw new Error();
     const json = await res.json();
     todayData  = json;
     const data = json.briefing;
-    updateTicker({...json.quotes, ...(json.futures||{})});
     const bullets = data[level] || [];
-    renderShortBriefing(level, data.headline, data.date, bullets, data.sources||[]);
+    renderShort(level, data.headline, data.date, bullets, data.sources||[]);
     bLoaded[level] = true;
   } catch(e) {
     const today = new Date().toLocaleDateString('sv-SE',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
-    renderShortBriefing(level, 'Briefingen genereras kl 07:00 varje vardag ☕', today,
-      [{icon:'☕',label:'VÄLKOMMEN',text:'Espresso Market briefingen genereras automatiskt varje morgon kl 07:00.',explain:'💡 Kom tillbaka imorgon bitti!',topic:'espresso market'}], []);
+    renderShort(level, 'Briefingen genereras kl 07:00 varje vardag ☕', today,
+      [{icon:'☕',label:'VÄLKOMMEN',text:'Espresso Market briefingen genereras automatiskt varje morgon.',explain:'💡 Kom tillbaka imorgon bitti!',topic:'espresso market'}],[]);
     bLoaded[level] = true;
   }
   if (btn) btn.classList.remove('spinning');
 }
 
-function renderShortBriefing(level, headline, dateStr, bullets, sources) {
-  document.getElementById('bl-' + level).style.display = 'none';
-  const ac = level==='beginner' ? 'var(--beginner)' : level==='analyst' ? 'var(--gold)' : 'var(--pension)';
-  document.getElementById('bcon-' + level).innerHTML = `
-    <div style="font-family:'DM Mono',monospace;font-size:0.61rem;color:var(--muted);margin-bottom:12px">☕ ${dateStr}</div>
-    <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:var(--cream);margin-bottom:14px;line-height:1.2">${headline}</h3>
-    ${bullets.map((b,i) => {
-      const cid = `c-${level}-${i}`;
-      return `<div class="bi">
-        <div class="bic">${b.icon}</div>
-        <div style="flex:1">
-          <div class="bil" style="color:${ac}">${b.label}</div>
-          <div class="bit">${b.text}</div>
-          ${b.explain ? `<div class="bex" style="border-color:${ac}">${b.explain}</div>` : ''}
-          ${b.tip ? `<div class="bex" style="border-color:${ac}">${b.tip}</div>` : ''}
-          <button class="chat-btn" onclick="toggleChat('${cid}')">🤖 Fråga AI om detta</button>
-          <div class="cw" id="${cid}">
-            <div class="cm" id="${cid}-m"><div class="msg ai">Ställ en fråga om <em style="color:${ac}">${b.label.toLowerCase()}</em>!</div></div>
-            <div class="ci">
-              <input id="${cid}-i" placeholder="Skriv din fråga…" onkeydown="if(event.key==='Enter')sendChat('${cid}','${(b.topic||b.label).replace(/'/g,"\\'")}','${level}')"/>
-              <button onclick="sendChat('${cid}','${(b.topic||b.label).replace(/'/g,"\\'")}','${level}')">→</button>
+function renderShort(level, headline, dateStr, bullets, sources) {
+  const blEl = document.getElementById('bl-'+level);
+  const bcEl = document.getElementById('bcon-'+level);
+  if (blEl) blEl.style.display = 'none';
+  const ac = level==='beginner'?'var(--beginner)':level==='analyst'?'var(--gold)':'var(--pension)';
+  if (bcEl) {
+    bcEl.innerHTML = `
+      <div style="font-family:'DM Mono',monospace;font-size:0.61rem;color:var(--muted);margin-bottom:12px">☕ ${dateStr}</div>
+      <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:var(--cream);margin-bottom:14px;line-height:1.2">${headline}</h3>
+      ${bullets.map((b,i) => {
+        const cid = `c-${level}-${i}`;
+        return `<div class="bi">
+          <div class="bic">${b.icon}</div>
+          <div style="flex:1">
+            <div class="bil" style="color:${ac}">${b.label}</div>
+            <div class="bit">${b.text}</div>
+            ${b.explain ? `<div class="bex" style="border-color:${ac}">${b.explain}</div>`:''}
+            ${b.tip     ? `<div class="bex" style="border-color:${ac}">${b.tip}</div>`:''}
+            <button class="chat-btn" onclick="toggleChat('${cid}')">🤖 Fråga AI om detta</button>
+            <div class="cw" id="${cid}">
+              <div class="cm" id="${cid}-m"><div class="msg ai">Ställ en fråga om <em style="color:${ac}">${b.label.toLowerCase()}</em>!</div></div>
+              <div class="ci">
+                <input id="${cid}-i" placeholder="Skriv din fråga…" onkeydown="if(event.key==='Enter')sendChat('${cid}','${(b.topic||b.label).replace(/'/g,"\\'")}','${level}')"/>
+                <button onclick="sendChat('${cid}','${(b.topic||b.label).replace(/'/g,"\\'")}','${level}')">→</button>
+              </div>
             </div>
           </div>
-        </div>
-      </div>`;
-    }).join('')}
-    <div class="bf">
-      <div class="bsrc">Källor: ${sources.join(' · ')}</div>
-    </div>`;
-  document.getElementById('bcon-' + level).style.display = 'block';
+        </div>`;
+      }).join('')}
+      <div class="bf"><div class="bsrc">Källor: ${sources.join(' · ')}</div></div>`;
+    bcEl.style.display = 'block';
+  }
 }
 
-function toggleChat(cid) { document.getElementById(cid).classList.toggle('open'); }
+function toggleChat(cid) {
+  const el = document.getElementById(cid);
+  if (el) el.classList.toggle('open');
+}
 
 async function sendChat(cid, topic, level) {
-  const inp  = document.getElementById(cid + '-i');
-  const msgs = document.getElementById(cid + '-m');
+  const inp  = document.getElementById(cid+'-i');
+  const msgs = document.getElementById(cid+'-m');
   const q    = inp.value.trim();
   if (!q) return;
   inp.value = '';
   if (!chatHist[cid]) chatHist[cid] = [];
   msgs.innerHTML += `<div class="msg u">${q}</div><div class="msg th" id="${cid}-th">☕ Tänker…</div>`;
-  msgs.scrollTop = msgs.scrollHeight;
-  chatHist[cid].push({role:'user', content:q});
-  const isBeg = level === 'beginner';
+  msgs.scrollTop  = msgs.scrollHeight;
+  chatHist[cid].push({role:'user',content:q});
   try {
-    const res  = await fetch('/.netlify/functions/chat', {
-      method: 'POST',
-      headers: {'Content-Type':'application/json'},
+    const res  = await fetch('/.netlify/functions/chat',{
+      method:'POST',headers:{'Content-Type':'application/json'},
       body: JSON.stringify({
-        system: isBeg
-          ? `Du är en vänlig finanslärare. Svara enkelt och pedagogiskt om "${topic}" på svenska. Max 3 meningar.`
-          : `Du är en professionell finansanalytiker. Svara tekniskt och precist om "${topic}" på svenska. Max 3 meningar.`,
+        system: level==='beginner'
+          ? `Du är en vänlig finanslärare. Svara enkelt om "${topic}" på svenska. Max 3 meningar.`
+          : `Du är en finansanalytiker. Svara tekniskt om "${topic}" på svenska. Max 3 meningar.`,
         messages: chatHist[cid]
       })
     });
     const data = await res.json();
-    const ans  = data.content?.find(b => b.type==='text')?.text || 'Kunde inte svara.';
-    chatHist[cid].push({role:'assistant', content:ans});
-    const th = document.getElementById(cid + '-th');
+    const ans  = data.content?.find(b=>b.type==='text')?.text || 'Kunde inte svara.';
+    chatHist[cid].push({role:'assistant',content:ans});
+    const th = document.getElementById(cid+'-th');
     if (th) th.remove();
     msgs.innerHTML += `<div class="msg ai">${ans}</div>`;
     msgs.scrollTop  = msgs.scrollHeight;
   } catch(e) {
-    const th = document.getElementById(cid + '-th');
+    const th = document.getElementById(cid+'-th');
     if (th) th.textContent = 'Något gick fel – försök igen.';
   }
 }
@@ -1020,38 +935,35 @@ function submitDiskPost() {
   const text  = document.getElementById('disk-text').value.trim();
   if (!name) { document.getElementById('disk-name').style.borderColor='var(--red)'; setTimeout(()=>document.getElementById('disk-name').style.borderColor='',1000); return; }
   if (!text) { document.getElementById('disk-text').style.borderColor='var(--red)'; setTimeout(()=>document.getElementById('disk-text').style.borderColor='',1000); return; }
-  diskPosts.unshift({id:Date.now(), name, topic:topic||'Allmänt', text, likes:0, time:'just nu'});
+  diskPosts.unshift({id:Date.now(),name,topic:topic||'Allmänt',text,likes:0,time:'just nu'});
   document.getElementById('disk-text').value  = '';
   document.getElementById('disk-topic').value = '';
   renderDiskFeed();
   showToast('Inlägg publicerat! ☕');
 }
 function toggleDiskLike(id) {
-  const p = diskPosts.find(x => x.id===id);
+  const p = diskPosts.find(x=>x.id===id);
   if (!p) return;
-  if (diskLiked.has(id)) { diskLiked.delete(id); p.likes--; } else { diskLiked.add(id); p.likes++; }
+  if (diskLiked.has(id)){diskLiked.delete(id);p.likes--;}else{diskLiked.add(id);p.likes++;}
   renderDiskFeed();
 }
 async function askDiskAI(id) {
-  const p  = diskPosts.find(x => x.id===id);
+  const p  = diskPosts.find(x=>x.id===id);
   if (!p) return;
-  const el = document.getElementById('disk-ai-' + id);
-  if (el.style.display === 'block') { el.style.display='none'; return; }
-  el.style.display = 'block'; el.textContent = '☕ Tänker…';
+  const el = document.getElementById('disk-ai-'+id);
+  if (el.style.display==='block'){el.style.display='none';return;}
+  el.style.display='block';el.textContent='☕ Tänker…';
   try {
-    const res  = await fetch('/.netlify/functions/chat', {
-      method:'POST', headers:{'Content-Type':'application/json'},
-      body: JSON.stringify({system:'Du är en finansexpert. Kommentera detta marknadsinlägg kort på svenska. Max 2-3 meningar.', messages:[{role:'user',content:`Inlägg om "${p.topic}": ${p.text}`}]})
-    });
+    const res  = await fetch('/.netlify/functions/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({system:'Du är en finansexpert. Kommentera detta inlägg kort på svenska. Max 2-3 meningar.',messages:[{role:'user',content:`Inlägg om "${p.topic}": ${p.text}`}]})});
     const data = await res.json();
-    el.textContent = '🤖 ' + (data.content?.find(b=>b.type==='text')?.text || 'Kunde inte svara.');
-  } catch(e) { el.textContent = 'Något gick fel – försök igen.'; }
+    el.textContent = '🤖 '+(data.content?.find(b=>b.type==='text')?.text||'Kunde inte svara.');
+  } catch(e){el.textContent='Något gick fel – försök igen.';}
 }
 function renderDiskFeed() {
   document.getElementById('disk-count').textContent = diskPosts.length;
   const feed = document.getElementById('disk-feed');
-  if (!diskPosts.length) { feed.innerHTML='<div class="disk-empty">Inga inlägg ännu ☕</div>'; return; }
-  feed.innerHTML = diskPosts.map(p => `
+  if (!diskPosts.length){feed.innerHTML='<div class="disk-empty">Inga inlägg ännu ☕</div>';return;}
+  feed.innerHTML = diskPosts.map(p=>`
     <div class="disk-post">
       <div class="disk-post-header"><span class="disk-post-author">@${p.name}</span><span class="disk-post-topic">${p.topic}</span></div>
       <div class="disk-post-text">${p.text}</div>
