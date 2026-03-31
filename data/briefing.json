@@ -1,8 +1,8 @@
 {
-  "generated": "2026-03-30T21:21:57.188952",
+  "generated": "2026-03-31T08:18:29.138248",
   "quotes": {
     "OMX30": {
-      "price": 2890.29,
+      "price": 2922.83,
       "change": 0.0
     },
     "S&P 500": {
@@ -18,130 +18,126 @@
       "change": 0.0
     },
     "USD/SEK": {
-      "price": 9.53,
+      "price": 9.55,
       "change": 0.0
     },
     "EUR/SEK": {
-      "price": 10.94,
+      "price": 10.95,
       "change": 0.0
     },
     "BTC/USD": {
-      "price": 66897.61,
-      "change": 0.5
+      "price": 67369.09,
+      "change": -0.7
     }
   },
   "futures": {
     "S&P 500 Futures": {
-      "price": 6383.25,
+      "price": 6455.0,
       "change": 0.0
     },
     "NASDAQ Futures": {
-      "price": 23106.25,
+      "price": 23382.5,
       "change": 0.0
     },
     "DAX Futures": {
-      "price": 22562.88,
+      "price": 22714.71,
       "change": 0.0
     },
     "Olja (WTI)": {
-      "price": 105.01,
+      "price": 102.15,
       "change": 0.0
     },
     "Guld": {
-      "price": 4540.4,
+      "price": 4599.6,
       "change": 0.0
     },
     "VIX": {
-      "price": 30.61,
+      "price": 28.86,
       "change": 0.0
     }
   },
   "briefing": {
-    "headline": "VIX över 30 när Iran-kriget fortsätter",
-    "date": "Monday 30 March 2026",
+    "headline": "Trump mjuknar om Iran — futures stiger",
+    "date": "Tuesday 31 March 2026",
     "beginner": [
       {
-        "icon": "🛢️",
-        "label": "IRAN-KRIGET FORTSÄTTER",
-        "text": "Hormuz-sundet blockerat i femte veckan medan oljan över $100. Trump hotar Irans kraftverk men förhandlingar pågår.",
-        "explain": "💡 Oljan påverkar allt från bensinpriser till flygbiljetter. Höga energipriser gör att allt blir dyrare och företag tjänar mindre."
+        "icon": "🕊️",
+        "label": "TRUMP VÄNDER I IRAN-KRIGET",
+        "text": "President Trump har sagt att han är villig att avsluta kriget mot Iran även om oljetransporten genom Hormuzsundet förblir blockerad. Detta har fått börserna att studsa efter veckors fall.",
+        "explain": "💡 När geopolitisk spänning minskar brukar investerare köpa aktier igen eftersom riskerna blir lägre. Olja kan dock förbli dyr även om kriget slutar."
       },
       {
-        "icon": "📈",
-        "label": "BÖRSEN BLANDAT IDAG",
-        "text": "S&P 500 ned 0,39% till 6343 medan Nasdaq föll 0,73%. VIX-index över 30 visar panik bland investerare.",
-        "explain": "💡 VIX över 30 betyder stor rädsla på marknaden. Det är som att investerarna får panik och säljer aktier snabbt."
+        "icon": "📉",
+        "label": "BÖRSKORREKTION PÅGÅR",
+        "text": "Nasdaq, Dow Jones och småbolagsindexet Russell 2000 har alla fallit över 10% från sina toppar — vilket kallas korrektion. Endast S&P 500 håller sig precis ovanför denna gräns.",
+        "explain": "💡 Korrektioner är normala och händer ungefär en gång per år. De brukar vara tillfälliga men kan ge köplägen för långsiktiga sparare."
       },
       {
-        "icon": "🏛️",
-        "label": "POWELL LUGNAR MARKNADEN",
-        "text": "Fed-chefen sade på Harvard att räntor är 'på rätt plats' trots oljekrisen. Marknaden lättade när han inte hotade med räntehöjningar.",
-        "explain": "💡 När centralbanken inte höjer räntorna blir det billigare att låna pengar för företag och privatpersoner."
+        "icon": "😰",
+        "label": "VIX VISAR FORTSATT ORO",
+        "text": "Rädsleindexet VIX ligger på 28,86 — betydligt över den normala nivån på 15-20. Detta visar att investerare fortfarande är mycket nervösa trots dagens positiva nyheter.",
+        "explain": "💡 När VIX är över 30 brukar det vara bra köplägen på längre sikt, men kortsiktigt kan det bli mer volatilt. Var inte förvånad över stora svängningar."
       },
       {
-        "icon": "🇸🇪",
-        "label": "STOCKHOLM UPP TROTS KAOS",
-        "text": "OMXS30 steg 0,92% till 2890 punkter medan världen faller. Svenska aktier klarar sig bättre än amerikanska.",
-        "explain": "💡 Svenska företag är mindre beroende av Mellanöstern än amerikanska, vilket gör dem stabilare just nu."
+        "icon": "⛽",
+        "label": "OLJA ÖVER $100 FÖRSTA GÅNGEN SEDAN 2022",
+        "text": "Oljan har stigit över 100 dollar per fat för första gången sedan juli 2022, drivet av Irans blockad av Hormuzsundet där 20% av världens olja normalt passerar.",
+        "explain": "💡 Högre oljepriser påverkar allt från bensin till flygresor och värme. Det blir dyrare att leva även om kriget skulle sluta imorgon."
       }
     ],
     "analyst": [
       {
         "icon": "📊",
-        "label": "TERMINSMARKNADEN PLATT",
-        "text": "S&P futures +0,0% på 6383 medan VIX 30,61 indikerar fortsatt volatilitet. Dollar/krona 9,53 håller sig stabil.",
-        "explain": "Tekniska indikatorer pekar på försiktig marknad inför veckan. RSI och MACD visar överförsålda nivåer."
+        "label": "FUTURES VÄNDER POSITIVT",
+        "text": "S&P 500-futures +0,7%, Nasdaq-futures +0,4% i pre-market efter WSJ-rapporter om Trumps förändrade Iran-strategi. Volatiliteten förväntas fortsätta hög med VIX på 28,86 — långt över normalläget."
       },
       {
         "icon": "🛢️",
-        "label": "OLJEPRIS KRITISK NIVÅ",
-        "text": "WTI över $105 med Brent nära $110. Goldman Sachs varnar för $200-olja om Hormuz stängt längre än april.",
-        "explain": "Endast 4,2 mb/d kan omledas via rörledningar av normala 20 mb/d genom Hormuz. Strategiska reserver släpps i rekordfart."
+        "label": "ENERGISEKTORN I FOKUS",
+        "text": "WTI-olja på $102,15 (+2,4% måndagen) första gången över $100 sedan juli 2022. Hormuzsundet förblir blockerat trots diplomatiska framsteg, med minst ett dussin iraniska minor enligt amerikanska underrättelsekällor."
       },
       {
-        "icon": "💰",
-        "label": "SEKTORSROTATION PÅGÅR",
-        "text": "Energi och bank upp medan teknik faller. Micron -10% efter kvartalsrapport, aluminium +4,7% på Mellanöstern-strejker.",
-        "explain": "Klassisk defensive rotation när geopolitisk risk ökar. Finansiella sektorn gynnas av högre ränteförväntningar."
+        "icon": "🌏",
+        "label": "ASIEN BLANDAT FÖRE ÖPPNING",
+        "text": "Koreas Kospi -0,4%, Japans Nikkei -0,43%, medan Kinas CSI 300 +0,56% och Hong Kong Hang Seng +0,38%. Räntorna faller med amerikanska 2-åringen ner en baspunkt till 3,82%."
       },
       {
-        "icon": "📉",
-        "label": "TEKNISK ANALYS NEGATIV",
-        "text": "S&P 500 under 200-dagars MA på 6400-nivån. Support vid 6200, motstånd 6500. Nasdaq i korrektionsterritorium -10%.",
-        "explain": "Tekniska mönster visar svaghet. Volymanalys indikerar institutionell försäljning fortsätter."
+        "icon": "⚡",
+        "label": "TEKNISK BILD SKADAD",
+        "text": "Tre av fyra stora index i korrektion (Dow, Nasdaq, Russell 2000). S&P 500 på 6,368 behöver bara falla till 6,300 för att nå -10% från topp. Flera viktiga stödnivåer brutna förra veckan."
       }
     ],
     "pension": [
       {
         "icon": "🌱",
-        "label": "ENERGITUNGA FONDER GYNNAS",
-        "text": "AP-fondernas energiinvesteringar presterar bäst. Råvarufonder och nordiska aktiefonder klarar sig relativt bra.",
-        "tip": "💡 Överväg att öka råvaruexponering i PPM-valet om Iran-kriget fortsätter. Undvik rena teknikfonder tillfälligt."
-      },
-      {
-        "icon": "💼",
-        "label": "DOLLAR HEDGE VIKTIGT",
-        "text": "Globalfonder utan valutasäkring drabbas av stark dollar. AMF och SEB-fonder med hedge presterar bättre.",
-        "tip": "💡 Kontrollera dina pensionsval - välj valutasäkrade fonder om du har mycket utlandsexponering nu."
+        "label": "KORREKTION = KÖPLÄGE LÅNGSIKTIGT",
+        "text": "När marknaden faller 10-20% från topp skapas ofta bra köplägen för pensionssparare. Historiskt har korrektioner varit tillfälliga medan ekonomin fortsatt växa.",
+        "tip": "💡 Överväg att öka månadsinsättningen tillfälligt om du har råd. Köp när andra säljer — det är så pensionskapital byggs över tid."
       },
       {
         "icon": "🛡️",
-        "label": "DEFENSIVE SEKTORER STARKA",
-        "text": "Läkemedel och konsumentvaror klarar sig bättre. Svenska verkstadsfonder påverkas av lägre tillväxtprognoser.",
-        "tip": "💡 En balanserad portfölj med både defensiva och cykliska innehav är extra viktig i osäkra tider som nu."
+        "label": "ENERGIAKTIER SKYDDAR MOT INFLATION",
+        "text": "Olja över $100 lyfter energibolag men pressar konsumentföretag. AP-fonderna har troligen gynnsamma positioner i både Lundin Energy och Equinor som stiger kraftigt.",
+        "tip": "💡 En liten allokering till råvarufonder (5-10%) kan skydda köpkraften när energi blir dyrare. Tänk defensivt i oroliga tider."
       },
       {
-        "icon": "⏰",
-        "label": "TÅLAMOD KRÄVS NU",
-        "text": "Historiskt återhämtar sig marknader inom 3-6 månader från geopolitiska chocker. Långsiktigt perspektiv viktigt.",
-        "tip": "💡 Undvik att göra drastiska ändringar i pensionssparandet baserat på kortsiktig volatilitet. Håll din strategi."
+        "icon": "🌍",
+        "label": "BREDA INDEXFONDER KLARAR KRISER BÄST",
+        "text": "VIX på 28,86 påminner om att marknaden kan svänga kraftigt. Globala indexfonder som AP7 Såfa sprider risker över tusentals bolag i många länder och sektorer.",
+        "tip": "💡 Undvik att panikförsälja när det är volatilt. Fortsätt spara regelbundet — dollar cost averaging fungerar bäst under osäkra perioder."
+      },
+      {
+        "icon": "🎯",
+        "label": "REBALANSERING VID KVARTALSSKIFTE",
+        "text": "Många fonder rebalanserar nu vid Q1-slutet. Detta kan skapa teknisk köptryck på aktier som fallit mycket, samtidigt som vinster tas hem i råvaror som stigit.",
+        "tip": "💡 Om du har flera PPM-fonder, kolla balansen. Köp eventuellt mer aktiefonder när de är billiga och ta hem vinster i råvarufonder som stigit kraftigt."
       }
     ],
     "sources": [
-      "Bloomberg - Iran-kriget och oljemarknaden",
-      "CNBC Markets - Powell Harvard-tal och marknadsstängning",
-      "MarketWatch - VIX-utveckling och sektorsrotation",
-      "Infobae - OMXS30 utveckling dagens handel"
+      "Wall Street Journal via Bloomberg",
+      "CNN International",
+      "CNBC Markets",
+      "Yahoo Finance"
     ]
   }
 }
