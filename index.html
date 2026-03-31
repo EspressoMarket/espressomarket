@@ -637,9 +637,9 @@ loadSubCount();
 const track = document.getElementById('ticker');
 track.innerHTML = [...Array(8)].map(() => '<div class="ticker-item"><span class="tn">Laddar…</span></div>').join('');
 function updateTicker(quotes) {
-  const items = Object.entries(quotes).filter(([,v]) => v.price > 0);
-  if (!items.length) return;
-  track.innerHTML = [...items,...items].map(([n,q]) => {
+  // TradingView hanterar tickern — inget att göra här
+  return;
+}
     const up = q.change >= 0;
     return `<div class="ticker-item"><span class="tn">${n}</span><span class="${up?'up':'dn'}">${up?'▲':'▼'} ${Math.abs(q.change)}%</span></div>`;
   }).join('');
