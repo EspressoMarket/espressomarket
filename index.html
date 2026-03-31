@@ -312,7 +312,32 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
     <div class="hem-date" id="hem-date">Laddar…</div>
   </div>
 
-  <div class="ticker-wrap"><div class="ticker-track" id="ticker"></div></div>
+  <div class="ticker-wrap" style="padding:0;border-top:1px solid var(--glass-border);border-bottom:1px solid var(--glass-border);">
+  <div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+      "symbols": [
+        {"proName":"NASDAQ:OMXS30","title":"OMX30"},
+        {"proName":"SP:SPX","title":"S&P 500"},
+        {"proName":"NASDAQ:NDX","title":"NASDAQ"},
+        {"proName":"XETR:DAX","title":"DAX"},
+        {"proName":"TVC:GOLD","title":"Guld"},
+        {"proName":"TVC:USOIL","title":"Olja"},
+        {"proName":"FX:EURUSD","title":"EUR/USD"},
+        {"proName":"FX:USDSEK","title":"USD/SEK"},
+        {"proName":"BITSTAMP:BTCUSD","title":"BTC/USD"},
+        {"proName":"TVC:VIX","title":"VIX"}
+      ],
+      "showSymbolLogo": false,
+      "isTransparent": true,
+      "displayMode": "adaptive",
+      "colorTheme": "dark",
+      "locale": "sv_SE"
+    }
+    </script>
+  </div>
+</div>
 
   <div class="hem-main">
     <!-- Loading state -->
