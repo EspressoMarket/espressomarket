@@ -1,143 +1,147 @@
 {
-  "generated": "2026-03-31T08:18:29.138248",
+  "generated": "2026-04-01T08:48:42.462394",
   "quotes": {
     "OMX30": {
-      "price": 2922.83,
+      "price": 2998.31,
       "change": 0.0
     },
     "S&P 500": {
-      "price": 6343.72,
+      "price": 6528.52,
       "change": 0.0
     },
     "NASDAQ": {
-      "price": 20794.64,
+      "price": 21590.63,
       "change": 0.0
     },
     "EUR/USD": {
-      "price": 1.15,
+      "price": 1.16,
       "change": 0.0
     },
     "USD/SEK": {
-      "price": 9.55,
+      "price": 9.37,
       "change": 0.0
     },
     "EUR/SEK": {
-      "price": 10.95,
+      "price": 10.87,
       "change": 0.0
     },
     "BTC/USD": {
-      "price": 67369.09,
-      "change": -0.7
+      "price": 68740.72,
+      "change": 2.89
     }
   },
   "futures": {
     "S&P 500 Futures": {
-      "price": 6455.0,
+      "price": 6603.0,
       "change": 0.0
     },
     "NASDAQ Futures": {
-      "price": 23382.5,
+      "price": 24083.0,
       "change": 0.0
     },
     "DAX Futures": {
-      "price": 22714.71,
+      "price": 23185.17,
       "change": 0.0
     },
     "Olja (WTI)": {
-      "price": 102.15,
+      "price": 98.97,
       "change": 0.0
     },
     "Guld": {
-      "price": 4599.6,
+      "price": 4765.0,
       "change": 0.0
     },
     "VIX": {
-      "price": 28.86,
+      "price": 24.74,
       "change": 0.0
     }
   },
   "briefing": {
-    "headline": "Trump mjuknar om Iran — futures stiger",
-    "date": "Tuesday 31 March 2026",
+    "headline": "Iran-kriget sätter marknader under press",
+    "date": "Wednesday 01 April 2026",
     "beginner": [
       {
-        "icon": "🕊️",
-        "label": "TRUMP VÄNDER I IRAN-KRIGET",
-        "text": "President Trump har sagt att han är villig att avsluta kriget mot Iran även om oljetransporten genom Hormuzsundet förblir blockerad. Detta har fått börserna att studsa efter veckors fall.",
-        "explain": "💡 När geopolitisk spänning minskar brukar investerare köpa aktier igen eftersom riskerna blir lägre. Olja kan dock förbli dyr även om kriget slutar."
-      },
-      {
-        "icon": "📉",
-        "label": "BÖRSKORREKTION PÅGÅR",
-        "text": "Nasdaq, Dow Jones och småbolagsindexet Russell 2000 har alla fallit över 10% från sina toppar — vilket kallas korrektion. Endast S&P 500 håller sig precis ovanför denna gräns.",
-        "explain": "💡 Korrektioner är normala och händer ungefär en gång per år. De brukar vara tillfälliga men kan ge köplägen för långsiktiga sparare."
-      },
-      {
-        "icon": "😰",
-        "label": "VIX VISAR FORTSATT ORO",
-        "text": "Rädsleindexet VIX ligger på 28,86 — betydligt över den normala nivån på 15-20. Detta visar att investerare fortfarande är mycket nervösa trots dagens positiva nyheter.",
-        "explain": "💡 När VIX är över 30 brukar det vara bra köplägen på längre sikt, men kortsiktigt kan det bli mer volatilt. Var inte förvånad över stora svängningar."
-      },
-      {
         "icon": "⛽",
-        "label": "OLJA ÖVER $100 FÖRSTA GÅNGEN SEDAN 2022",
-        "text": "Oljan har stigit över 100 dollar per fat för första gången sedan juli 2022, drivet av Irans blockad av Hormuzsundet där 20% av världens olja normalt passerar.",
-        "explain": "💡 Högre oljepriser påverkar allt från bensin till flygresor och värme. Det blir dyrare att leva även om kriget skulle sluta imorgon."
+        "label": "BENSINPRISERNA ÖVER $4",
+        "text": "Bensinpriset i USA har för första gången sedan 2022 passerat $4 per gallon efter att Trump hotat med att förstöra Irans infrastruktur. Hormuzkanalen förblir stängd och påverkar 20% av världens oljeflöde.",
+        "explain": "💡 När oljepriset stiger påverkas alla priser - från mat till transporter. Din pension kan påverkas eftersom höga energikostnader bromsar ekonomin och företagens vinster."
+      },
+      {
+        "icon": "📈",
+        "label": "AKTIER STUDSAR PÅ FREDSHOPP",
+        "text": "Wall Street steg igår efter rapporter om att Trump överväger att avsluta kriget utan att återöppna Hormuzkanalen. S&P 500 har stött vid 6500-nivån, men marknaden är fortfarande volatil med VIX på 24.74.",
+        "explain": "💡 När VIX är över 20 som nu innebär det förhöjd oro på marknaden. Detta betyder större kurssvängningar som kan påverka ditt pensionssparande kortsiktigt."
+      },
+      {
+        "icon": "🏦",
+        "label": "FED HÅLLER RÄNTAN OFÖRÄNDRAD",
+        "text": "Amerikanska centralbanken höll räntan på 3,5-3,75% i mars och varnade för osäkerhet kring Iran-kriget. Bara en räntesänkning väntas i år jämfört med tidigare prognoser om flera sänkningar.",
+        "explain": "💡 Höga räntor betyder att det blir dyrare att låna pengar, vilket kan bromsa ekonomin. Men det betyder också högre avkastning på bankkonton och obligationer i din pension."
+      },
+      {
+        "icon": "🛢️",
+        "label": "SHAMARAN STOPPAR OLJEUTVINNING",
+        "text": "Svenska oljebolaget ShaMaran rapporterade explosion vid Sarsangfältet i Irak och stoppade produktionen. Aktien handlas på Stockholmsbörsen som öppnade platt efter nattens Wall Street-studs.",
+        "explain": "💡 När konflikter påverkar företag som handlas på svenska börsen visar det hur sammankopplade marknaderna är. Även svenska aktier kan påverkas av geopolitiska händelser."
       }
     ],
     "analyst": [
       {
         "icon": "📊",
-        "label": "FUTURES VÄNDER POSITIVT",
-        "text": "S&P 500-futures +0,7%, Nasdaq-futures +0,4% i pre-market efter WSJ-rapporter om Trumps förändrade Iran-strategi. Volatiliteten förväntas fortsätta hög med VIX på 28,86 — långt över normalläget."
+        "label": "OLJA: BRENT $103-118 SPANN",
+        "text": "Brent-priset handlas volatilt mellan $103-118 med maj-kontrakt högre än juni, vilket tyder på kortsiktig stress. Goldman Sachs höjde prognoserna till $110 i genomsnitt för mars-april från tidigare $98.",
+        "explain": "Terminskurvan visar backwardation vilket indikerar akut brist på leveranser nu kontra senare, klassiskt tecken på geopolitisk stress."
       },
       {
-        "icon": "🛢️",
-        "label": "ENERGISEKTORN I FOKUS",
-        "text": "WTI-olja på $102,15 (+2,4% måndagen) första gången över $100 sedan juli 2022. Hormuzsundet förblir blockerat trots diplomatiska framsteg, med minst ett dussin iraniska minor enligt amerikanska underrättelsekällor."
+        "icon": "📈",
+        "label": "VIX: FÖRHÖJD STRESS 24.74",
+        "text": "VIX-indexet på 24.74 indikerar förhöjd marknadsoro över normalområdet 12-20. S&P 500 futures oförändrade på 6603 efter gårdagens 2.91% uppgång från teknisk stöd vid 6500-nivån.",
+        "explain": "RSI under 30 förra veckan visade översålda förhållanden, men med index under 200-dagars MA är det osäkert om den tekniska studsen håller."
       },
       {
-        "icon": "🌏",
-        "label": "ASIEN BLANDAT FÖRE ÖPPNING",
-        "text": "Koreas Kospi -0,4%, Japans Nikkei -0,43%, medan Kinas CSI 300 +0,56% och Hong Kong Hang Seng +0,38%. Räntorna faller med amerikanska 2-åringen ner en baspunkt till 3,82%."
+        "icon": "💰",
+        "label": "FED: HAWKISH PIVOT BEKRÄFTAT",
+        "text": "Fed-futures prisar nu 52% sannolikhet för räntehöjning innan årets slut istället för sänkningar. Powell betonade att inflationen inte fallit som förväntat och Iran-konflikten ökar osäkerheten.",
+        "explain": "Marknadens förväntningar har skiftat dramatiskt från 3-4 sänkningar i början av året till potentiella höjningar, drivet av energiprisernas inflationstryck."
       },
       {
-        "icon": "⚡",
-        "label": "TEKNISK BILD SKADAD",
-        "text": "Tre av fyra stora index i korrektion (Dow, Nasdaq, Russell 2000). S&P 500 på 6,368 behöver bara falla till 6,300 för att nå -10% från topp. Flera viktiga stödnivåer brutna förra veckan."
+        "icon": "🌍",
+        "label": "HORMUZ: KRITISKT TIDSFÖNSTER",
+        "text": "Oljeindustrin varnar att Hormuzkanalen måste öppnas inom 1-3 veckor för att undvika eskalerade försörjningsstörningar. Nuvarande förlust: 4.5-5 miljoner fat/dag kommer fördubblas till mitten av april.",
+        "explain": "BCA Research uppskattar att världen förlorar ~5% av global oljeförsörjning nu, men siffran fördubblas om krisen fortsätter - största förlusten av råoljeförsörjning någonsin."
       }
     ],
     "pension": [
       {
         "icon": "🌱",
-        "label": "KORREKTION = KÖPLÄGE LÅNGSIKTIGT",
-        "text": "När marknaden faller 10-20% från topp skapas ofta bra köplägen för pensionssparare. Historiskt har korrektioner varit tillfälliga medan ekonomin fortsatt växa.",
-        "tip": "💡 Överväg att öka månadsinsättningen tillfälligt om du har råd. Köp när andra säljer — det är så pensionskapital byggs över tid."
+        "label": "ENERGISEKTORNS PÅVERKAN",
+        "text": "Pensionsfondernas energiinnehav gynnas kortsiktigt av höga oljepriser, men långsiktigt hotas ekonomisk tillväxt av energischock. AP-fonderna har betydande exponering mot både energi och bredare marknaden.",
+        "tip": "💡 Diversifiering är nyckel - panik inte över kortsiktiga svängningar utan håll koll på dina månadsinsättningar som köper mer andelar när priserna faller."
+      },
+      {
+        "icon": "🏦",
+        "label": "RÄNTELÄGET FÖRÄNDRAS",
+        "text": "Förväntningarna om lägre räntor har försvunnit - istället kan Fed höja räntan. Detta påverkar obligationsdelen i din pension negativt kortsiktigt men ger högre avkastning på nya placeringar.",
+        "tip": "💡 Om du har möjlighet att välja mellan fonder, överväg att behålla eller öka obligationsandelen då högre räntor ger bättre framtida avkastning på räntefonder."
+      },
+      {
+        "icon": "📉",
+        "label": "VOLATILITET OCH TIMING",
+        "text": "VIX över 24 signalerar fortsatt turbulens. Historiskt har marknader bottnat tidigt i militära konflikter, men energikriser tar längre tid att lösa vilket skapar osäkerhet för pensionssparare.",
+        "tip": "💡 Undvik att göra stora ändringar i din pensionsportfölj baserat på dagliga nyheter. Dollar-cost averaging genom månatliga inbetalningar är din bästa vän i volatila tider."
       },
       {
         "icon": "🛡️",
-        "label": "ENERGIAKTIER SKYDDAR MOT INFLATION",
-        "text": "Olja över $100 lyfter energibolag men pressar konsumentföretag. AP-fonderna har troligen gynnsamma positioner i både Lundin Energy och Equinor som stiger kraftigt.",
-        "tip": "💡 En liten allokering till råvarufonder (5-10%) kan skydda köpkraften när energi blir dyrare. Tänk defensivt i oroliga tider."
-      },
-      {
-        "icon": "🌍",
-        "label": "BREDA INDEXFONDER KLARAR KRISER BÄST",
-        "text": "VIX på 28,86 påminner om att marknaden kan svänga kraftigt. Globala indexfonder som AP7 Såfa sprider risker över tusentals bolag i många länder och sektorer.",
-        "tip": "💡 Undvik att panikförsälja när det är volatilt. Fortsätt spara regelbundet — dollar cost averaging fungerar bäst under osäkra perioder."
-      },
-      {
-        "icon": "🎯",
-        "label": "REBALANSERING VID KVARTALSSKIFTE",
-        "text": "Många fonder rebalanserar nu vid Q1-slutet. Detta kan skapa teknisk köptryck på aktier som fallit mycket, samtidigt som vinster tas hem i råvaror som stigit.",
-        "tip": "💡 Om du har flera PPM-fonder, kolla balansen. Köp eventuellt mer aktiefonder när de är billiga och ta hem vinster i råvarufonder som stigit kraftigt."
+        "label": "DEFENSIVA SEKTORER",
+        "text": "Traditionellt defensiva sektorer som verksamhet, varor för daglig användning och hälsovård kan ge stabilitet under geopolitisk stress. Många svenska pensionsfonder har bra exponering mot dessa områden.",
+        "tip": "💡 Kolla om dina fonder (som AP7 Såfa) har tillräcklig spridning över sektorer. Energikriser påverkar olika branscher olika mycket - diversifiering skyddar dig."
       }
     ],
     "sources": [
-      "Wall Street Journal via Bloomberg",
-      "CNN International",
-      "CNBC Markets",
-      "Yahoo Finance"
+      "NBC News Iran War Live Updates",
+      "Federal Reserve FOMC Statement March 18",
+      "ShaMaran Petroleum Incident Report",
+      "CNBC Oil Prices Iran War Coverage"
     ]
   }
 }
