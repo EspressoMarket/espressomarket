@@ -1,16 +1,16 @@
 {
-  "generated": "2026-04-02T08:16:20.545411",
+  "generated": "2026-04-03T08:09:52.315631",
   "quotes": {
     "OMX30": {
-      "price": 2971.24,
+      "price": 2965.69,
       "change": 0.0
     },
     "S&P 500": {
-      "price": 6575.32,
+      "price": 6582.69,
       "change": 0.0
     },
     "NASDAQ": {
-      "price": 21840.95,
+      "price": 21879.18,
       "change": 0.0
     },
     "EUR/USD": {
@@ -18,130 +18,130 @@
       "change": 0.0
     },
     "USD/SEK": {
-      "price": 9.49,
+      "price": 9.43,
       "change": 0.0
     },
     "EUR/SEK": {
-      "price": 10.94,
+      "price": 10.89,
       "change": 0.0
     },
     "BTC/USD": {
-      "price": 66777.37,
-      "change": -2.53
+      "price": 67189.92,
+      "change": 0.61
     }
   },
   "futures": {
     "S&P 500 Futures": {
-      "price": 6543.75,
+      "price": 6607.0,
       "change": 0.0
     },
     "NASDAQ Futures": {
-      "price": 23849.0,
+      "price": 24153.75,
       "change": 0.0
     },
     "DAX Futures": {
-      "price": 22994.26,
+      "price": 23168.08,
       "change": 0.0
     },
     "Olja (WTI)": {
-      "price": 106.94,
+      "price": 71.52,
       "change": 0.0
     },
     "Guld": {
-      "price": 4664.4,
+      "price": 4910.1,
       "change": 0.0
     },
     "VIX": {
-      "price": 26.25,
+      "price": 23.87,
       "change": 0.0
     }
   },
   "briefing": {
-    "headline": "Trump-tal skickar Asien i fritt fall",
-    "date": "Thursday 02 April 2026",
+    "headline": "Amerikanska börser stängda — fokus på jobbrapport",
+    "date": "Friday 03 April 2026",
     "beginner": [
       {
-        "icon": "📉",
-        "label": "TRUMP TAL SPÖKAR MARKNADER",
-        "text": "President Trumps tal igår kväll lovade slutföra Iran-kriget inom 2-3 veckor men hotade med extremt hårdföra attacker. Asiens börser föll kraftigt - Nikkei ned 2,4%, Hong Kong ned 1%.",
-        "explain": "💡 Trots löften om snart slut på kriget blev investerare rädda eftersom Trump fortfarande talar om krigseskalering. Detta visar att marknader reagerar mer på konkreta handlingar än löften."
+        "icon": "🏖️",
+        "label": "STÄNGD BÖRS",
+        "text": "Wall Street stänger idag för långfredag, trots att viktiga jobbtalen släpps kl 14:30. Ekonomer väntar sig svaga 59,000 nya jobb i mars efter förra månads förlust på -92,000 jobb.",
+        "explain": "💡 När börsen är stängd men viktig ekonomisk data släpps kan det skapa stora prisrörelser på måndag. Tänk på det som att all reaktion komprimeras till en enda öppning."
       },
       {
         "icon": "⛽",
-        "label": "OLJEPRISERNA EXPLODERAR",
-        "text": "Olja steg till över 106 dollar per fat efter Trumps tal. Hormuzs sund, som 20% av världens olja passerar, är fortfarande stängt av Iran.",
-        "explain": "💡 Högre oljepriser betyder dyrare bensin och el för vanliga människor. När stora oljevägar blockeras blir energi knappare och dyrare för alla."
+        "label": "BENSINEN $4",
+        "text": "Amerikanska bensinpriser passerade $4 per gallon för första gången sedan 2022. Iran håller fortfarande Hormuzsundet stängt vilket stryper 20% av världens oljeförsörjning.",
+        "explain": "💡 Även om USA producerar egen olja påverkas priserna globalt. Högre energikostnader driver inflation och kan tvinga centralbanken att höja räntor."
       },
       {
-        "icon": "📊",
-        "label": "VIX VISAR EXTREM RÄDSLA",
-        "text": "VIX på 26,25 visar fortsatt hög oro på marknaderna. När VIX är över 20 betyder det att investerare är mycket nervösa för vad som kommer härnäst.",
-        "explain": "💡 VIX kallas rädsloindex - ju högre siffra, desto mer oroliga är investerare. Över 20 betyder förhöjd oro, över 30 är panik."
+        "icon": "🌏",
+        "label": "ASIEN STIGER",
+        "text": "Sydkoreas KOSPI leder uppgången med +2,73% på hopp om återöppnat Hormuzsund. Japan och andra asiatiska marknader handlas högre trots att Hongkong och Australien är stängda för påsk.",
+        "explain": "💡 Asiatiska länder är mer beroende av Mellanösterns olja än USA. När det finns hopp om lösning på krisen stiger deras börser snabbare."
       },
       {
-        "icon": "🇸🇪",
-        "label": "STOCKHOLM STÄNGD IMORGON",
-        "text": "Svensk börs är stängd på fredag för långfredag, så dagens handel blir extra viktig. OMX30 stängde igår på 3010 efter en stark dag.",
-        "explain": "💡 När börsen är stängd under oroliga tider kan mycket hända medan vi inte kan handla. Det gör att måndagens öppning ofta blir extra volatil."
+        "icon": "🔥",
+        "label": "VIX ÖVER 20",
+        "text": "Volatilitetsindex VIX ligger på 23,87 vilket signalerar förhöjd marknadsoro. Kombinationen av Iran-krig, svaga jobbtalen och stängd börs skapar osäkerhet för måndag.",
+        "explain": "💡 VIX över 20 betyder att investerare är nervösa. När det dessutom är över helg med viktiga nyheter kan måndag bli mycket volatil."
       }
     ],
     "analyst": [
       {
         "icon": "📈",
-        "label": "TERMINER SIGNALERAR SVAGHET",
-        "text": "S&P 500-terminer ned 1%, Nasdaq-terminer ned över 1%. Dow-terminer föll 439 punkter efter Trumps tal. Detta indikerar svag öppning på Wall Street idag.",
-        "explain": ""
+        "label": "FUTURES PLATT",
+        "text": "S&P 500 futures +0,0% på 6607, NASDAQ futures +0,0% på 24154. Marknad väntar på jobbtalen kl 14:30 med konsensus på 59k jobb vs -92k i februari. Pre-market handeln slutar tidigt.",
+        "explain": "Futures marknader stänger också tidigt idag men kommer reagera på jobbtalen. Förra månadens -92k var dubbelt så dåligt som väntat."
       },
       {
-        "icon": "⚡",
-        "label": "ENERGISEKTORN FORTSÄTTER STÄRKAS",
-        "text": "Brent-olja steg till $106/fat (+5%), WTI till $103/fat (+3,2%) efter talet. Energy Select Sector SPDR (XLE) upp 38% sedan årsskiftet från $44 till över $61.",
-        "explain": ""
+        "icon": "🛢️",
+        "label": "OLJA FORTSATT STÖD",
+        "text": "WTI crude $71,52 stabil efter att ha nått $99+ förra veckan. Iran håller fortfarande Hormuzsundet effektivt stängt med nästan 2000 fartyg instängda i Persiska viken enligt IMO.",
+        "explain": "Trots Trumps hot om att 'lämna Iran' och låta andra lösa Hormuz-krisen ser vi fortsatt strukturell oljetilllgångsbrist. Rystad Energy säger marknaden gått från 'buffrad till bräcklig'."
       },
       {
-        "icon": "🌏",
-        "label": "ASIEN I TEKNISK FÖRSÄLJNING",
-        "text": "Nikkei 225 stängde på 52 463 (-2,38%), ASX 200 ned 1,06% till 8 579. Indien öppnade ned 1,4%. Tekniska nivåer bryts nedåt brett i regionen.",
-        "explain": ""
+        "icon": "💱",
+        "label": "VALUTASTABILITET",
+        "text": "EUR/USD 1,15, USD/SEK 9,43 visar relativ stabilitet trots geopolitisk stress. Dollar gynnas av USAs energioberoende medan europeiska valutor pressas av importberoendet.",
+        "explain": "Europa har sett gasspriser stiga 70% sedan Iran-kriget började. USA:s position som nettoexportör av energi stärker dollarn relativt andra valutor under denna kris."
       },
       {
-        "icon": "💰",
-        "label": "RÄNTOR OCH GULD PÅVERKAS",
-        "text": "10-årig amerikansk statsobligation volatil kring 4,5%. Guld på $4 664/oz håller defensiva nivåer. Dollar/SEK stabil på 9,49 trots global turbulens.",
-        "explain": ""
+        "icon": "📊",
+        "label": "MÅNDAG SETUP",
+        "text": "Kombination av stängd börs + jobbtalen + Iran-utveckling över helgen skapar ovanligt komprimerad riskprofil. Historiskt har sådana gap-öppningar varit 1,5-2,5x större än normalt.",
+        "explain": "Med VIX redan på 23,87 och Dow i korrektionsområde kan måndag bli en av årets mest volatila sessioner om jobbtalen missar rejält eller geopolitiken eskalerar."
       }
     ],
     "pension": [
       {
-        "icon": "🛡️",
-        "label": "ENERGITUNGT SPARANDE GYNNAS",
-        "text": "PPM-fonder med energiexponering som AP7 Offensiv (med olje/gasbolag) har sett stark utveckling. Energiaktier upp kraftigt medan teknik fallit.",
-        "explain": "💡 Om du har global indexfond kan energibolagen som ökat 38% i år bidra positivt, men teknikfall drar ner helheten."
+        "icon": "🔒",
+        "label": "PREMIEPENSION TRYGG",
+        "text": "Svenska AP-fonderna och premiepensionssystemet påverkas indirekt via globala aktieindex men är diversifierade. Stängda amerikanska marknader begränsar dagens exponering.",
+        "tip": "💡 Förändringar i ditt pensionssaldo kommer främst måndag när alla marknader reagerar samtidigt på helgens nyheter."
       },
       {
-        "icon": "📊",
-        "label": "VOLATILITET KRÄVER LUGN",
-        "text": "VIX över 26 visar extrem marknadsoro. Pensionssparare med 20+ år kvar bör se detta som naturliga marknadsrörelser och inte panikhandla.",
-        "explain": "💡 Historiskt har marknader återhämtat sig från geopolitiska chocker. Håll din sparstrategi och undvik att sälja i panik."
+        "icon": "⚡",
+        "label": "ENERGISEKTORN",
+        "text": "Höga oljepriser gynnar svenska energibolag som finns i många pensionsportföljer. OMX Energy är upp 15% sedan Iran-kriget började, buffrar portföljförluster.",
+        "tip": "💡 Om du har låg risktolerans kan detta vara tillfälle att se över din aktieallokering innan potentiell volatilitet på måndag."
       },
       {
-        "icon": "🛢️",
-        "label": "INFLATION HOTAR REALVÄRDE",
-        "text": "Oljepriserna över $100 driver inflation som urholkar pensionspengarnas köpkraft. Indexfonder med globalexponering ger naturligt inflationsskydd.",
-        "explain": "💡 När inflation stiger behöver dina pensionspengar växa ännu mer för att behålla värdet. Fortsätt månadspar för att dra nytta av volatiliteten."
+        "icon": "💰",
+        "label": "RÄNTERISK",
+        "text": "Svaga jobbtalen skulle normalt vara positivt för obligationer men inflationsrisk från oljepriser komplicerar bilden. PPM-sparare i räntefonder ser blandade signaler.",
+        "tip": "💡 Balanserade fonder (50/50 aktier/obligationer) som AP7 Såfa kan navigera denna miljö bättre än extrema positioner."
       },
       {
-        "icon": "🔄",
-        "label": "REBALANSERING VID EXTREMER",
-        "text": "Om du har målviktsfonder kan kraftiga sektorrotationer (energi upp, teknik ner) utlösa automatisk rebalansering som köper lågt och säljer högt.",
-        "explain": "💡 Detta är en av fördelarna med professionellt förvaltade fonder - de rebalanserar automatiskt när marknader blir extrema."
+        "icon": "🌍",
+        "label": "GLOBAL EXPONERING",
+        "text": "AMF och andra som har hög USA-exponering får dra nytta av dollar-styrka och amerikansk energioberoende relativt europeiska pensionssystem som lider mer.",
+        "tip": "💡 Se över din geografiska fördelning - för mycket Europa-exponering kan vara kostsamt under denna energikris."
       }
     ],
     "sources": [
-      "TradingEconomics.com",
-      "CNBC Markets",
-      "CNN Iran War Coverage",
-      "Bloomberg Iran War Analysis"
+      "CNBC: March Jobs Report Preview - 59,000 expected",
+      "NYSE/NASDAQ: Markets closed Good Friday April 3",
+      "Business Standard: KOSPI up 2.73% on Hormuz hopes",
+      "CNN/NBC: Iran war, gas prices hit $4, Trump Hormuz threats"
     ]
   }
 }
