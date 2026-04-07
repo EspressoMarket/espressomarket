@@ -1,16 +1,16 @@
 {
-  "generated": "2026-04-06T08:58:56.353570",
+  "generated": "2026-04-07T08:46:13.293726",
   "quotes": {
     "OMX30": {
-      "price": 2965.69,
+      "price": 3009.18,
       "change": 0.0
     },
     "S&P 500": {
-      "price": 6582.69,
+      "price": 6611.83,
       "change": 0.0
     },
     "NASDAQ": {
-      "price": 21879.18,
+      "price": 21996.34,
       "change": 0.0
     },
     "EUR/USD": {
@@ -18,126 +18,130 @@
       "change": 0.0
     },
     "USD/SEK": {
-      "price": 9.41,
+      "price": 9.46,
       "change": 0.0
     },
     "EUR/SEK": {
-      "price": 10.88,
+      "price": 10.95,
       "change": 0.0
     },
     "BTC/USD": {
-      "price": 69271.77,
-      "change": 3.49
+      "price": 68946.34,
+      "change": -0.5
     }
   },
   "futures": {
     "S&P 500 Futures": {
-      "price": 6647.25,
+      "price": 6655.75,
       "change": 0.0
     },
     "NASDAQ Futures": {
-      "price": 24382.75,
+      "price": 24373.0,
       "change": 0.0
     },
     "DAX Futures": {
-      "price": 23168.08,
+      "price": 23335.12,
       "change": 0.0
     },
     "Olja (WTI)": {
-      "price": 109.72,
+      "price": 112.97,
       "change": 0.0
     },
     "Guld": {
-      "price": 4721.3,
+      "price": 4709.9,
       "change": 0.0
     },
     "VIX": {
-      "price": 24.43,
+      "price": 24.55,
       "change": 0.0
     }
   },
   "briefing": {
-    "headline": "Trump-ultimatum idag, starkare jobb trots krisstämning",
-    "date": "Monday 06 April 2026",
+    "headline": "Trump-deadline närmar sig medan marknaderna håller andan",
+    "date": "Tuesday 07 April 2026",
     "beginner": [
       {
-        "icon": "⚡",
-        "label": "TRUMP IRAN-ULTIMATUM",
-        "text": "USA:s president Trump hade satt idag som sista dag för Iran att öppna Hormuzstundet, men sköt upp deadline till tisdag 20:00. Utan öppning hotar han bomba Irans kraftverk och broar.",
-        "explain": "💡 Hormuzstundet är världens viktigaste oljeväg med 20% av all olja. Är det stängt så blir bensin och el dyrare för alla."
-      },
-      {
-        "icon": "💼",
-        "label": "AMERIKANSKA JOBB ÖVERRASKAR",
-        "text": "USA skapade 178 000 jobb i mars, nästan tre gånger mer än väntat (60 000). Arbetslösheten sjönk till 4,3% från 4,4%. Stark rapport trots kriget.",
-        "explain": "💡 Fler jobb betyder starkare ekonomi och mindre risk för recession. Bra för aktiemarknaden på lång sikt."
+        "icon": "⏰",
+        "label": "TRUMPS IRAN-ULTIMATUM",
+        "text": "Klockan 20:00 idag (svensk tid 02:00 imorgon) löper Trumps deadline för Iran ut att återöppna Hormuzsundet. USA hotar att attackera Irans kraftverk och broar om ingen överenskommelse nås.",
+        "explain": "💡 Detta skapar enorm osäkerhet på marknaderna eftersom Hormuzsundet är världens viktigaste oljeled. Om kriget eskalerar kan oljepriser och inflation skjuta i höjden."
       },
       {
         "icon": "📈",
-        "label": "VOLATILITET FORTSÄTTER HÖG",
-        "text": "VIX på 24,4 visar fortsatt oro på marknaderna. USA-börsen var stängd på fredag för långhelg, öppnar igen idag efter 4 dagar.",
-        "explain": "💡 VIX över 20 betyder förhöjd oro. Investerare är nervösa och kurser kan svänga mer än vanligt."
+        "label": "ASIATISKA MARKNADER BLANDADE",
+        "text": "Nikkei 225 faller 0,17% medan Australien stiger 1,4%. Olja WTI upp 3,4% till $116 per fat när spänningarna ökar.",
+        "explain": "💡 Investerare vågar inte ta stora positioner innan vi vet om kriget eskalerar eller om fred sluts. Därför ser vi blandade signaler och volatilitet."
       },
       {
-        "icon": "🛢️",
-        "label": "OLJAN DOMINERAR MARKNADEN",
-        "text": "Oljepriset vid $109,7 (WTI) efter Trumps hot mot Iran. Priserna har stigit 60% sedan kriget började och påverkar allt från bensin till mat.",
-        "explain": "💡 Högre oljepriser gör allt dyrare och kan tvinga centralbankerna höja räntor för att stoppa inflation."
+        "icon": "📊",
+        "label": "VIX VISAR FÖRHÖJD ORO",
+        "text": "VIX-index ligger på 24,55 vilket är över 20-nivån som signalerar marknadsoro. Futures på S&P 500 platt inför Wall Street-öppningen.",
+        "explain": "💡 VIX över 20 betyder att investerare är nervösa och köper försäkring mot krascher. Det är helt normalt när geopolitiska risker hotar."
+      },
+      {
+        "icon": "💼",
+        "label": "STARK AMERIKANSK ARBETSMARKNAD",
+        "text": "USA skapade 178 000 jobb i mars, nästan tre gånger mer än väntat. Arbetslösheten sjönk till 4,3% från 4,4%.",
+        "explain": "💡 Stark arbetsmarknad betyder att ekonomin klarar kriget bättre än befarat, men gör också att Fed troligen inte sänker räntor snart."
       }
     ],
     "analyst": [
       {
-        "icon": "📊",
-        "label": "TEKNISK ANALYS",
-        "text": "S&P 500 futures +0,0% vid 6647 efter att ha stigit 3% förra veckan. DAX futures oförändrade vid 23168. OMX30 stängde 2965,69 förra torsdagen."
+        "icon": "🛢️",
+        "label": "OLJEMARKNADEN EXPLOSIV",
+        "text": "WTI +3,4% till $116,2 per fat, Brent +1,7% till $111,59. Hormuzsundet fortfarande 95% stängt jämfört med före kriget. Risk för $200 olja om eskalering.",
+        "explain": "Tekniskt bryter olja uppåt ur konsolideringsmönster. SocGen varnar för $200-scenario vid total stängning."
       },
       {
-        "icon": "🎯",
-        "label": "MAKRODATA STARK",
-        "text": "Mars-jobbrapporten slog förväntningarna stort - 178k vs 60k väntat. Arbetslöshet 4,3% vs 4,4% väntat. Fed får starkare data inför nästa räntebeslut men oljeinflation komplicerar."
+        "icon": "📉",
+        "label": "FUTURES VÄNTAR PÅ DEADLINE",
+        "text": "S&P futures -0,1%, DAX futures platt på 23 335. VIX 24,55 signalerar fortsatt volatilitet. Dollarn -0,2% när investerare väntar.",
+        "explain": "Marknaden positionerar för binärt utfall: antingen diplomatiskt genombrott eller kraftig eskalering kl 20 EST idag."
       },
       {
-        "icon": "⚠️",
-        "label": "GEOPOLITISKA RISKER",
-        "text": "Trumps tisdag 20:00-deadline för Iran skapar binärt scenario. Öppnas Hormuz = kraftig rally i olja/equity. Amerikanska bombningar = ytterligare uppgång råvaror, risk-off."
+        "icon": "💰",
+        "label": "GULD OCH SÄKRA HAMNAR",
+        "text": "Guld +0,63% till $4714 trots tidigare fall på -2% över två dagar. 10-års amerikansk statsobligationsränta +0,51% till 4,34%.",
+        "explain": "Guld återhämtar sig från tidigare säljning medan obligationsräntor stiger på inflationsoro från höga oljepriser."
       },
       {
-        "icon": "🌊",
-        "label": "LIKVIDITETSSTRÖMMAR",
-        "text": "Europeiska marknader stängda måndag (påsk), tunnare likviditet väntat. Asiatiska marknader öppet men volatila på Iran-osäkerhet. FII fortsatt nettosäljare globalt."
+        "icon": "📈",
+        "label": "MARCH NFP ÖVERRASKAR",
+        "text": "USA: 178k jobb vs väntat 65k, arbetslöshet 4,3% vs väntat 4,4%. Hälsovård +76k, konstruktion +26k. Timförtjänst +3,5% årsbasis.",
+        "explain": "Underlättar Feds position att hålla räntor höga längre. Stark sysselsättning ger ekonomisk motståndskraft mot energichocker."
       }
     ],
     "pension": [
       {
-        "icon": "🌱",
-        "label": "ENERGIEXPONERING AVGÖRANDE",
-        "text": "AP7/AMF med energiaktier gynnades av oljehöjningen men volatilitet skadar pensionssparare nära pensionering. Rebalansering sker automatiskt men kan dröja.",
-        "tip": "💡 Överväg att flytta till säkrare alternativ om du har under 10 år till pension. Volatiliteten kan vara för hög."
+        "icon": "⚠️",
+        "label": "DEFENSIV POSITIONERING",
+        "text": "VIX över 24 och geopolitisk osäkerhet gör att pensionsportföljer bör ha defensiv karaktär. Volatilitet väntas fortsätta.",
+        "tip": "💡 Överväg att minska aktieexponeringen temporärt och öka kassaandelen tills Trumps deadline passerat och läget klarnat."
       },
       {
-        "icon": "💰",
-        "label": "DOLLARSÄKRING VIKTIGT",
-        "text": "USD/SEK vid 9,41 och EUR/SEK 10,88 påverkar utlandsexponering i pensionsfonder. Starkare dollar gynnar AMF/SPP med USA-fokus men ökar valutarisk.",
-        "tip": "💡 Kolla om din fond är valutasäkrad. Osäkrade fonder får extra volatilitet av växelkursrörelser just nu."
+        "icon": "🛢️",
+        "label": "ENERGI OCH INFLATION",
+        "text": "Höga oljepriser ($116 WTI) riskerar att driva upp inflation igen, vilket påverkar realräntan negativt för pensionssparare.",
+        "tip": "💡 Inflationsskyddade obligationer (TIPS) kan vara värt att överväga som hedge mot stigande energipriser och inflation."
       },
       {
-        "icon": "⚖️",
-        "label": "REBALANSERING AUTOMATISK",
-        "text": "Höga råvarupriser gynnar pensionsfondsexponering mot energi och material. Automatiska rebalanseringar sker kvartalsvis i de flesta fonderna.",
-        "tip": "💡 Låt automatiken sköta omviktning. Försök inte tajma marknaden nu - volatiliteten är för hög för privatpersoner."
+        "icon": "🏦",
+        "label": "FED OCH RÄNTOR",
+        "text": "Stark arbetsmarknad (178k jobb) minskar sannolikheten för Feds räntesänkningar i år, vilket påverkar obligations- och aktiemarknaden.",
+        "tip": "💡 Kortare löptider på obligationer kan vara fördelaktigt om Fed håller räntor högre längre än väntat."
       },
       {
-        "icon": "🎯",
-        "label": "LÅNGSIKTIG STABILITET",
-        "text": "Stark amerikansk arbetsmarknad stärker tilltron till ekonomisk motståndskraft. Pensionsfonder drar nytta av bred exponering mot flera marknader under osäkerhet.",
-        "tip": "💡 Håll ditt månadssparande konstant. Volatila tider är bra för köp via genomsnittskostnad över tid."
+        "icon": "🌍",
+        "label": "GLOBAL RISKSPRIDNING",
+        "text": "Asiatiska marknader visar blandad utveckling vilket tyder på att risken är koncentrerad till Mellanöstern-konflikten än bredare ekonomisk svaghet.",
+        "tip": "💡 Geografisk diversifiering blir extra viktig - överväg exposition mot marknader som mindre påverkas av Hormuz-krisen som Japan och Australien."
       }
     ],
     "sources": [
-      "Washington Post - Trump Iran deadline",
-      "CNN - March jobs report analysis",
-      "CNBC - US payrolls data",
-      "NYSE market status"
+      "CNBC - Trump Iran deadline och marknadsutveckling",
+      "Bloomberg - Futureshandel och deadline-positionering",
+      "Yahoo Finance - Mars arbetsmarknadsrapport 178k jobb",
+      "Trading Economics - Asiatiska marknader och oljepriser"
     ]
   }
 }
