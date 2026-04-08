@@ -1,147 +1,147 @@
 {
-  "generated": "2026-04-07T08:46:13.293726",
+  "generated": "2026-04-08T08:46:04.217827",
   "quotes": {
     "OMX30": {
-      "price": 3009.18,
+      "price": 3076.18,
       "change": 0.0
     },
     "S&P 500": {
-      "price": 6611.83,
+      "price": 6616.85,
       "change": 0.0
     },
     "NASDAQ": {
-      "price": 21996.34,
+      "price": 22017.85,
       "change": 0.0
     },
     "EUR/USD": {
-      "price": 1.16,
+      "price": 1.17,
       "change": 0.0
     },
     "USD/SEK": {
-      "price": 9.46,
+      "price": 9.29,
       "change": 0.0
     },
     "EUR/SEK": {
-      "price": 10.95,
+      "price": 10.84,
       "change": 0.0
     },
     "BTC/USD": {
-      "price": 68946.34,
-      "change": -0.5
+      "price": 71679.97,
+      "change": 4.03
     }
   },
   "futures": {
     "S&P 500 Futures": {
-      "price": 6655.75,
+      "price": 6826.25,
       "change": 0.0
     },
     "NASDAQ Futures": {
-      "price": 24373.0,
+      "price": 25184.75,
       "change": 0.0
     },
     "DAX Futures": {
-      "price": 23335.12,
+      "price": 23951.07,
       "change": 0.0
     },
     "Olja (WTI)": {
-      "price": 112.97,
+      "price": 96.2,
       "change": 0.0
     },
     "Guld": {
-      "price": 4709.9,
+      "price": 4829.6,
       "change": 0.0
     },
     "VIX": {
-      "price": 24.55,
+      "price": 20.53,
       "change": 0.0
     }
   },
   "briefing": {
-    "headline": "Trump-deadline närmar sig medan marknaderna håller andan",
-    "date": "Tuesday 07 April 2026",
+    "headline": "Iran-vapenvila sänker olja 15% — marknadschock",
+    "date": "Wednesday 08 April 2026",
     "beginner": [
       {
-        "icon": "⏰",
-        "label": "TRUMPS IRAN-ULTIMATUM",
-        "text": "Klockan 20:00 idag (svensk tid 02:00 imorgon) löper Trumps deadline för Iran ut att återöppna Hormuzsundet. USA hotar att attackera Irans kraftverk och broar om ingen överenskommelse nås.",
-        "explain": "💡 Detta skapar enorm osäkerhet på marknaderna eftersom Hormuzsundet är världens viktigaste oljeled. Om kriget eskalerar kan oljepriser och inflation skjuta i höjden."
+        "icon": "🕊️",
+        "label": "VAPENVILA I SISTA STUND",
+        "text": "<cite index='1-6,8-10'>President Trump meddelade igår kväll en tvåveckors vapenvila med Iran, bara timmar före sin hotade deadline på 8 PM ET.</cite> <cite index='21-8,23-17'>WTI-oljan kraschade från $113 till $95 per fat (-15%) när krigsrisken försvann över natten.</cite>",
+        "explain": "💡 När geopolitiska spänningar minskar faller oljepriset snabbt eftersom 'krigsrisk-premien' försvinner. Det betyder lägre bensinpriser för vanliga svenskar inom några dagar."
       },
       {
         "icon": "📈",
-        "label": "ASIATISKA MARKNADER BLANDADE",
-        "text": "Nikkei 225 faller 0,17% medan Australien stiger 1,4%. Olja WTI upp 3,4% till $116 per fat när spänningarna ökar.",
-        "explain": "💡 Investerare vågar inte ta stora positioner innan vi vet om kriget eskalerar eller om fred sluts. Därför ser vi blandade signaler och volatilitet."
+        "label": "BÖRSER SKJUTER I HÖJDEN",
+        "text": "<cite index='1-4,8-8'>S&P 500 futures steg 2.5% och Nasdaq futures raketade upp 3.3% efter vapenvila-nyheten.</cite> <cite index='8-30,8-32'>Asiens börser följde efter med Sydkoreas Kospi upp 5.8% och Japans Nikkei upp 4.95%.</cite>",
+        "explain": "💡 När oljekonflikten lättar köper investerare aktier igen eftersom företagens kostnader sjunker och ekonomin kan växa bättre. Det påverkar dina fonder positivt."
       },
       {
-        "icon": "📊",
-        "label": "VIX VISAR FÖRHÖJD ORO",
-        "text": "VIX-index ligger på 24,55 vilket är över 20-nivån som signalerar marknadsoro. Futures på S&P 500 platt inför Wall Street-öppningen.",
-        "explain": "💡 VIX över 20 betyder att investerare är nervösa och köper försäkring mot krascher. Det är helt normalt när geopolitiska risker hotar."
+        "icon": "🛢️",
+        "label": "STÖRST OLJEFALL SEDAN 1991",
+        "text": "<cite index='22-4'>Detta var den största endagsfallet i oljepriser sedan Gulfkriget 1991.</cite> <cite index='21-12'>Hormuzsundet, som hanterar 20% av världens olja, hade varit effektivt stängt under konflikten.</cite>",
+        "explain": "💡 Hormuzsundet är världens viktigaste oljeled — när det stängs blir det oljebrist och höga priser. Nu när det öppnas faller priserna snabbt men är fortfarande höga."
       },
       {
-        "icon": "💼",
-        "label": "STARK AMERIKANSK ARBETSMARKNAD",
-        "text": "USA skapade 178 000 jobb i mars, nästan tre gånger mer än väntat. Arbetslösheten sjönk till 4,3% från 4,4%.",
-        "explain": "💡 Stark arbetsmarknad betyder att ekonomin klarar kriget bättre än befarat, men gör också att Fed troligen inte sänker räntor snart."
+        "icon": "⚡",
+        "label": "DELTA RAPPORTERAR IDAG",
+        "text": "<cite index='31-1,35-1'>Delta Air Lines rapporterar Q1-resultat kl. 16:00 svensk tid idag som första stora flygbolag efter oljekrisen.</cite> <cite index='31-3,37-22'>Flygbränslepriserna har stigit 70% sedan Iran-konflikten började.</cite>",
+        "explain": "💡 Flygbolag drabbas hårt av höga oljepriser eftersom bränsle är deras största kostnad. Deltas siffror visar hur branschen klarat krisen — viktigt för flygbolagsaktier."
       }
     ],
     "analyst": [
       {
-        "icon": "🛢️",
-        "label": "OLJEMARKNADEN EXPLOSIV",
-        "text": "WTI +3,4% till $116,2 per fat, Brent +1,7% till $111,59. Hormuzsundet fortfarande 95% stängt jämfört med före kriget. Risk för $200 olja om eskalering.",
-        "explain": "Tekniskt bryter olja uppåt ur konsolideringsmönster. SocGen varnar för $200-scenario vid total stängning."
+        "icon": "📊",
+        "label": "TEKNISKA NIVÅER BRUTNA",
+        "text": "<cite index='1-1,1-4'>S&P 500 futures steg 2.5% till 6826 medan Nasdaq futures klättrade 3.3% till 25185.</cite> <cite index='2-5'>S&P 500 står vid kritisk 6620-nivå för att nå målet 6900 enligt head-and-shoulders mönster.</cite> VIX på 20.53 indikerar förhöjd men hanterbar oro.",
+        "text2": ""
       },
       {
-        "icon": "📉",
-        "label": "FUTURES VÄNTAR PÅ DEADLINE",
-        "text": "S&P futures -0,1%, DAX futures platt på 23 335. VIX 24,55 signalerar fortsatt volatilitet. Dollarn -0,2% när investerare väntar.",
-        "explain": "Marknaden positionerar för binärt utfall: antingen diplomatiskt genombrott eller kraftig eskalering kl 20 EST idag."
+        "icon": "💹",
+        "label": "OLJEMARKNAD I FRITT FALL",
+        "text": "<cite index='21-8,21-9'>WTI föll från $112.95 till $95.85 (-15%) medan Brent sjönk till $103.42 (-5%). Krigsrisk-premien komprimerades från $14 till $4-6 per fat.</cite> <cite index='22-6'>Priserna är fortfarande långt över $73-nivån före kriget.</cite>",
+        "text2": ""
       },
       {
-        "icon": "💰",
-        "label": "GULD OCH SÄKRA HAMNAR",
-        "text": "Guld +0,63% till $4714 trots tidigare fall på -2% över två dagar. 10-års amerikansk statsobligationsränta +0,51% till 4,34%.",
-        "explain": "Guld återhämtar sig från tidigare säljning medan obligationsräntor stiger på inflationsoro från höga oljepriser."
+        "icon": "🏭",
+        "label": "DELTA: FÖRSTA STRESSTESTET",
+        "text": "<cite index='35-2,37-1'>Konsensusestimatet för Delta är EPS $0.62 på $14.89B omsättning för Q1.</cite> <cite index='31-22,31-24'>Jetbränslepriser över $4/gallon medan Delta guidat 4.5-6% rörelsemarginal trots tryck.</cite>",
+        "text2": ""
       },
       {
-        "icon": "📈",
-        "label": "MARCH NFP ÖVERRASKAR",
-        "text": "USA: 178k jobb vs väntat 65k, arbetslöshet 4,3% vs väntat 4,4%. Hälsovård +76k, konstruktion +26k. Timförtjänst +3,5% årsbasis.",
-        "explain": "Underlättar Feds position att hålla räntor höga längre. Stark sysselsättning ger ekonomisk motståndskraft mot energichocker."
+        "icon": "🌏",
+        "label": "ASIEN LEDER RALLY",
+        "text": "<cite index='8-31,8-32'>Samsung Electronics (+7.12%) och SK Hynix (+9.61%) ledde Kospi upp 5.8%. Nikkei steg 4.95% med bred uppgång.</cite> <cite index='25-5'>Dollar föll brett då investerare lämnade säkra hamnar efter vapenvilan.</cite>",
+        "text2": ""
       }
     ],
     "pension": [
       {
-        "icon": "⚠️",
-        "label": "DEFENSIV POSITIONERING",
-        "text": "VIX över 24 och geopolitisk osäkerhet gör att pensionsportföljer bör ha defensiv karaktär. Volatilitet väntas fortsätta.",
-        "tip": "💡 Överväg att minska aktieexponeringen temporärt och öka kassaandelen tills Trumps deadline passerat och läget klarnat."
+        "icon": "🌱",
+        "label": "KRAFTIG ÅTERHÄMTNING VÄNTAS",
+        "text": "<cite index='1-1,1-4'>S&P 500 och Nasdaq futures upp 2.5-3.3% betyder stark öppning för dina globalfonder idag.</cite> Efter fem veckors nedgång på grund av oljekrisen vänds trenden nu snabbt uppåt.",
+        "tip": "💡 Stor volatilitet pågår — behåll ditt månadssparande oavsett dagens uppgång. Kriget är bara pausat i två veckor."
       },
       {
-        "icon": "🛢️",
-        "label": "ENERGI OCH INFLATION",
-        "text": "Höga oljepriser ($116 WTI) riskerar att driva upp inflation igen, vilket påverkar realräntan negativt för pensionssparare.",
-        "tip": "💡 Inflationsskyddade obligationer (TIPS) kan vara värt att överväga som hedge mot stigande energipriser och inflation."
+        "icon": "💡",
+        "label": "OLJEFONDER UNDER PRESS",
+        "text": "<cite index='21-1,28-3'>15% fall i WTI-olja betyder att energifonder och råvarufonder tappat kraftigt värde över natten.</cite> De som har råvaruviktning i sina portföljer ser negativ påverkan idag.",
+        "tip": "💡 Om du har energiaktier via AP7 eller AMF — de kommer falla idag men kan återhämta sig om konflikten blåser upp igen."
       },
       {
-        "icon": "🏦",
-        "label": "FED OCH RÄNTOR",
-        "text": "Stark arbetsmarknad (178k jobb) minskar sannolikheten för Feds räntesänkningar i år, vilket påverkar obligations- och aktiemarknaden.",
-        "tip": "💡 Kortare löptider på obligationer kan vara fördelaktigt om Fed håller räntor högre längre än väntat."
+        "icon": "🛫",
+        "label": "FLYGBOLAG SPLITTAR MARKNADEN",
+        "text": "<cite index='31-3,37-24'>Flygbolag drabbade av 70% högre bränslepriser men får nu andrum med lägre oljekostnader.</cite> Deltas rapport idag avgör om sektorn överlever kostnadsökningen.",
+        "tip": "💡 Globalfonder med flygbolagsexponering kan studsa kraftigt om Delta visar motståndskraft mot höga bränslekostnader."
       },
       {
-        "icon": "🌍",
-        "label": "GLOBAL RISKSPRIDNING",
-        "text": "Asiatiska marknader visar blandad utveckling vilket tyder på att risken är koncentrerad till Mellanöstern-konflikten än bredare ekonomisk svaghet.",
-        "tip": "💡 Geografisk diversifiering blir extra viktig - överväg exposition mot marknader som mindre påverkas av Hormuz-krisen som Japan och Australien."
+        "icon": "⏳",
+        "label": "TILLFÄLLIG LÄTTNAD",
+        "text": "<cite index='21-20,29-7'>Vapenvilan är bara två veckor och Iran avvisade tidigare en 45-dagarsuppgörelse.</cite> Risken för ny eskalering kvarstår vilket betyder fortsatt volatilitet.",
+        "tip": "💡 Öka inte risk i portföljen nu — denna lättnad kan vara kortvarig. Håll kvar diversifiering mellan aktier, räntor och råvaror."
       }
     ],
     "sources": [
-      "CNBC - Trump Iran deadline och marknadsutveckling",
-      "Bloomberg - Futureshandel och deadline-positionering",
-      "Yahoo Finance - Mars arbetsmarknadsrapport 178k jobb",
-      "Trading Economics - Asiatiska marknader och oljepriser"
+      "Yahoo Finance",
+      "CNBC",
+      "Al Jazeera",
+      "Ad-hoc-news.de"
     ]
   }
 }
