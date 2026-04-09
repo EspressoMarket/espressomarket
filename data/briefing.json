@@ -1,16 +1,16 @@
 {
-  "generated": "2026-04-08T08:46:04.217827",
+  "generated": "2026-04-09T08:54:44.504602",
   "quotes": {
     "OMX30": {
-      "price": 3076.18,
+      "price": 3057.32,
       "change": 0.0
     },
     "S&P 500": {
-      "price": 6616.85,
+      "price": 6782.81,
       "change": 0.0
     },
     "NASDAQ": {
-      "price": 22017.85,
+      "price": 22634.99,
       "change": 0.0
     },
     "EUR/USD": {
@@ -18,130 +18,126 @@
       "change": 0.0
     },
     "USD/SEK": {
-      "price": 9.29,
+      "price": 9.31,
       "change": 0.0
     },
     "EUR/SEK": {
-      "price": 10.84,
+      "price": 10.87,
       "change": 0.0
     },
     "BTC/USD": {
-      "price": 71679.97,
-      "change": 4.03
+      "price": 71226.48,
+      "change": -0.72
     }
   },
   "futures": {
     "S&P 500 Futures": {
-      "price": 6826.25,
+      "price": 6799.25,
       "change": 0.0
     },
     "NASDAQ Futures": {
-      "price": 25184.75,
+      "price": 24991.0,
       "change": 0.0
     },
     "DAX Futures": {
-      "price": 23951.07,
+      "price": 23788.14,
       "change": 0.0
     },
     "Olja (WTI)": {
-      "price": 96.2,
+      "price": 97.53,
       "change": 0.0
     },
     "Guld": {
-      "price": 4829.6,
+      "price": 4753.4,
       "change": 0.0
     },
     "VIX": {
-      "price": 20.53,
+      "price": 21.47,
       "change": 0.0
     }
   },
   "briefing": {
-    "headline": "Iran-vapenvila sänker olja 15% — marknadschock",
-    "date": "Wednesday 08 April 2026",
+    "headline": "Aktier rekylerar ned efter fragil vapenvila USA-Iran",
+    "date": "Thursday 09 April 2026",
     "beginner": [
       {
-        "icon": "🕊️",
-        "label": "VAPENVILA I SISTA STUND",
-        "text": "<cite index='1-6,8-10'>President Trump meddelade igår kväll en tvåveckors vapenvila med Iran, bara timmar före sin hotade deadline på 8 PM ET.</cite> <cite index='21-8,23-17'>WTI-oljan kraschade från $113 till $95 per fat (-15%) när krigsrisken försvann över natten.</cite>",
-        "explain": "💡 När geopolitiska spänningar minskar faller oljepriset snabbt eftersom 'krigsrisk-premien' försvinner. Det betyder lägre bensinpriser för vanliga svenskar inom några dagar."
+        "icon": "⚠️",
+        "label": "VAPENVILA SKAKAR",
+        "text": "Amerikanska och svenska aktier faller idag efter att Iran anklagat USA för att bryta igårdagens vapenvila. OMX30 faller från igår +4,25% till platta nivåer. Oljan stiger tillbaka upp.",
+        "explain": "💡 Efter gårdagens ralley på vapenvilan kommer tvivel. Investerare säljer av oro att konflikten fortsätter, vilket skulle höja energipriserna igen."
       },
       {
-        "icon": "📈",
-        "label": "BÖRSER SKJUTER I HÖJDEN",
-        "text": "<cite index='1-4,8-8'>S&P 500 futures steg 2.5% och Nasdaq futures raketade upp 3.3% efter vapenvila-nyheten.</cite> <cite index='8-30,8-32'>Asiens börser följde efter med Sydkoreas Kospi upp 5.8% och Japans Nikkei upp 4.95%.</cite>",
-        "explain": "💡 När oljekonflikten lättar köper investerare aktier igen eftersom företagens kostnader sjunker och ekonomin kan växa bättre. Det påverkar dina fonder positivt."
+        "icon": "📊",
+        "label": "VIX SIGNALERAR ORO",
+        "text": "VIX-indexet på 21,47 visar att marknaden fortfarande är nervös. Över 20 betyder höjd oro bland investerare. Flygbolag och kryssningsrederier som steg kraftigt igår vänder ned.",
+        "explain": "💡 När VIX är över 20 är det tecken på att marknaden förväntar sig volatilitet framöver. Investerare betalar mer för försäkring mot fall."
       },
       {
         "icon": "🛢️",
-        "label": "STÖRST OLJEFALL SEDAN 1991",
-        "text": "<cite index='22-4'>Detta var den största endagsfallet i oljepriser sedan Gulfkriget 1991.</cite> <cite index='21-12'>Hormuzsundet, som hanterar 20% av världens olja, hade varit effektivt stängt under konflikten.</cite>",
-        "explain": "💡 Hormuzsundet är världens viktigaste oljeled — när det stängs blir det oljebrist och höga priser. Nu när det öppnas faller priserna snabbt men är fortfarande höga."
+        "label": "OLJA ÅTERHÄMTAR SIG",
+        "text": "WTI-olja omkring $97 efter igårs dramatiska fall på 16%. Iran säger att endast fyra fartyg passerade Hormuzsundet igår trots vapenvilan. Trafikflödet återställs inte som förväntat.",
+        "explain": "💡 Även med vapenvila vågar inte alla tankfartyg köra. Försäkringar är dyra och Iran kontrollerar fortfarande vilka som får passera."
       },
       {
-        "icon": "⚡",
-        "label": "DELTA RAPPORTERAR IDAG",
-        "text": "<cite index='31-1,35-1'>Delta Air Lines rapporterar Q1-resultat kl. 16:00 svensk tid idag som första stora flygbolag efter oljekrisen.</cite> <cite index='31-3,37-22'>Flygbränslepriserna har stigit 70% sedan Iran-konflikten började.</cite>",
-        "explain": "💡 Flygbolag drabbas hårt av höga oljepriser eftersom bränsle är deras största kostnad. Deltas siffror visar hur branschen klarat krisen — viktigt för flygbolagsaktier."
+        "icon": "🏭",
+        "label": "UNIQLO ÖVERRASKAR POSITIVT",
+        "text": "Fast Retailing (Uniqlo) rapporterade starkare resultat än väntat för kvartalet. Omsättningen upp 14,8% till 1,03 biljoner yen, vinst upp 31%. Aktien stiger på Tokyo-börsen trots negativ marknad.",
+        "explain": "💡 När företag slår förväntningarna kraftigt kan deras aktier stiga även när hela marknaden faller. Det visar stark underliggande tillväxt."
       }
     ],
     "analyst": [
       {
-        "icon": "📊",
-        "label": "TEKNISKA NIVÅER BRUTNA",
-        "text": "<cite index='1-1,1-4'>S&P 500 futures steg 2.5% till 6826 medan Nasdaq futures klättrade 3.3% till 25185.</cite> <cite index='2-5'>S&P 500 står vid kritisk 6620-nivå för att nå målet 6900 enligt head-and-shoulders mönster.</cite> VIX på 20.53 indikerar förhöjd men hanterbar oro.",
-        "text2": ""
+        "icon": "📉",
+        "label": "MARKNADSRALLEY PAUSAR",
+        "text": "Teknisk återhämtning stoppad av fundamentala oro kring vapenvilans hållbarhet och Irans kontroll över Hormuz-sundet."
       },
       {
-        "icon": "💹",
-        "label": "OLJEMARKNAD I FRITT FALL",
-        "text": "<cite index='21-8,21-9'>WTI föll från $112.95 till $95.85 (-15%) medan Brent sjönk till $103.42 (-5%). Krigsrisk-premien komprimerades från $14 till $4-6 per fat.</cite> <cite index='22-6'>Priserna är fortfarande långt över $73-nivån före kriget.</cite>",
-        "text2": ""
+        "icon": "🛢️",
+        "label": "ENERGIMARKNADERNAS VOLATILITET",
+        "text": "Strukturell förändring i energiflöden där Iran behåller kontroll över kritisk transportled trots vapenvila."
       },
       {
-        "icon": "🏭",
-        "label": "DELTA: FÖRSTA STRESSTESTET",
-        "text": "<cite index='35-2,37-1'>Konsensusestimatet för Delta är EPS $0.62 på $14.89B omsättning för Q1.</cite> <cite index='31-22,31-24'>Jetbränslepriser över $4/gallon medan Delta guidat 4.5-6% rörelsemarginal trots tryck.</cite>",
-        "text2": ""
+        "icon": "💱",
+        "label": "VALUTA- OCH RÄNTERÖRELSER",
+        "text": "Flight-to-quality flöden stöder obligationer trots att vapenvilan minskar behovet av säkra tillgångar."
       },
       {
-        "icon": "🌏",
-        "label": "ASIEN LEDER RALLY",
-        "text": "<cite index='8-31,8-32'>Samsung Electronics (+7.12%) och SK Hynix (+9.61%) ledde Kospi upp 5.8%. Nikkei steg 4.95% med bred uppgång.</cite> <cite index='25-5'>Dollar föll brett då investerare lämnade säkra hamnar efter vapenvilan.</cite>",
-        "text2": ""
+        "icon": "🎯",
+        "label": "SEKTORROTATION VÄNDER",
+        "text": "Marknaden omvärderar snabbt när det blir tydligt att vapenvilan är skör och inte löser underliggande geopolitiska spänningar."
       }
     ],
     "pension": [
       {
-        "icon": "🌱",
-        "label": "KRAFTIG ÅTERHÄMTNING VÄNTAS",
-        "text": "<cite index='1-1,1-4'>S&P 500 och Nasdaq futures upp 2.5-3.3% betyder stark öppning för dina globalfonder idag.</cite> Efter fem veckors nedgång på grund av oljekrisen vänds trenden nu snabbt uppåt.",
-        "tip": "💡 Stor volatilitet pågår — behåll ditt månadssparande oavsett dagens uppgång. Kriget är bara pausat i två veckor."
+        "icon": "⚖️",
+        "label": "PORTFÖLJBALANS VIKTIG",
+        "text": "AP7 och andra pensionsfonder påverkades positivt av igårs ralley men dagens nedgång visar vikten av diversifiering. Geopolitiska risker skapar volatilitet i aktiemarknader.",
+        "tip": "💡 Behåll din långsiktiga strategi. Kortsiktiga geopolitiska chocker är normalt tillfälliga för pensionssparande över 20-30 år."
       },
       {
-        "icon": "💡",
-        "label": "OLJEFONDER UNDER PRESS",
-        "text": "<cite index='21-1,28-3'>15% fall i WTI-olja betyder att energifonder och råvarufonder tappat kraftigt värde över natten.</cite> De som har råvaruviktning i sina portföljer ser negativ påverkan idag.",
-        "tip": "💡 Om du har energiaktier via AP7 eller AMF — de kommer falla idag men kan återhämta sig om konflikten blåser upp igen."
+        "icon": "🛡️",
+        "label": "ENERGIEXPONERING RELEVANT",
+        "text": "Svenska pensionsfonder med energiinnehav gynnades när oljan steg från $67 till över $110. Nu när priserna fluktuerar påverkas portföljerna olika beroende på exponering.",
+        "tip": "💡 Överväg att kontrollera din fonds energiexponering. Vissa fonder undviker olja av ESG-skäl, andra har större exponering som kan ge volatilitet."
       },
       {
-        "icon": "🛫",
-        "label": "FLYGBOLAG SPLITTAR MARKNADEN",
-        "text": "<cite index='31-3,37-24'>Flygbolag drabbade av 70% högre bränslepriser men får nu andrum med lägre oljekostnader.</cite> Deltas rapport idag avgör om sektorn överlever kostnadsökningen.",
-        "tip": "💡 Globalfonder med flygbolagsexponering kan studsa kraftigt om Delta visar motståndskraft mot höga bränslekostnader."
+        "icon": "🌍",
+        "label": "GLOBALA FONDER PÅVERKAS",
+        "text": "Internationella aktiefonder inom PPM som investerar i Asien och Europa påverkades starkt av vapenvila-nyheten. Sydkorea +6,87%, Japan +5,39% igår, men nu vänder sentiment.",
+        "tip": "💡 Global diversifiering hjälper, men under geopolitiska kriser rör sig alla marknader ofta åt samma håll. Fokusera på lång sikt."
       },
       {
-        "icon": "⏳",
-        "label": "TILLFÄLLIG LÄTTNAD",
-        "text": "<cite index='21-20,29-7'>Vapenvilan är bara två veckor och Iran avvisade tidigare en 45-dagarsuppgörelse.</cite> Risken för ny eskalering kvarstår vilket betyder fortsatt volatilitet.",
-        "tip": "💡 Öka inte risk i portföljen nu — denna lättnad kan vara kortvarig. Håll kvar diversifiering mellan aktier, räntor och råvaror."
+        "icon": "🔄",
+        "label": "REBALANSERING EFTER VOLATILITET",
+        "text": "Stora prisrörelser som igårs +2,5% S&P 500 följt av dagens nedgång kan skapa obalanser i din portfölj mellan aktier och obligationer eller regioner.",
+        "tip": "💡 Använd volatila perioder för rebalansering om du är nära pensionsåldern. Yngre sparare kan låta det vara och fortsätta månadssparingen."
       }
     ],
     "sources": [
-      "Yahoo Finance",
-      "CNBC",
-      "Al Jazeera",
-      "Ad-hoc-news.de"
+      "CNBC Markets",
+      "MarketScreener OMX Stockholm",
+      "NBC News Energy Markets",
+      "Fast Retailing Investor Relations"
     ]
   }
 }
