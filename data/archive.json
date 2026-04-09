@@ -1,78 +1,9 @@
-{
-  "generated": "2026-04-09T16:01:25.102549",
-  "quotes": {
-    "OMX30": {
-      "price": 3079.31,
-      "change": -0.48,
-      "prev": 3094.16
-    },
-    "S&P 500": {
-      "price": 6811.11,
-      "change": 3.59,
-      "prev": 6575.32
-    },
-    "NASDAQ": {
-      "price": 22761.16,
-      "change": 4.21,
-      "prev": 21840.95
-    },
-    "EUR/USD": {
-      "price": 1.17,
-      "change": 1.37,
-      "prev": 1.15
-    },
-    "USD/SEK": {
-      "price": 9.28,
-      "change": -1.36,
-      "prev": 9.41
-    },
-    "EUR/SEK": {
-      "price": 10.86,
-      "change": 0.02,
-      "prev": 10.86
-    },
-    "BTC/USD": {
-      "price": 72213.75,
-      "change": 1.27,
-      "prev": 71306.6
-    }
-  },
-  "futures": {
-    "S&P 500 Futures": {
-      "price": 6843.25,
-      "change": 2.89,
-      "prev": 6651.0
-    },
-    "NASDAQ Futures": {
-      "price": 25149.25,
-      "change": 3.25,
-      "prev": 24358.5
-    },
-    "DAX": {
-      "price": 23806.99,
-      "change": 4.97,
-      "prev": 22680.04
-    },
-    "Olja (WTI)": {
-      "price": 99.8,
-      "change": -11.22,
-      "prev": 112.41
-    },
-    "Guld": {
-      "price": 4811.3,
-      "change": 3.32,
-      "prev": 4656.8
-    },
-    "VIX": {
-      "price": 20.31,
-      "change": -15.97,
-      "prev": 24.17
-    }
-  },
-  "briefing": {
-    "headline": "Vägskäl för vapenvila: Terminerna rasar",
+[
+  {
     "date": "Thursday 09 April 2026",
     "date_short": "09 Apr 2026",
+    "generated": "2026-04-09T16:01:25.103285",
+    "headline": "Vägskäl för vapenvila: Terminerna rasar",
     "sources": [
       "TheStreet",
       "Bloomberg",
@@ -243,6 +174,75 @@
         "tip": "💡 Svenska pensionsfonder som AP7 Aktiefond har typiskt omkring 20-25% exponering mot svensk marknad, vilket ger en balanserad hemmamarknadsexponering utan att vara alltför koncentrerad. Detta är en bra balans - tillräckligt för att dra nytta av svenska företags framgångar men inte så mycket att du blir sårbar för lokala chocker. Den globala spridningen i svenska pensionsfonder är faktiskt en av deras största styrkor.",
         "funds": "🏦 AP7 Aktiefond har enligt sin senaste månadsrapport 23% i svenska aktier, 35% i amerikanska, 25% i övriga Europa och 17% i tillväxtmarknader. Denna fördelning innebär att även om svensk marknad presterar dåligt så kan andra regioner kompensera. Under gårdagens rally gynnades fonden både av svensk uppgång och amerikansk styrka samtidigt."
       }
-    ]
+    ],
+    "futures": {
+      "S&P 500 Futures": {
+        "price": 6843.25,
+        "change": 2.89,
+        "prev": 6651.0
+      },
+      "NASDAQ Futures": {
+        "price": 25149.25,
+        "change": 3.25,
+        "prev": 24358.5
+      },
+      "DAX": {
+        "price": 23806.99,
+        "change": 4.97,
+        "prev": 22680.04
+      },
+      "Olja (WTI)": {
+        "price": 99.8,
+        "change": -11.22,
+        "prev": 112.41
+      },
+      "Guld": {
+        "price": 4811.3,
+        "change": 3.32,
+        "prev": 4656.8
+      },
+      "VIX": {
+        "price": 20.31,
+        "change": -15.97,
+        "prev": 24.17
+      }
+    },
+    "quotes": {
+      "OMX30": {
+        "price": 3079.31,
+        "change": -0.48,
+        "prev": 3094.16
+      },
+      "S&P 500": {
+        "price": 6811.11,
+        "change": 3.59,
+        "prev": 6575.32
+      },
+      "NASDAQ": {
+        "price": 22761.16,
+        "change": 4.21,
+        "prev": 21840.95
+      },
+      "EUR/USD": {
+        "price": 1.17,
+        "change": 1.37,
+        "prev": 1.15
+      },
+      "USD/SEK": {
+        "price": 9.28,
+        "change": -1.36,
+        "prev": 9.41
+      },
+      "EUR/SEK": {
+        "price": 10.86,
+        "change": 0.02,
+        "prev": 10.86
+      },
+      "BTC/USD": {
+        "price": 72213.75,
+        "change": 1.27,
+        "prev": 71306.6
+      }
+    }
   }
-}
+]
