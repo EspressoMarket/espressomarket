@@ -961,3 +961,16 @@ function renderDiskFeed() {
       <div class="disk-post-footer">
         <button class="disk-like ${diskLiked.has(p.id)?'liked':''}" onclick="toggleDiskLike(${p.id})">${diskLiked.has(p.id)?'♥':'♡'} ${p.likes}</button>
         <button class="disk-ai-btn" onclick="askDiskAI(${p.id})">🤖 Fråga AI</button>
+</div>
+      <div class="disk-ai-resp" id="disk-ai-${p.id}"></div>
+    </div>`).join('');
+}
+renderDiskFeed();
+
+// ===== INIT =====
+loadHem();
+loadArchive();
+checkUrl();
+</script>
+</body>
+</html>
