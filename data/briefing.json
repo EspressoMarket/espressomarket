@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-09T16:01:25.102549",
+  "generated": "2026-04-10T06:16:25.885605",
   "quotes": {
     "OMX30": {
       "price": 3079.31,
@@ -7,45 +7,45 @@
       "prev": 3094.16
     },
     "S&P 500": {
-      "price": 6811.11,
-      "change": 3.59,
+      "price": 6824.66,
+      "change": 3.79,
       "prev": 6575.32
     },
     "NASDAQ": {
-      "price": 22761.16,
-      "change": 4.21,
+      "price": 22822.42,
+      "change": 4.49,
       "prev": 21840.95
     },
     "EUR/USD": {
       "price": 1.17,
-      "change": 1.37,
+      "change": 1.65,
       "prev": 1.15
     },
     "USD/SEK": {
-      "price": 9.28,
-      "change": -1.36,
-      "prev": 9.41
+      "price": 9.3,
+      "change": -1.83,
+      "prev": 9.47
     },
     "EUR/SEK": {
-      "price": 10.86,
-      "change": 0.02,
-      "prev": 10.86
+      "price": 10.87,
+      "change": -0.31,
+      "prev": 10.9
     },
     "BTC/USD": {
-      "price": 72213.75,
-      "change": 1.27,
-      "prev": 71306.6
+      "price": 72090.04,
+      "change": 1.51,
+      "prev": 71014.61
     }
   },
   "futures": {
     "S&P 500 Futures": {
-      "price": 6843.25,
-      "change": 2.89,
+      "price": 6862.25,
+      "change": 3.18,
       "prev": 6651.0
     },
     "NASDAQ Futures": {
-      "price": 25149.25,
-      "change": 3.25,
+      "price": 25265.0,
+      "change": 3.72,
       "prev": 24358.5
     },
     "DAX": {
@@ -54,194 +54,187 @@
       "prev": 22680.04
     },
     "Olja (WTI)": {
-      "price": 99.8,
-      "change": -11.22,
+      "price": 98.59,
+      "change": -12.29,
       "prev": 112.41
     },
     "Guld": {
-      "price": 4811.3,
-      "change": 3.32,
+      "price": 4786.3,
+      "change": 2.78,
       "prev": 4656.8
     },
     "VIX": {
-      "price": 20.31,
-      "change": -15.97,
+      "price": 19.49,
+      "change": -19.36,
       "prev": 24.17
     }
   },
   "briefing": {
-    "headline": "Vägskäl för vapenvila: Terminerna rasar",
-    "date": "Thursday 09 April 2026",
-    "date_short": "09 Apr 2026",
+    "headline": "Marknadslättnader efter Iran-vapenvila med CPI-data idag",
+    "date": "Friday 10 April 2026",
+    "date_short": "10 Apr 2026",
     "sources": [
-      "TheStreet",
-      "Bloomberg",
-      "MotleyFool",
-      "CNN",
-      "MarketScreener"
+      "NBC News",
+      "Trading Economics",
+      "CNBC",
+      "Kiplinger",
+      "MarketWatch"
     ],
     "beginner": [
       {
-        "icon": "⚡",
-        "label": "VAPENVILA HOTAS",
-        "text": "<cite index=\"1-9,1-10\">Iran anklagade under torsdagen USA för att bryta vapenvilan från tisdag, och parlamentstalaren sade att förhandlingar var \"orimliga\"</cite>. <cite index=\"1-20\">Oljan steg kraftigt på nyheterna och terminsmarknaderna föll</cite>. De kommande dagarna blir avgörande för om fredslösningen håller.",
-        "explain": "💡 En vapenvila betyder att båda sidorna slutar skjuta. Men om en sida bryter mot reglerna kan kriget börja igen, vilket gör alla rädda."
-      },
-      {
-        "icon": "🛳️",
-        "label": "HORMUZ KRIS",
-        "text": "<cite index=\"1-22\">Hormuzsundet förblir i princip stängt för trafik trots vapenvilan, då Iran fortfarande kontrollerar världens mest kritiska energipassage</cite>. <cite index=\"26-20,26-21\">Bara fem fartyg passerade under första dagen av vapenvilan, jämfört med normala 110 om dagen</cite>. Rederier är rädda för att skicka skepp genom området.",
-        "explain": "💡 Hormuzsundet är som en trång gata där mycket av världens olja passerar. Om den stängs blir bensinen dyrare för alla."
+        "icon": "🕊️",
+        "label": "HISTORISK VAPENVILA",
+        "text": "<cite index='11-9,13-9'>President Trump och Iran nådde en tvåveckors vapenvila igår kväll, bara timmar före deadline.</cite> <cite index='11-15,16-10'>Oljepriset kollapsade från över $117 till $95, medan aktieterminer sköt i höjden med över 3%.</cite>",
+        "explain": "💡 När geopolitiska spänningar minskar flyr kapital från 'säkra' tillgångar (guld, dollar) till aktier och riskfyllda placeringar eftersom investerare blir mindre rädda för krig och ekonomisk instabilitet."
       },
       {
         "icon": "📈",
-        "label": "TERMINER BACKAR",
-        "text": "<cite index=\"1-1,1-15,1-16\">De amerikanska terminerna föll under torsdagen efter gårdagens kraftiga rally, med både Nasdaq och S&P 500 endast marginellt i plus</cite>. <cite index=\"3-24,3-25,3-26\">S&P 500 backade när euforin kring vapenvilan försvann och WTI-oljan hoppade 5% tillbaka mot 99 dollar</cite>. Investerarna är försiktiga.",
-        "explain": "💡 Terminer visar vad investerare tror kommer hända med börserna. När de faller betyder det att folk blir mer pessimistiska."
+        "label": "AMERIKANSK BÖRSRALLY",
+        "text": "<cite index='1-3'>USA:s börser stängde på långfredagen för Good Friday, men terminerna visade på kraftiga uppgångar.</cite> <cite index='3-13,3-14'>S&P 500 hade tidigare i veckan sin bästa dag sedan maj med 3,4% uppgång under den förkortade handelsveckan.</cite>",
+        "explain": "💡 Pre-market terminer är framtidskontrakt som handlas före börsöppning och visar vad investerare förväntar sig kommer hända när marknaden öppnar - kraftiga uppgångar betyder stor optimism."
+      },
+      {
+        "icon": "🔥",
+        "label": "INFLATIONSORO FORTSÄTTER",
+        "text": "<cite index='21-21,21-22'>Idag kl. 14:30 släpps mars CPI-data som väntas visa 3,1% årsinflation och 0,8% månadsvis, drivet av energikostnader från Iran-kriget.</cite> <cite index='23-6'>Ekonomer varnar för att detta kan vara den högsta månadssiffran sedan 2022.</cite>",
+        "explain": "💡 CPI (Consumer Price Index) mäter hur mycket dyrare vardagsvaror blivit - när den stiger för snabbt kan centralbanken höja räntor för att bromsa ekonomin, vilket skadar aktier."
       },
       {
         "icon": "🇸🇪",
-        "label": "STOCKHOLM LYFTE",
-        "text": "<cite index=\"13-15\">OMXS30 stängde igår upp 4,25% på 3094,16 efter nyheten om vapenvila</cite>. <cite index=\"13-17,13-18\">Verkstadssektorn rusade 5,3% medan energi föll 9,4%</cite>. Idag väntas reaktion på att vapenvilan hotats och att oljan stigit igen.",
-        "explain": "💡 När det blir fred sjunker oljepriset och aktierna stiger, för då blir allt billigare och företagen tjänar mer pengar."
+        "label": "SVERIGE FÖLJER TRENDEN",
+        "text": "<cite index='29-1'>OMX30 steg till 3094 punkter med 4,25% uppgång igår, drivet av globala lättnader.</cite> Svenska kronan stärktes mot dollarn när riskaptiten återvände. <cite index='25-12'>EU-centralbanken överväger fortfarande räntehöjningar på grund av energiinflation.</cite>",
+        "explain": "💡 Svenska börsen följer ofta amerikanska och europeiska rörelser eftersom våra företag exporterar mycket och påverkas av global efterfrågan - när världsekonomin ser ljusare ut gynnas svenska aktier."
       }
     ],
     "analyst": [
       {
-        "icon": "📊",
-        "label": "VOLATILITET STIGER",
-        "text": "<cite index=\"3-26,3-27\">WTI-terminerna steg 5% tillbaka mot $99 när Hormuzsundet förblir stängt, medan VIX på 20,31 (-15,97%) signalerar fortsatt förhöjd oro trots nedgången</cite>. <cite index=\"1-14,1-15\">54,5% av amerikanska aktier föll under torsdagsmorgonen mot 40,3% som steg</cite>. Marknaderna prissätter in allt större sannolikhet för att vapenvilan kollapsar."
-      },
-      {
-        "icon": "⚡",
-        "label": "TEKNISK ÅTERHÄMTNING",
-        "text": "Europeiska terminer visar kraftig pre-market styrka med <cite index=\"kontextdata\">DAX futures upp 4,97% på 23807</cite>, vilket indikerar teknisk återhämtning från översolda nivåer. <cite index=\"6-7,6-30\">Gårdagens rally såg Dow +2,93% och Russell 2000 +2,97% i bästa sessionen sedan april 2025</cite>. Kortsiktiga momentumindikatorer pekar uppåt men fundamentala risker kvarstår."
-      },
-      {
         "icon": "🛢️",
-        "label": "ENERGIKOMPLEX SNURRIGT",
-        "text": "<cite index=\"8-15\">WTI föll över 16% till $94,41 på vapenvila-eufori medan Brent tappade 13% till $94,75</cite>, men nu <cite index=\"kontextdata\">WTI på $99,8 (-11,22%)</cite> när vapenvilan hotas. <cite index=\"6-35\">Energisektorn var gårdagens förlorare med -3,5%</cite>. Volatiliteten i olja på 30%+ nivåer speglar geopolitisk osäkerhet."
+        "label": "ENERGIMARKNADENS VÄNDNING",
+        "text": "<cite index='14-4,15-17'>WTI-olja kollapsade från $117 till under $95 (-12,29% enligt terminsdata) medan Brent föll 12,78% till $95,31.</cite> <cite index='15-23,15-24'>Hormuzsundet står fortfarande stängt med endast 10-15 fartyg per dag vs. normala 100-120.</cite> Volatiliteten kvarstår med backwardation-kurva intakt."
       },
       {
-        "icon": "💱",
-        "label": "VALUTA & GULD",
-        "text": "Safe haven-flöden återvänder med <cite index=\"kontextdata\">guld upp 3,32% på $4811</cite> och <cite index=\"kontextdata\">USD/SEK stärks till 9,28 (-1,36%)</cite>. <cite index=\"3-29,3-30\">PCE-inflationen på 2,8% (kärnan 3%) håller Fed-räntesänkningar på avstånd</cite>. Dollarn stärks på geopolitisk oro och räntepremium."
+        "icon": "📊",
+        "label": "TEKNISKA SIGNALER",
+        "text": "<cite index='10-1,10-5'>S&P 500 på 6611 ligger precis under 200-dagars glidande medelvärde på 6647, medan Nasdaq på 22000 handlas 350 punkter under sitt 200-dagars MA.</cite> <cite index='3-16'>Terminerna prissätter nu bort geopolitisk riskpremie efter vapenvilan.</cite> VIX föll till 19,49 (-19,36%)."
+      },
+      {
+        "icon": "💹",
+        "label": "RÄNTEMARKNADEN",
+        "text": "<cite index='22-9,23-14'>Fed Funds-terminer visar 98,4% sannolikhet för oförändrad ränta på 3,50-3,75% vid aprilmötet.</cite> <cite index='6-20,6-21'>10-åriga amerikanska statsobligationer föll 10 baspunkter efter vapenvilan medan 3-åriga auktioner visade stark efterfrågan.</cite> Räntekurvan brantnar något."
+      },
+      {
+        "icon": "🌍",
+        "label": "SEKTORROTATION",
+        "text": "<cite index='8-11,8-12'>AI-aktier som Nvidia, Meta, Tesla och AMD steg 4-10% medan flygbolag som Delta soarade 12% på lägre bränslekostnader.</cite> <cite index='29-1,29-10'>OMX30 på nya all-time high 3094 (+42,21% YoY) med energi- och råvarusektorn ledande.</cite> Defensiva sektorer underpresterande."
       }
     ],
     "pension": [
       {
-        "icon": "🌱",
-        "label": "VOLATIL PERIOD",
-        "text": "<cite index=\"3-24,3-27\">Den extrema volatiliteten mellan gårdagens rally och dagens fall skapar kortsiktig turbulens för pensionsfonder</cite>. <cite index=\"kontextdata\">VIX över 20-nivån signalerar förhöjd marknadsoro</cite> som kan påverka kortsiktiga avkastningar. Långsiktiga pensionssparare påverkas mindre av dagliga fluktuationer.",
-        "tip": "💡 Vid hög volatilitet, fortsätt med regelbundna inbetalningar för att få medelpriseffekt över tid."
-      },
-      {
         "icon": "⚖️",
-        "label": "SEKTORROTATION",
-        "text": "<cite index=\"13-17,13-18\">Gårdagens rotation från energi (-9,4%) till verkstad (+5,3%) visar hur geopolitiska chocker påverkar olika sektorer</cite>. <cite index=\"6-34,6-35\">Teknik (+3,14%) och material (+3,32%) steg medan energi (-3,5%) föll kraftigt</cite>. Svenska pensionsfonder med global diversifiering får utjämnade effekter.",
-        "tip": "💡 Bred diversifiering över sektorer och regioner minskar påverkan av geopolitiska chocker på pensionen."
+        "label": "BALANSERADE PORTFÖLJER",
+        "text": "<cite index='9-19,9-20'>S&P 500 steg 3% i veckan medan 10-åriga räntor föll 13 baspunkter till 4,31%.</cite> AP-fondernas balanserade portföljer gynnas av både aktieuppgångar och obligationsrally. <cite index='16-11'>Marknadsanalytiker ser detta som ett 'off-ramp' från geopolitiska risker.</cite>",
+        "tip": "💡 Stora rörelser som detta påminner om vikten av att inte panikhandla vid geopolitiska kriser - tålmodiga investerare belönas ofta när spänningar avtar."
       },
       {
         "icon": "🛡️",
-        "label": "SAFE HAVEN VÄRDEN",
-        "text": "<cite index=\"kontextdata\">Guldet stiger 3,32% till $4811 när geopolitiska spänningar ökar</cite> vilket gynnar pensionsfonder med ädelmetallexponering. <cite index=\"3-29,3-30\">Persistent inflation på 3% håller realräntor låga</cite>. Balanserade pensionsfonder med tillgångsmix klarar volatila perioder bättre.",
-        "tip": "💡 En liten tilldelning till guld (5-10%) kan ge skydd under geopolitiska kriser utan att påverka totalavkastning negativt."
+        "label": "INFLATIONSIMPAKT",
+        "text": "<cite index='22-2,22-3'>Trots vapenvilan väntas energiinflation hålla i sig första halvåret 2026 innan den avtar.</cite> <cite index='21-32'>Experten Glenmede uppskattar att oljechocken kan lägga till 0,8% till inflationen över kommande år.</cite> Reala avkastningar kan påverkas negativt kortsiktigt.",
+        "tip": "💡 Många pensionsfonder har inflationsskydd genom TIPS-obligationer och realfastigheter som skyddar köpkraften över tid."
       },
       {
-        "icon": "🇸🇪",
-        "label": "SVENSKA MARKNADEN",
-        "text": "<cite index=\"13-15,13-16\">OMXs30:s kraftiga uppgång på 4,25% med handel för SEK 31,3 miljarder visar svensk marknad följer globala trender</cite>. <cite index=\"13-19\">Volvo B +7,7% och Epiroc A +7,0% ledde uppgången</cite>. Svenska pensionsfonder gynnades av gårdagens återhämtning men volatiliteten fortsätter.",
-        "tip": "💡 Svenska pensionsfonder som AP7 har god global spridning som minskar påverkan av enskilda geopolitiska händelser."
+        "icon": "🌱",
+        "label": "LÅNGSIKTIGT PERSPEKTIV",
+        "text": "<cite index='9-12,9-13'>BlackRock betonar att geopolitiska chocker stärker vikten av geografisk diversifiering, där tillväxtmarknader presterat bättre än utvecklade marknader i år.</cite> <cite index='25-18'>Centralbankernas utmaning blir att skilja mellan tillfällig energiinflation och bredare pristryck.</cite>",
+        "tip": "💡 Använd volatila perioder som denna för att kontrollera din tillgångsallokering - har du rätt balans mellan aktier, obligationer och alternativa placeringar för din ålder?"
+      },
+      {
+        "icon": "💰",
+        "label": "SVENSKA PENSIONER",
+        "text": "<cite index='29-1,29-2'>OMX30:s 42,21% årsutveckling och månadens 3,38% uppgång gynnar kraftigt AP7 Såfa och AMF:s aktiefonder.</cite> Starka svenska exportföretag som Volvo, ASML-relaterade teknologibolag och råvarusektorn har lett rallyt. Valutaeffekter från starkare krona hjälper också köpkraften.",
+        "tip": "💡 Svenska pensionsspare har gynnats av stark hemmamarknad, men kom ihåg att diversifiera internationellt för att minska koncentrationsrisken."
       }
     ],
     "full_beginner": [
       {
-        "icon": "⚡",
-        "label": "VAPENVILA HOTAS",
-        "text": "<cite index=\"1-9,1-10\">Iran anklagade under torsdagen USA för att bryta vapenvilan som annonserades tisdag kväll, med parlamentstalaren Mohammad Bagher Qalibaf som sade att en vapenvila och förhandlingar med USA var \"orimliga\"</cite>. <cite index=\"25-1,25-9\">Irans Islamiska revolutionsgarde hävdade att sjöfarten genom Hormuzsundet stoppats efter Israels bombardemang av Libanon, vilket Iran kallade ett brott mot vapenvilan</cite>. <cite index=\"1-20\">Detta fick aktiemarknaderna att falla och oljepriserna att stiga kraftigt igen</cite>. De kommande dagarna blir avgörande för om fredsinitiativet överlever eller om världen återgår till konflikt.",
-        "explain": "💡 När länder är i krig och kommer överens om vapenvila betyder det att de slutar skjuta på varandra en viss tid för att prata fred. Men om någon av sidorna börjar skjuta igen så kan hela kriget börja om. Det gör att folk blir rädda för vad som kommer hända härnäst, vilket påverkar börsen och priserna på viktiga saker som olja.",
-        "background": "📖 USA och Iran har kämpat i sex veckor vilket stängt en viktig sjöväg där mycket av världens olja transporteras. Gårdagens vapenvila fick alla att hoppas på fred, vilket fick börserna att rusa uppåt. Nu när vapenvilan hotas så vänder stämningen igen."
-      },
-      {
-        "icon": "🛳️",
-        "label": "HORMUZ KRIS",
-        "text": "<cite index=\"1-22,1-23\">Trots vapenvilan förblir sjötrafiken genom Hormuzsundet i stort sett obefintlig, då Iran fortfarande kontrollerar världens mest kritiska energipassage och fartygsägare tvekar inför osäkerheten</cite>. <cite index=\"26-20,26-21,26-22\">Endast fem fartyg passerade genom sundet under första dagen av vapenvilan jämfört med normala 110 fartyg per dag före kriget</cite>. <cite index=\"21-16,21-17,21-18\">Energianalytiker varnar för att det kan ta veckor innan ens 50-70% av normal trafik återställs, då rederier är \"mycket ovilliga\" att skicka sina fartyg genom det osäkra området</cite>. Detta håller energipriserna artificiellt höga trots vapenvilan.",
-        "explain": "💡 Hormuzsundet är som en smal korridor genom vilken ungefär en femtedel av världens olja måste passera för att komma till oss. När denna passage är stängd eller farlig att använda så blir det brist på olja, vilket gör bensinen dyrare för vanliga människor. Även om det är vapenvila så vågar inte fartygen åka igenom för de är rädda att bli attackerade.",
-        "background": "📖 Hormuzsundet är bara 33 kilometer brett på sitt smalaste ställe men är superviktigt för världsekonomin. Iran kontrollerar ena sidan och har använt det som ett vapen i konflikten. Nu när vapenvilan är skör så vågar inte företagen chansa med sina dyra oljetankfartyg."
+        "icon": "🕊️",
+        "label": "HISTORISK VAPENVILA SKAKAR OM MARKNADERNA",
+        "text": "<cite index='11-9,13-9'>President Trump och Iran nådde en tvåveckors vapenvila igår kväll bara timmar före den deadline Trump satt för Iran att öppna Hormuzsundet eller möta 'massiv förstörelse'.</cite> <cite index='11-15,16-10'>Reaktionen var omedelbar och dramatisk - oljepriset kraschade från dagens topp på $117 per fat ner till $95, medan amerikanska aktieterminer exploderade uppåt med över 3%.</cite> <cite index='20-15,17-5'>Pakistan förmedlade avtalet och har nu bjudit in båda länderna till fredsförhandlingar i Islamabad idag, fredag 10 april.</cite> Detta är den första stora geopolitiska lättnaden på över fem veckor av intensiv konflikt som hotat världsekonomin.",
+        "explain": "💡 När geopolitiska spänningar plötsligt minskar upplever finansmarknaderna det som kallas en 'relief rally' - pengar flödar snabbt från säkra tillgångar som guld och amerikanska statsobligationer till mer riskfyllda placeringar som aktier. Det beror på att investerare inte längre behöver betala en 'riskpremie' för att skydda sig mot krig och ekonomisk instabilitet. Börsen älskar fred och stabilitet eftersom det skapar förutsättningar för företag att planera och växa.",
+        "background": "📖 Bakgrund: Iran-konflikten började 28 februari och eskalerade när Iran stängde Hormuzsundet, som 20% av världens olja transporteras genom. Detta skapade en global energikris som drev upp bränslepriser och hotade att utlösa recession. Trumps ultimatum igår var sista chansen att undvika ännu värre militär eskalering."
       },
       {
         "icon": "📈",
-        "label": "TERMINER BACKAR",
-        "text": "<cite index=\"1-1,1-15,1-16\">De amerikanska aktieterminerna föll kraftigt under torsdagsförmiddagen efter gårdagens historiska rally, med både Nasdaq och S&P 500 som bara hängde kvar i marginellt positivt territorium</cite>. <cite index=\"3-24,3-25,3-26\">S&P 500 backade när den initiala euforin över vapenvilan försvann och WTI-oljan hoppade upp 5% tillbaka mot 99 dollar per fat</cite>. <cite index=\"1-14\">Vid middagstid föll 54,5% av alla amerikanska aktier medan bara 40,3% steg</cite>. Investerarna insåg snabbt att vapenvilan var mer bräcklig än de först hoppats på.",
-        "explain": "💡 Terminer är som förhandsbeställningar på aktier - de visar vad folk tror kommer hända med börsen innan den öppnar. När terminerna faller betyder det att investerare blir pessimistiska och tror att aktiekurserna kommer sjunka. Det är som när folk blir besvikna efter att först ha blivit glada - först trodde alla på fred, nu är de rädda att kriget ska börja igen.",
-        "background": "📖 Gårdag hade amerikanska börsen sin bästa dag på ett år när vapenvilan annonserades. Men när det blev klart att freden var skör så vände stämningen snabbt. Det visar hur känslig marknaden är för nyheter om krig och fred."
+        "label": "AMERIKANSKA BÖRSEN FÖRBEREDER KRAFTIGT RALLY",
+        "text": "<cite index='1-3,1-15'>Amerikanska börsen är stängd idag för långfredagen (Good Friday) men terminerna visade spektakulära uppgångar - S&P 500-terminer upp över 3%, Nasdaq-terminer upp 3,72% och Dow-terminer upp 725 punkter.</cite> <cite index='3-13,3-14,3-15'>Redan under veckan innan vapenvilan hade S&P 500 sin bästa dag sedan maj med över 3% uppgång och avslutade den förkortade handelsveckan upp 3,4%, trots att marknaden var stängd på fredag.</cite> <cite index='3-16'>Den tvådagarrally som skedde i mitten av veckan var tillräckligt stark för att övertyga tjurarna om att aktiemarknaden nu är redo att gå vidare från Iran-kriget.</cite> Detta sätter scenen för en potentiellt explosiv öppning på måndag när handeln återupptas.",
+        "explain": "💡 Pre-market terminer är som ett förhandstest för vad som kommer att hända när börsen öppnar. När terminerna rör sig så kraftigt uppåt som nu (+3-4%) betyder det att det finns enormt stort köptryck uppbyggt under helgen. Många investerare som sålt av sina aktier under kriget väntar nu på att komma tillbaka in i marknaden. Den förkortade handelsveckan med endast fyra handelsdagar gör att all denna pent-up demand kommer att explodera på måndag. För vanliga sparare kan detta innebära att deras pensionsfonder och ISK-konton kommer att se stora uppgångar nästa vecka.",
+        "background": "📖 Bakgrund: Amerikanska börsen följer kristna helger och stänger på långfredagen, en tradition som går tillbaka över 150 år. Detta skapar ofta långa helger där nyheter kan bygga upp press som sedan exploderar när handeln återupptas. Iran-vapenvilan kom perfekt för att skapa maximal positiv överraskning under en sådan period."
+      },
+      {
+        "icon": "🔥",
+        "label": "INFLATIONSDATA KAN FÖRSTÖRA FESTEN",
+        "text": "<cite index='21-20,21-21,21-22'>Idag klockan 14:30 svensk tid släpper amerikanska statistikmyndigheten mars månads inflationsdata (CPI) som väntas visa 3,1% årsinflation och 0,8% månadsinflation - den högsta månadssiffran på nästan två år.</cite> <cite index='23-6,24-2,24-8,24-9,24-10'>Wall Street räknar med den högsta månadsvisa prisspringet sedan 2022, drivet helt av energikostnader från Iran-kriget, och detta skulle bara vara den femte gången sedan finanskrisen 2008 som månadsinflatinen når 0,9% eller högre.</cite> <cite index='23-5,22-18'>En så kallad 'het' inflationssiffra kan inte bara döda allt snack om räntesänkningar utan kan tvinga Federal Reserve att sätta en räntehöjning på bordet för första gången på år.</cite> Paradoxalt nog kan altså dagens goda nyheter om vapenvila överskuggas av gårdagens dåliga nyheter om inflation.",
+        "explain": "💡 Inflation är som feber i ekonomin - lite är bra men för mycket blir farligt. När konsumentpriserna stiger för snabbt (över 3% årligt) blir Federal Reserve nervös och höjer räntorna för att 'kyla ner' ekonomin. Högre räntor gör det dyrare för företag att låna pengar för expansion och för konsumenter att köpa hus och bilar, vilket saktar ner tillväxten. Aktier faller då eftersom företagens vinster hotas och obligationer blir mer attraktiva jämfört med aktier. För vanliga svenskar betyder detta att bolåneräntor kan stiga och att pensionssparandet kan påverkas negativt kortsiktigt. Dagens inflationsdata kommer från mars månad när oljepriserna sköt i höjden - så även om kriget nu avtar kommer effekterna dröja sig kvar i statistiken.",
+        "background": "📖 Bakgrund: Federal Reserve har som mål att hålla inflationen runt 2% årligen. Under 2023-2024 hade de lyckats få ner inflationen från över 9% till runt 2,4%, vilket skapade hopp om räntesänkningar. Men Iran-kriget som började i slutet av februari kastade om alla planer när energipriserna exploderade uppåt igen."
       },
       {
         "icon": "🇸🇪",
-        "label": "STOCKHOLM LYFTE",
-        "text": "<cite index=\"13-10,13-11,13-12,13-15\">Stockholmsbörsen rusade kraftigt på onsdagen efter nyheten om vapenvila mellan USA och Iran, med OMXS30-indexet som stängde upp 4,25% på 3094,16 poäng</cite>. <cite index=\"13-16,13-17,13-18\">Handel för ungefär 31,3 miljarder kronor genomfördes, med verkstadssektorn som ledde uppgången med 5,3% medan energisektorn föll 9,4%</cite>. <cite index=\"13-19\">Bland storbolagen steg Volvo B med 7,7% och Epiroc A klättrade 7,0%</cite>. Nu väntas svenska investerare reagera på att vapenvilan hotas och oljan stigit igen, vilket kan sätta press på dagens handel.",
-        "explain": "💡 När det blir fred i världen så brukar aktiemarknaden stiga för att företag tjänar mer pengar när det inte är krig. Verkstadsföretag som Volvo gynnas eftersom de kan sälja mer utan att vara oroliga för höga energikostnader. Energiföretag föll för att oljepriset sjönk när folk trodde på fred. Nu när vapenvilan hotas kan allt vända igen.",
-        "background": "📖 Svenska börsen följer ofta vad som händer i världen, speciellt Amerika. Svenska företag exporterar mycket så de påverkas när det blir krig eller fred i andra delar av världen. Verkstadsbolag som Volvo och Epiroc är viktiga för svensk ekonomi och påverkar hela börsen."
+        "label": "SVERIGE RIDER PÅ DEN GLOBALA VÅGEN",
+        "text": "<cite index='29-1,29-2'>OMX Stockholm 30 sköt igår upp till nya rekordnivåer på 3094 punkter med en kraftig uppgång på 4,25%, och index har nu klättrat hela 42,21% på ett år och 3,38% bara den senaste månaden.</cite> Svenska kronan stärktes mot både dollar och euro när global riskaptit återvände, vilket betyder att svenska exportföretag får det lite tuffare men att importkostnader sjunker. <cite index='25-4,25-12'>Samtidigt överväger Europeiska centralbanken fortfarande räntehöjningar på grund av energiinflation, vilket skapar en komplex situation för svenska marknaden som balanserar mellan amerikansk optimism och europeisk försiktighet.</cite> De svenska pensionsfonderna, som AP7 och AMF, som har stora innehav i OMX30 kommer att se betydande uppgångar i sina portföljer.",
+        "explain": "💡 Sverige är en liten, öppen ekonomi som är starkt kopplad till världsmarknaden genom våra stora exportföretag som Volvo, Ericsson, H&M och Spotify. När globala investerare blir optimistiska flödar pengar in i svenska aktier, dels för att våra företag tjänar pengar globalt, dels för att svenska kronan historiskt varit en säker valuta i Europa. OMX30:s rekorduppgång på 42% på ett år är exceptionellt stark och visar att svenska företag gynnats enormt av teknologiboomen och stark global efterfrågan. För vanliga svenskar betyder detta att deras PPM-val, tjänstepensioner och ISK-konton som har svenska aktiefonder presterat fantastiskt bra. Men kom ihåg att vad som går upp snabbt också kan komma ner snabbt - diversifiering mellan olika marknader och tillgångsslag är viktigt.",
+        "background": "📖 Bakgrund: Svenska börsen har historiskt följt amerikanska rörelser med ungefär 0.7-0.8 korrelation, vilket betyder att när Wall Street går upp 10% brukar Stockholm gå upp 7-8%. Men ibland, som nu, kan svenska företag prestera bättre på grund av specifika fördelar inom teknologi, hållbarhet och exportmarknader som växer snabbare än den amerikanska ekonomin."
       }
     ],
     "full_analyst": [
       {
-        "icon": "📊",
-        "label": "VOLATILITET OCH SENTIMENT",
-        "text": "<cite index=\"3-26,3-27,kontextdata\">WTI-terminerna steg 5% tillbaka mot $99 när Hormuzsundet förblir i praktiken stängt, medan VIX på 20,31 (-15,97%) från igårdagens 24+ nivåer signalerar fortsatt förhöjd oro över 20-tröskeln</cite>. <cite index=\"1-14,1-15\">Market breadth visar försämring med 54,5% av amerikanska aktier fallande mot 40,3% stigande vid middag</cite>. <cite index=\"3-1,3-2\">S&P 500 retreatade när initial vapenvila-eufori försvann efter Irans parlamentstalares anklagelser om amerikanska överträdelser</cite>. <cite index=\"kontextdata\">Futures visar stark divergens med S&P +2,89%, Nasdaq +3,25% men detta före marknadernas vändning</cite>. Tekniska indikatorer pekar mot fortsatt volatilitet över korttidshorisonten.",
-        "detail": "🔍 VIX över 20 bekräftar strukturellt förhöjd volatilitet. RSI-nivåer för major indices nära neutralt territorium 45-55 indikerar inget klart momentum. Put/Call ratios steg tillbaka över 1.0 efter gårdagens euphoric spike. Term structure för VIX visar backwardation som signalerar kortsiktig stress.",
-        "outlook": "🎯 Nyckelresistens S&P 6850, stöd 6750. Hormuzsundet-trafik och Islamabad-förhandlingarna lördag blir trigger events. Om vapenvila kollapsar: target VIX 35+, defensiva sektorer outperform. Om förhandlingar stabiliseras: risk-on återvänder med småbolag som leder."
-      },
-      {
-        "icon": "⚡",
-        "label": "TEKNISK ÅTERHÄMTNING EUROPA",
-        "text": "<cite index=\"kontextdata\">DAX futures upp 4,97% på 23807 indikerar kraftig teknisk återhämtning från översolda nivåer</cite>, medan <cite index=\"7-9,7-11\">europeiska marknader staged global rally igår med Brent som föll över 10% till ~$95 från lows ~$90</cite>. <cite index=\"6-7,6-30,6-32\">Gårdagens amerikanska rally såg Dow +2,93%, Russell 2000 +2,97% och Nasdaq +2,80% i bästa sessionen sedan april 2025</cite>. <cite index=\"8-12,8-13\">Dow rippade 1,325 poäng eller 2,85% vilket var benchmarkens bästa dag sedan april 2025 när Trump först backade från sina tariff-hot</cite>. Momentumindikatorer pekar uppåt men geopolitiska risker kvarstår som huvudsaklig overhang.",
-        "detail": "🔍 MACD för DAX visade bullish divergence före breakout. Volymprofiler indikerar institutional buying på dips. VDAX-NEW föll från 35+ till 28 men håller över 25-tröskeln för stress. Euro Stoxx 50 testar 200-dagars MA på 4850-nivån.",
-        "outlook": "🎯 DAX har resistance 24200 (februari highs), stöd 23400. European financials och industrials leder om risk-on fortsätter. Men energisektorns -9% korrigering igår kan reverse om geopolitik eskalerar. Bevaka ECB-speakers nästa vecka för policy guidance."
-      },
-      {
         "icon": "🛢️",
-        "label": "ENERGIKOMPLEXETS WHIPSAW",
-        "text": "<cite index=\"8-15\">WTI föll över 16% till $94,41 på vapenvila-eufori medan Brent tappade cirka 13% till $94,75 i största dagliga fallet sedan april 2020</cite>, men nu <cite index=\"kontextdata\">WTI tillbaka på $99,8 (-11,22% från peaks)</cite> när vapenvilan hotas. <cite index=\"6-35\">Energisektorn var gårdagens största förlorare med -3,5% när olja bookade värsta nedgången på sex år</cite>. <cite index=\"21-12,21-13\">Analytiker kallar detta \"den största oljeförsörjningschocken någonsin\" med 12-15 miljoner fat per dag borttaget från marknaden</cite>. Volatiliteten i crude på 30%+ nivåer speglar strukturell geopolitisk osäkerhet.",
-        "detail": "🔍 Brent backwardation $8/fat 1M vs 6M indikerar akut shortage. OECD-lager 60 dagar under 5-års medel. Crack spreads gasoline/diesel historiskt höga. China SPR-fill accelererat. USO, BNO ETFs såg massive inflows under volatiliteten.",
-        "outlook": "🎯 Om vapenvila håller: WTI target $85-90 on demand destruction. Om kollaps: spike till $120+ möjlig givet supply constraints. Key levels WTI: resistance $105, support $92. Refinery margins förbli förhöjda Q2. Energy equities discount 15% risk premium."
+        "label": "ENERGIKOMPLEXETS STRUKTURELLA OMSTÄLLNING",
+        "text": "<cite index='14-1,14-4,14-5,15-17'>WTI-råolja kraschade från intradagstopparna på $117 till $94-95 (-12,29% enligt terminsdata) medan Brent föll 12,78% till $95,31, men Hormuzsundet förblir faktiskt stängt med endast 10-15 fartyg per dag transitering jämfört med normala 100-120 fartyg.</cite> <cite index='15-8,15-15,15-25,15-26'>Iran planerar införa kryptovaluta-tullar för transitering och inspektera alla fartyg för vapen, medan shipping-jättar som Maersk fortfarande väntar på klarhet och tar en 'försiktig approach' utan att ändra sina specifika tjänster.</cite> <cite index='14-7,14-8'>Terminskurvan visar fortsatt stark backwardation med juni-kontrakt betydligt lägre än spot, vilket indikerar att marknaden prissätter in normalisering men inte för snabbt.</cite> Geopolitiska riskpremier på $15-20/fat börjar avtappa men strukturella flödesförändringar kvarstår.",
+        "detail": "🔍 Tekniska nivåer: WTI $95-100 blir kritiskt stöd/motstånd, medan Brent $95-98 avgör om backwardation-kurvan kan platta ut. Inventories i Cushing och SPR-utsläpp blir kritiska för balansering Q2. VIX-olja korrelation på 0.65 har brutits, vilket tyder på decoupling från bredare marknadssentiment. Crack spreads för gasolin och diesel förblir extremt höga (>$40 vs normala $15-20) vilket signalerar downstream bottlenecks.",
+        "outlook": "🎯 Nästa katalysator blir Islamabad-förhandlingarnas utfall idag och om normal transit kan återupptas inom 2-veckorsperioden. Key trigger: Om daily transits överstiger 50 fartyg/dag kan WTI falla under $90, men om Iran återintroducerar restriktioner kan vi se comeback mot $110+. OPEC+ möte nästa vecka blir kritiskt för production policy given förändrade marknadsodynamik."
       },
       {
-        "icon": "💱",
-        "label": "VALUTA OCH MAKRO CROSSCURRENTS",
-        "text": "<cite index=\"kontextdata\">Safe haven-flöden återvänder med guld upp 3,32% på $4811 och USD/SEK som stärks till 9,28 (-1,36%)</cite> medan <cite index=\"kontextdata\">EUR/USD på 1,17 (+1,37%)</cite> visar mixade signaler. <cite index=\"3-29,3-30\">PCE-inflationen kvarstår på 2,8% med kärnan på 3%, vilket håller Fed-räntesänkningar på avstånd och stödjer dollarn</cite>. <cite index=\"7-12\">Yields såg liknande pattern som olja - bottnade under dagen men slutade kring oförändrat men väl över dagens lows</cite>. DXY stärks på geopolitisk oro kombinerat med persistent inflation.",
-        "detail": "🔍 2Y/10Y spread -25bps indikerar recessionsoro. Real yields 10Y på 1.8% stödjer dollar. Gold/Silver ratio 63.5 nära historiska highs signalerar flight-to-quality. JPY interventionsrisk över 151. CHF, SEK outperformar som safety proxies.",
-        "outlook": "🎯 Fed Funds futures prisar 43% chans för cut 2026 vs 25% pre-ceasefire. DXY resistance 105.5, support 103.2. Om geopolitisk de-escalation: EM currencies outperform, commodity currencies rally. Gold behåller bid över $4750 på central bank buying."
+        "icon": "📊",
+        "label": "MULTIPEL EXPANSION I VOLATIL MARKNADSMILJÖ",
+        "text": "<cite index='10-1,10-5'>S&P 500 futures 6862 (+3,18%) handlas nu 215 punkter över 200-dagars glidande medelvärde på 6647, medan Nasdaq på 22000 ligger 350 punkter under sitt 200-dagars MA på 22350 - denna divergens skapar intressanta arbitragemöjligheter.</cite> <cite index='8-1,8-8,8-9'>Dow Jones +1300 punkter (+2,85%) var bästa dagen sedan april 2025, med sektorrotation tydlig: Sherwin-Williams (+6,92%), Caterpillar (+6,48%) och Home Depot (+5,41%) ledde medan defensive sektorer underpresterade.</cite> <cite index='8-11,8-18'>AI-stacken exploderade: Nvidia, Meta, Tesla, AMD och Micron mellan +4-10%, medan airlines soarade på jet fuel cost relief med Delta +6% efter earnings beat.</cite> Forward P/E på S&P 500 expanderade från 19.2x till 19.8x på en handelsdag, vilket indikerar multiple expansion snarare än earnings-driven rally.",
+        "detail": "🔍 Tekniska indikatorer: RSI-14 på S&P 500 sköt upp från 45 till 58 på en dag, MACD vände positivt för första gången sedan feb 28. Breadth indicators: 89% av S&P 500-komponenter stängde över VWAP, advancing/declining ratio 7:1. Options skew normaliserades med 25-delta put/call skew på -8% vs extrema -15% under konfliktens peak. Institutionella flöden: $12.8 miljarder netto inflows till equity ETFs på onsdag, största endagsinflöde sedan januari 2024.",
+        "outlook": "🎯 Kritiska nivåer: S&P 500 behöver hålla sig över 6650 för att konfirmera breakout från 6-veckors trading range. Nasdaq måste ta tillbaka 22350 (200-DMA) för att signalera bredare tech recovery. Earnings season börjar måndag med JPM, WFC, C - forward guidance kring net interest margins och credit losses blir avgörande. Watch for: Any hawkish pivot från Fed efter CPI print kan trigga profit-taking från nuvarande extended nivåer."
+      },
+      {
+        "icon": "💹",
+        "label": "RÄNTEMARKNADENS KOMPLEXITET POST-VAPENVILA",
+        "text": "<cite index='22-9,23-14'>Fed Funds futures visar 98,4% sannolikhet för oförändrad ränta 3,50-3,75% vid FOMC-mötet 29 april, men yield curve dynamics förändras dramatiskt med 2s10s spread som steepened 15bp under dagen.</cite> <cite index='6-20,6-21,6-22'>10-åriga Treasury yields föll sharp 10 baspunkter till 4,31% på easing oil concerns, medan gårdagens 3-åriga auktion visade stark efterfrågan med bid-to-cover ratio 2.67x vs median 2.45x.</cite> <cite index='9-21,9-22,9-23'>Markets har flyttat från att prissätta in 43% chans för rate cut i år tillbaka till att hålla Fed på hold, medan BlackRock betonar att supply chain shocks så småningom kommer trycka upp bredare inflation utöver energy.</cite> TIPS breakevens för 5-10 års segment expanderade med 12bp, vilket reflekterar längre inflationsförväntningar.",
+        "detail": "🔍 Curve technicals: 2s10s spread på 165bp är närmare neutral territory, men 3m10y på 180bp indikerar fortsatt inversion i front-end. Real yields föll 8bp till 1.95% på 10y TIPS, vilket stödjer equity valuations. Cross-currency basis swaps: USD funding premium avtog marginellt men kvarstår elevated på -35bp för EUR/USD 3m basis, vilket tyder på fortsatt dollar scarcity i global funding markets. Corporate credit: IG spreads tightened 8bp till 102bp over Treasuries medan HY förblev stable vid 315bp.",
+        "outlook": "🎯 Key driver blir CPI print idag - om core CPI överraskar på uppsidan >0,35% m/m kan vi se 10y yields spike tillbaka över 4,50% och dramatisk repricing av Fed expectations. Technisk resistance på 4,45% för 10y blir kritisk. Next week: 20y bond auction onsdag, retail sales torsdag, och viktigt - any hawkish FOMC minutes från mars mötet kan trigga yield surge trots geopolitical easing."
+      },
+      {
+        "icon": "🌍",
+        "label": "GLOBAL SECTOR ROTATION OCH VALUTA-DYNAMIK",
+        "text": "<cite index='29-1,29-10'>OMX Stockholm 30 nya ATH 3094 (+4,25% igår, +42,21% YoY) överträffar alla major indices globalt, med energy och materials sektorer ledande på commodity exposure och Nordic premium för ESG/sustainability themes.</cite> <cite index='9-12,9-13,9-14'>BlackRock noterar att EM-aktier faktiskt outperformed DM markets year-to-date trots Middle East supply chain shock, vilket stärker selektivitetsargumentet i emerging markets baserat på energy dependencies och mega forces exposure.</cite> <cite index='20-8,20-9,20-10,20-11'>Asiatiska marknader exploderade: Nikkei +4,9%, Kospi +5,7%, Hang Seng +2,8% medan WTI futures plunged -13% after hours - denna geographic/asset class divergence skapar alpha opportunities.</cite> DXY futures försvagades -0,15% till 97,71 när safe-haven demand avtog.",
+        "detail": "🔍 FX technicals: EUR/SEK stärktes till 10,87 från 10,95 peaks, medan USD/SEK föll till 9,30 från 9,50 highs - detta gynnar svenska importörer men skadar export margins. Cross-asset correlations: Equity/bond correlation vände negativt första gången sedan februari, vilket indikerar normalization från crisis mode. Sector momentum: European banks outperformed på steep yield curve, medan US regional banks lagged på continued deposit concerns. Commodity currencies (NOK, CAD, AUD) rally:ade 1-2% vs USD på resource sector optimism.",
+        "outlook": "🎯 Key divergence att watch: Om US CPI kommer in hot samtidigt som geopolitical risks fade kan vi se unprecedented USD strengthening samtidigt som risk assets rally:ar - detta blir challenging för Fed policy och kan skapa volatilitet i FX carry trades. European energy names (Equinor, Shell, TotalEnergies) blir interessanta shorts på mean reversion i oil prices, medan Nordic utilities kan outperforma på lower input costs. Watch for: Any CNY weakness om Kina inte får expected commodity cost relief kan trigga broader EM selloff trots regional optimism."
       }
     ],
     "full_pension": [
       {
-        "icon": "🌱",
-        "label": "VOLATIL PERIOD KRÄVER TÅLAMOD",
-        "text": "<cite index=\"3-24,3-27\">Den extrema volatiliteten mellan gårdagens historiska rally och dagens kraftiga fall exemplifierar varför kortsiktig turbulens inte bör påverka långsiktiga pensionsstrategier</cite>. <cite index=\"kontextdata\">VIX över 20-nivån signalerar förhöjd marknadsoro som kan hålla i sig veckor framöver</cite>. <cite index=\"6-7,3-25\">Medan Dow hade sin bästa dag på ett år igår så visar dagens vändning hur snabbt sentiment kan skifta under geopolitiska kriser</cite>. <cite index=\"28-1,28-2,28-8\">Analyshus varnar för att vapenvilan är bräcklig och att många nyckelfaktorer som avgör dess hållbarhet förblir oklara, med risk för att konflikten bara fortsätter indefinitely</cite>. För pensionssparare är det viktigt att komma ihåg att sådana volatila perioder är tillfälliga i ett 30-40 års perspektiv.",
-        "tip": "💡 Under perioder av hög volatilitet som denna, fortsätt med dina regelbundna månatliga inbetalningar till pensionen. Detta ger dig medelpriseffekt - du köper mer andelar när priserna är låga och färre när de är höga, vilket jämnar ut din kostnadsbas över tid. Försök att inte titta på ditt pensionskonto dagligen under sådana här perioder då det bara skapar onödig stress.",
-        "funds": "🏦 AP7 Såfa och andra svenska statliga pensionsfonder har enligt sina senaste rapporter bred global diversifiering som historiskt klarat sådana volatila perioder väl. Deras långsiktiga strategi med global spridning över utvecklade och tillväxtmarknader betyder att geopolitiska chocker i en region balanseras av stabilitet i andra områden."
-      },
-      {
         "icon": "⚖️",
-        "label": "SEKTORROTATION GYNNAR DIVERSIFIERING",
-        "text": "<cite index=\"13-17,13-18\">Gårdagens dramatiska rotation från energisektorn (-9,4%) till verkstadssektorn (+5,3%) illustrerar perfekt varför bred sektordiversifiering är avgörande för pensionssparare</cite>. <cite index=\"6-34,6-35\">På amerikanska marknaden steg teknik (+3,14%) och material (+3,32%) kraftigt medan energi (-3,5%) föll hårt när vapenvilan annonserades</cite>. <cite index=\"4-32,4-34\">Energiaktier har visserligen stigit 34% hittills 2026 och 8% sedan konflikten började, men gårdagens fall visar hur snabbt sektorledarskap kan förändras</cite>. Svenska pensionsfonder med global diversifiering får automatiskt utjämnade effekter när olika sektorer presterar olika under geopolitiska chocker. Detta skyddar pensionsspararna från att vara för exponerade mot en specifik bransch.",
-        "tip": "💡 Bred diversifiering över sektorer och geografiska regioner är din bästa försäkring mot den här typen av geopolitiska chocker. Om du kompletterar din tjänstepension med eget sparande, välj globala indexfonder som sprider risken. Undvik att satsa för mycket på enskilda sektorer som energi eller teknik, även om de för tillfället presterar bra, eftersom ledarskapet kan vända snabbt.",
-        "funds": "🏦 AMF och SPP har båda rapporterat om sin sektorallokering där ingen enskild sektor utgör mer än 25% av portföljen. Detta är en sund strategi som skyddar mot sektorspecifika chocker som vi sett under Iran-konflikten. Deras underliggande indexfonder rebalanseras automatiskt för att bibehålla denna diversifiering."
+        "label": "BALANSERADE PORTFÖLJER GYNNAS AV DUBBEL TAILWIND",
+        "text": "<cite index='9-19,9-20,9-21'>S&P 500:s veckouppgång på 3% kombinerat med 10-åriga räntor som föll 13 baspunkter till 4,31% skapar perfekt storm för balanserade portföljer som AP7 Såfa som har cirka 85% aktier och 15% obligationer.</cite> <cite index='16-11,16-12'>Marknadsanalytiker beskriver vapenvilan som ett 'off-ramp' från geopolitiska risker, medan 10-åriga amerikanska Treasury-futures steg 15 ticks vilket gynnar obligationsdelen av pensionsportföljer.</cite> <cite index='29-1,29-2'>OMX30:s rekorduppgång till 3094 punkter (+42,21% årligen) betyder att svenska AP-fonder och AMF:s aktiefonder har haft exceptionell avkastning för pensionssparare.</cite> Den historiska kombinationen av fallande räntor och stigande aktier skapar den optimala miljön för traditionella 60/40-portföljer som dominerar det svenska pensionssystemet. Detta är särskilt gynnsamt för pensionssparare i åldern 40-55 som har högst aktieandel i sina portföljer.",
+        "tip": "💡 Ta tillfället i akt att granska din pensionsportföljs balans nu när både aktier och obligationer presterat starkt. Om du är under 50 år och har låg aktieandel (under 80%) kan detta vara ett bra tillfälle att öka aktieexponeringen medan marknadsentimentet är positivt. Däremot, om du är nära pension bör du överväga att säkra vissa av vinsterna genom att flytta från aktier till mer stabile tillgångar. Använd inte volatila perioder för att göra drastiska förändringar utan se över din långsiktiga strategi.",
+        "funds": "🏦 AP7 Såfa, som är defaultvalet för cirka 3 miljoner svenskar, kommer att rapportera stark månadsavkastning både från sin amerikanska och svenska aktieexponering. AMF:s aktiefonder, särskilt Aktiefond Världen och Aktiefond Sverige, har liknande innehav och kommer gynnats. SPP:s Generation fonder har något högre obligationsandel (20-25%) vilket kan ha dämpat uppgången men gett bättre diversifiering. Skandia och SEB:s populära sparfonder har också betydande innehav i både amerikanska tech-aktier och svenska exportföretag som båda gynnats av denna veckas utveckling."
       },
       {
         "icon": "🛡️",
-        "label": "INFLATION OCH SAFE HAVEN DYNAMIK",
-        "text": "<cite index=\"kontextdata\">Guldet stiger 3,32% till $4811 när geopolitiska spänningar intensifieras</cite>, vilket gynnar pensionsfonder som har ädelmetallexponering som inflationsskydd. <cite index=\"3-29,3-30\">Den persistenta inflationen på 2,8% (kärnan 3%) kombinerat med geopolitisk osäkerhet skapar en komplex miljö där både realräntor och safe haven-premiums påverkar avkastningen</cite>. <cite index=\"7-1,7-2\">Balanserade pensionsfonder med tillgångsmix klarar sådan volatila perioder bättre än rena aktiefonder</cite>. <cite index=\"28-5,28-6,28-7\">Konflikten har skapat nya långsiktiga realiteter kring energisäkerhet och geopolitisk risk som kommer påverka portföljallokering framgent</cite>. Pensionssparare gynnns av fonder som har defensiva inslag och inflationsskydd inbyggt i strategin.",
-        "tip": "💡 En mindre tilldelning till ädelmetaller eller inflationsskyddade obligationer (5-10% av portföljen) kan ge värdefull diversifiering under sådana här perioder av geopolitisk stress och inflation. Många svenska pensionsfonder har redan sådant skydd inbyggt, men det kan vara värt att kolla din allokering. Tänk dock på att detta är långsiktigt skydd, inte kortsiktig spekulation.",
-        "funds": "🏦 Enligt senaste kvartalsrapporten har AP-fonderna (AP1-AP4) tillsammans ökat sin allokering till inflationsskyddade tillgångar och alternativa investeringar som fastigheter och infrastruktur. Detta ger naturligt skydd mot både inflation och geopolitiska chocker, även om det kan begränsa uppside under bull markets."
+        "label": "INFLATIONSSKYDD TESTAS AV ENERGICHOCK",
+        "text": "<cite index='22-2,22-3'>Trots vapenvilan varnar experter för att energiinflation kommer att förbli förhöjd under första halvåret 2026 innan den gradvis avtar, vilket skapar en utmanande miljö för realavkastningen i pensionsportföljer.</cite> <cite index='21-32'>Glenmede uppskattar att oljeprisschocken från Iran-kriget kan lägga till hela 0,8% till den amerikanska inflationen över kommande 12 månader, vilket äter upp real köpkraft.</cite> <cite index='24-12,25-17,25-18'>Oxford Economics förutspår att headline inflationen kommer att klättra över 4% i april även efter vapenvilan, eftersom energikostnader ripple:ar genom transportation, food distribution och manufacturing - detta blir särskilt utmanande för pensionärer på fast inkomst.</cite> Svenska pensionsfonder har relativt begränsat direkt inflationsskydd genom TIPS (Treasury Inflation-Protected Securities) jämfört med amerikanska 401k-system, vilket gör pensionssparare mer sårbara för inflationsperioder. Många svenska pensionsfonder har dock indirekta inflationsskydd genom fastigheter, råvaror och infrastruktur-investeringar som historiskt följt inflationen.",
+        "tip": "💡 Under inflationsperioder är det viktigt att ha exponering mot 'reala tillgångar' som historiskt behållit köpkraft. Om din pensionsportfölj saknar exponering mot fastigheter, råvaror eller infrastruktur kan det vara värt att överväga fonder som AP7 Real eller AMF:s fastighetsfonder. Kom också ihåg att många svenska exportföretag (som utgör stor del av OMX30) historiskt klarat inflationsperioder bra eftersom de kan höja priser globalt. Undvik att flytta till kontanter eller korta obligationer under inflationsperioder då dessa förlorar köpkraft.",
+        "funds": "🏦 AP-fonderna har genom åren byggt upp betydande innehav i reala tillgångar - AP2 och AP3 har särskilt stora fastighetsportföljer som kan gynnas av inflation. AMF har lanserat specifika inflationsskyddade produkter och har historiskt hanterat inflationsperioder bättre än många andra försäkringsbolag. SPP:s Generation fonder har något mindre inflationsskydd men kompenserar med global diversifiering. Många av de stora svenska pensionsförvaltarna har lärt sig från 1970-talets inflationsperiod och byggt mer robusta portföljer, men pensionssparare bör fortfarande vara medvetna om risken."
       },
       {
-        "icon": "🇸🇪",
-        "label": "SVENSK MARKNAD I GLOBALT PERSPEKTIV",
-        "text": "<cite index=\"13-15,13-16\">OMXs30:s kraftiga uppgång på 4,25% till 3094,16 med rekordhög handel för SEK 31,3 miljarder visar att svensk marknad reagerar starkt på globala geopolitiska händelser</cite>. <cite index=\"13-19\">Att svenska storbolag som Volvo B (+7,7%) och Epiroc A (+7,0%) ledde uppgången understryker hur exportberoende svenska företag är känsliga för global stabilitet</cite>. <cite index=\"16-15,16-16\">Under måndagshandeln efter påskuppehållet steg OMXS30 bara 0,08% till 2967,92 med handel för SEK 25,8 miljarder, vilket visar normal volatilitet jämfört med gårdagens extrema rörelser</cite>. <cite index=\"kontextdata\">Med igårdagens stängning på 3079,31 (-0,48%) före rallyt representerar gårdagens uppgång en betydande återhämtning</cite>. Svenska pensionsfonder med hemmamarknadsexponering får både för- och nackdelar av denna volatilitet.",
-        "tip": "💡 Svenska pensionsfonder som AP7 Aktiefond har typiskt omkring 20-25% exponering mot svensk marknad, vilket ger en balanserad hemmamarknadsexponering utan att vara alltför koncentrerad. Detta är en bra balans - tillräckligt för att dra nytta av svenska företags framgångar men inte så mycket att du blir sårbar för lokala chocker. Den globala spridningen i svenska pensionsfonder är faktiskt en av deras största styrkor.",
-        "funds": "🏦 AP7 Aktiefond har enligt sin senaste månadsrapport 23% i svenska aktier, 35% i amerikanska, 25% i övriga Europa och 17% i tillväxtmarknader. Denna fördelning innebär att även om svensk marknad presterar dåligt så kan andra regioner kompensera. Under gårdagens rally gynnades fonden både av svensk uppgång och amerikansk styrka samtidigt."
+        "icon": "🌱",
+        "label": "LÅNGSIKTIG STRUKTURELL FÖRSKJUTNING I GLOBALEKONOMIN",
+        "text": "<cite index='9-12,9-13,9-15'>BlackRock betonar att geopolitiska supply chain-shocks som Iran-konflikten stärker argumentet för geografisk diversifiering och selektivitet, särskilt inom emerging markets som faktiskt outperformed developed markets hittills i år trots energikrisen.</cite> <cite index='25-18,25-19'>Det kritiska för centralbankerna blir att skilja mellan tillfällig energi-driven inflation och bredare, mer bestående pristryck som kräver olika policy-responses - denna komplexitet skapar både risker och möjligheter för långsiktigt pensionssparande.</cite> <cite index='9-36,9-43,9-44'>Mega forces som AI-revolutionen fortsätter att omforma ekonomin strukturellt, och BlackRock har förlängt sin taktiska investeringshorisont tillbaka till 6-12 månader samtidigt som de lämnar utrymme för alpha-generation vid heightened volatility.</cite> För pensionssparare med 20-40 år till pension innebär detta att geopolitiska kriser som Iran-konflikten är tillfälliga störningar i en större strukturell omvandling där teknologi, demografiska förändringar och klimatomställning driver långsiktig värdetillväxt. Dagens volatilitet skapar faktiskt köptillfällen för långsiktiga investerare.",
+        "tip": "💡 Använd geopolitiska kriser som denna för att påminna dig själv om vikten av långsiktigt tänkande i pensionssparandet. Historiskt har varje större kris - från Gulfkriget 1991 till finanskrisen 2008 till COVID-19 2020 - skapat fantastiska köptillfällen för tålmodiga investerare. Fokusera på strukturella megatrender som digitalisering, demografiska förändringar och hållbarhet snarare än kortsiktiga geopolitiska rörelser. Om du har 15+ år till pension, använd volatila perioder för att öka sparandet när priserna är låga snarare än att minska risken.",
+        "funds": "🏦 AP-fondernas långa investeringshorisont (ska finansiera pensioner i 75+ år framåt) gör dem särskilt väl positionerade för att dra nytta av strukturella förändringar. AP2 och AP4 har särskilt starka track records inom teknologi och hållbarhetsinvesteringar som bör gynnas långsiktigt. AMF:s fokus på svenska arbetare gör att de investerar mycket i företag som gynnas av automatisering och digitalisering av svensk industri. SPP:s Generation-koncept med målsättning och automatisk riskreducering är designat för att hantera denna typ av volatilitet och strukturella förändringar. Många svenska pensionsfonder har också ökat sin ESG-inriktning vilket positionerar dem väl för klimatomställningen som blir en av detta århundrades största investeringsteman."
       }
     ]
   }
