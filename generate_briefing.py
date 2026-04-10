@@ -321,7 +321,7 @@ Svara med exakt denna JSON:
 }}
 
 EXAKT 4 punkter i VARJE sektion (beginner, analyst, pension, full_beginner, full_analyst, full_pension).
-Avsluta alltid med hela JSON-blocket."""
+KRITISKT VIKTIGT: Ditt SISTA meddelande MÅSTE vara ett giltigt JSON-objekt som börjar med {{ och slutar med }}. Inga förklaringar eller text efter JSON-blocket."""
 
     msg = client.messages.create(
         model="claude-sonnet-4-20250514",
