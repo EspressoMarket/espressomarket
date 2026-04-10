@@ -328,7 +328,7 @@ KRITISKT VIKTIGT: Ditt SISTA meddelande MÅSTE vara ett giltigt JSON-objekt som 
         max_tokens=10000,
         tools=[{"type": "web_search_20250305", "name": "web_search"}],
         system=system_prompt,
-        messages=[{"role": "user", "content": f"Sök efter nattens marknadsnyheter och generera briefingen.\n\nKontextdata:\n\n{context}"}]
+      f"Sök efter nattens marknadsnyheter och generera briefingen.\n\nKontextdata:\n\n{context}\n\nKOM IHÅG: Avsluta med komplett JSON-objekt som börjar med {{ och slutar med }}."}]
     )
 
     full_text = ""
