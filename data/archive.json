@@ -1,5 +1,254 @@
 [
   {
+    "date": "Tuesday 14 April 2026",
+    "date_short": "14 Apr 2026",
+    "generated": "2026-04-14T07:12:10.061819",
+    "headline": "Ceasefire hopp lyfter marknader trots nya spänningar",
+    "sources": [
+      "Bloomberg",
+      "CNBC",
+      "NBC",
+      "CNN"
+    ],
+    "beginner": [
+      {
+        "icon": "⚡",
+        "label": "HORMUZ KRIS FORTSÄTTER",
+        "text": "Trots vapenstillestånd mellan USA och Iran är Hormuz-sundet fortfarande nästan stängt. Iran tar nu avgifter över 1 miljon dollar per fartyg som vill passera.",
+        "explain": "💡 Detta håller oljan runt $100 - därför är bensinpriset så högt"
+      },
+      {
+        "icon": "🏦",
+        "label": "AMERIKANSKA BANKER RAPPORTERAR",
+        "text": "<cite index=\"31-4\">JPMorgan, Wells Fargo och andra storbanker rapporterar Q1-resultat idag</cite>. Analytikerna väntar starka siffror från investeringsbanksverksamhet men oroar sig för framtida kreditförluster.",
+        "explain": "💡 Banker tjänar pengar på att hjälpa företag med stora affärer - och det har varit mycket aktivitet"
+      },
+      {
+        "icon": "📱",
+        "label": "DANSKE BANK IT-PROBLEM",
+        "text": "Danske Bank drabbades av en stor IT-läcka som exponerat skyddade adresser för omkring 20 600 kunder. Banken bekräftar att det rör sig om ett IT-fel i deras betalningssystem.",
+        "explain": "💡 Skyddade adresser används av människor som behöver hålla sin adress hemlig av säkerhetsskäl"
+      },
+      {
+        "icon": "📈",
+        "label": "MARKNADEN LYFTER PÅ HOPP",
+        "text": "<cite index=\"5-3,5-5\">Asiatiska marknader upp 1,7% på hopp om fred i Mellanöstern, medan europeiska futures också pekar uppåt</cite>. VIX har fallit under 20 vilket visar mindre oro på marknaden.",
+        "explain": "💡 När investerare blir mindre rädda köper de mer aktier - därför går kurserna upp"
+      }
+    ],
+    "analyst": [
+      {
+        "icon": "📊",
+        "label": "TERMINSPRISER VISAR OPTIMISM",
+        "text": "S&P futures +0,91% och NASDAQ +1,32% medan DAX leder med +3,58%. VIX på 19,12 (-9,13%) signalerar minskad volatilitet trots att oljan hålls kring $97.",
+        "detail": "🔍 VIX under 20 = normaliserad rädsla, DAX > 23 700 = europeisk styrka"
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJE-PARADOXEN FORTSÄTTER",
+        "text": "<cite index=\"13-2,13-23\">WTI kring $97 trots att Iran tar över 1 miljon dollar i avgifter per fartyg genom Hormuz</cite>. <cite index=\"13-15\">230 laddade oljetankers väntar inne i Gulfen</cite> medan USA blockerar sundet från utsidan.",
+        "detail": "🔍 Backwardation i terminskurvan tyder på akut brist - bevaka $100-nivån"
+      },
+      {
+        "icon": "🏦",
+        "label": "BANKRAPPORTER AVGÖRANDE",
+        "text": "<cite index=\"31-4,36-24\">JPM väntas rapportera EPS $5,44 (+7%) medan Wells Fargo siktar på $1,57</cite>. Investmentbanking-avgifterna väntas vara starka efter <cite index=\"36-6\">24 mega-deals över $10 miljarder</cite> under Q1.",
+        "detail": "🔍 NII-guidance och kreditkostnader blir nyckeltal för sektorn framöver"
+      },
+      {
+        "icon": "💱",
+        "label": "VALUTAFLÖDEN GYNNAR RISK",
+        "text": "USD/SEK -1,93% till 9,15 och EUR/SEK -1,08% visar kapitalflöden mot riskfyllda tillgångar. Bitcoin +5,32% till $74 709 bekräftar risk-on sentiment trots geopolitisk osäkerhet.",
+        "detail": "🔍 SEK-styrka = exportbolag press, men importkostnader minskar"
+      }
+    ],
+    "pension": [
+      {
+        "icon": "🌱",
+        "label": "OLJEEXPONERINGEN VIKTIG",
+        "text": "Med olja kring $100 gynnas AP7:s energiinnehav, men transportkostnader pressar konsumentbolag. Volatiliteten i energisektorn kräver långsiktig syn från pensionssparare.",
+        "tip": "💡 Panik inte över kortsiktiga svängningar - energi är del av diversifieringen"
+      },
+      {
+        "icon": "💰",
+        "label": "BANKRAPPORTER PÅVERKAR PPM",
+        "text": "Många svenskar har amerikanska bankaktier via fonder i sina pensioner. Dagens rapporter från JPMorgan och Wells Fargo kan påverka populära Amerika-fonder betydligt.",
+        "tip": "💡 Kolla era fondinnehav - många globalfonder har stor bankexponering"
+      },
+      {
+        "icon": "📱",
+        "label": "TECH-RALLY GYNNAR AP7",
+        "text": "NASDAQ futures +1,32% och stark utveckling i teknikaktier gynnar AP7:s stora amerikanska innehav. AI-boomen fortsätter trots geopolitiska problem.",
+        "tip": "💡 AP7:s globala spridning skyddar mot regionala chocker"
+      },
+      {
+        "icon": "💹",
+        "label": "STABILITET ÅTERVÄNDER",
+        "text": "<cite index=\"5-4\">MSCI World på åttonde uppgången i rad</cite> och VIX under 20 signalerar stabilare marknader. Detta gynnar långsiktigt pensionssparande med lägre volatilitet.",
+        "tip": "💡 Stabila marknader = bättre tid för månadssparare att öka insatserna"
+      }
+    ],
+    "full_beginner": [
+      {
+        "icon": "⚡",
+        "label": "HORMUZ KRIS FORTSÄTTER",
+        "text": "<cite index=\"13-13,13-14,13-15\">Trots vapenstillestånd är Hormuz-sundet fortfarande inte öppet enligt UAE:s oljechef, med 230 laddade oljetankers som väntar inne i Gulfen</cite>. <cite index=\"13-2,13-23\">Iran kontrollerar nu trafiken och tar avgifter på över 1 miljon dollar per fartyg</cite>. Samtidigt <cite index=\"13-24\">blockerar USA sundet från utsidan och röjer minor</cite>. Detta skapar en komplex situation där varken amerikansk eller iransk kontroll fungerar helt.",
+        "explain": "💡 Hormuz-sundet är som en tratt där 20% av världens olja måste passera. När den stängs blir det som att strypa blodcirkulationen - allt blir dyrare. Iran tar nu betalt som en vägtull, men USA vill ha fri passage. Detta håller oljan dyr runt $100 per fat, vilket betyder höga bensinpriser för vanliga människor.",
+        "background": "📖 Konflikten mellan USA och Iran har pågått i över 40 dagar och Hormuz-sundet är världens viktigaste oljetransportled. Även om det finns ett vapenstillestånd fungerar det inte i praktiken eftersom båda sidor tolkar avtalet olika."
+      },
+      {
+        "icon": "🏦",
+        "label": "AMERIKANSKA BANKER RAPPORTERAR",
+        "text": "<cite index=\"31-4,31-5\">Flera av USA:s största banker - JPMorgan, Wells Fargo och Citigroup - rapporterar sina första kvartalsresultat idag, medan Bank of America följer imorgon</cite>. <cite index=\"36-5,36-6\">Analytikerna väntar starka investeringsbanksavgifter efter 24 mega-deals över $10 miljarder och 40 deals över $5 miljarder under kvartalet</cite>. <cite index=\"36-7\">Samtidig oroar sig experterna för geopolitiska risker och höga oljepriser som kan påverka framtidsutsikterna</cite>. Bankernas rapporter ses som en viktig temperaturmätare för den amerikanska ekonomin.",
+        "explain": "💡 Banker tjänar pengar på två sätt: genom att låna ut pengar (räntor) och genom att hjälpa företag med stora affärer (avgifter). När det händer mycket på företagsmarknaden - som nu - tjänar bankerna extra mycket. Men om ekonomin blir sämre får de problem med kunder som inte kan betala sina lån.",
+        "background": "📖 Amerikanska banker är som ekonomins hjärta - när de mår bra sprider sig det till resten av världen. Deras rapporter påverkar inte bara aktiekurser utan ger också signaler om hur vanliga människor och företag mår ekonomiskt."
+      },
+      {
+        "icon": "📱",
+        "label": "DANSKE BANK IT-PROBLEM",
+        "text": "Danske Bank har drabbats av en allvarlig IT-säkerhetsincident där skyddade adresser för omkring 20 600 kunder har blivit exponerade på grund av ett fel i bankens betalningssystem. Detta drabbar kunder i Danmark, Sverige, Norge och Finland. Skyddade adresser används av personer som av säkerhetsskäl behöver hålla sin bostadsadress hemlig, till exempel våldsutsatta kvinnor, vittnen i rättsprocesser eller personer med hotbild. Banken arbetar nu intensivt med att åtgärda problemet och har informerat berörda myndigheter.",
+        "explain": "💡 Skyddade adresser är som ett skyddsrum för människor som är i fara. När denna information läcker ut kan det sätta dessa personer i livsfara. Det visar hur viktigt det är att banker har säkra IT-system. För vanliga kunder påverkas inte kontoinformation, men det visar på sårbarheter i banksystem som hanterar känslig information.",
+        "background": "📖 Danske Bank har tidigare haft problem med IT-säkerhet och detta incident kommer troligen att leda till skärpta krav från tillsynsmyndigheter. Banken har över 2,7 miljoner privatkunder i Norden och såna här läckor underminerar förtroendet för bankens säkerhet."
+      },
+      {
+        "icon": "📈",
+        "label": "MARKNADEN LYFTER PÅ HOPP",
+        "text": "<cite index=\"5-3,5-5\">Aktiemarknader världen över stiger på hopp om fred, med asiatiska marknader upp 1,7% och europeiska marknader som väntas öppna starkt</cite>. <cite index=\"5-1,5-4\">MSCI World-index klättrar för åttonde dagen i rad, den längsta vinstserien sedan september</cite>. VIX-indexet, som mäter rädsla på marknaden, har fallit under 20 för första gången på veckor. <cite index=\"1-1\">Handlare verkar åter optimistiska trots den geopolitiska osäkerheten</cite>. Marknaderna hoppas att spänningarna i Mellanöstern ska minska och att oljekrisen ska lösas.",
+        "explain": "💡 När investerare blir mindre rädda köper de fler aktier, vilket driver upp priserna. VIX under 20 betyder att marknaden inte längre är superrädd. Det är som när folk slutar hamstra mat i butiken - priserna stabiliseras och allt blir mer normalt. Men kom ihåg att marknader kan ändra sig snabbt om situationen försämras igen.",
+        "background": "📖 Marknaderna har varit mycket volatila under kriget mellan USA och Iran. Nu när det finns ett vapenstillestånd vågar investerare ta risker igen. Men många experter varnar för att freden är skör och att situationen kan vända snabbt."
+      }
+    ],
+    "full_analyst": [
+      {
+        "icon": "📊",
+        "label": "TERMINSPRISER VISAR OPTIMISM",
+        "text": "Pre-market futures signalerar stark öppning med S&P +0,91% till 6925,75, NASDAQ +1,32% till 25 584 och särskilt DAX som leder med +3,58% till 23 742. VIX-nedgången till 19,12 (-9,13%) visar att implied volatilitet normaliseras efter veckors förhöjd risk. USD/SEK-försvagning till 9,15 (-1,93%) och EUR/SEK till 10,79 (-1,08%) reflekterar kapitalflöden mot riskfyllda tillgångar. Bitcoin +5,32% till $74 709 bekräftar bredbaserat risk-on sentiment.",
+        "detail": "🔍 Tekniska nivåer att bevaka: S&P 6900 support, 7000 motstånd. NASDAQ 25 000 psychological level. VIX under 20 = normaliserad volatilitet, under 15 = complacency risk. DAX over 23 700 indikerar europeisk styrka. USD/SEK 9,00-9,20 range kritisk för svenska exportörer.",
+        "outlook": "🎯 Kortsiktigt driver hopp om Mellanöstern-lösning marknader högre, men uppmärksamhet krävs på bankrapporter som kan sätta ton för Q1-säsongen. Geopolitisk premie i VIX kan komprimeras ytterligare om vapenstillestånd håller. Risk: återgång till volatilitet om Hormuz-situation förvärras."
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJE-PARADOXEN FORTSÄTTER",
+        "text": "<cite index=\"13-17\">WTI handlas kring $97 trots att cirka 20% av världens olja normalt passerar Hormuz</cite>. <cite index=\"13-2,13-23\">Iran kontrollerar nu trafik och tar avgifter över $1 miljin dollar per fartyg</cite> medan <cite index=\"13-15\">230 laddade oljetankers väntar inne i Gulfen</cite>. <cite index=\"13-24\">USA:s marina blockad från 13 april komplicerar situationen ytterligare</cite>. <cite index=\"15-17,15-18\">Brent upp 40% sedan krigets början, med priser nära $100</cite>. Strukturell backwardation i terminskurvan indikerar akut fysisk brist.",
+        "detail": "🔍 Kritiska nivåer: WTI $100 psychological resistance, $95 support. Brent $100 key level. Terminsstruktur i steep backwardation = tight supply. Inventories drawdown accelerating. Crack spreads elevated. Strategic Petroleum Reserve releases možda för att dämpa priser.",
+        "outlook": "🎯 Kortsiktigt kan Hormuz-utveckling driva WTI över $100 permanent om blockaden fortsätter. Energy Secretary Wright förväntar toppar inom 'några veckor' men strukturella imbalancer kvarstår. Långsiktigt accelererad infrastrukturomnbyggnad för att bypassa Hormuz kommer att permanent förändra oljeflöden."
+      },
+      {
+        "icon": "🏦",
+        "label": "BANKRAPPORTER AVGÖRANDE",
+        "text": "<cite index=\"31-4,31-5\">JPM, WFC och Citi rapporterar idag, BAC imorgon</cite>. <cite index=\"36-24\">JPM-konsensus EPS $5,44 (+7% YoY)</cite>, <cite index=\"32-1,32-4\">WFC $1,57 med revenues $21,85B</cite>. <cite index=\"36-5,36-6\">Investment banking fees väntas starka efter 24 mega-deals >$10B och 40 deals >$5B under Q1</cite>. <cite index=\"31-27,31-28\">NIM-miljön förbättrad med tillgångar repricing snabbare än skulder, överraskande stark lånetillväxt</cite>. Key risk: <cite index=\"35-4\">Dimons varning om Iran-krigets inflationsimpact och potentiellt högre räntor</cite>.",
+        "detail": "🔍 Nyckeltal: JPM NII guidance kritisk efter stark Q4. Credit loss provisions efter normalisering. Investment banking fee momentum vs Q4. Expense control amid Iran war costs. Book value multiples: JPM ~1.8x, WFC ~1.5-2.0x, Citi ~1.0x TBV. Wells Fargo asset cap upphävning potential catalyst.",
+        "outlook": "🎯 Sektor-multiples kan expandera om NII guidance överträffar och credit quality håller. Fed pause/pivot mindre sannolik = NIM stöd fortsätter. M&A pipeline stark men geopolitisk risk kan påverka H2. Regulatorisk lättnad under Trump kan frigöra kapital. Key trigger: NII guidance range 5-7% mot högre ände."
+      },
+      {
+        "icon": "💱",
+        "label": "VALUTAFLÖDEN GYNNAR RISK",
+        "text": "USD/SEK faller kraftigt till 9,15 (-1,93%) från 9,33, EUR/SEK ner till 10,79 (-1,08%) signalerar bred dollarförsvagning och risk-on flows. <cite index=\"5-5\">Asiatiska marknader +1,7% med tech-led rally</cite> driver carry-trade unwinds och emerging market inflows. Bitcoin +5,32% till $74 709 konfirmerar crypto risk-on. Fed funds futures pricing ut rate cuts men dollar ändå svag på geopolitisk avspänning. Cross-currency basis swaps normaliseras efter stress.",
+        "detail": "🔍 Tekniska nivåer: USD/SEK 9,00 major support, 9,30 resistance. EUR/SEK 10,60 support, 11,00 resistance. DXY 103 support critical. BTC $75K psychological resistance. Positioning: spec shorts USD överextended, SEK real money buying returning. Risk parity flows aktiveras vid VIX <20.",
+        "outlook": "🎯 Fortsatt SEK-styrka sannolik om global risk-on håller och Riksbanken pausar cuts. USD kan fortsätta svag kortsiktigt på peace premium men fundamentals gynnar DXY på Trump policies. EM currencies rally kan fortsätta. Key risk: Fed pivot mindre sannolik = eventual USD resurgence. Svensk export competitiveness försämras vid fortsatt SEK-styrka."
+      }
+    ],
+    "full_pension": [
+      {
+        "icon": "🌱",
+        "label": "OLJEEXPONERINGEN VIKTIG",
+        "text": "Med olja kring $100 och strukturell förändring av energiflöden gynnas AP7:s energiinnehav, särskilt amerikanska och norska oljebolag. Transportintensiva konsumentbolag pressas av högre kostnader, vilket påverkar delar av globalfonder negativt. Volatiliteten i energisektorn kräver långsiktig syn - dessa svängningar är normala i geopolitiska kriser. Energisektorns andel av globala index har ökat under krisen, vilket automatiskt ökar exponering för indexföljande fonder som AP7.",
+        "tip": "💡 Panik inte över kortsiktiga energisvängningar - de är en naturlig del av portföljdiversifiering. Energisektorn hedjar mot inflation och geopolitiska risker. Om du har länsförsäkringar eller andra globala fonder, kolla energiexponeringen. Överväg att rebalansera om exponeringen blivit för stor, men gör inga hastiga beslut.",
+        "funds": "🏦 AP7 har cirka 8-12% energiexponering via sina amerikanska innehav, vilket gynnas nu. AMF och SPP:s globalfonder har liknande exponering. Danske Bank-krisen påverkar inte pensionsfonder direkt men visar på IT-risker i finanssektorn som pensionssparare bör vara medvetna om."
+      },
+      {
+        "icon": "💰",
+        "label": "BANKRAPPORTER PÅVERKAR PPM",
+        "text": "<cite index=\"31-4,36-24\">Dagens rapporter från JPMorgan (EPS förväntat $5,44) och Wells Fargo påverkar många svenskars pensioner genom Amerika-fonder</cite>. Banker utgör 10-15% av S&P 500 och många populära PPM-fonder som Länsförsäkringar USA, SPP USA och Nordea Amerika har stora bankinnehav. <cite index=\"36-2,36-5\">Starka investment banking-avgifter från deal-aktivitet kan lyfta dessa fonder betydligt</cite>. Amerikanska banker är också exponerade mot konsumentkredit, så deras resultat ger signaler om amerikanska hushålls ekonomi.",
+        "tip": "💡 Kolla era PPM-val - många har mer bankexponering än de tror via breda Amerika-fonder. Det är inte dåligt, men viktigt att veta. Om ni har mycket i teknik OCH banker kan volatiliteten bli hög. Bankrapporter idag kan ge stora utslag åt båda håll - var inte förvånade över kraftiga rörelser i era Amerika-fonder.",
+        "funds": "🏦 AP7 har stor amerikansk exponering där banker är viktiga. AMF:s Globalfond och SPP:s Amerika-fonder kommer påverkas direkt. Fondernas kvartalsrapporter kommer visa denna påverkan inom några veckor. De som har pensionsförsäkring via Skandia eller SEB får också indirekt exponering."
+      },
+      {
+        "icon": "📱",
+        "label": "TECH-RALLY GYNNAR AP7",
+        "text": "<cite index=\"5-5\">NASDAQ futures +1,32% och teknikaktier leder uppgången i Asien</cite> efter att geopolitiska spänningar minskat. AP7:s stora innehav i amerikanska tech-jättar som Apple, Microsoft och Nvidia gynnas kraftigt. AI-boomen fortsätter trots Mellanöstern-krisen, med stark efterfrågan på datacenter och chips. Bitcoin +5,32% signalerar bred riskaptit som gynnar tillväxtaktier. Svenska tech-exportörer kan dock pressas av starkare SEK som gör deras produkter dyrare internationellt.",
+        "tip": "💡 AP7:s amerikanska tech-exponering är bra för långsiktig tillväxt, men skapar volatilitet. Tech-aktier rör sig mer än genomsnittet både upp och ner. Yngre sparare kan ha råd med denna volatilitet, äldre bör överväga mer balanserade alternativ. Kolla om ni har för mycket tech via olika fonder - många globalfonder och USA-fonder överlappar.",
+        "funds": "🏦 AP7 har 20-25% i amerikanska tech genom sin indexföljning, vilket är helt normalt för globala fonder. AMF:s Aktiefond Global har liknande exponering. PPM-alternativ som Spiltan Aktiefond Investmentbolag ger mindre tech-exponering om man vill minska denna risk. Handelsbanken och SEB:s globalfonder följer också denna trend."
+      },
+      {
+        "icon": "💹",
+        "label": "STABILITET ÅTERVÄNDER",
+        "text": "<cite index=\"5-1,5-4\">MSCI World på åttonde raka uppgången, längsta vinstserien sedan september</cite>, och VIX under 20 signalerar betydligt stabilare marknader. Detta gynnar särskilt långsiktigt pensionssparande eftersom lägre volatilitet minskar risken för stora nedgångar precis när man ska gå i pension. Stabilare marknader gör också dollar-cost averaging (månadssparande) mer effektivt eftersom man köper vid mindre extrema nivåer. Den breda marknadsuppgången är hälsosam - det är inte bara några få aktier som driver.",
+        "tip": "💡 Stabila marknader är perfekt tid för pensionssparare att öka månadssparandet om man har råd. Volatiliteten är lägre så man slipper extrema svängningar. Om ni varit nervösa och minskat pensionssparandet under krisen - överväg att öka det igen nu. Dollar-cost averaging fungerar bäst när marknader går i trender snarare än extrema svängningar.",
+        "funds": "🏦 Alla svenska pensionsfonder gynnas av lägre volatilitet - AP7, AMF, SPP och privata pensionsförsäkringar får mindre dramatiska värdesvängningar. Detta är särskilt viktigt för personer nära pension som inte har tid att vänta ut stora nedgångar. Stabil marknad gör också pensionsplanering mer förutsägbar."
+      }
+    ],
+    "futures": {
+      "S&P 500 Futures": {
+        "price": 6925.75,
+        "change": 0.91,
+        "prev": 6863.25
+      },
+      "NASDAQ Futures": {
+        "price": 25584.0,
+        "change": 1.32,
+        "prev": 25251.5
+      },
+      "DAX": {
+        "price": 23742.44,
+        "change": 3.58,
+        "prev": 22921.59
+      },
+      "Olja (WTI)": {
+        "price": 97.45,
+        "change": -0.43,
+        "prev": 97.87
+      },
+      "Guld": {
+        "price": 4805.9,
+        "change": 0.29,
+        "prev": 4792.2
+      },
+      "VIX": {
+        "price": 19.12,
+        "change": -9.13,
+        "prev": 21.04
+      }
+    },
+    "quotes": {
+      "OMX30": {
+        "price": 3127.57,
+        "change": 0.57,
+        "prev": 3109.9
+      },
+      "S&P 500": {
+        "price": 6886.24,
+        "change": 4.15,
+        "prev": 6611.83
+      },
+      "NASDAQ": {
+        "price": 23183.74,
+        "change": 5.4,
+        "prev": 21996.34
+      },
+      "EUR/USD": {
+        "price": 1.18,
+        "change": 0.97,
+        "prev": 1.17
+      },
+      "USD/SEK": {
+        "price": 9.15,
+        "change": -1.93,
+        "prev": 9.33
+      },
+      "EUR/SEK": {
+        "price": 10.79,
+        "change": -1.08,
+        "prev": 10.91
+      },
+      "BTC/USD": {
+        "price": 74709.24,
+        "change": 5.32,
+        "prev": 70934.43
+      }
+    }
+  },
+  {
     "date": "Friday 10 April 2026",
     "date_short": "10 Apr 2026",
     "generated": "2026-04-10T06:16:25.886584",
