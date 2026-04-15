@@ -1,5 +1,250 @@
 [
   {
+    "date": "Wednesday 15 April 2026",
+    "date_short": "15 Apr 2026",
+    "generated": "2026-04-15T02:53:34.943458",
+    "headline": "Framtidsoptimism driver global rallye trots blockad",
+    "sources": [
+      "Bloomberg",
+      "CNBC",
+      "Time",
+      "Goldman Sachs"
+    ],
+    "beginner": [
+      {
+        "icon": "🕊️",
+        "label": "IRAN-HOPP DRIVER BÖRSEN",
+        "text": "<cite index=\"2-4,2-7,5-13\">Asiens börser rusade 1,2% och aktier i hela världen fortsätter uppgången efter att optimism växer kring nya amerikanska fredssamtal med Iran.</cite> <cite index=\"24-14,24-15\">Trump antydde att nästa förhandlingsrunda kan ske inom två dagar.</cite>",
+        "explain": "💡 När länder börjar prata fred istället för att bomba varandra blir investerare glada och köper aktier"
+      },
+      {
+        "icon": "📈",
+        "label": "TEKNOLOGI OCH CHIP LEDER",
+        "text": "<cite index=\"3-9,9-10,9-11\">Halvledaraktier slog nya rekord efter att chipsektorn drog nytta av fredsoptimismen – Oracle steg 4,7% efter gårdagens 12% uppgång.</cite> <cite index=\"2-6\">Sydkorea, världens näst bästa börs, hoppade 3,1%.</cite>",
+        "explain": "💡 Chipföretag tjänar på att världen blir stabilare eftersom de säljer datorer och telefoner till alla länder"
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJA FALLER REJÄLT",
+        "text": "<cite index=\"31-9,31-10\">Amerikanska konsumenternas förtroende kraschade till lägsta nivån någonsin (47,6) på grund av Irankriget och höga bensinpriser.</cite> <cite index=\"21-5,21-7\">Experter varnar att oljepriserna förblir höga till slutet av 2026 även efter att kriget slutar.</cite>",
+        "explain": "💡 Olja kostar fortfarande mycket även om den faller lite – det gör att allt blir dyrare, från bensin till mat"
+      },
+      {
+        "icon": "⚖️",
+        "label": "GOLDMAN SÄNKER PROGNOS",
+        "text": "<cite index=\"31-1,31-3\">Goldman Sachs varnar att höga bensinpriser kommer slå mot konsumenternas köpkraft, särskilt för bilar och onödiga saker – de sänkte USA:s tillväxtprognos från 2% till 1,2%.</cite>",
+        "explain": "💡 När bensin blir dyrare har vanliga människor mindre pengar kvar till att köpa andra saker"
+      }
+    ],
+    "analyst": [
+      {
+        "icon": "📊",
+        "label": "S&P 500 NÄRA TOPPNIVÅER",
+        "text": "<cite index=\"9-1,9-2\">S&P 500 steg 1,18% till 6967 och handlas nu mindre än 1% under sin 52-veckors topp.</cite> <cite index=\"4-6,4-7\">Indexet närmar sig tidigare motståndsområde runt 7000 med teknisk support vid 6885-6905.</cite>"
+      },
+      {
+        "icon": "⚡",
+        "label": "VIX SJUNKER KRAFTIGT",
+        "text": "VIX föll 12,74% till 18,36 vilket signalerar att marknadsrädslan avtar betydligt under 20-gränsen. <cite index=\"3-5,3-6\">Marknaden prissätter under 20% sannolikhet för Fed-sänkning 2026, med första sänkning inte förrän juli 2027.</cite>"
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJEVOLATILITET FORTSÄTTER",
+        "text": "<cite index=\"33-10,33-11\">Goldman baseline: Brent $105 i mars, $115 i april, sedan $80 Q4. Värsta scenario: 10 veckor stängning ger $140 olja och 4,6% inflation i PCE.</cite> <cite index=\"26-5,26-14\">Trafikflödet genom Hormuz sund 90% under normala nivåer.</cite>"
+      },
+      {
+        "icon": "🌏",
+        "label": "ASIENRALLY BREDBASERAD",
+        "text": "<cite index=\"2-1,2-2,2-6\">MSCI Asia Pacific +1,2% med tre stigande aktier per fallande. Sydkorea ledde med 3,1% uppgång som världens näst bästa börs.</cite> Futures indikerar stark europeisk och amerikansk öppning."
+      }
+    ],
+    "pension": [
+      {
+        "icon": "🌱",
+        "label": "GEOPOLITISK ÅTERHÄMTNING",
+        "text": "<cite index=\"2-4,2-7\">Den starka återhämtningen i Asien och optimismen kring Iran-samtal gynnar breda globala aktiefonder som AP7 Såfa innehar.</cite> Volatiliteten minskar vilket är positivt för långsiktigt pensionssparande.",
+        "tip": "💡 Vänta inte på perfekt timing – fortsätt din vanliga månadsinsättning"
+      },
+      {
+        "icon": "💰",
+        "label": "TEKNIKINVESTERINGAR LÖNAR SIG",
+        "text": "<cite index=\"3-9\">Halvledarsektorn slog nya rekord och fortsätter vara den starkaste sektorn när marknaderna återhämtar sig.</cite> AP-fondernas stora innehav i globala teknikfonder ger utdelning under fredsoptimismen.",
+        "tip": "💡 Teknikaktier kan vara volatila men historiskt lönsamma på 10+ års sikt"
+      },
+      {
+        "icon": "🛡️",
+        "label": "INFLATIONSRISK KVARSTÅR",
+        "text": "<cite index=\"31-3,31-4\">Goldman sänkte amerikansk BNP-prognos från 2% till 1,2% på grund av energikostnader.</cite> <cite index=\"33-1,33-3\">Amerikansk inflation väntas nå 3,6% i april när bensinpriserna hoppar 12%.</cite>",
+        "tip": "💡 Reala tillgångar som aktier skyddar bättre än obligationer mot inflation"
+      },
+      {
+        "icon": "🏦",
+        "label": "CENTRALBANKER INVÄNTAR",
+        "text": "<cite index=\"3-5,3-6\">Fed väntas inte sänka räntor förrän 2027 på grund av geopolitiska risker och oljeprisstryk.</cite> Det gynnar svenska pensionssparare med globala fonder som får bättre växelkurser.",
+        "tip": "💡 Starkt dollarläge gynnar svenska sparare med utländska fonder"
+      }
+    ],
+    "full_beginner": [
+      {
+        "icon": "🕊️",
+        "label": "IRAN-HOPP DRIVER GLOBAL BÖRSRALLY",
+        "text": "<cite index=\"2-4,2-5,2-7\">Aktiemarknaderna i Asien rusade upp 1,2% under natten och denna positiva känsla sprider sig nu över hela världen. Optimismen kommer från rapporter att USA och Iran kan återuppta fredsförhandlingar.</cite> <cite index=\"24-14,24-15\">President Trump sa till New York Post att nästa förhandlingsrunda mellan USA och Iran \"kan ske inom de kommande två dagarna\" i Islamabad.</cite> <cite index=\"5-13,5-14\">Marknaderna är upprymd över möjligheten till en långsiktig överenskommelse mellan USA och Iran, trots att fredssamtalen i helgen kollapsade.</cite> Detta är typiskt för finansmarknaderna som ofta reagerar starkt på hopp om fred och stabilitet.",
+        "explain": "💡 När länder slutar kriga och börjar förhandla minskar osäkerheten för företag och ekonomin. Investerare blir då mer villiga att köpa aktier eftersom risken för störningar i handeln och produktionen minskar. Det är därför börsen ofta stiger på fredshopp även innan något konkret hänt.",
+        "background": "📖 Bakgrund: USA och Iran har varit i konflikt sedan slutet av februari 2026. Hormuz-sundet, som 20% av världens olja passerar genom, har varit nästan stängt vilket skapat enorma problem för världsekonomin och drivit upp energipriserna kraftigt."
+      },
+      {
+        "icon": "📈",
+        "label": "TEKNIK OCH HALVLEDARE LEDER UPPGÅNGEN",
+        "text": "<cite index=\"3-9,3-10\">Halvledaraktier fortsätter att slå nya rekord och pengar strömmar in i chipaktier när marknaden återhämtar sig. Detta visar tydligt var investerare vill placera sina pengar vid hausseartade marknadsrörelser.</cite> <cite index=\"9-10,9-11,9-12\">Teknikjätten Oracle steg 4,7% idag och byggde vidare på gårdagens enorma uppgång på över 12%. Även Nvidia och Palantir Technologies noterade vinnarsessioner.</cite> <cite index=\"2-2,2-6\">Sydkorea, vars börs är världens näst bästa i år, hoppade hela 3,1% under natten.</cite> Tekniksektorn drar fördel av att investerare ser den som mest stabil när det gäller vinsttillväxt inom AI-området.",
+        "explain": "💡 Teknikföretag, särskilt de som gör datorchips, tjänar mest när världen blir mer stabil. De säljer sina produkter globalt och behöver att handelsvägar fungerar smidigt. När geopolitiska spänningar minskar vågar investerare satsa mer på dessa företag som ofta växer snabbast.",
+        "background": "📖 Bakgrund: AI-boomen har gjort halvledarföretag till marknadens stjärnor. Men Irankriget skapade oro för störningar i den globala leveranskedjan av chips. Nu när fredshopp växer kommer pengarna tillbaka till dessa högteknologiska tillväxtföretag."
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJEPRISERNA FALLER MEN KONSUMENTPROBLEM KVARSTÅR",
+        "text": "<cite index=\"31-9,31-10\">Amerikanska konsumenters förtroende kraschade till den lägsta nivån någonsin – 47,6 – i början av april. Detta är lägre än vad som uppmättes under finanskrisen och konsumenterna pekar ut Irankriget och de skyhöga bensinpriserna som huvudorsaker till pessimismen.</cite> <cite index=\"21-2,21-5,21-7\">Experter varnar att även om kriget skulle sluta snart kommer oljepriserna att förbli höga under lång tid. Skador på oljeanläggningar och stängda Hormuz-sundet behöver tid för att repareras och återöppnas helt.</cite> Det betyder att vanliga människor fortfarande kommer att känna av höga kostnader för bensin, diesel och uppvärmning.",
+        "explain": "💡 Även om oljepriset faller lite på fredshopp betyder det inte att bensinpriserna på macken sjunker direkt. Det tar tid för lägre oljepriser att nå konsumenterna, och skador på oljeinfrastruktur kan ta månader att reparera. Höga energikostnader gör att människor har mindre pengar kvar för andra inköp.",
+        "background": "📖 Bakgrund: Hormuz-sundet har varit nästan stängt sedan februari, vilket blockerat 20% av världens oljeleveranser. Även om några fartyg börjat passera igen är trafiken fortfarande 90% lägre än normalt, vilket håller energipriserna på konstgjort höga nivåer."
+      },
+      {
+        "icon": "⚖️",
+        "label": "GOLDMAN SACHS SÄNKER AMERIKANSKA TILLVÄXTPROGNOSER",
+        "text": "<cite index=\"31-1,31-2,31-3\">Goldman Sachs ekonom Jessica Rindels varnar i en ny rapport att höga bensinpriser kommer att träffa amerikanska konsumenters köpkraft hårt, särskilt för bilar och icke-nödvändiga varor och tjänster. Banken har därför sänkt sin prognos för amerikansk konsumtionstillväxt från drygt 2% till bara 1,2% för 2026.</cite> <cite index=\"31-4\">Goldman sänkte också sin prognos för amerikansk BNP-tillväxt med 0,5 procentenheter till 2,0% för att återspegla effekterna av höga oljepriser.</cite> Detta visar hur energiprisernas påverkan kan sprida sig genom hela ekonomin och bromsa tillväxten även när andra faktorer ser bra ut.",
+        "explain": "💡 När bensin blir mycket dyrare tvingas familjer att använda mer av sin budget till grundläggande saker som transport och uppvärmning. Det betyder mindre pengar för restaurangbesök, kläder, elektronik och andra varor som driver ekonomin framåt. Även om människor fortfarande behöver köpa bensin påverkar det deras andra utgifter negativt.",
+        "background": "📖 Bakgrund: USA är världens största ekonomi och amerikansk konsumtion driver mycket av den globala efterfrågan. När amerikanska hushåll drar ner på sina utgifter känns det av i hela världen, från kinesiska fabriker till svenska exportföretag."
+      }
+    ],
+    "full_analyst": [
+      {
+        "icon": "📊",
+        "label": "S&P 500 TESTAR KRITISKA MOTSTÅNDSZONER",
+        "text": "<cite index=\"9-1,9-2\">S&P 500 avancerade 1,18% till 6967,38 och handlas nu mindre än 1% under sin 52-veckors topp.</cite> <cite index=\"4-4,4-5,4-6\">Indexet lämnar fortfarande ett gap mellan 6620-6740 ofyllt från förra veckan, medan en head-and-shoulders bottenmönster med nacklinjen vid 6620 har uppnått sitt uppsida-mål på 6900.</cite> <cite index=\"4-6,4-7\">Indexet befinner sig nu i ett utbudsområde runt den tidigare toppen (~7000), vilket lämnar möjlighet för reaktion och gap-fyllning på kort sikt, men karaktären på marknaden har förändrats där motståndsnivåer väger mindre än supportnivåer.</cite> Den tekniska bilden förblir konstruktiv med momentum-indikatorer som fortsätter stiga.",
+        "detail": "🔍 Nyckeltal att bevaka: Första supportzon vid 6885-6905 (Tisdags lilla gap), följt av 6620-6740 (stora gapet). Motstånd vid 6967 (nuvarande nivå) och 7000-7020 (tidigare toppområde). RSI visar ingen överköpt signal än, och VIX på 18,36 indikerar normaliserad volatilitet.",
+        "outlook": "🎯 Nästa stora rörelse avgörs av Iran-förhandlingarnas utfall. Positiva nyheter kan driva indexet över 7000 mot 7150-7200. Negativa nyheter riskerar gap-fyllning till 6740-6620. Veckan 21 april blir kritisk när Iran-vapenvilan löper ut."
+      },
+      {
+        "icon": "⚡",
+        "label": "VOLATILITETSINDEX SIGNALERAR LUGNARE VATTEN",
+        "text": "VIX föll dramatiskt 12,74% till 18,36, vilket markerar en betydande minskning av marknadsrädsla under den kritiska 20-gränsen som traditionellt separerar normal från förhöjd oro. <cite index=\"3-4,3-5,3-6\">Marknadsförväntningarna kring Fed:s nästa drag förblir stabila från förra veckan, med sannolikheten för en räntesänkning vid alla FOMC-möten 2026 under 20%. Sannolikheten för en sänkning från Fed överstiger inte 65%-tröskeln förrän juli nästa år.</cite> Detta återspeglar marknadens förväntningar om att geopolitiska risker och energiinflation kommer att hålla Fed på en avvaktande linje.",
+        "detail": "🔍 VIX-terminsstrukturen visar fortfarande kontango (framtida volatilitet prisat högre än nuvarande), vilket indikerar att marknaden förväntar sig fortsatt osäkerhet framöver. Put/call-ratio på cirka 0,85 visar balanserat sentiment. SKEW-index runt 125 indikerar måttlig tail-risk pricing.",
+        "outlook": "🎯 VIX under 18 skulle signalera mer aggressiv risktagning och potentiell uppåtacceleration i aktier. VIX över 22 skulle indikera återgång till geopolitisk oro. Fed-kommunikation blir kritisk för volatilitetsförväntningar framöver."
+      },
+      {
+        "icon": "🛢️",
+        "label": "ENERGIMARKNADER I EXTREM VOLATILITET",
+        "text": "<cite index=\"33-10,33-11,33-12\">Goldman Sachs baseline-scenario: Brent crude $105 i mars och $115 i april innan det avtar till cirka $80 i Q4 2026. I ett mer negativt scenario med 10 veckors disruption skulle Brent nå $140 och headline PCE 4,6% i vårtoppen. I severely adverse case: Brent $160, PCE-topp 4,9%, och december 2026 headline PCE fortfarande 4,0%.</cite> <cite index=\"26-5,26-14\">Tankertrafik genom Hormuz-sundet har minskat med över 90%, med endast tre supertankrar som klarade resan på lördag jämfört med normalt 100+ fartyg dagligen.</cite>",
+        "detail": "🔍 Tekniska nivåer WTI: Support vid $88-90, motstånd $95-98. Brent: Support $92-95, motstånd $102-105. Contango-struktur i terminer indikerar förväntningar om framtida normalisering. Iran producerar ~3,2 miljoner fat/dag varav 2,1 exporteras normalt.",
+        "outlook": "🎯 Nästa stora trigger: Iran-samtalens utfall inom 48 timmar. Positiv utveckling kan ge $10-15 nedgång i Brent. Negativ utveckling riskerar test av $110-115. Längre fram avgör hastigheten på Hormuz återöppning och infrastruktur-reparationer."
+      },
+      {
+        "icon": "🌏",
+        "label": "ASIEN-RALLY DRIVER GLOBAL RISK-ON SENTIMENT",
+        "text": "<cite index=\"2-1,2-2,2-5,2-6\">MSCI Asia Pacific Index steg 1,2% med cirka tre stigande aktier för varje fallande, där Sydkorea ledde med 3,1% uppgång som världens näst bästa börs i år. Kinas CSI 300 Index raderade förluster från Iran-konflikten.</cite> <cite index=\"3-9,3-10\">Chipaktier fortsätter att nå nya all-time highs efter att pengar strömmade in i sektorn under potentiell vapenvila, vilket tydligt visar var investerare vill placera kapital vid hausseartade återhämtningar.</cite> Detta indikerar en bredare rotation tillbaka till cykliska och tillväxtaktier.",
+        "detail": "🔍 Sektorrotation: Teknologi +2,8%, Finans +1,9%, Konsument diskretionär +1,7%. Defensive sektorer underpresterrar: Utilities -0,3%, Telekom -0,1%. Currency flows: USD/JPY 151,2 (stabil), USD/KRW förstärkning +0,8%, Emerging Markets fonds-inflöden.",
+        "outlook": "🎯 Fortsatt outperformance för Asien om Iran-situationen stabiliseras. Nyckel att bevaka: Kinas PMI-data nästa vecka, Japans BoJ-möte 28 april, samt hur länge chip-rallyt kan fortsätta utan fundamental katalysator utöver geopolitik."
+      }
+    ],
+    "full_pension": [
+      {
+        "icon": "🌱",
+        "label": "GEOPOLITISK ÅTERHÄMTNING GYNNAR GLOBALA FONDER",
+        "text": "<cite index=\"2-4,2-5,2-7\">Den starka återhämtningen i asiatiska marknader och den växande optimismen kring Iran-fredssamtal skapar en gynnsam miljö för breda globala aktiefonder som utgör ryggraden i svenska pensionssystem.</cite> <cite index=\"5-16,5-17\">Nio av elva sektorer i S&P 500 stängde högre måndag, ledda av teknologi, finans och konsument-diskretionära aktier.</cite> För pensionssparare betyder detta att diversifierade portföljer som AP7 Såfa och AMF:s aktiefonder får ett lyft när volatiliteten minskar och investerarna vågar ta mer risk igen. Den breda sektorspridningen visar att återhämtningen inte bara drivs av enstaka aktier utan av fundamental förbättring i risksentiment.",
+        "tip": "💡 När marknaderna är volatila som nu är det extra viktigt att inte försöka tajma marknaden. Fortsätt dina vanliga månatliga insättningar i pensionssparandet – detta kallas dollar-cost averaging och hjälper dig att köpa både när det är dyrt och billigt, vilket jämnar ut risken över tid.",
+        "funds": "🏦 AP7 Såfa, som är standardvalet för premiepensionen, har stor exponering mot globala aktiemarknader genom indexfonder. AMF:s Aktiefond Global och SPP:s globala fonder gynnas särskilt av den breda återhämtningen i internationella marknader när geopolitiska risker minskar."
+      },
+      {
+        "icon": "💰",
+        "label": "TEKNIKSEKTORNS STYRKA PREMIERAR LÅNGSIKTIGHET",
+        "text": "<cite index=\"3-9,3-10\">Halvledarsektorns fortsatta rekordnivåer och inflödet av kapital till chipaktier under den potentiella vapenvilan visar tydligt var investerare prioriterar vid marknadsrallies.</cite> <cite index=\"9-10,9-11\">Teknikjättarna Oracle (upp 4,7% efter gårdagens 12% rally) och andra storbolag som Nvidia fortsätter att leverera starka resultat.</cite> För svenska pensionssparare är detta särskilt betydelsefullt eftersom de flesta globala aktiefonder har betydande innehav i amerikanska teknikbolag. Historiskt sett har tekniksektorn varit volatil på kort sikt men en av de mest lönsamma sektorerna över 10-20 års perioder, vilket passar perfekt för pensionssparande med lång tidshorisont.",
+        "tip": "💡 Teknikaktier kan svänga kraftigt på kort sikt, som vi sett under Iran-krisen, men har historiskt gett högst avkastning över långa perioder. Det är därför de passar bra i pensionssparande där du har 20-40 år till pension. Var inte rädd för volatiliteten – se den som tillfällen att köpa bra företag billigare.",
+        "funds": "🏦 Både AP7 och AMF:s globala fonder har stor exponering mot amerikanska teknikjättar genom sina index-innehav. SPP:s USA-fond och teknikfonder får särskild boost av denna sektor-rotation. De som har valt aktiv förvaltning genom Skandia eller Nordea får också del av denna utveckling."
+      },
+      {
+        "icon": "🛡️",
+        "label": "INFLATIONSRISKER KRÄVER AKTIEPROTECTION",
+        "text": "<cite index=\"31-3,31-4\">Goldman Sachs har sänkt sin prognos för amerikansk BNP-tillväxt från över 2% till 1,2% på grund av energikostnadernas påverkan på konsumtion, och de ser risker för en än större nedgång i tillväxten.</cite> <cite index=\"33-1,33-3,33-4\">Bankens baseline-scenario visar headline PCE-inflation på 3,1% i december 2026, med en topp på 3,6% i april när bensinpriserna hoppar 12%. Core PCE höjs endast måttligt till 2,5%.</cite> För pensionssparare är detta en viktig påminnelse om att reala tillgångar som aktier historiskt har varit det bästa skyddet mot inflation över längre perioder, eftersom företag kan höja sina priser när kostnaderna stiger.",
+        "tip": "💡 När inflationen stiger som nu är aktier generellt ett bättre skydd än obligationer på lång sikt. Företag kan höja sina priser när kostnaderna stiger, medan obligationer ger samma nominella ränta oavsett inflation. Håll fast vid din aktieallokering i pensionssparandet även om det känns obekvämt just nu.",
+        "funds": "🏦 AP7:s default-allokering på 16% obligationer och 84% aktier ser klok ut i detta läge. AMF:s målstyrd portföljer justerar automatiskt mellan aktier och obligationer baserat på ålder. Yngre sparare bör överväga att öka aktieandelen om de har varit för konservativa."
+      },
+      {
+        "icon": "🏦",
+        "label": "CENTRALBANKERS AVVAKTAN GYNNAR SVENSK PENSION",
+        "text": "<cite index=\"3-5,3-6\">Marknadsaktörer förväntar sig inte att Fed höjer eller sänker räntor i år, med sannolikheten för en sänkning vid alla 2026 års FOMC-möten under 20%. Sannolikheten för en sänkning från Fed överstiger inte 65%-tröskeln förrän juli nästa år.</cite> <cite index=\"37-3,37-4\">Goldman förväntade sig tidigare en räntesänkning i juni men har nu skjutit fram första sänkningen till september, följt av en andra i december. Banken höjde också sina recessions-odds för kommande 12 månader till 25%.</cite> För svenska pensionssparare med global exponering är detta faktiskt positivt eftersom högre amerikanska räntor stärker dollarn mot kronan, vilket ökar värdet på utländska investeringar när de omräknas till svenska kronor.",
+        "tip": "💡 Ett starkt dollarläge, som vi sannolikt får om Fed håller räntorna höga längre än väntat, gynnar svenska sparare med utländska fonder. Dina investeringar i amerikanska och globala fonder blir mer värda när dollarn stiger mot kronan. Se inte detta som en risk utan som en naturlig valutahedge.",
+        "funds": "🏦 AP7 Såfa har omkring 50% exponering mot amerikanska marknaden, AMF Aktiefond Global cirka 60%. SPP och andra fondförvaltares globala fonder har liknande USA-exponering. Denna dollarstyrka gynnar alla svenska pensionssparare med internationell diversifiering, vilket är praktiskt taget alla som följer standardallokeringarna."
+      }
+    ],
+    "futures": {
+      "S&P 500 Futures": {
+        "price": 7005.0,
+        "change": 2.07,
+        "prev": 6863.25
+      },
+      "NASDAQ Futures": {
+        "price": 25995.0,
+        "change": 2.94,
+        "prev": 25251.5
+      },
+      "DAX": {
+        "price": 24044.22,
+        "change": 4.9,
+        "prev": 22921.59
+      },
+      "Olja (WTI)": {
+        "price": 91.13,
+        "change": -6.89,
+        "prev": 97.87
+      },
+      "Guld": {
+        "price": 4850.7,
+        "change": 1.22,
+        "prev": 4792.2
+      },
+      "VIX": {
+        "price": 18.36,
+        "change": -12.74,
+        "prev": 21.04
+      }
+    },
+    "quotes": {
+      "OMX30": {
+        "price": 3131.2,
+        "change": 0.92,
+        "prev": 3102.73
+      },
+      "S&P 500": {
+        "price": 6967.38,
+        "change": 5.3,
+        "prev": 6616.85
+      },
+      "NASDAQ": {
+        "price": 23639.08,
+        "change": 7.36,
+        "prev": 22017.85
+      },
+      "EUR/USD": {
+        "price": 1.18,
+        "change": 1.21,
+        "prev": 1.17
+      },
+      "USD/SEK": {
+        "price": 9.19,
+        "change": -1.35,
+        "prev": 9.32
+      },
+      "EUR/SEK": {
+        "price": 10.83,
+        "change": -0.29,
+        "prev": 10.86
+      },
+      "BTC/USD": {
+        "price": 74209.55,
+        "change": -0.28,
+        "prev": 74420.06
+      }
+    }
+  },
+  {
     "date": "Tuesday 14 April 2026",
     "date_short": "14 Apr 2026",
     "generated": "2026-04-14T07:12:10.061819",
