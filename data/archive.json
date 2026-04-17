@@ -1,5 +1,250 @@
 [
   {
+    "date": "Friday 17 April 2026",
+    "date_short": "17 Apr 2026",
+    "generated": "2026-04-17T02:53:35.100244",
+    "headline": "Netflix krossar förväntningar medan fredshopp ger börsrally",
+    "sources": [
+      "Netflix Q1 2026 earnings",
+      "US-Iran peace talk hopes",
+      "Oil price decline on ceasefire optimism",
+      "Japan inflation data"
+    ],
+    "beginner": [
+      {
+        "icon": "📈",
+        "label": "AMERIKANSKA BÖRSEN RAKETADE",
+        "text": "<cite index=\"4-10,4-11\">S&P 500 slog nya rekord och Nasdaq nådde rekordhöjder medan Dow Jones klättrade över 110 poäng</cite>. <cite index=\"3-1\">Investerare hoppas att första kvartalets resultat kan hjälpa börsen att gå vidare från kriget i Iran, nu när det finns en preliminär vapenvila</cite>.",
+        "explain": "💡 När stora amerikanska företag rapporterar bättre vinster än väntat brukar börsen stiga kraftigt eftersom det visar att ekonomin mår bra"
+      },
+      {
+        "icon": "🎬",
+        "label": "NETFLIX CHOCKADE ALLA",
+        "text": "<cite index=\"12-3,12-15\">Netflix rapporterade Q1-resultat som krossade analytikernas förväntningar med intäkter på 12,25 miljarder dollar och vinst per aktie på 1,23 dollar jämfört med förväntade 0,76 dollar</cite>. <cite index=\"12-1\">Intäkterna ökade med 16% från motsvarande kvartal 2025</cite>.",
+        "explain": "💡 När ett stort företag som Netflix presterar mycket bättre än väntat visar det att streaming-marknaden är stark och människor fortsätter betala för underhållning"
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJEPRISER FÖLL PÅ FREDSHOPP",
+        "text": "<cite index=\"23-6,23-7,23-8\">Amerikanska råoljan föll nästan 8% på tisdag på hopp om att en andra runda av USA-Iran-samtal kunde ge en överenskommelse, med president Trump som sa att kriget är 'mycket nära att vara över'</cite>. <cite index=\"22-1,22-2\">Oljepriserna steg dock på torsdagen när trafik genom Hormuz-sundet förblir nästan stillastående</cite>.",
+        "explain": "💡 Oljan blir dyrare när det är krig i Mellanöstern eftersom mycket olja transporteras därifrån, men blir billigare när det verkar som fred kan komma"
+      },
+      {
+        "icon": "🇯🇵",
+        "label": "JAPANSK INFLATION SJÖNK",
+        "text": "<cite index=\"32-1,32-2\">Japans kärninflation föll till 1,6% i februari från tidigare 2,0%, den lägsta nivån sedan mars 2022 och under centralbankens 2%-mål för första gången sedan mars 2022</cite>. Detta påverkar global ekonomisk oro och räntepolitik.",
+        "explain": "💡 När inflationen sjunker i Japan betyder det att prisökningarna avtar, vilket kan påverka hur centralbanker världen över fattar beslut om räntor"
+      }
+    ],
+    "analyst": [
+      {
+        "icon": "📊",
+        "label": "TERMINER PEKAR UPPÅT",
+        "text": "<cite index=\"4-18,4-19\">NASDAQ100 nådde rekordnivå på 26,298 poäng och har ökat 5,75% de senaste 4 veckorna samt 43,52% de senaste 12 månaderna</cite>. <cite index=\"7-3\">S&P 500 var upp nästan 2% i år per 14 april, bara 1% under sitt all-time high från 27 januari</cite>."
+      },
+      {
+        "icon": "📺",
+        "label": "NETFLIX TEKNISK BREAKOUT",
+        "text": "<cite index=\"11-5,11-7,11-8\">NFLX bröt bestämt över en nedåtgående trendlinje veckan den 23 februari 2026 och testar nu nyckelresistans mellan 107,85-110,40 dollar. Ett ihållande breakout över 110,40 dollar skulle troligen sikta mot 114,50 dollar</cite>. <cite index=\"13-1,13-2\">EPS på 1,23 dollar översteg analytikerförväntningar på 0,76 dollar med 61,84%</cite>."
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJA VOLATIL KRING $90",
+        "text": "<cite index=\"23-4,23-5\">WTI-råolja stängde på 91,29 dollar per fat medan Brent stängde 14 cent högre på 94,93 dollar per fat</cite>. <cite index=\"22-3,22-6\">ING uppskattar att cirka 13 miljoner fat per dag av oljeflödet har störts av stängningen av Hormuz-sundet, som normalt bär cirka 20% av världens olja</cite>."
+      },
+      {
+        "icon": "🏦",
+        "label": "JAPANSKA YEN PÅVERKAS AV BOJ",
+        "text": "<cite index=\"32-9,32-10\">Japans kärninflation på 1,6% kom väl under Bank of Japans 2%-mål och erbjuder liten drivkraft att justera penningpolitiken. BOJ höll räntan oförändrad på 0,75% men signalerade bias mot ytterligare åtstramning</cite>."
+      }
+    ],
+    "pension": [
+      {
+        "icon": "🌱",
+        "label": "GLOBAL TILLVÄXT STÖDJER FONDER",
+        "text": "<cite index=\"7-7,7-8\">Aktiepriser har fallit mindre än väntat eftersom företagsvinster fortfarande växer snabbt med en framåtblickande vinstuppskattning som växer i 17% årlig takt</cite>. Detta gynnar både svenska och globala aktiefonder långsiktigt.",
+        "tip": "💡 Starka företagsresultat som Netflix visar är positivt för bred diversifiering i aktiefonder"
+      },
+      {
+        "icon": "💰",
+        "label": "RÅVAROR ÖVERTRÄFFAR AKTIER",
+        "text": "<cite index=\"7-9,7-10\">Råvaror och guld har överträffat aktier hittills 2026, historiskt sett ett kännetecken för björnmarknader. Timmer varnar dock att råvaror är för volatila för att vara en stor långsiktig innehav för de flesta investerare</cite>.",
+        "tip": "💡 Håll begränsad exponering mot råvaror och fokusera på diversifierade fonder"
+      },
+      {
+        "icon": "📈",
+        "label": "60/40 STRATEGI UTMANAD",
+        "text": "<cite index=\"7-11,7-13\">Traditionella diversifieringsstrategier som 60/40-mixen av aktier och obligationer har utmanats eftersom aktier och obligationer generellt rör sig i samma riktning. 10-åriga statsobligationer håller sig nära 4,5%</cite>.",
+        "tip": "💡 Överväg alternativa tillgångsklasser utöver traditionell aktie-obligationsmix"
+      },
+      {
+        "icon": "🎯",
+        "label": "LÅNGSIKTIGT PERSPEKTIV VIKTIG",
+        "text": "<cite index=\"7-15\">För investerare idag är lärdomen att förbli diversifierad men vara beredd på potentiellt långsammare, mer ojämna vinster under överskådlig tid</cite>. Geopolitisk oro kräver tålamod och långsiktigt fokus.",
+        "tip": "💡 Bibehåll regelbunden månadsinsättning oavsett kortsiktig volatilitet"
+      }
+    ],
+    "full_beginner": [
+      {
+        "icon": "📈",
+        "label": "AMERIKANSKA BÖRSEN RAKETADE",
+        "text": "<cite index=\"4-10,4-11\">S&P 500 nådde nya rekordnivåer med en ökning på 0,1% medan Nasdaq svävade nära de rekordnivåer som nåtts i föregående session, och Dow Jones lade till mer än 110 poäng</cite>. <cite index=\"4-12\">Investerare förblev fokuserade på företagsresultat medan optimismen växte att en potentiell överenskommelse mellan USA och Iran snart kunde avsluta konflikten och återöppna Hormuz-sundet</cite>. <cite index=\"4-13,4-14\">Energi, material och fastigheter ledde sektorvinsterna, medan sjukvård och konsumentvaror släpade efter. PepsiCo steg 0,3% efter bättre än väntade resultat</cite>.",
+        "explain": "💡 Börsen fungerar som en stor auktion där företags aktier handlas. När fler vill köpa än sälja stiger priserna. Goda företagsresultat och hopp om fred driver upp priserna eftersom investerare blir mer optimistiska om framtiden. Detta påverkar pensionsfonder och sparande eftersom de investerar i dessa samma företag.",
+        "background": "📖 Den amerikanska börsen har varit volatil under 2026 på grund av geopolitiska spänningar, men starka företagsresultat har hållit uppe priserna. Detta visar marknadens motståndskraft även under osäkra tider."
+      },
+      {
+        "icon": "🎬",
+        "label": "NETFLIX CHOCKADE ALLA",
+        "text": "<cite index=\"12-3,12-4,12-15\">Netflix rapporterade sina första kvartalsresultat för 2026 på torsdagen och avslöjade att de under januari-mars perioden krossade analytikerförväntningar inom både intäkter och vinster, med intäkter på 12,25 miljarder dollar, upp 16% från motsvarande kvartal 2025</cite>. <cite index=\"13-1,13-2,13-4\">Netflix rapporterade vinst per aktie på 1,23 dollar, vilket överträffade analytikernas förväntningar på 0,76 dollar med 61,84%, vilket markerade ett Beat</cite>. <cite index=\"12-16,12-17\">Resultaten kommer efter Netflix tillbakadragande från kampen med Paramount Skydance om Warner Bros studio- och streamingtillgångar i slutet av februari</cite>.",
+        "explain": "💡 Netflix framgång visar att människor fortsätter betala för streaming-tjänster även under ekonomisk osäkerhet. Detta är viktigt eftersom underhållningssektorn ofta ses som en indikator på konsumenternas ekonomiska hälsa. När Netflix presterar bättre än väntat signalerar det att ekonomin är starkare än många fruktade.",
+        "background": "📖 Netflix är en av de största streaming-tjänsterna globalt och dess resultat påverkar hela underhållningsbranschen. Företaget har genomgått stora förändringar senaste året, inklusive misslyckade övertagandeförsök."
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJEPRISER FÖLL PÅ FREDSHOPP",
+        "text": "<cite index=\"23-6,23-7,23-8\">Amerikanska råoljan föll nästan 8% på tisdag på hopp om att en andra runda av USA-Iran-samtal kunde ge en överenskommelse, med president Trump som sa att kriget är 'mycket nära över' och att 'börsen kommer att blomstra' när konflikten slutar</cite>. <cite index=\"22-1,22-2,22-3\">Oljepriserna steg dock på torsdagen när trafiken genom Hormuz-sundet förblir i nästan stillastående, med en källa som berättade för Reuters att Iran kunde överväga att tillåta fartyg att segla fritt genom den omanska sidan av sundet</cite>. <cite index=\"22-6,22-7\">USA-Israel kriget med Iran har beskrivits som den största störningen någonsin av globala olje- och gasförsörjningar på grund av Irans avbrott av trafik genom Hormuz-sundet</cite>.",
+        "explain": "💡 Oljan påverkar alla i vardagen eftersom det bestämmer bensinpriset och transportkostnader som sedan påverkar allt vi köper. När det är krig i Mellanöstern blir oljan dyrare eftersom mycket av världens olja kommer därifrån. Om fred kommer kan priserna falla och göra vardagen billigare för vanliga människor.",
+        "background": "📖 Hormuz-sundet är en av världens viktigaste handelsrutter för energi, och konflikten där har skapat den största oljeförsörjningsstörningen i historien. Detta påverkar globala energipriser och ekonomisk stabilitet."
+      },
+      {
+        "icon": "🇯🇵",
+        "label": "JAPANSK INFLATION SJÖNK",
+        "text": "<cite index=\"32-1,32-2,32-7\">Japans kärninflation som exkluderar färsk mat men inkluderar energi steg 1,6% år-över-år i februari 2026, vilket avtog för tredje månaden i rad och kom in under prognoser på 1,7%, vilket också var den minsta ökningen sedan mars 2022</cite>. <cite index=\"32-8,32-9,32-10\">Regeringen har tagit steg för att lätta på levnadskostnaderna och stabilisera matpriser, även om högre energipriser från Iran-kriget riskerar att driva inflationen högre i mars. Den senaste avläsningen kom väl under Bank of Japans 2%-mål och erbjuder liten drivkraft att justera penningpolitiska inställningar</cite>.",
+        "explain": "💡 Inflation betyder hur mycket priserna stiger över tid. När Japans inflation sjunker betyder det att prisökningarna saktar ner, vilket kan vara bra för konsumenter men oroar centralbanker som vill se stabila prisökningar. Detta påverkar globala marknader eftersom Japan är en stor ekonomi och deras centralbanks beslut påverkar växelkurser och investeringar världen över.",
+        "background": "📖 Japan har kämpat med låg inflation i många år och deras centralbank har försökt att få den att stiga till 2%. När inflationen nu ligger under målet igen skapar det utmaningar för deras ekonomiska politik och kan påverka global ekonomisk stabilitet."
+      }
+    ],
+    "full_analyst": [
+      {
+        "icon": "📊",
+        "label": "TERMINER PEKAR UPPÅT",
+        "text": "<cite index=\"4-18,4-19\">US100 (NASDAQ100) nådde ett nytt rekord på 26,298.00 indexpoäng och har över de senaste 4 veckorna ökat 5,75%, medan det under de senaste 12 månaderna har ökat 43,52%</cite>. <cite index=\"7-3,7-5\">S&P 500 var upp nästan 2% i år per 14 april, bara 1% under sitt all-time high som sattes 27 januari, med den cykliska tjurmarknaden som nu är 45 månader stark</cite>. <cite index=\"7-1,7-2\">Även vid sin maximala drawdown som svar på Iran-konflikten föll S&P 500 mindre än 10%, eftersom förväntningar på accelererande vinsttillväxt bland S&P 500-företag kompenserade för P/E-värderingar som sjönk med så mycket som 20%</cite>.",
+        "detail": "🔍 Tekniska nivåer att bevaka: S&P 500 testar 7080-7100 området med stöd vid 6950. VIX på 17.94 (-6.71%) indikerar minskad marknadsoro. NASDAQ-terminer +3.64% visar stark teknikoptimism med resistance vid 26500-nivån.",
+        "outlook": "🎯 Marknadsmomentumet beror på fortsatt stark earnings season och geopolitiska utvecklingar. En breakthrough över S&P 7100 och NASDAQ 26500 skulle kunna trigga ytterligare uppgångar mot 7200 respektive 27000."
+      },
+      {
+        "icon": "📺",
+        "label": "NETFLIX TEKNISK BREAKOUT",
+        "text": "<cite index=\"11-1,11-2,11-7,11-8\">Netflix satte att avslöja sina Q1 2026 finansiella resultat efter marknadsstängning den 16 april, med aktier som visat motståndskraft i år med en ökning på omkring 13,38% year-to-date. NFLX testar nu en nyckelresistanszon mellan 107,85 och 110,40 dollar, och ett ihållande breakout över 110,40 dollar skulle troligen sikta mot 114,50 dollar</cite>. <cite index=\"13-1,13-2,13-4\">Netflix rapporterade EPS på 1,23 dollar som överträffade analytikernas förväntningar på 0,76 dollar med 61,84%</cite>. <cite index=\"11-17,11-18\">12 av 15 analytiker som spåras av Visible Alpha värderar det som 'köp' med ett genomsnittligt kursmål på 118 dollar vilket indikerar cirka 11% uppside</cite>.",
+        "detail": "🔍 Fundamental data: Revenue $12.25B (+16% YoY), reitererade full-year guidance $50.7-51.7B. Ad-segmentet på väg mot $3B revenue (doubling YoY). Tekniskt: Stöd vid $107.85, första target $114.50, sedan $120.50.",
+        "outlook": "🎯 Q2 guidance pekar på 13% revenue growth. Nästa earnings 16 juli. Reed Hastings lämnar styrelsen vilket tyder på organisatorisk mognad. Prisstegringar märks mer i Q2-resultatet."
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJA VOLATIL KRING $90",
+        "text": "<cite index=\"23-4,23-5,23-6\">WTI-råolja för maj-leverans stängde lite oförändrad på 91,29 dollar per fat medan internationella benchmark Brent för juni-leverans stängde 14 cent högre på 94,93 dollar per fat. Amerikanska råoljan föll nästan 8% på tisdag på hopp om att USA-Iran-samtal kunde ge en överenskommelse</cite>. <cite index=\"22-3,22-6\">Analytiker från ING uppskattar att cirka 13 miljoner fat per dag av oljeflödet har störts av stängningen av sundet, med USA-Israel kriget med Iran beskrivet som den största störningen någonsin av globala olje- och gasförsörjningar</cite>. <cite index=\"23-11,23-12\">Goldman Sachs noterade att flödena genom sundet förblir begränsade och löper på bara cirka 10% av normala nivåer, eller cirka 2,1 miljoner fat per dag på ett fyra-dagars glidande medelvärde</cite>.",
+        "detail": "🔍 Teknisk analys: WTI resistance vid $95-96, stöd vid $88-89. Brent key levels: resistance $98-100, stöd $92-93. Contango structure tyder på kortsiktiga leveransproblem. Inventory draws fortsätter i USA.",
+        "outlook": "🎯 Oljepriset beror på Hormuz-utvecklingen. Över $100 om förhandlingar misslyckas, under $85 om full återöppning. Geopolitisk riskpremie på $15-20 per fat kvarstår till stabilitet återvänder."
+      },
+      {
+        "icon": "🏦",
+        "label": "JAPANSKA YEN PÅVERKAS AV BOJ",
+        "text": "<cite index=\"32-1,32-6,32-9,32-10\">Japans kärninflation som exkluderar färsk mat men inkluderar energi steg 1,6% år-över-år i februari 2026, under prognoser på 1,7% och den minsta ökningen sedan mars 2022. Avläsningen kom väl under Bank of Japans 2%-mål och erbjuder liten drivkraft att justera penningpolitiska inställningar, medan BOJ höll sin policyränta stabil på 0,75% som väntat men signalerade en bias mot ytterligare åtstramning</cite>. <cite index=\"32-14,32-15\">Premiärminister Sanae Takaichi rullade ut skatteinitiativ för att lätta på cost-of-living trycket, inklusive förslag att suspendera 8%-skatten på mat och minska bensinskatten</cite>.",
+        "detail": "🔍 BOJ policy rate 0,75%, nästa möte 25 april. USD/JPY trading range 148-152, med intervention risk över 152. Core-core CPI (exkluderar energi och mat) steady vid 1,8%. Yield curve control på 10Y JGB fortfarande aktiv.",
+        "outlook": "🎯 BOJ kan hålla avvaktande position tills inflationen stabiliseras över 2%. YEN-försvagning kan fortsätta om Fed förblir hawkish. Nästa policy-signal kommer från Ueda-tal nästa vecka."
+      }
+    ],
+    "full_pension": [
+      {
+        "icon": "🌱",
+        "label": "GLOBAL TILLVÄXT STÖDJER FONDER",
+        "text": "<cite index=\"7-7,7-8\">Aktiepriser har fallit mindre än vad som skulle förväntas eftersom företagsvinster fortfarande växer snabbt, med den framåtblickande vinstuppskattningen som har vuxit i en robust 17% årlig takt och momentumet har hittills inte påverkats av rubrikerna</cite>. <cite index=\"4-12,4-13,4-14\">Investerare förblev fokuserade på företagsresultat medan optimismen växte, med energi-, material- och fastighetssektorer som ledde vinsterna medan PepsiCo och Bank of New York Mellon rapporterade starka resultat</cite>. <cite index=\"7-3,7-5\">S&P 500 var upp nästan 2% i år per 14 april med den cykliska tjurmarknaden nu 45 månader stark, vilket visar motståndskraft trots geopolitiska utmaningar</cite>.",
+        "tip": "💡 Fokusera på bred geografisk och sektoriell diversifiering i ditt pensionssparande. Starka företagsresultat som Netflix visar tyder på att kvalitetsföretag kan navigera genom osäkra tider. Överväg att öka exponeringen mot globala aktiefonder som innehåller både tillväxt- och värdeaktier för att balansera portföljen under volatila perioder.",
+        "funds": "🏦 AP7 Såfa, som är standardvalet för premiepensionen, investerar brett i globala aktier och drar nytta av denna typ av diversifierad tillväxt. AMF Aktiefond Världen och SPP Global skulle också gynnas av de starka resultaten inom både teknik (Netflix) och traditionella sektorer (energi, material) som nu presterar väl."
+      },
+      {
+        "icon": "💰",
+        "label": "RÅVAROR ÖVERTRÄFFAR AKTIER",
+        "text": "<cite index=\"7-9,7-10\">Råvaror och guld har överträffat aktier hittills 2026, historiskt sett ett kännetecken för björnmarknader, men Timmer varnar att råvaror är för volatila för att vara en stor långsiktig innehav för de flesta investerare</cite>. <cite index=\"22-6,22-7,22-9\">Den USA-israeliska kriget med Iran har skapat den största störningen någonsin av globala olje- och gasförsörjningar, vilket har börjat belasta globala oljeinventarier med amerikanska råoljeinventarier som föll med 913,000 fat förra veckan</cite>. <cite index=\"25-17\">Energi- och råvarumarknaderna kommer sannolikt att förbli på en strukturellt högre golv oavsett vapenvila-utfallet, eftersom regeringar samlar och återlager i väntan på förnyad konflikt</cite>.",
+        "tip": "💡 Håll begränsad direkt exponering mot råvaror och energi - max 5-10% av din totala portfölj. Istället för direkta råvaruinvesteringar, överväg fonder som innehåller energi- och materialföretag som kan dra nytta av högre råvarupriser men med mindre volatilitet än själva råvarorna. Guldinslag kan fungera som hedge mot inflation.",
+        "funds": "🏦 AP-fonderna har typiskt begränsad råvaruexponering vilket är klokt given volatiliteten. SPP Multifactor och AMF Balanserad innehåller indirekta råvaruexponeringar genom energi- och materialföretag. Första AP-fonden har även små guld- och råvarutillgångar som hedge mot inflation och geopolitisk risk."
+      },
+      {
+        "icon": "📈",
+        "label": "60/40 STRATEGI UTMANAD",
+        "text": "<cite index=\"7-11,7-12,7-13,7-14\">Traditionella diversifieringsstrategier som 60/40-mixen av aktier och obligationer har utmanats eftersom aktier och obligationer generellt rör sig i samma riktning. Räntemarknader kan dock fortsätta uppleva volatilitet med avkastningen på 10-åriga statsobligationer som fortsatt sväva nära 4,5% - historiskt sett en tröskel för marknadstress</cite>. <cite index=\"25-16,25-17\">Det finns fortfarande låg synlighet och begränsad förutsägbarhet om vapenvilan håller, med tail-risker som kvarstår om sundet förblir stängt i ytterligare två till fyra månader, vilket håller energipriser förhöjda</cite>.",
+        "tip": "💡 Överväg att modifiera den traditionella 60/40-strategin genom att lägga till alternativa tillgångsklasser som REIT (fastighetsfonder), infrastrukturfonder eller multi-asset fonder som kan justera allokeringen dynamiskt. Med räntor på 4,5% kan högkvalitativa obligationer faktiskt bli attraktiva igen efter år av låga räntor.",
+        "funds": "🏦 AP7 Såfa använder redan en dynamisk approach som kan anpassa aktie/obligationsfördelningen. AMF Balanserad och SPP Balanserad erbjuder professionell förvaltning som justerar mellan tillgångsklasser baserat på marknadsförhållanden. Överväg även AP2 och AP3s alternativa investeringsstrategier via deras externa förvaltare."
+      },
+      {
+        "icon": "🎯",
+        "label": "LÅNGSIKTIGT PERSPEKTIV VIKTIG",
+        "text": "<cite index=\"7-15\">För investerare idag är lärdomen att förbli diversifierad men vara beredd på potentiellt långsammare, mer ojämna vinster under överskådlig framtid</cite>. <cite index=\"7-6,7-7\">En 10% nedgång händer ungefär vartannat år och man kan säga att det inte är så mycket, med tanke på allt dåligt som händer, eftersom aktiepriser har fallit mindre än väntat på grund av att företagsvinster fortfarande växer snabbt</cite>. <cite index=\"25-18,25-21,25-23\">Det finns enorm vilja från både Washington och Teheran att få detta krig att ta slut, men det är en mycket ömtålig ordning med ett djupt förtroendedeficit på båda sidor och deep skepticism om USA:s intentioner från Teherans sida</cite>.",
+        "tip": "💡 Bibehåll regelbunden månadsinsättning i ditt pensionssparande oavsett kortsiktig volatilitet - detta kallas 'dollar cost averaging' och hjälper dig köpa mer andelar när priserna är låga. Med 30-40 år till pension kan du rida ut geopolitiska stormar. Fokusera på kostnadseffektiva indexfonder och undvik att göra emotionella förändringar baserat på nyheter.",
+        "funds": "🏦 Premiepensionssystemet med AP7 som standardval är utformat för långsiktigt sparande och automatisk diversifiering. För de som vill vara mer aktiva: SPP Generation fonder justerar automatiskt risk-nivån baserat på din ålder, medan AMF Pension erbjuder låga avgifter och bred diversifiering som passar långsiktigt sparande."
+      }
+    ],
+    "futures": {
+      "S&P 500 Futures": {
+        "price": 7080.25,
+        "change": 2.28,
+        "prev": 6922.75
+      },
+      "NASDAQ Futures": {
+        "price": 26474.25,
+        "change": 3.64,
+        "prev": 25543.5
+      },
+      "DAX": {
+        "price": 24154.47,
+        "change": 1.46,
+        "prev": 23806.99
+      },
+      "Olja (WTI)": {
+        "price": 89.88,
+        "change": -9.29,
+        "prev": 99.08
+      },
+      "Guld": {
+        "price": 4813.8,
+        "change": 1.51,
+        "prev": 4742.4
+      },
+      "VIX": {
+        "price": 17.94,
+        "change": -6.71,
+        "prev": 19.23
+      }
+    },
+    "quotes": {
+      "OMX30": {
+        "price": 3120.75,
+        "change": 0.08,
+        "prev": 3118.41
+      },
+      "S&P 500": {
+        "price": 7041.28,
+        "change": 3.17,
+        "prev": 6824.66
+      },
+      "NASDAQ": {
+        "price": 24102.7,
+        "change": 5.61,
+        "prev": 22822.42
+      },
+      "EUR/USD": {
+        "price": 1.18,
+        "change": 1.07,
+        "prev": 1.17
+      },
+      "USD/SEK": {
+        "price": 9.19,
+        "change": -1.44,
+        "prev": 9.32
+      },
+      "EUR/SEK": {
+        "price": 10.82,
+        "change": -0.64,
+        "prev": 10.89
+      },
+      "BTC/USD": {
+        "price": 74625.02,
+        "change": -0.46,
+        "prev": 74968.41
+      }
+    }
+  },
+  {
     "date": "Thursday 16 April 2026",
     "date_short": "16 Apr 2026",
     "generated": "2026-04-16T02:53:39.214135",
