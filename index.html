@@ -324,7 +324,13 @@ nav.scrolled{background:rgba(26,18,8,0.92);backdrop-filter:blur(24px);-webkit-ba
 .rs-filter{padding:7px 18px;border-radius:var(--r-xl);font-family:'DM Mono',monospace;font-size:0.63rem;letter-spacing:0.08em;text-transform:uppercase;cursor:pointer;border:1px solid var(--glass-border);background:var(--glass);color:var(--muted);transition:all 0.2s;}
 .rs-filter.active{border-color:var(--gold);color:var(--gold);background:var(--gold-dim);}
 .rs-filter:hover:not(.active){border-color:rgba(212,165,90,0.3);color:var(--latte);}
-@media(max-width:860px){
+.ham-line{display:block;width:22px;height:2px;background:var(--cream);border-radius:2px;transition:all 0.3s;}
+#mobile-menu{display:none;position:fixed;inset:0;top:52px;background:rgba(26,18,8,0.98);backdrop-filter:blur(24px);z-index:199;flex-direction:column;align-items:center;justify-content:center;gap:8px;}
+#mobile-menu.open{display:flex;}
+.mob-link{font-size:1.1rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);cursor:pointer;background:none;border:none;font-family:'DM Sans',sans-serif;padding:14px 32px;border-radius:var(--r-lg);width:240px;text-align:center;transition:all 0.2s;}
+.mob-link:hover{color:var(--cream);background:var(--glass);}
+.mob-cta{background:linear-gradient(135deg,var(--latte),var(--gold));color:#1a1208;border:none;padding:13px 32px;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;cursor:pointer;border-radius:var(--r-xl);margin-top:16px;width:240px;}
+  @media(max-width:860px){
   nav{padding:11px 16px;}.nav-center{display:none;}
   .level-cards,.abg,.analys-grid{grid-template-columns:1fr;}
   .analys-full{grid-column:auto;}
@@ -335,7 +341,8 @@ nav.scrolled{background:rgba(26,18,8,0.92);backdrop-filter:blur(24px);-webkit-ba
   .hem-main,.archive-wrap{padding:0 16px 60px;}
   .how-section{padding:0 16px 48px;}
   .disk-input-row{flex-direction:column;}.disk-name{width:100%;}
-  #peab-sidebar{display:none;}
+  #peab-sidebar{display:none;#hamburger{display:flex !important;}
+.nav-right .nav-cta{display:none;}}
 }
   
 </style>
@@ -361,10 +368,29 @@ nav.scrolled{background:rgba(26,18,8,0.92);backdrop-filter:blur(24px);-webkit-ba
     <button class="nav-link"        id="nav-diskussion" onclick="showPage('diskussion')">Diskussion</button>
     <button class="nav-link"        id="nav-about"      onclick="showPage('about')">Om oss</button>
   </div>
+  <button id="hamburger" onclick="toggleMobileMenu()" style="display:none;background:none;border:none;cursor:pointer;padding:5px;flex-direction:column;gap:5px;z-index:201">
+  <span class="ham-line"></span>
+  <span class="ham-line"></span>
+  <span class="ham-line"></span>
+</button>
   <div class="nav-right">
     <button class="nav-cta" onclick="showPage('main')">Prenumerera gratis</button>
   </div>
 </nav>
+  <button id="hamburger" onclick="toggleMobileMenu()" style="display:none;background:none;border:none;cursor:pointer;padding:5px;flex-direction:column;gap:5px;z-index:201">
+  <span class="ham-line"></span>
+  <span class="ham-line"></span>
+  <span class="ham-line"></span>
+</button>
+
+<div id="mobile-menu">
+  <button class="mob-link" onclick="showPage('hem');toggleMobileMenu()">Hem</button>
+  <button class="mob-link" onclick="showPage('main');toggleMobileMenu()">Nivåer</button>
+  <button class="mob-link" onclick="showPage('analys');toggleMobileMenu()">Analys</button>
+  <button class="mob-link" onclick="showPage('diskussion');toggleMobileMenu()">Diskussion</button>
+  <button class="mob-link" onclick="showPage('about');toggleMobileMenu()">Om oss</button>
+  <button class="mob-cta" onclick="showPage('main');toggleMobileMenu()">Prenumerera gratis</button>
+</div>
 
 <!-- ==================== HEM ==================== -->
 <div id="page-hem" class="page active">
@@ -1093,6 +1119,16 @@ const chatHist={},bLoaded={beginner:false,analyst:false,pension:false};
 // ── NAV ──
 window.addEventListener('scroll',()=>document.getElementById('nav').classList.toggle('scrolled',window.scrollY>40));
 function showToast(msg){const t=document.getElementById('toast');document.getElementById('toast-msg').textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),3000);}
+  function toggleMobileMenu(){
+  const m=document.getElementById('mobile-menu');
+  const h=document.getElementById('hamburger');
+  m.classList.toggle('open');
+  const open=m.classList.contains('open');
+  h.querySelectorAll('.ham-line').forEach((l,i)=>{
+    l.style.transform=open?(i===0?'rotate(45deg) translate(5px,5px)':i===2?'rotate(-45deg) translate(5px,-5px)':''):'';
+    l.style.opacity=open&&i===1?'0':'1';
+  });
+}
 function showPage(id){
   document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
   document.getElementById('page-'+id).classList.add('active');
