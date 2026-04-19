@@ -778,7 +778,9 @@ nav.scrolled{background:rgba(26,18,8,0.92);backdrop-filter:blur(24px);-webkit-ba
 </div>
 </div>
 <!-- ==================== PEAB OVERLAY ==================== -->
-<div id="peab-sidebar" style="flex:1;padding:60px 32px;display:flex;flex-direction:column;justify-content:center;gap:12px;max-width:280px">
+
+  <div id="peab-overlay" style="display:none;position:fixed;inset:0;background:rgba(26,18,8,0.88);backdrop-filter:blur(8px);z-index:300;align-items:flex-start;justify-content:flex-end">
+    <div id="peab-sidebar" style="flex:1;padding:60px 32px;display:flex;flex-direction:column;justify-content:center;gap:12px;max-width:280px">
   <div style="font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:8px">Nyckeltal · PEAB B</div>
   <div style="background:rgba(255,240,215,0.05);border:1px solid var(--glass-border);border-radius:var(--r-md);padding:14px 16px;display:flex;justify-content:space-between;align-items:baseline"><span style="font-family:'DM Mono',monospace;font-size:0.68rem;color:var(--muted)">Börsvärde</span><span style="font-family:'DM Mono',monospace;font-size:0.82rem;color:var(--cream);font-weight:500">29,8 Mdr</span></div>
   <div style="background:rgba(255,240,215,0.05);border:1px solid var(--glass-border);border-radius:var(--r-md);padding:14px 16px;display:flex;justify-content:space-between;align-items:baseline"><span style="font-family:'DM Mono',monospace;font-size:0.68rem;color:var(--muted)">P/E (2025E)</span><span style="font-family:'DM Mono',monospace;font-size:0.82rem;color:var(--cream);font-weight:500">16,9x</span></div>
@@ -791,7 +793,6 @@ nav.scrolled{background:rgba(26,18,8,0.92);backdrop-filter:blur(24px);-webkit-ba
   <div style="background:rgba(255,240,215,0.05);border:1px solid var(--glass-border);border-radius:var(--r-md);padding:14px 16px;display:flex;justify-content:space-between;align-items:baseline"><span style="font-family:'DM Mono',monospace;font-size:0.68rem;color:var(--muted)">Piotroski F-score</span><span style="font-family:'DM Mono',monospace;font-size:0.82rem;color:var(--green);font-weight:500">7 / 9</span></div>
   <div style="margin-top:8px;font-family:'DM Mono',monospace;font-size:0.58rem;color:var(--muted);line-height:1.6">Data per Q4 2025. Bokslutskommuniké feb 2026.</div>
 </div>
-  <div id="peab-overlay" style="display:none;position:fixed;inset:0;background:rgba(26,18,8,0.88);backdrop-filter:blur(8px);z-index:300;align-items:flex-start;justify-content:flex-end">
   <div id="peab-panel" style="width:min(720px,100vw);height:100vh;background:var(--bg);border-left:1px solid var(--glass-border);overflow-y:auto;padding:40px 36px;animation:peabSlide 0.3s ease">
 
     <button onclick="closePeabPanel()" style="background:none;border:none;color:var(--muted);font-size:1.4rem;cursor:pointer;float:right;line-height:1;padding:0 0 12px 12px;transition:color .2s" onmouseover="this.style.color='var(--cream)'" onmouseout="this.style.color='var(--muted)'">×</button>
