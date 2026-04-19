@@ -4,262 +4,335 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <title>Espresso Market – Marknaden, brygd till perfektion</title>
+<meta name="description" content="AI-genererade marknadsnyheter för nybörjare, analytiker och pensionssparare. Gratis varje vardag kl. 07:00."/>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,500;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
 <style>
 :root{
   --bg:#1a1208;--blob1:#6b3d1e;--blob2:#8B5e3c;--blob3:#3d2510;
   --glass:rgba(255,240,215,0.07);--glass-border:rgba(255,225,175,0.15);
-  --gold:#d4a55a;--gold-dim:rgba(212,165,90,0.15);
-  --cream:#f5ead6;--latte:#c49a6c;
+  --glass-hover:rgba(255,240,215,0.11);
+  --gold:#d4a55a;--gold-dim:rgba(212,165,90,0.14);
+  --cream:#f5ead6;--cream2:#e8d8be;--latte:#c49a6c;
   --muted:#8a7560;--text:#ede0cc;--green:#5bbf8a;--red:#e06060;--blue:#7ab3d4;
   --beginner:#7ab3d4;--analyst:#d4a55a;--pension:#5bbf8a;
-  --r-sm:12px;--r-md:16px;--r-lg:24px;--r-xl:32px;
+  --r-sm:10px;--r-md:14px;--r-lg:20px;--r-xl:28px;
 }
 *{margin:0;padding:0;box-sizing:border-box;}
 html{scroll-behavior:smooth;}
 body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;font-weight:300;overflow-x:hidden;}
 body::after{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");pointer-events:none;z-index:999;}
 .bg-blobs{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden;}
-.blob{position:absolute;border-radius:50%;filter:blur(80px);opacity:0.3;animation:bd 18s ease-in-out infinite;}
-.blob-1{width:600px;height:600px;background:var(--blob1);top:-100px;left:-150px;}
-.blob-2{width:500px;height:500px;background:var(--blob2);top:40%;right:-100px;animation-delay:6s;}
-.blob-3{width:400px;height:400px;background:var(--blob3);bottom:-80px;left:30%;animation-delay:12s;}
-@keyframes bd{0%,100%{transform:translate(0,0) scale(1);}33%{transform:translate(30px,-20px) scale(1.05);}66%{transform:translate(-20px,30px) scale(0.95);}}
-.glass{background:var(--glass);backdrop-filter:blur(20px);border:1px solid var(--glass-border);border-radius:var(--r-lg);}
-.glass-sm{background:var(--glass);backdrop-filter:blur(16px);border:1px solid var(--glass-border);border-radius:var(--r-md);}
+.blob{position:absolute;border-radius:50%;filter:blur(90px);opacity:0.28;animation:bd 20s ease-in-out infinite;}
+.blob-1{width:580px;height:580px;background:var(--blob1);top:-120px;left:-160px;}
+.blob-2{width:480px;height:480px;background:var(--blob2);top:40%;right:-120px;animation-delay:7s;}
+.blob-3{width:380px;height:380px;background:var(--blob3);bottom:-80px;left:28%;animation-delay:13s;}
+@keyframes bd{0%,100%{transform:translate(0,0) scale(1);}33%{transform:translate(28px,-18px) scale(1.04);}66%{transform:translate(-18px,28px) scale(0.96);}}
 @keyframes pd{0%,100%{opacity:1;}50%{opacity:0.3;}}
+@keyframes spin{to{transform:rotate(360deg);}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(18px);}to{opacity:1;transform:translateY(0);}}
+.glass{background:var(--glass);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid var(--glass-border);border-radius:var(--r-lg);}
+.glass-sm{background:var(--glass);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid var(--glass-border);border-radius:var(--r-md);}
 
-/* NAV */
+/* ── NAV ── */
 nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:13px 44px;display:flex;align-items:center;justify-content:space-between;transition:all 0.4s;}
-nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bottom:1px solid var(--glass-border);}
-.nav-logo{display:flex;align-items:center;gap:10px;font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:700;color:var(--cream);cursor:pointer;}
+nav.scrolled{background:rgba(26,18,8,0.92);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border-bottom:1px solid var(--glass-border);}
+.nav-logo{display:flex;align-items:center;gap:10px;font-family:'Cormorant Garamond',serif;font-size:1.18rem;font-weight:700;color:var(--cream);cursor:pointer;letter-spacing:0.01em;}
 .nav-center{display:flex;gap:2px;}
 .nav-link{font-size:0.7rem;letter-spacing:0.06em;text-transform:uppercase;color:var(--muted);cursor:pointer;transition:all 0.2s;background:none;border:none;font-family:'DM Sans',sans-serif;padding:5px 11px;border-radius:var(--r-sm);}
 .nav-link:hover{color:var(--cream);background:var(--glass);}
 .nav-link.active{color:var(--gold);background:var(--gold-dim);}
-.nav-right{display:flex;align-items:center;gap:9px;}
-.sub-badge{display:flex;align-items:center;gap:5px;font-family:'DM Mono',monospace;font-size:0.66rem;color:var(--green);padding:4px 10px;border-radius:var(--r-xl);background:rgba(91,191,138,0.1);border:1px solid rgba(91,191,138,0.25);}
-.sub-dot{width:5px;height:5px;border-radius:50%;background:var(--green);animation:pd 1.5s ease-in-out infinite;}
-.nav-cta{background:linear-gradient(135deg,var(--latte),var(--gold));color:#1a1208;border:none;padding:7px 16px;font-family:'DM Sans',sans-serif;font-size:0.7rem;font-weight:500;letter-spacing:0.07em;text-transform:uppercase;cursor:pointer;border-radius:var(--r-xl);white-space:nowrap;}
+.nav-right{display:flex;align-items:center;gap:10px;}
+.sub-dot{width:5px;height:5px;border-radius:50%;background:var(--green);animation:pd 1.5s ease-in-out infinite;flex-shrink:0;}
+.nav-cta{background:linear-gradient(135deg,var(--latte),var(--gold));color:#1a1208;border:none;padding:7px 18px;font-family:'DM Sans',sans-serif;font-size:0.7rem;font-weight:500;letter-spacing:0.07em;text-transform:uppercase;cursor:pointer;border-radius:var(--r-xl);white-space:nowrap;transition:all 0.2s;box-shadow:0 3px 12px rgba(212,165,90,0.25);}
+.nav-cta:hover{transform:translateY(-1px);box-shadow:0 5px 20px rgba(212,165,90,0.4);}
 .page{display:none;position:relative;z-index:1;}.page.active{display:block;}
 
-/* TRADINGVIEW TICKER */
+/* ── TRADINGVIEW ── */
 .tv-ticker-wrap{border-top:1px solid var(--glass-border);border-bottom:1px solid var(--glass-border);background:rgba(255,240,215,0.03);position:relative;z-index:1;}
 .tv-ticker-wrap .tradingview-widget-container{height:46px;}
 
-/* HEM */
-.hem-hero{min-height:38vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:120px 20px 36px;position:relative;}
-.hem-hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse 70% 60% at 50% 60%,rgba(107,61,30,0.25) 0%,transparent 70%);}
-.hem-hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,5vw,3.8rem);font-weight:700;line-height:1;color:var(--cream);position:relative;z-index:1;}
+/* ── HEM ── */
+.hem-hero{min-height:92vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:120px 20px 40px;position:relative;}
+.hem-hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse 70% 60% at 50% 60%,rgba(107,61,30,0.22) 0%,transparent 70%);}
+.hem-eyebrow{font-family:'DM Mono',monospace;font-size:0.63rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--gold);margin-bottom:18px;position:relative;z-index:1;display:flex;align-items:center;gap:10px;justify-content:center;}
+.hem-eyebrow::before,.hem-eyebrow::after{content:'';width:28px;height:1px;background:var(--gold);opacity:0.4;}
+.hem-hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,5vw,3.6rem);font-weight:700;line-height:1.05;color:var(--cream);position:relative;z-index:1;animation:fadeUp 0.9s ease forwards;}
 .hem-hero h1 em{font-style:italic;color:var(--gold);}
-.hem-date{font-family:'DM Mono',monospace;font-size:0.65rem;color:var(--muted);letter-spacing:0.15em;text-transform:uppercase;margin-top:10px;position:relative;z-index:1;}
+.hem-date{font-family:'DM Mono',monospace;font-size:0.63rem;color:var(--muted);letter-spacing:0.14em;text-transform:uppercase;margin-top:10px;position:relative;z-index:1;}
+
+/* ── HERO CTA AREA ── */
+.hem-hero-ctas{display:flex;flex-direction:column;align-items:center;gap:16px;margin-top:32px;position:relative;z-index:1;animation:fadeUp 0.9s 0.15s ease both;}
+.hem-cta-primary{background:linear-gradient(135deg,var(--latte),var(--gold));color:#1a1208;border:none;padding:13px 32px;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;cursor:pointer;border-radius:var(--r-xl);box-shadow:0 6px 24px rgba(212,165,90,0.3);transition:all 0.2s;}
+.hem-cta-primary:hover{transform:translateY(-2px);box-shadow:0 10px 32px rgba(212,165,90,0.45);}
+.hem-cta-sub{font-family:'DM Mono',monospace;font-size:0.65rem;color:var(--muted);letter-spacing:0.08em;}
+
+/* ── HOW IT WORKS ── */
+.how-section{position:relative;z-index:1;max-width:820px;margin:0 auto;padding:0 44px 56px;animation:fadeUp 0.9s 0.3s ease both;}
+.how-label{font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);text-align:center;margin-bottom:28px;}
+.how-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--glass-border);border:1px solid var(--glass-border);border-radius:var(--r-lg);overflow:hidden;}
+.how-step{padding:28px 24px;background:rgba(26,18,8,0.6);backdrop-filter:blur(16px);position:relative;}
+.how-step::after{content:'';position:absolute;right:-1px;top:20%;bottom:20%;width:1px;background:var(--glass-border);}
+.how-step:last-child::after{display:none;}
+.how-num{font-family:'Cormorant Garamond',serif;font-size:2.4rem;font-weight:700;color:var(--gold);opacity:0.25;line-height:1;margin-bottom:10px;}
+.how-title{font-family:'Cormorant Garamond',serif;font-size:1rem;font-weight:600;color:var(--cream);margin-bottom:6px;}
+.how-desc{font-size:0.77rem;color:var(--muted);line-height:1.65;}
+
+/* ── MAIN CONTENT ── */
 .hem-main{max-width:900px;margin:0 auto;padding:0 44px 60px;}
 .hem-loading{text-align:center;padding:80px 20px;}
-.hem-headline{font-family:'Cormorant Garamond',serif;font-size:clamp(1.5rem,3vw,2.4rem);color:var(--cream);font-weight:700;line-height:1.15;margin-bottom:6px;text-align:center;}
-.hem-subline{font-size:0.78rem;color:var(--muted);text-align:center;margin-bottom:28px;font-family:'DM Mono',monospace;letter-spacing:0.08em;}
-
-/* Tabs */
-.hem-tabs{display:flex;gap:8px;justify-content:center;margin-bottom:28px;flex-wrap:wrap;}
-.hem-tab{padding:8px 20px;border-radius:var(--r-xl);font-family:'DM Mono',monospace;font-size:0.64rem;letter-spacing:0.08em;text-transform:uppercase;cursor:pointer;border:1px solid var(--glass-border);background:var(--glass);color:var(--muted);transition:all 0.2s;}
+.hem-headline{font-family:'Cormorant Garamond',serif;font-size:clamp(1.5rem,3vw,2.3rem);color:var(--cream);font-weight:700;line-height:1.15;margin-bottom:6px;text-align:center;}
+.hem-subline{font-size:0.76rem;color:var(--muted);text-align:center;margin-bottom:26px;font-family:'DM Mono',monospace;letter-spacing:0.08em;}
+.hem-tabs{display:flex;gap:8px;justify-content:center;margin-bottom:26px;flex-wrap:wrap;}
+.hem-tab{padding:7px 18px;border-radius:var(--r-xl);font-family:'DM Mono',monospace;font-size:0.63rem;letter-spacing:0.08em;text-transform:uppercase;cursor:pointer;border:1px solid var(--glass-border);background:var(--glass);color:var(--muted);transition:all 0.2s;}
 .hem-tab.t-beg.active{border-color:var(--beginner);color:var(--beginner);background:rgba(122,179,212,0.1);}
 .hem-tab.t-ana.active{border-color:var(--analyst);color:var(--analyst);background:rgba(212,165,90,0.1);}
 .hem-tab.t-pen.active{border-color:var(--pension);color:var(--pension);background:rgba(91,191,138,0.1);}
-
-/* Briefing items */
-.hem-items{display:none;flex-direction:column;gap:14px;margin-bottom:20px;}
+.hem-items{display:none;flex-direction:column;gap:12px;margin-bottom:18px;}
 .hem-items.show{display:flex;}
-.hem-item{padding:22px 26px;border-radius:var(--r-lg);border:1px solid var(--glass-border);background:var(--glass);}
-.hem-item-top{display:flex;align-items:center;gap:10px;margin-bottom:12px;}
-.hem-item-icon{font-size:1.4rem;}
-.hem-item-label{font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.14em;text-transform:uppercase;}
-.hem-item-text{font-size:0.92rem;line-height:1.78;color:var(--text);margin-bottom:10px;}
-.hem-item-block{padding:11px 15px;border-radius:var(--r-sm);font-size:0.82rem;line-height:1.65;color:var(--muted);border-left:3px solid;margin-top:8px;}
-.hem-sources{font-family:'DM Mono',monospace;font-size:0.62rem;color:var(--muted);text-align:center;margin-bottom:24px;}
+.hem-item{padding:20px 24px;border-radius:var(--r-lg);border:1px solid var(--glass-border);background:var(--glass);}
+.hem-item-top{display:flex;align-items:center;gap:10px;margin-bottom:11px;}
+.hem-item-label{font-family:'DM Mono',monospace;font-size:0.61rem;letter-spacing:0.14em;text-transform:uppercase;}
+.hem-item-text{font-size:0.9rem;line-height:1.76;color:var(--text);margin-bottom:8px;}
+.hem-item-block{padding:10px 14px;border-radius:var(--r-sm);font-size:0.8rem;line-height:1.65;color:var(--muted);border-left:2px solid;margin-top:8px;}
+.hem-sources{font-family:'DM Mono',monospace;font-size:0.61rem;color:var(--muted);text-align:center;margin-bottom:22px;}
 .hem-ctas{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:8px;}
-.hem-cta-btn{padding:11px 22px;border-radius:var(--r-xl);font-family:'DM Sans',sans-serif;font-size:0.76rem;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;cursor:pointer;border:none;transition:all 0.2s;}
+.hem-cta-btn{padding:10px 20px;border-radius:var(--r-xl);font-family:'DM Sans',sans-serif;font-size:0.74rem;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;cursor:pointer;border:none;transition:all 0.2s;}
 .hem-cta-btn:hover{transform:translateY(-2px);}
-.hem-cta-btn.beg{background:rgba(122,179,212,0.15);color:var(--beginner);border:1px solid rgba(122,179,212,0.3);}
+.hem-cta-btn.beg{background:rgba(122,179,212,0.13);color:var(--beginner);border:1px solid rgba(122,179,212,0.28);}
 .hem-cta-btn.ana{background:linear-gradient(135deg,var(--latte),var(--gold));color:#1a1208;}
-.hem-cta-btn.pen{background:rgba(91,191,138,0.15);color:var(--pension);border:1px solid rgba(91,191,138,0.3);}
+.hem-cta-btn.pen{background:rgba(91,191,138,0.13);color:var(--pension);border:1px solid rgba(91,191,138,0.28);}
 
-/* ARCHIVE */
+/* ── ARCHIVE ── */
 .archive-wrap{max-width:900px;margin:0 auto;padding:0 44px 80px;}
-.archive-divider{border-top:1px solid var(--glass-border);padding-top:48px;margin-bottom:28px;}
-.archive-heading{font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:700;color:var(--cream);margin-bottom:6px;}
-.archive-desc{font-size:0.82rem;color:var(--muted);margin-bottom:24px;}
-.archive-list{display:flex;flex-direction:column;gap:10px;}
-.arc-item{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 24px;border-radius:var(--r-lg);border:1px solid var(--glass-border);background:var(--glass);cursor:pointer;transition:all 0.25s;}
-.arc-item:hover{border-color:rgba(212,165,90,0.35);background:rgba(255,240,215,0.1);transform:translateX(5px);}
+.archive-divider{border-top:1px solid var(--glass-border);padding-top:44px;margin-bottom:24px;}
+.archive-heading{font-family:'Cormorant Garamond',serif;font-size:1.9rem;font-weight:700;color:var(--cream);margin-bottom:5px;}
+.archive-desc{font-size:0.8rem;color:var(--muted);margin-bottom:22px;}
+.archive-list{display:flex;flex-direction:column;gap:9px;}
+.arc-item{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 22px;border-radius:var(--r-lg);border:1px solid var(--glass-border);background:var(--glass);cursor:pointer;transition:all 0.22s;}
+.arc-item:hover{border-color:rgba(212,165,90,0.32);background:rgba(255,240,215,0.09);transform:translateX(4px);}
 .arc-left{flex:1;}
-.arc-date{font-family:'DM Mono',monospace;font-size:0.62rem;color:var(--gold);letter-spacing:0.1em;margin-bottom:5px;}
-.arc-headline{font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--cream);font-weight:600;line-height:1.25;}
-.arc-preview{font-size:0.78rem;color:var(--muted);margin-top:5px;line-height:1.5;}
-.arc-arrow{color:var(--muted);font-size:1.1rem;flex-shrink:0;}
-.archive-empty{font-family:'DM Mono',monospace;font-size:0.76rem;color:var(--muted);text-align:center;padding:40px;border:1px solid var(--glass-border);border-radius:var(--r-lg);}
+.arc-date{font-family:'DM Mono',monospace;font-size:0.6rem;color:var(--gold);letter-spacing:0.1em;margin-bottom:4px;}
+.arc-headline{font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--cream);font-weight:600;line-height:1.25;}
+.arc-preview{font-size:0.76rem;color:var(--muted);margin-top:4px;line-height:1.5;}
+.arc-arrow{color:var(--muted);font-size:1rem;flex-shrink:0;}
+.archive-empty{font-family:'DM Mono',monospace;font-size:0.74rem;color:var(--muted);text-align:center;padding:36px;border:1px solid var(--glass-border);border-radius:var(--r-lg);}
 
-/* FULL BRIEFING */
-.full-page{min-height:100vh;padding:96px 44px 70px;max-width:900px;margin:0 auto;}
-.full-back{display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',monospace;font-size:0.66rem;color:var(--muted);cursor:pointer;margin-bottom:28px;background:none;border:none;letter-spacing:0.08em;text-transform:uppercase;transition:color 0.2s;}
+/* ── FULL BRIEFING ── */
+.full-page{min-height:100vh;padding:96px 44px 70px;max-width:860px;margin:0 auto;}
+.full-back{display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',monospace;font-size:0.64rem;color:var(--muted);cursor:pointer;margin-bottom:26px;background:none;border:none;letter-spacing:0.08em;text-transform:uppercase;transition:color 0.2s;}
 .full-back:hover{color:var(--gold);}
-.full-badge{display:inline-flex;align-items:center;gap:7px;padding:5px 14px;border-radius:var(--r-xl);font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:16px;}
-.full-headline{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4.5vw,3.2rem);font-weight:700;color:var(--cream);line-height:1.05;margin-bottom:8px;}
-.full-date{font-family:'DM Mono',monospace;font-size:0.65rem;color:var(--muted);letter-spacing:0.12em;margin-bottom:28px;}
-.full-tabs{display:flex;gap:6px;margin-bottom:28px;flex-wrap:wrap;}
-.full-tab{padding:7px 18px;border-radius:var(--r-xl);font-family:'DM Mono',monospace;font-size:0.64rem;letter-spacing:0.08em;text-transform:uppercase;cursor:pointer;border:1px solid var(--glass-border);background:var(--glass);color:var(--muted);transition:all 0.2s;}
+.full-badge{display:inline-flex;align-items:center;gap:7px;padding:5px 13px;border-radius:var(--r-xl);font-family:'DM Mono',monospace;font-size:0.61rem;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:14px;}
+.full-headline{font-family:'Cormorant Garamond',serif;font-size:clamp(1.9rem,4.5vw,3rem);font-weight:700;color:var(--cream);line-height:1.05;margin-bottom:7px;}
+.full-date{font-family:'DM Mono',monospace;font-size:0.63rem;color:var(--muted);letter-spacing:0.12em;margin-bottom:26px;}
+.full-tabs{display:flex;gap:6px;margin-bottom:26px;flex-wrap:wrap;}
+.full-tab{padding:6px 16px;border-radius:var(--r-xl);font-family:'DM Mono',monospace;font-size:0.63rem;letter-spacing:0.08em;text-transform:uppercase;cursor:pointer;border:1px solid var(--glass-border);background:var(--glass);color:var(--muted);transition:all 0.2s;}
 .full-tab.t-beg.active{border-color:var(--beginner);color:var(--beginner);background:rgba(122,179,212,0.1);}
 .full-tab.t-ana.active{border-color:var(--analyst);color:var(--analyst);background:rgba(212,165,90,0.1);}
 .full-tab.t-pen.active{border-color:var(--pension);color:var(--pension);background:rgba(91,191,138,0.1);}
 .full-content{display:none;}.full-content.show{display:block;}
-.full-items{display:flex;flex-direction:column;gap:16px;}
-.full-item{padding:24px 28px;border-radius:var(--r-lg);border:1px solid var(--glass-border);background:var(--glass);}
-.full-item-top{display:flex;align-items:center;gap:11px;margin-bottom:14px;}
-.full-item-icon{font-size:1.5rem;}
-.full-item-label{font-family:'DM Mono',monospace;font-size:0.63rem;letter-spacing:0.14em;text-transform:uppercase;}
-.full-item-text{font-size:0.94rem;line-height:1.8;color:var(--text);margin-bottom:12px;}
-.full-item-block{padding:12px 16px;border-radius:var(--r-sm);font-size:0.84rem;line-height:1.65;color:var(--muted);border-left:3px solid;margin-top:10px;}
-.full-sources{font-family:'DM Mono',monospace;font-size:0.62rem;color:var(--muted);margin-top:24px;padding-top:18px;border-top:1px solid var(--glass-border);}
+.full-items{display:flex;flex-direction:column;gap:14px;}
+.full-item{padding:22px 26px;border-radius:var(--r-lg);border:1px solid var(--glass-border);background:var(--glass);}
+.full-item-top{display:flex;align-items:center;gap:10px;margin-bottom:12px;}
+.full-item-label{font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.14em;text-transform:uppercase;}
+.full-item-text{font-size:0.92rem;line-height:1.8;color:var(--text);margin-bottom:10px;}
+.full-item-block{padding:11px 15px;border-radius:var(--r-sm);font-size:0.82rem;line-height:1.65;color:var(--muted);border-left:2px solid;margin-top:9px;}
+.full-sources{font-family:'DM Mono',monospace;font-size:0.61rem;color:var(--muted);margin-top:22px;padding-top:16px;border-top:1px solid var(--glass-border);}
 
-/* NIVÅER */
+/* ── NIVÅER ── */
 .main-hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:110px 20px 60px;position:relative;}
-.main-hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse 70% 60% at 50% 60%,rgba(107,61,30,0.25) 0%,transparent 70%);}
-.main-hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2.8rem,7.5vw,6rem);font-weight:700;line-height:0.95;color:var(--cream);position:relative;z-index:1;}
+.main-hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse 70% 60% at 50% 60%,rgba(107,61,30,0.22) 0%,transparent 70%);}
+.main-hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2.8rem,7vw,5.6rem);font-weight:700;line-height:0.96;color:var(--cream);position:relative;z-index:1;}
 .main-hero h1 em{font-style:italic;color:var(--gold);}
-.main-sub{margin-top:18px;font-size:0.95rem;color:var(--muted);max-width:440px;line-height:1.75;position:relative;z-index:1;}
-.eyebrow{font-family:'DM Mono',monospace;font-size:0.64rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:20px;display:flex;align-items:center;gap:10px;position:relative;z-index:1;}
-.eyebrow::before,.eyebrow::after{content:'';width:30px;height:1px;background:var(--gold);opacity:0.4;}
-.level-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;width:100%;max-width:820px;margin-top:44px;position:relative;z-index:1;}
-.lc{padding:24px 20px;cursor:pointer;transition:all 0.3s;text-align:left;border-radius:var(--r-lg);position:relative;}
+.main-sub{margin-top:16px;font-size:0.93rem;color:var(--muted);max-width:420px;line-height:1.75;position:relative;z-index:1;}
+.eyebrow{font-family:'DM Mono',monospace;font-size:0.63rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:18px;display:flex;align-items:center;gap:10px;position:relative;z-index:1;}
+.eyebrow::before,.eyebrow::after{content:'';width:28px;height:1px;background:var(--gold);opacity:0.4;}
+.level-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;width:100%;max-width:800px;margin-top:42px;position:relative;z-index:1;}
+.lc{padding:22px 19px;cursor:pointer;transition:all 0.3s;text-align:left;border-radius:var(--r-lg);position:relative;}
 .lc:hover{transform:translateY(-4px);}
-.lc.beg{border:1px solid rgba(122,179,212,0.25);background:rgba(122,179,212,0.06);}
-.lc.beg:hover{box-shadow:0 20px 50px rgba(122,179,212,0.12);}
-.lc.ana{border:1px solid rgba(212,165,90,0.25);background:rgba(212,165,90,0.06);}
-.lc.ana:hover{box-shadow:0 20px 50px rgba(212,165,90,0.12);}
-.lc.pen{border:1px solid rgba(91,191,138,0.25);background:rgba(91,191,138,0.06);}
-.lc.pen:hover{box-shadow:0 20px 50px rgba(91,191,138,0.12);}
-.li{font-size:1.8rem;margin-bottom:11px;}
-.lt{font-family:'DM Mono',monospace;font-size:0.58rem;letter-spacing:0.14em;text-transform:uppercase;margin-bottom:6px;}
+.lc.beg{border:1px solid rgba(122,179,212,0.22);background:rgba(122,179,212,0.05);}
+.lc.beg:hover{box-shadow:0 18px 48px rgba(122,179,212,0.11);}
+.lc.ana{border:1px solid rgba(212,165,90,0.22);background:rgba(212,165,90,0.05);}
+.lc.ana:hover{box-shadow:0 18px 48px rgba(212,165,90,0.11);}
+.lc.pen{border:1px solid rgba(91,191,138,0.22);background:rgba(91,191,138,0.05);}
+.lc.pen:hover{box-shadow:0 18px 48px rgba(91,191,138,0.11);}
+.lt{font-family:'DM Mono',monospace;font-size:0.57rem;letter-spacing:0.14em;text-transform:uppercase;margin-bottom:5px;}
 .lc.beg .lt{color:var(--beginner);}.lc.ana .lt{color:var(--analyst);}.lc.pen .lt{color:var(--pension);}
-.lc h3{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:600;color:var(--cream);margin-bottom:6px;}
-.lc p{font-size:0.76rem;color:var(--muted);line-height:1.6;margin-bottom:12px;}
-.lf{display:flex;flex-direction:column;gap:4px;margin-bottom:14px;}
-.lfe{display:flex;align-items:center;gap:5px;font-size:0.71rem;color:var(--muted);}
-.lc.beg .lfe::before{content:'✓';color:var(--beginner);}
-.lc.ana .lfe::before{content:'✓';color:var(--analyst);}
-.lc.pen .lfe::before{content:'✓';color:var(--pension);}
-.lcta{width:100%;padding:9px;border:none;font-family:'DM Sans',sans-serif;font-size:0.72rem;font-weight:500;letter-spacing:0.07em;text-transform:uppercase;cursor:pointer;border-radius:var(--r-xl);}
-.lc.beg .lcta{background:linear-gradient(135deg,rgba(122,179,212,0.3),rgba(122,179,212,0.5));color:var(--cream);}
+.lc h3{font-family:'Cormorant Garamond',serif;font-size:1.15rem;font-weight:600;color:var(--cream);margin-bottom:5px;}
+.lc p{font-size:0.75rem;color:var(--muted);line-height:1.6;margin-bottom:11px;}
+.lf{display:flex;flex-direction:column;gap:4px;margin-bottom:13px;}
+.lfe{display:flex;align-items:center;gap:5px;font-size:0.7rem;color:var(--muted);}
+.lc.beg .lfe::before{content:'–';color:var(--beginner);}
+.lc.ana .lfe::before{content:'–';color:var(--analyst);}
+.lc.pen .lfe::before{content:'–';color:var(--pension);}
+.lcta{width:100%;padding:8px;border:none;font-family:'DM Sans',sans-serif;font-size:0.71rem;font-weight:500;letter-spacing:0.07em;text-transform:uppercase;cursor:pointer;border-radius:var(--r-xl);transition:all 0.2s;}
+.lc.beg .lcta{background:rgba(122,179,212,0.18);color:var(--cream);}
 .lc.ana .lcta{background:linear-gradient(135deg,var(--latte),var(--gold));color:#1a1208;}
-.lc.pen .lcta{background:linear-gradient(135deg,rgba(91,191,138,0.3),rgba(91,191,138,0.5));color:var(--cream);}
-.lfb{position:absolute;top:13px;right:13px;background:var(--gold-dim);border:1px solid rgba(212,165,90,0.3);color:var(--gold);font-family:'DM Mono',monospace;font-size:0.55rem;padding:2px 8px;border-radius:var(--r-xl);}
+.lc.pen .lcta{background:rgba(91,191,138,0.18);color:var(--cream);}
+.lfb{position:absolute;top:12px;right:12px;background:var(--gold-dim);border:1px solid rgba(212,165,90,0.28);color:var(--gold);font-family:'DM Mono',monospace;font-size:0.54rem;padding:2px 8px;border-radius:var(--r-xl);}
 
-/* INNER PAGES */
-.inner{min-height:100vh;padding:96px 44px 70px;max-width:920px;margin:0 auto;}
-.lvl-badge{display:inline-flex;align-items:center;gap:7px;padding:5px 14px;border-radius:var(--r-xl);font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:18px;}
-.inner h1{font-family:'Cormorant Garamond',serif;font-size:clamp(1.9rem,4.5vw,3.3rem);font-weight:700;color:var(--cream);line-height:1.05;margin-bottom:12px;}
+/* ── INNER PAGES ── */
+.inner{min-height:100vh;padding:96px 44px 70px;max-width:880px;margin:0 auto;}
+.lvl-badge{display:inline-flex;align-items:center;gap:7px;padding:5px 13px;border-radius:var(--r-xl);font-family:'DM Mono',monospace;font-size:0.61rem;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:16px;}
+.inner h1{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,4.5vw,3.1rem);font-weight:700;color:var(--cream);line-height:1.05;margin-bottom:11px;}
 .inner h1 em{font-style:italic;}
-.inner>p{color:var(--muted);font-size:0.93rem;line-height:1.75;max-width:480px;}
-.sf-wrap{margin-top:26px;display:flex;flex-direction:column;align-items:center;gap:8px;}
-.sf{display:flex;width:100%;max-width:400px;background:rgba(255,240,215,0.08);border:1px solid var(--glass-border);border-radius:var(--r-xl);overflow:hidden;padding:4px 4px 4px 16px;gap:7px;align-items:center;}
-.sf input{flex:1;background:none;border:none;color:var(--text);font-family:'DM Sans',sans-serif;font-size:0.85rem;outline:none;}
+.inner>p{color:var(--muted);font-size:0.91rem;line-height:1.75;max-width:460px;}
+.sf-wrap{margin-top:24px;display:flex;flex-direction:column;align-items:center;gap:8px;}
+.sf{display:flex;width:100%;max-width:390px;background:rgba(255,240,215,0.07);border:1px solid var(--glass-border);border-radius:var(--r-xl);overflow:hidden;padding:4px 4px 4px 15px;gap:6px;align-items:center;}
+.sf input{flex:1;background:none;border:none;color:var(--text);font-family:'DM Sans',sans-serif;font-size:0.84rem;outline:none;}
 .sf input::placeholder{color:var(--muted);}
-.sn{font-size:0.7rem;color:var(--muted);}
-.ss{display:none;font-size:0.86rem;}
-.bw{margin-top:26px;}
-.bh{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;}
-.bl{font-family:'DM Mono',monospace;font-size:0.61rem;letter-spacing:0.16em;text-transform:uppercase;display:flex;align-items:center;gap:6px;}
-.rb{background:none;border:1px solid var(--glass-border);color:var(--muted);padding:4px 10px;font-family:'DM Mono',monospace;font-size:0.64rem;cursor:pointer;border-radius:var(--r-xl);display:flex;align-items:center;gap:4px;}
+.sn{font-size:0.68rem;color:var(--muted);}
+.ss{display:none;font-size:0.84rem;}
+.bw{margin-top:24px;}
+.bh{display:flex;align-items:center;justify-content:space-between;margin-bottom:9px;}
+.bl{font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.16em;text-transform:uppercase;display:flex;align-items:center;gap:6px;}
+.rb{background:none;border:1px solid var(--glass-border);color:var(--muted);padding:4px 10px;font-family:'DM Mono',monospace;font-size:0.63rem;cursor:pointer;border-radius:var(--r-xl);display:flex;align-items:center;gap:4px;transition:all 0.2s;}
+.rb:hover{border-color:var(--gold);color:var(--gold);}
 .rb.spinning svg{animation:spin 1s linear infinite;}
-@keyframes spin{to{transform:rotate(360deg);}}
-.bc{padding:22px 24px;}
-.bld{display:flex;flex-direction:column;align-items:center;gap:12px;padding:32px;text-align:center;}
+.bc{padding:20px 22px;}
+.bld{display:flex;flex-direction:column;align-items:center;gap:12px;padding:30px;text-align:center;}
 .lt2{font-family:'DM Mono',monospace;font-size:0.7rem;color:var(--muted);}
 .lsteps{display:flex;flex-direction:column;gap:4px;}
-.ls{font-family:'DM Mono',monospace;font-size:0.64rem;color:var(--muted);opacity:0;transition:opacity 0.4s;}
+.ls{font-family:'DM Mono',monospace;font-size:0.63rem;color:var(--muted);opacity:0;transition:opacity 0.4s;}
 .ls.active{opacity:1;color:var(--gold);}.ls.done{opacity:0.5;color:var(--green);}
-.bi{display:flex;gap:12px;padding:13px 0;border-bottom:1px solid rgba(255,225,175,0.08);}
+.bi{display:flex;gap:11px;padding:12px 0;border-bottom:1px solid rgba(255,225,175,0.07);}
 .bi:last-of-type{border-bottom:none;}
-.bic{font-size:1rem;flex-shrink:0;margin-top:2px;}
-.bil{font-family:'DM Mono',monospace;font-size:0.58rem;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:3px;}
-.bit{font-size:0.84rem;color:var(--text);line-height:1.55;}
-.bex{font-size:0.76rem;color:var(--muted);margin-top:5px;padding:7px 11px;border-radius:var(--r-sm);background:rgba(255,240,215,0.04);border-left:2px solid;line-height:1.55;}
-.chat-btn{margin-top:7px;display:inline-flex;align-items:center;gap:5px;background:var(--gold-dim);border:1px solid rgba(212,165,90,0.3);color:var(--gold);font-family:'DM Mono',monospace;font-size:0.62rem;padding:5px 12px;border-radius:var(--r-xl);cursor:pointer;}
+.bic{font-size:0.95rem;flex-shrink:0;margin-top:2px;}
+.bil{font-family:'DM Mono',monospace;font-size:0.57rem;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:3px;}
+.bit{font-size:0.83rem;color:var(--text);line-height:1.56;}
+.bex{font-size:0.75rem;color:var(--muted);margin-top:5px;padding:7px 11px;border-radius:var(--r-sm);background:rgba(255,240,215,0.04);border-left:2px solid;line-height:1.55;}
+.chat-btn{margin-top:7px;display:inline-flex;align-items:center;gap:5px;background:var(--gold-dim);border:1px solid rgba(212,165,90,0.28);color:var(--gold);font-family:'DM Mono',monospace;font-size:0.6rem;padding:5px 11px;border-radius:var(--r-xl);cursor:pointer;transition:all 0.2s;}
+.chat-btn:hover{background:rgba(212,165,90,0.22);}
 .cw{display:none;margin-top:9px;border-radius:var(--r-md);overflow:hidden;border:1px solid var(--glass-border);}
 .cw.open{display:block;}
-.cm{max-height:200px;overflow-y:auto;padding:11px 13px;display:flex;flex-direction:column;gap:7px;background:rgba(255,240,215,0.03);}
-.msg{font-size:0.78rem;line-height:1.55;padding:7px 11px;border-radius:var(--r-sm);max-width:90%;}
+.cm{max-height:190px;overflow-y:auto;padding:10px 12px;display:flex;flex-direction:column;gap:7px;background:rgba(255,240,215,0.03);}
+.msg{font-size:0.77rem;line-height:1.55;padding:7px 11px;border-radius:var(--r-sm);max-width:90%;}
 .msg.u{background:var(--gold-dim);color:var(--cream);align-self:flex-end;}
 .msg.ai{background:rgba(255,240,215,0.06);color:var(--text);border:1px solid var(--glass-border);}
 .msg.th{color:var(--muted);font-style:italic;}
 .ci{display:flex;border-top:1px solid var(--glass-border);}
-.ci input{flex:1;background:rgba(255,240,215,0.05);border:none;color:var(--text);padding:8px 13px;font-family:'DM Sans',sans-serif;font-size:0.8rem;outline:none;}
-.ci button{background:var(--gold-dim);border:none;border-left:1px solid var(--glass-border);color:var(--gold);padding:8px 13px;cursor:pointer;}
-.bf{margin-top:13px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:7px;}
-.bsrc{font-family:'DM Mono',monospace;font-size:0.61rem;color:var(--muted);}
-.mw{margin-top:12px;padding:17px 21px;}
+.ci input{flex:1;background:rgba(255,240,215,0.05);border:none;color:var(--text);padding:8px 12px;font-family:'DM Sans',sans-serif;font-size:0.79rem;outline:none;}
+.ci button{background:var(--gold-dim);border:none;border-left:1px solid var(--glass-border);color:var(--gold);padding:8px 13px;cursor:pointer;transition:background 0.2s;}
+.ci button:hover{background:rgba(212,165,90,0.22);}
+.bf{margin-top:12px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px;}
+.bsrc{font-family:'DM Mono',monospace;font-size:0.6rem;color:var(--muted);}
+.mw{margin-top:12px;padding:16px 20px;}
 .mbtns{display:flex;gap:6px;margin-top:10px;}
-.mb{flex:1;padding:7px 4px;border:1px solid var(--glass-border);background:var(--glass);color:var(--muted);font-family:'DM Mono',monospace;font-size:0.68rem;cursor:pointer;border-radius:var(--r-md);}
-.mb.vb{border-color:var(--green);color:var(--green);background:rgba(91,191,138,0.1);}
-.mb.vd{border-color:var(--red);color:var(--red);background:rgba(224,96,96,0.1);}
-.mb.vs{border-color:var(--blue);color:var(--blue);background:rgba(122,179,212,0.1);}
+.mb{flex:1;padding:7px 4px;border:1px solid var(--glass-border);background:var(--glass);color:var(--muted);font-family:'DM Mono',monospace;font-size:0.67rem;cursor:pointer;border-radius:var(--r-md);transition:all 0.2s;}
+.mb:hover{color:var(--cream);}
+.mb.vb{border-color:var(--green);color:var(--green);background:rgba(91,191,138,0.08);}
+.mb.vd{border-color:var(--red);color:var(--red);background:rgba(224,96,96,0.08);}
+.mb.vs{border-color:var(--blue);color:var(--blue);background:rgba(122,179,212,0.08);}
 .mr{margin-top:10px;display:none;}
-.mbr{display:flex;align-items:center;gap:8px;font-family:'DM Mono',monospace;font-size:0.66rem;margin-bottom:5px;}
-.mbl{width:58px;color:var(--muted);}
-.mbt{flex:1;background:rgba(255,240,215,0.08);height:5px;border-radius:999px;overflow:hidden;}
+.mbr{display:flex;align-items:center;gap:8px;font-family:'DM Mono',monospace;font-size:0.65rem;margin-bottom:5px;}
+.mbl{width:56px;color:var(--muted);}
+.mbt{flex:1;background:rgba(255,240,215,0.08);height:4px;border-radius:999px;overflow:hidden;}
 .mbf{height:100%;border-radius:999px;transition:width 0.7s ease;}
-.mbp{color:var(--muted);min-width:30px;}
+.mbp{color:var(--muted);min-width:28px;}
 
-/* DISKUSSION */
-.disk-page{min-height:100vh;padding:96px 44px 70px;max-width:800px;margin:0 auto;}
-.disk-form{padding:24px;margin-bottom:24px;}
-.disk-input-row{display:flex;gap:8px;margin-bottom:12px;}
-.disk-name{background:rgba(255,240,215,0.06);border:1px solid var(--glass-border);color:var(--text);padding:9px 14px;font-family:'DM Sans',sans-serif;font-size:0.82rem;outline:none;border-radius:var(--r-sm);width:160px;}
-.disk-topic{flex:1;background:rgba(255,240,215,0.06);border:1px solid var(--glass-border);color:var(--text);padding:9px 14px;font-family:'DM Sans',sans-serif;font-size:0.82rem;outline:none;border-radius:var(--r-sm);}
-.disk-textarea{width:100%;background:rgba(255,240,215,0.06);border:1px solid var(--glass-border);color:var(--text);padding:10px 14px;font-family:'DM Sans',sans-serif;font-size:0.82rem;outline:none;border-radius:var(--r-sm);resize:vertical;min-height:80px;margin-bottom:12px;}
-.disk-submit{background:linear-gradient(135deg,var(--latte),var(--gold));color:#1a1208;border:none;padding:10px 22px;font-family:'DM Sans',sans-serif;font-size:0.76rem;font-weight:500;letter-spacing:0.07em;text-transform:uppercase;cursor:pointer;border-radius:var(--r-xl);}
-.disk-feed{display:flex;flex-direction:column;gap:12px;}
-.disk-post{padding:18px 22px;border-radius:var(--r-lg);border:1px solid var(--glass-border);background:var(--glass);}
-.disk-post-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;}
-.disk-post-author{font-family:'DM Mono',monospace;font-size:0.68rem;color:var(--gold);}
-.disk-post-topic{font-family:'DM Mono',monospace;font-size:0.63rem;color:var(--muted);padding:2px 9px;border:1px solid var(--glass-border);border-radius:var(--r-xl);}
-.disk-post-text{font-size:0.84rem;color:var(--text);line-height:1.6;margin-bottom:10px;}
+/* ── ANALYS ── */
+.analys-page{min-height:100vh;padding:96px 44px 70px;max-width:960px;margin:0 auto;}
+.analys-hero{margin-bottom:36px;}
+.analys-hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(1.9rem,4vw,2.9rem);font-weight:700;color:var(--cream);margin-bottom:8px;}
+.analys-hero h1 em{font-style:italic;color:var(--gold);}
+.analys-hero p{font-size:0.88rem;color:var(--muted);line-height:1.75;max-width:520px;}
+.analys-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px;}
+.analys-card{padding:22px 24px;}
+.analys-card-label{font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);margin-bottom:12px;}
+.analys-ticker-form{display:flex;gap:8px;margin-bottom:14px;}
+.analys-input{flex:1;background:rgba(255,240,215,0.06);border:1px solid var(--glass-border);color:var(--text);padding:9px 13px;font-family:'DM Mono',monospace;font-size:0.82rem;outline:none;border-radius:var(--r-sm);text-transform:uppercase;}
+.analys-input:focus{border-color:var(--gold);}
+.analys-input::placeholder{color:var(--muted);text-transform:none;}
+.analys-btn{background:linear-gradient(135deg,var(--latte),var(--gold));color:#1a1208;border:none;padding:9px 18px;font-family:'DM Sans',sans-serif;font-size:0.74rem;font-weight:500;letter-spacing:0.07em;text-transform:uppercase;cursor:pointer;border-radius:var(--r-sm);transition:all 0.2s;white-space:nowrap;}
+.analys-btn:hover{box-shadow:0 4px 16px rgba(212,165,90,0.3);}
+.analys-btn:disabled{opacity:0.5;cursor:not-allowed;}
+.analys-result{display:none;}
+.analys-result.show{display:block;}
+.analys-loading-txt{font-family:'DM Mono',monospace;font-size:0.7rem;color:var(--muted);text-align:center;padding:20px;}
+.analys-metric{display:flex;justify-content:space-between;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(255,225,175,0.07);}
+.analys-metric:last-child{border-bottom:none;}
+.analys-metric-name{font-family:'DM Mono',monospace;font-size:0.7rem;color:var(--muted);}
+.analys-metric-val{font-family:'DM Mono',monospace;font-size:0.82rem;color:var(--cream);}
+.analys-metric-val.green{color:var(--green);}
+.analys-metric-val.red{color:var(--red);}
+.analys-summary{font-size:0.84rem;color:var(--muted);line-height:1.75;margin-top:4px;}
+.analys-summary strong{color:var(--text);}
+.analys-full{grid-column:1/-1;padding:22px 24px;}
+.dcf-row{display:flex;gap:10px;margin-bottom:10px;}
+.dcf-label{font-size:0.75rem;color:var(--muted);margin-bottom:4px;font-family:'DM Mono',monospace;font-size:0.62rem;}
+.dcf-input{width:100%;background:rgba(255,240,215,0.06);border:1px solid var(--glass-border);color:var(--text);padding:7px 11px;font-family:'DM Mono',monospace;font-size:0.78rem;outline:none;border-radius:var(--r-sm);}
+.dcf-input:focus{border-color:var(--gold);}
+.dcf-result{margin-top:14px;padding:14px 16px;border-radius:var(--r-sm);background:rgba(212,165,90,0.06);border:1px solid rgba(212,165,90,0.18);}
+.dcf-price{font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:700;color:var(--gold);}
+.dcf-label2{font-family:'DM Mono',monospace;font-size:0.61rem;color:var(--muted);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:4px;}
+.dcf-updown{font-family:'DM Mono',monospace;font-size:0.76rem;margin-top:6px;}
+
+/* ── DISKUSSION ── */
+.disk-page{min-height:100vh;padding:96px 44px 70px;max-width:780px;margin:0 auto;}
+.disk-form{padding:22px;margin-bottom:22px;}
+.disk-input-row{display:flex;gap:8px;margin-bottom:11px;}
+.disk-name{background:rgba(255,240,215,0.06);border:1px solid var(--glass-border);color:var(--text);padding:9px 13px;font-family:'DM Sans',sans-serif;font-size:0.81rem;outline:none;border-radius:var(--r-sm);width:150px;}
+.disk-topic{flex:1;background:rgba(255,240,215,0.06);border:1px solid var(--glass-border);color:var(--text);padding:9px 13px;font-family:'DM Sans',sans-serif;font-size:0.81rem;outline:none;border-radius:var(--r-sm);}
+.disk-name::placeholder,.disk-topic::placeholder{color:var(--muted);}
+.disk-name:focus,.disk-topic:focus{border-color:var(--gold);}
+.disk-textarea{width:100%;background:rgba(255,240,215,0.06);border:1px solid var(--glass-border);color:var(--text);padding:10px 13px;font-family:'DM Sans',sans-serif;font-size:0.81rem;outline:none;border-radius:var(--r-sm);resize:vertical;min-height:76px;margin-bottom:11px;}
+.disk-textarea::placeholder{color:var(--muted);}
+.disk-textarea:focus{border-color:var(--gold);}
+.disk-submit{background:linear-gradient(135deg,var(--latte),var(--gold));color:#1a1208;border:none;padding:9px 20px;font-family:'DM Sans',sans-serif;font-size:0.74rem;font-weight:500;letter-spacing:0.07em;text-transform:uppercase;cursor:pointer;border-radius:var(--r-xl);transition:all 0.2s;}
+.disk-submit:hover{transform:translateY(-1px);box-shadow:0 4px 14px rgba(212,165,90,0.3);}
+.disk-feed{display:flex;flex-direction:column;gap:10px;}
+.disk-post{padding:17px 20px;border-radius:var(--r-lg);border:1px solid var(--glass-border);background:var(--glass);}
+.disk-post-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:7px;}
+.disk-post-author{font-family:'DM Mono',monospace;font-size:0.67rem;color:var(--gold);}
+.disk-post-topic{font-family:'DM Mono',monospace;font-size:0.62rem;color:var(--muted);padding:2px 9px;border:1px solid var(--glass-border);border-radius:var(--r-xl);}
+.disk-post-text{font-size:0.83rem;color:var(--text);line-height:1.62;margin-bottom:9px;}
 .disk-post-footer{display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
-.disk-like{background:none;border:1px solid var(--glass-border);color:var(--muted);font-family:'DM Mono',monospace;font-size:0.65rem;padding:3px 10px;border-radius:var(--r-xl);cursor:pointer;}
-.disk-like.liked{border-color:rgba(212,165,90,0.4);color:var(--gold);background:var(--gold-dim);}
-.disk-time{font-family:'DM Mono',monospace;font-size:0.62rem;color:var(--muted);}
-.disk-ai-btn{background:none;border:1px solid rgba(212,165,90,0.3);color:var(--gold);font-family:'DM Mono',monospace;font-size:0.63rem;padding:3px 10px;border-radius:var(--r-xl);cursor:pointer;}
-.disk-ai-resp{margin-top:10px;padding:10px 14px;background:rgba(212,165,90,0.06);border:1px solid rgba(212,165,90,0.2);border-radius:var(--r-sm);font-size:0.8rem;color:var(--muted);line-height:1.6;display:none;}
-.disk-empty{text-align:center;padding:44px;font-family:'DM Mono',monospace;font-size:0.76rem;color:var(--muted);}
+.disk-like{background:none;border:1px solid var(--glass-border);color:var(--muted);font-family:'DM Mono',monospace;font-size:0.63rem;padding:3px 10px;border-radius:var(--r-xl);cursor:pointer;transition:all 0.2s;}
+.disk-like.liked{border-color:rgba(212,165,90,0.38);color:var(--gold);background:var(--gold-dim);}
+.disk-time{font-family:'DM Mono',monospace;font-size:0.61rem;color:var(--muted);}
+.disk-ai-btn{background:none;border:1px solid rgba(212,165,90,0.28);color:var(--gold);font-family:'DM Mono',monospace;font-size:0.62rem;padding:3px 10px;border-radius:var(--r-xl);cursor:pointer;transition:all 0.2s;}
+.disk-ai-btn:hover{background:var(--gold-dim);}
+.disk-ai-resp{margin-top:9px;padding:10px 13px;background:rgba(212,165,90,0.06);border:1px solid rgba(212,165,90,0.18);border-radius:var(--r-sm);font-size:0.79rem;color:var(--muted);line-height:1.6;display:none;}
+.disk-empty{text-align:center;padding:40px;font-family:'DM Mono',monospace;font-size:0.74rem;color:var(--muted);}
 
-/* ABOUT */
-.abp{min-height:100vh;padding:96px 44px 70px;max-width:1000px;margin:0 auto;}
-.abg{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:start;margin-top:44px;}
-.abt p{color:var(--muted);line-height:1.8;margin-bottom:13px;font-size:0.91rem;}
+/* ── ABOUT ── */
+.abp{min-height:100vh;padding:96px 44px 70px;max-width:980px;margin:0 auto;}
+.abg{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:start;margin-top:40px;}
+.abt p{color:var(--muted);line-height:1.8;margin-bottom:12px;font-size:0.9rem;}
 .abt p strong{color:var(--text);}
-.vg{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:22px;}
-.vc{padding:17px;}.vi{font-size:1.1rem;margin-bottom:8px;}
-.vc h4{font-family:'Cormorant Garamond',serif;font-size:0.95rem;color:var(--cream);margin-bottom:4px;}
-.vc p{font-size:0.74rem;color:var(--muted);line-height:1.6;}
-.toast{position:fixed;bottom:20px;right:20px;color:var(--cream);padding:11px 16px;font-family:'DM Mono',monospace;font-size:0.73rem;z-index:1001;transform:translateY(80px);opacity:0;transition:all 0.35s ease;display:flex;align-items:center;gap:8px;border-radius:var(--r-lg);background:rgba(35,24,8,0.95);border:1px solid var(--glass-border);}
+.vg{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:20px;}
+.vc{padding:16px;border-radius:var(--r-md) !important;}
+.vi{font-size:1rem;margin-bottom:7px;}
+.vc h4{font-family:'Cormorant Garamond',serif;font-size:0.94rem;color:var(--cream);margin-bottom:4px;}
+.vc p{font-size:0.73rem;color:var(--muted);line-height:1.6;}
+
+/* ── TOAST ── */
+.toast{position:fixed;bottom:20px;right:20px;color:var(--cream);padding:10px 15px;font-family:'DM Mono',monospace;font-size:0.71rem;z-index:1001;transform:translateY(80px);opacity:0;transition:all 0.35s ease;display:flex;align-items:center;gap:8px;border-radius:var(--r-lg);background:rgba(35,24,8,0.96);border:1px solid var(--glass-border);box-shadow:0 8px 28px rgba(0,0,0,0.4);}
 .toast.show{transform:translateY(0);opacity:1;}
+
 .site-footer{padding:20px 44px;border-top:1px solid var(--glass-border);display:flex;align-items:center;justify-content:space-between;position:relative;z-index:1;}
-.site-footer p{font-size:0.68rem;color:var(--muted);font-family:'DM Mono',monospace;}
+.site-footer p{font-size:0.67rem;color:var(--muted);font-family:'DM Mono',monospace;}
+
 @media(max-width:860px){
   nav{padding:11px 16px;}.nav-center{display:none;}
-  .level-cards,.abg{grid-template-columns:1fr;}
+  .level-cards,.abg,.analys-grid{grid-template-columns:1fr;}
+  .analys-full{grid-column:auto;}
   .vg{grid-template-columns:1fr 1fr;}
-  .inner,.disk-page,.abp,.full-page{padding:88px 16px 56px;}
+  .how-steps{grid-template-columns:1fr;}
+  .how-step::after{right:auto;bottom:-1px;top:auto;left:10%;right:10%;width:auto;height:1px;}
+  .inner,.disk-page,.abp,.full-page,.analys-page{padding:88px 16px 56px;}
   .hem-main,.archive-wrap{padding:0 16px 60px;}
+  .how-section{padding:0 16px 48px;}
   .disk-input-row{flex-direction:column;}.disk-name{width:100%;}
 }
 </style>
 </head>
 <body>
 <div class="bg-blobs"><div class="blob blob-1"></div><div class="blob blob-2"></div><div class="blob blob-3"></div></div>
-<div class="toast" id="toast">☕ <span id="toast-msg"></span></div>
+<div class="toast" id="toast"><span id="toast-msg"></span></div>
 
 <nav id="nav">
   <div class="nav-logo" onclick="showPage('hem')">
-    <svg width="30" height="30" viewBox="0 0 46 46" fill="none">
+    <svg width="28" height="28" viewBox="0 0 46 46" fill="none">
       <path d="M7 13 L11 38 Q11.5 41 14.5 41 L31.5 41 Q34.5 41 35 38 L39 13 Z" fill="rgba(35,24,8,0.8)" stroke="#d4a55a" stroke-width="1.4"/>
       <ellipse cx="23" cy="14" rx="16" ry="2.8" fill="#5a3318" stroke="#d4a55a" stroke-width="0.8"/>
       <path d="M35 18 Q44 18 44 27 Q44 36 35 36" stroke="#d4a55a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
@@ -270,11 +343,12 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
   <div class="nav-center">
     <button class="nav-link active" id="nav-hem"        onclick="showPage('hem')">Hem</button>
     <button class="nav-link"        id="nav-main"       onclick="showPage('main')">Nivåer</button>
+    <button class="nav-link"        id="nav-analys"     onclick="showPage('analys')">Analys</button>
     <button class="nav-link"        id="nav-diskussion" onclick="showPage('diskussion')">Diskussion</button>
     <button class="nav-link"        id="nav-about"      onclick="showPage('about')">Om oss</button>
   </div>
   <div class="nav-right">
-    <button class="nav-cta" onclick="showPage('main')">Prenumerera gratis →</button>
+    <button class="nav-cta" onclick="showPage('main')">Prenumerera gratis</button>
   </div>
 </nav>
 
@@ -282,8 +356,37 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
 <div id="page-hem" class="page active">
   <div class="hem-hero">
     <div class="hem-hero-bg"></div>
+    <div class="hem-eyebrow">Marknaden, brygd till perfektion</div>
     <h1>Dagens <em>Marknadsbriefing</em></h1>
     <div class="hem-date" id="hem-date"></div>
+
+    <!-- HERO CTA -->
+    <div class="hem-hero-ctas">
+      <button class="hem-cta-primary" onclick="showPage('main')">Välj din nivå och prenumerera</button>
+      <span class="hem-cta-sub">Gratis &nbsp;·&nbsp; Tre nivåer &nbsp;·&nbsp; Levererat kl. 07:00 varje vardag</span>
+    </div>
+  </div>
+
+  <!-- HOW IT WORKS -->
+  <div class="how-section">
+    <div class="how-label">Så fungerar det</div>
+    <div class="how-steps">
+      <div class="how-step">
+        <div class="how-num">01</div>
+        <div class="how-title">Välj din nivå</div>
+        <div class="how-desc">Välj mellan Nybörjare, Analytiker eller Pensionssparare — tre helt olika briefingar anpassade för ditt kunskapsläge.</div>
+      </div>
+      <div class="how-step">
+        <div class="how-num">02</div>
+        <div class="how-title">Ange din e-post</div>
+        <div class="how-desc">Registrering tar tio sekunder. Ingen betalning, inget lösenord. Bara din e-postadress och du är igång.</div>
+      </div>
+      <div class="how-step">
+        <div class="how-num">03</div>
+        <div class="how-title">Läs kl. 07:00 varje vardag</div>
+        <div class="how-desc">AI:n söker igenom finansnyheter, makrodata och marknadsrörelser varje morgon — och serverar en skarp sammanfattning i din inkorg.</div>
+      </div>
+    </div>
   </div>
 
   <!-- TRADINGVIEW LIVE TICKER -->
@@ -293,23 +396,18 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
       <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
       {
         "symbols": [
-          {"proName": "OMXSTO:OMXS30", "title": "OMX30"},
-          {"proName": "SP:SPX",         "title": "S&P 500"},
-          {"proName": "NASDAQ:NDX",     "title": "NASDAQ 100"},
-          {"proName": "FOREXCOM:SPXUSD","title": "S&P Futures"},
-          {"proName": "XETR:DAX",       "title": "DAX"},
-          {"proName": "TVC:GOLD",       "title": "Guld"},
-          {"proName": "NYMEX:CL1!",     "title": "Olja WTI"},
-          {"proName": "TVC:VIX",        "title": "VIX"},
-          {"proName": "FX:EURUSD",      "title": "EUR/USD"},
-          {"proName": "FX:USDSEK",      "title": "USD/SEK"},
-          {"proName": "BITSTAMP:BTCUSD","title": "BTC/USD"}
+          {"proName":"OMXSTO:OMXS30","title":"OMX30"},
+          {"proName":"SP:SPX",        "title":"S&P 500"},
+          {"proName":"NASDAQ:NDX",    "title":"NASDAQ 100"},
+          {"proName":"XETR:DAX",      "title":"DAX"},
+          {"proName":"TVC:GOLD",      "title":"Guld"},
+          {"proName":"NYMEX:CL1!",    "title":"Olja WTI"},
+          {"proName":"TVC:VIX",       "title":"VIX"},
+          {"proName":"FX:EURUSD",     "title":"EUR/USD"},
+          {"proName":"FX:USDSEK",     "title":"USD/SEK"},
+          {"proName":"BITSTAMP:BTCUSD","title":"BTC/USD"}
         ],
-        "showSymbolLogo": false,
-        "isTransparent": true,
-        "displayMode": "adaptive",
-        "colorTheme": "dark",
-        "locale": "sv_SE"
+        "showSymbolLogo":false,"isTransparent":true,"displayMode":"adaptive","colorTheme":"dark","locale":"sv_SE"
       }
       </script>
     </div>
@@ -317,25 +415,24 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
 
   <div class="hem-main">
     <div id="hem-loading" class="hem-loading">
-      <div style="font-size:2.2rem;animation:pd 1.5s ease-in-out infinite;margin-bottom:14px">☕</div>
-      <div style="font-family:'DM Mono',monospace;font-size:0.76rem;color:var(--muted)">Hämtar dagens briefing…</div>
+      <div style="font-family:'DM Mono',monospace;font-size:0.74rem;color:var(--muted)">Hämtar dagens briefing…</div>
     </div>
     <div id="hem-loaded" style="display:none">
       <div id="hem-headline" class="hem-headline"></div>
       <div id="hem-subline"  class="hem-subline"></div>
       <div class="hem-tabs">
-        <button class="hem-tab t-beg active" id="htab-beginner" onclick="switchHemTab('beginner')">☕ Nybörjare</button>
-        <button class="hem-tab t-ana"        id="htab-analyst"  onclick="switchHemTab('analyst')">📊 Analytiker</button>
-        <button class="hem-tab t-pen"        id="htab-pension"  onclick="switchHemTab('pension')">🌱 Pensionssparare</button>
+        <button class="hem-tab t-beg active" id="htab-beginner" onclick="switchHemTab('beginner')">Nybörjare</button>
+        <button class="hem-tab t-ana"        id="htab-analyst"  onclick="switchHemTab('analyst')">Analytiker</button>
+        <button class="hem-tab t-pen"        id="htab-pension"  onclick="switchHemTab('pension')">Pensionssparare</button>
       </div>
       <div id="hem-items-beginner" class="hem-items show"></div>
       <div id="hem-items-analyst"  class="hem-items"></div>
       <div id="hem-items-pension"  class="hem-items"></div>
       <div id="hem-sources" class="hem-sources"></div>
       <div class="hem-ctas">
-        <button class="hem-cta-btn beg" onclick="showPage('beginner')">☕ Prenumerera — Nybörjare</button>
-        <button class="hem-cta-btn ana" onclick="showPage('analyst')">📊 Prenumerera — Analytiker</button>
-        <button class="hem-cta-btn pen" onclick="showPage('pension')">🌱 Prenumerera — Pension</button>
+        <button class="hem-cta-btn beg" onclick="showPage('beginner')">Prenumerera — Nybörjare</button>
+        <button class="hem-cta-btn ana" onclick="showPage('analyst')">Prenumerera — Analytiker</button>
+        <button class="hem-cta-btn pen" onclick="showPage('pension')">Prenumerera — Pension</button>
       </div>
     </div>
   </div>
@@ -343,17 +440,15 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
   <!-- ARKIV -->
   <div class="archive-wrap">
     <div class="archive-divider">
-      <p style="font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:10px">📁 Briefingarkiv</p>
+      <p style="font-family:'DM Mono',monospace;font-size:0.61rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:9px">Briefingarkiv</p>
       <h2 class="archive-heading">Tidigare briefingar</h2>
       <p class="archive-desc">Missade du en morgon? Klicka på en dag för att läsa hela briefingen.</p>
     </div>
-    <div class="archive-list" id="archive-list">
-      <div class="archive-empty">Laddar arkiv…</div>
-    </div>
+    <div class="archive-list" id="archive-list"><div class="archive-empty">Laddar arkiv…</div></div>
   </div>
 
   <footer class="site-footer">
-    <div class="nav-logo" style="cursor:pointer" onclick="showPage('hem')">☕ Espresso Market</div>
+    <div class="nav-logo" style="cursor:pointer" onclick="showPage('hem')">Espresso Market</div>
     <p>© 2026 Espresso Market · Powered by Claude AI · Gratis för alltid</p>
   </footer>
 </div>
@@ -366,9 +461,9 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
   <h1 class="full-headline" id="full-headline"></h1>
   <div class="full-date" id="full-date"></div>
   <div class="full-tabs">
-    <button class="full-tab t-beg" id="ftab-beginner" onclick="switchFullTab('beginner')">☕ Nybörjare</button>
-    <button class="full-tab t-ana" id="ftab-analyst"  onclick="switchFullTab('analyst')">📊 Analytiker</button>
-    <button class="full-tab t-pen" id="ftab-pension"  onclick="switchFullTab('pension')">🌱 Pensionssparare</button>
+    <button class="full-tab t-beg" id="ftab-beginner" onclick="switchFullTab('beginner')">Nybörjare</button>
+    <button class="full-tab t-ana" id="ftab-analyst"  onclick="switchFullTab('analyst')">Analytiker</button>
+    <button class="full-tab t-pen" id="ftab-pension"  onclick="switchFullTab('pension')">Pensionssparare</button>
   </div>
   <div class="full-content show" id="full-beginner"></div>
   <div class="full-content"      id="full-analyst"></div>
@@ -383,25 +478,43 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
     <div class="main-hero-bg"></div>
     <div class="eyebrow"><span></span>Marknaden, brygd till perfektion<span></span></div>
     <h1>Börsen.<br/><em>På dina villkor.</em></h1>
-    <p class="main-sub">AI-genererade marknadsnyheter anpassade för just dig. Helt gratis, varje vardag kl. 07:00.</p>
+    <p class="main-sub">AI-genererade marknadsnyheter anpassade för just dig. Gratis, varje vardag kl. 07:00.</p>
     <div class="level-cards">
       <div class="lc beg" onclick="showPage('beginner')">
-        <div class="lfb">GRATIS</div><div class="li">☕</div><div class="lt">Nivå 1 · Nybörjare</div>
-        <h3>Espresso för alla</h3><p>Ny på börsen? Vi förklarar vad som händer utan krångel.</p>
-        <div class="lf"><div class="lfe">Enkla dagliga sammanfattningar</div><div class="lfe">Förklaring av finanstermer</div><div class="lfe">🤖 Fråga AI om varje nyhet</div></div>
-        <button class="lcta">Kom igång →</button>
+        <div class="lfb">Gratis</div>
+        <div class="lt">Nivå 1 · Nybörjare</div>
+        <h3>Espresso för alla</h3>
+        <p>Ny på börsen? Vi förklarar vad som händer och varför det spelar roll.</p>
+        <div class="lf">
+          <div class="lfe">Enkla dagliga sammanfattningar</div>
+          <div class="lfe">Förklaring av finanstermer</div>
+          <div class="lfe">Fråga AI om varje nyhet</div>
+        </div>
+        <button class="lcta">Kom igång</button>
       </div>
       <div class="lc ana" onclick="showPage('analyst')">
-        <div class="lfb">GRATIS</div><div class="li">📊</div><div class="lt">Nivå 2 · Analytiker</div>
-        <h3>Djupanalys & Data</h3><p>Skarp, faktabaserad analys med teknisk data och makroekonomi.</p>
-        <div class="lf"><div class="lfe">Teknisk & fundamental analys</div><div class="lfe">Terminspriser & makrokalender</div><div class="lfe">🤖 Fråga AI om varje händelse</div></div>
-        <button class="lcta">Kom igång →</button>
+        <div class="lfb">Gratis</div>
+        <div class="lt">Nivå 2 · Analytiker</div>
+        <h3>Djupanalys & Data</h3>
+        <p>Skarp, faktabaserad analys med teknisk data och makroekonomi.</p>
+        <div class="lf">
+          <div class="lfe">Teknisk och fundamental analys</div>
+          <div class="lfe">Terminspriser och makrokalender</div>
+          <div class="lfe">Fråga AI om varje händelse</div>
+        </div>
+        <button class="lcta">Kom igång</button>
       </div>
       <div class="lc pen" onclick="showPage('pension')">
-        <div class="lfb">GRATIS</div><div class="li">🌱</div><div class="lt">Nivå 3 · Pensionssparare</div>
-        <h3>Din Pension, Tydligare</h3><p>Förstå dina pensionspengar och håll koll på din framtid.</p>
-        <div class="lf"><div class="lfe">Guide till AP7, AMF, SPP m.fl.</div><div class="lfe">Omallokering baserat på ålder</div><div class="lfe">Koppling till dagens nyheter</div></div>
-        <button class="lcta">Kom igång →</button>
+        <div class="lfb">Gratis</div>
+        <div class="lt">Nivå 3 · Pensionssparare</div>
+        <h3>Din Pension, Tydligare</h3>
+        <p>Förstå dina pensionspengar och håll koll på din ekonomiska framtid.</p>
+        <div class="lf">
+          <div class="lfe">Guide till AP7, AMF, SPP m.fl.</div>
+          <div class="lfe">Omallokering baserat på ålder</div>
+          <div class="lfe">Koppling till dagens nyheter</div>
+        </div>
+        <button class="lcta">Kom igång</button>
       </div>
     </div>
   </div>
@@ -410,30 +523,41 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
 <!-- BEGINNER -->
 <div id="page-beginner" class="page">
 <div class="inner">
-  <div class="lvl-badge" style="background:rgba(122,179,212,0.1);border:1px solid rgba(122,179,212,0.25);color:var(--beginner)">☕ Nivå 1 · Nybörjare</div>
+  <div class="lvl-badge" style="background:rgba(122,179,212,0.1);border:1px solid rgba(122,179,212,0.25);color:var(--beginner)">Nivå 1 · Nybörjare</div>
   <h1>Börsen, enkelt <em style="color:var(--beginner)">förklarad.</em></h1>
   <p>Vi tar de viktigaste nyheterna och förklarar dem på ett sätt som alla förstår.</p>
   <div class="sf-wrap">
-    <div class="sf" style="border-color:rgba(122,179,212,0.3)"><input type="email" id="email-beginner" placeholder="din@email.se"/><button onclick="handleSub('beginner')" style="background:linear-gradient(135deg,rgba(122,179,212,0.6),var(--beginner));color:#0a1520;border:none;padding:9px 18px;font-family:'DM Sans',sans-serif;font-size:0.72rem;font-weight:500;text-transform:uppercase;cursor:pointer;border-radius:var(--r-xl)">Prenumerera →</button></div>
-    <p class="ss" id="success-beginner" style="color:var(--beginner)">☕ Välkommen! Första brevet imorgon kl. 07:00.</p>
+    <div class="sf" style="border-color:rgba(122,179,212,0.3)">
+      <input type="email" id="email-beginner" placeholder="din@email.se"/>
+      <button onclick="handleSub('beginner')" style="background:linear-gradient(135deg,rgba(122,179,212,0.6),var(--beginner));color:#0a1520;border:none;padding:9px 17px;font-family:'DM Sans',sans-serif;font-size:0.71rem;font-weight:500;text-transform:uppercase;cursor:pointer;border-radius:var(--r-xl)">Prenumerera</button>
+    </div>
+    <p class="ss" id="success-beginner" style="color:var(--beginner)">Välkommen! Första brevet imorgon kl. 07:00.</p>
     <p class="sn">Gratis · Enkel svenska · Avprenumerera när som helst</p>
   </div>
   <div class="bw">
-    <div class="bh"><div class="bl" style="color:var(--beginner)"><div class="sub-dot" style="background:var(--beginner)"></div>DAGENS BRIEFING</div>
-    <button class="rb" id="rb-beginner" onclick="loadShortBriefing('beginner')"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>Uppdatera</button></div>
+    <div class="bh">
+      <div class="bl" style="color:var(--beginner)"><div class="sub-dot" style="background:var(--beginner)"></div>Dagens briefing</div>
+      <button class="rb" id="rb-beginner" onclick="loadShortBriefing('beginner')">
+        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>
+        Uppdatera
+      </button>
+    </div>
     <div class="bc glass" id="bc-beginner">
-      <div class="bld" id="bl-beginner"><div style="font-size:2rem;animation:pd 1.5s ease-in-out infinite">☕</div><div class="lt2">Hämtar briefing…</div><div class="lsteps"><div class="ls" id="bs1">→ Söker dagens händelser</div><div class="ls" id="bs2">→ Förenklar språket</div><div class="ls" id="bs3">→ Lägger till förklaringar</div><div class="ls" id="bs4">→ Sammanfattar</div></div></div>
+      <div class="bld" id="bl-beginner">
+        <div style="font-size:0.76rem;font-family:'DM Mono',monospace;color:var(--muted);animation:pd 1.5s ease-in-out infinite">Hämtar briefing…</div>
+        <div class="lsteps"><div class="ls" id="bs1">Söker dagens händelser</div><div class="ls" id="bs2">Förenklar språket</div><div class="ls" id="bs3">Lägger till förklaringar</div><div class="ls" id="bs4">Sammanfattar</div></div>
+      </div>
       <div id="bcon-beginner" style="display:none"></div>
     </div>
   </div>
   <div class="mw glass" style="margin-top:12px">
-    <p style="font-family:'DM Mono',monospace;font-size:0.61rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--beginner)">🌡️ Vad tror du?</p>
-    <p style="font-size:0.82rem;color:var(--cream);margin-top:5px">Hur tror du börsen går idag?</p>
-    <div class="mbtns"><button class="mb" onclick="voteMood('bull',this,'bm')">📈 Uppåt</button><button class="mb" onclick="voteMood('bear',this,'bm')">📉 Nedåt</button><button class="mb" onclick="voteMood('side',this,'bm')">↔️ Sidledes</button></div>
+    <p style="font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--beginner)">Marknadshumör idag</p>
+    <p style="font-size:0.81rem;color:var(--cream);margin-top:5px">Hur tror du börsen går idag?</p>
+    <div class="mbtns"><button class="mb" onclick="voteMood('bull',this,'bm')">Uppåt</button><button class="mb" onclick="voteMood('bear',this,'bm')">Nedåt</button><button class="mb" onclick="voteMood('side',this,'bm')">Sidledes</button></div>
     <div class="mr" id="mood-bm">
-      <div class="mbr"><span class="mbl">📈 Uppåt</span><div class="mbt"><div class="mbf" id="mbm-bull" style="background:var(--green);width:0%"></div></div><span class="mbp" id="mpbm-bull">0%</span></div>
-      <div class="mbr"><span class="mbl">📉 Nedåt</span><div class="mbt"><div class="mbf" id="mbm-bear" style="background:var(--red);width:0%"></div></div><span class="mbp" id="mpbm-bear">0%</span></div>
-      <div class="mbr"><span class="mbl">↔️ Sidledes</span><div class="mbt"><div class="mbf" id="mbm-side" style="background:var(--blue);width:0%"></div></div><span class="mbp" id="mpbm-side">0%</span></div>
+      <div class="mbr"><span class="mbl">Uppåt</span><div class="mbt"><div class="mbf" id="mbm-bull" style="background:var(--green);width:0%"></div></div><span class="mbp" id="mpbm-bull">0%</span></div>
+      <div class="mbr"><span class="mbl">Nedåt</span><div class="mbt"><div class="mbf" id="mbm-bear" style="background:var(--red);width:0%"></div></div><span class="mbp" id="mpbm-bear">0%</span></div>
+      <div class="mbr"><span class="mbl">Sidledes</span><div class="mbt"><div class="mbf" id="mbm-side" style="background:var(--blue);width:0%"></div></div><span class="mbp" id="mpbm-side">0%</span></div>
     </div>
   </div>
 </div>
@@ -442,30 +566,41 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
 <!-- ANALYST -->
 <div id="page-analyst" class="page">
 <div class="inner">
-  <div class="lvl-badge" style="background:rgba(212,165,90,0.1);border:1px solid rgba(212,165,90,0.25);color:var(--gold)">📊 Nivå 2 · Analytiker</div>
+  <div class="lvl-badge" style="background:rgba(212,165,90,0.1);border:1px solid rgba(212,165,90,0.25);color:var(--gold)">Nivå 2 · Analytiker</div>
   <h1>Djupanalys för <em style="color:var(--gold)">insatta investerare.</em></h1>
   <p>Skarp, faktabaserad marknadsanalys med teknisk data och makroekonomi.</p>
   <div class="sf-wrap">
-    <div class="sf" style="border-color:rgba(212,165,90,0.3)"><input type="email" id="email-analyst" placeholder="din@email.se"/><button onclick="handleSub('analyst')" style="background:linear-gradient(135deg,var(--latte),var(--gold));color:#1a1208;border:none;padding:9px 18px;font-family:'DM Sans',sans-serif;font-size:0.72rem;font-weight:500;text-transform:uppercase;cursor:pointer;border-radius:var(--r-xl)">Prenumerera →</button></div>
-    <p class="ss" id="success-analyst" style="color:var(--gold)">☕ Välkommen! Första brevet imorgon kl. 07:00.</p>
+    <div class="sf" style="border-color:rgba(212,165,90,0.3)">
+      <input type="email" id="email-analyst" placeholder="din@email.se"/>
+      <button onclick="handleSub('analyst')" style="background:linear-gradient(135deg,var(--latte),var(--gold));color:#1a1208;border:none;padding:9px 17px;font-family:'DM Sans',sans-serif;font-size:0.71rem;font-weight:500;text-transform:uppercase;cursor:pointer;border-radius:var(--r-xl)">Prenumerera</button>
+    </div>
+    <p class="ss" id="success-analyst" style="color:var(--gold)">Välkommen! Första brevet imorgon kl. 07:00.</p>
     <p class="sn">Gratis · Djupanalys · Avprenumerera när som helst</p>
   </div>
   <div class="bw">
-    <div class="bh"><div class="bl" style="color:var(--gold)"><div class="sub-dot"></div>ANALYTIKERBRIEFING</div>
-    <button class="rb" id="rb-analyst" onclick="loadShortBriefing('analyst')"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>Uppdatera</button></div>
+    <div class="bh">
+      <div class="bl" style="color:var(--gold)"><div class="sub-dot"></div>Analytikerbriefing</div>
+      <button class="rb" id="rb-analyst" onclick="loadShortBriefing('analyst')">
+        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>
+        Uppdatera
+      </button>
+    </div>
     <div class="bc glass" id="bc-analyst">
-      <div class="bld" id="bl-analyst"><div style="font-size:2rem;animation:pd 1.5s ease-in-out infinite">📊</div><div class="lt2">Hämtar analytikerbriefing…</div><div class="lsteps"><div class="ls" id="as1">→ Söker index & futures</div><div class="ls" id="as2">→ Analyserar makro</div><div class="ls" id="as3">→ Granskar rapporter</div><div class="ls" id="as4">→ Sammanställer</div></div></div>
+      <div class="bld" id="bl-analyst">
+        <div style="font-size:0.76rem;font-family:'DM Mono',monospace;color:var(--muted);animation:pd 1.5s ease-in-out infinite">Hämtar analytikerbriefing…</div>
+        <div class="lsteps"><div class="ls" id="as1">Söker index och futures</div><div class="ls" id="as2">Analyserar makro</div><div class="ls" id="as3">Granskar rapporter</div><div class="ls" id="as4">Sammanställer</div></div>
+      </div>
       <div id="bcon-analyst" style="display:none"></div>
     </div>
   </div>
   <div class="mw glass" style="margin-top:12px">
-    <p style="font-family:'DM Mono',monospace;font-size:0.61rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold)">🌡️ Sentimentmätare</p>
-    <p style="font-size:0.82rem;color:var(--cream);margin-top:5px">Hur bedömer du riskaptiten idag?</p>
-    <div class="mbtns"><button class="mb" onclick="voteMood('bull',this,'am')">📈 Risk-on</button><button class="mb" onclick="voteMood('bear',this,'am')">📉 Risk-off</button><button class="mb" onclick="voteMood('side',this,'am')">↔️ Neutral</button></div>
+    <p style="font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold)">Sentimentmätare</p>
+    <p style="font-size:0.81rem;color:var(--cream);margin-top:5px">Hur bedömer du riskaptiten idag?</p>
+    <div class="mbtns"><button class="mb" onclick="voteMood('bull',this,'am')">Risk-on</button><button class="mb" onclick="voteMood('bear',this,'am')">Risk-off</button><button class="mb" onclick="voteMood('side',this,'am')">Neutral</button></div>
     <div class="mr" id="mood-am">
-      <div class="mbr"><span class="mbl">📈 Risk-on</span><div class="mbt"><div class="mbf" id="mam-bull" style="background:var(--green);width:0%"></div></div><span class="mbp" id="mpam-bull">0%</span></div>
-      <div class="mbr"><span class="mbl">📉 Risk-off</span><div class="mbt"><div class="mbf" id="mam-bear" style="background:var(--red);width:0%"></div></div><span class="mbp" id="mpam-bear">0%</span></div>
-      <div class="mbr"><span class="mbl">↔️ Neutral</span><div class="mbt"><div class="mbf" id="mam-side" style="background:var(--blue);width:0%"></div></div><span class="mbp" id="mpam-side">0%</span></div>
+      <div class="mbr"><span class="mbl">Risk-on</span><div class="mbt"><div class="mbf" id="mam-bull" style="background:var(--green);width:0%"></div></div><span class="mbp" id="mpam-bull">0%</span></div>
+      <div class="mbr"><span class="mbl">Risk-off</span><div class="mbt"><div class="mbf" id="mam-bear" style="background:var(--red);width:0%"></div></div><span class="mbp" id="mpam-bear">0%</span></div>
+      <div class="mbr"><span class="mbl">Neutral</span><div class="mbt"><div class="mbf" id="mam-side" style="background:var(--blue);width:0%"></div></div><span class="mbp" id="mpam-side">0%</span></div>
     </div>
   </div>
 </div>
@@ -474,74 +609,103 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
 <!-- PENSION -->
 <div id="page-pension" class="page">
 <div class="inner">
-  <div class="lvl-badge" style="background:rgba(91,191,138,0.1);border:1px solid rgba(91,191,138,0.25);color:var(--pension)">🌱 Nivå 3 · Pensionssparare</div>
+  <div class="lvl-badge" style="background:rgba(91,191,138,0.1);border:1px solid rgba(91,191,138,0.25);color:var(--pension)">Nivå 3 · Pensionssparare</div>
   <h1>Din pension, <em style="color:var(--pension)">tydligare.</em></h1>
   <p>Förstå dina pensionspengar och håll koll på din ekonomiska framtid.</p>
   <div class="sf-wrap">
-    <div class="sf" style="border-color:rgba(91,191,138,0.3)"><input type="email" id="email-pension" placeholder="din@email.se"/><button onclick="handleSub('pension')" style="background:linear-gradient(135deg,#4da87a,var(--pension));color:#0a1a12;border:none;padding:9px 18px;font-family:'DM Sans',sans-serif;font-size:0.72rem;font-weight:500;text-transform:uppercase;cursor:pointer;border-radius:var(--r-xl)">Prenumerera →</button></div>
-    <p class="ss" id="success-pension" style="color:var(--pension)">🌱 Välkommen! Första brevet imorgon kl. 07:00.</p>
+    <div class="sf" style="border-color:rgba(91,191,138,0.3)">
+      <input type="email" id="email-pension" placeholder="din@email.se"/>
+      <button onclick="handleSub('pension')" style="background:linear-gradient(135deg,#4da87a,var(--pension));color:#0a1a12;border:none;padding:9px 17px;font-family:'DM Sans',sans-serif;font-size:0.71rem;font-weight:500;text-transform:uppercase;cursor:pointer;border-radius:var(--r-xl)">Prenumerera</button>
+    </div>
+    <p class="ss" id="success-pension" style="color:var(--pension)">Välkommen! Första brevet imorgon kl. 07:00.</p>
     <p class="sn">Gratis · Inga krångliga termer · Avprenumerera när som helst</p>
   </div>
   <div class="bw">
-    <div class="bh"><div class="bl" style="color:var(--pension)"><div class="sub-dot" style="background:var(--pension)"></div>PENSIONSBRIEFING</div>
-    <button class="rb" id="rb-pension" onclick="loadShortBriefing('pension')"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>Uppdatera</button></div>
+    <div class="bh">
+      <div class="bl" style="color:var(--pension)"><div class="sub-dot" style="background:var(--pension)"></div>Pensionsbriefing</div>
+      <button class="rb" id="rb-pension" onclick="loadShortBriefing('pension')">
+        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>
+        Uppdatera
+      </button>
+    </div>
     <div class="bc glass" id="bc-pension">
-      <div class="bld" id="bl-pension"><div style="font-size:2rem;animation:pd 1.5s ease-in-out infinite">🌱</div><div class="lt2">Hämtar pensionsbriefing…</div></div>
+      <div class="bld" id="bl-pension">
+        <div style="font-size:0.76rem;font-family:'DM Mono',monospace;color:var(--muted);animation:pd 1.5s ease-in-out infinite">Hämtar pensionsbriefing…</div>
+      </div>
       <div id="bcon-pension" style="display:none"></div>
     </div>
   </div>
 </div>
 </div>
 
-<!-- DISKUSSION -->
+<!-- ==================== ANALYS ==================== -->
+<div id="page-analys" class="page">
+<div class="analys-page">
+  <div class="analys-hero">
+    <p style="font-family:'DM Mono',monospace;font-size:0.61rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:10px">Aktieanalys</p>
+    <h1>Analys & <em>Värdering</em></h1>
+    <p>Ange en aktieticker och få en AI-driven analys med nyckeltal, DCF-värdering och marknadskontext — baserat på aktuella nyheter och data.</p>
+  </div>
+  <div class="analys-ticker-form">
+    <input class="analys-input" type="text" id="analys-ticker" placeholder="Ange ticker (t.ex. ERIC B, AAPL, NVDA)" maxlength="10"/>
+    <button class="analys-btn" id="analys-run-btn" onclick="runAnalys()">Analysera</button>
+  </div>
+  <div class="analys-result" id="analys-result">
+    <div class="analys-loading-txt" id="analys-loading">Hämtar data och analyserar…</div>
+    <div id="analys-content"></div>
+  </div>
+</div>
+</div>
+
+<!-- ==================== DISKUSSION ==================== -->
 <div id="page-diskussion" class="page">
 <div class="disk-page">
-  <p style="font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:12px">Prenumerantdiskussion</p>
-  <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,4vw,3rem);font-weight:700;color:var(--cream);line-height:1.05;margin-bottom:16px">Vad tänker du<br/><em style="font-style:italic;color:var(--gold)">om marknaden?</em></h2>
-  <p style="font-size:0.93rem;color:var(--muted);line-height:1.75;margin-bottom:28px">Dela dina tankar om dagens nyheter. Fråga gärna AI om andras inlägg!</p>
+  <p style="font-family:'DM Mono',monospace;font-size:0.61rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:11px">Prenumerantdiskussion</p>
+  <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,4vw,3rem);font-weight:700;color:var(--cream);line-height:1.05;margin-bottom:14px">Vad tänker du<br/><em style="font-style:italic;color:var(--gold)">om marknaden?</em></h2>
+  <p style="font-size:0.91rem;color:var(--muted);line-height:1.75;margin-bottom:26px">Dela dina tankar om dagens nyheter och fråga AI om andras inlägg.</p>
   <div class="disk-form glass">
-    <p style="font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);margin-bottom:14px">✍️ Skriv ett inlägg</p>
+    <p style="font-family:'DM Mono',monospace;font-size:0.61rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);margin-bottom:13px">Skriv ett inlägg</p>
     <div class="disk-input-row">
       <input class="disk-name"  id="disk-name"  placeholder="Ditt namn" maxlength="30"/>
       <input class="disk-topic" id="disk-topic" placeholder="Ämne (t.ex. Bitcoin, Riksbanken)" maxlength="50"/>
     </div>
     <textarea class="disk-textarea" id="disk-text" placeholder="Vad tänker du om marknaden idag?"></textarea>
-    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;">
-      <button class="disk-submit" onclick="submitDiskPost()">Publicera →</button>
-      <span style="font-family:'DM Mono',monospace;font-size:0.62rem;color:var(--muted)"><span id="disk-count">0</span> inlägg</span>
+    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px">
+      <button class="disk-submit" onclick="submitDiskPost()">Publicera</button>
+      <span style="font-family:'DM Mono',monospace;font-size:0.61rem;color:var(--muted)"><span id="disk-count">0</span> inlägg</span>
     </div>
   </div>
-  <div class="disk-feed" id="disk-feed"><div class="disk-empty">Inga inlägg ännu – var den första! ☕</div></div>
+  <div class="disk-feed" id="disk-feed"><div class="disk-empty">Inga inlägg ännu — var den första.</div></div>
 </div>
 </div>
 
-<!-- ABOUT -->
+<!-- ==================== ABOUT ==================== -->
 <div id="page-about" class="page">
 <div class="abp">
   <div class="abg">
     <div class="abt">
-      <p style="font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:12px">Om Espresso Market</p>
-      <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.7rem,3.5vw,2.8rem);font-weight:700;color:var(--cream);line-height:1.05;margin-bottom:14px">Vi brygger<br/><em style="font-style:italic;color:var(--gold)">kunskap varje dag.</em></h2>
+      <p style="font-family:'DM Mono',monospace;font-size:0.61rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:11px">Om Espresso Market</p>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.7rem,3.5vw,2.8rem);font-weight:700;color:var(--cream);line-height:1.05;margin-bottom:13px">Vi brygger<br/><em style="font-style:italic;color:var(--gold)">kunskap varje dag.</em></h2>
       <p>Espresso Market grundades 2026 med en enkel idé: <strong>finansnyheter ska vara tillgängliga för alla</strong>.</p>
       <p>Varje morgon kl. 07:00 söker vår AI igenom webben och levererar tre olika briefingar — nybörjare, analytiker och pensionssparare.</p>
       <div class="vg">
-        <div class="vc glass-sm"><div class="vi">☕</div><h4>Enkelhet</h4><p>Bara det som spelar roll.</p></div>
-        <div class="vc glass-sm"><div class="vi">🎯</div><h4>Precision</h4><p>Baserat på riktiga nyheter varje dag.</p></div>
-        <div class="vc glass-sm"><div class="vi">🔓</div><h4>Öppenhet</h4><p>Gratis för alltid.</p></div>
-        <div class="vc glass-sm"><div class="vi">🤖</div><h4>AI-drivet</h4><p>Powered by Claude AI.</p></div>
+        <div class="vc glass-sm"><div class="vi">—</div><h4>Enkelhet</h4><p>Bara det som spelar roll.</p></div>
+        <div class="vc glass-sm"><div class="vi">—</div><h4>Precision</h4><p>Baserat på riktiga nyheter varje dag.</p></div>
+        <div class="vc glass-sm"><div class="vi">—</div><h4>Öppenhet</h4><p>Gratis för alltid.</p></div>
+        <div class="vc glass-sm"><div class="vi">—</div><h4>AI-drivet</h4><p>Powered by Claude AI.</p></div>
       </div>
     </div>
     <div>
-      <div class="glass-sm" style="padding:24px">
-        <p style="font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:16px">📬 Kontakt</p>
-        <a href="/cdn-cgi/l/email-protection#285e414b5c475a5f4747444e1818684f45494144064b4745" style="display:inline-flex;align-items:center;gap:8px;font-family:'DM Mono',monospace;font-size:0.82rem;color:var(--gold);text-decoration:none;padding:10px 16px;border:1px solid rgba(212,165,90,0.3);border-radius:var(--r-xl);background:var(--gold-dim);">✉️ <span class="__cf_email__" data-cfemail="4b3d22283f24393c2424272d7b7b0b2c262a222765282426">[email&#160;protected]</span></a>
-        <div style="margin-top:24px;padding-top:20px;border-top:1px solid var(--glass-border)">
-          <p style="font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:12px">⚡ Snabbfakta</p>
-          <div style="display:flex;flex-direction:column;gap:8px">
-            <div style="display:flex;justify-content:space-between;font-family:'DM Mono',monospace;font-size:0.72rem"><span style="color:var(--muted)">Grundat</span><span style="color:var(--cream)">2026</span></div>
-            <div style="display:flex;justify-content:space-between;font-family:'DM Mono',monospace;font-size:0.72rem"><span style="color:var(--muted)">Utskick</span><span style="color:var(--cream)">Varje vardag 07:00</span></div>
-            <div style="display:flex;justify-content:space-between;font-family:'DM Mono',monospace;font-size:0.72rem"><span style="color:var(--muted)">Kostnad</span><span style="color:var(--green)">Alltid gratis</span></div>
-            <div style="display:flex;justify-content:space-between;font-family:'DM Mono',monospace;font-size:0.72rem"><span style="color:var(--muted)">AI-motor</span><span style="color:var(--cream)">Claude AI (Anthropic)</span></div>
+      <div class="glass-sm" style="padding:22px">
+        <p style="font-family:'DM Mono',monospace;font-size:0.61rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:14px">Kontakt</p>
+        <a href="mailto:hej@espressomarket.se" style="display:inline-flex;align-items:center;gap:8px;font-family:'DM Mono',monospace;font-size:0.8rem;color:var(--gold);text-decoration:none;padding:9px 15px;border:1px solid rgba(212,165,90,0.28);border-radius:var(--r-xl);background:var(--gold-dim);">hej@espressomarket.se</a>
+        <div style="margin-top:22px;padding-top:18px;border-top:1px solid var(--glass-border)">
+          <p style="font-family:'DM Mono',monospace;font-size:0.61rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:11px">Snabbfakta</p>
+          <div style="display:flex;flex-direction:column;gap:7px">
+            <div style="display:flex;justify-content:space-between;font-family:'DM Mono',monospace;font-size:0.71rem"><span style="color:var(--muted)">Grundat</span><span style="color:var(--cream)">2026</span></div>
+            <div style="display:flex;justify-content:space-between;font-family:'DM Mono',monospace;font-size:0.71rem"><span style="color:var(--muted)">Utskick</span><span style="color:var(--cream)">Varje vardag 07:00</span></div>
+            <div style="display:flex;justify-content:space-between;font-family:'DM Mono',monospace;font-size:0.71rem"><span style="color:var(--muted)">Kostnad</span><span style="color:var(--green)">Alltid gratis</span></div>
+            <div style="display:flex;justify-content:space-between;font-family:'DM Mono',monospace;font-size:0.71rem"><span style="color:var(--muted)">AI-motor</span><span style="color:var(--cream)">Claude AI (Anthropic)</span></div>
           </div>
         </div>
       </div>
@@ -550,427 +714,337 @@ nav.scrolled{background:rgba(26,18,8,0.95);backdrop-filter:blur(24px);border-bot
 </div>
 </div>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-// ===== STATE =====
-let todayData   = null;
-let archiveData = [];
-const chatHist  = {};
-const bLoaded   = {beginner:false, analyst:false, pension:false};
-let diskPosts   = [];
-let diskLiked   = new Set();
+<script>
+// ── STATE ──
+let todayData=null,archiveData=[],diskPosts=[],diskLiked=new Set();
+const chatHist={},bLoaded={beginner:false,analyst:false,pension:false};
 
-// ===== NAV =====
-window.addEventListener('scroll', () =>
-  document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 40)
-);
-
-function showToast(msg) {
-  const t = document.getElementById('toast');
-  document.getElementById('toast-msg').textContent = msg;
-  t.classList.add('show');
-  setTimeout(() => t.classList.remove('show'), 3000);
+// ── NAV ──
+window.addEventListener('scroll',()=>document.getElementById('nav').classList.toggle('scrolled',window.scrollY>40));
+function showToast(msg){const t=document.getElementById('toast');document.getElementById('toast-msg').textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),3000);}
+function showPage(id){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.getElementById('page-'+id).classList.add('active');
+  document.querySelectorAll('.nav-link').forEach(l=>l.classList.remove('active'));
+  const btn=document.getElementById('nav-'+id);if(btn)btn.classList.add('active');
+  window.scrollTo({top:0,behavior:'smooth'});
+  if(id==='beginner'&&!bLoaded.beginner)loadShortBriefing('beginner');
+  if(id==='analyst' &&!bLoaded.analyst) loadShortBriefing('analyst');
+  if(id==='pension' &&!bLoaded.pension) loadShortBriefing('pension');
 }
 
-function showPage(id) {
-  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-  document.getElementById('page-' + id).classList.add('active');
-  document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
-  const btn = document.getElementById('nav-' + id);
-  if (btn) btn.classList.add('active');
-  window.scrollTo({top:0, behavior:'smooth'});
-  if (id==='beginner' && !bLoaded.beginner) loadShortBriefing('beginner');
-  if (id==='analyst'  && !bLoaded.analyst)  loadShortBriefing('analyst');
-  if (id==='pension'  && !bLoaded.pension)  loadShortBriefing('pension');
-}
-
-// ===== SUBSCRIBER COUNT =====
-// (subscriber count removed)
-
-// ===== LOAD TODAY'S BRIEFING =====
-async function loadHem() {
-  try {
-    const res  = await fetch('/data/briefing.json?t=' + Date.now());
-    if (!res.ok) throw new Error('Ingen briefing');
-    const json = await res.json();
-    todayData  = json;
-    const d    = json.briefing;
-
-    document.getElementById('hem-date').textContent    = d.date || new Date().toLocaleDateString('sv-SE',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
-    document.getElementById('hem-headline').textContent = d.headline || '';
-    document.getElementById('hem-subline').textContent  = d.date || '';
-
-    renderHemLevel('beginner', d, 'var(--beginner)');
-    renderHemLevel('analyst',  d, 'var(--analyst)');
-    renderHemLevel('pension',  d, 'var(--pension)');
-
-    if (d.sources && d.sources.length) {
-      document.getElementById('hem-sources').textContent = 'Källor: ' + d.sources.join(' · ');
-    }
-
-    document.getElementById('hem-loading').style.display = 'none';
-    document.getElementById('hem-loaded').style.display  = 'block';
-  } catch(e) {
-    document.getElementById('hem-loading').innerHTML = `
-      <div style="font-size:2rem;margin-bottom:14px">☕</div>
-      <div style="font-family:'DM Mono',monospace;font-size:0.76rem;color:var(--muted)">Briefingen publiceras varje vardag kl. 07:00</div>`;
-    document.getElementById('hem-date').textContent = new Date().toLocaleDateString('sv-SE',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
+// ── LOAD TODAY'S BRIEFING ──
+async function loadHem(){
+  try{
+    const res=await fetch('/data/briefing.json?t='+Date.now());
+    if(!res.ok)throw new Error();
+    const json=await res.json();todayData=json;const d=json.briefing;
+    document.getElementById('hem-date').textContent=d.date||new Date().toLocaleDateString('sv-SE',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
+    document.getElementById('hem-headline').textContent=d.headline||'';
+    document.getElementById('hem-subline').textContent=d.date||'';
+    renderHemLevel('beginner',d,'var(--beginner)');
+    renderHemLevel('analyst', d,'var(--analyst)');
+    renderHemLevel('pension', d,'var(--pension)');
+    if(d.sources&&d.sources.length)document.getElementById('hem-sources').textContent='Källor: '+d.sources.join(' · ');
+    document.getElementById('hem-loading').style.display='none';
+    document.getElementById('hem-loaded').style.display='block';
+  }catch(e){
+    document.getElementById('hem-loading').innerHTML='<div style="font-family:\'DM Mono\',monospace;font-size:0.74rem;color:var(--muted)">Briefingen publiceras varje vardag kl. 07:00</div>';
+    document.getElementById('hem-date').textContent=new Date().toLocaleDateString('sv-SE',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
   }
 }
-
-function renderHemLevel(level, d, color) {
-  const bullets = d['full_' + level] || d[level] || [];
-  const el = document.getElementById('hem-items-' + level);
-  if (!el) return;
-  el.innerHTML = bullets.map(b => {
-    let blocks = '';
-    if (b.explain)    blocks += `<div class="hem-item-block" style="border-color:${color};background:rgba(255,240,215,0.04)">${b.explain}</div>`;
-    if (b.background) blocks += `<div class="hem-item-block" style="border-color:var(--muted);background:rgba(255,240,215,0.03)">${b.background}</div>`;
-    if (b.detail)     blocks += `<div class="hem-item-block" style="border-color:${color};background:rgba(255,240,215,0.04)">${b.detail}</div>`;
-    if (b.outlook)    blocks += `<div class="hem-item-block" style="border-color:var(--green);background:rgba(91,191,138,0.04)">${b.outlook}</div>`;
-    if (b.tip)        blocks += `<div class="hem-item-block" style="border-color:${color};background:rgba(255,240,215,0.04)">${b.tip}</div>`;
-    if (b.funds)      blocks += `<div class="hem-item-block" style="border-color:var(--muted);background:rgba(255,240,215,0.03)">${b.funds}</div>`;
-    return `<div class="hem-item">
-      <div class="hem-item-top">
-        <div class="hem-item-icon">${b.icon}</div>
-        <div class="hem-item-label" style="color:${color}">${b.label}</div>
-      </div>
-      <div class="hem-item-text">${b.text}</div>
-      ${blocks}
-    </div>`;
+function renderHemLevel(level,d,color){
+  const bullets=d['full_'+level]||d[level]||[];
+  const el=document.getElementById('hem-items-'+level);if(!el)return;
+  el.innerHTML=bullets.map(b=>{
+    let blocks='';
+    if(b.explain)   blocks+=`<div class="hem-item-block" style="border-color:${color};background:rgba(255,240,215,0.04)">${b.explain}</div>`;
+    if(b.background)blocks+=`<div class="hem-item-block" style="border-color:var(--muted);background:rgba(255,240,215,0.03)">${b.background}</div>`;
+    if(b.detail)    blocks+=`<div class="hem-item-block" style="border-color:${color};background:rgba(255,240,215,0.04)">${b.detail}</div>`;
+    if(b.outlook)   blocks+=`<div class="hem-item-block" style="border-color:var(--green);background:rgba(91,191,138,0.04)">${b.outlook}</div>`;
+    if(b.tip)       blocks+=`<div class="hem-item-block" style="border-color:${color};background:rgba(255,240,215,0.04)">${b.tip}</div>`;
+    if(b.funds)     blocks+=`<div class="hem-item-block" style="border-color:var(--muted);background:rgba(255,240,215,0.03)">${b.funds}</div>`;
+    return`<div class="hem-item"><div class="hem-item-top"><div class="hem-item-label" style="color:${color}">${b.label}</div></div><div class="hem-item-text">${b.text}</div>${blocks}</div>`;
   }).join('');
 }
-
-function switchHemTab(level) {
-  ['beginner','analyst','pension'].forEach(l => {
-    const el = document.getElementById('hem-items-' + l);
-    if (el) el.classList.toggle('show', l === level);
-    const tab = document.getElementById('htab-' + l);
-    if (tab) tab.classList.toggle('active', l === level);
+function switchHemTab(level){
+  ['beginner','analyst','pension'].forEach(l=>{
+    const el=document.getElementById('hem-items-'+l);if(el)el.classList.toggle('show',l===level);
+    const tab=document.getElementById('htab-'+l);if(tab)tab.classList.toggle('active',l===level);
   });
 }
 
-// ===== LOAD ARCHIVE =====
-async function loadArchive() {
-  try {
-    const res = await fetch('/data/archive.json?t=' + Date.now());
-    if (!res.ok) throw new Error();
-    archiveData = await res.json();
-    renderArchive();
-  } catch(e) {
-    document.getElementById('archive-list').innerHTML =
-      '<div class="archive-empty">Inga tidigare briefingar sparade ännu. De sparas automatiskt varje dag.</div>';
-  }
+// ── ARCHIVE ──
+async function loadArchive(){
+  try{
+    const res=await fetch('/data/archive.json?t='+Date.now());
+    if(!res.ok)throw new Error();
+    archiveData=await res.json();renderArchive();
+  }catch(e){document.getElementById('archive-list').innerHTML='<div class="archive-empty">Inga tidigare briefingar sparade ännu. De sparas automatiskt varje dag.</div>';}
 }
-
-function renderArchive() {
-  const list = document.getElementById('archive-list');
-  // Index 0 = idag, visa från 1 och framåt
-  const past = archiveData.slice(1);
-  if (!past.length) {
-    list.innerHTML = '<div class="archive-empty">Inga tidigare briefingar ännu — kom tillbaka imorgon! ☕</div>';
-    return;
-  }
-  list.innerHTML = past.map((item, i) => {
-    const preview = item.beginner && item.beginner[0] ? (item.beginner[0].text || '').substring(0,120) : '';
-    return `<div class="arc-item" onclick="openArchive(${i+1})">
-      <div class="arc-left">
-        <div class="arc-date">${item.date_short || item.date || ''}</div>
-        <div class="arc-headline">${item.headline || ''}</div>
-        ${preview ? `<div class="arc-preview">${preview}…</div>` : ''}
-      </div>
-      <div class="arc-arrow">→</div>
-    </div>`;
+function renderArchive(){
+  const list=document.getElementById('archive-list');const past=archiveData.slice(1);
+  if(!past.length){list.innerHTML='<div class="archive-empty">Inga tidigare briefingar ännu — kom tillbaka imorgon.</div>';return;}
+  list.innerHTML=past.map((item,i)=>{
+    const preview=item.beginner&&item.beginner[0]?(item.beginner[0].text||'').substring(0,110):'';
+    return`<div class="arc-item" onclick="openArchive(${i+1})"><div class="arc-left"><div class="arc-date">${item.date_short||item.date||''}</div><div class="arc-headline">${item.headline||''}</div>${preview?`<div class="arc-preview">${preview}…</div>`:''}</div><div class="arc-arrow">→</div></div>`;
   }).join('');
 }
+function openArchive(idx){const item=archiveData[idx];if(!item)return;openFullBriefing(item,{},'beginner');}
 
-function openArchive(idx) {
-  const item = archiveData[idx];
-  if (!item) return;
-  openFullBriefing(item, item.futures || {}, 'beginner');
-}
-
-// ===== FULL BRIEFING =====
-function openFullBriefing(data, futures, niva) {
-  const cfgs = {
-    beginner: {text:'☕ Nybörjarbriefing',  style:'background:rgba(122,179,212,0.1);border:1px solid rgba(122,179,212,0.25);color:var(--beginner)'},
-    analyst:  {text:'📊 Analytikerbriefing', style:'background:rgba(212,165,90,0.1);border:1px solid rgba(212,165,90,0.25);color:var(--gold)'},
-    pension:  {text:'🌱 Pensionsbriefing',   style:'background:rgba(91,191,138,0.1);border:1px solid rgba(91,191,138,0.25);color:var(--pension)'},
+// ── FULL BRIEFING ──
+function openFullBriefing(data,futures,niva){
+  const cfgs={
+    beginner:{text:'Nybörjarbriefing',style:'background:rgba(122,179,212,0.1);border:1px solid rgba(122,179,212,0.25);color:var(--beginner)'},
+    analyst: {text:'Analytikerbriefing',style:'background:rgba(212,165,90,0.1);border:1px solid rgba(212,165,90,0.25);color:var(--gold)'},
+    pension: {text:'Pensionsbriefing',style:'background:rgba(91,191,138,0.1);border:1px solid rgba(91,191,138,0.25);color:var(--pension)'},
   };
-  const cfg = cfgs[niva] || cfgs.beginner;
-  document.getElementById('full-badge').textContent  = cfg.text;
-  document.getElementById('full-badge').style.cssText = cfg.style;
-  document.getElementById('full-headline').textContent = data.headline || '';
-  document.getElementById('full-date').textContent     = data.date || '';
-
-  buildFullLevel('beginner', data, 'var(--beginner)');
-  buildFullLevel('analyst',  data, 'var(--analyst)');
-  buildFullLevel('pension',  data, 'var(--pension)');
-
-  document.getElementById('full-sources').textContent = 'Källor: ' + (data.sources||[]).join(' · ');
-  showPage('full');
-  switchFullTab(niva);
+  const cfg=cfgs[niva]||cfgs.beginner;
+  document.getElementById('full-badge').textContent=cfg.text;
+  document.getElementById('full-badge').style.cssText=cfg.style;
+  document.getElementById('full-headline').textContent=data.headline||'';
+  document.getElementById('full-date').textContent=data.date||'';
+  buildFullLevel('beginner',data,'var(--beginner)');
+  buildFullLevel('analyst', data,'var(--analyst)');
+  buildFullLevel('pension', data,'var(--pension)');
+  document.getElementById('full-sources').textContent='Källor: '+(data.sources||[]).join(' · ');
+  showPage('full');switchFullTab(niva);
 }
-
-function buildFullLevel(level, data, color) {
-  const bullets = data['full_' + level] || data[level] || [];
-  const el = document.getElementById('full-' + level);
-  if (!el) return;
-  el.innerHTML = `<div class="full-items">${bullets.map(b => {
-    let blocks = '';
-    if (b.explain)    blocks += `<div class="full-item-block" style="border-color:${color};background:rgba(255,240,215,0.04)">${b.explain}</div>`;
-    if (b.background) blocks += `<div class="full-item-block" style="border-color:var(--muted);background:rgba(255,240,215,0.03)">${b.background}</div>`;
-    if (b.detail)     blocks += `<div class="full-item-block" style="border-color:${color};background:rgba(255,240,215,0.04)">${b.detail}</div>`;
-    if (b.outlook)    blocks += `<div class="full-item-block" style="border-color:var(--green);background:rgba(91,191,138,0.04)">${b.outlook}</div>`;
-    if (b.tip)        blocks += `<div class="full-item-block" style="border-color:${color};background:rgba(255,240,215,0.04)">${b.tip}</div>`;
-    if (b.funds)      blocks += `<div class="full-item-block" style="border-color:var(--muted);background:rgba(255,240,215,0.03)">${b.funds}</div>`;
-    return `<div class="full-item">
-      <div class="full-item-top">
-        <div class="full-item-icon">${b.icon}</div>
-        <div class="full-item-label" style="color:${color}">${b.label}</div>
-      </div>
-      <div class="full-item-text">${b.text}</div>
-      ${blocks}
-    </div>`;
+function buildFullLevel(level,data,color){
+  const bullets=data['full_'+level]||data[level]||[];
+  const el=document.getElementById('full-'+level);if(!el)return;
+  el.innerHTML=`<div class="full-items">${bullets.map(b=>{
+    let blocks='';
+    if(b.explain)   blocks+=`<div class="full-item-block" style="border-color:${color};background:rgba(255,240,215,0.04)">${b.explain}</div>`;
+    if(b.background)blocks+=`<div class="full-item-block" style="border-color:var(--muted);background:rgba(255,240,215,0.03)">${b.background}</div>`;
+    if(b.detail)    blocks+=`<div class="full-item-block" style="border-color:${color};background:rgba(255,240,215,0.04)">${b.detail}</div>`;
+    if(b.outlook)   blocks+=`<div class="full-item-block" style="border-color:var(--green);background:rgba(91,191,138,0.04)">${b.outlook}</div>`;
+    if(b.tip)       blocks+=`<div class="full-item-block" style="border-color:${color};background:rgba(255,240,215,0.04)">${b.tip}</div>`;
+    if(b.funds)     blocks+=`<div class="full-item-block" style="border-color:var(--muted);background:rgba(255,240,215,0.03)">${b.funds}</div>`;
+    return`<div class="full-item"><div class="full-item-top"><div class="full-item-label" style="color:${color}">${b.label}</div></div><div class="full-item-text">${b.text}</div>${blocks}</div>`;
   }).join('')}</div>`;
 }
-
-function switchFullTab(niva) {
-  ['beginner','analyst','pension'].forEach(l => {
-    const c = document.getElementById('full-' + l);
-    if (c) c.classList.toggle('show', l === niva);
-    const t = document.getElementById('ftab-' + l);
-    if (t) t.classList.toggle('active', l === niva);
+function switchFullTab(niva){
+  ['beginner','analyst','pension'].forEach(l=>{
+    const c=document.getElementById('full-'+l);if(c)c.classList.toggle('show',l===niva);
+    const t=document.getElementById('ftab-'+l);if(t)t.classList.toggle('active',l===niva);
   });
 }
 
-// ===== URL ROUTING — email links =====
-function checkUrl() {
-  const p    = new URLSearchParams(window.location.search);
-  const niva = p.get('niva');
-  if (!niva || !['beginner','analyst','pension'].includes(niva)) return;
-  const tryOpen = () => {
-    if (todayData) {
-      openFullBriefing(todayData.briefing, todayData.futures || {}, niva);
-    } else {
-      setTimeout(tryOpen, 300);
-    }
-  };
+// ── URL ROUTING ──
+function checkUrl(){
+  const p=new URLSearchParams(window.location.search);const niva=p.get('niva');
+  if(!niva||!['beginner','analyst','pension'].includes(niva))return;
+  const tryOpen=()=>{if(todayData)openFullBriefing(todayData.briefing,todayData.futures||{},niva);else setTimeout(tryOpen,300);};
   tryOpen();
 }
 
-// ===== SUBSCRIBE =====
-async function handleSub(level) {
-  const inp = document.getElementById('email-' + level);
-  const suc = document.getElementById('success-' + level);
-  if (!inp.value || !inp.value.includes('@')) {
-    inp.style.borderColor = 'var(--red)';
-    setTimeout(() => inp.style.borderColor = '', 1000);
-    return;
-  }
-  try {
-    const res = await fetch('/.netlify/functions/subscribe', {
-      method:'POST', headers:{'Content-Type':'application/json'},
-      body: JSON.stringify({email:inp.value, niva:level})
-    });
-    if (res.ok) {
-      suc.style.display = 'block';
-      inp.closest('.sf').style.display = 'none';
-      showToast('Välkommen till Espresso Market! ☕');
-    } else { showToast('Något gick fel – försök igen.'); }
-  } catch(e) { showToast('Något gick fel – försök igen.'); }
+// ── SUBSCRIBE ──
+async function handleSub(level){
+  const inp=document.getElementById('email-'+level),suc=document.getElementById('success-'+level);
+  if(!inp.value||!inp.value.includes('@')){inp.style.borderColor='var(--red)';setTimeout(()=>inp.style.borderColor='',1000);return;}
+  try{
+    const res=await fetch('/.netlify/functions/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:inp.value,niva:level})});
+    if(res.ok){suc.style.display='block';inp.closest('.sf').style.display='none';showToast('Välkommen till Espresso Market!');}
+    else showToast('Något gick fel – försök igen.');
+  }catch(e){showToast('Något gick fel – försök igen.');}
 }
-['beginner','analyst','pension'].forEach(l => {
-  const el = document.getElementById('email-' + l);
-  if (el) el.addEventListener('keydown', e => { if (e.key==='Enter') handleSub(l); });
-});
+['beginner','analyst','pension'].forEach(l=>{const el=document.getElementById('email-'+l);if(el)el.addEventListener('keydown',e=>{if(e.key==='Enter')handleSub(l);});});
 
-// ===== MOOD =====
-const moodData = {bm:{bull:0,bear:0,side:0}, am:{bull:0,bear:0,side:0}};
-function voteMood(type, btn, prefix) {
+// ── MOOD ──
+const moodData={bm:{bull:0,bear:0,side:0},am:{bull:0,bear:0,side:0}};
+function voteMood(type,btn,prefix){
   moodData[prefix][type]++;
-  btn.closest('.mbtns').querySelectorAll('.mb').forEach(b => b.disabled=true);
+  btn.closest('.mbtns').querySelectorAll('.mb').forEach(b=>b.disabled=true);
   btn.classList.add('v'+type[0]);
-  const total = moodData[prefix].bull + moodData[prefix].bear + moodData[prefix].side;
-  ['bull','bear','side'].forEach(k => {
-    const p  = Math.round(moodData[prefix][k] / total * 100);
-    const f  = document.getElementById('m'+prefix+'-'+k);
-    const pc = document.getElementById('mp'+prefix+'-'+k);
-    if (f)  f.style.width = p+'%';
-    if (pc) pc.textContent = p+'%';
+  const total=moodData[prefix].bull+moodData[prefix].bear+moodData[prefix].side;
+  ['bull','bear','side'].forEach(k=>{
+    const p=Math.round(moodData[prefix][k]/total*100);
+    const f=document.getElementById('m'+prefix+'-'+k),pc=document.getElementById('mp'+prefix+'-'+k);
+    if(f)f.style.width=p+'%';if(pc)pc.textContent=p+'%';
   });
-  document.getElementById('mood-'+prefix).style.display = 'block';
+  document.getElementById('mood-'+prefix).style.display='block';
 }
 
-// ===== SHORT BRIEFING (level pages) =====
-function animSteps(ids) {
-  ids.forEach(id => {
-    const el = document.getElementById(id);
-    if (el) { el.classList.remove('active','done'); el.textContent = '→ '+el.textContent.replace(/^[✓→] /,''); }
-  });
-  ids.forEach((id,i) => {
-    setTimeout(() => {
-      if (i > 0) {
-        const prev = document.getElementById(ids[i-1]);
-        if (prev) { prev.classList.remove('active'); prev.classList.add('done'); prev.textContent = '✓ '+prev.textContent.slice(2); }
-      }
-      const el = document.getElementById(id);
-      if (el) el.classList.add('active');
-    }, i*1400);
+// ── SHORT BRIEFING ──
+function animSteps(ids){
+  ids.forEach(id=>{const el=document.getElementById(id);if(el){el.classList.remove('active','done');el.textContent=el.textContent.replace(/^[✓] /,'');}});
+  ids.forEach((id,i)=>{
+    setTimeout(()=>{
+      if(i>0){const prev=document.getElementById(ids[i-1]);if(prev){prev.classList.remove('active');prev.classList.add('done');prev.textContent='✓ '+prev.textContent;}}
+      const el=document.getElementById(id);if(el)el.classList.add('active');
+    },i*1400);
   });
 }
-
-async function loadShortBriefing(level) {
-  bLoaded[level] = false;
-  const blEl = document.getElementById('bl-'+level);
-  const bcEl = document.getElementById('bcon-'+level);
-  const btn  = document.getElementById('rb-'+level);
-  if (blEl) blEl.style.display = 'flex';
-  if (bcEl) bcEl.style.display = 'none';
-  if (btn)  btn.classList.add('spinning');
-  if (level==='beginner') animSteps(['bs1','bs2','bs3','bs4']);
-  if (level==='analyst')  animSteps(['as1','as2','as3','as4']);
-  try {
-    const res  = await fetch('/data/briefing.json?t='+Date.now());
-    if (!res.ok) throw new Error();
-    const json = await res.json();
-    todayData  = json;
-    const data = json.briefing;
-    const bullets = data[level] || [];
-    renderShort(level, data.headline, data.date, bullets, data.sources||[]);
-    bLoaded[level] = true;
-  } catch(e) {
-    const today = new Date().toLocaleDateString('sv-SE',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
-    renderShort(level, 'Briefingen genereras kl 07:00 varje vardag ☕', today,
-      [{icon:'☕',label:'VÄLKOMMEN',text:'Espresso Market briefingen genereras automatiskt varje morgon.',explain:'💡 Kom tillbaka imorgon bitti!',topic:'espresso market'}],[]);
-    bLoaded[level] = true;
+async function loadShortBriefing(level){
+  bLoaded[level]=false;
+  const blEl=document.getElementById('bl-'+level),bcEl=document.getElementById('bcon-'+level),btn=document.getElementById('rb-'+level);
+  if(blEl)blEl.style.display='flex';if(bcEl)bcEl.style.display='none';if(btn)btn.classList.add('spinning');
+  if(level==='beginner')animSteps(['bs1','bs2','bs3','bs4']);
+  if(level==='analyst') animSteps(['as1','as2','as3','as4']);
+  try{
+    const res=await fetch('/data/briefing.json?t='+Date.now());if(!res.ok)throw new Error();
+    const json=await res.json();todayData=json;const data=json.briefing;
+    const bullets=data[level]||[];
+    renderShort(level,data.headline,data.date,bullets,data.sources||[]);bLoaded[level]=true;
+  }catch(e){
+    const today=new Date().toLocaleDateString('sv-SE',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
+    renderShort(level,'Briefingen genereras kl 07:00 varje vardag',today,
+      [{label:'Välkommen',text:'Espresso Market briefingen genereras automatiskt varje morgon. Kom tillbaka imorgon.',topic:'espresso market'}],[]);
+    bLoaded[level]=true;
   }
-  if (btn) btn.classList.remove('spinning');
+  if(btn)btn.classList.remove('spinning');
 }
-
-function renderShort(level, headline, dateStr, bullets, sources) {
-  const blEl = document.getElementById('bl-'+level);
-  const bcEl = document.getElementById('bcon-'+level);
-  if (blEl) blEl.style.display = 'none';
-  const ac = level==='beginner'?'var(--beginner)':level==='analyst'?'var(--gold)':'var(--pension)';
-  if (bcEl) {
-    bcEl.innerHTML = `
-      <div style="font-family:'DM Mono',monospace;font-size:0.61rem;color:var(--muted);margin-bottom:12px">☕ ${dateStr}</div>
-      <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:var(--cream);margin-bottom:14px;line-height:1.2">${headline}</h3>
-      ${bullets.map((b,i) => {
-        const cid = `c-${level}-${i}`;
-        return `<div class="bi">
-          <div class="bic">${b.icon}</div>
+function renderShort(level,headline,dateStr,bullets,sources){
+  const blEl=document.getElementById('bl-'+level),bcEl=document.getElementById('bcon-'+level);
+  if(blEl)blEl.style.display='none';
+  const ac=level==='beginner'?'var(--beginner)':level==='analyst'?'var(--gold)':'var(--pension)';
+  if(bcEl){
+    bcEl.innerHTML=`
+      <div style="font-family:'DM Mono',monospace;font-size:0.6rem;color:var(--muted);margin-bottom:11px">${dateStr}</div>
+      <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.18rem;color:var(--cream);margin-bottom:13px;line-height:1.2">${headline}</h3>
+      ${bullets.map((b,i)=>{
+        const cid=`c-${level}-${i}`;
+        return`<div class="bi">
           <div style="flex:1">
-            <div class="bil" style="color:${ac}">${b.label}</div>
-            <div class="bit">${b.text}</div>
-            ${b.explain ? `<div class="bex" style="border-color:${ac}">${b.explain}</div>`:''}
-            ${b.tip     ? `<div class="bex" style="border-color:${ac}">${b.tip}</div>`:''}
-            <button class="chat-btn" onclick="toggleChat('${cid}')">🤖 Fråga AI om detta</button>
+            <div class="bil" style="color:${ac}">${b.label||''}</div>
+            <div class="bit">${b.text||''}</div>
+            ${b.explain?`<div class="bex" style="border-color:${ac}">${b.explain}</div>`:''}
+            ${b.tip?`<div class="bex" style="border-color:${ac}">${b.tip}</div>`:''}
+            <button class="chat-btn" onclick="toggleChat('${cid}')">Fråga AI om detta</button>
             <div class="cw" id="${cid}">
-              <div class="cm" id="${cid}-m"><div class="msg ai">Ställ en fråga om <em style="color:${ac}">${b.label.toLowerCase()}</em>!</div></div>
+              <div class="cm" id="${cid}-m"><div class="msg ai">Ställ en fråga om <em style="color:${ac}">${(b.label||'').toLowerCase()}</em>.</div></div>
               <div class="ci">
-                <input id="${cid}-i" placeholder="Skriv din fråga…" onkeydown="if(event.key==='Enter')sendChat('${cid}','${(b.topic||b.label).replace(/'/g,"\\'")}','${level}')"/>
-                <button onclick="sendChat('${cid}','${(b.topic||b.label).replace(/'/g,"\\'")}','${level}')">→</button>
+                <input id="${cid}-i" placeholder="Din fråga…" onkeydown="if(event.key==='Enter')sendChat('${cid}','${(b.topic||b.label||'').replace(/'/g,"\\'")}','${level}')"/>
+                <button onclick="sendChat('${cid}','${(b.topic||b.label||'').replace(/'/g,"\\'")}','${level}')">→</button>
               </div>
             </div>
           </div>
         </div>`;
       }).join('')}
-      <div class="bf"><div class="bsrc">Källor: ${sources.join(' · ')}</div></div>`;
-    bcEl.style.display = 'block';
+      <div class="bf"><div class="bsrc">${sources.length?'Källor: '+sources.join(' · '):''}</div></div>`;
+    bcEl.style.display='block';
   }
 }
-
-function toggleChat(cid) {
-  const el = document.getElementById(cid);
-  if (el) el.classList.toggle('open');
-}
-
-async function sendChat(cid, topic, level) {
-  const inp  = document.getElementById(cid+'-i');
-  const msgs = document.getElementById(cid+'-m');
-  const q    = inp.value.trim();
-  if (!q) return;
-  inp.value = '';
-  if (!chatHist[cid]) chatHist[cid] = [];
-  msgs.innerHTML += `<div class="msg u">${q}</div><div class="msg th" id="${cid}-th">☕ Tänker…</div>`;
-  msgs.scrollTop  = msgs.scrollHeight;
-  chatHist[cid].push({role:'user',content:q});
-  try {
-    const res  = await fetch('/.netlify/functions/chat',{
-      method:'POST',headers:{'Content-Type':'application/json'},
-      body: JSON.stringify({
-        system: level==='beginner'
-          ? `Du är en vänlig finanslärare. Svara enkelt om "${topic}" på svenska. Max 3 meningar.`
-          : `Du är en finansanalytiker. Svara tekniskt om "${topic}" på svenska. Max 3 meningar.`,
-        messages: chatHist[cid]
-      })
-    });
-    const data = await res.json();
-    const ans  = data.content?.find(b=>b.type==='text')?.text || 'Kunde inte svara.';
+function toggleChat(cid){const el=document.getElementById(cid);if(el)el.classList.toggle('open');}
+async function sendChat(cid,topic,level){
+  const inp=document.getElementById(cid+'-i'),msgs=document.getElementById(cid+'-m');
+  const q=inp.value.trim();if(!q)return;inp.value='';
+  if(!chatHist[cid])chatHist[cid]=[];
+  msgs.innerHTML+=`<div class="msg u">${q}</div><div class="msg th" id="${cid}-th">Tänker…</div>`;
+  msgs.scrollTop=msgs.scrollHeight;chatHist[cid].push({role:'user',content:q});
+  try{
+    const res=await fetch('/.netlify/functions/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
+      system:level==='beginner'?`Du är en vänlig finanslärare. Svara enkelt om "${topic}" på svenska. Max 3 meningar.`:`Du är en finansanalytiker. Svara tekniskt om "${topic}" på svenska. Max 3 meningar.`,
+      messages:chatHist[cid]
+    })});
+    const data=await res.json();const ans=data.content?.find(b=>b.type==='text')?.text||'Kunde inte svara.';
     chatHist[cid].push({role:'assistant',content:ans});
-    const th = document.getElementById(cid+'-th');
-    if (th) th.remove();
-    msgs.innerHTML += `<div class="msg ai">${ans}</div>`;
-    msgs.scrollTop  = msgs.scrollHeight;
-  } catch(e) {
-    const th = document.getElementById(cid+'-th');
-    if (th) th.textContent = 'Något gick fel – försök igen.';
-  }
+    const th=document.getElementById(cid+'-th');if(th)th.remove();
+    msgs.innerHTML+=`<div class="msg ai">${ans}</div>`;msgs.scrollTop=msgs.scrollHeight;
+  }catch(e){const th=document.getElementById(cid+'-th');if(th)th.textContent='Något gick fel – försök igen.';}
 }
 
-// ===== DISKUSSION =====
-function submitDiskPost() {
-  const name  = document.getElementById('disk-name').value.trim();
-  const topic = document.getElementById('disk-topic').value.trim();
-  const text  = document.getElementById('disk-text').value.trim();
-  if (!name) { document.getElementById('disk-name').style.borderColor='var(--red)'; setTimeout(()=>document.getElementById('disk-name').style.borderColor='',1000); return; }
-  if (!text) { document.getElementById('disk-text').style.borderColor='var(--red)'; setTimeout(()=>document.getElementById('disk-text').style.borderColor='',1000); return; }
+// ── ANALYS ──
+async function runAnalys(){
+  const ticker=document.getElementById('analys-ticker').value.trim().toUpperCase();
+  if(!ticker){showToast('Ange en ticker');return;}
+  const btn=document.getElementById('analys-run-btn');
+  btn.disabled=true;btn.textContent='Analyserar…';
+  const res=document.getElementById('analys-result');
+  const loading=document.getElementById('analys-loading');
+  const content=document.getElementById('analys-content');
+  res.classList.add('show');loading.style.display='block';content.innerHTML='';
+  try{
+    const response=await fetch('/.netlify/functions/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
+      system:`Du är en erfaren aktieanalytiker. Analysera ${ticker} baserat på tillgänglig information. Svara på svenska i JSON-format utan backticks:\n{"company":"Bolagsnamn","description":"Kort beskrivning","metrics":[{"name":"nyckeltal","value":"värde","note":"kort kommentar"}],"sentiment":"bull|bear|neutral","summary":"2-3 meningar med investeringsbedömning","risks":"Huvudsakliga risker","catalysts":"Potentiella kursdrivare"}`,
+      messages:[{role:'user',content:`Gör en analys av aktien ${ticker}. Inkludera P/E, EV/EBITDA, tillväxt, marginal och en kortfattad investeringsbedömning.`}]
+    })});
+    const data=await response.json();
+    const text=data.content?.find(b=>b.type==='text')?.text||'{}';
+    const m=text.replace(/```json|```/g,'').trim().match(/\{[\s\S]*\}/);
+    if(!m)throw new Error();
+    const p=JSON.parse(m[0]);
+    loading.style.display='none';
+    const sentColor=p.sentiment==='bull'?'var(--green)':p.sentiment==='bear'?'var(--red)':'var(--blue)';
+    const sentLabel=p.sentiment==='bull'?'Positiv':p.sentiment==='bear'?'Negativ':'Neutral';
+    content.innerHTML=`
+      <div class="analys-grid">
+        <div class="analys-card glass">
+          <div class="analys-card-label">${p.company||ticker}</div>
+          <p style="font-size:0.8rem;color:var(--muted);line-height:1.65;margin-bottom:14px">${p.description||''}</p>
+          <div style="display:inline-flex;align-items:center;gap:6px;padding:3px 11px;border-radius:var(--r-xl);border:1px solid;font-family:'DM Mono',monospace;font-size:0.66rem;color:${sentColor};border-color:${sentColor}4a">${sentLabel}</div>
+        </div>
+        <div class="analys-card glass">
+          <div class="analys-card-label">Nyckeltal</div>
+          ${(p.metrics||[]).map(m=>`<div class="analys-metric"><span class="analys-metric-name">${m.name}</span><div style="text-align:right"><span class="analys-metric-val">${m.value}</span>${m.note?`<div style="font-family:'DM Mono',monospace;font-size:0.6rem;color:var(--muted);margin-top:1px">${m.note}</div>`:''}</div></div>`).join('')}
+        </div>
+        <div class="analys-full glass">
+          <div class="analys-card-label">Analys</div>
+          <div class="analys-summary">${p.summary||''}</div>
+          ${p.risks?`<div style="margin-top:14px"><div style="font-family:'DM Mono',monospace;font-size:0.6rem;color:var(--muted);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:6px">Risker</div><div class="analys-summary">${p.risks}</div></div>`:''}
+          ${p.catalysts?`<div style="margin-top:14px"><div style="font-family:'DM Mono',monospace;font-size:0.6rem;color:var(--green);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:6px">Kursdrivare</div><div class="analys-summary">${p.catalysts}</div></div>`:''}
+          <div style="margin-top:16px;padding:12px 14px;border-radius:var(--r-sm);background:rgba(255,240,215,0.04);border:1px solid var(--glass-border)">
+            <div style="font-family:'DM Mono',monospace;font-size:0.6rem;color:var(--muted);margin-bottom:5px">Disclaimer</div>
+            <div style="font-size:0.72rem;color:var(--muted);line-height:1.55">Denna analys är AI-genererad och utgör inte finansiell rådgivning. Gör alltid din egen analys innan investeringsbeslut.</div>
+          </div>
+        </div>
+      </div>`;
+  }catch(e){
+    loading.style.display='none';
+    content.innerHTML='<div style="font-family:\'DM Mono\',monospace;font-size:0.76rem;color:var(--muted);padding:20px;text-align:center">Kunde inte hämta analys. Försök igen.</div>';
+  }
+  btn.disabled=false;btn.textContent='Analysera';
+}
+document.getElementById('analys-ticker').addEventListener('keydown',e=>{if(e.key==='Enter')runAnalys();});
+
+// ── DISKUSSION ──
+function submitDiskPost(){
+  const name=document.getElementById('disk-name').value.trim();
+  const topic=document.getElementById('disk-topic').value.trim();
+  const text=document.getElementById('disk-text').value.trim();
+  if(!name){document.getElementById('disk-name').style.borderColor='var(--red)';setTimeout(()=>document.getElementById('disk-name').style.borderColor='',1000);return;}
+  if(!text){document.getElementById('disk-text').style.borderColor='var(--red)';setTimeout(()=>document.getElementById('disk-text').style.borderColor='',1000);return;}
   diskPosts.unshift({id:Date.now(),name,topic:topic||'Allmänt',text,likes:0,time:'just nu'});
-  document.getElementById('disk-text').value  = '';
-  document.getElementById('disk-topic').value = '';
-  renderDiskFeed();
-  showToast('Inlägg publicerat! ☕');
+  document.getElementById('disk-text').value='';document.getElementById('disk-topic').value='';
+  renderDiskFeed();showToast('Inlägg publicerat.');
 }
-function toggleDiskLike(id) {
-  const p = diskPosts.find(x=>x.id===id);
-  if (!p) return;
-  if (diskLiked.has(id)){diskLiked.delete(id);p.likes--;}else{diskLiked.add(id);p.likes++;}
+function toggleDiskLike(id){
+  const p=diskPosts.find(x=>x.id===id);if(!p)return;
+  if(diskLiked.has(id)){diskLiked.delete(id);p.likes--;}else{diskLiked.add(id);p.likes++;}
   renderDiskFeed();
 }
-async function askDiskAI(id) {
-  const p  = diskPosts.find(x=>x.id===id);
-  if (!p) return;
-  const el = document.getElementById('disk-ai-'+id);
-  if (el.style.display==='block'){el.style.display='none';return;}
-  el.style.display='block';el.textContent='☕ Tänker…';
-  try {
-    const res  = await fetch('/.netlify/functions/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({system:'Du är en finansexpert. Kommentera detta inlägg kort på svenska. Max 2-3 meningar.',messages:[{role:'user',content:`Inlägg om "${p.topic}": ${p.text}`}]})});
-    const data = await res.json();
-    el.textContent = '🤖 '+(data.content?.find(b=>b.type==='text')?.text||'Kunde inte svara.');
-  } catch(e){el.textContent='Något gick fel – försök igen.';}
+async function askDiskAI(id){
+  const p=diskPosts.find(x=>x.id===id);if(!p)return;
+  const el=document.getElementById('disk-ai-'+id);
+  if(el.style.display==='block'){el.style.display='none';return;}
+  el.style.display='block';el.textContent='Tänker…';
+  try{
+    const res=await fetch('/.netlify/functions/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({system:'Du är en finansexpert. Kommentera detta inlägg kort på svenska. Max 2-3 meningar.',messages:[{role:'user',content:`Inlägg om "${p.topic}": ${p.text}`}]})});
+    const data=await res.json();
+    el.textContent=data.content?.find(b=>b.type==='text')?.text||'Kunde inte svara.';
+  }catch(e){el.textContent='Något gick fel – försök igen.';}
 }
-function renderDiskFeed() {
-  document.getElementById('disk-count').textContent = diskPosts.length;
-  const feed = document.getElementById('disk-feed');
-  if (!diskPosts.length){feed.innerHTML='<div class="disk-empty">Inga inlägg ännu ☕</div>';return;}
-  feed.innerHTML = diskPosts.map(p=>`
+function renderDiskFeed(){
+  document.getElementById('disk-count').textContent=diskPosts.length;
+  const feed=document.getElementById('disk-feed');
+  if(!diskPosts.length){feed.innerHTML='<div class="disk-empty">Inga inlägg ännu — var den första.</div>';return;}
+  feed.innerHTML=diskPosts.map(p=>`
     <div class="disk-post">
-      <div class="disk-post-header"><span class="disk-post-author">@${p.name}</span><span class="disk-post-topic">${p.topic}</span></div>
+      <div class="disk-post-header"><span class="disk-post-author">${p.name}</span><span class="disk-post-topic">${p.topic}</span></div>
       <div class="disk-post-text">${p.text}</div>
       <div class="disk-post-footer">
         <button class="disk-like ${diskLiked.has(p.id)?'liked':''}" onclick="toggleDiskLike(${p.id})">${diskLiked.has(p.id)?'♥':'♡'} ${p.likes}</button>
-        <button class="disk-ai-btn" onclick="askDiskAI(${p.id})">🤖 Fråga AI</button>
-</div>
+        <button class="disk-ai-btn" onclick="askDiskAI(${p.id})">AI-kommentar</button>
+        <span class="disk-time">${p.time}</span>
+      </div>
       <div class="disk-ai-resp" id="disk-ai-${p.id}"></div>
     </div>`).join('');
 }
 renderDiskFeed();
 
-// ===== INIT =====
-loadHem();
-loadArchive();
-checkUrl();
+// ── INIT ──
+loadHem();loadArchive();checkUrl();
 </script>
 </body>
 </html>
