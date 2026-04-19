@@ -341,8 +341,9 @@ nav.scrolled{background:rgba(26,18,8,0.92);backdrop-filter:blur(24px);-webkit-ba
   .hem-main,.archive-wrap{padding:0 16px 60px;}
   .how-section{padding:0 16px 48px;}
   .disk-input-row{flex-direction:column;}.disk-name{width:100%;}
-  #peab-sidebar{display:none;#hamburger{display:flex !important;}
-.nav-right .nav-cta{display:none;}}
+ #peab-sidebar{display:none;}
+#hamburger{display:flex !important;}
+.nav-cta{display:none;}
 }
   
 </style>
@@ -377,11 +378,6 @@ nav.scrolled{background:rgba(26,18,8,0.92);backdrop-filter:blur(24px);-webkit-ba
   <button class="nav-cta" onclick="showPage('main')">Prenumerera gratis</button>
 </div>
 </nav>
-  <button id="hamburger" onclick="toggleMobileMenu()" style="display:none;background:none;border:none;cursor:pointer;padding:5px;flex-direction:column;gap:5px;z-index:201">
-  <span class="ham-line"></span>
-  <span class="ham-line"></span>
-  <span class="ham-line"></span>
-</button>
 
 <div id="mobile-menu">
   <button class="mob-link" onclick="showPage('hem');toggleMobileMenu()">Hem</button>
