@@ -1,5 +1,252 @@
 [
   {
+    "date": "Monday 20 April 2026",
+    "date_short": "20 Apr 2026",
+    "generated": "2026-04-20T04:53:47.415227",
+    "headline": "Olja rasar 9,5% när Iran stänger Hormuz igen",
+    "sources": [
+      "CNBC Markets",
+      "Yahoo Finance",
+      "CNN",
+      "NPR",
+      "MarketWatch",
+      "Dagens Industri"
+    ],
+    "beginner": [
+      {
+        "icon": "🚢",
+        "label": "IRAN STÄNGER HORMUZ IGEN",
+        "text": "<cite index=\"22-6\">Iran har stängt den strategiska Hormuzssundet</cite> efter att USA tidigare sa att deras blockad av iranska hamnar fortsätter trots Irans korta öppning. <cite index=\"22-7\">Irans chefsförhandlare sa att \"det är omöjligt för andra att passera genom Hormuzssundet medan vi inte kan\"</cite>. Oljan störtdyker över 9% i natt.",
+        "explain": "💡 Hormuzssundet är världens viktigaste oljepassage där 20% av all olja passerar. När det stängs blir det brist på olja globalt vilket höjer priserna kraftigt."
+      },
+      {
+        "icon": "💥",
+        "label": "USA BESLAGTAR IRANSKT FARTYG",
+        "text": "<cite index=\"22-1,22-4\">USA har tagit kontroll över ett iranskt lastfartyg efter att ha skjutit på dess maskinrum, enligt Trump som säger att blockaden kostar Iran \"500 miljoner dollar om dagen\"</cite>. <cite index=\"23-4,23-5\">Trump meddelade samtidigt att amerikanska förhandlare reser till Pakistan för nya fredssamtal</cite>.",
+        "explain": "💡 Detta visar hur intensiv konflikten är - USA och Iran konfronterar varandra fysiskt till havs medan de samtidigt försöker förhandla om fred."
+      },
+      {
+        "icon": "📈",
+        "label": "AMERIKANSKA BÖRSEN VÄNDER UPP",
+        "text": "<cite index=\"3-3,3-5\">Amerikanska futures föll kraftigt igår kväll när spänningarna eskalerade, med Dow-futures ned 0,8%</cite>. Men <cite index=\"4-8,4-9\">amerikanska index steg kraftigt på fredag efter att Iran sa att de öppnade Hormuzssundet, med S&P 500 upp 1,2% och Nasdaq 1,5%</cite>.",
+        "explain": "💡 Börsen reagerar direkt på nyheter om Hormuz - när det öppnas stiger aktier, när det stängs faller de. Investerare är rädda för att krig ska påverka ekonomin."
+      },
+      {
+        "icon": "🏠",
+        "label": "KANADAS INFLATION SJUNKER",
+        "text": "<cite index=\"31-2,31-10\">Kanadas inflation föll till 1,8% i februari från 2,3% i januari, under förväntade 1,9%</cite>. <cite index=\"33-1,33-4\">Marsdata släpps idag måndag 20 april och väntas påverkas av de höjda energipriserna</cite>.",
+        "explain": "💡 Låg inflation är bra - det betyder att priserna inte stiger så snabbt. Men nu när oljan blir dyr igen kan inflationen börja stiga, vilket gör vardagen dyrare."
+      }
+    ],
+    "analyst": [
+      {
+        "icon": "⚡",
+        "label": "OLJAN KOLLAPSAR 9,5% - TEKNISK KATASTROF",
+        "text": "<cite index=\"22-4,22-6\">WTI crude handlas nu 82,59 USD (-9,53%) efter Irans beslut att återigen blockera Hormuzssundet</cite>. <cite index=\"21-17\">Sundet transporterar cirka 20 miljoner fat olja per dag, 20% av global handel</cite>. VIX faller till 17,48 vilket indikerar att marknaden ser detta som tillfälligt diplomatiskt spel."
+      },
+      {
+        "icon": "📊",
+        "label": "S&P FUTURES +0,82% TROTS GEOPOLITIK",
+        "text": "<cite index=\"4-14,4-19\">S&P 500 futures +0,82% på 7118,5 medan amerikanska index var på väg mot tredje raka veckan med över 3% vinster</cite>. <cite index=\"1-9,1-10\">Piper Sandler varnar för \"extremt bräcklig teknisk grund\" när marknaden klättrar mot all-time highs med olja över 90 USD/fat</cite>."
+      },
+      {
+        "icon": "🇪🇺",
+        "label": "DAX EXPLODERAR +3,77% PÅ EUROPA-OPTIMISM",
+        "text": "DAX futures +3,77% på 24702 punkter signalerar stark europeisk återhämtning. <cite index=\"5-1,5-11\">Japans Nikkei 225 steg 2,43% lett av teknik och cykliska aktier</cite>. Europeiska terminer indikerar att investerare ser Hormuz-krisen som kortsiktig."
+      },
+      {
+        "icon": "💰",
+        "label": "KANADENSISK INFLATION UNDER MÅLET",
+        "text": "<cite index=\"31-10,31-11\">Kanadas CPI 1,8% i februari (vs väntade 1,9%) är under Centralbankens 2% mål och lågt sedan juli förra året</cite>. <cite index=\"31-7\">Kärninflation (trimmed-mean) föll till 2,4% från 2,7%, lägst sedan april 2021</cite>. Irans krig kan förändra denna bild radikalt."
+      }
+    ],
+    "pension": [
+      {
+        "icon": "🛡️",
+        "label": "FÖRSVAR OCH ENERGI STÄRKS I PORTFÖLJERNA",
+        "text": "<cite index=\"21-12,21-15\">Irans växlande beslut att öppna och stänga Hormuzssundet skapar extrem volatilitet i energi- och försvarssektorn</cite>. AP7 och AMF:s globala fonder exponeras mot både uppgångar i försvarsaktier och nedgångar i oljeintensiva bolag.",
+        "tip": "💡 Diversifiering är extra viktigt nu - ha inte för mycket i energi eller en enskild region när geopolitik dominerar."
+      },
+      {
+        "icon": "💎",
+        "label": "GULD +0,28% SOM SÄKER HAMN",
+        "text": "<cite index=\"4-10,4-11\">Guld stiger till 4813 USD (+0,28%) när investerare söker säkra tillgångar mitt i Iran-krisen</cite>. <cite index=\"7-22,7-23\">10-åriga amerikanska obligationer över 4,3% medan dollarn faller när vapenvilan ger hopp</cite>. Pensionsfonder gynnas av guldexponering.",
+        "tip": "💡 Guld och statsobligationer fungerar som försäkring i turbulenta tider - bra att ha i pensionsportföljen för stabilitet."
+      },
+      {
+        "icon": "🏘️",
+        "label": "RÄNTEKÄNSLIGHET PÅVERKAR BOSTADSFONDER",
+        "text": "<cite index=\"5-3,5-4\">Fed-förväntningarna har minskat från två räntesänkningar 2026 till att räntorna stannar på 3,50-3,75% på grund av Iran-konflikten</cite>. Svenska bostadsfonder och PPM-val med fastighetsexponering påverkas negativt av högre räntor längre.",
+        "tip": "💡 Överväg att minska exponering mot räntekänsliga tillgångar som fastigheter om du är nära pension - volatiliteten kan vara för hög."
+      },
+      {
+        "icon": "🌍",
+        "label": "EMERGING MARKETS SÅRBAR FÖR ENERGIKRISER",
+        "text": "<cite index=\"28-5,28-11\">Hormuzssundet är \"det kaotiska centrumet\" för USA-Iran kriget och påverkar globala energimarknader kraftigt</cite>. Tillväxtmarknader med hög energiimport drabbas hårt, vilket påverkar globala indexfonder som AMF och SPP investerar i.",
+        "tip": "💡 Minska emerging markets-exponering tillfälligt - dessa länder är extra sårbara för höga oljepriser och geopolitisk oro."
+      }
+    ],
+    "full_beginner": [
+      {
+        "icon": "🚢",
+        "label": "IRAN STÄNGER HORMUZ IGEN - OLJA KRASCHAR",
+        "text": "<cite index=\"22-6,22-7\">Iran har återigen stängt Hormuzssundet och säger att \"det är omöjligt för andra att passera genom sundet medan vi inte kan\" på grund av USA:s blockad av iranska hamnar</cite>. <cite index=\"21-12,21-13,21-14\">Detta kommer efter att Iran på fredag meddelade att sundet var öppet under vapenvilan med Libanon, men Trump sa att USA:s blockad mot iranska hamnar skulle fortsätta, vilket fick Iran att ångra sig</cite>. Oljepriset faller nu över 9% till 82,59 dollar per fat när marknaderna inser att denna politiska ping-pong kan fortsätta. Hormuzssundet är världens viktigaste oljepassage där ungefär en femtedel av all olja transporteras dagligen.",
+        "explain": "💡 Tänk på Hormuzssundet som en flaskhals för världens oljeförsörjning. När Iran stänger den, blir det som att stänga av kranen - plötsligt finns det risk för oljebrist i hela världen. Detta påverkar allt från bensinpriserna till uppvärmningskostnader för vanliga familjer. När oljan blir dyrare, blir allt annat också dyrare eftersom transport och produktion kostar mer.",
+        "background": "📖 Konflikten mellan USA och Iran har pågått i månader och Hormuzssundet har blivit ett politiskt vapen. Iran använder sitt geografiska läge för att pressa USA i förhandlingar, medan USA blockerar iranska hamnar för att sätta ekonomisk press på Iran. Detta skapar en farlig spiral där båda sidor eskalerar sina åtgärder."
+      },
+      {
+        "icon": "💥",
+        "label": "USA BESLAGTAR IRANSKT FARTYG - ESKALERING",
+        "text": "<cite index=\"22-1,22-2,22-3\">USA har tagit kontroll över ett iranskt lastfartyg efter att ha skjutit på dess maskinrum, enligt president Trump som hotade Iran med att \"slå ut varje kraftverk och varje bro i Iran\" om de inte accepterar ett avtal</cite>. <cite index=\"22-4,22-5\">Trump sa att USA:s blockad kostar Iran \"500 miljoner dollar om dagen\" medan USA \"inte förlorar något\", och anklagade Iran för att ha brutit mot vapenvilan genom att skjuta i sundet igår</cite>. Samtidigt skickas amerikanska förhandlare till Pakistan för nya fredssamtal. Detta visar hur nära världen är både krig och fred samtidigt - medan fartyg skjuts på till havs, sitter diplomater i mötesrum och försöker hitta en lösning.",
+        "explain": "💡 Detta är extremt allvarligt - när två länders militärer börjar skjuta på varandra är det ofta så krig börjar. Men att förhandlingar fortsätter samtidigt visar att båda sidor fortfarande vill undvika ett fullskaligt krig. För vanliga människor betyder detta osäkerhet - ingen vet om situationen kommer att eskalera eller lösas diplomatiskt.",
+        "background": "📖 USA och Iran har tekniskt sett varit i krig sedan mars 2026, men det har mest handlat om långdistansattacker. Nu när de konfronterar varandra direkt till havs blir risken för eskalering mycket större. Båda länder har kärnvapen, vilket gör situationen särskilt farlig."
+      },
+      {
+        "icon": "📈",
+        "label": "BÖRSEN FÖRVIRRAD - FALLER PÅ KVÄLLEN, STIGER PÅ DAGEN",
+        "text": "<cite index=\"3-3,3-5\">Amerikanska börsfutures föll kraftigt igår kväll när nyheten om den eskalerande konflikten kom, med Dow Jones-futures ned 0,8%</cite>. Men samtidigt visar dagens terminshandel uppgångar med S&P 500 futures +0,82%. <cite index=\"4-8,4-9,4-14\">På fredagen steg amerikanska index kraftigt efter att Iran meddelade att de öppnade Hormuzssundet - S&P 500 upp 1,2%, Nasdaq 1,5% och Dow 1,9%, på väg mot tredje raka veckan med över 3% vinster</cite>. Investerare vet helt enkelt inte vad de ska tro - varje nyhet från Mellanöstern får marknaden att svänga våldsamt upp eller ned.",
+        "explain": "💡 Börsen fungerar som en gigantisk stämningsbarometer för hela världsekonomin. När investerare är rädda för krig säljer de sina aktier och köper säkrare tillgångar som guld eller statsobligationer. Men när det verkar som att fred är möjlig, köper de aktier igen. Just nu ändras stämningen från timme till timme beroende på om nyheterna låter krigsliknande eller fredsliknande.",
+        "background": "📖 Detta kallas \"risk on/risk off\"-handel. När geopolitiska risker är höga går pengar till säkra tillgångar. Men amerikanerna har också lärt sig att deras ekonomi är stark nog att klara geopolitisk turbulens, vilket förklarar varför börsen inte kraschar totalt trots kriget."
+      },
+      {
+        "icon": "🏠",
+        "label": "KANADAS INFLATION SJUNKER - MEN KAN VÄNDA SNABBT",
+        "text": "<cite index=\"31-10,31-11\">Kanadas inflation sjönk till 1,8% i februari från 2,3% i januari, under förväntade 1,9% och den lägsta nivån sedan juli förra året</cite>. <cite index=\"31-12,31-13\">Nedgången berodde på att skattepauser från februari 2025 inte längre påverkade jämförelsen, vilket minskade matinflationen från 7,3% till 5,3%</cite>. Men Bank of Canada:s prognoser gjordes innan Iran-kriget började, och nu när oljan blir dyr igen kan inflationen snabbt accelerera. <cite index=\"33-1,33-4\">Marsdata släpps idag måndag 20 april och kommer att visa de första effekterna av höjda energipriser</cite>. Centralbanken siktar på 2% inflation, så 1,8% är faktiskt lite för lågt.",
+        "explain": "💡 Inflation på 1,8% betyder att saker och ting blir 1,8% dyrare per år - det är ganska rimligt och nära centralbankens mål på 2%. Men nu när oljan blir dyr igen på grund av Iran-konflikten kan inflationen snabbt börja stiga. Detta påverkar allt från mat till kläder eftersom transport och tillverkning blir dyrare. Om inflationen stiger för mycket kan centralbanken behöva höja räntorna, vilket gör lån dyrare.",
+        "background": "📖 Kanada har kämpat med hög inflation de senaste åren, precis som de flesta länder efter pandemin. Nu när inflationen äntligen börjar normaliseras hotar Iran-kriget att förstöra framstegen genom att driva upp energipriserna igen."
+      }
+    ],
+    "full_analyst": [
+      {
+        "icon": "⚡",
+        "label": "OLJA: TEKNISK KOLLAPS TROTS FUNDAMENTAL BRIST",
+        "text": "<cite index=\"22-4,22-6\">WTI crude handlas 82,59 USD (-9,53%) efter Irans beslut att återstänga Hormuzssundet, medan Brent ligger över 95 USD</cite>. <cite index=\"21-17\">Sundet transporterar 20 miljoner fat per dag, motsvarande 20% av global seaborne oljehandel från Saudi, UAE, Irak och Qatar</cite>. <cite index=\"1-9\">Piper Sandler varnar att \"råolja över 90 USD/fat\" skapar en prekär makroreaitet för aktiemarknader</cite>. Paradoxalt faller oljan trots fysisk brist - marknaden prisar in att detta är diplomatisk teater snarare än långsiktig disruption. <cite index=\"21-18\">USA kan eskortera 3-4 fartyg dagligen med 7-8 destroyers, men det kräver månader av resurser</cite>.",
+        "detail": "🔍 Kritiska nivåer: WTI 80 USD support, 90 USD resistance. Brent premium över WTI indikerar fysisk tightness. VIX på 17,48 (-8,58%) visar att marknaden ser geopolitisk risk som manageable. Volatility skew kraftigt backwardated - köp straddles kring 85 USD strike.",
+        "outlook": "🎯 Iran-USA förhandlingar i Pakistan blir avgörande. Om talks misslyckas: oljan mot 100+ USD. Om avtal nås: crash mot 70 USD när strategic reserves släpps. Bevaka shipping rates som ledande indikator för real disruption."
+      },
+      {
+        "icon": "📊",
+        "label": "S&P 500: OVERBOUGHT MED GEOPOLITISK PREMIUM",
+        "text": "<cite index=\"4-19,4-14\">S&P futures +0,82% på 7118,5 efter att index var på väg mot tredje raka veckan med 3%+ gains</cite>. <cite index=\"1-9,1-10\">Craig Johnson, Piper Sandler: \"Marknadens snabba 12-dagars övergång från oversold till overbought maskerar prekär makro-realitet\" med \"extremt bräcklig teknisk grund\" när index klättrar mot all-time highs</cite>. <cite index=\"5-31,5-32,5-33\">JPMorgan data visar retail-flöden återvände från 10:e percentilen till 55:e percentilen - individual investors börjar chase upside</cite>. Risk för sharp correction när momentum-buyers möter fundamental headwinds.",
+        "detail": "🔍 Tekniska nivåer: 7000 key support, 7150 resistance. RSI över 70 på daily charts. Credit spreads tight trots geopolitik - kreditmarknader inte oroade. High-yield vs Treasury yield spread under 400bp indikerar fortsatt risk appetite.",
+        "outlook": "🎯 Fed pivot försenad av Iran-konflikt håller 10Y yields över 4,3%. Om Hormuz-krisen eskalerar: 6800-6900 target. Om fred: momentum kan ta index mot 7300-7400. Sälj volatility på dips, köp på spikes."
+      },
+      {
+        "icon": "🇪🇺",
+        "label": "EUROPA: DAX EXPLODERAR +3,77% PÅ DECOUPLING-TEMA",
+        "text": "DAX futures +3,77% till 24702 signalerar att Europa kan \"decouple\" från amerikansk geopolitisk exponering. <cite index=\"5-1,5-11,5-12\">Asien ledde med Nikkei 225 +2,43% lett av tech och consumer cyclicals, medan materials +1,72%, industrials +1,34% och financials +1,06%</cite>. Europeisk rally byggd på tesen att regionens lägre energiberoende av Mellanöstern ger competitive advantage. ECB:s Lagarde talar idag - bevaka tone kring geopolitiska risker vs inhemsk tillväxt.",
+        "detail": "🔍 DAX tekniskt: 24500 support, 25000 resistance. Euro/USD 1,18 (+0,26%) stärks på risk-on flows. Tyskland 10Y yield spread vs US komprimeras - indikerar ECB mindre aggressiv än Fed. Energy sector rotation från US till European producers.",
+        "outlook": "🎯 Europas \"clean energy\" positioning kan gynnas långsiktigt av Mellanösten-instabilitet. DAX mot 25500 om decoupling-tema håller. Risk: European recession om global energikrisen fördjupas trots regional resilience."
+      },
+      {
+        "icon": "💰",
+        "label": "KANADA: DEFLATIONÄRA KRAFTER MÖTER ENERGI-INFLATION",
+        "text": "<cite index=\"31-10,31-11\">CPI 1,8% YoY i februari (vs 1,9% expected) markerar lägsta sedan juli 2025, under BoC:s 2% target</cite>. <cite index=\"31-7\">Core trimmed-mean CPI föll till 2,4% från 2,7% (vs 2,6% expected) - lägst sedan april 2021</cite>. <cite index=\"31-4,31-5\">Deflation i transport (-1,7% vs -0,5%) på gasoline crash (-16,7%), medan shelter inflation avtog till 1,7% från 2,1%</cite>. Paradox: disinflationary domestic trends möter importerad energi-inflation från Iran-konflikt.",
+        "detail": "🔍 BoC pause bias reinforced av låg core inflation, men Iran-krig komplicerar outlook. CAD/USD 1,09 korrelerar negativt med WTI - energiexport economy gynnas av högre crude. 5Y5Y inflation expectations stabila kring 2,2%.",
+        "outlook": "🎯 Mars CPI idag blir kritisk - första läsning av Iran-impact. Under 2,0%: BoC cut bias växer. Över 2,5%: hawks återkommer. CAD strength dependent på sustained högre oil prices vs Fed policy divergence."
+      }
+    ],
+    "full_pension": [
+      {
+        "icon": "🛡️",
+        "label": "FÖRSVAR OCH ENERGI: TAKTISK OMALLOKERING NÖDVÄNDIG",
+        "text": "<cite index=\"21-12,21-15,21-2\">Irans växlande beslut att öppna och stänga Hormuzssundet skapar extreme volatilitet där geopolitiska risker dominerar traditionell analys</cite>. AP7:s globala fond exponeras mot både uppgångar i försvarsaktier (Lockheed Martin, BAE Systems) och nedgångar i transport/airlines från höga bränslepriser. AMF:s Aktiefond Amerika får dubbel påverkan från både teknisk rally och energikostnader. <cite index=\"1-3,1-9\">Med olja över 90 USD/fat varnar analytiker för \"prekär makrorealitet\"</cite> som kan förändra sektorrotation fundamentalt. Pensionssparare bör temporärt överväga defense exposure medan man trimmar transport-tunga holdings.",
+        "tip": "💡 Roterar tillfälligt 5-10% från cykliska sektorer till defensiva positioner. Öka exponering mot europeiska försvarsaktier som Saab och BAE Systems som gynnas både av ökade försvarsbudgetar och potentiella exportkontrakt. Minska airline/shipping exposure som drabbas hårt av höga bränslepriser.",
+        "funds": "🏦 AP7 Såfa innehåller ca 3% energi och 2% försvar - balanserad exponering. AMF Aktiefond Världen överexponerad mot amerikanska tech som påverkas negativt av höga energikostnader. SPP Generation 80-tal bör överväga ESG-uteslutning av fossil fuels som nu visar fundamental volatilitet."
+      },
+      {
+        "icon": "💎",
+        "label": "GULD OCH REALA TILLGÅNGAR: INFLATION HEDGE AKTIVERAS",
+        "text": "<cite index=\"4-10,4-11\">Guld stiger till 4813 USD (+0,28%) som säker hamn medan 10-åriga amerikanska obligationer handles över 4,3%</cite>. <cite index=\"7-22,7-23\">Dollar index faller till månadslägsta 98,20 på hopp om vapenvila, men yields stiger på solid amerikansk data och rising oil</cite>. För pensionssparare representerar detta klassisk \"stagflation\" setup där realräntor pressas och inflation accelererar. Guld, TIPS och inflation-linked bonds blir kritiska portfolio components. <cite index=\"5-3,5-4\">Fed-förväntningar har skiftat från två sänkningar 2026 till att hålla 3,50-3,75% range på grund av geopolitiska risker</cite>.",
+        "tip": "💡 Öka allokering till reala tillgångar från 5% till 10-15% av portföljen. Köp TIPS (Treasury Inflation-Protected Securities) och guld-ETFer som SEB Guld eller Xact Guld. Överväg råvaruexponering via DJP eller energi-ETFer som hedgar mot importerad inflation.",
+        "funds": "🏦 AP7 har minimal guldexponering - komplettera privat med PPM-val som innehåller ädelmetaller. AMF Räntefond Mix behöver TIPS-komplement för inflationsskydd. SPP:s Global Plus har redan viss råvaruexponering men kan behöva ökas vid prolonged geopolitisk kris."
+      },
+      {
+        "icon": "🏘️",
+        "label": "RÄNTEKÄNSLIGHET: FASTIGHETER UNDER PRESS",
+        "text": "<cite index=\"5-3,5-4\">Federal Reserve-förväntningar har minskat drastiskt från två räntesänkningar 2026 till att hålla current range på 3,50-3,75% på grund av Iran-konflikten som återväckt inflationsoro</cite>. Svenska bostadsfonder och PPM-alternativ med fastighetsexponering (Spiltan Aktiefond Stabil, Länsförsäkringar Fastighet) möter headwinds från både högre finansieringskostnader och minskad konsumtion när energi äter upp hushållsbudgetar. <cite index=\"31-5,31-12\">Trots att Kanadas shelter inflation avtog till 1,5% från 1,7%</cite>, globalizes higher energy costs kommer att filtrera genom till housing markets.",
+        "tip": "💡 Minska fastighetsexponering från 15-20% till 10% av portföljen, särskilt commercial real estate som är räntekänsligt. Fokusera på residential REITs i energiproducerande regioner som Texas och Alberta som gynnas av högre energipriser. Undvik retail/office REITs som drabbas av both högre finansieringskostnader och svag consumer demand.",
+        "funds": "🏦 AP7 har indirekt fastighetsexponering via globalindexfonder - relativt skyddat. AMF Fastighet riskerar double-hit från svenska räntehöjningar och global slowdown. SPP Fastigheter Sverige särskilt sårbar för Riksbankens policy response till importerad inflation."
+      },
+      {
+        "icon": "🌍",
+        "label": "EMERGING MARKETS: ENERGIIMPORTÖRER I FARA",
+        "text": "<cite index=\"28-5,28-11\">Med Hormuzssundet som \"det kaotiska centrumet\" för USA-Iran kriget påverkas globala energiflöden fundamentalt</cite>. Emerging markets med hög energiimport (Indien, Turkiet, Thailand) drabbas av triple-whammy: högre importkostnader, svagare valutor och capital flight till developed markets. <cite index=\"22-13\">Över 20,000 sjömän strandade på hundreds of ships i Gulfen sedan kriget började</cite> disrupts global supply chains beyond bara energi. AMF och SPP:s emerging markets-fonder exponerade mot länder vars current accounts blir devastated av $100+ oil.",
+        "tip": "💡 Tillfälligt underweight emerging markets från 10% till 5% av portföljen. När du måste ha EM-exposure, fokusera på energiexportörer som Brasilien, Norge och vissa Middle East markets. Undvik energiimportörer som Indien, Thailand och Turkiet som blir dubbelt drabbade av importkostnader och valutaförsvagning.",
+        "funds": "🏦 AP7:s emerging markets-komponenter (ca 8% av portföljen) kommer att underperforma. SPP Utvecklingsmarknader bör replaceras tillfälligt med developed market alternatives. AMF Aktiefond Asien Stillahavet särskilt vulnerabel eftersom Asien dominerat av energiimportörer som drabbas hårdast av Hormuz-disruption."
+      }
+    ],
+    "futures": {
+      "S&P 500 Futures": {
+        "price": 7118.5,
+        "change": 0.82,
+        "prev": 7060.5
+      },
+      "NASDAQ Futures": {
+        "price": 26668.5,
+        "change": 1.15,
+        "prev": 26365.5
+      },
+      "DAX": {
+        "price": 24702.24,
+        "change": 3.77,
+        "prev": 23803.95
+      },
+      "Olja (WTI)": {
+        "price": 82.59,
+        "change": -9.53,
+        "prev": 91.29
+      },
+      "Guld": {
+        "price": 4813.3,
+        "change": 0.28,
+        "prev": 4800.0
+      },
+      "VIX": {
+        "price": 17.48,
+        "change": -8.58,
+        "prev": 19.12
+      }
+    },
+    "quotes": {
+      "OMX30": {
+        "price": 3182.13,
+        "change": 1.97,
+        "prev": 3120.75
+      },
+      "S&P 500": {
+        "price": 7126.06,
+        "change": 4.54,
+        "prev": 6816.89
+      },
+      "NASDAQ": {
+        "price": 24468.48,
+        "change": 6.84,
+        "prev": 22902.89
+      },
+      "EUR/USD": {
+        "price": 1.18,
+        "change": 0.26,
+        "prev": 1.18
+      },
+      "USD/SEK": {
+        "price": 9.17,
+        "change": -0.07,
+        "prev": 9.18
+      },
+      "EUR/SEK": {
+        "price": 10.79,
+        "change": -0.1,
+        "prev": 10.8
+      },
+      "BTC/USD": {
+        "price": 74561.27,
+        "change": -1.43,
+        "prev": 75639.15
+      }
+    }
+  },
+  {
     "date": "Friday 17 April 2026",
     "date_short": "17 Apr 2026",
     "generated": "2026-04-17T02:53:35.100244",
