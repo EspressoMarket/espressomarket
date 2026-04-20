@@ -1376,7 +1376,21 @@ function buildPeabSparkline(){
   const el=document.getElementById('peab-sparkline');
   if(el) el.innerHTML=`<svg viewBox="0 0 ${W} ${H}" width="100%" height="${H}" style="overflow:visible"><path d="${pre}" fill="none" stroke="rgba(255,225,175,0.18)" stroke-width="1.5" stroke-linejoin="round"/><path d="${post}" fill="none" stroke="${pc}" stroke-width="2" stroke-linejoin="round"/><line x1="${rx}" x2="${rx}" y1="2" y2="${H-2}" stroke="#d4a55a" stroke-width="1" stroke-dasharray="2,2" opacity="0.65"/><circle cx="${rx}" cy="${ry}" r="3" fill="#d4a55a"/><circle cx="${sx(pts.length-1).toFixed(1)}" cy="${sy(pts[pts.length-1]).toFixed(1)}" r="3.5" fill="${pc}" stroke="#1a1208" stroke-width="1.5"/></svg>`;
 }
-
+async function fetchLivePeabPrice(){
+  try{
+    const res=await fetch('https://query1.finance.yahoo.com/v8/finance/chart/PEAB-B.ST?interval=1d&range=1d',{headers:{'Accept':'application/json'}});
+    const data=await res.json();
+    const price=data.chart?.result?.[0]?.meta?.regularMarketPrice;
+    if(price&&price>0){
+      const today=new Date().toISOString().slice(0,10);
+      const last=PEAB.history[PEAB.history.length-1];
+      if(last.d===today) last.p=Math.round(price*100)/100;
+      else PEAB.history.push({d:today,p:Math.round(price*100)/100});
+      return Math.round(price*100)/100;
+    }
+  }catch(e){console.log('Live price unavailable:',e);}
+  return null;
+}
 function filterAnalys(btn,f){
   document.querySelectorAll('.rs-filter').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');
@@ -1406,7 +1420,7 @@ function openPeabPanel(){
   peabActiveTab=null;
   document.querySelectorAll('.peab-tab-content').forEach(e=>e.classList.remove('show'));
   document.querySelectorAll('.peab-tab-btn').forEach(e=>e.classList.remove('active'));
-  setTimeout(()=>buildPeabChart('peab-chart-container'),80);
+  fetchLivePeabPrice().then(()=>setTimeout(()=>buildPeabChart('peab-chart-container'),80));
 }
 
 function closePeabPanel(){
