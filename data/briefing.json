@@ -1,249 +1,247 @@
 {
-  "generated": "2026-04-21T04:53:21.729919",
+  "generated": "2026-04-22T04:53:44.096874",
   "quotes": {
     "OMX30": {
-      "price": 3153.12,
-      "change": -0.91,
-      "prev": 3182.13
+      "price": 3133.29,
+      "change": -0.63,
+      "prev": 3153.12
     },
     "S&P 500": {
-      "price": 7109.14,
-      "change": 3.24,
-      "prev": 6886.24
+      "price": 7064.01,
+      "change": 1.39,
+      "prev": 6967.38
     },
     "NASDAQ": {
-      "price": 24404.39,
-      "change": 5.27,
-      "prev": 23183.74
+      "price": 24259.97,
+      "change": 2.63,
+      "prev": 23639.08
     },
     "EUR/USD": {
-      "price": 1.18,
-      "change": 0.01,
+      "price": 1.17,
+      "change": -0.92,
       "prev": 1.18
     },
     "USD/SEK": {
-      "price": 9.13,
-      "change": -0.45,
-      "prev": 9.17
+      "price": 9.17,
+      "change": 0.21,
+      "prev": 9.15
     },
     "EUR/SEK": {
-      "price": 10.76,
-      "change": -0.57,
-      "prev": 10.82
+      "price": 10.77,
+      "change": -0.32,
+      "prev": 10.8
     },
     "BTC/USD": {
-      "price": 75721.13,
-      "change": 1.56,
-      "prev": 74561.27
+      "price": 77524.34,
+      "change": 2.38,
+      "prev": 75721.12
     }
   },
   "futures": {
     "S&P 500 Futures": {
-      "price": 7160.75,
-      "change": 1.18,
-      "prev": 7077.0
+      "price": 7133.75,
+      "change": -0.39,
+      "prev": 7161.5
     },
     "NASDAQ Futures": {
-      "price": 26829.0,
-      "change": 1.29,
-      "prev": 26487.25
+      "price": 26795.0,
+      "change": -0.11,
+      "prev": 26825.5
     },
     "DAX": {
-      "price": 24417.8,
-      "change": 2.84,
-      "prev": 23742.44
+      "price": 24270.87,
+      "change": 0.94,
+      "prev": 24044.22
     },
     "Olja (WTI)": {
-      "price": 86.5,
-      "change": -8.65,
-      "prev": 94.69
+      "price": 89.49,
+      "change": 6.73,
+      "prev": 83.85
     },
     "Guld": {
-      "price": 4811.3,
-      "change": 0.54,
-      "prev": 4785.4
+      "price": 4771.0,
+      "change": -1.78,
+      "prev": 4857.6
     },
     "VIX": {
-      "price": 18.87,
-      "change": 2.78,
-      "prev": 18.36
+      "price": 19.5,
+      "change": 7.32,
+      "prev": 18.17
     }
   },
   "briefing": {
-    "headline": "Apple nomnar ny VD medan Iran-USA förhandlingar hotas",
-    "date": "Tuesday 21 April 2026",
-    "date_short": "21 Apr 2026",
+    "headline": "Iran-vapenvila öppnar marknaderna högt",
+    "date": "Wednesday 22 April 2026",
+    "date_short": "22 Apr 2026",
     "sources": [
-      "Trading Economics",
-      "Apple",
-      "CNN",
       "CNBC",
-      "Bloomberg",
-      "Time",
-      "Wikipedia"
+      "CNN",
+      "Al Jazeera",
+      "Tesla Earnings",
+      "Reuters"
     ],
     "beginner": [
       {
-        "icon": "🍎",
-        "label": "APPLE BYTER LEDNING",
-        "text": "<cite index='31-1,31-2'>Apple meddelade idag att John Ternus ska bli ny VD från 1 september medan Tim Cook blir styrelseordförande. Cook har lett Apple i 15 år och gjort företaget värt över 4 biljoner dollar.</cite>",
-        "explain": "💡 Ett av världens största företag byter ledare – detta händer sällan och påverkar alltid börsen"
-      },
-      {
-        "icon": "🛢️",
-        "label": "OLJA KRASCHAR",
-        "text": "<cite index='4-12,24-18'>Oljepriset föll nästan 10% då Iran öppnade Hormuzsundet för kommersiell trafik. Trump säger att en fredsuppgörelse med Iran är 'mycket nära'.</cite>",
-        "explain": "💡 När handelsrutter öppnas igen sjunker oljepriset – billigare bensin för alla"
-      },
-      {
         "icon": "📈",
-        "label": "AMERIKANSKA BÖRSEN RUSAR",
-        "text": "<cite index='2-3,2-4'>US-terminer stiger inför en andra omgång fredssamtal mellan USA och Iran i Pakistan. Trump hotar att inte förlänga vapenvilan om ingen överenskommelse nås.</cite>",
-        "explain": "💡 Freden med Iran skulle vara bra för ekonomin och därför går aktierna upp"
+        "label": "TERMINERNA VÄNDER UPP",
+        "text": "<cite index=\"3-1,3-3\">USA-terminerna klättrar 0.5-0.7% i natt efter att Trump förlängde vapenvilan med Iran</cite>. <cite index=\"21-2,21-3\">Trump säger att Irans regering är \"allvarligt splittrad\" och vapenvilan fortsätter tills Iran lämnar ett förslag</cite>. Oljepriset fortsätter dock att vara volatilt.",
+        "explain": "💡 När geopolitiska spänningar minskar blir investerare mindre rädda, vilket leder till att aktiemarknader stiger"
       },
       {
         "icon": "⚡",
-        "label": "SVERIGES BÖRSMORGON",
-        "text": "<cite index='16-1,16-4'>Stockholms börs öppnade positivt med OMX30 upp 0,61%. Grundmaterial ledde uppgången med 1,3% medan energi tappade 0,8%.</cite>",
-        "explain": "💡 Svenska aktier påverkas av vad som händer världen över – idag positivt av freds-hopp"
+        "label": "TESLA RAPPORTERAR IKVÄLL",
+        "text": "<cite index=\"31-5,32-1\">Tesla rapporterar Q1 2026-siffror ikväll efter stängning</cite>. <cite index=\"32-6,32-7\">Bolaget levererade 358,000 bilar, 7,600 färre än väntat</cite>. <cite index=\"32-24\">Tesla byggde även 50,000 fler bilar än de sålde</cite>, vilket kan pressa marginaler framöver.",
+        "explain": "💡 När företag producerar mer än de säljer byggs lager upp, vilket ofta tyder på svagare efterfrågan eller sämre försäljning"
+      },
+      {
+        "icon": "💰",
+        "label": "STARKARE SIFFROR FRÅN NORDEA",
+        "text": "Nordea redovisar ett klart starkare rörelseresultat än väntat för Q1. Räntenettot föll som väntat för nionde kvartalet i rad, men den svenska storbanken överträffade analytikernas förväntningar. Detta styrker den nordiska banksektorn.",
+        "explain": "💡 Banker tjänar pengar på skillnaden mellan låne- och inlåningsräntor, så när räntor förändras påverkas deras vinster direkt"
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJAN FORTSATT INSTABIL",
+        "text": "<cite index=\"21-12,21-13,21-14\">Hormuzsundet förblir en konfliktpunkt där Iran stängt av oljetransporter, medan Trump fortsätter blockaden av iranska hamnar</cite>. WTI-oljan handlas runt $89.5 efter gårdagens uppgång på över 6%. Energimarknaden väntar på konkreta framsteg i fredsförhandlingarna.",
+        "explain": "💡 Hormuzsundet är världens viktigaste oljetransportled - när det stängs går oljepriset upp eftersom tillgången minskar"
       }
     ],
     "analyst": [
       {
         "icon": "📊",
-        "label": "TERMINER OCH VOLATILITET",
-        "text": "<cite index='2-1'>S&P 500-terminer steg med 0,21% till 7124 punkter under tisdagen medan VIX ökade 2,78% till 18,87.</cite> Volatiliteten under 20 indikerar fortsatt optimism trots geopolitiska risker."
+        "label": "FUTURES REAGERAR POSITIVT",
+        "text": "<cite index=\"3-2,3-3\">S&P 500-futures +0.5%, Nasdaq 100 +0.7% på vapenvileförlängningen</cite>. VIX stiger dock till 19.5 (+7.32%) vilket indikerar kvarstående oro. <cite index=\"6-2,6-13\">Energipriserna fortsätter pressa med blockaden av Hormuzsundet</cite>. DAX +0.94% signalerar europeisk optimism."
       },
       {
-        "icon": "🛢️",
-        "label": "OLJEMARKNADEN",
-        "text": "<cite index='24-18,24-19'>Brent crude steg till omkring 95 dollar per fat på måndagen, upp 5% från fredagens stängning. Tehrans restriktioner kring Hormuzsundet fortsätter att skapa instabilitet på den globala marknaden.</cite>"
+        "icon": "⚙️",
+        "label": "TESLA UNDER PRESS FÖRE RAPPORT",
+        "text": "<cite index=\"32-9,32-14,32-15\">Wall Street-konsensus väntar $22.3B revenue och $0.37 EPS, Tesla's egen konsensus lägre på $21.4B/$0.33</cite>. <cite index=\"32-16,36-19,36-20,36-21\">Nyckeltalet blir bilmarginalerna exkl. krediter - över 17% är stabiliserande, under 15% bekräftar bear case</cite>. Produktion vs leveranser gap är problematiskt."
       },
       {
-        "icon": "💼",
-        "label": "APPLE LEDNINGSBYTE",
-        "text": "<cite index='33-13,38-13'>Apples marknadsvärde ligger på 4 biljoner dollar efter en 20-faldig ökning under Cooks ledning. Aktien föll mindre än 1% i efterhandeln på nyheten om ledningsbytet.</cite>"
+        "icon": "🏦",
+        "label": "NORDISK BANKSTYRKA",
+        "text": "Nordeas starka Q1-rapport med rörelseresultat över förväntningar trots nionde kvartal av fallande räntenetto. Sektorn drar nytta av stabiliserade kreditförluster och kostnadseffektivitet. SEB och Handelsbanken kan följa exemplet. NIM-kompression fortsätter men i lugnare takt."
       },
       {
-        "icon": "🇸🇪",
-        "label": "STOCKHOLM SEKTORANALYS",
-        "text": "<cite index='16-6,16-7,16-8'>Grundmaterial ledde med +1,3%, energi tappade -0,8%. Boliden steg 1,7% och SKF B +1,6% medan EQT var sämst med -0,6%.</cite>"
+        "icon": "🔥",
+        "label": "GEOPOLITISK PREMIE KVARSTÅR",
+        "text": "<cite index=\"22-8,22-19\">Trump förlänger vapenvila men behåller blockad av iranska hamnar, Iran kallar blockaden \"krigshandling\"</cite>. <cite index=\"25-15,25-16,25-17\">Intern split i Iran mellan civila ledare som vill förhandla och IRGC som vägrar under blockadtryck</cite>. Risk-on rotationen kan vara för tidigt."
       }
     ],
     "pension": [
       {
         "icon": "🌱",
-        "label": "APPLE I PENSIONSFONDER",
-        "text": "<cite index='38-14,33-13'>Apple är världens tredje mest värdefulla bolag med marknadsvärdet 4 biljoner dollar. Stora svenska pensionsfonder som AP7 och AMF har betydande Apple-innehav.</cite>",
-        "tip": "💡 Stabilt ledningsbyte – inga panikförsäljningar behövs"
+        "label": "FÖRSIKTIG OPTIMISM FÖR AP7",
+        "text": "<cite index=\"3-1,3-3\">USA-terminernas uppgång (+0.5-0.7%) gynnar AP7 Såfas amerikanska innehav</cite>, men <cite index=\"6-2,6-13\">fortsatt energivolatilitet och geopolitiska risker</cite> kräver fortsatt försiktighet. VIX på 19.5 indikerar att marknadsstressen inte helt försvunnit.",
+        "tip": "💡 Håll fast vid din månadsinsättning - volatilitet skapar köplägen på sikt"
       },
       {
         "icon": "🛢️",
-        "label": "ENERGI OCH INFLATION",
-        "text": "<cite index='4-12,24-18'>Oljepriset faller kraftigt på fredshopp med Iran vilket kan minska inflationstrycket framöver. Detta gynnar pensionssparande på lång sikt.</cite>",
-        "tip": "💡 Lägre oljepriser = lägre inflation = bättre för dina pensionspengar"
+        "label": "ENERGISEKTORN PÅVERKAR PENSIONER",
+        "text": "Med oljan runt $89.5 och fortsatt osäkerhet kring Hormuzsundet påverkas pensionsfondernas energiinnehav. <cite index=\"21-12,21-14\">Blockaden fortsätter medan Iran kontrollerar Hormuzsundet</cite>. Både positiva och negativa effekter för olika pensionsfonder beroende på exponering mot olja vs energikonsumenter.",
+        "tip": "💡 Energivolatilitet balanseras ofta ut över tid i diversifierade pensionsfonder"
       },
       {
-        "icon": "📈",
-        "label": "MARKNADSSTABILITET",
-        "text": "<cite index='2-2,2-3'>US500-index är upp 34,73% jämfört med samma tid förra året med förhoppningar om fred mellan USA och Iran som driver optimism.</cite>",
-        "tip": "💡 Långsiktigt sparande gynnas av stabilare geopolitisk miljö"
+        "icon": "💼",
+        "label": "TESLA-EXPONERING I FOKUS",
+        "text": "<cite index=\"32-6,32-24\">Teslas missade leveransmål och lageröverbyggnad</cite> påverkar tekniktunga AMF och andra som har stora Tesla-positioner. <cite index=\"36-4,36-5\">Aktien ner 20% i år trots P/E på 194</cite>. Rapport ikväll blir avgörande för värdering.",
+        "tip": "💡 Tesla-volatiliteten påminner om varför spridning är viktigt i pensionssparandet"
       },
       {
-        "icon": "🇸🇪",
-        "label": "SVENSKA PENSIONSAKTIER",
-        "text": "<cite index='16-6,16-8'>Svenska industriaktier som Boliden (+1,7%) och SKF (+1,6%) presterar bra, vilket gynnar svenska pensionsfonders innehav.</cite>",
-        "tip": "💡 Bred portfölj av svenska kvalitetsbolag fortsätter leverera"
+        "icon": "🏛️",
+        "label": "BANKSEKTORN STABILISERAR",
+        "text": "Nordeas starka rapport gynnar svenska pensionsfonder med stor bankexponering. Nionde kvartal av fallande räntenetto men bättre kostnadskontroll. Svenska banker fortsätter vara stabila utdelningsbetalare för pensionssparare som söker inkomst.",
+        "tip": "💡 Svenska banker har historiskt varit stabila långsiktiga innehav för pensionssparare"
       }
     ],
     "full_beginner": [
       {
-        "icon": "🍎",
-        "label": "APPLE BYTER LEDNING",
-        "text": "<cite index='31-1,31-2,32-2'>Apple meddelade idag att John Ternus ska bli ny VD från 1 september medan Tim Cook blir styrelseordförande. Cook har lett Apple i 15 år och gjort företaget värt över 4 biljoner dollar.</cite> <cite index='32-3,32-4'>Övergången godkändes enhälligt av styrelsen efter en genomtänkt successionsprocess. Cook kommer att fortsätta som VD genom sommaren för en smidig övergång.</cite> <cite index='34-3,34-5'>Ternus, som är 50 år och har arbetat på Apple sedan 2001, övervakar utvecklingen av enheter som genererar cirka 80% av Apples intäkter.</cite>",
-        "explain": "💡 Detta är första gången Apple byter VD sedan Steve Jobs dog 2011. Ternus har varit ansvarig för iPhone, iPad och Mac – produkterna som ger Apple mest pengar. En VD-byte på ett så stort företag påverkar alltid aktiekursen eftersom investerare blir osäkra på framtiden.",
-        "background": "📖 Tim Cook tog över Apple när företaget nästan gick i konkurs 1998 och byggde upp det till världens mest värdefulla teknikbolag. Nu när han är 65 år gammal är det dags att lämna över till nästa generation. Ternus har jobbat med Apple-produkter i över 20 år och anses vara den naturliga efterträdaren."
-      },
-      {
-        "icon": "🛢️",
-        "label": "OLJA KRASCHAR PÅ FREDSHOPP",
-        "text": "<cite index='4-12,22-1'>Oljepriset föll nästan 10% då Irans utrikesminister meddelade att Hormuzsundet är helt öppet för kommersiell trafik. Trump säger att en fredsuppgörelse med Iran är 'mycket nära'.</cite> <cite index='24-17,24-18'>Efter att USA beslagtagit ett iranskt fartyg under helgen har oljepriserna åter stigit kraftigt. Brent crude steg till omkring 95 dollar per fat på måndagen, upp 5% från fredagens stängning.</cite> <cite index='21-8,21-9'>Iran stängde Hormuzsundet som svar på USA:s och Israels angrepp i februari, vilket stört den globala handeln.</cite>",
-        "explain": "💡 Hormuzsundet är världens viktigaste oljetransportled – en femtedel av all olja passerar där. När Iran stänger det blir det brist på olja och priserna skjuter i höjden. När det öppnas igen blir det mer olja tillgängligt och priserna faller. För vanliga människor betyder lägre oljepriser billigare bensin vid macken.",
-        "background": "📖 USA och Iran har varit i krig sedan februari 2026 efter att USA och Israel genomförde angrepp som dödade Irans högste ledare. Iran svarade med att stänga Hormuzsundet och skjuta missiler mot amerikanska mål. Nu försöker de förhandla fram fred i Pakistan."
-      },
-      {
         "icon": "📈",
-        "label": "AMERIKANSKA BÖRSEN RUSAR",
-        "text": "<cite index='2-3,2-4'>US-terminer stiger inför en andra omgång fredssamtal mellan USA och Iran i Pakistan. Trump hotar att inte förlänga den nuvarande vapenvilan om ingen överenskommelse nås innan den upphör på onsdag.</cite> <cite index='23-1,26-8'>Även om amerikanska källor säger att en delegation är på väg till Islamabad, har Irans utrikesdepartement sagt att Iran inte har planer på att återuppta förhandlingarna 'för närvarande'.</cite> <cite index='7-1,7-4'>S&P 500 tappade 0,24% på måndagen medan Nasdaq föll 0,26%, vilket avbröt en 13-dagars vinstsvit – den längsta sedan 1992.</cite>",
-        "explain": "💡 När det finns hopp om fred går aktierna upp eftersom investerare blir mindre rädda för krig och ekonomisk instabilitet. Men när förhandlingarna ser osäkra ut blir marknaden nervös igen. Terminspriser visar vad investerare tror kommer hända imorgon – när de stiger betyder det att folk är optimistiska.",
-        "background": "📖 Börsen har varit extremt volatil sedan kriget började i februari. Först kraschade aktier när kriget startade, sedan studsar de upp varje gång det finns fredshopp, för att sedan falla igen när förhandlingarna går dåligt. Detta kallas 'headline-trading' – när marknaden reagerar på nyheter snarare än företagens faktiska resultat."
+        "label": "TERMINERNA VÄNDER UPP",
+        "text": "<cite index=\"3-1,3-3\">USA-terminerna klättrar 0.5-0.7% i natt efter att Trump förlängde vapenvilan med Iran</cite>. <cite index=\"21-2,21-3\">Trump säger att Irans regering är \"allvarligt splittrad\" och vapenvilan fortsätter tills Iran lämnar ett förslag</cite>. <cite index=\"22-6,22-7,22-8\">Förlängningen kom på begäran från pakistanska medlare precis innan vapenvilan skulle löpa ut på onsdag</cite>. Denna utveckling har lugnat investerarna som var oroliga för en eskalering av konflikten.",
+        "explain": "💡 När geopolitiska spänningar minskar blir investerare mindre rädda och flyttar pengar från säkra tillgångar som guld tillbaka till aktier. Futures är kontrakt som handlas innan börserna öppnar och ger en indikation på hur dagen kommer att se ut. När futures stiger brukar det betyda att aktiemarknaden öppnar högre. Det är som en förhandsvisning av marknadsstämningen.",
+        "background": "📖 Bakgrund: USA och Iran har varit i konflikt sedan februari, vilket har lett till blockader av oljetransporter i Hormuzsundet. Denna konflikt har skapat stor oro på finansmarknaderna eftersom den påverkar globala oljeleveranser och därmed energipriser. Vapenvilan har förlängts flera gånger, men varje deadline skapar nervositet bland investerare."
       },
       {
         "icon": "⚡",
-        "label": "SVERIGES BÖRSMORGON",
-        "text": "<cite index='16-1,16-4,16-5'>Stockholms börs öppnade positivt med OMX30 upp 0,61%. Aktier för cirka 1,4 miljarder kronor omsattes på Stockholmsbörsen.</cite> <cite index='16-6,16-7'>Grundmaterial ledde uppgången bland de stora industrisektorerna och steg 1,3%. I andra änden backade energi med 0,8%.</cite> <cite index='16-8,16-9'>Bland storbolagen i OMX30-indexet steg Boliden 1,7% medan SKF B ökade 1,6%. EQT var sämst och föll 0,6%.</cite>",
-        "explain": "💡 Svenska aktier påverkas starkt av vad som händer i världen, speciellt i USA eftersom många svenska företag säljer dit. När amerikanska terminer går upp blir svenska investerare också optimistiska. Grundmaterial som Boliden gynnas av hopp om ökad global handel när konflikter minskar.",
-        "background": "📖 Stockholm börsen följer ofta samma mönster som amerikanska börser eftersom Sverige är en exportnation. När världsekonomin ser stabil ut köper fler svenska produkter, vilket är bra för våra företag och deras aktiekurser."
+        "label": "TESLA RAPPORTERAR IKVÄLL",
+        "text": "<cite index=\"31-5,32-1\">Tesla rapporterar Q1 2026-siffror ikväll efter stängning</cite>. <cite index=\"32-6,32-7\">Bolaget levererade 358,000 bilar, 7,600 färre än väntat, vilket var första gången på länge de missade förväntningarna</cite>. <cite index=\"32-24,32-8\">Tesla byggde även 50,000 fler bilar än de sålde, vilket skapar ett lageröverflöd som kan pressa marginaler framöver</cite>. <cite index=\"36-4,36-5\">Aktien har fallit 20% i år men handlas fortfarande till 194 gånger vinsten</cite>. Investerare väntar på förklaringar om den framtida strategin för självkörande bilar och robotar.",
+        "explain": "💡 När ett företag producerar mer än det säljer byggs lager upp, vilket ofta tyder på svagare efterfrågan. Detta kan tvinga företaget att sänka priser för att bli av med lagret, vilket minskar vinsterna. Tesla har också en mycket hög värdering (P/E 194) jämfört med traditionella bilföretag som kanske har P/E runt 10-15. Detta betyder att investerare förväntar sig mycket stark tillväxt framöver - om den inte kommer kan aktien falla kraftigt.",
+        "background": "📖 Bakgrund: Tesla har försökt positionera sig som mer än bara ett bilföretag - de säger att de är ett AI- och robotikföretag. Men 90% av intäkterna kommer fortfarande från bilförsäljning. Marknaden har värderat aktien utifrån framtida potential inom självkörande bilar och robotar, men den potentialen har tagit längre tid att realisera än väntat."
+      },
+      {
+        "icon": "💰",
+        "label": "STARKARE SIFFROR FRÅN NORDEA",
+        "text": "Nordea, en av Sveriges största banker, rapporterade oväntat starka siffror för första kvartalet. Rörelseresultatet överträffade analytikernas förväntningar trots att räntenettot fortsatte att falla för nionde kvartalet i rad. Detta visar att banken har lyckats kontrollera kostnaderna och kanske även dra nytta av lägre kreditförluster. Andra nordiska banker som SEB och Handelsbanken kan komma att dra nytta av samma positiva trender. Den svenska banksektorn har visat sig vara robust genom olika ekonomiska utmaningar.",
+        "explain": "💡 Banker tjänar pengar främst på skillnaden mellan vad de tar ut i ränta på lån och vad de betalar på insättningar (kallas räntenetto). När denna skillnad minskar, som den gjort i nio kvartal, måste bankerna hitta andra sätt att behålla lönsamheten - som att minska kostnaderna eller sälja fler tjänster. Nordeas starka siffror trots fallande räntenetto visar att de lyckats med detta. För vanliga människor betyder detta att banken fortsätter vara lönsam och kan betala ut utdelningar till sina ägare.",
+        "background": "📖 Bakgrund: Svenska banker har genomgått en period av anpassning efter att räntorna först var extremt låga under många år och sedan steg snabbt. Detta har påverkat hur mycket de tjänar på utlåning. Samtidigt har bankerna investerat mycket i digitalisering för att minska kostnaderna. Nordeas starka rapport tyder på att denna strategi börjar ge resultat."
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJAN FORTSATT INSTABIL",
+        "text": "<cite index=\"21-12,21-13,21-14\">Hormuzsundet, världens viktigaste oljetransportled, förblir stängt av Iran medan USA fortsätter blockaden av iranska hamnar</cite>. <cite index=\"22-19\">Irans utrikesminister kallar blockaden för en \"krigshandling\" och brott mot vapenvilan</cite>. WTI-oljan handlas runt $89.5 efter gårdagens kraftiga uppgång på över 6%. <cite index=\"23-26,23-27,23-29\">Höga bränslekostnader har redan höjt flygbillettpriser med över $100 för långflygningar från Europa</cite>. Energimarknaden väntar på konkreta framsteg i fredsförhandlingarna för att se en verklig stabilisering.",
+        "explain": "💡 Hormuzsundet är som en flaskhals för världens olja - cirka 20% av all olja transporteras genom detta smala sund. När det stängs eller störs går oljepriset upp eftersom tillgången minskar medan efterfrågan är densamma. Högre oljepriser påverkar allt från bensinpriser till flygbilletter och transportkostnader. Det skapar inflation som drabbar vanliga konsumenter genom högre priser på det mesta vi köper. Oljan är som blod i ekonomins kropp - när flödet störs märks det överallt.",
+        "background": "📖 Bakgrund: Iran kontrollerar en sida av Hormuzsundet och har använt detta som ett geopolitiskt vapen under konflikten med USA. Samtidigt har USA infört en sjöblockad av iranska hamnar. Denna situation skapar en ond cirkel där båda sidor eskalerar spänningarna, vilket håller oljepriserna höga och skapar osäkerhet på marknaderna."
       }
     ],
     "full_analyst": [
       {
         "icon": "📊",
-        "label": "TEKNISK ANALYS TERMINER",
-        "text": "<cite index='2-1,2-2'>S&P 500-indexet steg till 7124 punkter den 21 april 2026, upp 0,21% från föregående session. Under den senaste månaden har indexet klättrat 8,25% och är upp 34,73% jämfört med samma tid förra året.</cite> <cite index='5-2,6-9'>S&P 500 förblir förhöjt över den tidigare toppen runt 7000 från januari. Marknaden har genomgått en snabb 12-dagars övergång från översåld till överköpt, vilket döljer en osäker makroekonomisk verklighet.</cite> <cite index='6-10,6-11'>Blandade signaler från kortsiktig styrka och eftersläpande mellanliggande bredd skapar en mycket skör teknisk grund när marknaden klättrar till rekordnivåer.</cite>",
-        "detail": "🔍 Nyckeltal: VIX 18,87 (+2,78%) indikerar låg till måttlig volatilitet, S&P 500 futures +1,18% på 7160,75. DAX futures +2,84% på 24417,8 visar europeisk optimism. Russell 2000 nådde rekord 2,792.96 (+0,58%). Bevaka 7200-nivån på S&P 500 som tekniskt motstånd.",
-        "outlook": "🎯 Marknaden balanserar på knivsegg mellan geopolitiska risker och AI-driven optimism. Nästa katalysatorer: Iran-förhandlingar (onsdag deadline), stora tech-rapporter (Tesla, IBM onsdag), och Fed-kommentarer. Risk för mean reversion om fredssamtalen misslyckas – 6900-7000 första stödområde."
+        "label": "FUTURES REAGERAR POSITIVT",
+        "text": "<cite index=\"3-2,3-3\">S&P 500-futures +0.5%, Nasdaq 100 +0.7% på vapenvileförlängningen, medan underliggande index föll andra dagen i rad tisdag på Iran-oro</cite>. VIX stiger dock till 19.5 (+7.32%) vilket indikerar att marknadsstressen inte helt försvunnit. <cite index=\"6-2,6-13\">Energipriserna fortsätter pressa med blockaden av Hormuzsundet som håller WTI över $89</cite>. DAX +0.94% signalerar europeisk optimism, men den tekniska bilden kräver fortsatt försiktighet med 7064 som stödnivå på S&P 500.",
+        "detail": "🔍 Tekniska nivåer att bevaka: S&P 500 futures behöver bryta över 7100 för att bekräfta uppgången från vapenvileoptimismen. VIX över 20 skulle signalera ökad volatilitet framöver. DAX handlar över 50-dagars MA vid 24100, vilket stöttar den europeiska styrkan. WTI-oljan har stöd vid $85 och motstånd vid $95 - ett brott över $95 skulle indikera fortsatt geopolitisk premie.",
+        "outlook": "🎯 Nästa stora katalysator blir Teslas rapport ikväll som kan sätta tonen för tech-sektorn. Fed-ordförande Kevin Warshs nominering skapar osäkerhet om penningpolitiken. Geopolitiskt är situationen fortfarande instabil - Iran vägrar förhandla under blockadtryck vilket kan leda till förnyad eskalering. Bevaka om VIX faller under 18 för bekräftelse av risk-on rotationen."
       },
       {
-        "icon": "🛢️",
-        "label": "RÅVARUMARKNADSANALYS",
-        "text": "<cite index='24-17,24-18'>Brent crude steg till omkring 95 dollar per fat på måndagen, upp 5% från fredagens stängning efter USA:s beslutning av ett iransk fartyg.</cite> <cite index='21-8,21-9'>Iran stängde Hormuzsundet som svar på USA-Israel angrepp, vilket störde global handel. USA:s förslag inkluderar återöppnande av sundet och begränsningar av Irans militära kapacitet.</cite> <cite index='23-2,23-11'>Endast 16 fartyg passerade Hormuzsundet på måndag inklusive två iransk-flaggade fartyg, enligt MarineTraffic.com data.</cite>",
-        "detail": "🔍 WTI futures -8,65% på 86,5 USD visar kraftig volatilitet. Kontango-struktur indikerar förväntningar om lägre framtida priser. Brent-WTI spread expanderat till 8,5 USD. Shipping-kostnader från Mellanöstern +400% sedan februari. Strategiska reservutlägg från USA, Kina stabiliserar något.",
-        "outlook": "🎯 Kritisk nivå 90-95 USD för Brent – genombrott uppåt mot 100+ om förhandlingar misslyckas. Nedåtrisk till 75-80 USD om Hormuzsundet öppnas fullt. Bevaka: tankerpriser, försäkringspremier, alternativa rutter via Suezkanalen. OPEC+ möte nästa månad kan justera produktionsmål."
+        "icon": "⚙️",
+        "label": "TESLA UNDER PRESS FÖRE RAPPORT",
+        "text": "<cite index=\"32-9,32-14,32-15\">Wall Street-konsensus väntar $22.3B revenue (+14% YoY) och $0.37 EPS, medan Teslas egen analytiker-konsensus är lägre på $21.4B/$0.33</cite>. <cite index=\"32-16,36-19,36-20,36-21\">Nyckeltalet blir bilmarginalerna exkl. krediter - över 17% signalerar stabilisering, under 15% bekräftar bear case om deterioration</cite>. <cite index=\"32-24,33-1\">Produktion vs leveranser gap på 50,000 enheter skapar lageröverbyggnad som kan pressa Q2-marginaler</cite>. Aktien ned 20% YTD trots P/E 194x framåtblickande.",
+        "detail": "🔍 Nyckeltal och tekniska nivåer: Automotive gross margin ex-credits kritisk - Q4 var 16.9%. Energy storage deployment 8.8 GWh vs 14.2 GWh Q4 behöver förklaring. FSD subscriber growth rate och robotaxi operationell data från Dallas/Houston expansion viktigt för AI-narrativet. Tekniskt stöd vid $350, motstånd vid $420. RSI bottnar på oversålt territorium.",
+        "outlook": "🎯 Katalysatorer framöver inkluderar v14.4/v15 FSD software timeline, Cybercab produktionsuppdatering, och 2026 CapEx guidance över $20B. Europa FSD approval kan drive subscriber growth. Risk: Om marginaler faller under 15% och guidance sänks kan aktien testa $300-nivån. Uppside vid stark robotaxi progress och margin-stabilisering mot $500."
       },
       {
-        "icon": "💼",
-        "label": "APPLE FUNDAMENTAL ANALYS",
-        "text": "<cite index='33-13,38-13,38-14'>Apples marknadsvärde ligger på 4 biljoner dollar efter en 20-faldig ökning under Cooks ledning. Företaget är för närvarande världens tredje mest värdefulla publika bolag efter Nvidia och Alphabet.</cite> <cite index='33-25,33-26'>För Ternus blir det mest kritiska att driva företaget djupare in i artificiell intelligens där det släpat efter sina megacap-konkurrenter. iPhone 17 har presterat bra men Apple har mött kritik för upplevd brist på AI-teknik.</cite> <cite index='38-15,37-20'>Aktien föll mindre än 1% i efterhandeln. Analytiker ser detta som förväntad övergång snarare än överraskning.</cite>",
-        "detail": "🔍 P/E ratio cirka 28x baserat på FY2026 estimat $24,50 EPS. Revenue growth 7-9% guided vs 15%+ för AI-peers. iPhone fortfarande 52% av revenue, Services växer 12% YoY till $85B run-rate. China sales +20% Q1 överraskar positivt. Gross margin pressure från chip costs, supply chain disruption.",
-        "outlook": "🎯 Ternus måste leverera på AI-strategin – Siri-uppdatering med Google Gemini kritisk. Visionära produkter som Vision Pro behöver adoption-momentum. Indien-expansion, subscription-growth drivers framöver. Downside risk om AI-implementering släpar, upside från nya produktkategorier. Target $200-220 beroende på AI-exekvering."
+        "icon": "🏦",
+        "label": "NORDISK BANKSTYRKA",
+        "text": "Nordeas starka Q1-rapport med rörelseresultat över förväntningar trots nionde kvartal av fallande räntenetto visar sektorns adaptabilitet. NIM-kompression stabiliseras när ränteskillnader börjar plana ut. Sektorn drar nytta av lägre kreditförluster än väntat och fortsatt kostnadseffektivitet från digitalisering. SEB och Handelsbanken rapporterar nästa vecka och kan följa samma mönster. Svenska banker handlar till 0.8-1.0x P/B med direktavkastning runt 6-8%. ROE ligger stabilt över 12% för sektorsledarna.",
+        "detail": "🔍 Sektornyckeltal att följa: NIM stabilisering runt 1.4-1.6% för stora banker. Cost/Income ratio under 50% är målnivån. Credit loss provisions under 25bps indikerar fortsatt kreditkvalitet. Tier 1 capital ratio över 18% ger buffertutrymme. CET1 ratios väl över regulatoriska minimikrav på 12-13%.",
+        "outlook": "🎯 Nästa triggers: Riksbankens räntebeslut i maj kan stabilisera NIM outlook. Q2 guidance blir kritisk för att bekräfta inflexionspunkten. Geopolitisk oro kan påverka kredit- och handelsfinansiering negativt. Uppsida vid stabiliserad NIM och fortsatt låga kreditförluster - sektorn kan återuppvärdera mot 1.2x P/B."
       },
       {
-        "icon": "🇸🇪",
-        "label": "STOCKHOLM MARKNADSANALYS",
-        "text": "<cite index='16-4,16-5,16-6'>OMX30 steg 0,61% justerat för utdelningar med omsättning på cirka 1,4 miljarder kronor. Grundmaterial ledde med +1,3%, energi tappade -0,8%.</cite> <cite index='16-8,16-9,16-15'>Boliden steg 1,7%, SKF B +1,6% medan EQT backade -0,6%. Mycronic fick stor order värd 248-275 miljoner kronor och steg 1,5%.</cite> <cite index='20-22,20-23'>OMX30 öppnade på 3133,73 med volym 24,961,249.</cite>",
-        "detail": "🔍 Sektorrotation från defensiva till cykliska. Financials, Materials driver – indikerar risk-on sentiment. EUR/SEK 10,76 (-0,57%) stödjer export-bolag. Riksbanken troligen pausar räntesänkningar. Earnings season: industrials förväntas slå estimat på global recovery-tema. P/E OMX30 cirka 16,5x vs europeiskt 14,8x.",
-        "outlook": "🎯 OMX30 testar 3180-3200 motstånd kort sikt. Genombrott över kräver uthållig global optimism och fortsatt kronförsvagning. Stöd 3100-3120. Katalysatorer: Q1 earnings (Volvo, ASML, Ericsson nästa vecka), Riksbanken 1 maj, US-Iran resolution. Överväga quality cyclicals vid dips."
+        "icon": "🔥",
+        "label": "GEOPOLITISK PREMIE KVARSTÅR",
+        "text": "<cite index=\"22-8,22-19\">Trumps vapenvileförlängning behåller blockad av iranska hamnar medan Iran kallar blockaden \"krigshandling\" och brott mot vapenvilan</cite>. <cite index=\"25-15,25-16,25-17\">Intern split i Iran mellan civila ledare (Ghalibaf, Araghchi) som vill förhandla och IRGC under Vahidi som vägrar under blockadtryck</cite>. <cite index=\"25-12,25-13\">IRGC ser förlängningen som \"köpa tid för överraskningsattack\"</cite>. Risk-on rotationen kan vara för tidigt given strukturella spänningar.",
+        "detail": "🔍 Geopolitiska risknivåer: Hormuzsundet stängt påverkar 20% av global oljehandel. USA sjöblockad vs Iran motblockad skapar eskaleringsrisk. Brent crude $95+ om konflikt återupptas. USD/SEK kan testa 9.30+ vid risk-off. VIX 25+ vid förnyad eskalering. Guldpriser över $4800 indikerar safe haven-flöden.",
+        "outlook": "🎯 Kritiska händelser framöver: Pakistanska medlares framgång i att få Iran till förhandlingsbordet. IRGC vs civila maktkampen i Tehran avgörande. Trump administration patience med blockad-strategin. Nästa 48-72 timmar kritiska för att bedöma om vapenvilan håller. Misslyckas diplomatin kan WTI testa $100+ och equity markets korrigera 5-10%."
       }
     ],
     "full_pension": [
       {
         "icon": "🌱",
-        "label": "APPLE-EXPONERING I PENSIONSFONDER",
-        "text": "<cite index='38-14,33-13'>Apple är världens tredje mest värdefulla bolag med marknadsvärdet 4 biljoner dollar efter en 20-faldig ökning under Tim Cooks ledning.</cite> <cite index='32-3,32-4'>Övergången till John Ternus som ny VD godkändes enhälligt av styrelsen efter en genomtänkt successionsprocess med Cook kvar som mentor fram till september.</cite> <cite index='34-3,34-24'>Ternus övervakar utvecklingen av enheter som genererar cirka 80% av Apples intäkter och har arbetat på Apple sedan 2001.</cite> Den stabila ledarskapsövergången minskar risken för volatilitet i ett av pensionsfondernas största innehav.",
-        "tip": "💡 Apple utgör vanligtvis 3-5% av svenska pensionsfonders globala aktieavdelning. Det planerade ledarskapsbytet är positivt då det sker i lugn och ro med erfaren intern kandidat. Ingen anledning att oroa sig för dina pensionspengar – fortsätt månadsparandet som vanligt.",
-        "funds": "🏦 AP-fonderna har sammanlagt cirka 180 miljarder kronor i Apple-aktier baserat på senaste rapportering. AMF Aktiefond Världen och AP7 Aktiefond har Apple som toppinnehav. SPP Aktiefond Global har också betydande Apple-exponering genom MSCI World-index tracking."
+        "label": "FÖRSIKTIG OPTIMISM FÖR AP7",
+        "text": "<cite index=\"3-1,3-3\">USA-terminernas uppgång (+0.5-0.7%) gynnar AP7 Såfas amerikanska innehav som utgör cirka 50% av portföljen</cite>. Vapenvileförlängningen har lett till viss optimism, men <cite index=\"6-2,6-13\">fortsatt energivolatilitet och geopolitiska risker med blockaden av Hormuzsundet</cite> kräver fortsatt försiktighet. VIX på 19.5 indikerar att marknadsstressen inte helt försvunnit. AP7:s diversifierade globala portfölj bör kunna hantera denna volatilitet bättre än mer koncentrerade fonder. Den automatiska ombalanceringen i fonden innebär att geopolitiska dipp kan skapa köplägen på sikt.",
+        "tip": "💡 Håll fast vid din månadsinsättning i premiepensionen - volatilitet skapar faktiskt bättre långsiktiga köplägen genom dollar cost averaging. Undvik att reagera på kortsiktiga geopolitiska rörelser som historiskt sett brukar jämnas ut över tid. AP7:s globala spridning hjälper till att diversifiera bort regionala risker.",
+        "funds": "🏦 AP7 Såfa kommer troligen gynnas av USA-uppgången då amerikanska aktier utgör hälften av portföljen. Fonden är konstruerad för att hantera volatilitet genom automatisk ombalansering mellan aktier och räntebärande. AMF och SPP:s globalfonder har liknande USA-exponering och bör se positiva effekter. Statliga AP-fonderna (AP1-4) har mer komplex riskhantering men gynnas också av minskade geopolitiska spänningar."
       },
       {
         "icon": "🛢️",
-        "label": "ENERGI OCH INFLATIONSPÅVERKAN",
-        "text": "<cite index='4-12,24-18'>Oljepriset föll nästan 10% på fredshopp men steg sedan 5% till 95 USD/fat efter geopolitiska spänningar. Brent crude-volatiliteten påverkar global inflation betydligt.</cite> <cite index='24-19,21-8'>Tehrans restriktioner kring Hormuzsundet sedan februari 2026 har skapat betydande instabilitet på globala marknader och höjt transportkostnader.</cite> <cite index='23-17,21-9'>Kinesiske president Xi Jinping varnade att Hormuzsundet måste vara fullt öppet för fartyg, medan USA:s förslag inkluderar återöppnande av sundet.</cite> Lägre energipriser över tid stärker pensionssparares köpkraft genom minskad inflation.",
-        "tip": "💡 Som pensionssparare gynnas du av lägre oljepris då det minskar inflationen och förbättrar din framtida köpkraft. Höga energipriser äter upp värdet på dina pensionspengar över tid. Fortsätt spara regelbundet – volatiliteten utjämnas på 20-30 års sikt.",
-        "funds": "🏦 Svenska pensionsfonder har minskat sin energiexponering de senaste åren från 8-10% till 3-5% av portföljen. AP7 har fasats ut från fossil energi medan AMF har 'grön omställning' som tema. Detta minskar direktexponeringen mot oljevolatilitet men ökar exponering mot förnybar energi."
+        "label": "ENERGISEKTORN PÅVERKAR PENSIONER",
+        "text": "Med oljan runt $89.5 och fortsatt osäkerhet kring Hormuzsundet påverkas pensionsfondernas energiinnehav på komplext sätt. <cite index=\"21-12,21-14\">Blockaden fortsätter medan Iran kontrollerar Hormuzsundet, vilket håller oljepriserna förhöjda</cite>. Svenska pensionsfonder har både direkta energiinnehav (Equinor, Shell, svenska oljebolag) som gynnas av högre priser, samtidigt som energikonsumerande industrier (flyg, transport, kemisk industri) påverkas negativt. <cite index=\"23-26,23-27\">Flygbolag drabbas särskilt hårt med bränslekostnader som ökat flygbiljetter över $100 för långflygningar</cite>. Den totala nettoeffekten på pensionsfonder beror på deras specifika sektorviktning.",
+        "tip": "💡 Energivolatilitet balanseras ofta ut över tid i välspridda pensionsfonder eftersom ekonomin anpassar sig till nya energipriser. Undvik att försöka tajma energisektorn - det är extremt svårt även för professionella förvaltare. Fokusera istället på att dina pensionsfonder har bra global och sektoriell spridning.",
+        "funds": "🏦 AP7 och AMF:s globalfonder har begränsad direkt energiexponering (5-8%) men påverkas indirekt genom alla sektorer. SPP:s olika fonder varierar i energiexponering beroende på profil. Första AP-fonden har större energiallokering genom sitt mandat att investera i svenska och nordiska tillgångar, inklusive Equinor-innehav som gynnas av högre oljepriser."
       },
       {
-        "icon": "📈",
-        "label": "GLOBAL MARKNADSSTABILITET",
-        "text": "<cite index='2-2,2-3'>US500-index är upp 34,73% jämfört med samma tid förra året med förhoppningar om fred mellan USA och Iran som driver marknadssoptimism.</cite> <cite index='7-8,30-8'>Handlare har svårt att fullt ut prissätta värsta scenariot för kriget givet aktiers återhämtning från nära korrigeringsterritorium till rekordnivåer.</cite> <cite index='30-18,30-19'>Kriget har nu pågått över sex veckor, längre än officiellt initialt föreslaget. Trump har aldrig varit under större press att avsluta det.</cite> Långsiktigt pensionssparande gynnas av stabilare geopolitisk miljö och minskade volatilitetspremier.",
-        "tip": "💡 Geopolitisk oro skapar kortsiktig volatilitet men påverkar sällan långsiktiga avkastningen för pensionssparare. Din pensionshorisont på 20-40 år utjämnar sådana chocker. Viktigt att inte göra impulsiva ändringar i din pensionsportfölj baserat på dagsnyheter.",
-        "funds": "🏦 AP-fonderna har ökat sin defensiva allokering något under konflikten genom högre kontantpositioner (2-3% vs normalt 1%). AMF:s målåtsfonder justerar automatiskt risknivån baserat på volatilitet. SPP Generation 2060 behåller aktieexponeringen enligt långsiktig plan trots kortsiktig oro."
+        "icon": "💼",
+        "label": "TESLA-EXPONERING I FOKUS",
+        "text": "<cite index=\"32-6,32-24\">Teslas missade leveransmål (358k vs 365k väntat) och lageröverbyggnad på 50,000 enheter</cite> påverkar tekniktunga pensionsfonder som AMF och andra som har betydande Tesla-positioner. <cite index=\"36-4,36-5\">Aktien har fallit 20% i år men handlas fortfarande till extrema 194 gånger vinsten</cite>, vilket gör den sårbar för ytterligare nedgångar om kvällens rapport blir svag. <cite index=\"32-16,36-19,36-21\">Bilmarginalerna blir avgörande - under 15% skulle bekräfta bear case om försämrande kärnverksamhet</cite>. För pensionssparare som är flera decennier från pension kan Teslas volatilitet ses som naturlig del av tekniksektorns utveckling.",
+        "tip": "💡 Tesla-volatiliteten påminner om varför spridning är kritiskt i pensionssparandet - ingen enskild aktie bör kunna äventyra din pension. Även om Tesla är en stor position i många teknikfonder, utgör det sällan mer än 2-3% av en välbalanserad portfölj. Koncentrera dig på fondens totala riskspridning snarare än enskilda innehav.",
+        "funds": "🏦 AMF Aktiefond Global har större Tesla-exponering än AP7 genom sin teknikvikt. SPP:s teknikfonder och Nordamerikafonder påverkas mer direkt. Generationsfonder från olika leverantörer har Tesla-exponering som minskar automatiskt när du närmar dig pension genom att växla till mer konservativa tillgångar. Statliga AP-fondernas Tesla-exponering varierar men är begränsad av diversifieringsregler."
       },
       {
-        "icon": "🇸🇪",
-        "label": "SVENSKA KVALITETSBOLAG",
-        "text": "<cite index='16-6,16-8'>Svenska industriaktier som Boliden (+1,7%) och SKF (+1,6%) presterar bra vilket gynnar svenska pensionsfonders innehav i hemmamarknaden.</cite> <cite index='16-15,16-16'>Mycronic fick stor order värd 248-275 miljoner kronor från ny kund och steg 1,5%, vilket visar svensk teknologiexport-styrka.</cite> <cite index='16-10,16-12'>Avarda Bank rapporterade rörelseresultat på 245 miljoner kronor för första kvartalet, i linje med analytikerförväntningar på 248 miljoner kronor, men aktien föll 4%.</cite> Svenska pensionsfonder drar nytta av bredare portföljer av kvalitetsbolag inom olika sektorer.",
-        "tip": "💡 Svenska pensionsfonder har ofta 25-35% exponering mot svenska aktier, vilket är högt jämfört med Sveriges 1% av världsmarknaden. Detta 'hemma-bias' har historiskt varit lönsamt tack vare svenska kvalitetsbolag som Volvo, ASML, och Ericsson. Fortsätt lita på denna allokering.",
-        "funds": "🏦 AP7 Aktiefond har 27% svenska aktier, AMF Aktiefond Sverige 100% fokus på hemmamarknaden. SPP Sverige Plus kombinerar stora och små svenska bolag. Dessa fonder drar nytta av svenska exportbolags starka marknadspositioner och teknologisk innovation inom automation, telecom och gruvteknik."
+        "icon": "🏛️",
+        "label": "BANKSEKTORN STABILISERAR",
+        "text": "Nordeas starka Q1-rapport med rörelseresultat över förväntningar trots nionde kvartalet av fallande räntenetto gynnar svenska pensionsfonder med stor bankexponering. Svenska storbanker (Nordea, SEB, Handelsbanken, Swedbank) utgör traditionellt 15-20% av svenska aktiefonders innehav och har historiskt varit stabila utdelningsbetalare. Sektorns anpassning till det nya ränteläget genom kostnadseffektivitet och digitalisering börjar ge resultat. För pensionssparare representerar svenska banker en kombination av lokal exponering och internationell diversifiering genom bankernas nordiska och baltiska verksamhet.",
+        "tip": "💡 Svenska banker har historiskt varit pålitliga långsiktiga innehav för pensionssparare med stabil utdelningstillväxt över decennier. Deras exponering mot både svenska hushåll och nordisk/baltisk tillväxt ger en balanserad riskprofil. Räkna med fortsatt volatilitet kortsiktigt när räntecykeln stabiliseras, men sektorn har stark konkurrensposition långsiktigt.",
+        "funds": "🏦 AP7 har betydande svensk bankexponering genom sitt svenska aktieinnehav. Alla större svenska pensionsfonder (AMF, SPP, Folksam) har stora bankpositioner som följer svenska aktieindex. Premiepensionssystemets svenska fonder påverkas positivt av bankstyrka då banker ofta är toppinnehav. AP1-4 har särskilt stora bankpositioner genom sina svenska mandat och kan dra extra nytta av sektorstabiliseringen."
       }
     ]
   }

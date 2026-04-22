@@ -1,5 +1,251 @@
 [
   {
+    "date": "Wednesday 22 April 2026",
+    "date_short": "22 Apr 2026",
+    "generated": "2026-04-22T04:53:44.100028",
+    "headline": "Iran-vapenvila öppnar marknaderna högt",
+    "sources": [
+      "CNBC",
+      "CNN",
+      "Al Jazeera",
+      "Tesla Earnings",
+      "Reuters"
+    ],
+    "beginner": [
+      {
+        "icon": "📈",
+        "label": "TERMINERNA VÄNDER UPP",
+        "text": "<cite index=\"3-1,3-3\">USA-terminerna klättrar 0.5-0.7% i natt efter att Trump förlängde vapenvilan med Iran</cite>. <cite index=\"21-2,21-3\">Trump säger att Irans regering är \"allvarligt splittrad\" och vapenvilan fortsätter tills Iran lämnar ett förslag</cite>. Oljepriset fortsätter dock att vara volatilt.",
+        "explain": "💡 När geopolitiska spänningar minskar blir investerare mindre rädda, vilket leder till att aktiemarknader stiger"
+      },
+      {
+        "icon": "⚡",
+        "label": "TESLA RAPPORTERAR IKVÄLL",
+        "text": "<cite index=\"31-5,32-1\">Tesla rapporterar Q1 2026-siffror ikväll efter stängning</cite>. <cite index=\"32-6,32-7\">Bolaget levererade 358,000 bilar, 7,600 färre än väntat</cite>. <cite index=\"32-24\">Tesla byggde även 50,000 fler bilar än de sålde</cite>, vilket kan pressa marginaler framöver.",
+        "explain": "💡 När företag producerar mer än de säljer byggs lager upp, vilket ofta tyder på svagare efterfrågan eller sämre försäljning"
+      },
+      {
+        "icon": "💰",
+        "label": "STARKARE SIFFROR FRÅN NORDEA",
+        "text": "Nordea redovisar ett klart starkare rörelseresultat än väntat för Q1. Räntenettot föll som väntat för nionde kvartalet i rad, men den svenska storbanken överträffade analytikernas förväntningar. Detta styrker den nordiska banksektorn.",
+        "explain": "💡 Banker tjänar pengar på skillnaden mellan låne- och inlåningsräntor, så när räntor förändras påverkas deras vinster direkt"
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJAN FORTSATT INSTABIL",
+        "text": "<cite index=\"21-12,21-13,21-14\">Hormuzsundet förblir en konfliktpunkt där Iran stängt av oljetransporter, medan Trump fortsätter blockaden av iranska hamnar</cite>. WTI-oljan handlas runt $89.5 efter gårdagens uppgång på över 6%. Energimarknaden väntar på konkreta framsteg i fredsförhandlingarna.",
+        "explain": "💡 Hormuzsundet är världens viktigaste oljetransportled - när det stängs går oljepriset upp eftersom tillgången minskar"
+      }
+    ],
+    "analyst": [
+      {
+        "icon": "📊",
+        "label": "FUTURES REAGERAR POSITIVT",
+        "text": "<cite index=\"3-2,3-3\">S&P 500-futures +0.5%, Nasdaq 100 +0.7% på vapenvileförlängningen</cite>. VIX stiger dock till 19.5 (+7.32%) vilket indikerar kvarstående oro. <cite index=\"6-2,6-13\">Energipriserna fortsätter pressa med blockaden av Hormuzsundet</cite>. DAX +0.94% signalerar europeisk optimism."
+      },
+      {
+        "icon": "⚙️",
+        "label": "TESLA UNDER PRESS FÖRE RAPPORT",
+        "text": "<cite index=\"32-9,32-14,32-15\">Wall Street-konsensus väntar $22.3B revenue och $0.37 EPS, Tesla's egen konsensus lägre på $21.4B/$0.33</cite>. <cite index=\"32-16,36-19,36-20,36-21\">Nyckeltalet blir bilmarginalerna exkl. krediter - över 17% är stabiliserande, under 15% bekräftar bear case</cite>. Produktion vs leveranser gap är problematiskt."
+      },
+      {
+        "icon": "🏦",
+        "label": "NORDISK BANKSTYRKA",
+        "text": "Nordeas starka Q1-rapport med rörelseresultat över förväntningar trots nionde kvartal av fallande räntenetto. Sektorn drar nytta av stabiliserade kreditförluster och kostnadseffektivitet. SEB och Handelsbanken kan följa exemplet. NIM-kompression fortsätter men i lugnare takt."
+      },
+      {
+        "icon": "🔥",
+        "label": "GEOPOLITISK PREMIE KVARSTÅR",
+        "text": "<cite index=\"22-8,22-19\">Trump förlänger vapenvila men behåller blockad av iranska hamnar, Iran kallar blockaden \"krigshandling\"</cite>. <cite index=\"25-15,25-16,25-17\">Intern split i Iran mellan civila ledare som vill förhandla och IRGC som vägrar under blockadtryck</cite>. Risk-on rotationen kan vara för tidigt."
+      }
+    ],
+    "pension": [
+      {
+        "icon": "🌱",
+        "label": "FÖRSIKTIG OPTIMISM FÖR AP7",
+        "text": "<cite index=\"3-1,3-3\">USA-terminernas uppgång (+0.5-0.7%) gynnar AP7 Såfas amerikanska innehav</cite>, men <cite index=\"6-2,6-13\">fortsatt energivolatilitet och geopolitiska risker</cite> kräver fortsatt försiktighet. VIX på 19.5 indikerar att marknadsstressen inte helt försvunnit.",
+        "tip": "💡 Håll fast vid din månadsinsättning - volatilitet skapar köplägen på sikt"
+      },
+      {
+        "icon": "🛢️",
+        "label": "ENERGISEKTORN PÅVERKAR PENSIONER",
+        "text": "Med oljan runt $89.5 och fortsatt osäkerhet kring Hormuzsundet påverkas pensionsfondernas energiinnehav. <cite index=\"21-12,21-14\">Blockaden fortsätter medan Iran kontrollerar Hormuzsundet</cite>. Både positiva och negativa effekter för olika pensionsfonder beroende på exponering mot olja vs energikonsumenter.",
+        "tip": "💡 Energivolatilitet balanseras ofta ut över tid i diversifierade pensionsfonder"
+      },
+      {
+        "icon": "💼",
+        "label": "TESLA-EXPONERING I FOKUS",
+        "text": "<cite index=\"32-6,32-24\">Teslas missade leveransmål och lageröverbyggnad</cite> påverkar tekniktunga AMF och andra som har stora Tesla-positioner. <cite index=\"36-4,36-5\">Aktien ner 20% i år trots P/E på 194</cite>. Rapport ikväll blir avgörande för värdering.",
+        "tip": "💡 Tesla-volatiliteten påminner om varför spridning är viktigt i pensionssparandet"
+      },
+      {
+        "icon": "🏛️",
+        "label": "BANKSEKTORN STABILISERAR",
+        "text": "Nordeas starka rapport gynnar svenska pensionsfonder med stor bankexponering. Nionde kvartal av fallande räntenetto men bättre kostnadskontroll. Svenska banker fortsätter vara stabila utdelningsbetalare för pensionssparare som söker inkomst.",
+        "tip": "💡 Svenska banker har historiskt varit stabila långsiktiga innehav för pensionssparare"
+      }
+    ],
+    "full_beginner": [
+      {
+        "icon": "📈",
+        "label": "TERMINERNA VÄNDER UPP",
+        "text": "<cite index=\"3-1,3-3\">USA-terminerna klättrar 0.5-0.7% i natt efter att Trump förlängde vapenvilan med Iran</cite>. <cite index=\"21-2,21-3\">Trump säger att Irans regering är \"allvarligt splittrad\" och vapenvilan fortsätter tills Iran lämnar ett förslag</cite>. <cite index=\"22-6,22-7,22-8\">Förlängningen kom på begäran från pakistanska medlare precis innan vapenvilan skulle löpa ut på onsdag</cite>. Denna utveckling har lugnat investerarna som var oroliga för en eskalering av konflikten.",
+        "explain": "💡 När geopolitiska spänningar minskar blir investerare mindre rädda och flyttar pengar från säkra tillgångar som guld tillbaka till aktier. Futures är kontrakt som handlas innan börserna öppnar och ger en indikation på hur dagen kommer att se ut. När futures stiger brukar det betyda att aktiemarknaden öppnar högre. Det är som en förhandsvisning av marknadsstämningen.",
+        "background": "📖 Bakgrund: USA och Iran har varit i konflikt sedan februari, vilket har lett till blockader av oljetransporter i Hormuzsundet. Denna konflikt har skapat stor oro på finansmarknaderna eftersom den påverkar globala oljeleveranser och därmed energipriser. Vapenvilan har förlängts flera gånger, men varje deadline skapar nervositet bland investerare."
+      },
+      {
+        "icon": "⚡",
+        "label": "TESLA RAPPORTERAR IKVÄLL",
+        "text": "<cite index=\"31-5,32-1\">Tesla rapporterar Q1 2026-siffror ikväll efter stängning</cite>. <cite index=\"32-6,32-7\">Bolaget levererade 358,000 bilar, 7,600 färre än väntat, vilket var första gången på länge de missade förväntningarna</cite>. <cite index=\"32-24,32-8\">Tesla byggde även 50,000 fler bilar än de sålde, vilket skapar ett lageröverflöd som kan pressa marginaler framöver</cite>. <cite index=\"36-4,36-5\">Aktien har fallit 20% i år men handlas fortfarande till 194 gånger vinsten</cite>. Investerare väntar på förklaringar om den framtida strategin för självkörande bilar och robotar.",
+        "explain": "💡 När ett företag producerar mer än det säljer byggs lager upp, vilket ofta tyder på svagare efterfrågan. Detta kan tvinga företaget att sänka priser för att bli av med lagret, vilket minskar vinsterna. Tesla har också en mycket hög värdering (P/E 194) jämfört med traditionella bilföretag som kanske har P/E runt 10-15. Detta betyder att investerare förväntar sig mycket stark tillväxt framöver - om den inte kommer kan aktien falla kraftigt.",
+        "background": "📖 Bakgrund: Tesla har försökt positionera sig som mer än bara ett bilföretag - de säger att de är ett AI- och robotikföretag. Men 90% av intäkterna kommer fortfarande från bilförsäljning. Marknaden har värderat aktien utifrån framtida potential inom självkörande bilar och robotar, men den potentialen har tagit längre tid att realisera än väntat."
+      },
+      {
+        "icon": "💰",
+        "label": "STARKARE SIFFROR FRÅN NORDEA",
+        "text": "Nordea, en av Sveriges största banker, rapporterade oväntat starka siffror för första kvartalet. Rörelseresultatet överträffade analytikernas förväntningar trots att räntenettot fortsatte att falla för nionde kvartalet i rad. Detta visar att banken har lyckats kontrollera kostnaderna och kanske även dra nytta av lägre kreditförluster. Andra nordiska banker som SEB och Handelsbanken kan komma att dra nytta av samma positiva trender. Den svenska banksektorn har visat sig vara robust genom olika ekonomiska utmaningar.",
+        "explain": "💡 Banker tjänar pengar främst på skillnaden mellan vad de tar ut i ränta på lån och vad de betalar på insättningar (kallas räntenetto). När denna skillnad minskar, som den gjort i nio kvartal, måste bankerna hitta andra sätt att behålla lönsamheten - som att minska kostnaderna eller sälja fler tjänster. Nordeas starka siffror trots fallande räntenetto visar att de lyckats med detta. För vanliga människor betyder detta att banken fortsätter vara lönsam och kan betala ut utdelningar till sina ägare.",
+        "background": "📖 Bakgrund: Svenska banker har genomgått en period av anpassning efter att räntorna först var extremt låga under många år och sedan steg snabbt. Detta har påverkat hur mycket de tjänar på utlåning. Samtidigt har bankerna investerat mycket i digitalisering för att minska kostnaderna. Nordeas starka rapport tyder på att denna strategi börjar ge resultat."
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJAN FORTSATT INSTABIL",
+        "text": "<cite index=\"21-12,21-13,21-14\">Hormuzsundet, världens viktigaste oljetransportled, förblir stängt av Iran medan USA fortsätter blockaden av iranska hamnar</cite>. <cite index=\"22-19\">Irans utrikesminister kallar blockaden för en \"krigshandling\" och brott mot vapenvilan</cite>. WTI-oljan handlas runt $89.5 efter gårdagens kraftiga uppgång på över 6%. <cite index=\"23-26,23-27,23-29\">Höga bränslekostnader har redan höjt flygbillettpriser med över $100 för långflygningar från Europa</cite>. Energimarknaden väntar på konkreta framsteg i fredsförhandlingarna för att se en verklig stabilisering.",
+        "explain": "💡 Hormuzsundet är som en flaskhals för världens olja - cirka 20% av all olja transporteras genom detta smala sund. När det stängs eller störs går oljepriset upp eftersom tillgången minskar medan efterfrågan är densamma. Högre oljepriser påverkar allt från bensinpriser till flygbilletter och transportkostnader. Det skapar inflation som drabbar vanliga konsumenter genom högre priser på det mesta vi köper. Oljan är som blod i ekonomins kropp - när flödet störs märks det överallt.",
+        "background": "📖 Bakgrund: Iran kontrollerar en sida av Hormuzsundet och har använt detta som ett geopolitiskt vapen under konflikten med USA. Samtidigt har USA infört en sjöblockad av iranska hamnar. Denna situation skapar en ond cirkel där båda sidor eskalerar spänningarna, vilket håller oljepriserna höga och skapar osäkerhet på marknaderna."
+      }
+    ],
+    "full_analyst": [
+      {
+        "icon": "📊",
+        "label": "FUTURES REAGERAR POSITIVT",
+        "text": "<cite index=\"3-2,3-3\">S&P 500-futures +0.5%, Nasdaq 100 +0.7% på vapenvileförlängningen, medan underliggande index föll andra dagen i rad tisdag på Iran-oro</cite>. VIX stiger dock till 19.5 (+7.32%) vilket indikerar att marknadsstressen inte helt försvunnit. <cite index=\"6-2,6-13\">Energipriserna fortsätter pressa med blockaden av Hormuzsundet som håller WTI över $89</cite>. DAX +0.94% signalerar europeisk optimism, men den tekniska bilden kräver fortsatt försiktighet med 7064 som stödnivå på S&P 500.",
+        "detail": "🔍 Tekniska nivåer att bevaka: S&P 500 futures behöver bryta över 7100 för att bekräfta uppgången från vapenvileoptimismen. VIX över 20 skulle signalera ökad volatilitet framöver. DAX handlar över 50-dagars MA vid 24100, vilket stöttar den europeiska styrkan. WTI-oljan har stöd vid $85 och motstånd vid $95 - ett brott över $95 skulle indikera fortsatt geopolitisk premie.",
+        "outlook": "🎯 Nästa stora katalysator blir Teslas rapport ikväll som kan sätta tonen för tech-sektorn. Fed-ordförande Kevin Warshs nominering skapar osäkerhet om penningpolitiken. Geopolitiskt är situationen fortfarande instabil - Iran vägrar förhandla under blockadtryck vilket kan leda till förnyad eskalering. Bevaka om VIX faller under 18 för bekräftelse av risk-on rotationen."
+      },
+      {
+        "icon": "⚙️",
+        "label": "TESLA UNDER PRESS FÖRE RAPPORT",
+        "text": "<cite index=\"32-9,32-14,32-15\">Wall Street-konsensus väntar $22.3B revenue (+14% YoY) och $0.37 EPS, medan Teslas egen analytiker-konsensus är lägre på $21.4B/$0.33</cite>. <cite index=\"32-16,36-19,36-20,36-21\">Nyckeltalet blir bilmarginalerna exkl. krediter - över 17% signalerar stabilisering, under 15% bekräftar bear case om deterioration</cite>. <cite index=\"32-24,33-1\">Produktion vs leveranser gap på 50,000 enheter skapar lageröverbyggnad som kan pressa Q2-marginaler</cite>. Aktien ned 20% YTD trots P/E 194x framåtblickande.",
+        "detail": "🔍 Nyckeltal och tekniska nivåer: Automotive gross margin ex-credits kritisk - Q4 var 16.9%. Energy storage deployment 8.8 GWh vs 14.2 GWh Q4 behöver förklaring. FSD subscriber growth rate och robotaxi operationell data från Dallas/Houston expansion viktigt för AI-narrativet. Tekniskt stöd vid $350, motstånd vid $420. RSI bottnar på oversålt territorium.",
+        "outlook": "🎯 Katalysatorer framöver inkluderar v14.4/v15 FSD software timeline, Cybercab produktionsuppdatering, och 2026 CapEx guidance över $20B. Europa FSD approval kan drive subscriber growth. Risk: Om marginaler faller under 15% och guidance sänks kan aktien testa $300-nivån. Uppside vid stark robotaxi progress och margin-stabilisering mot $500."
+      },
+      {
+        "icon": "🏦",
+        "label": "NORDISK BANKSTYRKA",
+        "text": "Nordeas starka Q1-rapport med rörelseresultat över förväntningar trots nionde kvartal av fallande räntenetto visar sektorns adaptabilitet. NIM-kompression stabiliseras när ränteskillnader börjar plana ut. Sektorn drar nytta av lägre kreditförluster än väntat och fortsatt kostnadseffektivitet från digitalisering. SEB och Handelsbanken rapporterar nästa vecka och kan följa samma mönster. Svenska banker handlar till 0.8-1.0x P/B med direktavkastning runt 6-8%. ROE ligger stabilt över 12% för sektorsledarna.",
+        "detail": "🔍 Sektornyckeltal att följa: NIM stabilisering runt 1.4-1.6% för stora banker. Cost/Income ratio under 50% är målnivån. Credit loss provisions under 25bps indikerar fortsatt kreditkvalitet. Tier 1 capital ratio över 18% ger buffertutrymme. CET1 ratios väl över regulatoriska minimikrav på 12-13%.",
+        "outlook": "🎯 Nästa triggers: Riksbankens räntebeslut i maj kan stabilisera NIM outlook. Q2 guidance blir kritisk för att bekräfta inflexionspunkten. Geopolitisk oro kan påverka kredit- och handelsfinansiering negativt. Uppsida vid stabiliserad NIM och fortsatt låga kreditförluster - sektorn kan återuppvärdera mot 1.2x P/B."
+      },
+      {
+        "icon": "🔥",
+        "label": "GEOPOLITISK PREMIE KVARSTÅR",
+        "text": "<cite index=\"22-8,22-19\">Trumps vapenvileförlängning behåller blockad av iranska hamnar medan Iran kallar blockaden \"krigshandling\" och brott mot vapenvilan</cite>. <cite index=\"25-15,25-16,25-17\">Intern split i Iran mellan civila ledare (Ghalibaf, Araghchi) som vill förhandla och IRGC under Vahidi som vägrar under blockadtryck</cite>. <cite index=\"25-12,25-13\">IRGC ser förlängningen som \"köpa tid för överraskningsattack\"</cite>. Risk-on rotationen kan vara för tidigt given strukturella spänningar.",
+        "detail": "🔍 Geopolitiska risknivåer: Hormuzsundet stängt påverkar 20% av global oljehandel. USA sjöblockad vs Iran motblockad skapar eskaleringsrisk. Brent crude $95+ om konflikt återupptas. USD/SEK kan testa 9.30+ vid risk-off. VIX 25+ vid förnyad eskalering. Guldpriser över $4800 indikerar safe haven-flöden.",
+        "outlook": "🎯 Kritiska händelser framöver: Pakistanska medlares framgång i att få Iran till förhandlingsbordet. IRGC vs civila maktkampen i Tehran avgörande. Trump administration patience med blockad-strategin. Nästa 48-72 timmar kritiska för att bedöma om vapenvilan håller. Misslyckas diplomatin kan WTI testa $100+ och equity markets korrigera 5-10%."
+      }
+    ],
+    "full_pension": [
+      {
+        "icon": "🌱",
+        "label": "FÖRSIKTIG OPTIMISM FÖR AP7",
+        "text": "<cite index=\"3-1,3-3\">USA-terminernas uppgång (+0.5-0.7%) gynnar AP7 Såfas amerikanska innehav som utgör cirka 50% av portföljen</cite>. Vapenvileförlängningen har lett till viss optimism, men <cite index=\"6-2,6-13\">fortsatt energivolatilitet och geopolitiska risker med blockaden av Hormuzsundet</cite> kräver fortsatt försiktighet. VIX på 19.5 indikerar att marknadsstressen inte helt försvunnit. AP7:s diversifierade globala portfölj bör kunna hantera denna volatilitet bättre än mer koncentrerade fonder. Den automatiska ombalanceringen i fonden innebär att geopolitiska dipp kan skapa köplägen på sikt.",
+        "tip": "💡 Håll fast vid din månadsinsättning i premiepensionen - volatilitet skapar faktiskt bättre långsiktiga köplägen genom dollar cost averaging. Undvik att reagera på kortsiktiga geopolitiska rörelser som historiskt sett brukar jämnas ut över tid. AP7:s globala spridning hjälper till att diversifiera bort regionala risker.",
+        "funds": "🏦 AP7 Såfa kommer troligen gynnas av USA-uppgången då amerikanska aktier utgör hälften av portföljen. Fonden är konstruerad för att hantera volatilitet genom automatisk ombalansering mellan aktier och räntebärande. AMF och SPP:s globalfonder har liknande USA-exponering och bör se positiva effekter. Statliga AP-fonderna (AP1-4) har mer komplex riskhantering men gynnas också av minskade geopolitiska spänningar."
+      },
+      {
+        "icon": "🛢️",
+        "label": "ENERGISEKTORN PÅVERKAR PENSIONER",
+        "text": "Med oljan runt $89.5 och fortsatt osäkerhet kring Hormuzsundet påverkas pensionsfondernas energiinnehav på komplext sätt. <cite index=\"21-12,21-14\">Blockaden fortsätter medan Iran kontrollerar Hormuzsundet, vilket håller oljepriserna förhöjda</cite>. Svenska pensionsfonder har både direkta energiinnehav (Equinor, Shell, svenska oljebolag) som gynnas av högre priser, samtidigt som energikonsumerande industrier (flyg, transport, kemisk industri) påverkas negativt. <cite index=\"23-26,23-27\">Flygbolag drabbas särskilt hårt med bränslekostnader som ökat flygbiljetter över $100 för långflygningar</cite>. Den totala nettoeffekten på pensionsfonder beror på deras specifika sektorviktning.",
+        "tip": "💡 Energivolatilitet balanseras ofta ut över tid i välspridda pensionsfonder eftersom ekonomin anpassar sig till nya energipriser. Undvik att försöka tajma energisektorn - det är extremt svårt även för professionella förvaltare. Fokusera istället på att dina pensionsfonder har bra global och sektoriell spridning.",
+        "funds": "🏦 AP7 och AMF:s globalfonder har begränsad direkt energiexponering (5-8%) men påverkas indirekt genom alla sektorer. SPP:s olika fonder varierar i energiexponering beroende på profil. Första AP-fonden har större energiallokering genom sitt mandat att investera i svenska och nordiska tillgångar, inklusive Equinor-innehav som gynnas av högre oljepriser."
+      },
+      {
+        "icon": "💼",
+        "label": "TESLA-EXPONERING I FOKUS",
+        "text": "<cite index=\"32-6,32-24\">Teslas missade leveransmål (358k vs 365k väntat) och lageröverbyggnad på 50,000 enheter</cite> påverkar tekniktunga pensionsfonder som AMF och andra som har betydande Tesla-positioner. <cite index=\"36-4,36-5\">Aktien har fallit 20% i år men handlas fortfarande till extrema 194 gånger vinsten</cite>, vilket gör den sårbar för ytterligare nedgångar om kvällens rapport blir svag. <cite index=\"32-16,36-19,36-21\">Bilmarginalerna blir avgörande - under 15% skulle bekräfta bear case om försämrande kärnverksamhet</cite>. För pensionssparare som är flera decennier från pension kan Teslas volatilitet ses som naturlig del av tekniksektorns utveckling.",
+        "tip": "💡 Tesla-volatiliteten påminner om varför spridning är kritiskt i pensionssparandet - ingen enskild aktie bör kunna äventyra din pension. Även om Tesla är en stor position i många teknikfonder, utgör det sällan mer än 2-3% av en välbalanserad portfölj. Koncentrera dig på fondens totala riskspridning snarare än enskilda innehav.",
+        "funds": "🏦 AMF Aktiefond Global har större Tesla-exponering än AP7 genom sin teknikvikt. SPP:s teknikfonder och Nordamerikafonder påverkas mer direkt. Generationsfonder från olika leverantörer har Tesla-exponering som minskar automatiskt när du närmar dig pension genom att växla till mer konservativa tillgångar. Statliga AP-fondernas Tesla-exponering varierar men är begränsad av diversifieringsregler."
+      },
+      {
+        "icon": "🏛️",
+        "label": "BANKSEKTORN STABILISERAR",
+        "text": "Nordeas starka Q1-rapport med rörelseresultat över förväntningar trots nionde kvartalet av fallande räntenetto gynnar svenska pensionsfonder med stor bankexponering. Svenska storbanker (Nordea, SEB, Handelsbanken, Swedbank) utgör traditionellt 15-20% av svenska aktiefonders innehav och har historiskt varit stabila utdelningsbetalare. Sektorns anpassning till det nya ränteläget genom kostnadseffektivitet och digitalisering börjar ge resultat. För pensionssparare representerar svenska banker en kombination av lokal exponering och internationell diversifiering genom bankernas nordiska och baltiska verksamhet.",
+        "tip": "💡 Svenska banker har historiskt varit pålitliga långsiktiga innehav för pensionssparare med stabil utdelningstillväxt över decennier. Deras exponering mot både svenska hushåll och nordisk/baltisk tillväxt ger en balanserad riskprofil. Räkna med fortsatt volatilitet kortsiktigt när räntecykeln stabiliseras, men sektorn har stark konkurrensposition långsiktigt.",
+        "funds": "🏦 AP7 har betydande svensk bankexponering genom sitt svenska aktieinnehav. Alla större svenska pensionsfonder (AMF, SPP, Folksam) har stora bankpositioner som följer svenska aktieindex. Premiepensionssystemets svenska fonder påverkas positivt av bankstyrka då banker ofta är toppinnehav. AP1-4 har särskilt stora bankpositioner genom sina svenska mandat och kan dra extra nytta av sektorstabiliseringen."
+      }
+    ],
+    "futures": {
+      "S&P 500 Futures": {
+        "price": 7133.75,
+        "change": -0.39,
+        "prev": 7161.5
+      },
+      "NASDAQ Futures": {
+        "price": 26795.0,
+        "change": -0.11,
+        "prev": 26825.5
+      },
+      "DAX": {
+        "price": 24270.87,
+        "change": 0.94,
+        "prev": 24044.22
+      },
+      "Olja (WTI)": {
+        "price": 89.49,
+        "change": 6.73,
+        "prev": 83.85
+      },
+      "Guld": {
+        "price": 4771.0,
+        "change": -1.78,
+        "prev": 4857.6
+      },
+      "VIX": {
+        "price": 19.5,
+        "change": 7.32,
+        "prev": 18.17
+      }
+    },
+    "quotes": {
+      "OMX30": {
+        "price": 3133.29,
+        "change": -0.63,
+        "prev": 3153.12
+      },
+      "S&P 500": {
+        "price": 7064.01,
+        "change": 1.39,
+        "prev": 6967.38
+      },
+      "NASDAQ": {
+        "price": 24259.97,
+        "change": 2.63,
+        "prev": 23639.08
+      },
+      "EUR/USD": {
+        "price": 1.17,
+        "change": -0.92,
+        "prev": 1.18
+      },
+      "USD/SEK": {
+        "price": 9.17,
+        "change": 0.21,
+        "prev": 9.15
+      },
+      "EUR/SEK": {
+        "price": 10.77,
+        "change": -0.32,
+        "prev": 10.8
+      },
+      "BTC/USD": {
+        "price": 77524.34,
+        "change": 2.38,
+        "prev": 75721.12
+      }
+    }
+  },
+  {
     "date": "Tuesday 21 April 2026",
     "date_short": "21 Apr 2026",
     "generated": "2026-04-21T04:53:21.733039",
