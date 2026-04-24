@@ -1,5 +1,250 @@
 [
   {
+    "date": "Friday 24 April 2026",
+    "date_short": "24 Apr 2026",
+    "generated": "2026-04-24T04:54:23.182421",
+    "headline": "Intel rusar efter rekordkvartal – olja över $105",
+    "sources": [
+      "Intel Q1 2026 resultat",
+      "US-Iran vapenvila förlängd",
+      "Olja över $105",
+      "VIX stiger med 10%"
+    ],
+    "beginner": [
+      {
+        "icon": "🚀",
+        "label": "INTEL EXPLODERAR UPPÅT",
+        "text": "<cite index='11-1,11-6,11-7'>Intel fick sina aktier att skjuta i höjden med 20% efter att ha överträffat förväntningarna i Q1</cite>. <cite index='11-8,15-2'>Företaget tjänade 29 cent per aktie mot förväntade 1 cent och hade intäkter på 13,6 miljarder dollar</cite>.",
+        "explain": "💡 Intel är ett chipföretag som länge varit eftersläntare i AI-racet, men nu verkar de ha hittat tillbaka tack vare stark efterfrågan på deras processorer för datacenter"
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJA FORTSÄTTER STIGA TROTS VAPENVILA",
+        "text": "<cite index='21-4,21-5,21-6'>Oljepriserna steg över 3% när Iran beslagtog fler fartyg i Hormuz-sundet strax efter att vapenvilan förlängts</cite>. <cite index='28-1,28-8'>Brent-olja handlas nu över $105 per fat</cite>.",
+        "explain": "💡 Även om det är vapenvila så blockerar både USA och Iran fortfarande fartyg, vilket gör att oljeexporten från Mellanöstern är kraftigt begränsad"
+      },
+      {
+        "icon": "📈",
+        "label": "NASDAQ FUTURES STIGER PÅ INTEL-OPTIMISM",
+        "text": "<cite index='2-2,2-4'>Nasdaq-futures steg 0,6% tidigt på fredagen på optimism från Intels kvartalsrapport</cite>. <cite index='2-5'>Chipjätten hoppade 19% i efterhandeln efter att försäljningsprognosen slog förväntningarna</cite>.",
+        "explain": "💡 När ett stort teknikföretag som Intel lyckas bra påverkar det ofta hela tekniksektorn positivt, vilket syns i Nasdaq som är tungt viktat mot teknikbolag"
+      },
+      {
+        "icon": "⚠️",
+        "label": "VIX STIGER TROTS MARKNADSOPTIMISM",
+        "text": "<cite index='1-7'>Marknaden hatar fortfarande osäkerheten kring kriget</cite> och VIX-indexet steg över 10% till 19,31. <cite index='27-13,27-14'>Analytiker säger att marknaden tagit bort de värsta scenarierna men fortfarande är försiktig</cite>.",
+        "explain": "💡 VIX kallas 'rädsloindex' och mäter hur oroliga investerare är - över 20 betyder förhöjd oro, över 30 betyder panik"
+      }
+    ],
+    "analyst": [
+      {
+        "icon": "💻",
+        "label": "INTEL GENOMBROTT I AI-CPU MARKNAD",
+        "text": "<cite index='11-14,11-15,11-16'>Intel såg 22% tillväxt i datacenter-segmentet till $5,1 miljarder, drivet av stark efterfrågan på CPUs för AI-applikationer</cite>. <cite index='11-18'>CEO:n sa att 'CPU:n återinsertar sig som den oumbärliga grunden för AI-eran'</cite>."
+      },
+      {
+        "icon": "🛢️",
+        "label": "BRENT ÖVER $105 - STRUKTURELLT HÖJD NIVÅ",
+        "text": "<cite index='24-6,24-7'>Brent stabiliseras i ett volatilt $95-$115 spann med genomsnitt på $115 i Q2 enligt US Energy Information Administration</cite>. <cite index='21-8'>Exporten från Mellanösterns Gulfproducenter har kollapsat under kriget</cite>."
+      },
+      {
+        "icon": "📊",
+        "label": "FUTURES PEKAR UPPÅT TROTS GEOPOLITIK",
+        "text": "<cite index='10-10,10-11'>S&P 500 steg 1,1% och Nasdaq 100 vann 1,7% till rekordnivåer på onsdag</cite>. <cite index='10-20'>75% av rapporterande S&P 500-bolag har slagit förväntningar</cite>."
+      },
+      {
+        "icon": "⚡",
+        "label": "VOLATILITET KVARSTÅR UNDER YTAN",
+        "text": "<cite index='9-2'>S&P 500 föll mindre än 10% vid maximal nedgång från Iran-konflikten trots att P/E-värderingarna sjönk 20%</cite>. <cite index='9-12,9-13'>10-års Treasury-räntor nära 4,5% - historiskt en tröskel för marknadsstress</cite>."
+      }
+    ],
+    "pension": [
+      {
+        "icon": "🏭",
+        "label": "INTELS FRAMGÅNG GYNNAR TEKNOLOGI-TUNGA FONDER",
+        "text": "<cite index='11-8,11-9'>Intel är upp 80% i år efter att ha blivit statligt stött</cite> och är en betydande innehav i många svenska fonder. <cite index='17-2,17-10'>Aktien når nya rekordnivåer över $75</cite>.",
+        "tip": "💡 Teknologiexponering i pensionssparandet får extra lyft när stora chipföretag levererar starka resultat"
+      },
+      {
+        "icon": "⛽",
+        "label": "HÖGRE ENERGIKOSTNADER ÄTER I PORTFÖLJEN",
+        "text": "<cite index='22-11,22-19'>Bensinpriserna upp 21% på en månad, den största månadshöjningen någonsin</cite>. <cite index='28-14,28-15'>IEA-chefen varnar för 'den största energisäkerhetshot i historien'</cite>.",
+        "tip": "💡 Höga energipriser pressar hushållsekonomin vilket kan påverka möjligheten att pensionsspara"
+      },
+      {
+        "icon": "📈",
+        "label": "STARKA RESULTAT STÖTTAR FORTSATT UPPGÅNG",
+        "text": "<cite index='7-11'>81% av rapporterande S&P 500-bolag har slagit vinst-förväntningar</cite>. <cite index='5-12'>Omkring 75% av rapporterande företag har överträffat förväntningarna</cite>.",
+        "tip": "💡 Starka bolagsresultat är positivt för långsiktigt pensionssparande även om geopolitiken skapar kortsiktig volatilitet"
+      },
+      {
+        "icon": "🎯",
+        "label": "DIVERSIFIERING VIKTIGARE ÄN NÅGONSIN",
+        "text": "<cite index='9-10'>Traditionell 60/40-diversifiering utmanas då aktier och obligationer rör sig åt samma håll</cite>. <cite index='9-14'>Råd till investerare: håll diversifiering men var beredd på långsammare, ojämnare avkastning</cite>.",
+        "tip": "💡 I volatila tider som nu är det extra viktigt att sprida riskerna i pensionsportföljen"
+      }
+    ],
+    "full_beginner": [
+      {
+        "icon": "🚀",
+        "label": "INTEL EXPLODERAR UPPÅT",
+        "text": "<cite index='11-6,11-7'>Intel rapporterade Q1-resultat som helt blåste bort Wall Streets förväntningar, vilket fick aktien att hoppa 20% i efterhandeln</cite>. <cite index='11-8'>Företaget tjänade 29 cent per aktie jämfört med förväntade 1 cent, och hade intäkter på $13,58 miljarder mot förväntade $12,42 miljarder</cite>. <cite index='11-9,11-10'>Intel har varit en Wall Street-favorit på senare tid med aktien upp över 80% i år efter att Trump-administrationen gjort den amerikanska regeringen till största aktieägare</cite>. <cite index='11-14,11-15'>Det starkaste segmentet var datacenter-verksamheten som växte 22% till $5,1 miljarder</cite>. <cite index='11-16,11-18'>Den tidigare sömniga CPU-marknaden har tagit fart när AI-arbetsbelastningar skiftar beräkningsbehov bortom Nvidias GPU:er, med CEO:n som sa att 'CPU:n återinsertar sig som den oumbärliga grunden för AI-eran'</cite>.",
+        "explain": "💡 Intel är ett amerikanskt chipföretag som länge varit eftersläntare i AI-racet bakom företag som Nvidia. Men nu verkar de ha hittat sin plats genom att leverera processorer (CPUs) som behövs för AI-datacenter. När ett stort teknikföretag överträffar förväntningarna så kraftigt som Intel gjorde, lyfter det ofta hela sektorn. Att aktien steg 20% på en kväll är mycket ovanligt för ett så stort företag.",
+        "background": "📖 Bakgrund: Intel har kämpat i flera år med att hålla jämna steg med konkurrenter som Nvidia och AMD i AI-utvecklingen. Men genom att fokusera på datacenter-processorer och samarbeta med Elon Musks företag har de hittat en nisch som marknaden uppskattar."
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJA FORTSÄTTER STIGA TROTS VAPENVILA",
+        "text": "<cite index='21-4,21-5,21-6'>Oljepriserna steg över 3% på onsdagen när Iran beslagtog två containerfartyg i Hormuz-sundet strax efter att president Trump förlängt vapenvilan</cite>. <cite index='28-1,28-8'>Priserna fortsatte stiga på fredagen med Brent-olja över $105 per fat</cite>. <cite index='21-7,21-8'>Det blev tydligt att vapenvilans förlängning inte nödvändigtvis leder till ökad oljeexport genom sundet, eftersom exporten från Mellanösterns Gulfproducenter har kollapsat under kriget</cite>. <cite index='21-9,21-10'>Tankertraffiken i sundet förblev låg när rederier möter en farlig säkerhetssituation, och Irans revolutionsgarde sa att de beslagtagit två containerfartyg när de försökte korsa sundet 'utan tillstånd'</cite>. <cite index='21-11,21-12'>USA upprätthåller samtidigt sin marina blockad av Iran under vapenvilan</cite>.",
+        "explain": "💡 Hormuz-sundet är världens viktigaste oljetransportled där cirka 20% av all global olja och naturgas normalt passerar. När det är stängt eller begränsat påverkas oljepriserna kraftigt eftersom alternativa transportvägar är mycket dyrare och långsammare. Även om det är vapenvila mellan USA och Iran så blockerar båda sidor fortfarande fartyg för att få förhandlingsövertag. Detta håller oljepriserna höga eftersom marknaden är osäker på när normal transport kan återupptas.",
+        "background": "📖 Bakgrund: Konflikten började i slutet av februari 2026 när USA och Israel genomförde koordinerade militärstrike mot Iran. Som svar stängde Iran Hormuz-sundet, vilket är den mest allvarliga energiförsörjningskrisen i modern tid. Vapenvilan har förlängts men utan att lösa det grundläggande problemet."
+      },
+      {
+        "icon": "📈",
+        "label": "NASDAQ FUTURES STIGER PÅ INTEL-OPTIMISM",
+        "text": "<cite index='2-2,2-4'>Nasdaq 100-futures steg 0,6% tidigt på fredagen på optimism utlöst av Intels kvartalsrapport</cite>. <cite index='2-5,2-6'>Chipföretaget hoppade 19% i efterhandeln efter att dess försäljningsprognos slog förväntningarna, medan halvledarsektorn klättrade för 17:e dagen i rad</cite>. <cite index='10-10,10-11,10-12'>Amerikanska aktier stängde på rekordnivåer på onsdag efter förlängningen av vapenvilan och starka bolagsresultat, med S&P 500 upp 1,1% och Nasdaq 100 upp 1,7%</cite>. <cite index='7-10,7-11'>Marknaderna hade stigit på nyheter om att Trump förlängde vapenvilan med Iran, tillsammans med en runda starka kvartalsrapporter där 81% av 87 S&P 500-företag som rapporterat har slagit vinst-förväntningar</cite>. <cite index='10-13,10-14'>Företag med AI-exponering gynnades av risk-on-svängningen, med chipproducenter som Broadcom, AMD och Micron som steg mellan 5% och 8%</cite>.",
+        "explain": "💡 Futures är kontrakt som handlas innan börsen öppnar och ger en indikation om hur marknaden kommer öppna. När Nasdaq-futures stiger betyder det att investerare är optimistiska om teknikaktier. Intel är en stor och viktig aktie för tekniksektorn, så när den presterar bra lyfter det ofta hela sektorn. Att halvledarsektorn klättrat 17 dagar i rad är exceptionellt och visar på stark optimism kring AI och chiptillverkning.",
+        "background": "📖 Bakgrund: Efter en period av oro för AI-bubbla och geopolitisk spänning har marknaden återhämtat sig kraftigt. Starka kvartalsrapporter kombinerat med förhoppningar om fred i Mellanöstern har skapat en 'risk-on' miljö där investerare vågar satsa på tillväxtaktier igen."
+      },
+      {
+        "icon": "⚠️",
+        "label": "VIX STIGER TROTS MARKNADSOPTIMISM",
+        "text": "<cite index='1-7'>Även med marknadens uppgång finns det fortfarande hög osäkerhet, och aktiemarknaderna på rekordhöjder sätter i princip 0% sannolikhet för ett utdraget krig</cite>. VIX-indexet steg över 10% till 19,31, vilket signalerar att investerare fortfarande är nervösa trots uppgången. <cite index='27-13,27-14'>Analytiker säger att marknaden har tagit bort de värsta scenarierna i kriget men att investerare nu fokuserar på bolagsvinster istället för geopolitiska risker</cite>. <cite index='27-17,27-18,27-19'>Goldman Sachs varnar att även om vapenvilan minskar risken för skador på energiinfrastruktur, så kan inte globala lager dras ned för evigt ju längre störningen varar</cite>. <cite index='4-11,4-12'>Med råvaruförråd som minskar i Europa, Hormuz-sundet stängt och USA som blockerar iranska fartyg finns det fortfarande hög osäkerhetsnivå</cite>.",
+        "explain": "💡 VIX kallas 'rädsloindex' och mäter hur mycket investerare är beredda att betala för att skydda sig mot börsnedgångar. Över 20 betyder förhöjd oro, över 30 betyder panik. Att VIX stiger trots att börsen går upp visar att investerare fortfarande är nervösa under ytan. Det kan betyda att marknaden är sårbar för dåliga nyheter eftersom alla redan räknar med det bästa scenariot.",
+        "background": "📖 Bakgrund: Marknader hatar osäkerhet mer än dåliga nyheter. Även om vapenvilan är positivt så löser den inte grundproblemet med energiförsörjning. Investerare börjar förstå att även 'bra' nyheter som förlängd vapenvila inte automatiskt betyder att problemen är lösta."
+      }
+    ],
+    "full_analyst": [
+      {
+        "icon": "💻",
+        "label": "INTEL GENOMBROTT I AI-CPU MARKNAD",
+        "text": "<cite index='11-12,11-13'>Intel guidar för Q2-intäkter mellan $13,8-14,8 miljarder dollar och justerad EPS på 20 cent, väl över analytikernas förväntningar på $13,07 miljarder intäkter och 9 cents EPS</cite>. <cite index='11-14,11-15,11-16'>Det starkaste segmentet var datacenter-verksamheten som växte 22% till $5,1 miljarder, drivet av stark efterfrågan på CPUs för AI när agentic workloads skiftar beräkningsbehov bortom Nvidias GPUs</cite>. <cite index='11-17,11-18'>Den växande CPU-efterfrågan underbyggde Intels nya $14 miljarder köp av 49% andel i sin Irland-fab som tidigare sålts till Apollo Global Management</cite>. <cite index='11-22,11-23'>Intel tillkännagav tidigare i månaden att de kommer ansluta sig till Elon Musks Terafab-komplex i Austin, Texas, för att designa och tillverka högprestandachips för SpaceX, xAI och Tesla med Intels kommande 14A-process</cite>. <cite index='15-11,12-17'>AI-relaterade produkter representerar nu 60% av intäkterna och växte 40% år-över-år</cite>.",
+        "detail": "🔍 Tekniska nyckeltal att bevaka: Non-GAAP gross margin på 41% (betydligt över guidning), datacenter-intäkter $5,1 miljarder vs. förväntade $4,41 miljarder, och client computing-intäkter $7,7 miljarder vs. förväntade $7,1 miljarder. Intel handlas nu på P/E-kvot som inte är tillämplig p.g.a. negativa vinster historiskt, men P/S-kvot på 5,7 indikerar premiumvärdering relativt försäljning.",
+        "outlook": "🎯 Nästa katalysatorer: Fortsatt framsteg på 18A-processen som övergår från utveckling till kommersiell tillväxtmotor, samt utveckling av 14A-teknologi som Tan säger sker snabbare än 18A. Bevaka kundtillkännagivanden för foundry-verksamheten och CPU-leveranskapacitet för att möta efterfrågan som fortfarande överstiger utbud."
+      },
+      {
+        "icon": "🛢️",
+        "label": "BRENT ÖVER $105 - STRUKTURELLT HÖJD NIVÅ",
+        "text": "<cite index='23-11,23-13'>Brent-terminer steg nästan 2% till $103,68 per fat medan WTI-terminer avancerade över 1% till $94,51 per fat</cite>. <cite index='24-6,24-7'>Analytiker projicerar att Brent stabiliseras i ett volatilt $95-$115 per fat-spann, i linje med US Energy Information Administrations prognoser på genomsnitt omkring $115 i Q2 2026</cite>. <cite index='24-4,24-5'>Iran upprätthåller tung militär närvaro i Hormuz-sundet med försäkringspremier på 2-5% av skrovvärde, vilket håller cirka 20 miljoner fat per dag effektivt begränsat</cite>. <cite index='23-9'>Total amerikansk export av råolja och petroleumprodukter klättrade med 137 000 fat per dag till rekord 12,88 miljoner fat per dag</cite>. <cite index='24-19,24-20'>Iran föreslår $2 million transitavgift per fartyg genom sundet, vilket skulle lägga cirka $2 per fat till kostnaden för Gulfolja</cite>.",
+        "detail": "🔍 Kritiska nivåer att bevaka: Brent $100-110 som stöd/motstånd, WTI $90-100 motsvarande nivåer. Hormuz-genomströmning normalt 20 miljoner fat/dag vs. nuvarande nästan noll. Försäkringspremier 2-5% av skrovvärde vs. normala 0,1-0,3%. 800 fartyg inklusive 426 oljetankrar strandsatta i regionen.",
+        "outlook": "🎯 Prisdrivare framåt: Förhandlingsframsteg mellan USA-Iran (nedåtrisk), eskalering av konflikten (uppåtrisk $150+), och globala lagers uttömningshastighet. Goldman Sachs estimerar Brent $80 vid årsskifte utan Hormuz-chock vs. nuvarande strukturellt högre nivåer så länge sundet förblir begränsat."
+      },
+      {
+        "icon": "📊",
+        "label": "FUTURES PEKAR UPPÅT TROTS GEOPOLITIK",
+        "text": "<cite index='10-10,10-11,10-19'>S&P 500 steg 1,05% och Nasdaq Composite avancerade 1,64% på onsdag medan Dow la till 0,69%</cite>. <cite index='10-20,7-11'>Marknadssentimentet stöttas av stark resultatsäsong med 75% av rapporterande S&P 500-företag som överträffar antingen vinst- eller intäktsförväntningar</cite>. <cite index='5-7,5-9'>S&P 500 stängde på rekord 7137,90 på torsdag 22 april efter Trumps vapenvilaförlängning, med index som parat förluster och klättrat till nya all-time highs - en återhämtning som CEO:n på deVere Group säger är instruerande om att underliggande tillväxtdrivare är kraftfulla</cite>. <cite index='9-2,9-16'>Även vid maximal nedgång från Iran-konflikten föll S&P 500 mindre än 10% då förväntningar på accelererande vinsttillväxt kompenserade P/E-värderingar som sjönk så mycket som 20%</cite>. <cite index='9-22,9-27'>Vinstmarginaler nådde nya toppar på cirka 15% i början av april för S&P 500, med indexet som handlas omkring 23 gånger trailing earnings</cite>.",
+        "detail": "🔍 Tekniska nivåer: S&P 500 all-time high 7137,90, Nasdaq Composite rekord 24438,50. Vinstmarginaler 15% för S&P 500 (rekordnivå), P/E 23x trailing (högt men hanterbart vs. triple-digit värderingar 2000). VIX 19,31 (+10,47%) signalerar underliggande nervositet trots uppgång.",
+        "outlook": "🎯 Nyckelrisker att övervaka: 10-års Treasury yields nära 4,5% - historisk tröskel för marknadsstress enligt Fidelitys Jurrien Timmer. Om benchmarkräntor bryter högre kan det sätta press på både aktier och obligationsmarknaden. Fortsatt starka kvartalsrapporter kritiska för att motivera höga värderingar i geopolitiskt osäker miljö."
+      },
+      {
+        "icon": "⚡",
+        "label": "VOLATILITET KVARSTÅR UNDER YTAN",
+        "text": "<cite index='27-12'>Globala aktier har redan återtagit krigsförnivåer med MSCI World Index som raderat 3,29% post-konflikt-fall för att handlas nästan 2% över 2 mars-stängning</cite>. <cite index='27-13,27-14'>Analytiker säger att marknader uppfattar att värsta scenarierna i kriget förmodligen är över, med investerare som tar bort left-tail risker och skiftar fokus tillbaka till bolagsvinster</cite>. <cite index='9-10,9-11'>Traditionella diversifieringsstrategier som 60/40 mix av aktier och obligationer utmanas eftersom aktier och obligationer generellt rör sig i samma riktning, med räntemarknader som fortsätter uppleva volatilitet</cite>. <cite index='27-20'>Goldman Sachs estimerar Brent-priser omkring $80 per fat vid årsskifte - cirka $20 högre än prognosen utan Hormuz-chocken</cite>. <cite index='1-7,4-12'>Marknader på all-time highs sätter i princip 0% sannolikhet för utdraget krig men med hög osäkerhetsnivå kvarvarande</cite>.",
+        "detail": "🔍 Volatilitetsmetrik: VIX 19,31 (+10,47%) trots marknadsuppgång indikerar underliggande spänningar. MSCI World +2% över pre-konflikt nivåer visar remarkabel resiliens. 60/40 portföljer utmanas med aktie-obligationskorrelationer höga. Olje-volatilitet påverkar bredare tillgångsklasser.",
+        "outlook": "🎯 Scenarioanalys: Bull case - diplomatiskt genombrott öppnar Hormuz, olja faller till $80, multipelexpansion fortsätter. Bear case - förhandlingar misslyckas, olja till $150+, stagflationspres tvingar Fed att välja mellan inflationskontroll och tillväxtstöd. Basfall - utdragen pattsituation håller olja $100-120, volatil men uppåtgående marknad."
+      }
+    ],
+    "full_pension": [
+      {
+        "icon": "🏭",
+        "label": "INTELS FRAMGÅNG GYNNAR TEKNOLOGI-TUNGA FONDER",
+        "text": "<cite index='11-8,11-9'>Intel är upp över 80% i år efter att ha blivit Wall Street-favorit med Trump-administrationen som gjorde den amerikanska regeringen till största aktieägare</cite>. <cite index='17-9,17-10'>Aktien är upp över 105% år-till-datum och nådde nya rekordnivåer över $75 i efterhandeln</cite>. <cite index='11-4,11-10'>Aktien har gynnats av stora investeringar från Trump-administrationen samt Nvidia och SoftBank som investerat miljarder</cite>. <cite index='18-5,18-6'>Intels starka rapport lyfter också andra CPU-tillverkare som Arm Holdings och AMD med 6% respektive 4% i efterhandeln, vilket visar att det är en sektoruppgång snarare än företagsspecifik</cite>. För svenska pensionssparare som har exponering mot globala teknikfonder eller amerikanska indexfonder kommer detta att ge positiv påverkan på avkastningen. <cite index='19-8'>Intels fokus på AI-driven CPU-teknologi positionerar dem för framtida tillväxt i emerging tech-sektorer</cite>.",
+        "tip": "💡 Teknologiexponering i pensionssparandet får extra lyft när stora chipföretag levererar starka resultat. Om du har en hög andel teknikfonder eller amerikanska indexfonder som SP500 kommer Intels framgång att bidra positivt. Överväg att se över din portföljs exponering mot halvledarsektorn eftersom denna trend verkar vara strukturell snarare än cyklisk. Dock är det viktigt att inte bli överexponerad mot en enskild sektor.",
+        "funds": "🏦 AP7 Såfa som är defaultfonden för premiepensionen har betydande exponering mot amerikanska teknikaktier genom sitt globala index. AMF:s aktiefonder och SPP:s globalfonder kommer också gynnas av Intels uppsving. Företag som Intel ingår ofta i de största globala indexen som många svenska pensionsfonder följer, vilket innebär att framgången sprider sig brett genom pensionssystemet."
+      },
+      {
+        "icon": "⛽",
+        "label": "HÖGRE ENERGIKOSTNADER ÄTER I PORTFÖLJEN",
+        "text": "<cite index='22-11,22-19'>Bensinpriserna har stigit 21% på en månad - den största månadshöjningen någonsin - och detta skapar mönster som setts i tidigare oljechocker där bensinen går upp, allt annat följer efter, och människor finansierar gapet med kreditkort tills det går sönder</cite>. <cite index='28-14,28-15'>IEA-chefen Fatih Birol varnade att 'Vi står inför det största energisäkerhetshotet i historien' och uppmanat regeringar att stärka sin resiliens med alternativa energikällor</cite>. <cite index='22-15,22-22'>Högre bensinkostnader, stigande bolåneräntor och kreditkortssaldon växer med 24% årsränta på utgifter man inte kan undvika, vilket kan leda till $3000-5000 i ny revolverande skuld</cite>. <cite index='8-14,8-15,8-16'>American Airlines sa att stigande bränslekostnader påverkar deras helårsutsikter och väntar sig nu justerad helårsförlust på 40 cent per aktie till vinst på $1,10 per aktie, betydligt lägre än tidigare prognos på $1,70-2,70 per aktie</cite>. Detta påverkar konsumtion och investeringskapacitet för hushållen långsiktigt.",
+        "tip": "💡 Höga energipriser pressar hushållsekonomin vilket kan påverka möjligheten att pensionsspara och kan tvinga människor att minska sina månatliga pensionsavdrag. Se över din budget och undvik att finansiera ökade levnadskostnader genom att minska pensionssparandet. Istället, se om det finns andra utgifter att skära ner på. Kom ihåg att mindre pensionssparande nu får enorma konsekvenser över tid på grund av ränta-på-ränta-effekten. Om du måste minska något tillfälligt är det bättre att minska andra sparformer än pensionssparandet.",
+        "funds": "🏦 Många svenska pensionsfonder har exponering mot energi- och flygbolag som påverkas negativt av höga oljepriser. AP-fonderna har dock ofta diversifierade portföljer som kan gynnas av energisektorns ökade lönsamhet. AMF och SPP:s fonder kan uppleva blandade effekter där energibolag presterar bra men transportföretag och konsumentfokuserade bolag drabbas av högre kostnader."
+      },
+      {
+        "icon": "📈",
+        "label": "STARKA RESULTAT STÖTTAR FORTSATT UPPGÅNG",
+        "text": "<cite index='7-11,10-20'>81% av de 87 S&P 500-företag som rapporterat har slagit vinst-förväntningar och 76% har överträffat intäktsförväntningar, vilket visar på amerikansk ekonomisk resiliens</cite>. <cite index='5-11,5-12'>En stjärnresultatsäsong har fått investerare att återvända till amerikanska aktier med en utbredd rädsla för att missa möjligheter, med omkring 75% av rapporterande företag som överträffat förväntningar</cite>. <cite index='5-9,5-13'>Globala marknader avancerar eftersom underliggande tillväxtdrivare är kraftfulla och accelererande, med AI och teknik som omformar den globala ekonomin i hög hastighet</cite>. <cite index='9-21,9-22'>Aktiepriser har fallit mindre än väntat eftersom företagsvinster fortfarande växer snabbt, med vinstmarginaler som når nya toppar omkring 15% i början av april för S&P 500</cite>. <cite index='5-14,5-15'>Vinsterna begränsar sig inte bara till AI utan både hyperscalers och AI-serviceanvändare visar i många fall att de massiva investeringarna i teknologi har potential att ge avkastning</cite>.",
+        "tip": "💡 Starka bolagsresultat är positivt för långsiktigt pensionssparande även om geopolitiken skapar kortsiktig volatilitet. Detta är en påminnelse om varför det är viktigt att ha tålamod och inte göra panikartat beslut baserat på nyhetsflödet. Företag fortsätter att växa och bli mer lönsamma trots geopolitiska utmaningar. För pensionssparare är detta bevis på att hålla fast vid sin långsiktiga strategi och fortsätta bidra regelbundet till sina pensionsportföljer.",
+        "funds": "🏦 Svenska pensionsfonder som följer globala index kommer att gynnas av denna breda vinst-uppgång i amerikanska företag. AP7 Såfa, som är tungt viktad mot amerikanska bolag, får direkt nytta av denna utveckling. AMF:s och SPP:s globalfonder kommer också se positiva effekter. De svenska pensionsfondernas fokus på diversifierade, globala exponeringar innebär att denna typ av bred företagsframgång kommer att återspeglas i pensionssparares avkastning."
+      },
+      {
+        "icon": "🎯",
+        "label": "DIVERSIFIERING VIKTIGARE ÄN NÅGONSIN",
+        "text": "<cite index='9-10,9-11'>Traditionella diversifieringsstrategier som 60/40-mixen av aktier och obligationer har utmanats eftersom aktier och obligationer generellt rör sig i samma riktning, medan räntemarknader fortsätter att uppleva volatilitet</cite>. <cite index='9-14'>För dagens investerare är lektionen att hålla diversifiering men vara beredd för potentiellt långsammare, ojämnare vinster under överskådlig framtid</cite>. <cite index='9-8,9-9'>Råvaror och guld har överträffat aktier hittills 2026, historiskt ett kännetecken för björnmarknader, men råvaror är för volatila för att vara en större långsiktig innehav för de flesta investerare</cite>. <cite index='27-20'>Goldman Sachs estimerar Brent-oljepriser omkring $80 per fat vid årsskifte - cirka $20 högre än prognosen utan Hormuz-chocken - vilket indikerar strukturellt högre energikostnader</cite>. <cite index='9-12,9-13'>Avkastningen på 10-års statsobligationer har fortsatt att sväva nära 4,5% - historiskt en tröskel för marknadsstress, och om benchmarkräntor bryter högre kan det sätta ytterligare press på både aktier och obligationsmarknaden</cite>.",
+        "tip": "💡 I volatila tider som nu är det extra viktigt att sprida riskerna i pensionsportföljen. Traditionell 60/40-allokering kanske inte fungerar som innan, så överväg att inkludera andra tillgångsklasser som fastigheter (REITs), internationella marknader och möjligen små inslag av råvaror. Men undvik att göra drastiska förändringar - justera gradvis. Det viktigaste är att inte sätta alla ägg i samma korg och att ha tålamod med din strategi. Volatile perioder är normala och går över.",
+        "funds": "🏦 AP-fonderna har redan diversifierade strategier som inkluderar alternativa tillgångar vilket är bra i denna miljö. AMF och SPP erbjuder olika riskprofiler - överväg att ha en mix av deras fonder snarare än att koncentrera allt i en. Många svenska pensionsfonder har också börjat inkludera fler internationella marknader och tillgångsklasser, vilket är positivt för riskreduktion. Kolla din portföljs allokering och se till att du inte är överkoncentrerad i någon region eller sektor."
+      }
+    ],
+    "futures": {
+      "S&P 500 Futures": {
+        "price": 7139.75,
+        "change": -0.12,
+        "prev": 7148.0
+      },
+      "NASDAQ Futures": {
+        "price": 27033.25,
+        "change": 1.06,
+        "prev": 26748.75
+      },
+      "DAX": {
+        "price": 24155.45,
+        "change": 0.0,
+        "prev": 24154.47
+      },
+      "Olja (WTI)": {
+        "price": 96.49,
+        "change": 7.68,
+        "prev": 89.61
+      },
+      "Guld": {
+        "price": 4681.2,
+        "change": -2.61,
+        "prev": 4806.6
+      },
+      "VIX": {
+        "price": 19.31,
+        "change": 10.47,
+        "prev": 17.48
+      }
+    },
+    "quotes": {
+      "OMX30": {
+        "price": 3131.35,
+        "change": 0.09,
+        "prev": 3128.39
+      },
+      "S&P 500": {
+        "price": 7108.4,
+        "change": 0.95,
+        "prev": 7041.28
+      },
+      "NASDAQ": {
+        "price": 24438.5,
+        "change": 1.39,
+        "prev": 24102.7
+      },
+      "EUR/USD": {
+        "price": 1.17,
+        "change": -0.35,
+        "prev": 1.17
+      },
+      "USD/SEK": {
+        "price": 9.26,
+        "change": 0.74,
+        "prev": 9.19
+      },
+      "EUR/SEK": {
+        "price": 10.82,
+        "change": 0.21,
+        "prev": 10.8
+      },
+      "BTC/USD": {
+        "price": 77719.84,
+        "change": -0.18,
+        "prev": 77856.2
+      }
+    }
+  },
+  {
     "date": "Thursday 23 April 2026",
     "date_short": "23 Apr 2026",
     "generated": "2026-04-23T04:54:24.718104",
