@@ -1,5 +1,250 @@
 [
   {
+    "date": "Monday 27 April 2026",
+    "date_short": "27 Apr 2026",
+    "generated": "2026-04-27T04:54:17.114283",
+    "headline": "Iran stänger Hormuz på nytt - Börsen redo för Mag-7",
+    "sources": [
+      "Yahoo Finance",
+      "CNBC",
+      "CNN Business",
+      "FNArena"
+    ],
+    "beginner": [
+      {
+        "icon": "⚠️",
+        "label": "IRAN STÄNGER OLJELEDET",
+        "text": "Iran har på nytt blockerat Hormuzssundet efter misslyckade fredssamtal med USA. Oljepriset stiger 2,5% till över $95/fat på förnyade farhågor för världens viktigaste oljeleveranser.",
+        "explain": "💡 Hormuzssundet är världens viktigaste oljeledd - 20% av all olja går genom sundet. När det stängs blir olja dyrare för alla länder."
+      },
+      {
+        "icon": "🏢",
+        "label": "BIG TECH-VECKA",
+        "text": "Amerikanska tekjättarna Microsoft, Amazon, Apple, Alphabet och Meta rapporterar denna vecka. Marknaderna väntar på bevis att deras enorma AI-satsningar ger resultat.",
+        "explain": "💡 Dessa fem teknikbolag är så stora att deras resultat påverkar hela börsen - de utgör 25% av hela amerikanska börsvärdet."
+      },
+      {
+        "icon": "📊",
+        "label": "AMERIKANSKA BÖRSEN SPLITTRAD",
+        "text": "S&P 500-terminer stiger 0,5% medan europeiska DAX faller 2,3% på morgonen. Investerare navigerar mellan krigshändelser och rekordstarka resultat från amerikanska företag.",
+        "explain": "💡 När terminer stiger betyder det att börsen väntas öppna upp. Amerikanska företag presterar bättre än europeiska just nu."
+      },
+      {
+        "icon": "💰",
+        "label": "FED MÖTS DENNA VECKA",
+        "text": "Amerikanska centralbanken håller sitt sista möte under Jerome Powell. Marknaden räknar med oförändrade räntor på 3,5-3,75% med inflation som fortsatt bekymmer.",
+        "explain": "💡 Centralbanken bestämmer räntor som påverkar bolån, banklån och börsen. Powell slutar snart som chef och ersätts av Kevin Warsh."
+      }
+    ],
+    "analyst": [
+      {
+        "icon": "📈",
+        "label": "TERMINER VISAR BLANDAD BILD",
+        "text": "<cite index=\"4-1,4-2,4-8,4-9\">S&P 500-terminer +0,46% till 7204 medan Nasdaq +1,67% till 27534. DAX faller dock 2,32% till 24129 som proxy för europisk svaghet</cite>. VIX på 18,71 indikerar kontrollerad risk."
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJA DRIVER GEOPOLITISK PREMI",
+        "text": "<cite index=\"12-1,12-2,12-8,12-9\">WTI +2,5% till $95,28 och Brent till $107,58 efter Irans förnyade Hormuz-blockad</cite>. <cite index=\"3-18,3-24\">$94-nivån skapar volatilitet som undergräver VIX-nedgången och kan trigga 2-3% correction</cite>."
+      },
+      {
+        "icon": "💻",
+        "label": "MAG-7 EARNINGS AVGÖRANDE",
+        "text": "<cite index=\"21-1,21-8,22-1,22-3,22-4\">Microsoft, Amazon, Alphabet, Meta rapporterar onsdag, Apple torsdag. Förväntan på fortsatt AI-momentum med 160+ S&P 500-bolag denna vecka</cite>. <cite index=\"3-13,3-16\">S&P EPS-estimat upp 4% sedan januari, revisionsmomentum stödjer nivåer över 7000</cite>."
+      },
+      {
+        "icon": "⚖️",
+        "label": "FED OCH TEKNISKA NIVÅER",
+        "text": "<cite index=\"3-19,3-20\">Fed håller 3,5-3,75% med noll sänkningar pricade 2026. BofA:s målzon 7168-7206 endast 0,4-1,0% bort - naturligt tak för vinsthemtagning</cite>. <cite index=\"3-21,3-22\">Trend intakt med gröna MA:s men RSI förhöjd</cite>."
+      }
+    ],
+    "pension": [
+      {
+        "icon": "🛡️",
+        "label": "DEFENSIVE BALANS VIKTIG",
+        "text": "Geopolitiska risker kring Iran och höga oljepriset påminner om vikten av balanserade pensionsportföljer. Koncentration i amerikanska teknikaktier innebär större risk vid marknadsoro.",
+        "tip": "💡 Sprid dina pensionspengar mellan olika regioner och tillgångslag för att minska risken vid geopolitiska chocker."
+      },
+      {
+        "icon": "🌱",
+        "label": "LÅNGSIKTIG AI-INVESTERING",
+        "text": "Mag-7-resultaten denna vecka avgör om AI-satsningarna motiverar höga värderingar. För pensionssparare handlar det om långsiktig tillväxtpotential i teknologisektorn.",
+        "tip": "💡 AI-revolutionen tar tid - ha tålamod med teknikinvesteringar men undvik att sätta alla ägg i samma korg."
+      },
+      {
+        "icon": "📉",
+        "label": "EUROPEISK UNDERPRESTATION",
+        "text": "DAX:s fall på 2,3% medan amerikanska terminer stiger visar fortsatt europeisk svaghet. Svenska pensionsfonder påverkas av både amerikansk teknikexponering och europeisk industri.",
+        "tip": "💡 Överväg global diversifiering - svenska pensionsfonder har ofta för hög Europa-vikt relativt världsekonomin."
+      },
+      {
+        "icon": "💸",
+        "label": "INFLATIONSRISK FRÅN OLJA",
+        "text": "Stigande oljepriser hotar inflationsnedgången och kan tvinga centralbanker hålla räntorna högre längre. Detta påverkar både obligations- och aktieavkastning i pensionsportföljer.",
+        "tip": "💡 Ha en mix av reala och nominella tillgångar för att skydda dig mot oväntade inflationstoppar från energipriser."
+      }
+    ],
+    "full_beginner": [
+      {
+        "icon": "⚠️",
+        "label": "IRAN STÄNGER OLJELEDET",
+        "text": "Iran har återigen blockerat Hormuzssundet efter att fredssamtal med USA misslyckats över helgen. <cite index=\"12-8,12-9\">Oljepriset stiger kraftigt - Brent-olja upp 2,14% till $107,58 och amerikansk WTI-olja upp 2,08% till $96,36</cite>. <cite index=\"11-5,11-9\">Hormuzssundet är kritiskt för världsekonomin - 25% av världens sjöburna oljehandel och 20% av naturgas passerar genom sundet</cite>. <cite index=\"12-13\">Irans parlamentsordförande sa att 'vi insåg att om vi sätter foten på halsen på Hormuzssundet så påverkas 25% av världsekonomin'</cite>.",
+        "explain": "💡 Föreställ dig att någon stänger en motorväg där en fjärdedel av alla lastbilar kör - då blir allt dyrare för alla. Det är precis vad som händer när Iran stänger Hormuzssundet för oljetankrar. Bensinpriset i USA har redan stigit 27% sedan kriget började, och det påverkar allt från mat till transporter eftersom olja behövs för att producera och transportera nästan allt vi köper.",
+        "background": "📖 Bakgrund: Iran och USA har varit i konflikt sedan mars 2026, och Iran har använt kontrollen över Hormuzssundet som sin främsta förhandlingsposition. Trump försökte skicka förhandlare till Pakistan över helgen men ställde in - nu har Iran förnyat blockaden och marknaden reagerar omedelbart."
+      },
+      {
+        "icon": "🏢",
+        "label": "BIG TECH-VECKA",
+        "text": "<cite index=\"21-1,21-8\">Denna vecka rapporterar fem av de största teknikbolagen - Amazon, Alphabet, Microsoft och Meta på onsdag, Apple på torsdag</cite>. <cite index=\"24-6,24-7\">Dessa fem bolag utgör en fjärdedel av hela det amerikanska börsvärdet, vilket gör deras resultat extra viktiga för hela marknaden</cite>. <cite index=\"21-5,21-6\">Alphabet planerar spendera $175-185 miljarder på AI i år, och marknaden vill se hur denna enorma investering börjar ge avkastning</cite>. <cite index=\"6-22,6-23,6-24\">Investerare har höga förväntningar - Alphabet, Amazon, Meta och Microsoft har alla stigit över 10% bara i april, medan Apple stigit över 6%</cite>.",
+        "explain": "💡 Tänk på dessa fem bolag som kaptener i fotbollslag - när de spelar bra vinner hela laget (börsen). Men de har satsat enorma summor på AI (som att köpa de dyraste spelarna) så nu måste de visa att det var värt pengarna. Om de misslyckas kan hela tekniksektorn falla, vilket påverkar pensioner och sparande för miljoner människor världen över.",
+        "background": "📖 Bakgrund: AI-revolutionen har lett till historiska investeringar, men nu börjar investerare ifrågasätta om pengarna verkligen ger resultat. Dessa fem bolag har tillsammans spenderat hundratals miljarder dollar på AI-utveckling under 2025-2026, och denna veckas rapporter avgör om satsningen börjar betala sig."
+      },
+      {
+        "icon": "📊",
+        "label": "AMERIKANSKA BÖRSEN SPLITTRAD",
+        "text": "<cite index=\"4-1,4-2\">Amerikanska S&P 500-terminer stiger 0,46% medan europeiska DAX faller 2,32%</cite>, vilket visar en tydlig klyfta mellan regionerna. <cite index=\"6-11,6-12,6-13,6-14\">S&P 500 och Nasdaq stängde på rekordnivåer förra veckan och april formar sig till en stark återhämtnadsmånad - S&P 500 upp över 9%, Nasdaq upp över 15% och Dow upp över 6%</cite>. <cite index=\"3-25,3-21\">Den pullback som analytiker väntade har inte materialiserats än, vilket gör uppsättningen alltmer stretched, men trenden förblir intakt</cite>. <cite index=\"5-14,5-16\">Sentimentet är det mest negativt positionerade sedan början av USA-Iran-konflikten i februari, med India VIX som stiger 3,18% på fredag</cite>.",
+        "explain": "💡 När amerikanska terminer stiger men europeiska faller betyder det att investerare tror mer på amerikanska företag än europeiska. Det är som att satsa på två olika fotbollslag i samma match - pengarna flödar till det lag man tror ska vinna. Amerika har stark teknologisektor och energioberoende, medan Europa är mer beroende av olja från Mellanöstern och har svagare ekonomisk tillväxt.",
+        "background": "📖 Bakgrund: Den amerikanska börsen har varit exceptionellt stark trots geopolitisk oro, delvis tack vare stark tekniksektor och inhemsk energiproduktion. Europa däremot har drabbats hårdare av energikrisen från Iran-konflikten och har strukturellt lägre tillväxt, vilket förklarar den växande klyftan mellan marknaderna."
+      },
+      {
+        "icon": "💰",
+        "label": "FED MÖTS DENNA VECKA",
+        "text": "<cite index=\"6-19,6-20\">Amerikanska centralbanken Federal Reserve håller möte denna vecka där de väntas hålla räntan oförändrad på 3,5-3,75%. Marknaden prissätter 100% sannolikhet för oförändrad ränta och endast 8% chans för höjning under hela 2026</cite>. Detta blir <cite index=\"8-10\">potentiellt Jerome Powells sista möte som Fed-ordförande</cite>. <cite index=\"3-19\">Fed förblir i avvaktande läge med marknader som inte prisar några sänkningar 2026</cite>. <cite index=\"14-1,14-17\">Höga oljepriser riskerar att driva inflation - vid $170/fat skulle inflationspåverkan fördubblas i en stagflationsrisk som kan påverka centralbankers framtida räntebana</cite>.",
+        "explain": "💡 Federal Reserve är som en ekonomisk termostat - de höjer räntor när ekonomin blir för het (inflation) och sänker när den blir för kall (recession). Just nu står de still för att de inte vet åt vilket håll ekonomin kommer att gå. Höga oljepriser kan tvinga dem att höja räntorna för att bekämpa inflation, vilket skulle göra lån dyrare för alla - från bolån till företagslån.",
+        "background": "📖 Bakgrund: Powell har lett Fed genom pandemin, inflationskrisen och nu Iran-konflikten. Hans efterträdare Kevin Warsh väntas ta över snart och kommer att ärva en komplicerad situation där geopolitiska risker hotar att återuppliva inflationen precis när ekonomin hade börjat stabiliseras."
+      }
+    ],
+    "full_analyst": [
+      {
+        "icon": "📈",
+        "label": "TERMINER VISAR BLANDAD BILD",
+        "text": "<cite index=\"4-1,4-2\">Amerikanska terminer uppvisar stark divergens med S&P 500 futures +0,46% till 7204 och Nasdaq futures +1,67% till 27534</cite>, medan <cite index=\"6-6,6-7\">Dow futures bara -0,2%</cite>. <cite index=\"6-15,6-16\">Asiatiska marknader steg trots diplomatiska bakslag - Nikkei +1,4% till rekord, Kospi +1,83% till nya toppar</cite>. <cite index=\"6-18\">Kinas industrivinster accelererade till +15,8% YoY i mars från +15,2% i februari</cite>. VIX på 18,71 (-0,85%) indikerar kontrollerad risknivå under kritiska 20-tröskeln.",
+        "detail": "🔍 Tekniska nivåer att bevaka: <cite index=\"3-20\">BofA:s målzon 7168-7206 för S&P 500 ligger bara 0,4-1,0% över nuvarande nivåer - naturligt tak för vinsthemtagning</cite>. <cite index=\"3-22,3-23\">RSI förhöjd men ej extremt överköpt, breadth förbättras och alla MA:s förblir gröna med Mars 200-DMA-analys som fortsätter spela ut enligt lärobok</cite>. Nasdaq/S&P-spreaden expanderar vilket indikerar sektorrotation mot teknik.",
+        "outlook": "🎯 <cite index=\"3-17,3-15\">Marknaden behöver antingen substantiell utveckling i USA-Iran-förhandlingar som trovärdigt återöppnar Hormuz, eller fortsatt vinstrevisionsmomentu</cite>m. <cite index=\"3-24,3-25\">Torsdagens reversal på Tehran-rubrikerna var en varning - marknaden förblir ett oljerubrik bort från 2-3% luftficka. Den pullback vi flaggade förra veckan har inte materialiserats, vilket gör uppsättningen alltmer stretched</cite>."
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJA DRIVER GEOPOLITISK PREMI",
+        "text": "<cite index=\"12-1,12-2\">WTI crude +2,08% till $96,36 och Brent +2,14% till $107,58</cite> efter <cite index=\"19-6,19-7\">Trumps inställning av fredsförhandlingar och IRGC:s boarding av två lastfartyg nära Hormuz</cite>. <cite index=\"13-26,13-27\">Hormuz ser normalt 20%+ av världsoljevolymen dagligen men har i praktiken varit stängt sedan mars med bara tre fartyg som korsat på måndag</cite>. <cite index=\"3-18\">Oljans $94-prispunkt representerar den volatilitet som piskar systematiska strategier och undergräver VIX:s nedgång</cite>. <cite index=\"16-2,16-3\">Brent har surgemerat 55%+ sedan Iran-kriget började och märkte 51% i mars - en av de största månadsrörelserna någonsin</cite>.",
+        "detail": "🔍 <cite index=\"17-1,17-13\">Analytiker förutspår att priserna kan nå $100/fat om störningar kvarstår, vilket skulle lägga 0,8% till global inflation</cite>. <cite index=\"14-2,14-16,14-17\">Wall Street-analytiker börjar överväga $200/fat-scenarion. Vid $170/fat fördubblas inflationspåverkan - en stagflationsrisk som kan förändra allt från centralbankers framtida bana till USA:s midterm-val</cite>. <cite index=\"16-16,16-17\">Commodity Context-grundaren Johnston menar att återöppning av Hormuz skulle trigga omedelbar $10-20 nedgång i crude på spekulativ positionering, men relief skulle vara temporär med leveranskedjeflaskhalsar och infrastrukturskador som håller marknaden tight i $80-90 Brent-range</cite>.",
+        "outlook": "🎯 <cite index=\"16-13,16-15\">Vance och amerikanska förhandlare inklusive Witkoff och Kushner åker till Islamabad tisdag för andra omgången samtal. Hormuz förblir funktionellt stängt medan Irans militär säger att de kommer att vedergälla efter USA:s beslagtagning av iransk-flaggat lastfartyg</cite>. <cite index=\"16-18\">Johnston kallar det 'den största oljeleveransstörningen i oljemarknadens historia' - utan hållbar återställning av flöden kan priserna behöva stiga ytterligare för att dämpa efterfrågan</cite>."
+      },
+      {
+        "icon": "💻",
+        "label": "MAG-7 EARNINGS AVGÖRANDE",
+        "text": "<cite index=\"21-1,21-8,22-3,22-4\">Mag-7-fokus med Amazon, Alphabet, Microsoft och Meta som rapporterar onsdag 29 april, Apple torsdag. Total 160+ S&P 500-bolag rapporterar denna vecka</cite>. <cite index=\"22-6,22-7\">Rapportperioden har varit stark hittills med 82% av ~140 rapporterade S&P 500-medlemmar som toppat förväntningar enligt FactSet</cite>. <cite index=\"21-12,21-14\">Alphabet förväntas tjäna $2,64/aktie på $92,2 miljarder intäkter (+20,6% YoY revenue, -6,1% EPS) - aktiens imponerande momentum indikerar att marknadsaktörer letar efter fortsättning av stark operativ prestanda särskilt inom moln, sök och marginaler</cite>. <cite index=\"3-12,3-13,3-14\">Viktigast av allt - revisionscykeln vänder gynnsamt precis när det mest behövs. S&P500 EPS-estimat för 2026 har stigit 4% sedan slutet av januari enligt Goldman Sachs. Sektorerna som njuter mest av uppåtrevisionstryck inkluderar Energi, Teknik, Basmaterial och Utilities</cite>.",
+        "detail": "🔍 <cite index=\"25-4,25-5\">Apple förväntas $2,65/aktie EPS på $137,5 miljarder revenue (+10,4%/+10,6% YoY). Revisionstrend har varit positiv med estimat som stadigt rört sig upp</cite>. <cite index=\"25-6,25-7\">Microsoft: $3,88/aktie EPS på $80,2 miljarder revenue (+20,1%/+15,2% YoY). Revisionstrend positiv för både Q4 och FY2026</cite>. <cite index=\"24-16\">Citadel Securities' Rubner laid ut fem call spread-strategier: MSFT 455/490, AMZN 270/290, GOOGL 355/375, META 725/765, AAPL 280/295 - 'kombinationen av lättare positionering, stödjande värderingar och högt koncentrerad rapportkalender lämnar utrymme för ytterligare uppsida'</cite>.",
+        "outlook": "🎯 <cite index=\"3-15,3-16\">Det positiva revisionsmomentum ger en fundamental motvikt till geopolitisk risk. Det är en av de mest underapprecierade dynamikerna som håller institutionella köpare engagerade över 7000</cite>. <cite index=\"21-18,21-19,21-20\">Den stadigt förbättrande vinstrenden har drivits mestadels av tekniksektorn det senaste året, men positiva revisionstrender har expanderat bortom sin tekniksektorkärna de senaste kvartalen</cite>. <cite index=\"21-22,21-23\">Nuvarande förväntan är +19,9% vinsttillväxt i Q2 2026 på +9,5% högre intäkter</cite>."
+      },
+      {
+        "icon": "⚖️",
+        "label": "FED OCH TEKNISKA NIVÅER",
+        "text": "<cite index=\"6-19,6-20\">Fed möts denna vecka med traders som prisar 100% sannolikhet för oförändrade räntor och fed funds futures som indikerar policy förblir på hold resten av året. Oddsen för räntehöjning vid slutet av 2026 står på 8%</cite>. <cite index=\"3-19\">Fed förblir på hold på 3,5-3,75% med marknader som prisar noll sänkningar 2026</cite>. <cite index=\"3-20\">Vid BofA:s målzon 7168-7206, nu bara 0,4-1,0% overhead, närmar sig indexet ett naturligt tak där vinsthemtagning är sannolik</cite>. <cite index=\"3-21,3-22\">Marknaden fortsätter klättra en wall of worry och tekniska aspekter säger respektera trenden. RSI förhöjd men ej grovt överköpt, breadth förbättras och alla MA:s förblir gröna</cite>.",
+        "detail": "🔍 Kritiska tekniska zoner: <cite index=\"5-3,5-4,5-5\">Indien Nifty har brutit under 50-dagars MA och närmar sig 23800-nivån som fungerade som starkt stöd i mars 2026. RSI på daglig chart har kommit in i översålt territorium under 35. Avgörande rörelse under 23800 skulle öppna vägen mot 23500 och potentiellt 23200 200-dagars DMA-zonen</cite>. <cite index=\"5-19,5-20,5-22\">Rupiens svaghet till 94,25/$ förstärker FII outflow-dynamik - ytterligare rupirörelse under 94,50 skulle vara negativ signal för FII-aktivitet</cite>.",
+        "outlook": "🎯 <cite index=\"8-10\">Detta kan vara Jerome Powells sista Fed-möte</cite> innan Kevin Warsh tar över. <cite index=\"14-1,14-17\">Vid $170/fat olja fördubblas inflationspåverkan - en stagflationsrisk som kan förändra allt från centralbankers framtida bana till utfallet av USA:s midterm-val</cite>. <cite index=\"3-24\">Torsdagens reversal på Tehran-rubrikerna var en varning - denna marknad förblir ett oljerubrik bort från en 2-3% luftficka</cite>. <cite index=\"20-19,20-20\">Konflikten har ekat 1970-talets energikris genom akuta leveransbrister, valutavolatilitet, inflation och höjda stagflations- och lågkonjunkturrisker. Räntesänkningar förväntades skjutas upp eller motsatt höjas i ljuset av högre inflation</cite>."
+      }
+    ],
+    "full_pension": [
+      {
+        "icon": "🛡️",
+        "label": "DEFENSIVE BALANS VIKTIG",
+        "text": "<cite index=\"12-8,12-13\">Irans förnyade Hormuz-blockad och uttalandet att '25% av världsekonomin påverkas' påminner pensionssparare om geopolitiska riskers snabba påverkan på portföljer</cite>. <cite index=\"6-4,26-4,26-5\">Den 'galna kopplingen mellan krigsrubrikerna och vad som händer på marknaden' visar behovet av balanserade portföljer som inte är överexponerade mot riskfyllda tillgångar</cite>. <cite index=\"5-16,5-17\">När VIX når 21-22-området som den gjorde i fredags signalerar det att optionshandlare betalar betydligt förhöjda premier för att hedga mot ytterligare nedside - direkt mått på institutionell rädsla</cite>. Svenska pensionssparare behöver förstå att deras portföljer sannolikt är överexponerade mot både amerikansk teknik och europeisk industri, två sektorer som reagerar olika på geopolitiska chocker.",
+        "tip": "💡 Pensionssparare bör ha minst 20-30% i defensiva tillgångar som statsobligationer, guld eller konsumentvaror som är mindre känsliga för geopolitiska chocker. Undvik att ha mer än 40-50% i teknikaktier oavsett hur väl de presterat - diversifiering är nyckeln till långsiktig framgång. Överväg också tillväxtmarknader och råvaror som kan gynnas av högre energipriser.",
+        "funds": "🏦 AP7, AMF och SPP har alla betydande exponering mot amerikanska teknikaktier genom globala indexfonder. När DAX faller 2,3% medan amerikanska terminer stiger visar det vikten av geografisk spridning. Dessa fonder kommer att påverkas positivt av Mag-7-resultaten men negativt av fortsatt europeisk svaghet och höga oljepriser som påverkar transportkostnader och industriella input."
+      },
+      {
+        "icon": "🌱",
+        "label": "LÅNGSIKTIG AI-INVESTERING",
+        "text": "<cite index=\"21-5,21-6\">Alphabets planerade $175-185 miljarder AI-utgifter i år och marknadens fokus på hur denna investering monetariseras illustrerar AI-revolutionens enorma kapitalintensitet</cite>. <cite index=\"24-6,24-7,6-22\">De fem Mag-7-bolagen utgör 25% av hela S&P 500:s marknadsvärde och har alla rallyt 10%+ i april inför rapporterna</cite>, vilket skapar höga förväntningar. <cite index=\"27-8,27-9\">Dessa bolag ses som leverantörer av stark AI-driven tillväxtpotential och resilient fundamenta, men stigande kapitalutgifter, AI-exekveringsrisk, margintryck och höga värderingar utgör utmaningar</cite>. För pensionssparare representerar detta en långsiktig strukturell förändring där AI gradvis omformar hela ekonomin.",
+        "tip": "💡 Var tålmodig med AI-investeringar - revolutionen tar 5-10 år att fullt ut materialiseras, precis som internet på 1990-talet. Undvik att jaga kortsiktiga AI-trender och fokusera istället på företag med starka balanser som kan överleva investeringscykeln. Sätt inte alla pensionspengar i AI - ha också exponering mot traditionella sektorer som kommer att dra nytta av AI utan att själva utveckla teknologin.",
+        "funds": "🏦 Svenska pensionsfonder som AMF och SPP får betydande AI-exponering genom sina amerikanska innehav. AP7:s Såfa har cirka 20% i amerikanska teknikbolag inklusive flera Mag-7-medlemmar. Denna veckas resultat kommer att avgöra om fondernas teknikoviktning fortsatt är berättigad eller om de behöver reducera exponeringen. Pensionssparare bör förvänta sig volatilitet i sina månadsutdrag när dessa stora innehav fluktuerar på AI-nyheter."
+      },
+      {
+        "icon": "📉",
+        "label": "EUROPEISK UNDERPRESTATION",
+        "text": "<cite index=\"6-15,6-17\">Divergensen mellan stigande asiatiska marknader (Nikkei +1,4%, Kospi +1,83%) och fallande DAX (-2,32%) illustrerar Europas strukturella utmaningar</cite>. <cite index=\"20-28,20-29,20-30\">Europa upplever sin andra stora energikris med suspension av qatarisk LNG och Hormuz-stängningen som sammanfaller med historiskt låga gaslagringsvolymer på bara 30% efter en hård vinter 2025-2026, vilket tvingat ECB att skjuta upp planerade räntesänkningar</cite>. Svenska pensionsfonder har typiskt 40-50% Europa-exponering genom både svenska aktier och europeiska indexfonder, vilket skapar strukturell underavkastning när regionen släpar efter.",
+        "tip": "💡 Minska Europa-övervikten i din pensionsportfölj. Medan svenska aktier kan vara bra för valutahedging, behövs inte 40-50% Europa-exponering när regionen bara utgör ~20% av världsekonomin. Öka istället allokering till Asien och Amerika som har starkare tillväxtutsikter och mindre energiberoende från instabila regioner.",
+        "funds": "🏦 AP-fonderna och svenska pensionsbolag har historiskt hög Europa-bias med cirka 45-55% av aktieallokeringen i Europa (inklusive Sverige). Detta ser allt mer suboptimalt ut när amerikansk teknologi driver global tillväxt och asiatiska marknader växer snabbare. Många fonder behöver rebalansera mot en mer globalt representativ allokering med högre USA/Asien-vikter och lägre Europa-exponering för att förbättra långsiktig avkastning."
+      },
+      {
+        "icon": "💸",
+        "label": "INFLATIONSRISK FRÅN OLJA",
+        "text": "<cite index=\"17-13,17-1\">Analytiker varnar att oljepriserna kan nå $100/fat om Hormuz-störningar kvarstår, vilket skulle lägga 0,8% till global inflation</cite>. <cite index=\"14-1,14-17\">Vid $170/fat skulle inflationspåverkan fördubblas - en stagflationsrisk som kan förändra centralbankers framtida räntebana och till och med påverka politiska val</cite>. <cite index=\"17-25,17-26,17-27\">Amerikanska bensinpriser har redan stigit $1,16/gallon sedan kriget började med förväntningar om $5/gallon om Hormuz inte återöppnas till mitten av april. Jetbränsle har spikat 95% vilket påverkar flygpriser och leveranskedjor</cite>. För pensionssparare innebär detta att både obligations- och aktieavkastning kan påverkas när centralbanker tvingas prioritera inflationsbekämpning över ekonomisk tillväxt.",
+        "tip": "💡 Skydda din pensionsportfölj mot inflationsrisk genom att ha 10-15% i reala tillgångar som guld, råvaror eller inflationsskyddade obligationer (TIPS). Undvik alltför lång duration i obligationsdelen - när centralbankerna kan tvingas höja räntor faller långa obligationer mest. Överväg också REITs och infrastrukturaktier som historiskt klarat inflationsperioder relativt väl.",
+        "funds": "🏦 Svenska pensionsfonder med hög obligationsandel (som AMF Traditionell och SPP) kan drabbas hårt av stigande räntor om inflationen accelererar. AP7:s Räntefond består huvudsakligen av statsobligationer som faller när räntorna stiger. Pensionssparare i dessa fonder bör överväga att temporärt minska obligationsandelen till förmån för aktier och reala tillgångar tills energikrisen löses och inflationstrenden klarnar."
+      }
+    ],
+    "futures": {
+      "S&P 500 Futures": {
+        "price": 7204.0,
+        "change": 0.46,
+        "prev": 7171.25
+      },
+      "NASDAQ Futures": {
+        "price": 27534.25,
+        "change": 1.67,
+        "prev": 27083.0
+      },
+      "DAX": {
+        "price": 24128.98,
+        "change": -2.32,
+        "prev": 24702.24
+      },
+      "Olja (WTI)": {
+        "price": 95.28,
+        "change": 2.5,
+        "prev": 92.96
+      },
+      "Guld": {
+        "price": 4742.9,
+        "change": 0.22,
+        "prev": 4732.5
+      },
+      "VIX": {
+        "price": 18.71,
+        "change": -0.85,
+        "prev": 18.87
+      }
+    },
+    "quotes": {
+      "OMX30": {
+        "price": 3101.08,
+        "change": -0.97,
+        "prev": 3131.35
+      },
+      "S&P 500": {
+        "price": 7165.08,
+        "change": 0.55,
+        "prev": 7126.06
+      },
+      "NASDAQ": {
+        "price": 24836.6,
+        "change": 1.5,
+        "prev": 24468.48
+      },
+      "EUR/USD": {
+        "price": 1.17,
+        "change": -0.71,
+        "prev": 1.18
+      },
+      "USD/SEK": {
+        "price": 9.21,
+        "change": 0.99,
+        "prev": 9.12
+      },
+      "EUR/SEK": {
+        "price": 10.81,
+        "change": 0.59,
+        "prev": 10.75
+      },
+      "BTC/USD": {
+        "price": 78972.22,
+        "change": 1.59,
+        "prev": 77733.21
+      }
+    }
+  },
+  {
     "date": "Friday 24 April 2026",
     "date_short": "24 Apr 2026",
     "generated": "2026-04-24T04:54:23.182421",
