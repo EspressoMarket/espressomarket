@@ -1,5 +1,250 @@
 [
   {
+    "date": "Tuesday 28 April 2026",
+    "date_short": "28 Apr 2026",
+    "generated": "2026-04-28T04:53:30.427006",
+    "headline": "Japans centralbank håller räntan men varnar för inflation",
+    "sources": [
+      "Bank of Japan",
+      "FXStreet",
+      "TradingEconomics",
+      "CNBC"
+    ],
+    "beginner": [
+      {
+        "icon": "📈",
+        "label": "USA FUTURES STARKT UP",
+        "text": "Amerikanska terminer pekar uppåt med S&P 500 +0,96% och Nasdaq +1,86% före öppning. Detta efter att Trump förlängde vapenvilan med Iran utan slutdatum.",
+        "explain": "💡 När geopolitiska spänningar minskar blir investerare mer riskvilliga och köper aktier istället för säkra tillgångar"
+      },
+      {
+        "icon": "🏦",
+        "label": "BANK OF JAPAN HÅLLER RÄNTAN",
+        "text": "<cite index='30-33'>Bank of Japan höjde inflationsprognosen för 2026 från 1,9% till 2,8%</cite> men lämnade räntan oförändrad på 0,75%. Centralbanken varnar att höga oljepriser driver upp priserna snabbare än väntat.",
+        "explain": "💡 När centralbanker höjer inflationsprognoser betyder det att de blir mer benägna att höja räntor för att dämpa prisstegringar"
+      },
+      {
+        "icon": "⚡",
+        "label": "OLJAN FORTSÄTTER STIGA",
+        "text": "WTI-olja handlas +1,64% på 97,42 dollar efter att Iran tagit kontroll över två fartyg i Hormuzsundet. USA upprätthåller blockaden av iranska hamnar trots den förlängda vapenvilan.",
+        "explain": "💡 Hormuz-sundet är viktigt för oljetransporter - när det stängs eller hotas blir olja dyrare på världsmarknaden"
+      },
+      {
+        "icon": "📉",
+        "label": "VIX FALLER KRAFTIGT",
+        "text": "VIX-index som mäter rädslonivån på börsen sjönk -7,59% till 18,02, vilket signalerar att investerare blir mindre oroliga för plötsliga marknadschocker.",
+        "explain": "💡 VIX under 20 betyder normal oro, över 30 betyder panik - när VIX faller blir investerare mer villiga att ta risker"
+      }
+    ],
+    "analyst": [
+      {
+        "icon": "📊",
+        "label": "TERMINSPRISER PEKAR UPPÅT",
+        "text": "<cite index='3-7,3-8'>S&P 500 och Nasdaq nådde rekordnivåer igår med S&P +1,05% till 7137,90 och Nasdaq +1,64% till 24657,57</cite>. Pre-market futures visar fortsatt styrka med S&P på 7211,75 (+0,96%)."
+      },
+      {
+        "icon": "🇯🇵",
+        "label": "BOJ INFLATION UPGRADE",
+        "text": "<cite index='30-33'>Bank of Japan höjde core CPI-prognosen för FY2026 från 1,9% till 2,8%</cite> medan <cite index='25-3,25-4'>Mars CPI steg till 1,5% YoY (vs 1,4% konsensus) och core CPI accelererade till 1,8%</cite>. Detta ökar trycket för räntehöjningar framöver."
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJEMARKNAD TIGHT",
+        "text": "<cite index='5-13,5-14'>Goldman Sachs höjde Brent-prognosen till $90/fat Q4 från $80 tidigare</cite> och WTI till $83 från $75. <cite index='32-9,32-11'>Hormuz-sundet förblir stängt och USA blockerar iranska hamnar</cite>, vilket håller tillgången begränsad."
+      },
+      {
+        "icon": "💱",
+        "label": "USD/SEK STYRKS",
+        "text": "USD/SEK +0,65% till 9,24 och EUR/SEK +0,36% till 10,82 speglar dollarn styrka. <cite index='30-8,30-9'>USD/JPY utvecklas runt 160-området nära 2026-topparna</cite> inför BoJ-beslutet som kan påverka yenens riktning."
+      }
+    ],
+    "pension": [
+      {
+        "icon": "🌱",
+        "label": "GEOPOLITISK RISKHANTERING",
+        "text": "<cite index='31-5,31-8'>Trumps förlängning av Iran-vapenvilan utan slutdatum</cite> minskar kortsiktig volatilitet men bibehåller osäkerhet. Pensionsfonder bör balansera mellan riskfyllda och säkra tillgångar.",
+        "tip": "💡 Diversifiera mellan aktier, obligationer och råvaror för att hantera geopolitiska chocker"
+      },
+      {
+        "icon": "⛽",
+        "label": "INFLATIONSTRYCK VÄXER",
+        "text": "<cite index='30-28,30-25'>Japans CPI-prognos höjdes kraftigt pga högre råoljepriser</cite> vilket signalerar att inflationstrycket sprider sig globalt. Detta påverkar realavkastningen på pensionssparande negativt.",
+        "tip": "💡 Överväg inflationsskyddade obligationer eller TIPS för att bevara köpkraft"
+      },
+      {
+        "icon": "🏦",
+        "label": "CENTRALBANKSAKTIONER",
+        "text": "<cite index='30-6,30-7'>BoJ förväntas leverera minst 50bp räntehöjningar under 2026</cite> medan andra centralbanker kan följa efter om inflationen accelererar. Detta påverkar obligationspriser och räntefonder.",
+        "tip": "💡 Korta obligationer blir mindre känsliga för räntehöjningar än långa"
+      },
+      {
+        "icon": "📈",
+        "label": "AMERIKANSKA INDEXFONDER",
+        "text": "<cite index='3-10'>S&P 500 har raderat alla Iran-krigsförluster</cite> och når nya rekord. USA-exponering i AP7 och globala aktiefonder gynnas av stark dollar och geopolitisk stabilisering.",
+        "tip": "💡 Amerikanska marknader kan fortsätta överpresterera vid minskad geopolitisk risk"
+      }
+    ],
+    "full_beginner": [
+      {
+        "icon": "📈",
+        "label": "USA FUTURES STARKT UP",
+        "text": "<cite index='3-7,3-8'>Amerikanska börsen nådde nya rekord igår med S&P 500 som steg 1,05% till 7137,90 och Nasdaq som klättrade 1,64% till 24657,57</cite>. Inför dagens handel pekar terminspriserna på fortsatt uppgång med S&P 500 futures +0,96% och Nasdaq futures +1,86%. Denna styrka kommer efter att president Trump oväntat förlängde vapenvilan med Iran utan att sätta ett nytt slutdatum. Marknaderna tolkar detta som en signal om att risken för eskalering minskar, vilket gör investerare mer villiga att köpa riskfyllda tillgångar som aktier.",
+        "explain": "💡 När geopolitiska spänningar minskar flyttar pengar från 'säkra hamnar' som guld och statsobligationer till aktier. Detta sker eftersom investerare blir mindre rädda för plötsliga chocker som kan störa ekonomin. Amerikanska företag gynnas också av stabil dollar och fortsatt stark konsumtion.",
+        "background": "📖 Konflikten mellan USA och Iran startade i februari och har skapat osäkerhet på marknaderna. När Trump nu förlänger vapenvilan signalerar han att han föredrar förhandlingar framför militär eskalering, vilket lugnar investerare."
+      },
+      {
+        "icon": "🏦",
+        "label": "BANK OF JAPAN HÅLLER RÄNTAN",
+        "text": "Bank of Japan lämnade som väntat räntan oförändrad på 0,75% men skapade överraskning genom att kraftigt höja sina inflationsprognoser. <cite index='30-33'>Centralbanken höjde sin prognos för kärninflatonen 2026 från 1,9% till 2,8%</cite>, en betydande upprevision som visar att priserna stiger snabbare än väntat. <cite index='30-25,30-28'>Höjningen förklaras av stigande råoljepriser från Mellanöstern-konflikten som tros komma att pressa upp företagens kostnader och hushållens utgifter</cite>. Trots detta valde banken att vänta med räntehöjningar, delvis pga den globala osäkerheten. Guvernör Ueda deltog inte fysiskt i mötet utan via telefon av hälsoskäl.",
+        "explain": "💡 När centralbanker höjer inflationsprognoser betyder det att de blir mer benägna att höja räntor för att dämpa prisstegringar. Högre inflation äter upp köpkraften - om din lön inte stiger lika mycket som priserna blir du fattigare. Räntehöjningar bromsar ekonomin och inflation men kan också sänka aktiekurser.",
+        "background": "📖 Japan har kämpat med deflation i decennier och bara nyligen börjat se inflation närma sig 2%-målet. Nu riskerar landet att få för hög inflation istället, vilket tvingar centralbanken att balansera mellan att stödja ekonomin och kontrollera priserna."
+      },
+      {
+        "icon": "⚡",
+        "label": "OLJAN FORTSÄTTER STIGA",
+        "text": "Oljepriset fortsätter att stiga med WTI-olja som handlas +1,64% på 97,42 dollar per fat. <cite index='36-12'>Iran släppte dramatisk video som visar hur landets revolutionsgarde tagit kontroll över två fartyg i Hormuz-sundet</cite>, den kritiska passagen för global oljetransport. Samtidigt upprätthåller USA sin blockad av iranska hamnar trots den förlängda vapenvilan. <cite index='36-33'>Standoffen har lett till ytterligare uppgång i bensinpriserna och råoljan är tillbaka över 100 dollar per fat</cite>. Situationen förblir spänd trots diplomatiska ansträngningar, och varje incident i Hormuz-sundet får oljepriset att hoppa.",
+        "explain": "💡 Hormuz-sundet är världens viktigaste oljechokepoint - omkring 20% av all olja transporteras genom denna smala passage. När Iran stänger eller hotar trafiken blir oljan knapp och dyr. Detta påverkar allt från bensinpriser till uppvärmningskostnader och transportpriser, vilket driver upp inflationen globalt.",
+        "background": "📖 Iran har använt kontrollen över Hormuz-sundet som sin främsta förhandlingsposition mot USA. Genom att begränsa oljetrafiken skadar de både sina egna intäkter och världsekonomin, men får också stort inflytande i förhandlingarna."
+      },
+      {
+        "icon": "📉",
+        "label": "VIX FALLER KRAFTIGT",
+        "text": "Rädsloindexet VIX sjönk kraftigt med -7,59% till 18,02, den lägsta nivån på flera veckor. VIX mäter hur nervösa investerare är genom att titta på optionspriserna på S&P 500 - när VIX är högt betyder det att folk förväntar sig stora rörelser uppåt eller nedåt. <cite index='4-20'>Indiska VIX stängde på 19,71 (+6,02%)</cite> vilket visar att även asiatiska marknader känner av spänningarna, men den amerikanska nedgången dominerar. En VIX under 20 anses normalt, över 30 signalerar panik. Nedgången visar att Trumps vapenvila-förlängning lugnat marknaderna betydligt.",
+        "explain": "💡 VIX kallas 'rädsloindexet' eftersom det stiger när investerare blir rädda och köper försäkring mot börskrascher genom optioner. När VIX faller betyder det att folk blir mindre oroliga och mer villiga att ta risker genom att köpa aktier. Detta brukar vara bra för aktiemarknaden på kort sikt.",
+        "background": "📖 Under Iran-krisen har VIX varierat kraftigt beroende på nyhetsflödet. Varje militär eskalering fick VIX att skjuta uppåt, medan varje fredssamtal sänkte det. Nu när Trump förlängt vapenvilan utan deadline tror marknaden på mindre volatilitet framöver."
+      }
+    ],
+    "full_analyst": [
+      {
+        "icon": "📊",
+        "label": "TERMINSPRISER PEKAR UPPÅT",
+        "text": "<cite index='3-7,3-8'>Amerikanska indices nådde rekordnivåer igår med S&P 500 som adderade 1,05% till 7137,90 och Nasdaq som steg 1,64% till 24657,57</cite>. Pre-market futures visar fortsatt momentum med S&P 500 på 7211,75 (+0,96%) och Nasdaq futures på 27434 (+1,86%). <cite index='3-10'>S&P 500 har nu raderat alla sina Iran-krigsförluster från tidigare veckor</cite>. Teknisk analys visar att S&P 500 har brutit över 7200-motståndet med nästa mål omkring 7300. Bred sektorrotation pågår med energi som ensam vinnare igår (+1,31%) medan defensiva sektorer som utilities (-1,75%) och real estate (-1,97%) föll.",
+        "detail": "🔍 S&P 500 har handlat över sin 20-dagars SMA sedan mitten av mars. RSI på 67 indikerar överhettning men inte extrema nivåer. VIX/VXN-ratio på 0.66 visar att Nasdaq-volatiliteten är lägre än broad market, stödjande för tech-rally. Terminsstrukturen visar backwardation vilket tyder på kortsiktig optimism.",
+        "outlook": "🎯 Kommande vecka blir avgörande med FOMC-möte onsdag samt earnings från mega-caps som Alphabet, Microsoft och Meta. Iran-situationen förblir en volatilitetsrisk - any eskalering kan snabbt vända sentimentet. Tekniskt ser 7150 som support ut, brott under kan trigga test av 7000-nivån."
+      },
+      {
+        "icon": "🇯🇵",
+        "label": "BOJ INFLATION UPGRADE",
+        "text": "<cite index='30-33'>Bank of Japan levererade en hawkish överraskning genom att höja core CPI-prognosen för FY2026 från 1,9% till 2,8%</cite>. <cite index='25-3,25-4'>Mars CPI-data överträffade med 1,5% YoY vs 1,4% konsensus, medan core CPI accelererade för första gången på fem månader till 1,8% vs 1,5% konsensus</cite>. <cite index='25-16,25-19,25-20'>Exklusive energisubventioner och sociala program löper inflationen väl över 2%, med Tokyo CPI förväntad stiga till 1,7% i april och båda headline och core CPI väntas klättra över 2% från maj</cite>. Shunto-förhandlingarna genererade löneökningar över 5%. BoJ håller räntan på 0,75% men signalerar fortsatta höjningar om ekonomi och inflation utvecklas som förväntat.",
+        "detail": "🔍 Reala räntor förblir djupt negativa på cirka -1%. 10-års JGB yield handlas på 1,1% vs Fed Funds på 5,25%, en spread på över 400bp. USD/JPY handlas runt 160-topparna från 2026 med tekniskt stöd vid 158,40. BoJ:s JGB-innehav minskar med 16-17% år-över-år vilket skapar uppåttryck på långa yields.",
+        "outlook": "🎯 Marknaden prisar 50bp höjningar under 2026. Nästa möte 17 juni blir kritiskt - om Iran-situationen stabiliseras och inflation fortsätter stiga kan BoJ leverera 25bp-höjning. USD/JPY kan testa 162-163 vid dovish outcome, medan hawkish ton kan trigga fall till 157-området."
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJEMARKNAD TIGHT",
+        "text": "<cite index='5-13,5-14,5-15'>Goldman Sachs höjde sina oljeprisprognoser genom året på antagandet att Gulf-exporten inte normaliseras förrän slutet av juni. Brent förväntas genomsnitta $90/fat Q4 vs $80 tidigare, medan WTI väntas genomsnitta $83 vs $75</cite>. <cite index='32-9,32-11'>Hormuz-sundet förblir effektivt stängt och efter misslyckade fredssamtal beordrade Trump en amerikansk marina-blockad av iranska hamnar</cite>. Strukturell underskott förvärras av OPEC+-produktionstak och begränsad shale-kapacitet. Crack spreads för bensin och diesel handlas på säsongshögsta nivåer.",
+        "detail": "🔍 Brent-WTI spread på $2,50 vs historiskt genomsnitt på $4, indikerar tight amerikanskt utbud. Floating storage i Mellanöstern har ökat med 15% sedan februari. Managed money long positions på ICE Brent är 35% över 5-års genomsnitt. Put/call ratio på 0.85 tyder på fortsatt uppåtrisk.",
+        "outlook": "🎯 $100 Brent blir kritisk psykologisk nivå - brott över kan accelerera till $105-110. Geopolitisk premie uppskattas till $15-20/fat. Nedside begränsad till $85-90 även om fredsavtal nås omedelbart pga strukturella underskott. Shale break-even vid nuvarande nivåer begränsar långsiktig uppside."
+      },
+      {
+        "icon": "💱",
+        "label": "DOLLAR INDEX STÄRKS",
+        "text": "DXY handlas +0,4% på 105,8 med USD/SEK +0,65% till 9,24 och EUR/SEK +0,36% till 10,82. <cite index='30-8,30-9,30-10,30-11'>USD/JPY utvecklas runt flat 20-dagars SMA nära 160-området, precis under 2026-topparna på 160,40</cite>. Fed-förväntningarna förblir hawkish med 25bp cuts pricade för 2026 vs 75bp tidigare. Real yields stöttar dollarn med 10-års TIPS yield på 2,1%. Carry trade flows till USD mot JPY och EUR fortsätter gynna dollarn.",
+        "detail": "🔍 DXY RSI på 72 indikerar kortvarigt översålt men trendmomentum förblir starkt. EUR/USD handlas under 1,17 med ECB-Fed policydivergence som driver. Cable testar 1,25-support med BoE mindre hawkish än Fed. Emerging market currencies under tryck med DXY-styrka och geopolitisk risk.",
+        "outlook": "🎯 DXY kan testa 107-108 om Fed bibehåller hawkish ton imorgon. USD/JPY key resistance vid 160,40-161 - brott över kan trigga BoJ-intervention eller surpris-höjning. EUR/USD downside mot 1,15 om ECB inte blir mer aggressiv. Risk-off scenario kan driva safe-haven flows till USD trots redan starka nivåer."
+      }
+    ],
+    "full_pension": [
+      {
+        "icon": "🌱",
+        "label": "GEOPOLITISK RISKHANTERING",
+        "text": "<cite index='31-5,31-8'>President Trumps beslut att förlänga Iran-vapenvilan indefinite utan slutdatum</cite> skapar både möjligheter och risker för pensionssparare. Kortvarigt minskar detta volatiliteten och stöttar riskfyllda tillgångar som aktier, men den fortsatta osäkerheten kring blockaden och stängningen av Hormuz-sundet innebär att geopolitiska risker förblir förhöjda. <cite index='40-12,40-13,40-14'>Disruption av globala oljeleveranser har redan lagt till över $100 per passagerare på långdistansflygningar från Europa pga högre bränslekostnader</cite>, vilket visar hur konflikten påverkar realekonomin. Svenska pensionsfonder som AP7 med sin globala diversifiering har både gynnas av amerikanska marknaders styrka och lidit av energirelaterade kostnadsökningar.",
+        "tip": "💡 Behåll en balanserad tillgångsallokering med 70-80% aktier för långsiktigt sparande, men överväg att öka andelen defensiva sektorer och geografisk diversifiering under perioder av förhöjd geopolitisk risk. Undvik att göra dramatiska förändringar baserat på kortsiktiga nyheter.",
+        "funds": "🏦 AP7 Såfa med sin passiva indexstrategi gynnas av den amerikanska marknadsuppgången, medan AMF:s aktivt förvaltade fonder kan ha justerat exponeringen mot energi och defensiva sektorer. SPP:s globala fonder med valutasäkring påverkas mindre av dollarns styrka men exponeras fortfarande för inflationstryck från högre energipriser."
+      },
+      {
+        "icon": "⛽",
+        "label": "INFLATIONSTRYCK VÄXER",
+        "text": "<cite index='30-28,30-25,30-33'>Bank of Japans kraftiga upprevision av inflationsprognosen från 1,9% till 2,8% för 2026, driven av högre råoljepriser, signalerar att inflationstrycket sprider sig globalt</cite>. Detta kommer på toppen av redan stigande inflation i USA och Europa. För pensionssparare innebär detta att realavkastningen - avkastningen justerad för inflation - riskerar att urholkas särskilt för traditionella räntebärande placeringar. <cite index='25-22,25-23'>Lönehöjningar över 5% i Japan och förväntningar om att företag ska föra över högre kostnader till konsumenter</cite> pekar på en bredare inflationskultur som kan sprida sig till andra utvecklade marknader. Svenska pensionsfonder exponeras genom sina internationella innehav och behöver anpassa sig till denna nya verklighet.",
+        "tip": "💡 Överväg att öka exponeringen mot inflationsskyddade obligationer, TIPS eller realräntefonder som justeras för inflation. Även aktier i företag med starka pricing power - förmåga att höja priser utan att förlora kunder - kan fungera som inflationsskydd på lång sikt.",
+        "funds": "🏦 AP7 har begränsad exponering mot inflationsskyddade obligationer vilket gör sparare sårbara för inflationstryck. AMF erbjuder realräntefonder som kan komplettera traditionale pensionssparande. SPP:s blandfonder justerar automatiskt allokeringen mellan aktier och obligationer vilket kan ge visst skydd, men explicit inflationsskydd kan behövas."
+      },
+      {
+        "icon": "🏦",
+        "label": "CENTRALBANKSAKTIONER",
+        "text": "<cite index='30-6,30-7'>Marknaden förväntar att Bank of Japan levererar minst 50 baspunkters räntehöjningar under 2026</cite> samtidigt som andra centralbanker står inför liknande inflationstryck. Detta skapar en miljö där obligationspriser faller när räntorna stiger, vilket påverkar den räntebärande delen av pensionsportföljer negativt. <cite index='22-7,22-8'>BoJ signalerade att de kommer fortsätta höja räntor och justera monetär support om tillväxt och inflation utvecklas som förväntat, samtidigt som CPI-inflationen förväntas falla under 2% tillfälligt innan den stiger igen pga råoljepriserna</cite>. Svenska Riksbanken kan också tvingas agera mer aggressivt om global inflation accelererar, vilket skulle påverka svenska obligationsmarknaden.",
+        "tip": "💡 Korta obligationsfonder eller obligationer med kort löptid blir mindre känsliga för räntehöjningar än långfristiga. Överväg att minska durationsrisk i obligationsdelen av portföljen under perioder av stigande räntor.",
+        "funds": "🏦 Premiumspararna i AP7 kan påverkas negativt av stigande räntor på den räntebärande delen. AMF Räntefond har möjlighet att anpassa durationen mer aktivt. SPP:s generationsfonder justerar automatiskt obligationsexponeringen baserat på ålder, men yngre sparare kan överväga att tillfälligt minska obligationsandelen."
+      },
+      {
+        "icon": "📈",
+        "label": "AMERIKANSKA INDEXFONDER",
+        "text": "<cite index='3-10,3-7,3-8'>S&P 500 har raderat alla sina Iran-krigsförluster och nått nya rekordnivåer med en uppgång på 1,05% till 7137,90 medan Nasdaq steg 1,64% till 24657,57</cite>. Den amerikanska marknadens motståndskraft och dollar-styrka gynnar svenska pensionssparare med amerikansk exponering. <cite index='5-1,5-2,5-3'>Både S&P 500 och Nasdaq satte stängningsrekord och nådde även nya all-time highs under handelsdagen</cite>, vilket visar på bred uppgång snarare än sektorspecifik rally. Den geopolitiska stabiliseringen, kombinerat med fortsatt stark amerikansk ekonomi och corporate earnings, skapar en gynnsam miljö för amerikansk aktieexponering i svenska pensionsfonder.",
+        "tip": "💡 Amerikanska marknader kan fortsätta överpresterera vid minskad geopolitisk risk tack vare stark dollar, robust ekonomi och företagsvinster. Behåll eller öka exponeringen mot amerikanska aktier genom globala indexfonder, men säkerställ tillräcklig diversifiering mot andra regioner för att minska koncentrationsrisk.",
+        "funds": "🏦 AP7 med sin globala marknadsviktning har cirka 60% amerikansk exponering som gynnas av detta rally. AMF Aktiefond Global har liknande exponering medan AMF Aktiefond Sverige fokuserar på hemmamarknaden som kan halka efter. SPP:s Amerika-fonder har presterat starkt, men pensionssparare bör säkerställa att den amerikanska övervikten inte blir för stor i den totala portföljen."
+      }
+    ],
+    "futures": {
+      "S&P 500 Futures": {
+        "price": 7211.75,
+        "change": 0.96,
+        "prev": 7143.5
+      },
+      "NASDAQ Futures": {
+        "price": 27434.0,
+        "change": 1.86,
+        "prev": 26934.0
+      },
+      "DAX": {
+        "price": 24083.53,
+        "change": -1.37,
+        "prev": 24417.8
+      },
+      "Olja (WTI)": {
+        "price": 97.42,
+        "change": 1.64,
+        "prev": 95.85
+      },
+      "Guld": {
+        "price": 4681.4,
+        "change": -0.5,
+        "prev": 4705.1
+      },
+      "VIX": {
+        "price": 18.02,
+        "change": -7.59,
+        "prev": 19.5
+      }
+    },
+    "quotes": {
+      "OMX30": {
+        "price": 3079.76,
+        "change": -0.69,
+        "prev": 3101.08
+      },
+      "S&P 500": {
+        "price": 7173.91,
+        "change": 0.91,
+        "prev": 7109.14
+      },
+      "NASDAQ": {
+        "price": 24887.1,
+        "change": 1.98,
+        "prev": 24404.39
+      },
+      "EUR/USD": {
+        "price": 1.17,
+        "change": -0.37,
+        "prev": 1.17
+      },
+      "USD/SEK": {
+        "price": 9.24,
+        "change": 0.65,
+        "prev": 9.18
+      },
+      "EUR/SEK": {
+        "price": 10.82,
+        "change": 0.36,
+        "prev": 10.78
+      },
+      "BTC/USD": {
+        "price": 76926.92,
+        "change": -2.59,
+        "prev": 78972.22
+      }
+    }
+  },
+  {
     "date": "Monday 27 April 2026",
     "date_short": "27 Apr 2026",
     "generated": "2026-04-27T04:54:17.114283",
