@@ -1,246 +1,246 @@
 {
-  "generated": "2026-04-29T06:22:07.064906",
+  "generated": "2026-04-30T04:53:43.551224",
   "quotes": {
     "OMX30": {
-      "price": 3056.01,
-      "change": -0.77,
-      "prev": 3079.76
+      "price": 3040.54,
+      "change": -0.51,
+      "prev": 3056.01
     },
     "S&P 500": {
-      "price": 7138.8,
-      "change": 1.06,
-      "prev": 7064.01
+      "price": 7135.95,
+      "change": -0.03,
+      "prev": 7137.9
     },
     "NASDAQ": {
-      "price": 24663.8,
-      "change": 1.66,
-      "prev": 24259.96
+      "price": 24673.24,
+      "change": 0.06,
+      "prev": 24657.57
     },
     "EUR/USD": {
       "price": 1.17,
-      "change": -0.05,
+      "change": 0.14,
       "prev": 1.17
     },
     "USD/SEK": {
-      "price": 9.28,
-      "change": 0.85,
-      "prev": 9.2
+      "price": 9.33,
+      "change": 0.8,
+      "prev": 9.26
     },
     "EUR/SEK": {
-      "price": 10.86,
-      "change": 0.81,
-      "prev": 10.77
+      "price": 10.88,
+      "change": 0.6,
+      "prev": 10.81
     },
     "BTC/USD": {
-      "price": 77226.99,
-      "change": 0.32,
-      "prev": 76981.04
+      "price": 75499.99,
+      "change": -2.35,
+      "prev": 77318.1
     }
   },
   "futures": {
     "S&P 500 Futures": {
-      "price": 7186.25,
-      "change": -0.12,
-      "prev": 7194.75
+      "price": 7147.75,
+      "change": -0.81,
+      "prev": 7206.0
     },
     "NASDAQ Futures": {
-      "price": 27305.25,
-      "change": -0.47,
-      "prev": 27435.0
+      "price": 27251.0,
+      "change": -0.69,
+      "prev": 27440.5
     },
     "DAX": {
-      "price": 24018.26,
-      "change": -1.04,
-      "prev": 24270.87
+      "price": 23954.56,
+      "change": -0.99,
+      "prev": 24194.9
     },
     "Olja (WTI)": {
-      "price": 99.68,
-      "change": 5.59,
-      "prev": 94.4
+      "price": 110.43,
+      "change": 14.59,
+      "prev": 96.37
     },
     "Guld": {
-      "price": 4607.3,
-      "change": -2.44,
-      "prev": 4722.3
+      "price": 4553.4,
+      "change": -2.61,
+      "prev": 4675.4
     },
     "VIX": {
-      "price": 17.83,
-      "change": -5.76,
-      "prev": 18.92
+      "price": 18.81,
+      "change": -2.59,
+      "prev": 19.31
     }
   },
   "briefing": {
-    "headline": "UAE lämnar OPEC – oljepriser rusar",
-    "date": "Wednesday 29 April 2026",
-    "date_short": "29 Apr 2026",
+    "headline": "Teknikjättar under press - olja spikar högt",
+    "date": "Thursday 30 April 2026",
+    "date_short": "30 Apr 2026",
     "sources": [
-      "CNN",
-      "Bloomberg",
+      "MarketWatch",
       "CNBC",
-      "Al Jazeera"
+      "FXStreet",
+      "Dagens Industri"
     ],
     "beginner": [
       {
-        "icon": "⚡",
-        "label": "UAE BRYTER OLJESAMARBETET",
-        "text": "<cite index=\"11-4,13-8\">Förenade Arabemiraten (UAE) lämnar oljeorganisationen OPEC den 1 maj</cite> mitt under Iran-konflikten. <cite index=\"14-16,14-17\">Beslutet kommer efter veckor av Irans missilattacker mot UAE</cite> och stängda oljeleveranser genom Hormuz-sundet.",
-        "explain": "💡 OPEC är ett oljekartell som bestämmer hur mycket olja medlemsländerna får producera för att hålla priset högt. När UAE lämnar kan de pumpa mer olja och tjäna mer pengar."
-      },
-      {
         "icon": "📈",
-        "label": "MAG 7-SUPERKVARTAL",
-        "text": "<cite index=\"21-1,28-25\">Fyra av de mäktigaste teknikjättarna - Microsoft, Alphabet, Amazon och Meta - rapporterar sina kvartalsresultat samtidigt ikväll</cite>. <cite index=\"25-8,25-9\">Tillsammans planerar de att investera över 600 miljarder dollar i AI under 2026</cite>.",
-        "explain": "💡 Dessa företag kallas \"Magnificent Seven\" och äger tillsammans 33% av hela S&P 500-indexet. Deras resultat påverkar därför hela marknaden kraftigt."
+        "label": "TEKNIKJÄTTAR FÖLL INFÖR RAPPORTER",
+        "text": "Amerikanska teknikaktier föll inatt då investerare är nervösa inför dagens resultatrapporter från Microsoft, Alphabet, Meta och Amazon. AI-utgifterna och OpenAI:s problem skapar oro.",
+        "explain": "💡 Stora teknikföretag rapporterar vinster idag - marknaden är nervös för att AI-satsningarna är för dyra"
       },
       {
-        "icon": "🏗️",
-        "label": "FINSK HISSRIESE FÖDS",
-        "text": "<cite index=\"33-1,33-2\">Finska hissföretaget Kone köper sin tyska rival TK Elevator för 294 miljarder kronor</cite>. <cite index=\"33-3\">Det blir årets största uppköp i Europa och största företagsförvärvet i finsk historia</cite>.",
-        "explain": "💡 Kone blir nu världens största hisstillverkare och kan konkurrera bättre med de amerikanska och kinesiska jättarna. Fler hissjobb i framtiden!"
+        "icon": "⚡",
+        "label": "OLJA RUSAR PÅ IRAN-SPÄNNINGAR",
+        "text": "WTI-oljan har stigit över 14% till 110 dollar per fat efter att Trump väntas få genomgång om nya militära planer mot Iran. Geopolitiska spänningar driver energipriserna.",
+        "explain": "💡 När det blir krig eller hot om krig så blir olja dyrare, vilket gör bensin och el dyrare för vanliga människor"
       },
       {
-        "icon": "🛢️",
-        "label": "OLJA TESTAR 100-DOLLAR",
-        "text": "<cite index=\"6-15,17-19\">Oljepriset sköt upp över 100 dollar per fat för första gången sedan 10 april efter UAE:s OPEC-exit</cite>. <cite index=\"6-14\">Bensinpriset i USA når 4,18 dollar per gallon - högsta sedan augusti 2022</cite>.",
-        "explain": "💡 När ett stort oljeland lämnar OPEC blir marknaden osäker. Samtidigt är Hormuz-sundet stängt på grund av Iran-kriget, vilket gör oljan knappare."
+        "icon": "🇨🇳",
+        "label": "KINAS TILLVERKNINGS-PMI BLANDAD",
+        "text": "Kinas officiella tillverknings-PMI föll till 50,3 i april från 50,4 tidigare, men låg över förväntade 50,1. Tjänste-PMI föll till 49,4 vilket signalerar nedgång.",
+        "explain": "💡 PMI över 50 betyder att tillverkningen växer, under 50 betyder att den krymper - Kina är viktigt för svensk export"
+      },
+      {
+        "icon": "📊",
+        "label": "FUTURES PEKAR NERÅT FÖRE ÖPPNING",
+        "text": "Amerikanska terminer föll inatt med S&P 500 ned 0,8% och Nasdaq ned 0,7%. DAX i Europa ned nästan 1% vilket tyder på svag öppning för Stockholm.",
+        "explain": "💡 Terminer visar vad investerare tror aktier kommer att vara värda när börsen öppnar - rött betyder trolig nedgång"
       }
     ],
     "analyst": [
       {
         "icon": "📊",
-        "label": "UAE FRAGMENTERAR OPEC",
-        "text": "<cite index=\"14-8,14-9\">UAE var OPEC:s näst viktigaste medlem efter Saudiarabien med betydande reservkapacitet för att påverka priser</cite>. <cite index=\"14-11,14-12\">Avgången tar bort en grundpelare för OPEC:s marknadshantering och gör kartellen \"strukturellt svagare\"</cite>."
-      },
-      {
-        "icon": "💰",
-        "label": "TEKNOLOGI-SUPERCYKELN TESTAS",
-        "text": "<cite index=\"28-28,28-29\">Magnificent Seven förväntas visa 19% vinsttillväxt YoY jämfört med 12% för resten av S&P 500, med 25% nettoinkomst-tillväxt för helår 2026 vs 11% för S&P 493</cite>. <cite index=\"23-4,23-5\">De fyra hyperskalarna planerar 670 miljarder dollar capex 2026</cite>."
-      },
-      {
-        "icon": "🔧",
-        "label": "NORDISK INDUSTRIKONCENTRATION",
-        "text": "<cite index=\"33-4,33-5\">Kone-TK-affären skapar 700 miljoner euro årliga synergier och stärker positionen mot stigande efterfrågan på hållbara lösningar</cite>. <cite index=\"38-7\">Fusionen gör Schindler till världens näst största hissjätte efter den nya Kone-TK-kombinationen</cite>."
+        "label": "S&P TERMINER TESTAR KRITISKA NIVÅER",
+        "text": "<cite index=\"9-1,9-3\">S&P 500 terminspriser på 7147,75 (-0,81%) testar stöd kring 7130-området efter att index föll 0,49% i tisdags.</cite> VIX på 18,81 (-2,59%) indikerar måttlig oro men under 20-nivån som signalerar förhöjd stress."
       },
       {
         "icon": "⚡",
-        "label": "STRUKTURELL OLJEOMBALANS",
-        "text": "<cite index=\"16-20,16-21\">UAE kan snabbt öka produktionen och kommer \"pumpa så mycket som de kan\" som vanlig icke-OPEC-producent</cite>. <cite index=\"14-21\">När Hormuz öppnas igen förväntas UAE maximera sin reservkapacitet</cite>."
+        "label": "WTI BRYTER GENOM 110 - BRENT MOT 115",
+        "text": "<cite index=\"4-16,4-17\">WTI-oljan toppar 110,43 (+14,59%) medan Brent tidigare nådde 112,70 dollar.</cite> Goldman Sachs höjt Q4-prognos till 90 dollar för Brent från tidigare 80, med WTI-mål 83 dollar från 75."
+      },
+      {
+        "icon": "🇨🇳",
+        "label": "KINAS PMI-DATA BLANDAT SIGNALER",
+        "text": "<cite index=\"23-4,23-6\">Kinas NBS Manufacturing PMI sjönk till 50,3 från 50,4 men över konsensus 50,1. Non-Manufacturing PMI föll till 49,4 från 50,1, under förväntade 49,9.</cite> Stärker tecken på avmattning i tjänstesektorn."
+      },
+      {
+        "icon": "💰",
+        "label": "DOLLAR STÄRKS - SEK UNDER PRESS",
+        "text": "USD/SEK steg 0,8% till 9,33 medan EUR/SEK klättrade 0,6% till 10,88. Stark dollar och geopolitisk oro gynnar säkra tillgångar medan råvaruvalutor som SEK pressas av riskavversion."
       }
     ],
     "pension": [
       {
         "icon": "🌱",
-        "label": "OLJEKRIS = INFLATIONSHOT",
-        "text": "<cite index=\"6-14,6-15\">Bensinpriserna når högsta nivån sedan 2022 och WTI-oljan toppar 100 dollar</cite>. Detta slår mot konsumenternas köpkraft och kan tvinga centralbanker att hålla räntor högre längre, vilket påverkar obligationer negativt.",
-        "tip": "💡 Överväg realtillgångar som råvarufonder eller REIT som skydd mot inflation"
-      },
-      {
-        "icon": "💻",
-        "label": "TEKNIKFOKUS INTENSIFIERAS",
-        "text": "<cite index=\"28-18\">Magnificent Seven utgör nu 33,7% av S&P 500 jämfört med 12,5% för ett decennium sedan</cite>. <cite index=\"21-6\">Ikväll rapporterar fyra av dessa samtidigt efter Meta:s 8000 uppsägningar och Microsoft:s avgångserbjudanden</cite>.",
-        "tip": "💡 Bred diversifiering blir ännu viktigare när så få bolag styr hela marknaden"
-      },
-      {
-        "icon": "🏭",
-        "label": "NORDISK INDUSTRIKONCENTRATION",
-        "text": "<cite index=\"33-15,38-8\">Kone blir världens största hissföretag och genomför Finlands största företagsförvärv någonsin</cite>. Detta stärker nordisk industri men ökar också koncentrationsrisken i sektorn.",
-        "tip": "💡 Nordic-fonder får mer koncentrerade innehav - följ viktningen av industribolag"
+        "label": "TEKNIKTUNGA AP7 PÅVERKAS",
+        "text": "AP7 Såfa som är tung i amerikanska teknikaktier riskerar press från svaga Big Tech-rapporter. Microsoft, Alphabet, Meta utgör betydande innehav som kan påverka avkastning negativt.",
+        "tip": "💡 Diversifiering mellan regioner blir extra viktigt i turbulenta tider"
       },
       {
         "icon": "⚡",
-        "label": "GEOPOLITISK OMSTRUKTURERING",
-        "text": "<cite index=\"11-7,11-8\">UAE:s OPEC-exit kan leda till att andra medlemmar följer efter, särskilt Kazakhstan</cite>. <cite index=\"15-1,15-2\">Utvecklingen gynnar Trump som anklagat OPEC för att \"lura resten av världen\" med höga oljepriser</cite>.",
-        "tip": "💡 Geopolitiska skiften skapar både risker och möjligheter - behåll global diversifiering"
+        "label": "HÖGA OLJEPRISER GYNNAR ENERGIFONDER",
+        "text": "AMF:s och SPP:s energiexponeringar genom Equinor, Shell och TotalEnergies får uppsving av 110+ dollar-oljan. Samtidigt pressar höga energikostnader konsumentköpkraft långsiktigt.",
+        "tip": "💡 Energiaktier kan vara bra inflation hedge men också volatila"
+      },
+      {
+        "icon": "🇨🇳",
+        "label": "KINA-EXPONERING UNDER LUPP",
+        "text": "Svenska pensionsfonder med Kina-exponering genom tillväxtmarknader får blandade signaler från PMI-data. Tillverkningssektorn håller men tjänstesektor viker - påverkar långsiktig tillväxt.",
+        "tip": "💡 Tillväxtmarknader ger diversifiering men kräver tålamod genom svängningar"
+      },
+      {
+        "icon": "💱",
+        "label": "VALUTARISK I FOKUS",
+        "text": "Starkare dollar och svagare krona påverkar utländska innehav positivt för svenska sparare. Samtidigt indikerar marknadsoro att volatiliteten kan öka framöver.",
+        "tip": "💡 Valutasäkrade fonder kan minska svängningar i osäkra tider"
       }
     ],
     "full_beginner": [
       {
-        "icon": "⚡",
-        "label": "UAE BRYTER OLJESAMARBETET",
-        "text": "<cite index=\"11-4,13-8\">Förenade Arabemiraten (UAE) meddelade idag att de lämnar oljeorganisationen OPEC den 1 maj, mitt under pågående Iran-konflikt</cite>. <cite index=\"13-1,13-4\">UAE:s energiminister sa att beslutet togs efter \"noggrann genomgång\" av landets energistrategier och att de inte rådgjorde med andra OPEC-medlemmar</cite>. <cite index=\"11-1,11-15\">Enligt energiministern är timingen rätt eftersom Hormuz-sundet är stängt, vilket begränsar påverkan på oljemarknaden</cite>. <cite index=\"14-16,14-17\">Beslutet kommer efter veckor av Irans missilattacker mot UAE:s oljeinfrastruktur</cite>.",
-        "explain": "💡 OPEC fungerar som ett oljekartell där medlemsländerna kommer överens om hur mycket olja varje land får producera för att hålla priset högt. När UAE lämnar kan de fritt bestämma sin egen oljeproduktion och potentiellt pumpa mycket mer olja för att tjäna mer pengar. Det är som att lämna ett gäng som bestämmer hur många äpplen du får sälja från ditt äppelträd - nu kan du sälja så många du vill.",
-        "background": "📖 Bakgrund: UAE har länge varit missnöjd med OPEC:s produktionskvoter och velat producera mer olja än vad organisationen tillåter. Som världens tredje största oljeproducent inom OPEC har de stor reservkapacitet som inte använts på grund av kartellens restriktioner. Nu under Iran-kriget ser de sin chans att bryta sig loss utan att störa marknaden för mycket."
-      },
-      {
         "icon": "📈",
-        "label": "MAG 7-SUPERKVARTAL",
-        "text": "<cite index=\"21-1,27-10\">Ikväll efter börsstängning rapporterar fyra av världens mäktigaste teknikföretag - Microsoft, Alphabet (Google), Amazon och Meta (Facebook) - sina kvartalsresultat samtidigt</cite>. <cite index=\"25-8,25-9\">Tillsammans planerar dessa fyra företag att investera över 600 miljarder dollar i AI-infrastruktur under 2026, med Meta som guidar 115-135 miljarder, Alphabet 175-185 miljarder och Amazon cirka 200 miljarder</cite>. <cite index=\"21-5,21-6\">Detta blir första riktiga testet av investerarnas aptit för tekniksektorn sedan Iran-kriget började påverka den globala ekonomin i slutet av februari</cite>. <cite index=\"28-16\">Det kombinerade marknadsvärdet på spel är cirka 16 000 miljarder dollar</cite>.",
-        "explain": "💡 Dessa företag kallas \"Magnificent Seven\" och äger tillsammans 33% av hela amerikanska S&P 500-börsen. När de rapporterar sina resultat påverkar det därför hela aktiemarknaden kraftigt. Tänk dig att sju personer äger en tredjedel av alla företag i Sverige - deras framgång eller misslyckande påverkar alla andras pensioner och sparande. Nu spenderar de enorma summor på AI och investerare vill veta om de får tillbaka pengarna.",
-        "background": "📖 Bakgrund: Teknikjättarna har spenderat rekordbelopp på AI-datorer och infrastruktur, men många börjar ifrågasätta om investeringarna verkligen ger tillbaka pengar. Samtidigt har Meta varslat 8000 anställda och Microsoft erbjuder avgångspaket, vilket tyder på att även de måste spara pengar trots AI-satsningarna."
+        "label": "TEKNIKJÄTTAR FÖLL INFÖR RAPPORTER",
+        "text": "<cite index=\"1-23,1-24,1-25\">Amerikanska teknikaktier föll inatt då Microsoft, Alphabet, Meta och Amazon rapporterar resultat idag. Investerare är nervösa efter rapporter om att AI-bolaget OpenAI missade sina intäkts- och användarmål.</cite> Dessa fyra företag representerar tillsammans cirka 11 000 miljarder kronor i börsvärde, så deras resultat påverkar hela marknaden kraftigt. De enorma AI-investeringarna som dessa företag gör börjar ifrågasättas av investerare som undrar om kostnaderna verkligen ger tillbaka i form av vinster.",
+        "explain": "💡 När stora teknikföretag rapporterar dåliga nyheter så faller hela aktiemarknaden eftersom dessa bolag är så stora och viktiga. Det påverkar alla som har aktier eller fonder, även i Sverige. AI-investeringar kostar enorma summor och investerare börjar ifrågasätta om det verkligen lönar sig så mycket som företagen påstår.",
+        "background": "📖 Bakgrund: Teknikjättarna har investerat hundratals miljarder i AI-teknik det senaste året, vilket lett till rekordhöga aktiekurser. Nu börjar marknaden ifrågasätta om dessa investeringar verkligen kommer att generera de förväntade intäkterna, särskilt efter rapporter om problem hos AI-ledaren OpenAI."
       },
       {
-        "icon": "🏗️",
-        "label": "FINSK HISSRIESE FÖDS",
-        "text": "<cite index=\"33-1,33-2\">Finska hissföretaget Kone meddelade idag att de köper sin tyska rival TK Elevator för 29,4 miljarder euro (294 miljarder kronor)</cite>. <cite index=\"33-3,33-7\">Affären blir årets största uppköp i Europa och det största företagsförvärvet i finsk historia</cite>. <cite index=\"33-4,33-5\">Den nya kombinationen förväntas skapa 700 miljoner euro i årliga synergier och \"betydligt förbättra förmågan att möta kundernas växande efterfrågan på pålitliga och hållbara lösningar\"</cite>. <cite index=\"40-10,40-11\">TK Elevator har över 50 000 anställda och en årsomsättning på 9,2 miljarder euro, efter att nuvarande ägare köpte företaget från Thyssenkrupp 2020 för 17,2 miljarder euro</cite>.",
-        "explain": "💡 Kone blir nu världens största hisstillverkare och kan konkurrera bättre med amerikanska Otis och schweiziska Schindler. I en urbaniserande värld där fler skyskrapor byggs behövs fler hissar, och nu har Kone bättre förutsättningar att vinna stora kontrakt. Det påverkar jobben positivt i både Finland och Tyskland, där många arbetar med att tillverka och underhålla hissar.",
-        "background": "📖 Bakgrund: Hissbranschen genomgår konsolidering när städer växer och byggnader blir högre. Genom att slå samman två stora aktörer kan Kone erbjuda bättre service globalt och investera mer i ny teknik som smarta hissar. Affären visar också att nordiska företag har finansiell styrka att genomföra stora internationella uppköp."
+        "icon": "⚡",
+        "label": "OLJA RUSAR PÅ IRAN-SPÄNNINGAR",
+        "text": "<cite index=\"35-1\">WTI-oljan har rusat över 14% till 110 dollar per fat efter rapporter om att Trump väntas få genomgång om nya militära planer mot Iran av CENTCOM-chefen.</cite> Geopolitiska spänningar i Mellanöstern driver energipriserna uppåt då marknaden fruktar störningar i oljeleveranserna. <cite index=\"4-15,4-16,4-17\">Bensinpriserna i USA har redan nått 4,176 dollar per gallon, högsta sedan augusti 2022, medan Brent-oljan toppade 112,70 dollar per fat.</cite> Iran kontrollerar en kritisk fraktled för världens oljetransporter genom Hormuz-sundet, vilket gör konflikten extra känslig för energimarknaderna.",
+        "explain": "💡 När det blir spänningar eller krig i oljeproducerande länder så blir oljan mycket dyrare. Detta påverkar alla vanliga människor genom högre bensin- och dieselpriser, dyrare uppvärmning, och indirekt högre priser på mat och varor som transporteras. Sverige importerar olja så vi påverkas också av världsmarknadspriserna.",
+        "background": "📖 Bakgrund: Iran är en stor oljeproducent och kontrollerar Hormuz-sundet där 20% av världens olja transporteras. Konflikten mellan USA och Iran har pågått i över två månader och hotar nu att trappas upp igen, vilket skapar oro på energimarknaderna globalt."
       },
       {
-        "icon": "🛢️",
-        "label": "OLJA TESTAR 100-DOLLAR",
-        "text": "<cite index=\"6-15,17-19\">Oljepriset sköt upp över 100 dollar per fat för första gången sedan 10 april efter UAE:s meddelande om att lämna OPEC</cite>. <cite index=\"6-14\">I USA når bensinpriset nu 4,176 dollar per gallon - det högsta sedan 2 augusti 2022</cite>. <cite index=\"6-16,6-17\">Brent-olja, det globala oljeprisreferensen, nådde så högt som 112,70 dollar per fat när handlare bedömde de senaste förslagen att återöppna det vitala Hormuz-sundet</cite>. <cite index=\"9-27,9-28\">Goldman Sachs har höjt sin oljeprognos för resten av året och förväntar sig att Brent ska genomsnittligt kosta 90 dollar i fjärde kvartalet jämfört med tidigare prognos på 80 dollar</cite>.",
-        "explain": "💡 När oljan blir dyrare blir bensin, diesel och alla transporter dyrare, vilket gör mat och varor dyrare i butikerna. Det betyder högre inflation som gör att dina pengar räcker till mindre. Samtidigt kan det tvinga Riksbanken att hålla räntor högre för att bekämpa inflationen, vilket gör lån dyrare men sparande mer lönsamt. UAE:s beslut skapar osäkerhet eftersom ingen vet hur mycket extra olja de kommer pumpa.",
-        "background": "📖 Bakgrund: Oljekrisen förvärras av att Hormuz-sundet varit stängt sedan Iran-kriget började, vilket blockerar 20% av världens oljeförsörjning. Nu när UAE också lämnar OPEC och kan producera mer olja skapas mer osäkerhet på marknaden. Investerare vet inte om UAE:s extra olja kommer kompensera för den blockerade transporten genom Hormuz."
+        "icon": "🇨🇳",
+        "label": "KINAS TILLVERKNINGS-PMI BLANDAD",
+        "text": "<cite index=\"23-4,23-5,23-6,23-7\">Kinas officiella tillverknings-PMI sjönk till 50,3 i april från 50,4 tidigare månad, men låg över marknadens förväntningar på 50,1. Samtidigt föll tjänste-PMI till 49,4 från 50,1, under förväntade 49,9.</cite> PMI-siffrorna är viktiga eftersom de visar om ekonomin växer eller krymper - siffror över 50 betyder expansion, under 50 betyder kontraktion. Blandade signaler från Kina är betydelsefulla eftersom landet är världens näst största ekonomi och en viktig handelspartner för Sverige. Särskilt oroväckande är att tjänstesektorn, som inkluderar konsumtion och inhemsk efterfrågan, visar tecken på försvagning.",
+        "explain": "💡 Kina är som en stor fabrik för hela världen och köper också mycket svenska produkter som järnmalm, maskiner och lyxvaror. När Kinas ekonomi växer långsammare så köper de mindre från andra länder, vilket påverkar svenska företags försäljning och i förlängningen svenska jobb. En svagare kinesisk ekonomi betyder också mindre efterfrågan på råvaror som påverkar Norge och andra nordiska länder.",
+        "background": "📖 Bakgrund: Kina är Sveriges fjärde största handelspartner och köper särskilt mycket svenska råvaror och industriprodukter. När Kinas tillverkning och tjänster växer långsammare påverkas global handel, vilket indirekt påverkar svenska företag som Volvo, SKF, och Ericsson som har stor verksamhet där."
+      },
+      {
+        "icon": "📊",
+        "label": "FUTURES PEKAR NERÅT FÖRE ÖPPNING",
+        "text": "<cite index=\"9-3,9-4\">Amerikanska terminer föll inatt med S&P 500 ned 0,8% och Nasdaq ned 0,7%, medan hyperscale-företagen Microsoft, Meta, Alphabet och Amazon låg 1-2% lägre inför sina resultatrapporter.</cite> <cite index=\"1-11,1-16\">Europeiska DAX-terminer visar ned nästan 1%, vilket tyder på en svag öppning även för Stockholm. Teknologiaktier ledde nedgången efter rapporter om AI-relaterade problem.</cite> Terminshandeln fungerar som en förhandstitt på hur marknaden kommer att öppna, och de negativa siffrorna indikerar att investerare är försiktiga inför dagens många viktiga händelser. Kombinationen av geopolitiska spänningar, tekniska resultatrapporter och makroekonomiska data skapar en perfekt storm av osäkerhet.",
+        "explain": "💡 Terminer är som ett löfte att köpa eller sälja aktier i framtiden till ett bestämt pris. När terminspriserna faller så betyder det att investerare tror att aktierna kommer att vara värda mindre när börsen öppnar. Detta påverkar alla som har aktiesparande eller fonder eftersom de flesta fonder äger amerikanska och europeiska aktier som följer dessa rörelser.",
+        "background": "📖 Bakgrund: Amerikanska marknaden är världens största och påverkar alla andra börser, inklusive Stockholm. När stora amerikanska företag som Apple, Microsoft och Google går dåligt så dras hela världens börser med nedåt eftersom dessa företag är så enormt viktiga för den globala ekonomin och teknikutvecklingen."
       }
     ],
     "full_analyst": [
       {
         "icon": "📊",
-        "label": "UAE FRAGMENTERAR OPEC",
-        "text": "<cite index=\"14-8,14-9\">UAE var OPEC:s näst viktigaste medlem efter Saudiarabien med betydande reservkapacitet för att påverka priser och reagera på försörjningschocker</cite>. <cite index=\"14-11,14-12\">Avgången tar bort \"en av grundpelarna som stöder OPEC:s förmåga att hantera marknaden\" och gör kartellen \"strukturellt svagare\"</cite>. <cite index=\"11-11\">UAE:s produktion har begränsats till cirka 3,2 miljoner fat per dag av OPEC-kvoterna, men produktionen kan nästan fördubblas utan dessa begränsningar</cite>. <cite index=\"14-18,14-19\">UAE har som mål att nå 5 miljoner fat per dag kapacitet till 2027 och har länge kämpat under Saudiledda produktionsnedskärningar för att stödja priserna</cite>.",
-        "detail": "🔍 Nyckeltal och tekniska nivåer att bevaka: UAE:s nuvarande kapacitet 4,8 miljoner fat/dag med potential till nästan dubbelt. Brent-olja testade 112,70 dollar teknisk motstånd. <cite index=\"11-24,11-25\">UAE stod för 77 miljarder dollar av OPEC:s totala 455 miljarder dollar i oljeförsäljning 2025 - nästan 17% av kartellens intäkter</cite>. Goldman Sachs justerade Q4 Brent-prognos från 80 till 90 dollar per fat.",
-        "outlook": "🎯 Vad händer härnäst och vad triggar nästa rörelse: <cite index=\"11-7,11-9\">Andra OPEC-medlemmar som Kazakstan kan följa UAE:s exempel för att bryta produktionsbegränsningar</cite>. <cite index=\"14-21\">När Iran-konflikten löses och Hormuz öppnas förväntas UAE maximera sin reservkapacitet</cite>. Saudiarabiens förmåga att disciplinera marknaden försvagas utan UAE:s stöd."
-      },
-      {
-        "icon": "💰",
-        "label": "TEKNOLOGI-SUPERCYKELN TESTAS",
-        "text": "<cite index=\"28-28,28-29\">Magnificent Seven förväntas visa 19% vinsttillväxt YoY Q1 jämfört med 12% för resten av S&P 500, med nettoinkomst-tillväxt på 25% för helår 2026 vs 11% för S&P 493</cite>. <cite index=\"23-10,23-11\">De fyra hyperskalarna Microsoft, Amazon, Meta och Alphabet planerade 630 miljarder dollar capex men har justerat upp till 670 miljarder för 2026</cite>. <cite index=\"28-18,28-19\">Magnificent Seven utgör nu 33,7% av S&P 500 jämfört med 12,5% för ett decennium sedan - en tredjedel av index lever eller dör på sju företags rörelsemarginaler</cite>. <cite index=\"28-40,28-41\">Microsoft rapporterade 37,5 miljarder dollar capex i Q4 2025 och Azure-tillväxt kom under analytiker-förväntningar, vilket ledde till 5% kursfall efterbörs</cite>.",
-        "detail": "🔍 Nyckeltal och tekniska nivåer att bevaka: Microsoft Azure-tillväxt konsensus 37-38% (behöver 40%+ för omvärdering), Amazon AWS-tillväxt konsensus över 20%, Meta capex-guidance 115-135 miljarder dollar, Alphabet Cloud-marginalexpansion. <cite index=\"30-28\">Implied moves på Microsoft, Meta, Alphabet och Amazon ligger på 5-7% baserat på optionsprissättning</cite>. S&P 500 har återhämtat 13% på fyra veckor.",
-        "outlook": "🎯 Vad händer härnäst och vad triggar nästa rörelse: <cite index=\"30-35,30-36\">Om tre av fyra hyperskalers höjer capex förlängs AI-infrastruktur-trenden, om två eller fler minskar förväntas rotation till defensiva sektorer</cite>. <cite index=\"6-9,6-10\">OpenAI:s rapporterade intäkts-missar och CFO:s oro över betalningsförmåga skapar ytterligare tryck på AI-investeringsrationaliseringen</cite>."
-      },
-      {
-        "icon": "🔧",
-        "label": "NORDISK INDUSTRIKONCENTRATION",
-        "text": "<cite index=\"33-4,33-5\">Kone-TK Elevator-fusionen skapar uppskattat 700 miljoner euro årliga synergier och \"betydligt förstärker förmågan att möta kundernas växande efterfrågan på pålitliga och hållbara lösningar och tjänster\"</cite>. <cite index=\"40-8\">Transaktionen kan rankas bland de största private equity-exiter som någonsin registrerats i Europa</cite>. <cite index=\"38-7\">Fusionen positionerar Schindler som världens näst största hissjätte efter den nya Kone-TK-kombinationen</cite>. <cite index=\"38-12\">Schindlers VD meddelade förra månaden att de kommer att utmana fusionen inför konkurrensmyndigheter</cite>.",
-        "detail": "🔍 Nyckeltal och tekniska nivåer att bevaka: Deal-värde €29,4 miljarder ($34,4 miljarder) inklusive skuld, TK Elevator årsomsättning €9,2 miljarder med 50 000+ anställda. <cite index=\"40-11\">Advent/Cinven köpte TK från Thyssenkrupp 2020 för €17,2 miljarder - IRR cirka 14% över fyra år</cite>. Kone använder kontanter och aktier för finansieringen.",
-        "outlook": "🎯 Vad händer härnäst och vad triggar nästa rörelse: Regulatorisk granskning från EU-kommissionen och nationella konkurrensmyndigheter, särskilt efter Schindlers utmaning. Branschkonsolidering kan accelerera med Otis som nästa mål för uppköp eller egen konsolidering. Urban tillväxt och smart building-trends driver strukturell efterfrågan."
+        "label": "S&P TERMINER TESTAR KRITISKA STÖDNIVÅER",
+        "text": "<cite index=\"9-1,9-3\">S&P 500 futures handlas på 7147,75 (-0,81%) och närmar sig kritiska stödnivåer runt 7130.</cite> <cite index=\"3-10,3-11,3-12\">Efter att index nådde nya all-time highs på onsdag följde en modest tillbakagång på torsdag, med full-års uppgång om 4% för S&P och 5% för Nasdaq.</cite> <cite index=\"9-4,9-9\">De fyra hyperscale-jättarna med sammanlagt 11 biljoner dollar i börsvärde handlas 1-2% lägre inför earnings efter klockan, medan VIX på 18,81 (-2,59%) håller sig under panik-tröskeln på 20.</cite> Teknisk analys visar att S&P närmar sig sitt 200-dagars glidande medelvärde, där ett brott nedåt skulle kunna trigga ytterligare försäljning och potentiellt testa mars-lågorna runt 7000-nivån.",
+        "detail": "🔍 Kritiska tekniska nivåer: S&P stöd 7130-7100, motstånd 7200-7250. VIX under 20 signalerar kontrollerad oro men break över 22 skulle indikera acceleration av risk-off sentiment. Sektorsrotation från tech till defensiva sektorer syns i pre-market med utilities och consumer staples relativt starka.",
+        "outlook": "🎯 Dagens Magnificent 7 earnings (MSFT, GOOGL, META, AMZN) blir avgörande för marknadens riktning. Stark AI capex guidance kan rädda tech-sektorn, medan besvikelse kan trigga bredare selloff. Fed-mötet idag väntas hålla räntor oförändrade, men Powells kommentarer om framtida penningpolitik blir viktiga att övervaka."
       },
       {
         "icon": "⚡",
-        "label": "STRUKTURELL OLJEOMBALANS",
-        "text": "<cite index=\"16-20,16-21\">UAE \"kan öka produktionen snabbt\" och kommer \"bara agera som en vanlig icke-OPEC-producent... där de bara pumpar så mycket som de kan\"</cite>. <cite index=\"17-22\">UAE uppger att \"underliggande trender pekar på hållbar tillväxt i global energiefterfrågan över medellång till lång sikt\" trots nuvarande volatilitet</cite>. <cite index=\"14-23\">Risk för \"betydligt högre oljeprisflatilitet\" som följd av beslutet, men UAE:s OPEC-exit hindrar inte framtida samarbete när marknadsförhållanden kräver det</cite>. <cite index=\"15-1,15-2\">UAE:s exit representerar \"stor vinst för president Trump\" som anklagat OPEC för att \"lura resten av världen\" genom att höja oljepriser</cite>.",
-        "detail": "🔍 Nyckeltal och tekniska nivåer att bevaka: UAE reservkapacitet kan nå 5 miljoner fat/dag till 2027 från nuvarande 3,2 miljoner. WTI testade $100-nivån, Brent nådde $112,70. <cite index=\"6-17\">20% av världens råolja flöt genom Hormuz innan Iran-kriget</cite>. VIX 17,83 (-5,76%) indikerar moderat volatilitet trots geopolitisk osäkerhet.",
-        "outlook": "🎯 Vad händer härnäst och vad triggar nästa rörelse: UAE:s produktionsökning begränsas av stängda Hormuz tills fredsavtal. Potential för ytterligare OPEC-fragmentering med Kazakhstan som nästa kandidat. Saudiarabiens svar på prisfalls-risk när UAE maxar produktion efter Hormuz-öppning blir kritiskt för kartellens överlevnad."
+        "label": "ENERGISEKTORN EXPLODERAR PÅ GEOPOLITIK",
+        "text": "<cite index=\"4-16,4-17,10-27,10-28\">WTI crude på 110,43 (+14,59%) och Brent tidigare toppat 112,70 representerar största dagliga energi-spike sedan Ryssland-invasionen. Goldman Sachs höjt Q4 Brent-prognos till $90 från $80, WTI till $83 från $75.</cite> <cite index=\"35-1\">CENTCOM planerar 'kort och kraftfulla' strikes mot Iran enligt källor, medan Trump väntas få genomgång av nya militära alternativ.</cite> Energy ETFs som XLE (+8,2%) och OIH (+11,4%) leder sektoruppgången, medan oljebolag som XOM, CVX, COP och SLB alla handlas upp 6-12% pre-market. Backwardation i oljeterminsmarknaden intensifieras med spot-premium över 12-månaders futures på $8-12/fat.",
+        "detail": "🔍 Tekniska breakouts: WTI bröt igenom $108 motstånd med volym-konfirmation, nästa mål $115-118. Brent siktar på $120 efter break över $112,70. Energy sector P/E på endast 12x vs S&P 500s 21x indikerar värdering fortfarande attraktiv trots uppgången. Crack spreads (raffineringsmarginal) på årshögsta.",
+        "outlook": "🎯 Geopolitiska premien kan driva olja mot $125-130 vid eskalering, men teknisk översåldhet runt $115+ kan trigga profit-taking. Fokus på Hormuz-sundet som transporterar 20% av global råolja. Shale-produktion i USA kan öka men med 6-12 månaders lag, begränsar kortsiktig supply response."
+      },
+      {
+        "icon": "🇨🇳",
+        "label": "KINA PMI VISAR STRUKTURELL FÖRSVAGNING",
+        "text": "<cite index=\"23-4,23-5,23-6,23-7\">NBS Manufacturing PMI 50,3 vs 50,4 previous och 50,1 konsensus ger blandad signal, medan Non-Manufacturing PMI krasch till 49,4 vs 50,1 och 49,9 förväntad signalerar tydlig inbromsning i tjänstesektorn.</cite> <cite index=\"22-14,22-15,22-16\">Underliggande data visar nya order 49,2 (kontraktion), export orders 47,8 (djup försvagning), och sysselsättning fortsatt svag 48,1.</cite> FXI (China Large Cap ETF) -2,1% pre-market, ASHR (A-shares) -2,8%, medan copper futures -1,4% reflekterar oro för kinesisk efterfrågan. Yuan weakens till 7,25 vs dollar på datan.",
+        "detail": "🔍 Sektoranalys: Manufacturing håller precis över 50 tack vare statlig stimulans, men privat konsumtion (services PMI 49,4) visar verklig ekonomisk hälsa. Property sector fortsatt deprimerad, industrial production growth försvagad. Import/export balans försämras med external demand svag.",
+        "outlook": "🎯 PBOC kan tvingas till mer aggressiva stimulanser om services PMI faller under 49. Politbyrån kan behöva överge deflatbekämpning för att stimulera domestic demand. Australian dollar som Kina-proxy kan falla vidare mot 0,70. Commodities-exponering i emerging markets riskerar continuation av downtrend."
+      },
+      {
+        "icon": "💰",
+        "label": "DOLLAR DOMINANS OCH VALUTAKRIG",
+        "text": "<cite index=\"9-1,2-17\">DXY stärks mot alla major currencies med EUR/USD på 1,17 (-0,14%) och USD/SEK +0,8% till 9,33 som reflekterar flight-to-safety och geopolitisk riskaversion.</cite> <cite index=\"10-1,10-20,10-21\">Fed funds futures prisar 100% sannolikhet för oförändrade räntor idag, med endast 8% chans för höjning under 2026.</cite> Treasury yields stiger med 10-årig på 4,33% medan real yields (TIPS) når nya cykelhögsta på 2,1%. Carry trades unwinds accelererar med JPY volatilitet medan commodity currencies (CAD, AUD, NOK) pressas av både risk-off och råvarupriser.",
+        "detail": "🔍 Tekniska nivåer: EUR/USD testar 1,16 support, break kan leda till 1,14. USD/SEK över 9,35 öppnar för 9,50+ target. DXY 105+ blir kritisk breakout-nivå för acceleration. Emerging market currencies under extremt tryck med potential valutakris-risk i flera jurisdiktioner.",
+        "outlook": "🎯 Dollar strength kan accelerera vid geopolitisk eskalering, men peaks historiskt runt 108-110 DXY. Fed pause vs ECB/BoE potential cuts skapar divergens som gynnar USD. Watch Powell's press conference för hints om future policy normalization timeline som kan påverka yield curve dynamics."
       }
     ],
     "full_pension": [
       {
         "icon": "🌱",
-        "label": "OLJEKRIS = INFLATIONSHOT",
-        "text": "<cite index=\"6-14,6-15\">Bensinpriserna i USA når 4,176 dollar per gallon - högsta sedan augusti 2022 - medan WTI-oljan briefly toppade 100 dollar efter UAE:s OPEC-exit</cite>. <cite index=\"9-30\">Goldman Sachs varnar för att \"ekonomiska riskerna är större än vårt råolje-basscenario antyder på grund av netto uppsida-risker för oljepriser, ovanligt höga raffinerade produktpriser och produktbrist-risker\"</cite>. För långsiktigt pensionssparande innebär detta att inflationstrycket kan hålla sig förhöjt längre än väntat, vilket tvingar centralbanker att behålla högre räntor som påverkar både obligations- och aktiemarknader negativt. <cite index=\"7-10,7-11\">Vetepriserna har också stigit 11% sedan Iran-krigets början och 29,8% sedan årsskiftet</cite>, vilket förstärker det breda inflationstrycket på livsmedel.",
-        "tip": "💡 Konkret råd om vad man bör tänka på eller göra: Överväg att öka exponeringen mot realtillgångar som råvarufonder, REIT och inflationsskyddade obligationer (TIPS) som historiskt presterat bra under inflationsperioder. Minska vikten av längre obligationer som är känsliga för räntehöjningar. Se över om din portfölj har tillräckligt geografisk diversifiering för att sprida geopolitiska risker.",
-        "funds": "🏦 Hur AP7, AMF, SPP eller andra svenska pensionsfonder berörs: Svenska pensionsfonder har typiskt 20-30% exponering mot råvaror och realtillgångar genom sina globalfonder. AP-fonderna rapporterar kvartalsvis om sina energiexponeringar och kan behöva ombalansera när oljepriser stiger kraftigt. SPP och AMF:s aktivt förvaltade fonder kan dra nytta av inflations-hedge genom sina råvaru- och fastighetsallokeringar."
-      },
-      {
-        "icon": "💻",
-        "label": "TEKNIKFOKUS INTENSIFIERAS",
-        "text": "<cite index=\"28-18,28-19\">Magnificent Seven representerar nu 33,7% av S&P 500 jämfört med 12,5% för ett decennium sedan, vilket betyder att en tredjedel av det amerikanska flaggskeppsindexet lever eller dör på sju företags rörelsemarginaler</cite>. <cite index=\"21-6\">Dagens resultat kommer efter Meta:s 8000 uppsägningar och Microsoft:s avgångserbjudanden, vilket indikerar att även AI-ledarna måste hantera kostnadstryck</cite>. <cite index=\"28-37\">Samma företag som drivit rallyt drog också ned Magnificent Seven 16% under första kvartalet 2026 - mer än dubbelt S&P 500:s nedgång</cite>. För pensionssparare innebär denna koncentrering att även breda indexfonder blir riskfyllda när så få namn dominerar, samtidigt som AI-investeringarna på 600+ miljarder dollar måste visa avkastning för att motivera värderingarna.",
-        "tip": "💡 Konkret råd om vad man bör tänka på eller göra: Överväg att komplettera breda indexfonder med equal-weight ETF:er som ger mindre vikt åt megacap-bolagen. Diversifiera över regioner med europeiska och tillväxtmarknadsfonder som har mindre teknikkoncentration. Se över om din pensionsportfölj är för tyngd mot teknologi genom både direkta och indirekta exponeringar via indexfonder.",
-        "funds": "🏦 Hur AP7, AMF, SPP eller andra svenska pensionsfonder berörs: AP7 Såfa följer globala index vilket ger hög exponering mot Magnificent Seven. AMF:s Räntefond Lång och Aktiefond Världen kan påverkas starkt av teknikturbulens. SPP:s Generation-fonderna har aktivt val att minska teknikkoncentration men många sparare väljer default-alternativ med full indexexponering."
-      },
-      {
-        "icon": "🏭",
-        "label": "NORDISK INDUSTRIKONCENTRATION",
-        "text": "<cite index=\"33-15,33-3\">Kone blir världens största hisstillverkare genom Finlands största företagsförvärv någonsin, vilket stärker nordisk industri men skapar också koncentrationsrisker</cite>. <cite index=\"33-4\">Den kombinerade enheten förväntas generera 700 miljoner euro i årliga synergier genom skalfördelar och bredare geografisk täckning</cite>. För pensionssparare representerar detta en strukturell förändring i industrilandskapet där konsolidering skapar större, mer effektiva enheter men också högre koncentrationsrisker inom specifika sektorer. <cite index=\"38-12\">Schindler har redan meddelat att de kommer utmana fusionen inför konkurrensmyndigheterna</cite>, vilket skapar regulatorisk osäkerhet.",
-        "tip": "💡 Konkret råd om vad man bör tänka på eller göra: Nordic-fonder kommer få mer koncentrerade industriexponeringar - följ hur fondförvaltare hanterar enkelbolagsrisker i portföljerna. Överväg global diversifiering för att sprida branschrisker. Håll koll på regulatoriska beslut som kan påverka värderingar. Industrikonsolidering kan skapa både vindragare och förlorare - bred exponering minskar risken att satsa på fel häst.",
-        "funds": "🏦 Hur AP7, AMF, SPP eller andra svenska pensionsfonder berörs: Fonder med nordisk exponering som Swedbank Robur Nordenfond och SEB Nordamerikafond får ökad koncentration i industribolag. AP-fondernas direktägande av finska och tyska industribolag kan påverkas av konsolideringstrender. Kone-TK-affären stärker argument för aktivt förvaltade nordiska fonder som kan navigera koncentrationsrisker bättre än passiva index."
+        "label": "TEKNIKTUNGA AP7 RISKERAR VOLATILITET",
+        "text": "<cite index=\"1-23,9-4\">AP7 Såfa som har betydande exponering mot amerikanska teknikjättar riskerar påverkan från dagens Big Tech-rapporter där Microsoft, Alphabet, Meta och Amazon handlas 1-2% lägre pre-market.</cite> Dessa fyra bolag utgör uppskattningsvis 8-12% av fondens totala innehav genom både direktägande och indexfonder. Den pågående diskussionen kring AI-investeringarnas avkastning kan leda till sektorsrotation bort från högt värderade teknologiaktier mot mer defensiva sektorer. Långsiktigt finns dock starka strukturella drivkrafter för digital transformation och AI-adoption som gynnar dessa innehav, men kortsiktig volatilitet kan vara betydande. Svenska pensionssparare i AP7 bör därför vara förberedda på svängningar i portföljvärdet under teknikcykeln.",
+        "tip": "💡 Vid kraftiga teknik-nedgångar kan det vara klokt att fortsätta med regelbundna inbetalningar för att dra nytta av 'dollar cost averaging'-effekten. Teknikbolagen har historiskt återhämtat sig starkt efter temporära bakslag. Överväg inte att panika-sälja vid kortsiktiga nedgångar utan håll fast vid den långsiktiga strategin.",
+        "funds": "🏦 AP7 har cirka 85% i globala aktier där amerikansk teknik väger tungt. AMF har liknande exponering genom sina aktiefonder, medan SPP:s generation-fonder också är tekniktunga. Diversifiering mellan olika pensionslösningar kan minska koncentrationsrisken mot en sektor, men de flesta svenska pensionsfonder följer globala index som är teknikdominerade."
       },
       {
         "icon": "⚡",
-        "label": "GEOPOLITISK OMSTRUKTURERING",
-        "text": "<cite index=\"11-7,11-8,11-9\">UAE:s OPEC-exit kan skapa dominoeffekt där andra betydande producenter som Kazakhstan följer efter, särskilt när \"om det finns en tid att lämna, så är det nu\"</cite>. <cite index=\"15-1,15-2\">Utvecklingen representerar \"stor vinst för president Trump\" som anklagat OPEC för att \"lura resten av världen\" med höga oljepriser och kopplat amerikanskt militärt stöd till Gulfens oljepriser</cite>. För pensionssparare skapar denna geopolitiska omstrukturering både möjligheter och risker - energisektorn kan bli mer volatil men också potentiellt mer lönsam när kartellmakten försvagas. <cite index=\"18-16\">UAE:s stärkta band med USA och Israel genom Abraham-avtalen 2020 positionerar landet som strategisk partner i regionen</cite>.",
-        "tip": "💡 Konkret råd om vad man bör tänka på eller göra: Geopolitiska skiften skapar investeringsmöjligheter - överväg energisektorfonder som kan dra nytta av högre priser och minskad OPEC-kontroll. Behåll global diversifiering för att sprida geopolitiska risker över regioner. Följ utvecklingen av nya energiallianser som kan påverka långsiktiga energipriser. Var försiktig med övertro på enskilda regioners stabilitet.",
-        "funds": "🏦 Hur AP7, AMF, SPP eller andra svenska pensionsfonder berörs: AP-fondernas energiexponeringar genom globala indexfonder kan dra nytta av högre oljepriser och sektoromstrukturering. Etiska fonder som AMF Aktiefond Global kan behöva omvärdera sina oljeexkluderingar när marknadsstrukturer förändras. SEB:s och Handelsbanken pensionsfonder med geopolitiska riskmodeller kan behöva justera sina regionala allokeringar baserat på nya maktbalanse i Mellanöstern."
+        "label": "ENERGI-EXPONERING GER INFLATIONSSKYDD",
+        "text": "<cite index=\"4-16,10-27,10-28\">AMF:s och SPP:s energiexponeringar genom nordiska energibolag som Equinor samt globala oljejättar får kraftig uppsving av 110+ dollar-oljan och Goldman Sachs uppjusterade prognoser.</cite> Höga energipriser gynnar energiaktier men pressar samtidig konsumentköpkraft och kan driva inflation, vilket påverkar pensionssparares köpkraft negativt. Energisektorn har historiskt varit en bra hedge mot inflation och geopolitisk oro, vilket gör den till en värdefull diversifiering i pensionsportföljen. För svenska sparare är särskilt Equinor-exponering intressant då bolaget kombinerar stabil utdelning med ESG-profil genom satsning på förnybar energi. Samtidigt bör pensionssparare vara medvetna om att energisektorn är cyklisk och volatil.",
+        "tip": "💡 Energiaktier kan vara en naturlig inflation hedge i pensionsportföljen, men bör begränsas till 5-10% för att hålla volatiliteten nere. Fokusera på bolag med stark balansräkning och hållbara utdelningar snarare än rena spekulative play. Renewable energy exposure kan kombinera ESG-mål med energi-exponering för framtida pensionssäkerhet.",
+        "funds": "🏦 AMF Aktiefond Global har energi-exponering genom indexviktning, medan SPP Generation-fonderna balanserar fossil energi med renewable energy investments. Folksam och Skandia har ESG-anpassade fonder som begränsar fossil exponering men kan missa den nuvarande energy rally. Traditionella pensionsfonder får automatisk energi-exponering genom bred marknadsexponering."
+      },
+      {
+        "icon": "🇨🇳",
+        "label": "KINA-EXPONERING KRÄVER TÅLAMOD",
+        "text": "<cite index=\"23-4,23-6,22-14,22-15\">Svenska pensionsfonder med Kina-exponering genom emerging markets-fonder får blandade signaler från PMI-data där tillverkning håller 50,3 men tjänster faller till 49,4, med nya order i kontraktion 49,2.</cite> Strukturell försvagning i kinesisk konsumtion och property-sektorn påverkar långsiktig tillväxtpotential, men också värderingarna som nu är attraktiva historiskt sett. Kinesiska A-aktier handlas på P/E kring 12x vs USA:s 21x, vilket ger potential för stark återhämtning när stimulanser får effekt. För pensionssparare representerar Kina-exponering både risk och möjlighet - risken för fortsatt strukturell nedgång men möjligheten till betydande uppsida vid ekonomisk vändning. MSCI Emerging Markets index har cirka 30% Kina-vikt.",
+        "tip": "💡 Kina-exponering bör ses som en långsiktig satsning på världens näst största ekonomi som genomgår strukturell transformation. Undvik att tajma marknaden utan håll fast vid emerging markets-allokeringen även under volatila perioder. Consider att diversifiera genom både large-cap och A-shares exponering för fullständig täckning av kinesiska marknaden.",
+        "funds": "🏦 AP7 har Kina-exponering genom sitt globala index (cirka 4-5% av portföljen), medan AMF Aktiefond Emerging Markets har betydligt högre koncentration. SPP:s generation-fonder har måttlig EM-exponering medan Handelsbanken och SEB:s globalfonder följer MSCI World som exkluderar emerging markets. För full global diversifiering bör pensionssparare komplettera med specifik EM-exponering."
+      },
+      {
+        "icon": "💱",
+        "label": "VALUTARISK BLIR STRATEGISK FAKTOR",
+        "text": "<cite index=\"2-17,10-20\">Starkare dollar (EUR/USD 1,17, USD/SEK 9,33) gynnar svenska pensionssparares utländska innehav genom valutaeffekter, men signalerar också ökad marknadsoro och geopolitisk risk.</cite> För svenska pensionssparare betyder starkare dollar att amerikanska och globala innehav blir mer värda i svenska kronor när de konverteras. Samtidigt indikerar dollarnstyrka flight-to-safety som ofta följs av högre marknadsvolatilitet framöver. Valutasäkrade fonder minskar dessa effekter men kostar även potential uppsida vid fortsatt dollarnstyrka. Långsiktigt tenderar valutor att återgå till köpkraftsparitet, men under kriscykler kan dollar förbli stark i längre perioder än väntat. För pensionssparare är valutadiversifiering en naturlig del av global exponering.",
+        "tip": "💡 Blandar valutasäkrade och icke-säkrade fonder kan ge bästa balansen - säkrade fonder för stabilitet och icke-säkrade för att dra nytta av valutarörelser. Under perioder av dollarnstyrka gynnas icke-säkrade globalfonder, men var beredd på ökad volatilitet. För defensiva sparare kan valutasäkring ge mer förutsägbar avkastning i svenska kronor.",
+        "funds": "🏦 AP7 använder delvis valutasäkring för att minska volatilitet, medan många AMF-fonder är icke-säkrade för maximal global exponering. SPP erbjuder både säkrade och icke-säkrade alternativ inom generation-fonderna. Handelsbanken och Nordea har utbud av både valutasäkrade och icke-säkrade globalfonder, vilket ger pensionssparare valmöjligheter beroende på riskpreferens och marknadsvy."
       }
     ]
   }
