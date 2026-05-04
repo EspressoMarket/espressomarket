@@ -1,5 +1,136 @@
 [
   {
+    "date": "Monday 04 May 2026",
+    "date_short": "04 May 2026",
+    "generated": "2026-05-04T04:51:32.293056",
+    "headline": "Trump lanserar Project Freedom för Hormuz",
+    "sources": [
+      "CNBC",
+      "CNN",
+      "NPR",
+      "ECB"
+    ],
+    "beginner": [
+      {
+        "icon": "📈",
+        "label": "AMERIKANSKA TERMINER LYFTER",
+        "text": "<cite index=\"3-10,3-11\">S&P 500- och Nasdaq-terminerna steg kraftigt efter nattens nyheter om fredsförslag från Iran</cite>. <cite index=\"21-1,21-2\">Förslaget innebär att kriget slutar med garantier om inga nya attacker, Iran öppnar Hormuz och USA lyfter blockaden</cite>.",
+        "explain": "💡 Börsterminerna visar vad investerare tror kommer hända när marknaderna öppnar. Positiva nyheter gör att aktiekurserna förväntas stiga."
+      }
+    ],
+    "analyst": [
+      {
+        "icon": "📊",
+        "label": "ASIENMARKNADERNA MILDARE",
+        "text": "<cite index=\"1-5,1-6\">Asienbörserna var blandade med Japan upp 0,38% och Australien upp 0,74%</cite>. <cite index=\"2-28,2-29\">Oljan stabiliserade kring 112 dollar medan VIX-indexet föll från förhöjda nivåer</cite>."
+      }
+    ],
+    "pension": [
+      {
+        "icon": "🌱",
+        "label": "ENERGIPÅVERKAN PÅ SVENSKA FONDER",
+        "text": "<cite index=\"7-23,7-24\">Oljepriserna upp över 50% sedan Irankriget började, med amerikanska bensinpriser på högsta sedan 2022</cite>. Energitunga svenska pensionsfonder påverkas av volatiliteten i energisektorn.",
+        "tip": "💡 Diversifierade fonder som AP7 hanterar energichocker bättre än sektorspecifika investeringar."
+      }
+    ],
+    "full_beginner": [
+      {
+        "icon": "📈",
+        "label": "AMERIKANSKA TERMINER LYFTER",
+        "text": "<cite index=\"21-5,21-6\">Iran har presenterat ett formellt fredsförslag via Pakistan som skulle öppna Hormuz-sundet innan kärnvapenfrågan diskuteras</cite>. <cite index=\"24-6,24-17\">President Trump säger att USA har \"mycket positiva diskussioner\" med Iran</cite>. <cite index=\"3-10,3-11\">Marknaderna reagerade positivt med S&P 500 och Nasdaq som nådde nya rekord</cite>. <cite index=\"24-9,24-21\">Samtidigt lanserar Trump \"Project Freedom\" för att eskorteras fartyg genom Hormuz-sundet</cite>.",
+        "explain": "💡 När det finns hopp om fred i en konflikt som påverkar globala energileveranser blir investerare mer optimistiska. Detta leder till högre aktiekurser eftersom företagen kan förvänta sig lägre energikostnader och stabilare affärsvillkor. Fredshoppet minskar också osäkerheten som brukar skrämma investerare.",
+        "background": "📖 Hormuz-sundet är världens viktigaste energi-trängställe där 20% av all olje- och gashandel normalt passerar. Sedan konflikten började i februari har Iran effektivt stängt passagen, vilket lett till kraftigt stigande oljepriser globalt."
+      }
+    ],
+    "full_analyst": [
+      {
+        "icon": "📊",
+        "label": "ASIENMARKNADERNA MILDARE",
+        "text": "<cite index=\"1-5,1-6,1-8\">Japans Nikkei 225 steg 0,38% till 59 513 medan yen stärktes mot dollarn efter BoJs intervention</cite>. <cite index=\"5-27,5-28\">Sydkoreas Kospi ökade 0,39% medan småbolagsindexet Kosdaq föll 0,86%</cite>. <cite index=\"2-28,2-29\">WTI-oljan handlades kring 112,41 dollar medan Brent noterade 109,77 dollar</cite>. <cite index=\"2-30\">VIX-indexet förblev förhöjt trots Trumps fredskommentarer</cite>.",
+        "detail": "🔍 Nyckeltal att bevaka: WTI-olja kring 100-120 dollar, VIX över 15 visar fortsatt oro. Japanska yeninterventionen kring 156,54/USD indikerar BoJs fortsatta åtaganden. Koreanska småbolag visar fortsatt försiktighet trots huvudindexets uppgång.",
+        "outlook": "🎯 Nästa triggers: Trumps formella svar på Irans 14-punktsförslag och konkreta detaljer om Project Freedom. Marknaderna kommer fokusera på om USA verkligen kommer eskorteras fartyg måndag och Irans reaktion på detta."
+      }
+    ],
+    "full_pension": [
+      {
+        "icon": "🌱",
+        "label": "ENERGIPÅVERKAN PÅ SVENSKA FONDER",
+        "text": "<cite index=\"7-23,7-24\">Oljepriserna har stigit över 50% sedan Irankriget började den 28 februari, med amerikanska bensinpriser på 4,30 dollar per gallon - högsta sedan 2022</cite>. <cite index=\"38-20\">ECB-president Lagarde varnar att liknande energichocker historiskt minskat euroområdets BNP med 0,4% första året</cite>. <cite index=\"33-12,33-13\">ECB håller räntorna oförändrade men varnar att höga energipriser håller inflationen \"väl över 2%\" på kort sikt</cite>. Svenska pensionsfonder som AP7 och AMF med energitunga innehav upplever volatilitet, medan diversifierade globalfonder generellt klarar energichocker bättre.",
+        "tip": "💡 Pensionssparare bör inte panikförändra sina portföljer vid energichocker. Historiskt har sådana kriser varit tillfälliga och diversifierade fonder återhämtat sig. Fortsätt med månadssparande för att dra nytta av volatiliteten genom genomsnittseffekten. Överväg att öka sparandet om marknaden faller kraftigt.",
+        "funds": "🏦 AP7 Såfa, Sveriges största pensionsfond, har cirka 15% i energi- och råvarusektorn som kan påverkas positivt av höga oljepriser men negativt av global konjunkturavmattning. AMFs generation- och aktiefonder har liknande exponering. SPPs globalfonder är mer diversifierade geografiskt vilket kan ge bättre riskspridning under geopolitiska kriser."
+      }
+    ],
+    "futures": {
+      "S&P 500 Futures": {
+        "price": 7269.5,
+        "change": 1.42,
+        "prev": 7168.0
+      },
+      "NASDAQ Futures": {
+        "price": 27949.25,
+        "change": 2.28,
+        "prev": 27325.25
+      },
+      "DAX": {
+        "price": 24292.38,
+        "change": 0.57,
+        "prev": 24155.45
+      },
+      "Olja (WTI)": {
+        "price": 101.64,
+        "change": -4.9,
+        "prev": 106.88
+      },
+      "Guld": {
+        "price": 4621.4,
+        "change": 1.68,
+        "prev": 4545.2
+      },
+      "VIX": {
+        "price": 16.99,
+        "change": -5.72,
+        "prev": 18.02
+      }
+    },
+    "quotes": {
+      "OMX30": {
+        "price": 3060.49,
+        "change": 0.66,
+        "prev": 3040.54
+      },
+      "S&P 500": {
+        "price": 7230.12,
+        "change": 0.91,
+        "prev": 7165.08
+      },
+      "NASDAQ": {
+        "price": 25114.44,
+        "change": 1.12,
+        "prev": 24836.6
+      },
+      "EUR/USD": {
+        "price": 1.17,
+        "change": -0.2,
+        "prev": 1.17
+      },
+      "USD/SEK": {
+        "price": 9.21,
+        "change": -0.01,
+        "prev": 9.21
+      },
+      "EUR/SEK": {
+        "price": 10.81,
+        "change": 0.07,
+        "prev": 10.8
+      },
+      "BTC/USD": {
+        "price": 80308.97,
+        "change": 2.77,
+        "prev": 78147.44
+      }
+    }
+  },
+  {
     "date": "Friday 01 May 2026",
     "date_short": "01 May 2026",
     "generated": "2026-05-01T04:53:43.756290",

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-01T04:53:43.750718",
+  "generated": "2026-05-04T04:51:32.287070",
   "quotes": {
     "OMX30": {
       "price": 3060.49,
@@ -7,46 +7,46 @@
       "prev": 3040.54
     },
     "S&P 500": {
-      "price": 7209.01,
-      "change": 1.42,
-      "prev": 7108.4
+      "price": 7230.12,
+      "change": 0.91,
+      "prev": 7165.08
     },
     "NASDAQ": {
-      "price": 24892.31,
-      "change": 1.86,
-      "prev": 24438.5
+      "price": 25114.44,
+      "change": 1.12,
+      "prev": 24836.6
     },
     "EUR/USD": {
       "price": 1.17,
-      "change": -0.05,
+      "change": -0.2,
       "prev": 1.17
     },
     "USD/SEK": {
-      "price": 9.24,
-      "change": -0.02,
-      "prev": 9.24
+      "price": 9.21,
+      "change": -0.01,
+      "prev": 9.21
     },
     "EUR/SEK": {
-      "price": 10.84,
-      "change": 0.24,
-      "prev": 10.81
+      "price": 10.81,
+      "change": 0.07,
+      "prev": 10.8
     },
     "BTC/USD": {
-      "price": 77064.32,
-      "change": 2.07,
-      "prev": 75499.99
+      "price": 80308.97,
+      "change": 2.77,
+      "prev": 78147.44
     }
   },
   "futures": {
     "S&P 500 Futures": {
-      "price": 7258.0,
-      "change": 0.72,
-      "prev": 7206.0
+      "price": 7269.5,
+      "change": 1.42,
+      "prev": 7168.0
     },
     "NASDAQ Futures": {
-      "price": 27625.75,
-      "change": 0.68,
-      "prev": 27440.5
+      "price": 27949.25,
+      "change": 2.28,
+      "prev": 27325.25
     },
     "DAX": {
       "price": 24292.38,
@@ -54,193 +54,79 @@
       "prev": 24155.45
     },
     "Olja (WTI)": {
-      "price": 105.37,
-      "change": 9.34,
-      "prev": 96.37
+      "price": 101.64,
+      "change": -4.9,
+      "prev": 106.88
     },
     "Guld": {
-      "price": 4627.5,
-      "change": -1.02,
-      "prev": 4675.4
+      "price": 4621.4,
+      "change": 1.68,
+      "prev": 4545.2
     },
     "VIX": {
-      "price": 16.89,
-      "change": -9.73,
-      "prev": 18.71
+      "price": 16.99,
+      "change": -5.72,
+      "prev": 18.02
     }
   },
   "briefing": {
-    "headline": "Apple-rally stöds av oljefall - Iran-oro kvarstår",
-    "date": "Friday 01 May 2026",
-    "date_short": "01 May 2026",
+    "headline": "Trump lanserar Project Freedom för Hormuz",
+    "date": "Monday 04 May 2026",
+    "date_short": "04 May 2026",
     "sources": [
-      "Apple Q2 rapport",
-      "Iran-kriget oljemarknaden",
-      "Fed-övergång Warsh",
-      "OMX30 stängd på Första maj"
+      "CNBC",
+      "CNN",
+      "NPR",
+      "ECB"
     ],
     "beginner": [
       {
         "icon": "📈",
-        "label": "APPLE ÖVERTRÄFFAR MED STARK KINA-FÖRSÄLJNING",
-        "text": "<cite index='18-3,18-12,18-15'>Apple rapporterade kvartalsintäkter på nära $110 miljarder med stark tillväxt från Kina på $20,5 miljarder, upp från $16 miljarder året före</cite>. <cite index='18-9,18-11'>Nya VD:n John Ternus deltog i samtalet och kallade det \"den mest spännande tiden\" på 25 år på Apple</cite>.",
-        "explain": "💡 När Apple går bra påverkas hela tekniksektorn positivt eftersom det är världens tredje mest värdefulla börsbolag"
-      },
-      {
-        "icon": "🛢️",
-        "label": "OLJA FALLER TROTS IRAN-KRIG",
-        "text": "<cite index='32-8,34-3,34-16'>Oljan backade från $126 per fat till under $116 efter rapporter om möjliga fredssamtal</cite>. <cite index='32-11,32-12,32-13'>Hormuz-sundet är fortfarande stängt men analytiker väntar $10-20 fall om det öppnas, även om priserna förblir förhöjda</cite>.",
-        "explain": "💡 Oljepriset påverkar bensin, transport och allmän inflation - när det faller blir allt billigare"
-      },
-      {
-        "icon": "🏛️",
-        "label": "FED-ORDFÖRANDEBYTE NÄRMAR SIG",
-        "text": "<cite index='8-4,8-5,8-7'>Jerome Powell höll sitt sista tal som Fed-ordförande innan Kevin Warsh tar över den 15 maj</cite>. <cite index='8-16,8-26,8-27'>Tre medlemmar röstade emot Fed:s politik och varnade för eventuella räntehöjningar</cite>.",
-        "explain": "💡 Fed-ordföranden styr räntorna som påverkar lån, bolån och sparande - bytet kan förändra politiken"
-      },
-      {
-        "icon": "🇸🇪",
-        "label": "SVENSKA BÖRSEN STÄNGD FÖRSTA MAJ",
-        "text": "<cite index='26-3'>OMX Stockholm är stängt på fredag på grund av Första maj</cite>. <cite index='3-11,3-12,3-13'>Amerikanska marknader nådde nya rekord med S&P 500 upp 9% i april och Nasdaq upp 15%</cite>.",
-        "explain": "💡 När svenska börsen är stängd kan stora rörelser i USA under natten påverka svenska aktier nästa öppningsdag"
+        "label": "AMERIKANSKA TERMINER LYFTER",
+        "text": "<cite index=\"3-10,3-11\">S&P 500- och Nasdaq-terminerna steg kraftigt efter nattens nyheter om fredsförslag från Iran</cite>. <cite index=\"21-1,21-2\">Förslaget innebär att kriget slutar med garantier om inga nya attacker, Iran öppnar Hormuz och USA lyfter blockaden</cite>.",
+        "explain": "💡 Börsterminerna visar vad investerare tror kommer hända när marknaderna öppnar. Positiva nyheter gör att aktiekurserna förväntas stiga."
       }
     ],
     "analyst": [
       {
         "icon": "📊",
-        "label": "APPLE DRIVER TECH-RALLY MED KINA-MOMENTUM",
-        "text": "<cite index='18-1,18-3'>Apple slog konsensus med EPS nära $1,95 jämfört väntade $1,95 och intäkter på $109,7 miljarder</cite>. <cite index='18-12,18-13,18-14,18-15,18-16'>Geografisk tillväxt: Amerika $45,1B (+12%), Europa $28,1B (+15%), Kina $20,5B (+28%), Japan $8,4B (+15%)</cite>. <cite index='11-2,11-5'>AAPL +1,3% i pre-market på $273,70</cite>."
-      },
-      {
-        "icon": "🛢️",
-        "label": "OLJE-VOLATILITET KRING $105-115 SPANNET",
-        "text": "<cite index='37-1,37-6,37-8'>Brent touchade $126 intradagshögsta sedan 2022 men backade till $115, WTI över $110 innan fall till $105,5</cite>. <cite index='32-14,32-15,32-16'>Analyiker kallar det \"största oljeförsörjningschocken i historien\" med Brent +55% sedan kriget började</cite>. <cite index='39-1,36-28,36-29'>Bensinpriser $4,30/gallon (+44% sedan kriget)</cite>."
-      },
-      {
-        "icon": "📈",
-        "label": "FUTURES PEKAR UPPÅT INNAN FED-BYTE",
-        "text": "<cite index='3-11,3-12,3-13'>S&P 500 och Nasdaq nådde nya rekord med +9% respektive +15% i april</cite>. Futures visar S&P +0,72%, NASDAQ +0,68%, DAX +0,57%. <cite index='8-16,8-26'>Tre Fed-medlemmar röstade emot nuvarande policy och antyder mer hökaktig hållning framöver</cite>."
-      },
-      {
-        "icon": "💰",
-        "label": "VIX FALLER - MARKNADSORO MINSKAR",
-        "text": "VIX ned -9,73% till 16,89 signalerar minskande volatilitetsförväntningar. <cite index='32-12,34-8,34-9'>Även om fredssamtal diskuteras varnar analytiker för fortsatt logistiska utmaningar i energimarknaderna</cite>. Guld -1,02% till $4627,5 när \"safe haven\"-efterfrågan minskar."
+        "label": "ASIENMARKNADERNA MILDARE",
+        "text": "<cite index=\"1-5,1-6\">Asienbörserna var blandade med Japan upp 0,38% och Australien upp 0,74%</cite>. <cite index=\"2-28,2-29\">Oljan stabiliserade kring 112 dollar medan VIX-indexet föll från förhöjda nivåer</cite>."
       }
     ],
     "pension": [
       {
         "icon": "🌱",
-        "label": "TECH-TUNGA PORTFÖLJER GYNNAS",
-        "text": "<cite index='18-3,18-12'>Apples starka rapport med intäkter på $110 miljarder och stark Kina-tillväxt</cite> stödjer teknikaktier som utgör stor del av pensionsfonder. <cite index='3-11,3-12'>Med S&P 500 upp 9% i april gynnas passiva indexfonder</cite>.",
-        "tip": "💡 Teknikaktier har varit starka - diversifiering över sektorer blir viktigare"
-      },
-      {
-        "icon": "🛢️",
-        "label": "ENERGIKOSTNADER PÅVERKAR INFLATION",
-        "text": "<cite index='35-11,35-12,35-13'>Ekonomer väntar inflation på 4% vid årsslut, dubbelt Fed:s mål på 2%</cite>. <cite index='39-1,35-15,35-16'>Bensinpriser $4,06/gallon påverkar konsumenternas köpkraft</cite>. Höga energipriser urholkar pensionsköpkraft.",
-        "tip": "💡 Överväg inflationsskyddade obligationer som komplement till aktier"
-      },
-      {
-        "icon": "🏛️",
-        "label": "FED-BYTE KAN PÅVERKA RÄNTOR",
-        "text": "<cite index='8-4,8-5'>Jerome Powell avgår som Fed-ordförande den 15 maj när Kevin Warsh tar över</cite>. <cite index='8-16,8-26,8-27'>Tre medlemmar röstade emot nuvarande policy vilket antyder möjliga räntehöjningar</cite>. Högre räntor påverkar obligations- och aktiemarknader.",
-        "tip": "💡 Följ Fed:s signaler - räntehöjningar kan skapa omallokering mellan aktier och obligationer"
-      },
-      {
-        "icon": "🇸🇪",
-        "label": "GLOBAL EXPONERING VIKTIG VID LOKALA STÄNGNINGAR",
-        "text": "<cite index='26-3'>OMX Stockholm stängt på Första maj medan amerikanska marknader är öppna</cite>. <cite index='3-11,3-12'>Amerikanska index når nya rekord</cite> vilket kan påverka svenska pensionsportföljer med global exponering positivt.",
-        "tip": "💡 Global diversifiering minskar risken när lokala marknader är stängda"
+        "label": "ENERGIPÅVERKAN PÅ SVENSKA FONDER",
+        "text": "<cite index=\"7-23,7-24\">Oljepriserna upp över 50% sedan Irankriget började, med amerikanska bensinpriser på högsta sedan 2022</cite>. Energitunga svenska pensionsfonder påverkas av volatiliteten i energisektorn.",
+        "tip": "💡 Diversifierade fonder som AP7 hanterar energichocker bättre än sektorspecifika investeringar."
       }
     ],
     "full_beginner": [
       {
         "icon": "📈",
-        "label": "APPLE ÖVERTRÄFFAR MED STARK KINA-FÖRSÄLJNING",
-        "text": "<cite index='18-3,18-12'>Apple rapporterade kvartalsintäkter på nära $110 miljarder vilket var bättre än analytikernas förväntningar</cite>. <cite index='18-12,18-13,18-14,18-15'>Det mest imponerande var den geografiska tillväxten, särskilt från Kina där försäljningen ökade från $16 miljarder till $20,5 miljarder - en ökning på 28%</cite>. <cite index='18-9,18-10,18-11'>Samtidigt deltog den nya VD:n John Ternus i resultatssamtalet och kallade det \"den mest spännande tiden på 25 år\" på Apple, vilket tyder på stora produktplaner framöver</cite>. <cite index='11-2,11-5'>Aktien steg 1,3% i förhandelshandeln till $273,70</cite>.",
-        "explain": "💡 När Apple går bra påverkas hela tekniksektorn positivt eftersom Apple är världens tredje mest värdefulla börsbolag. En stark rapport från Apple betyder ofta att andra teknikaktier också stiger. För vanliga människor betyder Apples framgång att deras pensionsfonder och sparande som innehåller teknikaktier troligen presterar bra. Det visar också att konsumenter fortfarande köper dyra produkter trots ekonomisk oro.",
-        "background": "📖 Bakgrund: Apple rapporterar sina kvartalssiffror fyra gånger per år och marknaderna följer dessa mycket noga eftersom företaget är så stort och inflytelserikt. Kina-tillväxten är särskilt viktig eftersom det är Apples näst största marknad efter USA, och geopolitisk spänning har gjort många oroliga för hur Apple skulle klara sig där."
-      },
-      {
-        "icon": "🛢️",
-        "label": "OLJA FALLER TROTS PÅGÅENDE IRAN-KRIG",
-        "text": "<cite index='37-1,37-6,37-8'>Oljepriset hade en berg-och-dalbana-dag när Brent-oljan först steg till $126 per fat - det högsta sedan Rysslands invasion av Ukraina 2022 - men sedan föll tillbaka till under $115 per fat</cite>. <cite index='32-11,32-12,32-13'>Anledningen till fallet var rapporter om möjliga fredsförhandlingar mellan USA och Iran, även om Hormuz-sundet fortfarande är blockerat</cite>. <cite index='32-14,32-15'>Analytiker kallar det här för \"den största oljeförsörjningschocken i oljemarknadshistorien\" med oljepriset upp 55% sedan kriget började</cite>. <cite index='39-1,36-28,36-29'>I USA har bensinpriserna stigit till $4,30 per gallon, en ökning på 44% sedan konflikten började</cite>.",
-        "explain": "💡 Vad det konkret betyder för en vanlig person är att bensinpriserna fortsätter vara mycket höga - över $4 per gallon jämfört med under $3 innan kriget. Detta påverkar allt från att köra bil till jobbet till priserna i matbutiker eftersom transport blir dyrare. När oljan faller lite, som den gjorde idag, är det en lättnad men priserna är fortfarande mycket högre än normalt. Flygbiljetter är också dyrare och många företag lägger på extra avgifter för att täcka höga bränslekostnader.",
-        "background": "📖 Bakgrund: Iran-kriget började i slutet av februari 2026 och Iran har stängt av Hormuz-sundet där 20% av världens olja transporteras. Detta har skapat en global energikris som påverkar allt från bensinpriser till mat eftersom diesel för transporter också är mycket dyrare. Även små rykten om fred kan få oljepriserna att svänga kraftigt."
-      },
-      {
-        "icon": "🏛️",
-        "label": "HISTORISKT FED-ORDFÖRANDEBYTE NÄRMAR SIG",
-        "text": "<cite index='8-4,8-5'>Jerome Powell höll sitt sista tal som Federal Reserve-ordförande innan han lämnar över till Kevin Warsh den 15 maj</cite>. <cite index='8-5,8-14'>Powell kommer att fortsätta som styrelsemedlem men hans tid som ordförande avslutas efter många utmaningar, inklusive pandemin och inflation</cite>. <cite index='8-16,8-26,8-27'>Det som är oroande är att tre Fed-medlemmar röstade emot den nuvarande politiken och varnade för att räntehöjningar kan komma, vilket antyder en mer \"hökaktig\" hållning framöver</cite>. <cite index='3-2,3-4'>Detta kommer att vara första gången på nästan 80 år som en tidigare och nuvarande Fed-ordförande arbetar tillsammans</cite>.",
-        "explain": "💡 Fed-ordföranden är en av världens mäktigaste personer inom ekonomi eftersom de bestämmer räntorna som påverkar allt från bolåneräntor till sparräntor. När tre medlemmar röstar emot nuvarande politik betyder det att det kan komma räntehöjningar, vilket skulle göra lån dyrare men sparande mer lönsamt. För vanliga människor kan det betyda högre bolåneräntor, dyrare billån och kreditkort, men bättre ränta på sparkonton. Kevin Warsh är känd för att vara mer försiktig med penningpolitiken än Powell.",
-        "background": "📖 Bakgrund: Varför är detta viktigt just nu? USA har haft mycket låga räntor under lång tid för att hjälpa ekonomin, men med inflation som fortfarande är hög på grund av Iran-kriget och energipriser, kan den nya Fed-ledningen behöva höja räntorna för att bekämpa prisstegringar. Ett ordförandeskifte mitt i en geopolitisk kris är ovanligt och skapar osäkerhet på marknaderna."
-      },
-      {
-        "icon": "🇸🇪",
-        "label": "SVENSKA BÖRSEN STÄNGD MEDAN USA RALLYKÖR",
-        "text": "<cite index='26-3'>OMX Stockholm är stängt på fredag den 1 maj på grund av Första maj-helgen</cite>. <cite index='3-11,3-12,3-13'>Samtidigt fortsätter de amerikanska marknaderna att nå nya rekordnivåer med S&P 500 upp 9% i april och Nasdaq upp hela 15%</cite>. <cite index='3-14'>En marknadsexpert kommenterade den märkliga situationen: \"Det har varit en galen koppling mellan rubrikerna om kriget och vad som händer på marknaden\"</cite>. Terminsmarknaderna visar att S&P 500 kan öppna 0,72% högre och Nasdaq 0,68% högre när handeln återupptas.",
-        "explain": "💡 Det konkreta problemet för svenska investerare är att när OMX Stockholm är stängt men amerikanska marknader fortsätter handla, kan stora rörelser hända som påverkar svenska aktier nästa gång börsen öppnar (måndag). Om amerikanska tech-aktier stiger kraftigt under fredagen kan svenska tech-aktier också hoppa upp på måndag morgon. Tvärtom kan fall i USA skapa gap-öppningar nedåt. Detta skapar osäkerhet för de som har positioner över helger.",
-        "background": "📖 Bakgrund: Första maj är en traditionell helgdag i Sverige när börsen är stängd, men amerikanska marknader handlas normalt. Detta skapar en asymmetri där viktiga globala händelser kan påverka marknaderna utan att svenska investerare kan reagera. Med så starka rörelser i USA (15% upp för Nasdaq på bara en månad) blir denna timing extra viktig för svenska portföljer som ofta innehåller amerikanska aktier via fonder."
+        "label": "AMERIKANSKA TERMINER LYFTER",
+        "text": "<cite index=\"21-5,21-6\">Iran har presenterat ett formellt fredsförslag via Pakistan som skulle öppna Hormuz-sundet innan kärnvapenfrågan diskuteras</cite>. <cite index=\"24-6,24-17\">President Trump säger att USA har \"mycket positiva diskussioner\" med Iran</cite>. <cite index=\"3-10,3-11\">Marknaderna reagerade positivt med S&P 500 och Nasdaq som nådde nya rekord</cite>. <cite index=\"24-9,24-21\">Samtidigt lanserar Trump \"Project Freedom\" för att eskorteras fartyg genom Hormuz-sundet</cite>.",
+        "explain": "💡 När det finns hopp om fred i en konflikt som påverkar globala energileveranser blir investerare mer optimistiska. Detta leder till högre aktiekurser eftersom företagen kan förvänta sig lägre energikostnader och stabilare affärsvillkor. Fredshoppet minskar också osäkerheten som brukar skrämma investerare.",
+        "background": "📖 Hormuz-sundet är världens viktigaste energi-trängställe där 20% av all olje- och gashandel normalt passerar. Sedan konflikten började i februari har Iran effektivt stängt passagen, vilket lett till kraftigt stigande oljepriser globalt."
       }
     ],
     "full_analyst": [
       {
         "icon": "📊",
-        "label": "APPLE DRIVER MAGNIFICENT 7 MED KINA-MOMENTUM",
-        "text": "<cite index='18-1,18-3,18-4'>Apple levererade Q2 FY2026 med EPS nära $1,95 vs konsensus $1,95 och revenue $109,7B vs estimat $110B</cite>. <cite index='18-12,18-13,18-14,18-15,18-16'>Geografisk breakdown: Americas $45,1B (+12% YoY), Europe $28,1B (+15% YoY), Greater China $20,5B (+28% YoY från $16B), Japan $8,4B (+15% YoY)</cite>. <cite index='18-6,18-7,18-8'>Forward guidance för Q3: revenue up 14-17% YoY men supply constraints på Mac Mini/Studio kan påverka flera månader framöver</cite>. <cite index='11-2,11-5,11-6'>AAPL +1,3% pre-market till $273,70, up <1% YTD 2026</cite>.",
-        "detail": "🔍 Tekniska nivåer att följa: AAPL har resistance vid $280 (maj calls strike), support vid $265. Kina-segmentet som driver +28% growth är kritiskt för sentiment. <cite index='12-8,12-9'>UBS raised target till $287 (+7% upside) med iPhone revenue förväntad +20% YoY på supply-chain styrka</cite>. Options skew bullish med put/call 0,38 för May 1 expiration.",
-        "outlook": "🎯 Nästa trigger är iOS 27 AI features och iPhone 18 cycle. <cite index='18-9,18-10,18-11'>John Ternus som ny CEO från september skapade buzz genom att kalla detta \"most exciting time in 25 years\"</cite>. Watch för Mac supply chain resolution och Services attach rate sustainability på $30B run-rate."
-      },
-      {
-        "icon": "🛢️",
-        "label": "CRUDE VOLATILITET REFLEKTERAR GEOPOLITISK OSÄKERHET",
-        "text": "<cite index='37-1,37-6,37-8'>Brent crude spiked till intraday high $126/bbl (högsta sedan 2022) innan retracement till $115 range, WTI touched $110+ men settled $105,50</cite>. <cite index='32-10,32-14,32-15,32-16'>Rory Johnston (Commodity Context): \"Largest oil supply shock in history\" med Brent +55% sedan krigets start, March +51% MoM</cite>. <cite index='32-11,32-12,32-13'>Strait of Hormuz fortfarande closed, analytiker projicerar $10-20 immediate drop om reopening men structural tightness kvarstår</cite>.",
-        "detail": "🔍 Tekniska nivåer: Brent resistance $126 (tested), support $110-115 range. WTI resistance $115, support $100-105. <cite index='33-13,33-14'>IEA warns prices could hit $100+ om disruptions persist, potentially adding 0.8% till global inflation</cite>. <cite index='39-1,36-28,36-32'>US retail impact: gasoline $4,30/gallon (+44%), diesel $5,50/gallon från $3,76 pre-war</cite>.",
-        "outlook": "🎯 Key catalyst är Hormuz reopening negotiations och Iran leadership stability. <cite index='37-11,37-13'>Iran Supreme Leader Mojtaba Khamenei hårdlinje stance mot Trump meeting med Central Command Admiral Cooper för nya military options</cite>. <cite index='37-15,37-19,37-20'>UAE OPEC exit sekundärt vs \"war premium\" som driver fundamentals</cite>."
-      },
-      {
-        "icon": "📈",
-        "label": "EQUITY FUTURES SIGNAL FORTSATT MOMENTUM",
-        "text": "Pre-market futures: S&P 500 +0,72% (7258), NASDAQ +0,68% (27625), DAX +0,57% (24292). <cite index='3-11,3-12,3-13'>April performance: S&P 500 +9%, Nasdaq +15%, Dow +6%+ MTD hitting all-time highs</cite>. <cite index='8-2,8-8,8-11'>Magnificent Seven earnings momentum med solid results från fyra av sju companies, oil prices slipped supporting broader multiples</cite>. VIX -9,73% till 16,89 signalerar reducing volatility expectations.",
-        "detail": "🔍 Technical levels: S&P 500 resistance 7280 (round number), support 7180-7200. <cite index='3-8'>\"Sell in May\" seasonal pattern börjar, historiskt sämsta 6 månader för equity markets enligt Stock Trader's Almanac</cite>. <cite index='8-16,8-26'>Fed policy uncertainty med tre hawkish dissents antyder potential för rate normalization under Warsh</cite>.",
-        "outlook": "🎯 Next week focus på Fed transition May 15, ISM Manufacturing PMI, och earnings från Energy majors (Exxon, Chevron). <cite index='3-2,3-4,3-5'>Warsh appointment timing critical med Iran war requiring coordinated monetary response, fed funds futures show holds through 2026</cite>."
-      },
-      {
-        "icon": "💰",
-        "label": "RISK SENTIMENT STABILISERAS TROTS GEOPOLITIK",
-        "text": "<cite index='8-3,8-12'>Inflation data mostly in-line med expectations, economic growth slightly below, supporting multiples expansion</cite>. Gold -1,02% till $4627,50 som safe-haven demand moderates. USD/SEK -0,02% (9,24), EUR/SEK +0,24% (10,84). BTC +2,07% till $77064 som risk-on sentiment återvänder. <cite index='8-4,8-5,8-14'>Powell final meeting delivered dovish tone med average S&P 500 return 12,9% årligen under hans tenure (3rd best historically)</cite>.",
-        "detail": "🔍 FX levels: USD/SEK support 9,20, resistance 9,35. EUR/SEK testing 10,85 resistance. <cite index='35-11,35-12,35-13'>Inflation concerns persist med ekonomer expecting 4% PCE by year-end, double Fed 2% target på energy impact</cite>. Credit spreads tightening som volatility premiums compress.",
-        "outlook": "🎯 Central bank divergence theme developing med Fed potentially turning hawkish under Warsh medan ECB/Riksbanken maintain accommodative stance. <cite index='32-8,34-8,34-9'>Iran peace talks speculation creating tactical relief men structural energy tightness remains</cite>. Monitor USD strength på dovish-to-hawkish Fed pivot."
+        "label": "ASIENMARKNADERNA MILDARE",
+        "text": "<cite index=\"1-5,1-6,1-8\">Japans Nikkei 225 steg 0,38% till 59 513 medan yen stärktes mot dollarn efter BoJs intervention</cite>. <cite index=\"5-27,5-28\">Sydkoreas Kospi ökade 0,39% medan småbolagsindexet Kosdaq föll 0,86%</cite>. <cite index=\"2-28,2-29\">WTI-oljan handlades kring 112,41 dollar medan Brent noterade 109,77 dollar</cite>. <cite index=\"2-30\">VIX-indexet förblev förhöjt trots Trumps fredskommentarer</cite>.",
+        "detail": "🔍 Nyckeltal att bevaka: WTI-olja kring 100-120 dollar, VIX över 15 visar fortsatt oro. Japanska yeninterventionen kring 156,54/USD indikerar BoJs fortsatta åtaganden. Koreanska småbolag visar fortsatt försiktighet trots huvudindexets uppgång.",
+        "outlook": "🎯 Nästa triggers: Trumps formella svar på Irans 14-punktsförslag och konkreta detaljer om Project Freedom. Marknaderna kommer fokusera på om USA verkligen kommer eskorteras fartyg måndag och Irans reaktion på detta."
       }
     ],
     "full_pension": [
       {
         "icon": "🌱",
-        "label": "TECH-TUNGA PORTFÖLJER GYNNAS AV APPLE-RALLY",
-        "text": "<cite index='18-3,18-12,18-15'>Apples starka kvartalsrapport med $110 miljarder i intäkter och imponerande Kina-tillväxt på 28% till $20,5 miljarder</cite> stödjer globala tech-aktier som utgör betydande delar av svenska pensionsportföljer. <cite index='3-11,3-12,3-13'>Med S&P 500 upp 9% i april och Nasdaq upp 15% gynnas särskilt passiva indexfonder som AP7 Aktiefond som följer global utveckling</cite>. <cite index='18-9,18-10,18-11'>Tillkännagivandet av John Ternus som ny Apple-VD från september och hans optimistiska kommentarer om \"den mest spännande tiden på 25 år\" antyder fortsatt innovation som kan stödja långsiktig värdetillväxt</cite>. Den breda tech-rallyn visar att sektorn fortsätter leverera trots geopolitisk osäkerhet.",
-        "tip": "💡 Även om tech-aktier presterat starkt är koncentrationsrisken hög när några få jätteföretag som Apple driver mycket av avkastningen. Överväg att se över din portföljs sektorfördelning och balansera mot andra sektorer som energi, hälsovård och industrials för att minska risken. Om du har hög exponering mot amerikanska tech-aktier genom fonder, fundera på att komplettera med europeiska eller emerging markets-exponering.",
-        "funds": "🏦 AP7 Aktiefond som många svenska pensionssparare har som standard innehåller cirka 65% amerikanska aktier med hög tech-vikt, vilket innebär stark påverkan av Apples och Nasdaqs utveckling. AMF Aktiefond Global och SPP Generation 2060+ har liknande exponeringar. Dessa fonder gynnas kraftigt när amerikanska tech-aktier presterar så här starkt som de gjort i april."
-      },
-      {
-        "icon": "🛢️",
-        "label": "ENERGIKOSTNADER PÅVERKAR PENSIONSKÖPKRAFT LÅNGSIKTIGT",
-        "text": "<cite index='35-11,35-12,35-13'>Ekonomer förväntar sig att inflationen ska nå 4% vid årets slut, dubbelt Federal Reserves målsättning på 2%, drivet av höga energipriser från Iran-kriget</cite>. <cite index='39-1,35-15,35-16,35-17,35-18'>Med bensinpriser på $4,06 per gallon (upp från $2,98 före kriget) och prognoser om $3,50 som \"optimistiskt scenario\" vid årets slut påverkas konsumenternas köpkraft negativt</cite>. <cite index='36-19,36-20,36-31,36-32'>Höga diesel- och transportkostnader driver upp priserna på mat och konsumentvaror, vilket urholkar realvärdet på pensionsutbetalningar</cite>. <cite index='35-1,35-3,35-4'>Även om oljepriserna väntas falla senare i år kommer de troligen att förbli över nivåerna före kriget genom hela 2026</cite>.",
-        "tip": "💡 Hög inflation urholkar köpkraften av framtida pensionsutbetalningar. Överväg att öka exponeringen mot inflationsskyddade obligationer (realränteobligationer) och aktier i företag som kan höja sina priser när inflationen stiger, som energibolag, REIT:s och råvaruföretag. Undvik att ha för mycket i traditionella obligationer med fast ränta som presterar dåligt under inflationsperioder.",
-        "funds": "🏦 AP7 Räntefond och andra svenska räntefonder med traditionella obligationer kommer att påverkas negativt av stigande inflation och eventuellt högre räntor. SPP:s och AMF:s realräntefonder kan vara bättre alternativ under inflationsperioder. Pensionsmyndigheten erbjuder också inflationsskyddade alternativ som kan vara värda att överväga för en del av portföljen."
-      },
-      {
-        "icon": "🏛️",
-        "label": "FED-LEDARSKAPSBYTE SKAPAR PENNINGPOLITISK OSÄKERHET",
-        "text": "<cite index='8-4,8-5'>Jerome Powells avgång som Federal Reserve-ordförande den 15 maj och ersättningen med Kevin Warsh</cite> sker mitt under en geopolitisk kris som kräver koordinerad penningpolitisk respons. <cite index='8-16,8-26,8-27'>Det oroande är att tre Fed-medlemmar redan röstat emot den nuvarande politiken och varnat för potentiella räntehöjningar, vilket antyder en mer restriktiv penningpolitik framöver</cite>. <cite index='3-2,3-4,3-5'>Detta är första gången på nästan 80 år som sittande och tidigare Fed-ordförande arbetar tillsammans, vilket skapar osäkerhet om politikens riktning</cite>. Högre räntor skulle påverka både aktie- och obligationsmarknaderna negativt på kort sikt.",
-        "tip": "💡 En mer hökaktig Fed-policy skulle innebära högre räntor som gör obligationer mer attraktiva relativt aktier, men också skapar press på högt värderade tillväxtaktier (särskilt tech). Överväg att förbereda portföljen genom att minska durationsrisken i räntedelen och eventuellt öka exponeringen mot värdeaktier som historiskt klarat sig bättre i stigande räntemiljöer. Ha också kontanter tillgängliga för att dra nytta av eventuella marknadsfall.",
-        "funds": "🏦 AP7, AMF och SPP:s aktiedominerade fonder kommer att påverkas av räntepolitiska förändringar, särskilt tech-tunga delar. Deras räntefonder med lång duration är särskilt känsliga för stigande räntor. Överväg att kontakta din pensionsförvaltare för att diskutera rebalansering mot kortare duration och mer defensiva positioner om Fed verkligen svänger mot en mer restriktiv politik."
-      },
-      {
-        "icon": "🇸🇪",
-        "label": "GLOBAL EXPONERING MINSKAR RISKER VID LOKALA MARKNADSSTÖRNINGAR",
-        "text": "<cite index='26-3'>Med OMX Stockholm stängt på Första maj medan amerikanska marknader fortsätter handla normalt</cite> framhävs vikten av global diversifiering i pensionsportföljer. <cite index='3-11,3-12,3-13'>De amerikanska indexen som når nya rekord med S&P 500 upp 9% och Nasdaq upp 15% i april</cite> kommer att påverka svenska pensionsfonder positivt när handeln återupptas på måndag, eftersom de flesta svenska pensionsfonder har betydande global exponering. <cite index='3-8,3-14'>Trots den starka utvecklingen varnar analytiker för \"Sell in May\"-effekten och den märkliga kopplingen mellan geopolitiska rubriker och marknadsrörelser</cite>. Detta visar både möjligheter och risker med global exponering.",
-        "tip": "💡 Se till att din pensionsportfölj inte är överkoncentrerad till svenska marknaden eftersom globala rörelser ofta är större än lokala. De flesta svenska pensionsfonder har redan god global spridning, men kontrollera din totala portfölj inklusive tjänstepension och eget sparande. Under perioder av hög volatilitet kan det vara smart att ha automatiska investeringsplaner (månadssparande) som jämnar ut köptidpunkterna och minskar risken för dålig timing.",
-        "funds": "🏦 AP7 Aktiefond har 65% USA-exponering vilket betyder stark påverkan av amerikanska marknadsrörelser även när svenska börsen är stängd. AMF och SPP:s globalfonder har liknande fördelningar. Detta är generellt positivt för diversifiering men skapar också beroende av amerikanska marknader. Fondernas NAV-beräkningar görs efter svenska börsens stängning så amerikanska rörelser under svenska helgdagar påverkar nästa dags värdering."
+        "label": "ENERGIPÅVERKAN PÅ SVENSKA FONDER",
+        "text": "<cite index=\"7-23,7-24\">Oljepriserna har stigit över 50% sedan Irankriget började den 28 februari, med amerikanska bensinpriser på 4,30 dollar per gallon - högsta sedan 2022</cite>. <cite index=\"38-20\">ECB-president Lagarde varnar att liknande energichocker historiskt minskat euroområdets BNP med 0,4% första året</cite>. <cite index=\"33-12,33-13\">ECB håller räntorna oförändrade men varnar att höga energipriser håller inflationen \"väl över 2%\" på kort sikt</cite>. Svenska pensionsfonder som AP7 och AMF med energitunga innehav upplever volatilitet, medan diversifierade globalfonder generellt klarar energichocker bättre.",
+        "tip": "💡 Pensionssparare bör inte panikförändra sina portföljer vid energichocker. Historiskt har sådana kriser varit tillfälliga och diversifierade fonder återhämtat sig. Fortsätt med månadssparande för att dra nytta av volatiliteten genom genomsnittseffekten. Överväg att öka sparandet om marknaden faller kraftigt.",
+        "funds": "🏦 AP7 Såfa, Sveriges största pensionsfond, har cirka 15% i energi- och råvarusektorn som kan påverkas positivt av höga oljepriser men negativt av global konjunkturavmattning. AMFs generation- och aktiefonder har liknande exponering. SPPs globalfonder är mer diversifierade geografiskt vilket kan ge bättre riskspridning under geopolitiska kriser."
       }
     ]
   }
