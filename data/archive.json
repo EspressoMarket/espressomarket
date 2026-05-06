@@ -1,5 +1,250 @@
 [
   {
+    "date": "Wednesday 06 May 2026",
+    "date_short": "06 May 2026",
+    "generated": "2026-05-06T04:54:03.243557",
+    "headline": "Vändning under vapenvila — OMX rusar när Iran-spänningar mildras",
+    "sources": [
+      "CNN",
+      "CNBC",
+      "Bloomberg",
+      "MarketWatch"
+    ],
+    "beginner": [
+      {
+        "icon": "📈",
+        "label": "BÖRSEN ÅTERHÄMTAR SIG",
+        "text": "<cite index=\"1-10,1-16\">Nasdaq ledde uppgången med 0,9% medan S&P 500 steg över 0,7%</cite> efter måndagens nedgång. Förhoppningar om fredsavtal mellan USA och Iran lyfter marknaderna.",
+        "explain": "💡 När investerare tror på fred sjunker rädslan och börsen stiger. Det är som när storm-varningen hävs — då vågar folk gå ut igen."
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJEPRISET FALLER",
+        "text": "<cite index=\"1-17,1-26\">Lägre oljepriser minskade inflationsoron och stödde aktier</cite> efter att <cite index=\"25-7,25-12\">Trump pausade det amerikanska arbetet med att vägleda skepp genom Hormuz-sundet</cite> för att ge förhandlingar en chans.",
+        "explain": "💡 Billigare olja betyder lägre bensinpriser och mindre oro för inflation, vilket är bra för ekonomin och börsen."
+      },
+      {
+        "icon": "💰",
+        "label": "TEKNIK-AKTIER LEDER",
+        "text": "<cite index=\"1-11,1-24\">Teknikaktier återfick momentum och Nasdaq ledde rallyt med nästan 1%</cite>. <cite index=\"1-29\">Teknik- och halvledaraktier var huvuddrivarna</cite> efter att sektorn tappat mark på måndagens oro.",
+        "explain": "💡 Teknikbolag är extra känsliga för global oro eftersom de säljer över hela världen. När oron minskar kommer pengarna tillbaka till teknik först."
+      },
+      {
+        "icon": "📊",
+        "label": "ALUMINIUM FORTSÄTTER STIGA",
+        "text": "<cite index=\"31-1,31-2\">Aluminium på London Metal Exchange har stigit över 13% sedan kriget började och är nu upp 19% i år</cite>. <cite index=\"31-3,31-4\">Keurig Dr Pepper nämner aluminium som en av flera produkter som fått högre priser på grund av Iran-kriget</cite>.",
+        "explain": "💡 Aluminium används i burkar och förpackningar. När produktion störs i Mellanöstern blir det dyrare för företag som Coca-Cola och energidrycker."
+      }
+    ],
+    "analyst": [
+      {
+        "icon": "📊",
+        "label": "TEKNISK ÅTERHÄMTNING",
+        "text": "<cite index=\"1-8,1-9\">Dow Jones klättrade över 296 poäng med vinster i industri- och blue-chip aktier</cite>. <cite index=\"1-12\">Handelsvolymen på NYSE förblev aktiv med fler stigande än fallande aktier</cite>, vilket indikerar bred återhämtning snarare än smal rally."
+      },
+      {
+        "icon": "🛢️",
+        "label": "ENERGI OCH VOLATILITET",
+        "text": "<cite index=\"23-22\">Amerikanska bensinpriser har skjutit i höjden från $2,98 per gallon före kriget till $4,46 per gallon</cite>. <cite index=\"25-28,25-29\">Irans stängning av sundet har skickat bränslekostnaderna i höjden och Trump försöker bryta Irans grepp för att minska deras kärnkraftsleverantörer</cite>."
+      },
+      {
+        "icon": "💎",
+        "label": "RÅVARUMARKNADER",
+        "text": "<cite index=\"33-3,34-20\">Aluminium steg 1,9% i den största dagliga ökningen sedan 13 april, till $3,589,50 per ton på LME</cite>. <cite index=\"34-15,34-16\">Mellanöstern står för nästan 10% av global aluminiumproduktion och UAE har investerat kraftigt i smältkapacitet</cite>."
+      },
+      {
+        "icon": "📈",
+        "label": "MARKNADSSENTIMENT",
+        "text": "<cite index=\"1-13,1-14\">Marknaderna reagerade försiktigt på geopolitisk utveckling kopplad till Iran medan investerare nu prissätter kontrollerade risker snarare än värsta scenariot</cite>. <cite index=\"34-8,34-9,34-10\">Både råvaror och säkra tillgångar steg samtidigt, vilket tyder på att marknaden inte helt prisat in en hållbar lösning</cite>."
+      }
+    ],
+    "pension": [
+      {
+        "icon": "🌱",
+        "label": "STABILISERING GYNNAR PENSION",
+        "text": "<cite index=\"1-6,1-7\">Marknaderna återhämtade sig på tisdag när lättande oljepriser och stabiliserande geopolitiska signaler förbättrade investerarsentimentet</cite>. Detta gynnar pensionsfonder som AP7 och AMF som har stora aktieexponeringar.",
+        "tip": "💡 Geopolitisk stabilisering är bra för långsiktigt pensionssparande — håll kursen även om det svänger på kort sikt."
+      },
+      {
+        "icon": "🛢️",
+        "label": "ENERGIKOSTNADER PÅVERKAR INFLATION",
+        "text": "<cite index=\"23-22\">Bensinpriserna har nästan fördubblats sedan krigets början</cite>, men <cite index=\"1-17\">lägre oljepriser minskar nu inflationsoron</cite>. Lägre inflation är positivt för real avkastning på pensionskapital.",
+        "tip": "💡 Höga energipriser äter upp köpkraften, men när de stabiliseras gynnar det dina pensionspengar på lång sikt."
+      },
+      {
+        "icon": "💰",
+        "label": "TEKNIK VIKTIG FÖR AP7",
+        "text": "<cite index=\"1-11,1-29\">Teknikaktier återfick momentum som huvuddrivare för marknaden</cite>. AP7 Såfa har betydande exponering mot amerikanska teknikaktier via indexfonder, vilket gynnar svenska pensionssparare.",
+        "tip": "💡 AP7s globala spridning hjälper dig dra nytta av amerikansk teknik-återhämtning även som svensk pensionssparare."
+      },
+      {
+        "icon": "📊",
+        "label": "RÅVAROR I PENSIONSPORTFÖLJER",
+        "text": "<cite index=\"31-1,31-2\">Aluminium har stigit över 13% sedan krigets början</cite>. Pensionsfonder med råvaruexponering genom råvarufonder eller industriaktier får nu stöd från högre metallpriser.",
+        "tip": "💡 Råvaror kan vara en inflationssäkring i pensionsportföljen, men kom ihåg att de också är mycket volatila."
+      }
+    ],
+    "full_beginner": [
+      {
+        "icon": "📈",
+        "label": "BÖRSEN ÅTERHÄMTAR SIG EFTER MÅNDAGENS FALL",
+        "text": "<cite index=\"1-5,1-6\">Efter en skarp nedgång i början av veckan fann amerikanska aktier fotfäste igen när marknaderna återhämtade sig på tisdag</cite>. <cite index=\"1-10,1-16\">Nasdaq ledde rallyt med nästan 1% medan S&P 500 lade till över 0,7%</cite>. Återhämtningen visar hur snabbt globala signaler, särskilt från energimarknader och geopolitik, kan förändra Wall Streets riktning. <cite index=\"1-12\">Handelsaktiviteten på New York Stock Exchange förblev aktiv med fler stigande än fallande aktier</cite>, vilket pekar på en hälsosammare återhämtning snarare än en smal rally.",
+        "explain": "💡 Tänk dig börsen som en stor våg som reagerar på världshändelser. När det finns hopp om fred mellan USA och Iran, blir investerare mindre rädda och köper aktier igen. Det är som när folk går ut och handlar efter att en storm dragit över — först är alla försiktiga, sedan börjar livet normaliseras. Nasdaq, som innehåller många teknikföretag, steg mest eftersom dessa företag säljer över hela världen och påverkas extra mycket av global oro.",
+        "background": "📖 Bakgrund: Måndagen hade varit tuff för börserna när nya spänningar mellan USA och Iran fick investerare att sälja av riskfyllda tillgångar som aktier. Men när signaler kom om möjliga fredsförhandlingar vände sentimentet snabbt. Detta visar hur känsliga dagens marknader är för geopolitiska händelser, särskilt när de rör energiproduktion och globala handelsleder."
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJEPRISERNA FALLER — LÄTTNAD FÖR EKONOMIN",
+        "text": "<cite index=\"1-17,1-26\">Lägre oljepriser spelade en central roll och minskade inflationsoron samt stödde aktier</cite>. <cite index=\"25-7,25-12\">President Trump sa på tisdagskvällen att han pausar det amerikanska arbetet med att vägleda strandsatta fartyg ut från Hormuz-sundet för att ge tid för en överenskommelse</cite>. <cite index=\"23-22\">Amerikanska bensinpriser har skjutit i höjden från $2,98 per gallon före kriget till $4,46 per gallon</cite>, men nu finns det hopp om lindring. <cite index=\"25-28,25-29\">Irans stängning av sundet, genom vilket stora olje- och gasförsörjningar passerade före kriget, har skickat bränslekostnaderna i höjden och skakat den globala ekonomin</cite>.",
+        "explain": "💡 Olja är som blod i ekonomins kropp — den behövs för transport, uppvärmning och tillverkning av plast och kemikalier. När oljepriset stiger blir allt dyrare: bensinen på macken, flygresor, och till slut även mat eftersom det kostar mer att transportera den. När Trump pausade militära aktioner för att ge diplomatin en chans, trodde marknaden att oljepriserna skulle sjunka, vilket är som att ta bort en tung ryggsäck från ekonomin. Lägre oljepriser betyder mindre inflation och mer pengar kvar i plånboken för vanliga familjer.",
+        "background": "📖 Bakgrund: Hormuz-sundet är en av världens viktigaste oljeleder — ungefär 20% av all olja som handlas globalt passerar genom denna smala passage mellan Iran och arabländerna. När Iran stängde sundet i mars sköt oljepriserna i höjden över $100 per fat för första gången på år. Detta är nyckeln till att förstå varför hela världsekonomin påverkas av konflikten."
+      },
+      {
+        "icon": "💰",
+        "label": "TEKNIKAKTIER LEDER ÅTERHÄMTNINGEN",
+        "text": "<cite index=\"1-11,1-24\">Teknikaktier återfick momentum när investerare roterade tillbaka till tillväxtsektorer efter måndagens risk-off sentiment</cite>. <cite index=\"1-29\">Teknik- och halvledaraktier var bland de största bidragande</cite>. <cite index=\"3-18\">Teknikaktier steg generellt på morgonen, ledda av chipområdet med vinster för Micron, Intel och ASML</cite>. <cite index=\"3-19\">Chip har lett rally på sistone, men marknadsspridningen har inte utökats mycket, vilket lett till farhågor att Wall Street är alltför beroende av en sektor</cite>. Den här sektorn är extra känslig för globala händelser eftersom teknikföretagen säljer sina produkter över hela världen.",
+        "explain": "💡 Teknikaktier är som väderhansfåglar — de reagerar först och starkast på förändringar i det globala klimatet. När det är storm (som kriget i Mellanöstern) flyger de bort först, men när stormen lägger sig kommer de också tillbaka först. Företag som Apple, Google och Microsoft säljer sina produkter överallt i världen, så när det blir oro för global handel påverkas de extra hårt. Men när oron minskar köper investerare tillbaka dessa aktier för att de ofta växer snabbast. Problemet är att hela börsen nu är så beroende av teknikaktier att det blir riskabelt om bara den sektorn driver uppgången.",
+        "background": "📖 Bakgrund: Tekniksektorn har varit motorn i den amerikanska börsen de senaste åren, driven av AI-hysteri och digitalisering. Men denna dominans har skapat oro för att marknaden blivit för smal och beroende av ett fåtal stora företag. När geopolitisk oro slår till drabbas tekniken hårdast eftersom den är mest global i sin natur."
+      },
+      {
+        "icon": "📊",
+        "label": "ALUMINIUM OCH RÅVAROR FORTSÄTTER STIGA",
+        "text": "<cite index=\"31-1,31-2\">Aluminium på London Metal Exchange har stigit över 13% sedan US-israeliska attacker mot Iran den 28 februari, och råvaran är nu upp omkring 19% hittills i 2026</cite>. <cite index=\"31-3,31-4\">Keurig Dr Pepper's CFO listade aluminium som en av flera produkter som sett prishöjningar på grund av Iran-kriget</cite>. <cite index=\"34-15,34-16\">Mellanöstern, särskilt UAE, har investerat kraftigt i aluminiumsmältkapacitet under de senaste två decennierna och denna regionala utbyggnad står nu för nära 10% av global aluminiumproduktion</cite>. <cite index=\"34-17,34-18\">När sjöstrider och dronaktivitet nära sundet intensifierades var störningen inte bara symbolisk — fysiska metallleveranser som vanligtvis transiterar från Gulfhamnarna mötte verklig logistisk osäkerhet</cite>.",
+        "explain": "💡 Aluminium kanske låter tråkigt, men det finns i nästan allt du använder dagligen: läskburkar, energidrycker, bilar, flygplan och till och med din iPhone. När kriget stoppar fabriker och transport från Mellanöstern blir det brist på aluminium globalt. Det är som när det blir kö till affären — om färre varor kommer in stiger priserna. För vanliga människor betyder det att läsk, öl och mat i aluminiumförpackningar blir dyrare. Företag som Coca-Cola och Red Bull får betala mer för sina burkar, och de kostnaderna förs ofta över på konsumenterna.",
+        "background": "📖 Bakgrund: Aluminium kräver enorma mängder el för att tillverka — det kallas 'fast el' eftersom produktionen är så energiintensiv. Mellanöstern blev ett centrum för aluminiumproduktion eftersom regionen har billig energi från olja och gas. När Iran-kriget bröt ut stördes inte bara transporten utan också energitillförseln till smältverk, vilket skapade en dubbel chock för marknaden."
+      }
+    ],
+    "full_analyst": [
+      {
+        "icon": "📊",
+        "label": "TEKNISK ÅTERHÄMTNING MED BRED MARKNADSDELTAGELSE",
+        "text": "<cite index=\"1-8,1-9\">Dow Jones Industrial Average klättrade över 296 poäng, vilket återspeglar förnyad köpaktivitet i industri- och blue-chip aktier med vinster drivna av företag kopplade till tillverkning och teknologi</cite>. <cite index=\"1-12\">Handelsaktiviteten på New York Stock Exchange förblev aktiv med stigande aktier som överträffade fallande och marknadsbredd förbättrades</cite>, vilket pekar på en hälsosammare återhämtning snarare än en smal rally. <cite index=\"1-13,1-14\">Marknaderna reagerade försiktigt på geopolitisk utveckling kopplad till Iran medan investerare nu verkar prissätta kontrollerade risker snarare än värsta scenariot</cite>. VIX föll 7,6% till 17,38, vilket indikerar avtagande volatilitet och förbättrat risksentiment.",
+        "detail": "🔍 Nyckeltal att bevaka: S&P 500 futures +0,69% till 7308, Nasdaq futures +1,73% till 28318. DAX +1,32% fungerar som europeisk proxy för sentiment. VIX under 20 indikerar normaliserat risksentiment, men håll ögonen på nivåer över 25 för förnyad stress. Russell 2000s relativa prestanda mot stora bolag kommer att signalera om återhämtningen breddas bortom tech.",
+        "outlook": "🎯 Nästa katalysatorer: JOLTS-data kl 16:00 svensk tid med förväntningar på 6,8 miljoner lediga jobb, marginellt ner från februari. Marknaden kommer att fokusera på quit rate som varit nära 2% och fungerar som barometer för arbetsmarknadsförtroende. Geopolitiska utvecklingar från Iran-förhandlingarna via Pakistan förblir den primära risken för sentimentförändring."
+      },
+      {
+        "icon": "🛢️",
+        "label": "ENERGI OCH GEOPOLITISK RISKPRISSÄTTNING",
+        "text": "<cite index=\"23-22\">Amerikanska bensinpriser har skjutit i höjden från genomsnittligt $2,98 per gallon före kriget till $4,46 per gallon</cite>, medan <cite index=\"23-24,23-25\">USA:s blockad verkar skada Irans ekonomi men det finns liten bevis för att det förändrat det iranska regimens kalkyl eftersom Iran fortsatt ladda olja på tankers</cite>. <cite index=\"25-28,25-29\">Irans stängning av sundet har skickat bränslekostnaderna i höjden och Trump försöker bryta Irans grepp som skulle förneka dess främsta källa till hävstång när han kräver en större tillbakagång av Teherans omtvistade kärnkraftsprogram</cite>. <cite index=\"36-21,36-22\">Gas nådde 4 USD per gallon den 31 mars och Vitol CEO sa att en miljard fat oljeproduktion kommer förloras på grund av kriget</cite>.",
+        "detail": "🔍 Nyckeltal och tekniska nivåer: WTI crude 100,25 (-1,66%) visar kortsiktig lättnad men strukturellt stöd över $95. Brent crude rörelser över $110-120 kommer att trigga förnyad inflationsoro. Dollar-index styrka på 9,19 USD/SEK (-1,23%) hjälper amerikansk import men skadar export-konkurrenskraft. Övervaka inventory data från EIA för faktisk tillgång/efterfrågefundamental.",
+        "outlook": "🎯 Vad händer härnäst: Trump har pausat ship-guidance för att ge förhandlingar rum, men blockaden kvarstår. Iran har lämnat 14-punkts motförslag med krav på 30-dagars resolution vs USA:s föreslagna 2-månaders vapenvila. Misslyckande i förhandlingarna skulle kunna återuppta $120+ olja och potentiellt trigga strategisk reservsläpp. Håll ögonen på Pakistan-medierade samtal för nästa vändpunkt."
+      },
+      {
+        "icon": "💎",
+        "label": "RÅVARUMARKNADER OCH SUPPLY CHAIN DISRUPTION",
+        "text": "<cite index=\"33-1,33-3\">Aluminium hoppade mest på tre veckor och ledde andra basmetaller högre med 1,9% i största dagliga ökning sedan 13 april</cite>. <cite index=\"34-20,34-24\">Aluminium slutade på $3,589,50 per ton på LME, vilket representerar högsta stängning sedan 24 april</cite>. <cite index=\"34-15,34-16\">Mellanöstern står för nära 10% av global aluminiumproduktion och UAE har investerat kraftigt i smältkapacitet de senaste två decennierna med billig kolvätebased energi</cite>. <cite index=\"38-19,38-20\">EGA meddelade att reparationer för att återställa full produktion vid Al-Taweelah kan ta upp till ett år, vilket sannolikt kommer pressa den globala ex-Kina aluminiummarknaden till underskott</cite>.",
+        "detail": "🔍 Fundamentala drivers: Aluminium kräver 13-15 MWh el per ton, vilket gör energikostnader till 40% av produktionskostnad. Gulf states-kapacitet på 6mn ton/år hotas av både transport-disruption och energipris-inflation. LME inventory levels kritiska att övervaka för supply tightness signaler. Premiums i Europa/USA/Asien har stigit snabbare än LME-priset på grund av Mideast Gulf supply shock.",
+        "outlook": "🎯 Prisprojektioner och triggers: Analytiker ser $4000/ton som möjligt mål vid fortsatt disruption med tight inventory situation. Alternativa shipping routes via Red Sea/Cape of Good Hope höjer freight costs 30-50%. Kinesisk idle capacity restart vid $3600+ nivåer kan begränsa uppgången. Bevaka monthly LME inventory changes och European physical premiums för early warning signals."
+      },
+      {
+        "icon": "📈",
+        "label": "MARKNADSSTRUKTUR OCH SENTIMENTANALYS",
+        "text": "<cite index=\"34-8,34-9,34-10,34-11\">Konventionell analys skulle förvänta att safe-haven efterfrågan bleknar när geopolitisk risk avtar, men ädelmetaller steg tillsammans med industrimetaller vilket tyder på att marknaden inte helt prisat in en hållbar resolution med investerare som kör både en risk-on trade och risk-off trade samtidigt</cite>. <cite index=\"3-20,3-21\">Schwab Trading Activity Index föll till 50,10 i april från 56,04 i mars med kunder som gjorde en betydande rotation från högre-beta individuella innehav till breda lägre-beta ETF:er</cite>. <cite index=\"34-12\">För aluminium innebär detta att den nuvarande prisnivån varken återspeglar ren optimism eller ren rädsla, utan ett sannolikhets-viktat genomsnitt av flera framtider som ännu inte lösts</cite>.",
+        "detail": "🔍 Strukturella indikatorer: VIX 17,38 (-7,6%) under 20-tröskeln men fortfarande förhöjd från pre-konflikt nivåer ~15. Put/call ratios och skew metrics visar fortsatt hedging efterfrågan trots rally. Credit spreads och high yield performance kommer signalera verklig risk-off retreat. Cross-asset korrelationer förblir förhöjda, vilket indikerar macro-dominerat regime.",
+        "outlook": "🎯 Regime change katalysatorer: Verklig normalisering kräver hållbar Iran-resolution och Hormuz öppnande. Försämring skulle trigga flight-to-quality med potentiell VIX spike över 25-30. Marknads-breadth expansion bortom tech/mega-caps nödvändigt för hållbar bull market fortsättning. Övervaka earnings revision trends och forward guidance för Q2 2026 för fundamentala realitetscheck."
+      }
+    ],
+    "full_pension": [
+      {
+        "icon": "🌱",
+        "label": "STABILISERING GYNNAR LÅNGSIKTIGT PENSIONSSPARANDE",
+        "text": "<cite index=\"1-6,1-7\">Marknadernas återhämtning på tisdag när lättande oljepriser och stabiliserande geopolitiska signaler förbättrade investerarsentimentet</cite> är positiv för svenska pensionssparare. AP7 Såfa, som de flesta svenska pensionssparare är exponerade mot, har betydande aktieallokeringar både globalt och i Sverige. <cite index=\"1-12\">Den breda marknadsdeltagandet med fler stigande än fallande aktier</cite> indikerar en hälsosam återhämtning som gynnar diversifierade pensionsportföljer. För pensionssparare som är 20-30 år från pension är sådana kortsiktiga svängningar del av den normala volatiliteten som utjämnas över tid.",
+        "tip": "💡 Konkret råd: Använd denna typ av marknadsvolatilitet som en påminnelse om varför långsiktighet är nyckeln i pensionssparande. Om du är under 50 år, se geopolitiska dipp som köptillfällen genom fortsatta regelbundna insättningar. Undvik att göra drastiska förändringar i din pensionsallokering baserat på kortsiktiga geopolitiska händelser - AP7:s diversifiering är designad att hantera sådan volatilitet.",
+        "funds": "🏦 AP7 Såfa, som är standardvalet för cirka 3 miljoner svenska pensionssparare, har cirka 90% aktier varav majoriteten är internationella aktier. Fonden gynnas av amerikansk marknadsåterhämtning genom sina stora innehav i S&P 500 och utvecklade marknader. AMF:s traditionella försäkring och fondförsäkring har liknande exponering. SPP:s Generation fonder har mer balanserade portföljer men drar också nytta av aktiemarknadens stabilisering."
+      },
+      {
+        "icon": "🛢️",
+        "label": "ENERGIKOSTNADER OCH INFLATIONSPÅVERKAN PÅ PENSION",
+        "text": "<cite index=\"23-22\">Bensinprisernas fördubbling från $2,98 till $4,46 per gallon</cite> illustrerar hur geopolitiska händelser påverkar den dagliga ekonomin för pensionärer och framtida pensionärer. <cite index=\"1-17,1-26\">När oljepriserna nu faller minskar inflationspressen</cite>, vilket är avgörande för pensionärers köpkraft och för real avkastning på pensionskapital. Högre energipriser slår igenom i allt från mat till transport och påverkar särskilt hårt pensionärer med fasta inkomster. <cite index=\"36-13,36-14\">Den globala livsmedelsförsörjningskrisen i Gulf-staterna med 40-120% prisökningar</cite> visar hur energikonflikter kan skapa bredare ekonomiska effekter.",
+        "tip": "💡 För pensionsplanering innebär detta att ha en buffert för inflationsperioder genom att inte bara fokusera på nominell avkastning utan real avkastning. Överväg att ha en del av pensionsportföljen i inflationsskyddade obligationer eller reala tillgångar. Pensionärer bör ha en cash-buffer för att klara kortsiktiga prisökningar utan att behöva sälja investeringar under dåliga marknadsförhållanden.",
+        "funds": "🏦 Många svenska pensionsfonder, inklusive AP1-AP4, har exponering mot energisektorn och infrastruktur som kan dra nytta av högre energipriser på kort sikt men lider av allmän ekonomisk instabilitet. AP7:s globala diversifiering hjälper till att sprida denna risk. AMF och SPP erbjuder också inflationsskyddade alternativ genom sina garantiprodukter som kan vara värda att överväga under osäkra perioder."
+      },
+      {
+        "icon": "💰",
+        "label": "TEKNIKSEKTORNS BETYDELSE FÖR SVENSKA PENSIONER",
+        "text": "<cite index=\"1-11,1-29\">Teknikaktiernas återhämtning som huvuddrivare för marknaden</cite> är särskilt relevant för svenska pensionssparare eftersom svenska pensionsfonder har betydande exponering mot amerikanska och internationella teknikaktier. <cite index=\"3-19\">Marknadens beroende av tekniksektorn skapar dock koncentrationsrisk</cite>. För pensionssparare innebär detta både möjligheter och risker - teknik har genererat stark avkastning historiskt men är också mycket volatil. <cite index=\"3-22,3-23,3-24\">AI:s påverkan på arbetsmarknaden börjar märkas med betydande produktivitetsförbättringar men också oro för arbetstillfällen</cite>.",
+        "tip": "💡 Som pensionssparare bör du förstå att teknik kommer att vara en stor del av din framtida pension genom AP7 och andra fonder. Detta är generellt positivt för långsiktig tillväxt men innebär volatilitet. Överväg att komplettera med mer stabila sektorer om du är nära pension. Håll dig uppdaterad om hur AI och automation kan påverka din egen bransch och pensionsplanering.",
+        "funds": "🏦 AP7 Såfa har stora innehav i amerikanska tech-jättar som Apple, Microsoft och Google genom sina indexfonder. Detta har genererat stark avkastning men skapar koncentrationsrisk. AMF Aktiefond och SPP:s aktiefonder har liknande exponering. De som är nära pension kan överväga en mer konservativ allokering eller AP7s livscykelportföljer som automatiskt minskar aktieexponeringen med åldern."
+      },
+      {
+        "icon": "📊",
+        "label": "RÅVAROR OCH INFLATION I PENSIONSSAMMANHANG",
+        "text": "<cite index=\"31-1,31-2\">Aluminiums kraftiga prisökning på över 13% sedan krigets början</cite> exemplifierar hur geopolitiska konflikter driver råvarupriser och därmed inflation. <cite index=\"34-2,34-8\">Aluminiumprisrörelser reflekterar konvergens av störd försörjningskedja, amerikanska tullstrukturer och energiprisvolatilitet</cite>. För pensionssparare är detta relevant eftersom råvaruprisökningar slår igenom i konsumentpriser - från läskburkar till bilar. <cite index=\"36-7,36-8,36-9\">Gulfstaterna producerar 9% av världens aluminiumförsörjning och kriget har ökat priset med 8% i mars</cite>, vilket påverkar tillverkningskostnader globalt.",
+        "tip": "💡 Överväg att ha viss råvaruexponering i pensionsportföljen som inflationssäkring, men kom ihåg att råvaror är volatila och inte ger utdelningar. ETF:er som följer råvaruindex eller aktier i råvaruföretag kan ge denna exponering. För pensionärer kan det vara värt att ha en större andel reala tillgångar (fastigheter, infrastruktur) som historiskt klarat inflation bättre än obligationer.",
+        "funds": "🏦 AP-fonderna har viss exponering mot råvaror genom sina innehav i gruvbolag och energiföretag. AP2 och AP3 har varit mer aktiva i alternativa investeringar inklusive råvaror och infrastruktur. För individuella pensionssparare erbjuder vissa PPM-fonder råvaruexponering, men kontrollera kostnaderna noga. SPP och AMF har också fonder med exponering mot realekonomiska tillgångar som kan fungera som inflationsskydd."
+      }
+    ],
+    "futures": {
+      "S&P 500 Futures": {
+        "price": 7308.0,
+        "change": 0.69,
+        "prev": 7258.0
+      },
+      "NASDAQ Futures": {
+        "price": 28318.25,
+        "change": 1.73,
+        "prev": 27835.75
+      },
+      "DAX": {
+        "price": 24401.7,
+        "change": 1.32,
+        "prev": 24083.53
+      },
+      "Olja (WTI)": {
+        "price": 100.25,
+        "change": -1.66,
+        "prev": 101.94
+      },
+      "Guld": {
+        "price": 4660.2,
+        "change": 0.65,
+        "prev": 4629.9
+      },
+      "VIX": {
+        "price": 17.38,
+        "change": -7.6,
+        "prev": 18.81
+      }
+    },
+    "quotes": {
+      "OMX30": {
+        "price": 3072.42,
+        "change": 1.22,
+        "prev": 3035.49
+      },
+      "S&P 500": {
+        "price": 7259.22,
+        "change": 1.69,
+        "prev": 7138.8
+      },
+      "NASDAQ": {
+        "price": 25326.12,
+        "change": 2.69,
+        "prev": 24663.8
+      },
+      "EUR/USD": {
+        "price": 1.17,
+        "change": 0.13,
+        "prev": 1.17
+      },
+      "USD/SEK": {
+        "price": 9.19,
+        "change": -1.23,
+        "prev": 9.3
+      },
+      "EUR/SEK": {
+        "price": 10.8,
+        "change": -0.66,
+        "prev": 10.87
+      },
+      "BTC/USD": {
+        "price": 81487.81,
+        "change": 0.67,
+        "prev": 80946.96
+      }
+    }
+  },
+  {
     "date": "Monday 04 May 2026",
     "date_short": "04 May 2026",
     "generated": "2026-05-04T04:51:32.293056",
