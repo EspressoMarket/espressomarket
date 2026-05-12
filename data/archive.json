@@ -1,5 +1,250 @@
 [
   {
+    "date": "Tuesday 12 May 2026",
+    "date_short": "12 May 2026",
+    "generated": "2026-05-12T04:53:26.520747",
+    "headline": "AI-raketen lyfter tech trots inflationsoro",
+    "sources": [
+      "cnbc.com",
+      "marketplace.org",
+      "ts2.tech",
+      "oilprice.com"
+    ],
+    "beginner": [
+      {
+        "icon": "📊",
+        "label": "INFLATIONEN VÄNTAR",
+        "text": "Idag kl 14:30 släpps amerikanska inflationssiffror som väntas visa stark uppgång drivet av höga oljepriser. Analytiker förväntar sig 3,7% inflation på årsbasis.",
+        "explain": "💡 Inflation betyder att saker blir dyrare - om den stiger för snabbt kan centralbanken höja räntorna vilket påverkar börsen negativt"
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJAN SKENAR IVÄG",
+        "text": "Oljepriset har rusat till 98,82 dollar (+4,2%) efter att Trump förkastat Irans fredsförslag. Konflikten i Hormuzsundet fortsätter att störa oljeflöden.",
+        "explain": "💡 Dyr olja = dyrare bensin och transport vilket driver upp alla priser i ekonomin och skapar inflation"
+      },
+      {
+        "icon": "🚀",
+        "label": "TECH FLYGER HÖGT",
+        "text": "Amerikanska tech-index stiger kraftigt i förhandeln med Nasdaq futures +2,2%. AI-bolag fortsätter att locka investerare trots geopolitisk oro.",
+        "explain": "💡 Tech-aktier är känsliga för räntor men AI-trenden är så stark att den övertrumfar oron just nu"
+      },
+      {
+        "icon": "😰",
+        "label": "ORON VÄXER",
+        "text": "VIX-index för börsoron har stigit till 18,4 (+5,8%) vilket signalerar att investerarna blir nervösa inför dagens inflationssiffror.",
+        "explain": "💡 VIX över 20 betyder förhöjd oro, över 30 är panik - vi närmar oss orosnivåer"
+      }
+    ],
+    "analyst": [
+      {
+        "icon": "📈",
+        "label": "FUTURES STARK DIVERGENS",
+        "text": "S&P futures +0,86% men fokus på Nasdaq +2,23% driven av AI-momentum. <cite index=\"1-1,1-2\">Tisdagens CPI-release kl 8:30 ET förväntas visa 0,6% MoM och 3,7% YoY</cite>."
+      },
+      {
+        "icon": "⚡",
+        "label": "VOLATILITET ACCELERERAR",
+        "text": "VIX +5,75% till 18,38 indikerar nervositet. <cite index=\"33-1,33-2\">WTI swing mellan $107,46-$88,66 förra veckan visar extrema rörelser</cite> på geopolitiska headlines."
+      },
+      {
+        "icon": "🛢️",
+        "label": "ENERGIKOMPLEX BRYTER UPP",
+        "text": "WTI $98,82 (+4,23%) <cite index=\"9-10\">efter Trumps avvisning av Irans motförslag</cite>. Tekniskt brott över $95 pekar mot $110-117 området baserat på tidigare konflikttoppar."
+      },
+      {
+        "icon": "🏭",
+        "label": "SEKTORROTATION PÅGÅR",
+        "text": "<cite index=\"9-15,9-16\">Energi +2,63% ledde måndagen före tech +1,00%</cite>. Memory-aktier exploderar med DRAM ETF +30% senaste veckan enligt tidigare data."
+      }
+    ],
+    "pension": [
+      {
+        "icon": "⛽",
+        "label": "INFLATIONEN BITER PENSIONER",
+        "text": "Höga energipriser och förväntad inflation på 3,7% urholkar köpkraften för pensionärer som har fasta inkomster och är känsliga för högre levnadskostnader.",
+        "tip": "💡 Överväg inflationshedgar som realobligationer eller råvaruexponering i pensionsportföljen"
+      },
+      {
+        "icon": "🤖",
+        "label": "AI LYFTER TEKNIKFONDER",
+        "text": "Kraftig uppgång i AI-aktier gynnar tekniktunga pensionsfonder. Många svenska pensionsfonder har betydande USA-exponering som drar nytta av tech-rallyt.",
+        "tip": "💡 Tech är volatilt - se till att ha balanserad portfölj och överväg att ta vinster vid extrema nivåer"
+      },
+      {
+        "icon": "📊",
+        "label": "BLANDAT LÄGE FÖR FONDER",
+        "text": "Energifonder gynnas av höga oljepriser medan obligationsfonder riskerar förluster om inflationen driver upp räntorna. Blandade signaler för balanserade pensionsfonder.",
+        "tip": "💡 Håll koll på din fondfördelning - för hög obligationsandel kan vara riskabelt i inflationsmiljö"
+      },
+      {
+        "icon": "🛡️",
+        "label": "GULDET SKYDDAR",
+        "text": "Guld +0,73% till $4734 fungerar som hedge mot inflation och geopolitisk oro. Kan vara viktig diversifiering för pensionssparare i osäkra tider.",
+        "tip": "💡 5-10% guldexponering kan vara försiktig hedge, men guld ger ingen utdelning på lång sikt"
+      }
+    ],
+    "full_beginner": [
+      {
+        "icon": "📊",
+        "label": "INFLATIONEN VÄNTAR",
+        "text": "<cite index=\"1-1,1-2,27-5\">Idag kl 14:30 svensk tid släpps amerikanska inflationssiffror för april som väntas visa en kraftig uppgång. Ekonomer förväntar sig att inflationen stiger till 3,7% på årsbasis, drivet främst av höga energipriser från Iran-konflikten</cite>. Detta är betydligt högre än målet på 2% och kommer att skapa nervositet på marknaderna. Inflationssiffrorna påverkar direkt hur centralbankerna agerar med räntorna.",
+        "explain": "💡 Inflation betyder att vardagsvaror blir dyrare över tid. När inflationen är hög kan centralbanken höja räntorna för att bromsa ekonomin, vilket ofta får börsen att falla. Samtidigt urholkar inflationen dina penningars köpkraft - det du köper för 100 kronor idag kostar kanske 103,70 kr om ett år vid 3,7% inflation. För vanliga människor betyder detta dyrare mat, bensin och hyror.",
+        "background": "📖 Bakgrund: USA:s inflation har varit en stor oro sedan pandemin. Efter att ha nått rekordnivåer 2021-2022 sjönk den under 2023-2024, men Iran-konflikten som började i februari 2026 har fått energipriserna att skjuta i höjden igen. Federal Reserve hade börjat sänka räntorna men kan nu tvingas pausa eller till och med höja dem igen."
+      },
+      {
+        "icon": "🛢️",
+        "label": "OLJAN SKENAR IVÄG",
+        "text": "<cite index=\"9-10,33-1,33-2\">Oljepriset har rusat till 98,82 dollar per fat efter att president Trump förkastat Irans senaste fredsförslag för att avsluta konflikten. Förra veckan såg vi extrema prissvängningar mellan 88-107 dollar när marknaden reagerade på diplomatiska signaler</cite>. Hormuzsundet, där 20% av världens oljetransporter passerar, är fortfarande stängt av Iran vilket skapar global oljebrist. <cite index=\"36-6,36-7\">I USA har bensinpriserna stigit till nästan 4,18 dollar per gallon, upp från 2,92 dollar i slutet av februari</cite>.",
+        "explain": "💡 Dyr olja påverkar alla direkt genom högre bensinpriser vid macken. Men det sprider sig också genom hela ekonomin - dyrare transport gör att allt från mat till kläder blir dyrare. Även elkostnader påverkas när länder tvingas använda dyrare bränslen för kraftproduktion. För en svensk familj kan detta betyda 500-1000 kronor extra i månaden i ökade kostnader för mat och transport.",
+        "background": "📖 Bakgrund: Hormuzsundet är världens viktigaste oljetransportled. När Iran stängde sundet i mars 2026 som svar på USA:s och Israels attacker skapades omedelbart en global energikris. Tidigare konflikter har varit kortvariga, men denna har nu pågått över två månader utan lösning i sikte."
+      },
+      {
+        "icon": "🚀",
+        "label": "TECH FLYGER HÖGT",
+        "text": "<cite index=\"4-7,8-4,8-5\">Amerikanska teknikaktier fortsätter sin fantastiska utveckling med Nasdaq Composite som slog nya rekord på måndagen. Memory-aktier inom AI-segmentet har exploderat med DRAM ETF som rusade nästan 30% bara under förra veckan</cite>. <cite index=\"6-11,6-13\">Analytiker förväntar sig att S&P 500-bolagens vinster ska växa 18,6% i år, med de största teknikbolagen (Mag 7) som förväntas växa 24,6%</cite>. AI-trenden fortsätter att dominera trots geopolitisk oro.",
+        "explain": "💡 AI-revolutionen jämförs ofta med internetboomens tidiga dagar på 90-talet. Företag investerar hundratals miljarder i AI-infrastruktur, vilket gynnar chipbolag, serverleverantörer och mjukvaruföretag. För vanliga investerare betyder detta att teknikfonder och breda USA-fonder presterar mycket starkt. Men kom ihåg att teknikaktier också kan falla lika snabbt som de stiger - volatiliteten är hög.",
+        "background": "📖 Bakgrund: AI-boomen accelererade kraftigt under 2024-2025 med ChatGPT och liknande verktyg. Nu investerar alla stora företag i AI-kapacitet, från Microsoft och Google till mindre specialistbolag. Marknaden tror att AI kommer revolutionera produktiviteten i alla branscher under kommande decennier."
+      },
+      {
+        "icon": "😰",
+        "label": "ORON VÄXER",
+        "text": "<cite index=\"9-4,9-5\">Börsoron mätt med VIX-index har stigit till 18,4 vilket är en ökning på nästan 6% bara under måndagen. Samtidigt föll amerikanska futures under måndagskvällen när investerare blev nervösa inför dagens inflationssiffror</cite>. <cite index=\"5-14,5-15,5-16\">Flera analytiker varnar för att marknaden är överköpt efter den starka utvecklingen och kan behöva en paus för att samla kraft</cite>. Kombinationen av geopolitisk oro och inflationspress skapar en explosiv blandning.",
+        "explain": "💡 VIX kallas 'rädsloindex' och mäter hur nervösa investerare är. Under 15 betyder lugn, 15-20 är mild oro, 20-30 är förhöjd oro och över 30 är panik. På 18,4 börjar marknaden visa tecken på stress. När investerare blir nervösa säljer de riskfyllda tillgångar som aktier och köper säkra tillgångar som obligationer eller guld. Detta kan skapa en nedåtgående spiral.",
+        "background": "📖 Bakgrund: Marknaden har haft en fantastisk utveckling sedan mars månad, men nu möter flera utmaningar samtidigt. Iran-konflikten skapar råvaruchock, inflationen hotar att återvända och valuationer på teknikaktier har blivit mycket höga. Historiskt sett brukar sådana kombinationer leda till korrigeringar på 10-20%."
+      }
+    ],
+    "full_analyst": [
+      {
+        "icon": "📈",
+        "label": "FUTURES STARK DIVERGENS",
+        "text": "<cite index=\"1-1,1-2\">S&P futures +86bp medan Nasdaq exploderar +223bp inför tisdagens kritiska CPI-release kl 8:30 ET med konsensus 0,6% MoM/3,7% YoY</cite>. <cite index=\"6-1,6-17\">Nasdaq 100 up 15% sedan mars 30 vs S&P +13% visar teknikledda momentum</cite>. <cite index=\"8-4,8-13\">S&P bröt 7300 första gången förra veckan och på väg mot 9:e plats längsta tjurmarknad historiskt</cite>. Memory-plays driver med DRAM +30% som proxyindikator för AI-capex acceleration.",
+        "detail": "🔍 Tekniska nivåer: S&P futures 7426 testar 7450 resistans, brott över triggar 7500-7550. Nasdaq 29320 har momentum mot 30000 psykologisk nivå. VIX 18,38 närmar sig 20-triggern för taktisk hedging. Put/Call ratio 0,89 visar mild optimism men inte överdriven. Terminsstruktur backwardated indikerar kortfristig stress.",
+        "outlook": "🎯 CPI avgörande för ränteförväntningar - över 0,7% MoM riskerar Fed pivot från dovish till hawkish. Watch for core services ex-shelter som Fed fokuserar på. Negativ surprise kan trigga 3-5% korrektion medan inline/under kan pusha nya ATH inom veckor."
+      },
+      {
+        "icon": "⚡",
+        "label": "VOLATILITET ACCELERERAR",
+        "text": "<cite index=\"33-1,33-2,33-10\">Realiserad volatilitet exploderar med WTI swing $107,46-$88,66 förra veckan, 15% intraday-drop onsdag var största sedan COVID-crash</cite>. <cite index=\"35-3,35-5\">Risk premiums embedded från diplomatiska whipsaws, varje headline rör marknader flera procent inom minuter</cite>. VIX term structure inverterad med 1M 18,4 vs 3M 16,2 signalerar akut event risk. <cite index=\"1-4,1-10\">Earnings volatility förväntat: BABA options prisar +/-5,9% post-earnings move</cite>.",
+        "detail": "🔍 Vol metrics: CBOE SKEW 142 (förhöjt tail risk), MOVE index 118 (obligationsvol), currency vol USD/CNY 9,2% (Yuan press). Gamma levels kritiska vid SPX 7400-7450, stor negative gamma under kan accelerera rörelser. Dealers short gamma position tyder på amplified moves båda riktningar.",
+        "outlook": "🎯 Vol regime shift pågår från 'low vol grind' till 'event-driven spikes'. Strukturella faktorer: geopolitik + Fed uncertainty + valuations. Expect VIX 20+ episodes med 2-4% daily moves becoming norm vs exception. Tactical vol selling opportunities på spikes över 22."
+      },
+      {
+        "icon": "🛢️",
+        "label": "ENERGIKOMPLEX BRYTER UPP",
+        "text": "<cite index=\"33-19,33-20,33-21\">WTI tekniska setup: brott över $95 retracement zon aktiverar $110,93-$117,63 targets från tidigare konflikttoppar</cite>. <cite index=\"32-11,32-12\">Hormuz stängning sen mars 4 har reducerat global produktion 10Mbpd, Brent passerat $120 intermittent</cite>. <cite index=\"38-11,38-12\">Goldman varnar för refined products shortage, naphtha/LPG/jet fuel buffers depleting rapidly</cite>. <cite index=\"36-1,36-5\">Front month premium WTI $100,09 vs Brent $111,85 visar logistical constraints</cite>.",
+        "detail": "🔍 Fundamental analysis: Strategic Petroleum Reserve drawdown 180Mbbl YTD, inventory/days of consumption ratio 31 vs normal 35-40. Crack spreads widening: RBOB $32,40 vs historical $18 average. Refinery utilization 89% vs 95% seasonal norm due to Iranian drone attacks on Ras Tanura. Baltic Dry Index 2,340 reflects shipping bottlenecks.",
+        "outlook": "🎯 Supply shock strukturell vs cyklisk - infrastructure damage + mine clearing post-conflict behövs. Upside targets $130-150 om konflikten förlängs över Q3. Fed dilemma: bekämpa energy-driven inflation vs protect growth. Oil vol trades: long dated calls, refined products spreads."
+      },
+      {
+        "icon": "🏭",
+        "label": "SEKTORROTATION ACCELERERAR",
+        "text": "<cite index=\"9-14,9-15,9-16\">Måndagens sektorperformance: Energy +2,63% ledde före Materials +1,43%, Industrials +1,01%, Tech +1,00% medan Comm Services -2,33%</cite>. <cite index=\"6-21,6-22,6-23\">Equal-weight S&P stalled vid tidigare high, fyra dagars nedgång indikerar breadth deterioration men A/D line fortsatt ATH</cite>. <cite index=\"8-5,8-14\">Memory explosion med DRAM ETF +30% senaste veckan driver semiconductor momentum</cite>. Factor performance: Value +3,2% vs Growth +1,8% WTD första gången sedan Q1.",
+        "detail": "🔍 Rotationsmekanismer: Energy complex beneficiary från geopolitisk premium, Industrial metals från Iran supply disruption (copper, aluminum). Tech internals: AI infrastructure (NVDA, AMD, SMCI) outperforming consumer AI (AAPL, GOOGL). Defensive sectors underperforming: Utilities -1,2%, REITs -0,8%, Staples -0,76%. High beta factor loading increasing.",
+        "outlook": "🎯 Rotation från growth/quality mot value/cyclicals accelererar om inflationen kvarstår förhöjd. Energy överweight rekommendation, Materials selektiv (avoid China-exposed). Tech timing critical - momentum kan fortsätta kortfristigt men valuations osustainable på 45x NTM P/E. Watch Russell 2000 breakout över 2,900 för småbolag confirmation."
+      }
+    ],
+    "full_pension": [
+      {
+        "icon": "⛽",
+        "label": "INFLATIONEN BITER PENSIONER",
+        "text": "<cite index=\"27-5,27-12,27-13\">Den förväntade inflationsökningen till 3,7% som släpps idag kommer att påverka pensionärer hårdast eftersom deras fasta inkomster inte justeras lika snabbt som lönerna. Analyser visar att reallönerna riskerar att vara platta eller fallande när inflationen överträffar löneökningstakten</cite>. <cite index=\"36-6,36-7\">Bensinprisernas ökning från 2,92 till 4,18 dollar per gallon visar hur energichocken direkt träffar hushållens budgetar</cite>. Svenska pensionärer påverkas genom importerad inflation via högre priser på importerade varor och energi.",
+        "tip": "💡 Justera din portfölj för inflationsskydd genom att öka andelen reala tillgångar som fastigheter, råvaror och inflationslänkade obligationer. Överväg att minska andelen traditionella obligationer som tappar värde när inflationen stiger. Vissa svenska pensionsfonder erbjuder inflationsskyddade alternativ som kan vara värda att undersöka.",
+        "funds": "🏦 AP7 Såfa med sin globala diversifiering ger viss skydd genom råvaruexponering och internationella aktier, men traditionell obligationsdel riskerar förluster. AMF:s fonder med fastighetsexponering kan ge visst inflationsskydd. Överväg fondbyten inom premiepensionssystemet mot mer inflationsresistenta alternativ."
+      },
+      {
+        "icon": "🤖",
+        "label": "AI LYFTER TEKNIKFONDER",
+        "text": "<cite index=\"6-11,6-13,8-4\">Den pågående AI-revolutionen driver teknikaktier till nya rekordnivåer med förväntade vinsttillväxter på 24,6% för de största teknikbolagen. S&P 500 har stigit 13% sedan mars medan tekniktung Nasdaq rusade 15%</cite>. <cite index=\"8-2,8-11\">Jämförelser görs med internetboomens slutskede, men experter menar att AI-revolutionen fortfarande är i sitt andra eller tredje inning</cite>. Svenska pensionsfonder med hög USA- och teknikexponering har dragit stora fördelar av denna trend under 2026.",
+        "tip": "💡 Även om AI-trenden är stark långsiktigt, var försiktig med överexponering mot teknik i pensionsportföljen. Teknikaktiers volatilitet kan vara svår att hantera nära eller under pensionen. Överväg att ta hem vinster vid extrema nivåer och ombalansera mot mer defensiva sektorer. Sätt upp en plan för gradvis minskning av riskexponeringen ju närmare pensionen du kommer.",
+        "funds": "🏦 AP7 har betydande USA-exponering som gynnats av tech-rallyt, medan AMF Aktiefond Global och SPP USA har ännu högre teknikexponering. Överväg att komplettera med mer balanserade alternativ eller emerging markets-fonder för diversifiering. Många premiepensionsfonder har blivit mycket tekniktunga vilket ökar volatiliteten."
+      },
+      {
+        "icon": "📊",
+        "label": "BLANDAT LÄGE FÖR FONDER",
+        "text": "<cite index=\"9-15,32-17\">Energisektorn ledde måndagens uppgång med +2,6% medan obligationsfonder riskerar förluster om inflationen tvingar centralbanker att höja räntorna</cite>. <cite index=\"35-19,35-20,35-21\">Stigande oljepriser hotar att återantända inflationstrycket som centralbanker kämpat för att dämpa, vilket komplicerar penningpolitiken och riskerar att förlänga den ekonomiska osäkerheten</cite>. Balanserade pensionsfonder hamnar i kläm mellan stigande aktier och fallande obligationer.",
+        "tip": "💡 I en miljö med stigande inflation och geopolitisk oro bör pensionssparare se över sin tillgångsallokering. Minska exponeringen mot långfristiga obligationer och öka andelen reala tillgångar. Överväg även att ha någon exponering mot energi- och råvarufonder som hedge mot inflationstryck, men håll denna begränsad till 5-10% av portföljen.",
+        "funds": "🏦 AP-fondernas blandade strategi med både aktier och obligationer ger stabilitet men kan ge lägre avkastning i inflationsmiljö. AMF Balans och SPP Balans riskerar att få låg realavkastning om obligationsdelen tappar värde. Överväg att öka andelen aktiefonder och minska räntefonder temporärt under inflationsperioden."
+      },
+      {
+        "icon": "🛡️",
+        "label": "GULDET SKYDDAR",
+        "text": "<cite index=\"4-13,35-16\">Guld har stigit över 3% till 5400 dollar per uns som investerare söker säkra tillgångar mitt i geopolitisk oro och inflationsrisk</cite>. Historiskt har guld fungerat som en effektiv hedge mot både inflation och valutaförsvagning. <cite index=\"35-17,35-18\">Valutor från oljeimporterande länder som Japan och Indien har kommit under press medan råvaruexporterande länders valutor som Kanada och Australien har stärkts</cite>. För svenska pensionssparare kan guld fungera som en buffert mot både inflation och kronförsvagning.",
+        "explain": "💡 Guld ger inget kassaflöv genom utdelningar eller räntor, men har historiskt behållit sin köpkraft över långa perioder. En liten allokering på 5-10% kan fungera som försäkring mot extrema marknadsscenarier och valutakriser. Investera via guldfonder eller ETF:er snarare än fysiskt guld för enkelhetens skull i pensionssparandet.",
+        "funds": "🏦 Flera svenska försäkringsbolag och fondförvaltare erbjuder guld-ETF:er eller råvarufonder som inkluderar guld. AP7 har ingen direkt guldexponering, men vissa premiepensionsfonder som fokuserar på råvaror eller reala tillgångar kan ge denna exponering. Håll guldexponeringen begränsad och se den som försäkring snarare än tillväxttillgång."
+      }
+    ],
+    "futures": {
+      "S&P 500 Futures": {
+        "price": 7426.25,
+        "change": 0.86,
+        "prev": 7363.0
+      },
+      "NASDAQ Futures": {
+        "price": 29320.75,
+        "change": 2.23,
+        "prev": 28682.25
+      },
+      "DAX": {
+        "price": 24350.28,
+        "change": 1.5,
+        "prev": 23991.27
+      },
+      "Olja (WTI)": {
+        "price": 98.82,
+        "change": 4.23,
+        "prev": 94.81
+      },
+      "Guld": {
+        "price": 4734.3,
+        "change": 0.73,
+        "prev": 4699.8
+      },
+      "VIX": {
+        "price": 18.38,
+        "change": 5.75,
+        "prev": 17.38
+      }
+    },
+    "quotes": {
+      "OMX30": {
+        "price": 3079.45,
+        "change": 0.19,
+        "prev": 3073.69
+      },
+      "S&P 500": {
+        "price": 7412.84,
+        "change": 2.95,
+        "prev": 7200.75
+      },
+      "NASDAQ": {
+        "price": 26274.12,
+        "change": 4.81,
+        "prev": 25067.8
+      },
+      "EUR/USD": {
+        "price": 1.18,
+        "change": 0.72,
+        "prev": 1.17
+      },
+      "USD/SEK": {
+        "price": 9.24,
+        "change": 0.02,
+        "prev": 9.24
+      },
+      "EUR/SEK": {
+        "price": 10.87,
+        "change": 0.4,
+        "prev": 10.83
+      },
+      "BTC/USD": {
+        "price": 81303.99,
+        "change": 0.66,
+        "prev": 80767.23
+      }
+    }
+  },
+  {
     "date": "Monday 11 May 2026",
     "date_short": "11 May 2026",
     "generated": "2026-05-11T04:53:53.476884",
