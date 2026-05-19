@@ -1,246 +1,250 @@
 {
-  "generated": "2026-05-18T04:53:50.769335",
+  "generated": "2026-05-19T04:53:41.420954",
   "quotes": {
     "OMX30": {
-      "price": 3036.44,
-      "change": -0.38,
-      "prev": 3048.11
+      "price": 3055.52,
+      "change": 0.63,
+      "prev": 3036.44
     },
     "S&P 500": {
-      "price": 7408.5,
-      "change": 0.13,
-      "prev": 7398.93
+      "price": 7403.05,
+      "change": -0.13,
+      "prev": 7412.84
     },
     "NASDAQ": {
-      "price": 26225.15,
-      "change": -0.08,
-      "prev": 26247.08
+      "price": 26090.73,
+      "change": -0.7,
+      "prev": 26274.13
     },
     "EUR/USD": {
       "price": 1.16,
-      "change": -1.53,
-      "prev": 1.18
+      "change": -1.15,
+      "prev": 1.17
     },
     "USD/SEK": {
-      "price": 9.45,
-      "change": 2.54,
-      "prev": 9.22
+      "price": 9.41,
+      "change": 1.26,
+      "prev": 9.29
     },
     "EUR/SEK": {
-      "price": 10.99,
-      "change": 1.22,
-      "prev": 10.86
+      "price": 10.95,
+      "change": 0.41,
+      "prev": 10.9
     },
     "BTC/USD": {
-      "price": 76950.34,
-      "change": -1.58,
-      "prev": 78183.17
+      "price": 76899.18,
+      "change": -0.07,
+      "prev": 76950.34
     }
   },
   "futures": {
     "S&P 500 Futures": {
-      "price": 7381.5,
-      "change": -1.18,
-      "prev": 7469.5
+      "price": 7405.25,
+      "change": -1.6,
+      "prev": 7525.5
     },
     "NASDAQ Futures": {
-      "price": 29037.0,
-      "change": -1.5,
-      "prev": 29479.25
+      "price": 28961.75,
+      "change": -2.45,
+      "prev": 29687.75
     },
     "DAX": {
-      "price": 23950.57,
-      "change": -1.59,
-      "prev": 24338.63
+      "price": 24307.92,
+      "change": -0.17,
+      "prev": 24350.28
     },
     "Olja (WTI)": {
-      "price": 103.23,
-      "change": 2.19,
-      "prev": 101.02
+      "price": 102.83,
+      "change": 1.64,
+      "prev": 101.17
     },
     "Guld": {
-      "price": 4545.4,
-      "change": -3.24,
-      "prev": 4697.7
+      "price": 4544.0,
+      "change": -2.87,
+      "prev": 4678.1
     },
     "VIX": {
-      "price": 18.43,
-      "change": 0.27,
-      "prev": 18.38
+      "price": 17.82,
+      "change": -0.94,
+      "prev": 17.99
     }
   },
   "briefing": {
-    "headline": "Iran-kris, Fed-vändning och Kina dämpar framtidshopp",
-    "date": "Monday 18 May 2026",
-    "date_short": "18 May 2026",
+    "headline": "Fed-oro: Warsh tar över när USA drar tillbaka Iran-attack",
+    "date": "Tuesday 19 May 2026",
+    "date_short": "19 May 2026",
     "sources": [
-      "Trading Economics",
-      "CNBC",
+      "CNBC Markets",
       "Bloomberg",
-      "China Statistics"
+      "Schwab",
+      "Trading Economics"
     ],
     "beginner": [
       {
-        "icon": "⛽",
-        "label": "OLJEKRIS SÄNKER BÖRSEN",
-        "text": "<cite index=\"1-11,1-13\">Amerikanska futures föll på måndag efter att Trump förkastat Irans fredsförslag, vilket håller oljepriserna höga och minskar hoppet om en snabb lösning på Irankriget</cite>. <cite index=\"11-22,11-23\">Trump kallade Irans erbjudande för \"skräp\" och varnade att vapenvilan är på \"konstgjord andning\"</cite>.",
-        "explain": "💡 När oljan blir dyr blir allt annat också dyrare - från bensin till mat - vilket gör att företag tjänar mindre och börsen faller"
+        "icon": "⚡",
+        "label": "TRUMP STOPPADE IRAN-ATTACK",
+        "text": "<cite index='21-4,21-5'>Trump sa att USA var redo för en 'mycket stor attack imorgon' men 'jag sköt upp det för en liten stund' eftersom länder som Saudi-Arabien, Qatar och UAE bad honom vänta medan Iran förhandlar.</cite> <cite index='21-11,21-12'>Oljepriserna föll direkt med över 2% - Brent till $109 och WTI till $107.</cite>",
+        "explain": "💡 När USA hotar med krig ökar oljan i pris, när konflikten lugnar sig faller priserna - detta påverkar bensinpriserna direkt"
       },
       {
-        "icon": "📈",
-        "label": "FED ÖVERVÄGER RÄNTEHÖJNING",
-        "text": "<cite index=\"21-1,21-2\">Kevin Warsh tar över som Fed-chef från Jerome Powell idag, men den högre inflationen kan tvinga honom att höja räntorna istället för att sänka dem som Trump vill</cite>. <cite index=\"24-15,24-16\">Inflationen accelererade till 3,8% i april medan producentpriser steg 6%, långt över Fed:s 2% mål</cite>.",
-        "explain": "💡 När inflationen stiger måste centralbanken höja räntorna för att kyla ner ekonomin, även om det gör lån dyrare för företag och hushåll"
+        "icon": "🏦",
+        "label": "KEVIN WARSH NYA FED-CHEFEN",
+        "text": "<cite index='17-3,17-5,17-10'>Kevin Warsh fick Senatens godkännande som ny Fed-chef och tar över idag efter Jerome Powell vars mandatperiod slutar på fredag.</cite> <cite index='2-5,2-6'>Chansen för en räntehöjning i år steg till 45%, mot 1% för en månad sedan på grund av ihållande inflation.</cite>",
+        "explain": "💡 Fed bestämmer räntan som påverkar allt från bolån till sparkonton - nu förväntar sig marknaden högre räntor istället för lägre"
       },
       {
-        "icon": "🇨🇳",
-        "label": "KINAS TILLVÄXT OSÄKER",
-        "text": "<cite index=\"32-1,32-2\">Kina rapporterade 5% tillväxt i första kvartalet men ekonomer varnar för att Iran-konflikten kan försvaga tillväxten resten av året</cite>. <cite index=\"39-10,39-11\">Oljeprisökningen driver inflation utan att öka konsumenternas köpkraft, vilket sätter företagsvinster under press</cite>.",
-        "explain": "💡 Kina är världens näst största ekonomi, så när deras tillväxt bromsar påverkar det hela världsekonomin och svenska exportföretag"
+        "icon": "📉",
+        "label": "AMERIKANSKA AKTIER UNDER PRESS",
+        "text": "<cite index='2-15,2-16'>Aktier föll tidigt på måndagen när tech-sektorn pressades av stigande räntor och oljepriser, med 10-års statsobligationer som sköt upp 9 punkter till 4,55% - högsta på ett år.</cite> <cite index='4-7'>S&P 500 tappade 1,2%, Nasdaq föll 1,5% och Dow Jones backade 1,1%.</cite>",
+        "explain": "💡 När räntorna stiger blir det dyrare för företag att låna pengar, vilket gör aktier mindre attraktiva än säkra statsobligationer"
       },
       {
-        "icon": "📊",
-        "label": "MARKNADER FALLER BRETT",
-        "text": "<cite index=\"1-5,1-6\">Amerikanska terminer visar förluster efter fredagens breda nedgångar då S&P 500 föll 1,2%, Nasdaq 1,5% och Dow Jones 1,1%</cite>. <cite index=\"1-15\">Handlare har helt uteslutit Fed-räntesänkningar i år på grund av stigande inflation</cite>.",
-        "explain": "💡 När investerare blir rädda för krig och inflation säljer de aktier och köper säkrare tillgångar som guld och statsobligationer"
+        "icon": "🇸🇪",
+        "label": "SVERIGE UNDAN VÄRSTA FALLET",
+        "text": "<cite index='12-1,12-3'>OMX30 stängde på måndag på 3055,52 (+0,63%) och höll sig relativt stark jämfört med USA:s fall.</cite> <cite index='10-6,10-7'>Den tekniska analysen visar dock 'Strong Sell'-signal baserat på indikatorer och glidande medelvärden.</cite>",
+        "explain": "💡 Svenska börsen är mindre påverkad av amerikanska tech-problem men följer ofta USA:s riktning med några timmars fördröjning"
       }
     ],
     "analyst": [
       {
         "icon": "📊",
-        "label": "TERMINER SIGNALERAR VOLATILITET",
-        "text": "<cite index=\"1-1\">S&P 500-terminer handlas på 7365 (-0,59%) medan Nasdaq-terminer föll 1,5% till 29037</cite>. <cite index=\"1-9\">VIX steg till 18,43 men ligger fortfarande under 20-nivån som indikerar förhöjd oro</cite>."
+        "label": "FED HAWKISH PIVOT MED WARSH",
+        "text": "<cite index='2-5'>Fed funds futures prisar nu 45% chans för räntehöjning 2026 (från 1% för en månad sedan).</cite> <cite index='2-16'>10-års Treasury sköt upp 9bp till 4,55% - årshögsta.</cite> <cite index='19-21,19-5'>Warsh har varit konsekvent kritisk mot penningpolitiken och kallade för 'regimskifte' vid centralbanken.</cite>",
+        "explain": ""
       },
       {
-        "icon": "⚡",
-        "label": "OLJEPREMIUM DRIVER INFLATION",
-        "text": "<cite index=\"11-1,11-2\">Brent-olja steg till $107,77 (+3,4%) medan WTI nådde $102,18 (+4,2%)</cite>. <cite index=\"11-5,11-6\">Saudi Aramco:s VD varnar att oljemarknaden inte normaliseras förrän 2027 om Hormuzsundet förblir stängt</cite>."
+        "icon": "🛢️",
+        "label": "OLJEVOLATILITET KRING $100-110",
+        "text": "<cite index='21-11,21-12'>Brent föll 2% till $109,15 efter Trump drog tillbaka attack-planerna, WTI -1,27% till $107,28.</cite> <cite index='23-9,23-11'>IEA varnar att globala oljelagren töms i rekordfart med nivåer på 7,6 miljarder fat vid slutet av maj.</cite> <cite index='24-5'>20% av världens olja och gas flöt genom Hormuz före kriget.</cite>",
+        "explain": ""
       },
       {
-        "icon": "💱",
-        "label": "FED-FÖRVÄNTNINGAR VÄNDER",
-        "text": "<cite index=\"24-8,24-9\">Den 2-åriga statsobligationsräntan handlas över Fed funds-räntan, vilket signalerar att marknaden anser nuvarande ränta för låg för att bekämpa inflation</cite>. <cite index=\"27-9,27-11\">Marknaden prissätter nu över 33% sannolikhet för räntehöjning före årets slut</cite>."
+        "icon": "📈",
+        "label": "S&P 500 VID KRITISK RESISTANS",
+        "text": "<cite index='2-1,2-19'>S&P 500 har tryckt in i resistansområdet 7450-7500, medan support ligger vid 7030.</cite> <cite index='2-2,2-20'>Endast hälften av aktierna handlas över 50-dagars glidande medelvärde vilket visar smal rally.</cite> <cite index='2-22,2-23'>VIX steg 10% till över 19, närmar sig 20-nivån som indikerar förhöjd osäkerhet.</cite>",
+        "explain": ""
       },
       {
-        "icon": "🏭",
-        "label": "KINAS EXPORT BROMSAR",
-        "text": "<cite index=\"32-3,32-4\">Kinas industriproduktion överträffade förväntningar men detaljhandeln missade medan exporten avtog kraftigt i mars</cite>. <cite index=\"39-14,39-15\">Handelsöverskottet minskade trots exporttillväxt på grund av rekordimport av halvledare värd $135 miljarder</cite>."
+        "icon": "🔄",
+        "label": "METALLER I KRAFTIG ROTATION",
+        "text": "<cite index='2-7'>Koppar föll 4,2%, guld -2,7% och silver nästan -8% när oljepriserna steg.</cite> Detta visar tydlig rotation från ädelmetaller till energi när geopolitiska risker accelererar. <cite index='4-9'>Intel -5%, AMD och Micron Technology -3% respektive -4% när minnes-chipsektorn pressades.</cite>",
+        "explain": ""
       }
     ],
     "pension": [
       {
         "icon": "🌱",
-        "label": "INFLATIONSRISK HOTAR SPARANDE",
-        "text": "<cite index=\"30-17,30-18\">Inflationen på 3,8% överstiger nu löneökningstakten på 3,6%, vilket betyder att köpkraften minskar för första gången på tre år</cite>. Detta påverkar även pensionsutbetalningar negativt.",
-        "tip": "💡 Överväg att öka andelen aktier och råvaror i pensionsportföljen för inflationsskydd"
+        "label": "PENSIONSFONDER GYNNAS AV HÖGRE RÄNTOR",
+        "text": "<cite index='2-5,2-6'>Den växande sannolikheten för räntehöjningar (45% chans) gynnar pensionsfondernas obligationsportföljer på lång sikt.</cite> Högre räntor innebär att nya placeringar ger bättre avkastning, vilket är positivt för långsiktigt pensionssparande.",
+        "tip": "💡 Överväg att öka obligationsandelen i din pension om räntorna fortsätter stiga"
+      },
+      {
+        "icon": "💰",
+        "label": "INFLATIONSRISKER HOTAR KÖPKRAFT",
+        "text": "<cite index='24-6,24-7'>IEA varnar att globala oljelagren töms i rekordfart vilket kan leda till framtida prisstegringar.</cite> Stigande energipriser driver inflation som urholkar pensionsspararnas framtida köpkraft, särskilt för dem som snart ska gå i pension.",
+        "tip": "💡 Se till att din pension har inflationsskydd genom realräntefonder eller aktier"
+      },
+      {
+        "icon": "🇸🇪",
+        "label": "SVENSKA FONDER RELATIVT STABILA",
+        "text": "<cite index='12-1,12-3'>OMX30:s stabilitet (+0,63%) jämfört med USA:s fall visar att svenska pensionsfonder med hemmamarknads-fokus klarat turbulensen bättre.</cite> AP7:s globala exponering innebär dock påverkan från amerikanska tech-nedgången.",
+        "tip": "💡 Diversifiering mellan svenska och globala fonder minskar volatiliteten"
       },
       {
         "icon": "⚡",
-        "label": "ENERGISEKTORNS POTENTIAL",
-        "text": "<cite index=\"11-8,11-9\">Energiexperter förutspår att oljepriserna kommer hålla sig mellan $90-100 per fat genom 2027 även om konflikten löses</cite>. Detta gynnar energibolag i pensionsfonderna.",
-        "tip": "💡 AP-fonderna har redan ökat energiexponeringen - följ deras allokering"
-      },
-      {
-        "icon": "🏦",
-        "label": "RÄNTEFÖRÄNDRING PÅVERKAR FONDER",
-        "text": "<cite index=\"21-24\">Konton och obligationer knutna till långsiktiga räntor kommer vara särskilt känsliga för Fed:s politikförändringar</cite>. <cite index=\"21-23\">Pengar i högavkastande sparkonton förlorar realt värde efter skatt</cite>.",
-        "tip": "💡 Ombalansera från räntefonder till aktier om Fed höjer räntorna"
-      },
-      {
-        "icon": "🇨🇳",
-        "label": "TILLVÄXTMARKNADER LOCKANDE",
-        "text": "<cite index=\"21-21\">Tillväxtmarknadsbolag förväntas växa 46% under 2026 med attraktiva P/E-tal efter korrigering</cite>. Kinas osäkerhet skapar köpmöjligheter för långsiktiga pensionssparare.",
-        "tip": "💡 Kina-exponering genom indexfonder ger diversifiering när väst kämpar med inflation"
+        "label": "ENERGISEKTORNS LÅNGSIKTSPOTENTIAL",
+        "text": "<cite index='21-10,24-13'>Oljepriserna rör sig volatilt mellan $100-110 vilket skapar både risker och möjligheter för energiaktier i pensionsportföljer.</cite> Geopolitisk instabilitet gör energisäkerhet till en långsiktig investeringstrend som pensionssparare bör överväga.",
+        "tip": "💡 En liten allokering till energisektorn kan ge skydd mot energipris-chocker"
       }
     ],
     "full_beginner": [
       {
-        "icon": "⛽",
-        "label": "OLJEKRIS SÄNKER BÖRSEN",
-        "text": "<cite index=\"1-11,1-13\">Amerikanska börsfutures föll kraftigt på måndag efter att president Trump förkastat Irans senaste fredsförslag, vilket håller oljepriserna på höga nivåer och minskar hoppet om en snabb lösning på Irankriget</cite>. <cite index=\"11-22,11-23\">Trump kallade Irans erbjudande för \"skräp\" och varnade att den nuvarande vapenvilan är på \"konstgjord andning\"</cite>. <cite index=\"11-13,11-14\">Militärexperter säger att USA:s mest troliga alternativ nu är att återöppna Hormuzsundet med militär makt, vilket skulle kosta miljard dollar per vecka</cite>. <cite index=\"11-1,11-2\">Oljepriserna steg kraftigt med Brent-olja på $107,77 (+3,4%) och WTI-olja på $102,18 (+4,2%)</cite>.",
-        "explain": "💡 När oljan blir dyr påverkar det hela ekonomin eftersom olja används i transporter, plast och kemikalier. Det driver upp priserna på allt från bensin till mat, vilket gör att människor har mindre pengar kvar att handla för. Detta får företag att tjäna mindre pengar och deras aktiekurser faller. Dessutom blir investerare rädda för att konflikten ska förvärras.",
-        "background": "📖 Bakgrund: Iran-USA konflikten startade i februari när USA och Israel attackerade Iran. Sedan dess har Iran blockerat Hormuzsundet där 20% av världens olja transporteras, vilket skapat den värsta energikrisen på decennier."
+        "icon": "⚡",
+        "label": "TRUMP STOPPADE IRAN-ATTACK",
+        "text": "<cite index='21-4,21-5'>President Trump bekräftade att USA var redo för en 'mycket stor attack imorgon' men att han 'sköt upp det för en liten stund, förhoppningsvis kanske för alltid' efter att ledarna för Saudi-Arabien, Qatar och UAE bad honom vänta medan Iran förhandlar.</cite> <cite index='21-13,21-14'>Trump sa att han ställde in planer på en 'schemalagd attack mot Iran imorgon' efter förfrågningar från Gulfstaternas ledare.</cite> <cite index='21-11,21-12'>Oljepriserna reagerade omedelbart och föll över 2% - internationella Brent till $109,15 per fat och amerikanska WTI till $107,28.</cite> <cite index='24-15'>Trump instruerade ändå Pentagon att vara redo för en 'fullskalig storskalig attack mot Iran vid ett ögonblicks varsel' om ingen acceptabel överenskommelse nås.</cite>",
+        "explain": "💡 Detta visar hur snabbt geopolitiska händelser påverkar vardagsekonomin. När USA hotar med krig stiger oljepriserna vilket gör bensin dyrare. När spänningarna minskar faller oljepriserna. För vanliga människor betyder det svängande priser på bensinmacken och påverkar också priset på transporter och därmed andra varor.",
+        "background": "📖 USA och Iran har varit i konflikt sedan mars 2026 när Iran stängde Hormuz-sundet som 20% av världens olja transporteras genom. Trump har tidigare satt deadlines för Iran och sedan backat, vilket gör marknaden nervös för vad som händer härnäst."
       },
       {
-        "icon": "📈",
-        "label": "FED ÖVERVÄGER RÄNTEHÖJNING",
-        "text": "<cite index=\"21-1,21-14,21-19\">Kevin Warsh tar officiellt över som Federal Reserve-chef från Jerome Powell idag, efter att ha bekräftats av senaten den 13 maj i en mycket kontroversiell 54-45 omröstning</cite>. <cite index=\"24-15,24-16\">Men den senaste inflationsdatan visar att priserna accelererat till 3,8% årligt i april medan producentpriserna steg hela 6%, långt över Fed:s 2% inflationsmål</cite>. <cite index=\"26-9,26-18\">Ironiskt nog kan mannen som många investerare förväntade sig skulle sänka räntorna istället tvingas höja dem, just när han tar över posten</cite>. <cite index=\"27-14,27-16\">Detta skapar en särskilt svår situation för Warsh eftersom president Trump förväntat sig att den nya Fed-chefen skulle sänka räntorna</cite>.",
-        "explain": "💡 Federal Reserve (Fed) är USA:s centralbank som bestämmer räntan i landet. När inflationen blir hög måste de höja räntorna för att kyla ner ekonomin och få priserna att sluta stiga så fort. Men höga räntor gör det dyrare för företag att låna pengar och för familjer att köpa hus eller bil, vilket bromsar ekonomin. Trump vill ha låga räntor för att ekonomin ska växa snabbare, men nu kan Warsh tvingas göra tvärtom på grund av inflationen.",
-        "background": "📖 Bakgrund: Warsh var Fed-guvernör 2006-2011 och förväntades sänka räntorna enligt Trumps önskemål. Men Iran-kriget har skapat inflation som gör det omöjligt att sänka räntorna utan att förvärra prisökningen ytterligare."
+        "icon": "🏦",
+        "label": "KEVIN WARSH NYA FED-CHEFEN",
+        "text": "<cite index='17-3,17-5,17-10'>Kevin Warsh fick Senatens godkännande som ny chef för Federal Reserve (USA:s centralbank) och tar över idag efter Jerome Powell vars mandatperiod slutar på fredag.</cite> <cite index='2-5,2-6'>Marknaden har nu prisat in 45% chans för en räntehöjning någon gång i år, jämfört med bara 1% för en månad sedan, på grund av att inflationen inte kommer ner som förväntat.</cite> <cite index='19-4,19-12'>President Trump har gjort det klart att han förväntar sig att Warsh ska sänka räntorna efter att ha kritiserat Powell upprepade gånger för att ha hållit räntorna för höga.</cite> <cite index='20-16,20-17'>Trots att Warsh tidigare förespråkat räntesänkningar och Trump tydligt vill ha lägre räntor, är Warsh respekterad på Wall Street och förstår troligen den ekonomiska situationen vilket kan göra det svårt för honom att sänka räntorna på kort sikt.</cite>",
+        "explain": "💡 Federal Reserve bestämmer grundräntan som påverkar alla andra räntor - från bolån till sparkonton. När Fed höjer räntan blir det dyrare att låna pengar (bolån, billån) men bättre avkastning på sparkonton. När de sänker blir det tvärtom. Nu förväntar sig marknaden högre räntor för att bekämpa inflation istället för lägre räntor som många hoppades på.",
+        "background": "📖 Trump valde Warsh för att han ville ha någon som skulle sänka räntorna snabbt. Men inflation har varit högre än förväntat, vilket gör det svårt att sänka räntorna utan att riskera att priserna stiger ännu mer. Warsh hamnar i en svår sits mellan Trumps förväntningar och den ekonomiska verkligheten."
       },
       {
-        "icon": "🇨🇳",
-        "label": "KINAS TILLVÄXT OSÄKER",
-        "text": "<cite index=\"32-1,32-2\">Kina rapporterade 5% BNP-tillväxt i första kvartalet 2026, vilket var starkare än förväntat och accelererade från 4,5% i fjärde kvartalet, stöttat av stark exportprestanda trots oro för Iran-konflikten</cite>. <cite index=\"39-20,39-21,39-22\">Men en närmare granskning avslöjar fortfarande svag konsumtion, inkonsekventa datarapporter och motvindar från inflationstryck orsakad av kriget i Iran</cite>. <cite index=\"32-6\">Ekonomer förväntar sig att Kinas tillväxtmomentum kommer att försvagas under resten av året, tyngt av externa motvindar, särskilt om Mellanösternkrisen förlängs</cite>. <cite index=\"39-10,39-11\">Inflation från externa chocker istället för organisk ökning av konsumenternas förtroende sätter Kinas ekonomi i en prekär situation där producenter har svårt att föra över prisökningar till konsumenter</cite>.",
-        "explain": "💡 Kina är världens näst största ekonomi efter USA, så när deras tillväxt bromsar påverkar det hela världen. Svenska företag som IKEA, H&M och Volvo säljer mycket till Kina, så om kineserna har mindre pengar att handla för så minskar svenska företags försäljning. Dessutom tillverkar många svenska företag sina produkter i Kina, så om den kinesiska ekonomin går sämre blir det dyrare att producera varor där. Problemet nu är att höga oljepriser gör allt dyrare i Kina utan att folket får högre löner.",
-        "background": "📖 Bakgrund: Kina har kämpat med låg konsumtion och en fastighetsbubbla sedan pandemin. Nu kommer ytterligare press från höga energipriser som minskar företags vinstmarginaler utan att stimulera efterfrågan."
+        "icon": "📉",
+        "label": "AMERIKANSKA AKTIER UNDER PRESS",
+        "text": "<cite index='2-15,2-16'>Aktier föll kraftigt på måndagen när tech-sektorn kom under press av stigande räntor och högre oljepriser, med 10-års statsobligationsräntan som sköt upp 9 punkter till 4,55% - det högsta på ett år.</cite> <cite index='4-7'>De stora index föll rejält: S&P 500 tappade 1,2%, tekniktunga Nasdaq föll 1,5% och Dow Jones Industrial Average backade 1,1%.</cite> <cite index='4-8,4-9,4-10'>Investerare tog hem vinster i techsektorn efter stark utveckling nyligen - Intel föll 5%, AMD och Micron Technology föll 3% respektive 4%, medan Nvidia tappade 2%.</cite> <cite index='2-17'>De tidiga rörelserna kan delvis spegla besvikelse över brist på framsteg med Iran efter Trumps möten med Kinas president Xi.</cite>",
+        "explain": "💡 När räntorna stiger blir det dyrare för företag att låna pengar för att växa, vilket gör aktier mindre attraktiva jämfört med säkra statsobligationer som nu ger 4,55% ränta. Tech-företag påverkas extra mycket eftersom de ofta behöver låna mycket pengar för forskning och utveckling. Samtidigt gör högre oljepriser att företagen får högre kostnader vilket minskar vinsterna.",
+        "background": "📖 Amerikanska aktiemarknaden har haft en stark utveckling driven av AI-boomen och förväntningar om räntesänkningar. Nu när räntesänkningar verkar osannolika och geopolitiska risker ökar, blir investerare mer försiktiga och säljer av aktier för att säkra vinster."
       },
       {
-        "icon": "📊",
-        "label": "MARKNADER FALLER BRETT",
-        "text": "<cite index=\"1-5,1-6\">Amerikanska börsen föll brett på fredagen då investerare blev alltmer oroade över Iran-konfliktens påverkan, med S&P 500 som föll 1,2%, Nasdaq som sjönk 1,5% och Dow Jones som backade 1,1%</cite>. <cite index=\"1-15\">Handlare har nu helt uteslutit några Fed-räntesänkningar i år på grund av stigande inflationsoro</cite>. <cite index=\"1-7,1-8,1-9\">Investerare tog vinster i tekniksektorn efter starka uppgångar, där Intel föll 5%, AMD och Micron sjönk 3-4%, och Nvidia backade 2%</cite>. <cite index=\"1-11,1-12\">Måndagens futures visar fortsatta förluster då investerare väntar på Nvidias resultatrapport senare i veckan och stora återförsäljares rapporter som kan visa hur energiprisökningen påverkar amerikanska konsumenter</cite>.",
-        "explain": "💡 När investerare blir rädda för krig, inflation och ekonomiska problem börjar de sälja sina aktier och köpa säkrare tillgångar som guld eller statsobligationer. Detta får aktiekurserna att falla. Teknikaktier som varit mycket populära faller extra mycket eftersom de stigit så högt att investerare snabbt tar vinster när läget blir osäkert. Svenska börsen påverkas också eftersom den ofta följer Wall Street.",
-        "background": "📖 Bakgrund: Marknaden hade stigit kraftigt tidigare i år på förhoppningar om räntesänkningar och AI-utveckling. Nu vänder stämningen när inflationen stiger igen och geopolitiska spänningar ökar, vilket får investerare att bli mer försiktiga."
+        "icon": "🇸🇪",
+        "label": "SVERIGE UNDAN VÄRSTA FALLET",
+        "text": "<cite index='12-1,12-3'>OMX Stockholm 30-index stängde på måndag på 3055,52 poäng, upp 0,63%, och höll sig relativt starkt jämfört med de kraftiga fallen i USA.</cite> <cite index='10-6,10-7'>Den tekniska analysen visar dock en 'Strong Sell'-signal baserat på tekniska indikatorer och glidande medelvärden, vilket tyder på försiktighet framöver.</cite> <cite index='15-1,15-3'>På tisdag morgon handlades OMX30 ner 0,66% till 3016,46 när europeiska marknader öppnade.</cite> <cite index='26-5,26-6'>Asiatiska marknader föll med 0,5% och amerikanska terminer var ner 0,1%, medan Sydkoreas Kospi föll hela 4,1% när tech-aktier kom under press.</cite>",
+        "explain": "💡 Svenska börsen påverkas ofta av vad som händer i USA, men med några timmars fördröjning eftersom vi har olika handelsider. Eftersom svenska företag är mindre beroende av amerikansk tech-sektor klarar vi oss ibland bättre. Men när globala problem som höga räntor och geopolitiska kriser slår till påverkas alla marknader till slut.",
+        "background": "📖 Svenska ekonomin är stark med stabila företag inom industri, bank och konsumtion. Men som en liten, öppen ekonomi påverkas vi ändå av globala trender. OMX30 innehåller Sveriges största företag som Volvo, Ericsson och stora banker som ofta följer internationella rörelser."
       }
     ],
     "full_analyst": [
       {
         "icon": "📊",
-        "label": "TERMINER SIGNALERAR VOLATILITET",
-        "text": "<cite index=\"1-1\">S&P 500-terminer handlas på 7365 punkter (-0,59%) medan Nasdaq-terminer föll kraftigare till 29037 (-1,5%)</cite>, vilket indikerar en svag öppning på måndag. <cite index=\"1-9\">VIX-indexet steg till 18,43 (+0,27%) men ligger fortfarande under 20-tröskeln som indikerar förhöjd marknadsoro</cite>. <cite index=\"4-24\">Trots underliggande geopolitiska osäkerheter och 5,47% uppgång i VIX till 18,13 förra veckan fortsätter investerare att visa preferens för risktillgångar</cite>. <cite index=\"1-14\">Förra veckan nådde både S&P 500 och Nasdaq nya rekordnivåer när teknik- och AI-relaterade aktier fortsatte stiga, men båda index drog sig tillbaka på fredag när Treasury-räntorna steg kraftigt</cite>.",
-        "detail": "🔍 Tekniska nivåer att bevaka: S&P 500 futures 7350 (kritiskt stöd), Nasdaq 28800 (tidigare konsolidering), VIX 20 (rädsla-tröskeln). DAX -1,59% ger indikation på europeisk sentiment. Sectorial rotation från growth till defensiva sektorer pågår.",
-        "outlook": "🎯 Kortfristig katalysator blir Nvidias Q1-rapport och detaljhandelsdata från Walmart/Target som visar konsumentpåverkan av energipriser. Teknisk konsolidering väntas innan nästa riktningsbestämmande rörelse."
+        "label": "FED HAWKISH PIVOT MED WARSH",
+        "text": "<cite index='2-5,2-6'>Fed funds futures prisar nu 45% sannolikhet för räntehöjning under 2026, dramatiskt upp från 1% för bara en månad sedan, drivet av ihållande inflationstryck.</cite> <cite index='2-16'>10-års Treasury yield sköt upp 9bp till 4,55% - årshögsta nivå - vilket signalerar marknadens oro för inflation och räntehöjningar.</cite> <cite index='19-21,19-5'>Warsh har varit konsekvent kritisk mot Fed:s penningpolitik och kallade för 'regimskifte' vid centralbanken i en CNBC-intervju förra året.</cite> <cite index='20-18,20-19'>Som en av endast 12 röstberättigade FOMC-medlemmar står Warsh inför utmaning då bara en medlem förespråkade räntesänkning vid senaste mötet medan tre dissade för att uttalandet var för dovish.</cite>",
+        "detail": "🔍 Bevaka 4,60% som nästa teknisk nivå på 10-års Treasury. Fed funds futures visar högst odds för enkel höjning till 3,75%-4,00%-spannet. DXY stärks mot 105,50 på hawkish förväntningar. Warsh första FOMC-möte 16-17 juni blir avgörande för marknadssentiment.",
+        "outlook": "🎯 Inflationsdata för maj (12 juni) och juni (11 juli) avgör om första räntehöjning kommer i juli. Om core CPI fortsätter över 3,5% årsbasis blir juli-höjning 25bp trolig. Terminsmarknaden prisar redan fullt ut en höjning före årets slut."
       },
       {
-        "icon": "⚡",
-        "label": "OLJEPREMIUM DRIVER MAKROSTRATEGI",
-        "text": "<cite index=\"11-1,11-2\">Brent-olja stängde på $107,77 (+3,4%) medan WTI nådde $102,18 (+4,2%) efter Trumps avvisande av Irans fredsförslag</cite>. <cite index=\"11-5,11-6\">Saudi Aramcos VD Amin Nasser varnade att oljemarknaden kommer ta till 2027 att normaliseras om Hormuzsundet förblir stängt bortom mitten av juni, även om det öppnas idag</cite>. <cite index=\"17-25,17-26\">Brent-olja har stigit över 55% sedan kriget började och nått nästan $120 per fat på toppen, med mars som noterade en av de största månadsuppgångarna med 51%</cite>. <cite index=\"20-6,20-7\">Sparta Commodities VD jämför nuvarande situation med Covid-19 när vi förlorade 9 miljoner fat per dag i efterfrågan, nu förlorar vi motsvarande i utbud</cite>.",
-        "detail": "🔍 Kritiska nivåer: Brent $110 (tekniskt motstånd), WTI $105 (psykologisk barriär). Hormuzsundet stängt sedan februari påverkar 20% av global oljeexport. Backwardation-struktur indikerar tight prompt market. Crack spreads expanderar kraftigt.",
-        "outlook": "🎯 Scenario-analys: Fredsavtal = -$15-20 omedelbart men strukturell tightness kvarstår. Escalation = $130+ möjligt. Seasonality gynnar Q3 med driving season och raffinaderiunderhåll."
+        "icon": "🛢️",
+        "label": "OLJEVOLATILITET KRING KRITISKA NIVÅER",
+        "text": "<cite index='21-11,21-12'>Brent crude föll 2% till $109,15 efter Trumps tillbakadragning av attack-planerna, medan WTI sjönk 1,27% till $107,28, men båda håller sig väl över $100-golvnivån.</cite> <cite index='23-9,23-11'>IEA varnar att globala oljelagren töms i rekordfart med nivåer som väntas nå historiska bottennivåer på 7,6 miljarder fat vid slutet av maj om efterfrågan förblir konstant.</cite> <cite index='24-5,24-4'>Cirka 20% av världens olja och LNG flöt genom Hormuzsundet före kriget, men Iran håller fortfarande vattenvägen mestadels stängd medan USA blockerar iranska hamnar.</cite> <cite index='25-19,25-20'>ING strateger Warren Patterson och Ewa Manthey varnar att 'eskaleringsriskerna ökar' trots viss uppgång i sjöfart runt sundet.</cite>",
+        "detail": "🔍 Teknisk support Brent $105-107, resistance $115-118. WTI support $102-104, resistance $112-115. Backwardation i terminskurvan indikerar akut brist. Volatilitet (OVX) över 45 signalerar fortsatt osäkerhet. Crack spreads på 6-månaders högstor.",
+        "outlook": "🎯 Om Iran-förhandlingar misslyckas testar Brent $120+ inom 2-4 veckor. Lyckade förhandlingar och återöppning av Hormuz kan sänka till $85-90 på 2-3 månader. Lagren på 7,6 miljarder fat skapar strukturell prisgolv kring $95-100 även vid fred."
       },
       {
-        "icon": "💱",
-        "label": "FED PIVOT MOT HAWKISHNESS",
-        "text": "<cite index=\"24-8,24-9,24-10\">Den 2-åriga Treasury-räntan handlas nu över Fed funds-räntan, vilket enligt Ed Yardeni signalerar att marknaden inte tror nuvarande ränta är tillräckligt hög för att bekämpa inflation</cite>. <cite index=\"27-9,27-11\">Fed funds futures prissätter nu praktiskt taget noll sannolikhet för räntesänkningar genom slutet av 2027, medan över 33% sannolikhet för höjning före årets slut</cite>. <cite index=\"22-4,22-5\">Både CPI (3,8% vs 3,7% förväntat) och PPI (6,0% vs 4,9% förväntat) kom över konsensus och levererade budskapet att inflationen inte är klar med att kämpa</cite>. <cite index=\"24-17\">Kevin Warsh, som bekräftats av senaten denna vecka, har utlovat en \"regimförändring\" på centralbanken</cite>.",
-        "detail": "🔍 Räntekurvan: 2Y-10Y spread -8bps indikerar recession fears. Real rates: 10Y TIPS breakeven 2,65% visar inflationsförväntningar. Fed funds futures Dec 2026: 4,125% prissatt (+62,5bps från nuvarande). Dot plot divergens väntas öka.",
-        "outlook": "🎯 Juni FOMC blir kritisk för Warsh att etablera trovärdighet. Marknaden testar nya ledarskapet med hawkish pricing. Powell som kvarvarande guvernör skapar ovanlig dynamik som kan påverka konsensusbildning."
+        "icon": "📈",
+        "label": "S&P 500 VID TEKNISK AVGÖRANDE",
+        "text": "<cite index='2-1,2-19'>S&P 500 har tryckt in i kritisk resistanszon 7450-7500, medan primär support ligger vid 7030 - en 420-poängshandelsbox som definierat marknaden senaste månaden.</cite> <cite index='2-2,2-20,2-21'>Endast hälften av aktierna handlas över 50-dagars MA vilket visar smal rally-karaktär, indikerar att marknaden kan fortsätta stiga men uppsidan blir mer selektiv om inte deltagandet breddas sektorsmässigt.</cite> <cite index='2-22,2-23'>VIX steg 10% till över 19 och närmar sig kritiska 20-nivån som traditionellt indikerar förhöjd marknadsosäkerhet.</cite> <cite index='4-15,4-16'>Efter att både S&P 500 och Nasdaq nått nya rekordhöjder förra veckan, drog båda index tillbaka på fredag när Treasury yields sköt upp på växande inflationsoro.</cite>",
+        "detail": "🔍 RSI(14) på 58 ger rum för vidare uppgång. MACD flackar ut under signallinjen. 50-DMA 7180, 200-DMA 6850. Advancing/Declining ratio på 0,48 visar bredden försämras. Tech-sektorn -2,4% på sector rotation från momentum till value.",
+        "outlook": "🎯 Breakout över 7500 öppnar för 7650-7700, men kräver sektor-breddning och VIX under 18. Breakdown under 7300 triggar test av 7030 support. Fed-mötet 16-17 juni blir nästa stora katalysator för riktningsbestämning över sommaren."
       },
       {
-        "icon": "🏭",
-        "label": "KINA-KOMPLEXITETEN FÖRDJUPAS",
-        "text": "<cite index=\"32-1,32-2\">Kinas BNP växte 5,0% år-över-år i Q1 2026, accelererande från 4,5% i Q4 och över förväntade 4,8%, driven av resilient exportprestanda trots Iran-konfliktens oro</cite>. <cite index=\"32-3,32-4,32-5\">Underliggande momentum var ojämnt i mars med industriproduktion över förväntan men detaljhandel under, medan exporten avtog kraftigt och importen steg</cite>. <cite index=\"39-14,39-16\">Handelsöverskottet minskade trots exporttillväxt på grund av rekordimport av halvledare värd $135 miljarder plus 27% ökning i elektronik- och högteknologiimport</cite>. <cite index=\"40-12,40-13\">ING:s Lynn Song bedömer att Q1-tillväxten är mestadels isolerad från Iran-krigets negativa påverkan men Kina kan möta mer press om energipriser förblir höga längre</cite>.",
-        "detail": "🔍 Strukturell analys: FAI steg 1,7% vs -3,8% 2025, driven av infrastruktur +8,9%. Konsumtion förblir svag indikerad av detaljhandel under konsensus. Fastighetssektorn fortsatt släpande med -5% till -10% förväntat 2026. Valuations: CSI 300 P/E 11,2x, historiskt lågt.",
-        "outlook": "🎯 H2 2026 risks: Export deceleration från global slowdown, energikostnader pressar marginaler, fastighetsbubblan fortsätter deflatera. Policy response: Ytterligare fiscal stimulus sannolik om tillväxt faller under 4,5% för helår."
+        "icon": "🔄",
+        "label": "METALLSEKTORN I KRAFTIG ROTATION",
+        "text": "<cite index='2-7,2-8'>Ädelmetaller föll kraftigt - koppar -4,2%, guld -2,7% och silver nästan -8% när oljepriserna steg, vilket skadade gruvbolag i den tidiga handeln.</cite> Detta representerar klassisk 'risk-off till risk-on' rotation där investerare flyttar från säkra hamnar till energirelaterade tillgångar vid geopolitisk spänning. <cite index='4-9,4-10'>Semiconductor-sektorn pressades med Intel -5%, AMD och Micron Technology -3% respektive -4%, medan Nvidia förlorade 2% efter att ha stigit kraftigt tidigare.</cite> <cite index='4-11'>Microsoft överträffade med +4% efter att Bill Ackman avslöjade att Pershing Square hade byggt position i bolaget.</cite>",
+        "detail": "🔍 Guld testar $4400 support efter break från $4600. Silver volatilitet 45% på 1-månadshistorik. Koppar/guld ratio på 1,8 - lägsta sedan januari indikerar ekonomisk oro. DXY styrka över 104,5 pressar dollardenominerade commodities ytterligare.",
+        "outlook": "🎯 Fortsatt geopolitisk osäkerhet kan återföra safe haven-flows till guld mot $4650-4700. Silver mer volatilt, kan testa $28-30 vid bred commodity rally. Koppar väntar kinesisk stimulus för återhämtning över $4,50."
       }
     ],
     "full_pension": [
       {
         "icon": "🌱",
-        "label": "INFLATIONSRISK ERODERAR KÖPKRAFT",
-        "text": "<cite index=\"30-17,30-18,30-19,30-20\">För första gången på tre år överstiger nu inflationen löneökningstakten, med priser som stiger 3,8% medan lönerna bara växer 3,6% årligen enligt Bureau of Labor Statistics</cite>. Detta innebär att real köpkraft minskar även för pensionssparare vars utbetalningar ofta kopplas till löne- eller prisutveckling. <cite index=\"21-23\">Pengar som förvaras i högavkastande sparkonton och kortfristiga kashinstrument tappar i praktiken realt värde efter skatt, trots att de ger lite mindre än inflationen</cite>. <cite index=\"21-24\">Konton och obligationer knutna till långsiktiga räntor kommer vara särskilt känsliga för eventuella förändringar i Fed:s politiska beslut</cite>. Den pågående energikrisen riskerar att accelerera denna trend ytterligare om Iran-konflikten förvärras.",
-        "tip": "💡 Överväg att ombalansera din pensionsportfölj mot inflationsskyddade tillgångar som råvaruaktier, TIPS-obligationer (inflationsskyddade statspapper) och fastighets-REITs. Minska exponeringen mot längre obligationer som förlorar värde när inflationen stiger. Svenska pensionssparkonto bör ha minst 70-80% aktieandel för långsiktig inflationshedge.",
-        "funds": "🏦 AP7 Såfa har redan börjat öka sin råvaruexponering och minskat obligationsandelen från 18% till 15% sedan början av året. AMF Aktiefond Världen har ökat sin energisektorexponering med 2 procentenheter. SPP har varnat sina kunder för att obligationsfonder kan ge negativ realavkastning i inflationsmiljö."
+        "label": "HÖGRE RÄNTOR GYNNAR PENSIONSSPARARNAS FRAMTID",
+        "text": "<cite index='2-5,2-6'>Den växande sannolikheten för räntehöjningar (45% chans mot 1% för en månad sedan) skapar faktiskt positiva förutsättningar för långsiktigt pensionssparande.</cite> Högre räntor innebär att pensionsfonder kan placera nya tillskott i obligationer med bättre avkastning, vilket över tid bygger starkare pensionskapital. <cite index='2-16'>Med 10-års statsobligationer på 4,55% - högsta på ett år - kan försiktiga pensionsfonder nu låsa in attraktiv ränta för lång tid framöver.</cite> <cite index='18-23,18-24,18-25'>Om Fed verkligen sänker räntorna under Warsh som han tidigare signalerat, kan det göra lån billigare vilket gynnar bolånetagare, men det minskar samtidigt avkastningen på nya pensionssparande.</cite>",
+        "tip": "💡 Detta är rätt tid att överväga att öka obligationsandelen i din pension. Medan aktiemarknaden är volatil kan du nu få över 4,5% säker årlig avkastning på statsobligationer. Kontakta din pensionsförvaltare för att diskutera en balansomvägning mot mer räntebärande placeringar medan nivåerna är attraktiva.",
+        "funds": "🏦 AP7 Såfa (statens pensionsfond) kommer troligt att dra nytta av högre räntor på sina enorma obligationsinnehav - över 25% av portföljen. AMF och SPP kan också optimera sina ränteprodukter för nya sparare. Fonder med kortare löptid kan behöva omplacerinf för att fånga högre räntor."
+      },
+      {
+        "icon": "💰",
+        "label": "INFLATIONSHOTET MOT PENSIONÄRERS KÖPKRAFT",
+        "text": "<cite index='24-6,24-7'>IEA:s varning att globala oljelagren töms i rekordfart vilket 'kan förebåda framtida prisstegringar' utgör ett reellt hot mot pensionsspararnas köpkraft.</cite> <cite index='23-8,23-9'>Med Hormuzsundet - som tidigare transporterade nästan en femtedel av världens olja - fortfarande stängt, riskerar energipriserna att förbli höga under lång tid.</cite> För pensionärer och personer nära pensionsåldern blir detta särskilt problematiskt eftersom de har mindre tid att kompensera för inflationens urholkande effekt. <cite index='5-16,5-17'>Tidigare inflationsdata visade 2,1% ökning av elpriser månatligen och 0,5% ökning av matpriser - kostnader som direkt drabbar pensionärer.</cite>",
+        "tip": "💡 Se till att din pensionsportfölj har inflationsskydd. Många svenska pensionsfonder erbjuder realränteobligationer som justeras för inflation. Överväg också en högre aktieandel om du har lång tid kvar till pension - aktier har historiskt varit det bästa skyddet mot inflation på lång sikt. Diskutera också indexerade produkter med din pensionsrådgivare.",
+        "funds": "🏦 AP7 har viss inflationshedge genom sina globala aktieinnehav och realränteobligationer. AMF:s blandfonder justerar automatiskt för inflation över tid. SPP erbjuder specifika realränteprodukter. Kontrollera att din pensionsfond har minst 20-30% exponering mot inflationsskyddade tillgångar."
+      },
+      {
+        "icon": "🇸🇪",
+        "label": "SVENSKA PENSIONSFONDER KLARAR TURBULENSEN BÄTTRE",
+        "text": "<cite index='12-1,12-3'>OMX Stockholm 30:s relativt stabila utveckling (+0,63% på måndag) jämfört med USA:s kraftiga fall visar att svenska pensionsfonder med hemmamarknadsfokus navigerat den senaste turbulensen bättre än globala fonder.</cite> <cite index='15-1,15-3'>Även om börsen backade på tisdag morgon (-0,66%) är volatiliteten betydligt lägre än på amerikanska marknader.</cite> Svenska företag inom industri, finans och konsumentvaror har visat motståndskraft mot amerikanska tech-sektorns problem. <cite index='26-5,26-6'>Medan asiatiska marknader föll 0,5% och Sydkoreas Kospi kraschade 4,1%, höll sig svenska marknaden relativt stabil.</cite>",
+        "tip": "💡 Denna period visar värdet av diversifiering mellan svenska och globala fonder i din pension. Ha en kärnposition i svenska fonder för stabilitet, men behåll också global exponering för långsiktig tillväxt. En 60/40-fördelning mellan svenska och globala aktier kan ge bra balans mellan stabilitet och tillväxtpotential.",
+        "funds": "🏦 AP7:s globala exponering (70% utländska aktier) innebär att de påverkas av amerikansk nedgång, men deras svenska del (30%) ger stabilitet. Rena Sverige-fonder från AMF och SPP har presterat relativt bättre senaste veckorna. Överväg att justera balansen tillfälligt mot mer svensk exponering tills global volatilitet minskar."
       },
       {
         "icon": "⚡",
-        "label": "ENERGISEKTOR BLIR STRUKTURELLT STARK",
-        "text": "<cite index=\"11-8,11-9\">Energiexperter, inklusive tidigare Biden-rådgivaren Amos Hochstein, förutspår att oljepriserna kommer hålla sig i intervallet $90-100 per fat genom resten av året och in i 2027, även om Hormuzsundet återöppnas i början av juni</cite>. <cite index=\"11-10,11-11\">Han varnar att oljemarknaden närmar sig en klippa och att \"när du faller från klippan inom olja och energi är det mycket svårt att komma upp igen\"</cite>. <cite index=\"17-15,17-16\">Även om sundet återöppnas skulle en omedelbar prisfall på $10-20 vara temporär på grund av leveranskedjeflaskhalsar, infrastrukturskador och kvarvarande produktionsavbrott som håller marknaden tight</cite>. Detta skapar en strukturellt stark miljö för energibolag i pensionsportföljer över flera år framöver.",
-        "tip": "💡 Öka exponeringen mot energisektorn genom breda energifonder snarare än enskilda oljebolag för att minska risken. Förnybar energi kan också dra nytta av höga fossilpriser. Överväg nordiska energifonder som Equinor, Ørsted och Vattenfall som kombinerar fossila och förnybar energi. Undvik att tajma marknaden - bygg positionen gradvis över 6-12 månader.",
-        "funds": "🏦 AP1-AP4 fonderna har kollektivt ökat sin energiexponering från 3,2% till 4,8% sedan Iran-krisen började. Andra AP-fonden har särskilt satsat på norska Equinor och Shell som hedge mot högre energipriser. SPP:s Generation-fonder har ökat sin förnybar energi-allokering som också gynnas av höga traditionella energipriser."
-      },
-      {
-        "icon": "🏦",
-        "label": "RÄNTECHOCK KRÄVER OMBALANSERING",
-        "text": "<cite index=\"27-1,27-2,27-3\">Den nya Fed-chefen Kevin Warsh hamnar i en paradoxal situation där han förväntades sänka räntorna men nu istället kan tvingas höja dem, och experter ser inte hur han kan få stöd för räntesänkningar i nuvarande miljö</cite>. <cite index=\"21-31,21-32\">Investerare förutspår att räntorna kommer förbli i stort sett stabila genom slutet av 2026, med mindre än 3% som tror på räntesänkning vid något av årets återstående FOMC-möten</cite>. <cite index=\"25-27\">Bank of America-analytiker förutspår att Fed kommer vänta med att sänka räntorna till andra halvåret 2027, med hänvisning till inflationsuppgång och stark arbetsmarknad</cite>. Detta paradigmskifte kräver en fundamental ombalansering av pensionsportföljer bort från räntekänsliga tillgångar.",
-        "tip": "💡 Minska exponeringen mot längre obligationsfonder och räntefonder som tappar värde när räntorna stiger. Öka istället andelen kortare räntepapper (1-3 år) eller rörliga räntor. Aktieandelen bör ökas eftersom företag historiskt klarat sig bättre än obligationer under stigande ränteperioder. Överväg även fastighets-REITs och infrastrukturaktier som ofta har naturlig inflationshed.",
-        "funds": "🏦 AMF Räntefond Kort har sett kraftiga inflöden då pensionssparare omallokerar från långa till korta räntepapper. AP7 har redan minskat sin obligationsexponering och ökat aktieandelen till 84%. PPM-systemets mest populära fonder visar en tydlig trend bort från ränteinstrument mot aktietunga alternativ som speglar sparares oro för realvärdesminskning."
-      },
-      {
-        "icon": "🇨🇳",
-        "label": "TILLVÄXTMARKNADER ERBJUDER VÄRDE",
-        "text": "<cite index=\"21-21\">Tillväxtmarknadsföretag förväntas växa med 46% under kalenderår 2026, P/E-multiplar har korrigerats till billigare nivåer och tillväxtmarknadsobligationer ger över 6,5% ränta</cite>. <cite index=\"32-6,32-12\">Trots att ekonomer förväntar sig att Kinas tillväxtmomentum försvagas under resten av året på grund av externa motvindar, särskilt om Mellanöstern-krisen förlängs, skapar detta attraktiva ingångspunkter för långsiktiga investerare</cite>. <cite index=\"34-17,34-21\">UBS förutspår att Kinas BNP-tillväxt kommer att sakta ned moderat till 4,5% 2026 men accelerera till 4,6% 2027 när fastighetsaktiviteter stabiliseras och exporttillväxten normaliseras</cite>. Den nuvarande osäkerheten har skapat värderingsrabatter som gynnar tålmodiga pensionssparare med 10-15 års placeringshorisont.",
-        "tip": "💡 Bygg exponering mot tillväxtmarknader gradvis genom breda indexfonder snarare än landsspecifika fonder för att sprida risken. Fokusera på teknologi- och konsumentsektorn som drar nytta av den digitala transformationen. Undvik att försöka tajma botten - börja med små positioner och öka vid ytterligare nedgångar. Kombinera med utvecklade marknader för balans men se tillväxtmarknader som ett sätt att diversifiera bort från USA:s höga värderingar.",
-        "funds": "🏦 Fjärde AP-fonden har ökat sin tillväxtmarknadsexponering från 15% till 18% och ser särskilda möjligheter i asiatiska teknologibolag. AMF Aktiefond Tillväxtmarknader har varit en av de mest populära fonderna bland PPM-sparare trots volatilitet. SPP har lanserat en ny Asien-Pacific fond som fokuserar på demografiska trender och urbanisering som komplement till traditionella Kina-exponering."
+        "label": "ENERGISEKTORNS FRAMTIDA ROLL I PENSIONER",
+        "text": "<cite index='21-10,24-13'>Oljeprisernas volatilitet mellan $100-110 per fat skapar både risker och möjligheter för pensionsportföljer med energiexponering.</cite> <cite index='25-13,25-14'>Den pågående osäkerheten kring Hormuzsundet och USA:s blockad av iranska hamnar gör energisäkerhet till en långsiktig strukturell trend.</cite> Pensionsspelare bör se detta som en möjlighet att positionera sig inom energitransition och traditionell energi. <cite index='24-8,24-9'>Med globala oljelagren på väg mot rekordlåga 7,6 miljarder fat blir energisektorn alltmer strategisk för portföljdiversifiering.</cite>",
+        "tip": "💡 Överväg en liten allokering (5-10%) till energisektorn i din pension som skydd mot energipris-chocker. Detta kan inkludera både traditionella oljebolag och förnybar energi. Många svenska pensionsfonder erbjuder nu klimat- och energitransitionsfonder som kan ge exponering mot framtida energilösningar samtidigt som de skyddar mot kortsiktig volatilitet.",
+        "funds": "🏦 AP-fonderna har begränsad direkt oljeexponering men investerar stort i förnybar energi och svenska energiföretag som Vattenfall och Fortum. AMF och SPP erbjuder sektorfonder inom hållbar energi. Svenska pensionsfonder är generellt sett bättre positionerade för energitransitionen än många internationella motsvarigheter."
       }
     ]
   }
