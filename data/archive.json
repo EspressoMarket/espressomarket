@@ -1,5 +1,250 @@
 [
   {
+    "date": "Thursday 21 May 2026",
+    "date_short": "21 May 2026",
+    "generated": "2026-05-21T04:53:32.989842",
+    "headline": "Nvidia levererar — Asien exploderar i AI-febern",
+    "sources": [
+      "CNBC Markets",
+      "Investing.com",
+      "Yahoo Finance",
+      "Dagens Industri"
+    ],
+    "beginner": [
+      {
+        "icon": "🚀",
+        "label": "NVIDIA BLÅSER TAK",
+        "text": "<cite index=\"21-1,25-1\">Nvidia rapporterade rekordintäkter på 81,6 miljarder dollar för första kvartalet, upp 85% från förra året och slog alla förväntningar.</cite> <cite index=\"25-12,25-13\">Företaget spår även högre intäkter nästa kvartal än vad analytiker väntat sig.</cite>",
+        "explain": "💡 Nvidia gör datorchippen som driver AI-system som ChatGPT. När Nvidia går bra betyder det att AI-revolutionen rullar på för fullt"
+      },
+      {
+        "icon": "🌏",
+        "label": "ASIEN EXPLODERAR",
+        "text": "<cite index=\"24-1,24-2\">Asiatiska aktiemarknader rusade kraftigt efter Nvidias starka rapport.</cite> <cite index=\"25-4\">Nvidia-aktien föll ändå initialt över 2% efter rapporten trots starka siffror.</cite> Detta visar hur högt satta förväntningarna är.",
+        "explain": "💡 När Nvidia går bra tjänar även asiatiska chipfabriker som Samsung och TSMC pengar, därför rusar hela regionen"
+      },
+      {
+        "icon": "📉",
+        "label": "OLJA KRASCHAR 8%",
+        "text": "Oljepriset föll kraftigt med nästan 9% till under 99 dollar fatet efter rapporter om framsteg i fredsförhandlingar mellan USA och Iran. <cite index=\"7-10\">President Trump sa att förhandlingarna befinner sig i slutfasen.</cite>",
+        "explain": "💡 Billigare olja betyder lägre bensinpriser och mindre inflation, vilket kan vara bra för ekonomin och aktiemarknaden"
+      },
+      {
+        "icon": "🏛️",
+        "label": "NY FED-CHEF FREDAGAR",
+        "text": "<cite index=\"31-3,32-1\">Kevin Warsh svars in som ny Fed-ordförande på fredag av President Trump.</cite> <cite index=\"28-15\">Trump förväntar sig att Warsh ska sänka räntorna.</cite> Men stigande inflation gör detta svårt.",
+        "explain": "💡 Fed-chefen styr räntorna som påverkar alla lån - från bolån till företagskrediter. Lägre räntor är bra för aktier men dåligt om inflationen stiger"
+      }
+    ],
+    "analyst": [
+      {
+        "icon": "🔥",
+        "label": "NVIDIA: GUIDANCE SLÅR HÅRT",
+        "text": "<cite index=\"25-1,25-12,25-13\">Q1: 81,6 mdr vs 79,2 mdr förväntat. Q2 guidance: 89,1-92,8 mdr vs 87,3 mdr konsensus.</cite> <cite index=\"25-16,25-17\">Data Center: 75,2 mdr vs 73,5 mdr förväntat.</cite> Marginalerna håller sig starka på 75%+ nivåer."
+      },
+      {
+        "icon": "📊",
+        "label": "TEKNISK BILD: DAX +2,5%",
+        "text": "DAX futures +2,49% till 24737 signalerar stark europeisk öppning. S&P 500 futures +0,32% till 7449, NASDAQ +1,02%. <cite index=\"4-4\">SPX testade 7438-resistance igår men missade med knapp marginal.</cite> VIX på 17,44 (+1%) indikerar kontrollerad volatilitet."
+      },
+      {
+        "icon": "⚡",
+        "label": "WTI-KOLLAPS: -8,77%",
+        "text": "WTI crude -8,77% till 99,13 dollar efter fredsrykten Iran-USA. <cite index=\"7-10,7-12\">Marknaderna prissätter in slutfasen av förhandlingar enligt Trump, obligationsräntorna faller 10bp.</cite> Energisektorn kommer under press."
+      },
+      {
+        "icon": "🌐",
+        "label": "ASIEN: KOSPI SOARS",
+        "text": "<cite index=\"24-9,24-10,24-11\">Samsung +8% på avvärjd strejk, chipaktier globalt starka på Nvidia-effekt.</cite> Teknologirotation från USA till Asien accelererar. Carry trades via JPY-funding kommer tillbaka när Fed-tighening pausar."
+      }
+    ],
+    "pension": [
+      {
+        "icon": "💰",
+        "label": "TECH-ROTATION GYNNAR AP7",
+        "text": "<cite index=\"24-1,24-2\">Nvidia-rallyt sprider sig till asiatiska tech-giganter som ingår i AP7:s globalfond.</cite> Bred teknologiexponering mot både USA och Asien balanserar portföljen bättre än ren USA-fokus.",
+        "tip": "💡 Bred global teknologiexponering minskar risken jämfört med att bara satsa på amerikanska jättar"
+      },
+      {
+        "icon": "🛢️",
+        "label": "ENERGI-CHOCK SÄNKER INFLATION",
+        "text": "Kraftigt fallande oljepris kan dämpa inflationen framöver, vilket gynnar både aktier och obligationer i pensionsportföljerna. Lägre energikostnader ökar konsumtionskraften.",
+        "tip": "💡 Fallande inflation kan betyda lägre räntor framöver, vilket är positivt för pensionssparande på lång sikt"
+      },
+      {
+        "icon": "💹",
+        "label": "FED-SKIFTE: FÖRSIKTIG OPTIMISM",
+        "text": "<cite index=\"31-7,31-8\">Ny Fed-chef Warsh väntas vara mer duvaktig, men höga inflationssiffror begränsar handlingsutrymmet.</cite> Pensionsfonder gynnas av stabilare räntepolitik.",
+        "tip": "💡 En mer förutsägbar Fed-politik minskar volatiliteten i dina pensionsfonder"
+      },
+      {
+        "icon": "🎯",
+        "label": "SEKTORROTATION PÅGÅR",
+        "text": "Teknikrallyt i Asien samtidigt som oljekollaps förändrar sektorvikterna. Balanserade portföljer som AP7 Såfa och AMF Aktiefond Global drar nytta av denna spridning.",
+        "tip": "💡 Låt inte dagens vinnarsektor förblinda dig - håll kvar den breda diversifieringen i ditt pensionssparande"
+      }
+    ],
+    "full_beginner": [
+      {
+        "icon": "🚀",
+        "label": "NVIDIA LEVERERAR DRÖMRESULTAT",
+        "text": "<cite index=\"21-1,25-1\">Nvidia, världens viktigaste AI-företag, rapporterade fantastiska siffror för första kvartalet med intäkter på 81,6 miljarder dollar - upp hela 85% från samma period förra året.</cite> <cite index=\"25-12,25-13\">Ännu viktigare: företaget spår ännu högre försäljning nästa kvartal än vad analytiker väntat sig, vilket tyder på att AI-boomen fortsätter.</cite> <cite index=\"19-8,19-9\">VD Jensen Huang sa att \"agentic AI inflection point has arrived\" och att Grace Blackwell-chippet levererar en tiondel av kostnaden per token jämfört med konkurrenterna.</cite> <cite index=\"25-8\">Företaget höjde också sin kvartalsutdelning till 0,25 dollar per aktie.</cite>",
+        "explain": "💡 Nvidia är som en guldgruva för AI-revolutionen. Deras chips driver allt från ChatGPT till självkörande bilar. När Nvidia går bra betyder det att företag fortsätter satsa miljardbelopp på AI. Det är som att vara enda leverantören av pickaxar under guldrushen - alla behöver dina verktyg för att gräva efter guldet.",
+        "background": "📖 Nvidia har blivit världens viktigaste tech-företag genom att dominera AI-chipmarknaden. Deras aktie har stigit över 200% bara senaste året när företag som Google, Microsoft och Meta spenderar astronomiska summor på AI-infrastruktur."
+      },
+      {
+        "icon": "🌏",
+        "label": "ASIEN EXPLODERAR I TEKNISK EUFORI",
+        "text": "<cite index=\"24-1,24-2\">Asiatiska börsmarknader exploderade uppåt efter Nvidias rapport, med Samsung som rusade 8% efter att ha löst en strejkkonflikt.</cite> <cite index=\"25-4\">Paradoxalt nog föll Nvidia-aktien över 2% trots de starka siffrorna, vilket visar hur otroligt höga förväntningarna är på företaget.</cite> DAX-futures pekar på en öppning över 2,5% för Europa medan amerikanska futures också är gröna. Detta visar hur Nvidias framgång sprider sig som ringar på vattnet genom hela den globala tech-kedjan.",
+        "explain": "💡 När Nvidia tjänar pengar gynnar det alla andra företag i AI-kedjan. Samsung och TSMC tillverkar Nvidias chips, medan andra asiatiska företag levererar komponenter och tjänster. Det är som när en stor fabrik öppnar i en liten stad - alla från kaféer till byggfirmor tjänar på det ökade aktiviteten.",
+        "background": "📖 Asiens ekonomier är djupt integrerade i den globala teknologikedjan. Sydkorea, Taiwan och Japan är hem för många av världens största halvledartillverkare som alla drar nytta när AI-efterfrågan exploderar."
+      },
+      {
+        "icon": "📉",
+        "label": "OLJEKOLLAPS PÅ FREDSFÖRHOPPNINGAR",
+        "text": "<cite index=\"7-10\">Oljepriset kraschade nästan 9% till under 99 dollar per fat efter att President Trump meddelat att fredsförhandlingarna mellan USA och Iran befinner sig i \"slutfasen\".</cite> <cite index=\"7-12\">Detta fick även obligationsräntor att falla med 10 räntepunkter när marknaderna började prissätta in lägre inflation framöver.</cite> Även om Iran ännu inte bekräftat någon överenskommelse, räcker redan ryktena för att påverka energimarknaderna dramatiskt. <cite index=\"27-18\">Kriget har tidigare lett till störningar i Hormuzsundet som påverkat oljetransporter globalt.</cite>",
+        "explain": "💡 När oljepriset faller blir bensin billigare för vanliga människor, vilket minskar inflationen. Det är som att få en skattelättnad - du har mer pengar över att handla för. Billigare energi hjälper även företag att hålla kostnaderna nere, vilket kan leda till lägre priser på allt från mat till kläder.",
+        "background": "📖 Konflikten mellan USA och Iran har pågått i månader och lett till kraftigt stigande energipriser. Hormuzsundet är en kritisk transportväg för global olja, och alla störningar där påverkar världsmarknadspriserna omedelbart."
+      },
+      {
+        "icon": "🏛️",
+        "label": "NY FED-CHEF INFÖR OMÖJLIG BALANSGÅNG",
+        "text": "<cite index=\"31-3,32-1\">Kevin Warsh svars in som ny Federal Reserve-ordförande på fredag av President Trump i en ceremoni på Vita huset.</cite> <cite index=\"28-1,28-6\">Hans konfirmation var den mest kontroversiella i Fed:s historia med en knapp 54-45 röstning i senaten.</cite> <cite index=\"28-15,31-7\">Trump förväntar sig att Warsh ska sänka räntorna för att stimulera ekonomin.</cite> <cite index=\"31-8,33-6\">Men med inflation som legat över Fed:s 2%-mål i över fem år och stigande på grund av höga energipriser, blir det en omöjlig balansgång.</cite>",
+        "explain": "💡 Fed-chefen är som ekonomins kapten som styr hur dyrt eller billigt det ska vara att låna pengar. Lägre räntor gör det billigare för dig att ta bolån eller företag att investera, vilket får ekonomin att växa. Men om räntorna är för låga kan priserna på allt stiga för snabbt (inflation). Det är som att köra bil - för långsamt och du kommer aldrig fram, för fort och du kraschar.",
+        "background": "📖 Federal Reserve är USA:s centralbank som styr den amerikanska ekonomin genom räntepolitik. Deras beslut påverkar hela världsekonomin eftersom dollarn är den dominerande reservvalutan globalt."
+      }
+    ],
+    "full_analyst": [
+      {
+        "icon": "🔥",
+        "label": "NVIDIA: GUIDANCE-BEAT DRIVER MOMENTUM",
+        "text": "<cite index=\"25-1,25-7,25-14\">Q1 leverans: EPS $1.87 vs $1.77E, intäkter $81.62B vs $79.18BE - solid beat på båda linjer.</cite> <cite index=\"25-12,25-13\">Q2 guidance $89.1-92.8B vs $87.3B konsensus är det kritiska, midpoint $91B innebär +20% QoQ acceleration.</cite> <cite index=\"25-16,25-17\">Data Center $75.2B vs $73.47BE, upp från $39.11B YoY - 92% tillväxt håller i sig.</cite> <cite index=\"25-8,25-15\">Kvartalsutdelning höjd till $0.25 från tidigare nivåer.</cite> <cite index=\"25-4,25-11\">Initial 2%+ afterhours drop trots beats indikerar hur högt ribban satts.</cite> Gross margin guidance runt 74.5% blir kritisk för marginalexpansion.",
+        "detail": "🔍 Nyckeltal att bevaka: Data Center growth rate (behöver hålla >80% YoY), Blackwell ramp-timing (påverkar H2), China revenue exposure (geopolitisk risk), samt customer concentration hos hyperscalers. Tekniskt: $223 close vs $250 ATH ger 12% upside till breakout. Support vid $200 psychological.",
+        "outlook": "🎯 Q2 blir avgörande för helårssentiment. Blackwell-arkitekturens marknadsintroduktion i Q3 kan trigga nästa uppgång. Fed policy shift under Warsh kan gynna growth multiples. Risk: Ökande konkurrens från AMZN Inferentia, GOOGL TPUs och custom silicon hotar Nvidia-monopolet långsiktigt."
+      },
+      {
+        "icon": "📊",
+        "label": "GLOBAL RISK-ON VIA FUTURES CASCADE",
+        "text": "<cite index=\"4-3,4-4\">SPX recovery från 7345 overnight till 7435.69 high, bara 3 poäng från 7438 resistance.</cite> Pre-market: SPX futures +0.32% till 7449, NASDAQ +1.02%, DAX +2.49% till 24737 - klassisk risk-on pattern. <cite index=\"25-12\">VIX +1.04% till 17.44 indikerar kontrollerad volatilitet, under 20-tröskeln.</cite> EUR/USD -0.53% till 1.16, USD/SEK -0.66% till 9.34 visar dollar-svaghet på dovish Fed-förväntningar. BTC +1.59% till 78k följer risk assets. Term structure normaliserar när räntecuts prisas in för H2.",
+        "detail": "🔍 Tekniska nivåer: SPX 7438 resistance kritisk för breakout mot 7500. NASDAQ futures 29393 pekar mot retest av ATH. DAX 24737 över 50-day EMA signalerar europa-rally. VIX under 20 stöttar continued equity upside. Yield curve steepening 2s10s från -15bp mot 0 indikerar normalisering.",
+        "outlook": "🎯 PMI data för Japan och Indien idag kan trigga EM outperformance. BOJ Koeda speech kritisk för JPY carry trades. Om WTI håller under $100, inflationsförväntningar kan falla ytterligare och accelerera Fed pivot. Teknisk setup för run mot SPX 7500 finns om 7438 bryts med volym."
+      },
+      {
+        "icon": "⚡",
+        "label": "WTI COLLAPSE: GEOPOLITICAL FADE",
+        "text": "<cite index=\"7-10,7-12\">WTI -8.77% till $99.13, största endagsfallet sedan mars på Trump-kommentarer om \"slutfasen\" för Iran-förhandlingar. 10Y UST yield -10bp reaktion visar marknadens tro på permanent fred.</cite> Brent spread komprimeras, backwardation flattening indikerar reduced supply risk premium. Energy sector (XLE) kommer under tryck, särskilt upstream E&P namn. Refining margins (3-2-1 crack spreads) komprimeras när crude falls faster än products. Macro impact: hver $10 WTI fall = ~-0.3pp core PCE over 6 månader enligt Fed estimates.",
+        "detail": "🔍 Tekniska nivåer: WTI $99 psychological support, nästa $92 (200-day MA). Resistance $108-110 område. COT data visar speculative long positions som kan forced liquidate. Inventory data EIA tonight kritisk. Regional spreads (Brent-WTI, Dubai) normaliserar. VIX oil (OVX) spike indicating capitulation.",
+        "outlook": "🎯 Om fredsavtal bekräftas kan WTI falla till $85-90 range. CPI impact kommer Q3 med lag, gynnar Fed dovishness. Energy weight i SPX (4.2%) begränsar index-impact. Geopolitical risk premium collaps kan sprida sig till andra commodity complexes. Shale breakevens $65-75 ger downside protection."
+      },
+      {
+        "icon": "🌐",
+        "label": "WARSH ERA: POLICY FRAMEWORK SHIFT",
+        "text": "<cite index=\"31-3,32-1,32-3\">Warsh sworn-in Friday ceremony, 11th modern Fed chair efter 54-45 confirmation - narrowest ever.</cite> <cite index=\"28-15,31-7\">Trump expectations för rate cuts vs inflation reality skapar policy contradiction.</cite> <cite index=\"29-19,29-20\">Fed funds futures prissätter 97% sannolikhet för unchanged genom 2026, 3% för cuts. September hike odds 20%.</cite> <cite index=\"27-17,29-16\">FOMC maximum discord sedan 1992 med 4/12 dissents i april.</cite> <cite index=\"33-10,33-13\">Warsh tidigare AI-productivity thesis nu tested by Iran war inflation.</cite>",
+        "detail": "🔍 Policy tools att bevaka: Warsh communication style change, dissent frequency, balance sheet policy shifts. QT pace kan accelerera under ny chair. Forward guidance språk kommer evolve. Fed independence vs political pressure blir central tema. Inflation framework revision possible enligt confirmation hearing.",
+        "outlook": "🎯 June 16-17 första FOMC meeting critical. Om CPI fortsätter hot kan Warsh forced till hawkish stance despite Trump pressure. Market expects 25bp hike October (20% odds) och December (30% odds) enligt CME FedWatch. Powell kvar på board till 2028 kan skapa intern konflikt. Dollar strength continuation likely om Fed stays hawkish vs global easing cycle."
+      }
+    ],
+    "full_pension": [
+      {
+        "icon": "💰",
+        "label": "GLOBAL TECH-ROTATION GYNNAR SVENSKA FONDER",
+        "text": "<cite index=\"24-1,24-2\">Nvidias starka rapport triggar en bred uppgång i asiatiska teknologiaktier, med Samsung som rusar 8% och andra chipgiganter som följer efter.</cite> För svenska pensionssparare är detta särskilt positivt eftersom AP7 Såfa, AMF Aktiefond Global och andra breda globalfonder har exponering mot både amerikanska och asiatiska teknikjättar. Den här spridningseffekten visar varför global diversifiering är så viktig - när en sektor tar fart i en region sprider sig effekterna till relaterade företag världen över. <cite index=\"19-9,19-10\">Nvidias VD Jensen Huang betonade att \"enterprise adoption of agents is skyrocketing\" vilket tyder på att AI-investeringscykeln bara börjat.</cite>",
+        "tip": "💡 Bred global exponering är nyckeln här. Istället för att jaga enskilda AI-aktier, låt dina pensionsfonder fånga upp hela ekosystemet. AP7 Såfa har automatiskt exponering mot både Nvidia och dess asiatiska leverantörer, vilket ger dig del av hela värdekedjan utan att du behöver gissa vilka specifika företag som vinner.",
+        "funds": "🏦 AP7 Såfa har cirka 60% USA-exponering och 15% Asien-exponering, vilket betyder att både Nvidias direkta framgång och den asiatiska spillover-effekten gynnar svenska pensionssparare. AMF Aktiefond Global har liknande fördelning medan Handelsbanken Global Index har något lägre teknikvikt men bredare spridning."
+      },
+      {
+        "icon": "🛢️",
+        "label": "ENERGICHOCK ÖPPNAR INFLATIONSLÄTTNADEN",
+        "text": "<cite index=\"7-10,7-12\">Det dramatiska fallet i oljepriserna, ner nästan 9% på fredsförhoppningar mellan USA och Iran, kan vara starten på en längre period av lägre energikostnader.</cite> För pensionssparare är detta en dubbel vinst: lägre inflation minskar erosionen av köpkraften över tid, samtidigt som det öppnar för lägre räntor som gynnar både aktie- och obligationsportföljerna. <cite index=\"27-18,33-6\">Konflikten har tidigare tryckt upp energipriser och inflation över Fed:s 2%-mål i över fem år.</cite> Nu när geopolitiska risker minskar kan vi se en normalisering som gynnar långsiktigt pensionssparande genom både lägre levnadskostnader och bättre portföljavkastning.",
+        "tip": "💡 Använd denna period av lägre energikostnader för att öka ditt månadssparande om möjligt. När inflationen dämpas får dina pensionskronor mer köpkraft i framtiden. Undvik att timeframes energisektorn i din portfölj - låt den naturliga viktningen i dina fonder hantera exponeringen.",
+        "funds": "🏦 Svenska pensionsfonder har typiskt 2-4% energiexponering, vilket begränsar den negativa effekten av fallande oljepriser på portföljavkastningen. Samtidigt gynnas alla andra sektorer av lägre insatskostnader, särskilt konsument- och transportföretag som har stor vikt i AP7 och AMF:s globalfonder."
+      },
+      {
+        "icon": "💹",
+        "label": "FED-SKIFTE SKAPAR STABILARE RÄNTEMILJÖ",
+        "text": "<cite index=\"31-3,32-1\">Kevin Warsh installation som Fed-ordförande på fredag markerar början på en ny era för amerikansk penningpolitik.</cite> <cite index=\"28-1,28-6\">Trots den kontroversiella 54-45 röstningen i senaten signalerar Warsh en mer förutsägbar approach än den politiska turbulens vi sett.</cite> <cite index=\"29-19,29-21\">Marknaderna förväntar sig att räntorna hålls stabila genom 2026, vilket skapar en lugnare miljö för långsiktigt pensionssparande.</cite> <cite index=\"33-13,33-19\">Warsh har signalerat att han vill ha mer öppna diskussioner inom Fed, vilket kan leda till bättre kommunikation och mindre överraskningar.</cite>",
+        "tip": "💡 En mer stabil Fed-policy betyder mindre volatilitet i dina pensionsfonder. Detta är perfekt tid att fokusera på långsiktig strategi snarare än att reagera på kortsiktiga rörelser. Överväg att öka ditt aktiesparande något om du tidigare varit försiktig på grund av ränte-osäkerheten.",
+        "funds": "🏦 Stabilare räntemiljö gynnar särskilt balanserade fonder som AP7 Såfa (som har både aktier och obligationer) och AMF Balanserad. Obligationsdelen får mindre volatilitet medan aktiedelen gynnas av lägre diskonto-räntor som höjer värderingarna på tillväxtföretag."
+      },
+      {
+        "icon": "🎯",
+        "label": "SEKTORROTATION KRÄVER FORTSATT DIVERSIFIERING",
+        "text": "<cite index=\"24-9,24-10\">Dagens marknadsrörelser visar tydligt hur snabbt sektorrotationer kan ske - Nvidia och amerikanska tech upp, sedan asiatiska tech som tar över, medan energi kraschar.</cite> Detta understryker varför det är så farligt att försöka \"timea\" marknaden eller överbelasta portföljen mot specifika sektorer eller regioner. Även erfarna professionella fondförvaltare har svårt att förutsäga dessa snabba skiften. <cite index=\"29-25,29-26,29-27\">Som Chase Bank noterar har inflationen stigit 25% sedan decenniets början medan bredda obligationer endast avkastat 6%, vilket visar att traditionella 60/40-portföljer behöver kompletteras.</cite>",
+        "tip": "💡 Använd dagens dramatiska sektorrörelser som en påminnelse om varför du ska hålla fast vid bred diversifiering. Öka inte exponeringen mot teknik bara för att det går bra idag, och kasta inte ut energiaktier bara för att de faller. Låt dina fonder göra ombalanseringen åt dig genom sina systematiska viktsystem.",
+        "funds": "🏦 AP7 Såfa rebalanserar automatiskt när olika sektorer blir över- eller underviktade, vilket betyder att du får köpa lågt och sälja högt utan att behöva ta några aktiva beslut. AMF Aktiefond Global har liknande systematik, medan Handelsbanken Global Index följer marknadsvikterna och ger dig ren marknadsexponering utan fondförvaltarens gissningar."
+      }
+    ],
+    "futures": {
+      "S&P 500 Futures": {
+        "price": 7449.25,
+        "change": 0.32,
+        "prev": 7425.75
+      },
+      "NASDAQ Futures": {
+        "price": 29393.25,
+        "change": 1.02,
+        "prev": 29096.0
+      },
+      "DAX": {
+        "price": 24737.24,
+        "change": 2.49,
+        "prev": 24136.81
+      },
+      "Olja (WTI)": {
+        "price": 99.13,
+        "change": -8.77,
+        "prev": 108.66
+      },
+      "Guld": {
+        "price": 4539.4,
+        "change": -0.29,
+        "prev": 4552.5
+      },
+      "VIX": {
+        "price": 17.44,
+        "change": 1.04,
+        "prev": 17.26
+      }
+    },
+    "quotes": {
+      "OMX30": {
+        "price": 3099.5,
+        "change": 1.24,
+        "prev": 3061.49
+      },
+      "S&P 500": {
+        "price": 7432.97,
+        "change": -0.15,
+        "prev": 7444.25
+      },
+      "NASDAQ": {
+        "price": 26270.36,
+        "change": -0.5,
+        "prev": 26402.34
+      },
+      "EUR/USD": {
+        "price": 1.16,
+        "change": -0.53,
+        "prev": 1.17
+      },
+      "USD/SEK": {
+        "price": 9.34,
+        "change": -0.66,
+        "prev": 9.4
+      },
+      "EUR/SEK": {
+        "price": 10.85,
+        "change": -1.04,
+        "prev": 10.96
+      },
+      "BTC/USD": {
+        "price": 78000.29,
+        "change": 1.59,
+        "prev": 76781.99
+      }
+    }
+  },
+  {
     "date": "Wednesday 20 May 2026",
     "date_short": "20 May 2026",
     "generated": "2026-05-20T04:54:34.196519",
