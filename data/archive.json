@@ -1,5 +1,254 @@
 [
   {
+    "date": "Monday 25 May 2026",
+    "date_short": "25 May 2026",
+    "generated": "2026-05-25T04:53:47.928688",
+    "headline": "Europeiska rally efter oljekrash",
+    "sources": [
+      "MarketWatch",
+      "CNBC",
+      "The Street",
+      "NPR"
+    ],
+    "beginner": [
+      {
+        "icon": "⛽",
+        "label": "OLJA RASAR KRAFTIGT",
+        "text": "Oljan har störtdykt över 10% efter att Trump meddelat att fredsförhandlingarna med Iran framskrider bättre än väntat. Detta ger hopp om att Hormuz-sundet kan återöppnas snart.",
+        "explain": "💡 När konflikter minskar i oljeproducerande länder sjunker ofta oljepriset, vilket kan göra bensin billigare för vanliga människor och sänka inflationen."
+      },
+      {
+        "icon": "📈",
+        "label": "USA-BÖRSER STÄNGDA",
+        "text": "Amerikanska börser är stängda idag för Memorial Day, vilket gör att europeiska index som DAX leder uppgången efter nattens positiva nyheter om Iran-avtalet.",
+        "explain": "💡 När USA-börserna är stängda på helgdagar får europeiska marknader ofta större fokus och kan röra sig mer på egen hand."
+      },
+      {
+        "icon": "🎯",
+        "label": "NY RIKSBANKSCHEF I USA",
+        "text": "Kevin Warsh svors i fredags in som ny Federal Reserve-chef efter Jerome Powell. Han kommer att leda den amerikanska centralbanken under en utmanande tid med hög inflation och geopolitisk oro.",
+        "explain": "💡 Federal Reserve-chefen bestämmer amerikanska räntor, vilket påverkar hela världsekonomin – även svenska bolåneräntor påverkas indirekt."
+      },
+      {
+        "icon": "🔥",
+        "label": "INFLATIONSORO FORTSÄTTER",
+        "text": "Trots det sjunkande oljepriset visar senaste konsumentsentimentet rekordlåga nivåer då amerikanerna fortfarande känner av inflationens påverkan på levnadskostnaderna.",
+        "explain": "💡 Även om oljepriset sjunker nu har de höga priserna under konflikten redan gjort mat och transport dyrare för vanliga familjer."
+      }
+    ],
+    "analyst": [
+      {
+        "icon": "📊",
+        "label": "TEKNISKA GENOMBROTTSSIGNALER",
+        "text": "DAX futures +3,92% till 24 888 medan S&P 500 futures +1,53% till 7 491 trots stängd amerikansk marknad. VIX sjunker -6,29% till 16,7, vilket signalerar minskad marknadsoro efter Iran-framstegen.",
+        "detail": "🔍 VIX under 20 indikerar normala riskförhållanden. Observera 7500-nivån på S&P 500 futures som teknisk motståndsnivå."
+      },
+      {
+        "icon": "⛽",
+        "label": "RÅVARUMARKNADENS VÄNDNING",
+        "text": "WTI crude -10,36% till 96,6 efter Trumps kommentarer om \"ordnade och konstruktiva\" Iran-samtal. Brent handlas kring 98-99 dollar, ner från veckans toppar över 105 dollar.",
+        "detail": "🔍 Kritisk supportnivå för WTI på 90-95 dollar. Hormuz-heröppning kan pressa olja mot 80-85 dollar långsiktigt."
+      },
+      {
+        "icon": "🏛️",
+        "label": "CENTRALBANKSROTATION",
+        "text": "Warsh första FOMC-möte 16-17 juni blir avgörande. Marknaden prisar in oförändrade räntor genom 2026 med 97% sannolikhet trots Trumps tryck på lägre räntor.",
+        "detail": "🔍 Fed funds futures visar ingen förväntad räntesänkning 2026. Bevaka 10-årig treasury yield kring 4,5% som brytpunkt."
+      },
+      {
+        "icon": "💰",
+        "label": "DOLLARN FÖRSVAGAD",
+        "text": "USD/SEK -0,94% till 9,29 och EUR/USD +0,47% till 1,16 när dollarn tappar mark efter geopolitisk avspänning. Guld +0,38% till 4 523 dollar bibehåller trygghetspremie.",
+        "detail": "🔍 EUR/USD kan testa 1,18-1,20 vid fortsatt Iran-framsteg. Guld stöds av centralbanksinköp trots dollarbiten."
+      }
+    ],
+    "pension": [
+      {
+        "icon": "🌱",
+        "label": "ENERGISEKTORNS ROTATION",
+        "text": "Oljebolag som ryggrades av höga oljepriser under Iran-konflikten kommer få justerade värderingar. Svenska pensionsfonder med energiexponering kan se volatilitet.",
+        "tip": "💡 Diversifierade fonder som AP7 Såfa är mindre påverkade än sektorfonder med energifokus."
+      },
+      {
+        "icon": "🎯",
+        "label": "RÄNTEPOLICY OCH OBLIGATIONER",
+        "text": "Warsh som Fed-chef signalerar troligen oförändrad räntepolicy 2026. Detta gynnar svenska obligations- och räntefonder i pensionsportföljer som AMF Räntefond.",
+        "tip": "💡 Stabil räntemiljö är positivt för pensionssparare som närmar sig pension och vill minska risk."
+      },
+      {
+        "icon": "🌍",
+        "label": "EUROPEISK ÅTERHÄMTNING",
+        "text": "DAX rally +3,92% signalerar att europeiska marknader kan gå bättre än amerikanska när geopolitisk risk minskar. Många svenska pensionsfonder har europaexponering.",
+        "tip": "💡 Globala aktiefonder från SPP och Folksam kan gynnas av europeisk outperformance under lägre oljepris."
+      },
+      {
+        "icon": "💎",
+        "label": "INFLATIONSSKYDDET MINSKAR",
+        "text": "Sjunkande oljepriser kan lätta inflationstrycket vilket minskar behovet av inflationsskyddade obligationer och råvarufonder i pensionsportföljen.",
+        "tip": "💡 Överväg att minska viktning i råvarufonder om Iran-avtalet blir permanent och oljan stabiliseras lägre."
+      }
+    ],
+    "full_beginner": [
+      {
+        "icon": "⛽",
+        "label": "OLJA RASAR KRAFTIGT",
+        "text": "<cite index=\"11-1,11-3\">Oljepriset föll över 10% under natten efter att president Trump meddelade att fredsförhandlingarna med Iran \"fortskrider på ett ordnat och konstruktivt sätt\"</cite>. <cite index=\"11-5\">Trump sa på lördagen att ett avtal om att återöppna Hormuz-sundet, bland andra frågor, var i stort sett förhandlat och skulle tillkännages snart</cite>. <cite index=\"11-17\">Hormuz är en av världens viktigaste flaskhalsar för oljemarknaden, med cirka 20% av den globala leveransen som passerade genom sjöleden före kriget</cite>. Den dramatiska prisfallet kommer efter månader av rekordhöga oljepriser som drivits av <cite index=\"11-18,11-19\">Irans blockad av fraktfarten genom Hormuz och USA:s motblockad av iranska hamnar</cite>.",
+        "explain": "💡 Olja är grundmaterialet för bensin och diesel, så när oljepriset sjunker blir bränsle billigare för alla. Detta påverkar även mat- och transportkostnader eftersom lastbilar och traktorer använder diesel. Lägre energipriser hjälper också till att minska inflationen, vilket betyder att priserna på vardagsvaror inte stiger lika snabbt. Många svenskar märker detta direkt vid bensinmacken och i matbutiken.",
+        "background": "📖 Konflikten mellan USA och Iran började i februari 2026 och ledde till att Iran blockerade Hormuz-sundet, genom vilket en femtedel av världens olja transporteras. Detta skapade den största oljeleveransstörningen i historien och fick priserna att skjuta upp över 30%. Nu när det verkar finnas hopp om fred börjar marknaden prisa in att oljeflödet kan återgå till det normala."
+      },
+      {
+        "icon": "📈",
+        "label": "USA-BÖRSER STÄNGDA",
+        "text": "<cite index=\"2-2,2-13\">De amerikanska börserna NYSE och Nasdaq är stängda idag, måndag 25 maj, för Memorial Day-helgen</cite>. <cite index=\"1-8,1-27\">Detta betyder att indiska och europeiska handlare helt måste förlita sig på asiatiska marknader och europeiska futures på måndagsmorgonen utan några amerikanska nattsignaler</cite>. <cite index=\"7-16\">Aktieteterminer var högre efter att USA och Iran båda signalerat framsteg i samtal som syftar till att avsluta Mellanösternkonflikten</cite>. <cite index=\"2-23\">Marknaderna kommer tillbaka tisdag med S&P nära toppnivåer, inför nya inflationssiffror, ränteutveckling och ytterligare en chans för AI-handeln</cite>.",
+        "explain": "💡 När de amerikanska börserna är stängda för helger får europeiska och asiatiska marknader större uppmärksamhet. Det är som när den stora pojken i klassen är frånvarande – då får de andra mer utrymme att påverka. Europeiska börser kan då röra sig mer på egna nyheter utan att behöva vänta på vad som händer i USA. För svenska sparare betyder detta att Stockholmsbörsen kan bli mer påverkad av europeiska händelser på sådana dagar.",
+        "background": "📖 Memorial Day är en amerikansk helg som alltid infaller sista måndagen i maj för att hedra stupade soldater. Börserna stänger alltid denna dag, vilket skapar en tredagars paus för amerikanska handlare och gör att global uppmärksamhet flyttas till andra marknader. Det ger europeiska index som DAX en chans att leda utvecklingen."
+      },
+      {
+        "icon": "🎯",
+        "label": "NY RIKSBANKSCHEF I USA",
+        "text": "<cite index=\"25-1,25-18\">Kevin Warsh svors in av högsta domstolens domare Clarence Thomas på Vita huset den 22 maj 2026</cite>. <cite index=\"23-1,23-2\">Han tog över Federal Reserve vid en tidpunkt när stigande bensinpriser har satt press uppåt på inflationen</cite>. <cite index=\"28-1\">Senaten bekräftade Warsh med 54-45 röster, den närmaste omröstningen för en Fed-ordförande i modern tid</cite>. <cite index=\"28-2,28-7\">President Trump har inte gjort någon hemlighet av att han förväntar sig att Warsh ska sänka räntorna efter att ha attackerat den avgående ordföranden Jerome Powell upprepade gånger</cite>. Men Warsh har lovat att vara oberoende i sina beslut.",
+        "explain": "💡 Federal Reserve-chefen är som Sveriges riksbankschef fast för USA – hen bestämmer räntorna som påverkar hela världsekonomin. När amerikanska räntor ändras påverkar det svenska bolåneräntor, företagslån och även kronan. Trump vill att Warsh ska sänka räntorna för att stimulera ekonomin, men centralbanken ska vara oberoende från politiska påtryckningar. Warsh första stora test blir nästa möte i juni där han måste balansera Trumps önskemål mot inflationsfaran.",
+        "background": "📖 Kevin Warsh var tidigare Fed-styrelseledamot 2006-2011 och var med under finanskrisen. Han är 56 år gammal och kommer från Wall Street. Hans utnämning var kontroversiell eftersom Trump öppet kritiserat Fed och till och med låtit justitiedepartementet undersöka den avgående chefen Powell. Detta har skapat oro för Fed:s oberoende."
+      },
+      {
+        "icon": "🔥",
+        "label": "INFLATIONSORO FORTSÄTTER",
+        "text": "<cite index=\"27-17,27-18,27-19\">Inflationstrycket i USA kvarstår med konsumentpriser som ökade 0,6% i april och 3,8% på årsbasis jämfört med samma månad 2025, vilket markerar den största ökningen på tre år</cite>. <cite index=\"27-20,27-21,27-22\">Den största ökningen har varit energipriser som stigit 17,9% det senaste året, och amerikanska konsumenter känner av det vid bensinpumparna där genomsnittspriset för en gallon bensin är 4,56 dollar</cite>. Trots nattens oljeprisfall visar <cite index=\"1-15,1-16\">konsumentsentimentet rekordlåga nivåer i maj då farhågor om högre priser växer på grund av USA-Iran kriget och förhöjda oljepriser</cite>.",
+        "explain": "💡 Inflation betyder att priserna på vardagsvaror som mat, bensin och hyror stiger snabbare än lönerna. Även om oljepriset sjönk kraftigt igår har de höga priserna under konflikten redan gjort livet dyrare för vanliga familjer. Det tar tid innan lägre oljepriser når mataffärerna och andra tjänster. Amerikanerna känner fortfarande av de höga kostnaderna, vilket påverkar deras humör och köpkraft negativt.",
+        "background": "📖 Inflationen i USA har varit ett stort problem sedan Iran-konflikten började och drev upp energipriserna kraftigt. Federal Reserve har kämpat för att hålla inflationen nere utan att skada ekonomin genom alltför höga räntor. Nu står den nya Fed-chefen Warsh inför dilemmat att Trump vill ha lägre räntor medan inflationen fortfarande är för hög enligt Fed:s mål på 2%."
+      }
+    ],
+    "full_analyst": [
+      {
+        "icon": "📊",
+        "label": "TEKNISKA GENOMBROTTSSIGNALER",
+        "text": "<cite index=\"11-1,11-3\">Europeiska futures visar stark momentum med DAX +3,92% till 24 888 medan S&P 500 futures handlas +1,53% till 7 491 trots stängda amerikanska marknader</cite>. <cite index=\"11-7,11-8,11-9\">VIX futures sjönk kraftigt -6,29% till 16,7, vilket signalerar att marknadsvolatiliteten och riskpremier komprimeras betydligt efter Iran-framstegen</cite>. Tekniskt sett bryter DAX igenom flera motståndsnivåer samtidigt som <cite index=\"1-2,1-6\">Nifty i Indien testar sitt 20-dagars EMA runt 23 750 med potential för breakout mot 23 938 vid sustained close över denna nivå</cite>. <cite index=\"1-24\">Tisdagens månadsexpiry skapar maximal pre-expiry positionering som kan förstärka riktningsrörelser</cite>.",
+        "detail": "🔍 Kritiska tekniska nivåer att bevaka: S&P 500 futures motstånd vid 7500, DAX kan testa 25 000 vid fortsatt momentum. VIX under 15 skulle signalera extremt låg volatilitet. OMXS30 futures handlar kring 3150 med stöd vid 3100 och motstånd vid 3200. Volymerna är lägre än normalt på grund av Memorial Day men kan explodera när USA återvänder tisdag.",
+        "outlook": "🎯 Kortsiktigt kan rally fortsätta till tisdag när USA öppnar, men bevaka potentiell profit-taking efter stark uppgång. Iran-nyheterna kan vara överdrivna prisade om förhandlingarna stagnerar igen. Nästa katalysatorer: Warsh första uttalanden som Fed-chef och eventuella uppdateringar om Iran-avtalet under veckan."
+      },
+      {
+        "icon": "⛽",
+        "label": "RÅVARUMARKNADENS STRUKTURELLA FÖRÄNDRING",
+        "text": "<cite index=\"11-1,11-7\">WTI crude kollapsade över 10% till 96,6 dollar medan Brent föll till 98,30 dollar efter Trumps kommentarer om konstruktiva Iran-samtal</cite>. <cite index=\"12-1,12-2\">På veckobasis var Brent 4,6% lägre och WTI ner 7,6% med kraftiga fluktuationer när förväntningarna på fredsavtal skiftade</cite>. <cite index=\"10-25,10-27\">USA drog nästan 10 miljoner fat olja från sin strategiska petroleumreserv förra veckan för sitt största uttag någonsin, samtidigt som globala lagren förväntas falla under sina lägsta nivåer för årstiden på fem år i slutet av maj</cite>. <cite index=\"12-6\">Analytiker förväntar WTI att förbli i spannet 90-110 dollar nästa vecka</cite>.",
+        "detail": "🔍 Tekniska supportnivåer: WTI 90-92 dollar kritiskt stöd, Brent 95-97 dollar. Upside begränsat till 110-115 utan eskalering. Inventories drawdowns skapar strukturell tightness trots fredshopp. Backwardation i olja futures-kurvan indikerar tight near-term supply. Bevaka weekly petroleum inventories och Iran shipping updates.",
+        "outlook": "🎯 Hormuz återöppning kan driva olja till 75-85 dollar långsiktigt, men vägen dit turbulent. OPEC+ mötet 7 juni kan utlösa production increases. Nyckelrisk: Iran-samtal kan kollapsa igen som tidigare, vilket skulle skicka olja över 120 dollar snabbt. Energy sector rotation från growth till value sannolikt vid sustained låga oljepriser."
+      },
+      {
+        "icon": "🏛️",
+        "label": "FEDERAL RESERVE POLICY PIVOT",
+        "text": "<cite index=\"25-1,27-16\">Kevin Warsh tillträder som Fed-chef med sitt första FOMC-möte 16-17 juni</cite>. <cite index=\"24-27,24-28\">Fed funds futures visar 97% sannolikhet för oförändrade räntor genom 2026, med växande odds för potentiell räntehöjning från september-mötet</cite>. <cite index=\"28-12,28-13\">Separata rapporter denna vecka visade inflation väl över Fed:s 2% mål med pipeline-tryck på högsta nivåerna på över tre år, vilket fått marknaden att skala tillbaka förväntningar på räntesänkningar</cite>. <cite index=\"24-24,24-26\">Vid aprils möte var fyra av 12 FOMC-ledamöter avvikande mot räntebeslut - mest splittrat sedan 1992, och Warsh måste bygga konsensus</cite>.",
+        "detail": "🔍 Fed funds target rate 5,25-5,50% range förväntas bestå. 10-year Treasury yield hovering kring 4,4-4,6% som brytpunkt för equity valuations. Dollar index (DXY) weakening below 104 after geopolitical de-escalation. Real rates fortfarande restriktiva på 2%+ levels. Warsh wealth disclosures show $100M+ holdings requiring extensive divestment.",
+        "outlook": "🎯 Warsh första test blir balansera Trump rate-cut pressure mot persistent inflation. FOMC unity challenge större än rate path itself. Jackson Hole symposium i augusti blir första major policy articulation. Risks: Political pressure intensity, inflation re-acceleration, credit conditions tightening despite stable rates."
+      },
+      {
+        "icon": "💰",
+        "label": "VALUTA- OCH ÄDELMETALLFLÖDEN",
+        "text": "<cite index=\"16-2\">USD/SEK sjönk 0,94% till 9,29 medan EUR/USD steg 0,47% till 1,16 när dollarn försvagades efter geopolitisk avspänning</cite>. <cite index=\"12-11,12-12\">Guld fortsätter bete sig primärt som monetär tillgång stödd av reservdiversifiering, centralbanksinköp och geopolitisk osäkerhet, medan Indien meddelade kraftig höjning av importtullen på guld</cite>. <cite index=\"16-2\">Bitcoin klättrade 3,32% till 77 187 dollar i risk-on miljön</cite>. Safe haven flows reversing från peak conflict levels men strukturella centralbankstrender stödjer fortsatt guldstyrka.",
+        "detail": "🔍 EUR/USD breakout over 1,17 skulle signalera sustained dollar weakness. SEK strength begränsad av Riksbankens dovish stance och råvaruexport-dependencies. Guld 4500-4600 dollar trading range med support vid 4450. DXY testing 103,5 support levels kritiskt. Cross-currency volatility implied vols collapsing from elevated levels.",
+        "outlook": "🎯 Continued dollar softening likely om Iran peace progress accelererar. EUR kan testa 1,20 levels vid full conflict resolution. Guld bull market intact trots tactical selling pressure. Crypto correlation med risk assets förstärks under market normalization. Commodity currencies som NOK, CAD kan outperforma vid sustained energy price recovery."
+      }
+    ],
+    "full_pension": [
+      {
+        "icon": "🌱",
+        "label": "ENERGISEKTORNS LÅNGSIKTIGA ROTATION",
+        "text": "<cite index=\"11-18,12-4\">Energisektorns dramatiska prisrörelser efter Iran-fredsframstegen kommer skapa betydande omvärdering av oljebolagens fundamenta och dividendkapacitet</cite>. Svenska pensionsfonder med energiexponering, inklusive <cite index=\"20-1,20-2\">OMXS30-indexerade fonder som följer de 30 största svenska aktierna</cite>, kommer påverkas av globala energijättar som Shell, BP och Exxon i deras internationella innehav. <cite index=\"12-7\">Även OPEC+ kan komma överens om modesta produktionsökningar vid juni-mötet</cite>, vilket ytterligare skulle pressa oljepriserna och energibolagens marginaler. Pensionssparare med lång tidshorisont bör vara medvetna om att energisektorn kan genomgå en strukturell omvärdering från de höga värderingar som byggts upp under konflikten.",
+        "tip": "💡 Diversifierade fonder som AP7 Såfa, AMF Aktiefond Global och SPP Global är mindre sårbara för energisektorns volatilitet tack vare bred sektorsspridning. Om du har specifika energifonder eller råvarufonder i din pensionsportfölj, överväg att gradvis minska viktningen och omfördela till mer diversifierade alternativ. Energibolagens höga utdelningar under konfliktperioden kan minska betydligt om oljepriset stabiliseras på lägre nivåer.",
+        "funds": "🏦 AP-fonderna har generellt låg direkt energiexponering men påverkas via globala aktiefonder. Folksam och SEB:s globalfonder kommer se rotation från energi till andra sektorer. AMF:s hållbarhetsinriktade fonder har redan begränsad fossilexponering och kan gynnas av omallokering från traditionell energi till förnybar energi när oljepriset normaliseras."
+      },
+      {
+        "icon": "🎯",
+        "label": "RÄNTEPOLITIK OCH OBLIGATIONSSTRATEGIN",
+        "text": "<cite index=\"24-5,24-27\">Med Kevin Warsh som ny Fed-chef och marknadens förväntningar på oförändrade räntor genom 2026 skapas stabilitet för räntekänsliga tillgångar</cite>. <cite index=\"28-12,28-15\">Trots Trumps tryck på lägre räntor indikerar inflationsdata över Fed:s 2% mål att räntesänkningar är osannolika på kort sikt</cite>. Detta gynnar svenska pensionsfonder med betydande obligationsexponering som AMF Räntefond, Folksam Räntefond och de konservativa livscykelportföljerna som äldre pensionssparare automatiskt allokeras till. <cite index=\"24-29\">JP Morgan-strateger förväntade att räntor förblir oförändrade genom slutet av 2026</cite>, vilket ger förutsägbar inkomst från räntebärande värdepapper.",
+        "tip": "💡 Stabil räntemiljö är fördelaktig för pensionssparare som närmar sig eller är i pension och behöver mer förutsägbar avkastning. Obligationsfonder och räntefonder blir mer attraktiva när räntorna stabiliseras på höga nivåer som 5+%. Överväg att öka allokeringen till svenska och internationella räntefonder om du har kort tidshorisont till pension, särskilt om du för närvarande är tungt viktad i aktier.",
+        "funds": "🏦 AMF Räntefond och Folksam Räntefond kommer gynnas av stabil amerikanska räntor. AP7 Såfas livscykelfonder justerar automatiskt mot mer konservativ allokering när man närmar sig pension, vilket passar den nuvarande räntemiljön. SPP:s target-date funds kommer också dra nytta av förutsägbar obligationsavkastning för medlemmar som närmar sig utbetalning."
+      },
+      {
+        "icon": "🌍",
+        "label": "EUROPAS RELATIVA OUTPERFORMANCE",
+        "text": "<cite index=\"11-1,11-3\">DAX futures kraftiga uppgång på +3,92% signalerar att europeiska marknader kan prestera bättre än amerikanska när geopolitiska risker minskar</cite>. <cite index=\"10-22\">Ekonomisk aktivitet i euroområdet drabbades hårt av energiprisschock som dämpade efterfrågan</cite>, men normaliserade energipriser kan utlösa ekonomisk återhämtning som gynnar europeiska aktier. Svenska pensionsfonder med bred geografisk diversifiering, inklusive betydande europaexponering genom <cite index=\"20-3,20-4\">OMXS30 ESG och andra hållbara index</cite>, kan dra nytta av denna regionala rotation. Europa har dessutom mindre direkt exponering mot Iran-konflikten jämfört med amerikanska energi- och försvarssektorer.",
+        "tip": "💡 Globalfonder och världsindexfonder från stora leverantörer som AMF, SPP och Folksam kommer automatiskt dra nytta av europeisk outperformance genom sina regionala vikter. Om du har möjlighet att välja regionala fonder, kan Europa-fokuserade fonder vara attraktiva när energikostnaderna normaliseras. Undvik att göra för stora satsningar på enskilda regioner, men en lätt övervikt mot Europa kan vara motiverad.",
+        "funds": "🏦 AMF Aktiefond Europa och SPP Europa kan övervägas för taktisk allokering. Folksam LO Världen har naturlig europaexponering som kommer gynnas. AP7 Såfa och andra diversifierade världsindexfonder får automatisk exponering mot europeisk återhämtning utan att pensionsspararen behöver göra aktiva val."
+      },
+      {
+        "icon": "💎",
+        "label": "INFLATION OCH REALTILLGÅNGSSTRATEGI",
+        "text": "<cite index=\"27-20,27-21\">Med energipriserna som stigit 17,9% det senaste året och genomsnittliga bensinpriser på 4,56 dollar per gallon</cite> har inflationsskyddade tillgångar varit viktiga för pensionsportföljer. <cite index=\"11-13,12-1\">Men när oljepriset föll över 5% efter Iran-fredsframstegen minskar behovet av inflationslindring på kort sikt</cite>. <cite index=\"12-11,12-13\">Guld fortsätter bete sig som monetär tillgång med centralbanksstöd, medan silver blir alltmer kopplat till industriell produktion och grön energi-applikationer</cite>. Pensionssparare som ökade exponeringen mot råvarufonder, TIPS (inflation-protected securities) och realfastigheter under konfliktperioden kan överväga gradvis minskning om fredsavtalet stabiliserar energipriserna.",
+        "tip": "💡 Om Iran-avtalet blir permanent och oljepriset stabiliseras runt 80-90 dollar kan du minska viktningen i råvarufonder och inflationsskyddade obligationer. Rebalansera gradvis från defensiva inflationsskydd tillbaka till traditionella tillgångsklasser som globala aktier och kvalitetsobligationer. Behåll viss exponering mot ädelmetaller som långsiktig portföljförsäkring, men undvik överallokering baserad på kortsiktiga geopolitiska händelser.",
+        "funds": "🏦 AMF och SPP:s råvarufonder kan minska i betydelse när inflationstrycket avtar. Folksam Real och fastighetsrelaterade fonder i pensionsportföljen kommer vara mindre kritiska för inflationsskydd. AP-fondernas exponering mot inflation-indexed bonds kan rebalanseras mot bredare obligationsindex när energiprisvolatiliteten avtar."
+      }
+    ],
+    "futures": {
+      "S&P 500 Futures": {
+        "price": 7491.0,
+        "change": 1.53,
+        "prev": 7378.0
+      },
+      "NASDAQ Futures": {
+        "price": 29558.75,
+        "change": 2.19,
+        "prev": 28924.25
+      },
+      "DAX": {
+        "price": 24888.56,
+        "change": 3.92,
+        "prev": 23950.57
+      },
+      "Olja (WTI)": {
+        "price": 96.6,
+        "change": -10.36,
+        "prev": 107.77
+      },
+      "Guld": {
+        "price": 4523.2,
+        "change": 0.38,
+        "prev": 4506.3
+      },
+      "VIX": {
+        "price": 16.7,
+        "change": -6.29,
+        "prev": 17.82
+      }
+    },
+    "quotes": {
+      "OMX30": {
+        "price": 3146.13,
+        "change": 0.97,
+        "prev": 3115.98
+      },
+      "S&P 500": {
+        "price": 7473.47,
+        "change": 0.88,
+        "prev": 7408.5
+      },
+      "NASDAQ": {
+        "price": 26343.97,
+        "change": 0.45,
+        "prev": 26225.14
+      },
+      "EUR/USD": {
+        "price": 1.16,
+        "change": -0.47,
+        "prev": 1.17
+      },
+      "USD/SEK": {
+        "price": 9.29,
+        "change": -0.94,
+        "prev": 9.38
+      },
+      "EUR/SEK": {
+        "price": 10.82,
+        "change": -1.01,
+        "prev": 10.93
+      },
+      "BTC/USD": {
+        "price": 77277.99,
+        "change": 0.64,
+        "prev": 76787.09
+      }
+    }
+  },
+  {
     "date": "Friday 22 May 2026",
     "date_short": "22 May 2026",
     "generated": "2026-05-22T04:53:53.456504",
